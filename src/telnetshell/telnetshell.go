@@ -1,4 +1,3 @@
-// telnet shell
 package main
 
 import (
