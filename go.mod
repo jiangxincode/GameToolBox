@@ -1,4 +1,4 @@
-module example.com/game_toolkit
+module example.com/game_tool_box
 
 go 1.22
 
