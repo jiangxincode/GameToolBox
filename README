@@ -1,0 +1,26 @@
+# game_toolkit
+
+一个使用Go语言的游戏整理小工具，使用Fyne作为GUI界面。比如
+
+* 解析天马G前端的metadata.pegasus.txt，并自动生成空的游戏ROM文件以便进行测试。
+* 解析天马G前端的metadata.pegasus.txt，并自动生成media文件夹下的所有子目录。
+* 将天马G前端的游戏列表转换为Batocera前端的gamelist.xml格式。
+
+## 项目结构
+
+- `cmd/game_toolkit/`：正式应用入口（Fyne GUI）。
+- `examples/`：历史/练习用的独立示例程序（网络相关小实验等）。
+
+## 运行
+
+GUI：
+
+- `go run ./cmd/game_toolkit`
+
+示例：
+
+- `go run ./examples/ftpclient`
+- `go run ./examples/ftpserver`
+- `go run ./examples/httpproxy`
+- `go run ./examples/telnetshell`
+- `go run ./examples/helloworld`
