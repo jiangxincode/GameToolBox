@@ -1,0 +1,122 @@
+name: Nightly Build
+
+on:
+  schedule:
+    # 北京时间 04:00（UTC 20:00）
+    - cron: "0 20 * * *"
+  workflow_dispatch:  # 手动按钮
+
+jobs:
+  build:
+    name: Build (${{ matrix.goos }}-${{ matrix.goarch }})
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            goos: windows
+            goarch: amd64
+            ext: .exe
+          - os: ubuntu-latest
+            goos: linux
+            goarch: amd64
+            ext: ""
+          - os: macos-latest
+            goos: darwin
+            goarch: amd64
+            ext: ""
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate version
+        id: ver
+        shell: bash
+        run: |
+          echo "DATE=$(date +%Y%m%d)" >> $GITHUB_OUTPUT
+          echo "DATETIME=$(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
+
+      - name: Prepare Dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgl1-mesa-dev xorg-dev
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          # Keep in sync with go.mod
+          go-version: "1.22.x"
+          cache: true
+
+      - name: Download deps
+        run: go mod download
+
+      - name: Build
+        env:
+          GOOS: ${{ matrix.goos }}
+          GOARCH: ${{ matrix.goarch }}
+          CGO_ENABLED: "1"
+        run: |
+          go build -trimpath -ldflags "-s -w" -o dist/game_tool_box-${{ matrix.goos }}-${{ matrix.goarch }}${{ matrix.ext }} ./cmd/game_tool_box
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: nightly-game_tool_box-${{ matrix.goos }}-${{ matrix.goarch }}
+          path: dist/
+
+      - name: Delete old nightly build tag only if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -e
+          set -x
+          
+          CURRENT_SHA="${{ github.sha }}"
+          echo "CURRENT_SHA: $CURRENT_SHA"
+
+          EXISTING_SHA=$(gh api repos/${{ github.repository }}/git/refs/tags/nightly-build --jq '.object.sha') || exit 0
+          echo "EXISTING_SHA: EXISTING_SHA"
+          
+          CURRENT_DATE="${{ steps.ver.outputs.DATE }}"
+          echo "CURRENT_DATE: $CURRENT_DATE"
+          
+          EXISTING_DATE_ORIGINAL=$(gh api repos/${{ github.repository }}/releases/tags/nightly-build --jq '.published_at') || exit 0
+          echo "EXISTING_DATE_ORIGINAL: $EXISTING_DATE_ORIGINAL"
+          
+          if [[ "$OSTYPE" == "darwin"* ]]; then
+            EXISTING_DATE=$(date -j -f "%Y-%m-%dT%H:%M:%SZ" "$EXISTING_DATE_ORIGINAL" "+%Y%m%d")
+          else
+            EXISTING_DATE=$(date -d "$EXISTING_DATE_ORIGINAL" +%Y%m%d)
+          fi
+          echo "Existing nightly-build date: $EXISTING_DATE"
+          
+          if [[ -n "$EXISTING_SHA" ]]; then
+            if [[ "$EXISTING_SHA" != "$CURRENT_SHA" || "$EXISTING_DATE" != "$CURRENT_DATE" ]]; then
+              echo "Commit or date is different，delete old nightly-build"
+              gh release delete nightly-build --repo ${{ github.repository }} --yes --cleanup-tag
+            else
+              echo "Same commit and date, no need to delete"
+            fi
+          else
+            echo "No existing nightly-build tag, no need to delete"
+          fi
+
+      - name: Upload Release Asset
+        uses: softprops/action-gh-release@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          files: |
+            dist/game_tool_box-*
+          name: Nightly Build ${{ steps.ver.outputs.DATE }}
+          tag_name: nightly-build
+          prerelease: true
+          generate_release_notes: false
+          body: |
+            Auto nightly build version, based on commit ${{ github.sha }}. This is only for developer or alpha/beta test users。
