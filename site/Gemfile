@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+
+# 用 github-pages 可以保证与 GitHub Pages 环境一致（包含 Jekyll 及其依赖）
+gem "github-pages", group: :jekyll_plugins
+

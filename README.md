@@ -4,6 +4,7 @@
 [![GitHub all releases](https://img.shields.io/github/downloads/jiangxincode/GameToolBox/total)](https://github.com/jiangxincode/GameToolBox/releases)
 [![Build and Rel
 ease](https://github.com/jiangxincode/GameToolBox/actions/workflows/BuildAndRelease.yml/badge.svg)](https://github.com/jiangxincode/GameToolBox/actions/workflows/BuildAndRelease.yml)
+[![Project Reports](https://img.shields.io/badge/GameToolBox-Reports-green.svg)](https://jiangxincode.github.io/GameToolBox/project-reports.html)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/950bbed0f0344613b67ddceab0cded91)](https://app.codacy.com/gh/jiangxincode/GameToolBox/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/950bbed0f0344613b67ddceab0cded91)](https://app.codacy.com/gh/jiangxincode/GameToolBox/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
 
@@ -38,5 +39,27 @@ ease](https://github.com/jiangxincode/GameToolBox/actions/workflows/BuildAndRele
 - `internal/resources/`：内嵌资源（例如窗口图标）。
 - `examples/`：历史/练习用的独立示例程序（可忽略）。
 
+## GitHub Pages（项目主页）
 
+站点源码位于 `site/`，使用 Jekyll 构建。
 
+### 本地预览
+
+在 Windows（PowerShell）下：
+
+```powershell
+cd site
+bundle install
+bundle exec jekyll serve --livereload
+```
+
+然后访问：`http://127.0.0.1:4000/GameToolBox/`
+
+### GitHub Actions 自动构建/发布
+
+工作流：`.github/workflows/GithubPagesReport.yml`
+
+- push 到 `main` 会自动执行 `bundle exec jekyll build` 生成 `site/_site/`
+- 随后把 `site/_site/` 发布到 GitHub Pages
+
+启用方式：GitHub 仓库 Settings → Pages，Source 选择 **GitHub Actions**。
