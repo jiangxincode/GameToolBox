@@ -2,7 +2,8 @@
 
 [![Apache License V2.0](https://img.shields.io/badge/license-Apache%202-green)](http://www.apache.org/licenses/LICENSE-2.0)
 [![GitHub all releases](https://img.shields.io/github/downloads/jiangxincode/GameToolBox/total)](https://github.com/jiangxincode/GameToolBox/releases)
-
+[![Build and Rel
+ease](https://github.com/jiangxincode/GameToolBox/actions/workflows/BuildAndRelease.yml/badge.svg)](https://github.com/jiangxincode/GameToolBox/actions/workflows/BuildAndRelease.yml)
 
 [Deutsch](https://www.readme-i18n.com/jiangxincode/GameToolBox?lang=de) |
 [Español](https://www.readme-i18n.com/jiangxincode/GameToolBox?lang=es) |
