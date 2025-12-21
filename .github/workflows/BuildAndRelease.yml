@@ -54,7 +54,7 @@ jobs:
           go build -trimpath -ldflags "-s -w" -o dist/game_tool_box-${{ matrix.goos }}-${{ matrix.goarch }}${{ matrix.ext }} ./cmd/game_tool_box
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: game_tool_box-${{ matrix.goos }}-${{ matrix.goarch }}
           path: dist/
