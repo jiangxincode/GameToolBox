@@ -4,6 +4,8 @@
 [![GitHub all releases](https://img.shields.io/github/downloads/jiangxincode/GameToolBox/total)](https://github.com/jiangxincode/GameToolBox/releases)
 [![Build and Rel
 ease](https://github.com/jiangxincode/GameToolBox/actions/workflows/BuildAndRelease.yml/badge.svg)](https://github.com/jiangxincode/GameToolBox/actions/workflows/BuildAndRelease.yml)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/950bbed0f0344613b67ddceab0cded91)](https://app.codacy.com/gh/jiangxincode/GameToolBox/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/950bbed0f0344613b67ddceab0cded91)](https://app.codacy.com/gh/jiangxincode/GameToolBox/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
 
 [Deutsch](https://www.readme-i18n.com/jiangxincode/GameToolBox?lang=de) |
 [Español](https://www.readme-i18n.com/jiangxincode/GameToolBox?lang=es) |
