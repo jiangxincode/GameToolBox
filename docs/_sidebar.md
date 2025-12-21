@@ -1,0 +1,4 @@
+- [Home](/)
+- Setup
+  - [Installation](installation.md)
+  - [Getting Started](started.md)
