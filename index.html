@@ -1,55 +1,60 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>MyApp Docs</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 主题 -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
-    <!-- 自定义夜间模式 -->
-    <link rel="stylesheet" href="static/dark.css" media="(prefers-color-scheme: dark)">
-    <!-- 图标 -->
-    <link rel="icon" href="static/logo.png">
+  <meta charset="UTF-8">
+  <title>Palettify - Configurable JavaScript plugin to extract image primary colors and apply cool effects to
+    it.</title>
+  <meta name="description"
+        content="Configurable JavaScript plugin to extract image primary colors and apply cool effects to it.">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="google-site-verification" content="SL_TVYoABZxQiU1ZIhWlISt-WcaerRrdzX6UfS-FaW4"/>
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/palettify.min.css">
+  <link rel="stylesheet" href="styles/grid.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/manifest.json">
+  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="favicons/favicon.ico">
+  <meta name="msapplication-config" content="favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@d_m_hristov"/>
+  <meta name="twitter:title" content="Palettify - apply cool effects to to images using their color palette"/>
+  <meta name="twitter:description"
+        content="Configurable JavaScript plugin to extract image primary colors and apply cool effects to it."/>
+  <meta name="twitter:image"
+        content="https://dobromir-hristov.github.io/palettify/images/logo.png"/>
+  <meta property="og:url"
+        content="https://dobromir-hristov.github.io/palettify/"/>
+  <meta property="og:title" content="Palettify - apply cool effects to to images using their color palette"/>
+  <meta property="og:description" content="Configurable JavaScript plugin to extract image primary colors and apply cool effects to it."/>
+  <meta property="og:image"
+        content="https://dobromir-hristov.github.io/palettify/images/logo.png"/>
 </head>
 <body>
-<div id="app">加载中...</div>
-<script>
-    window.$docsify = {
-        repo: 'jiangxincode/GameToolBox', // 右上角自动生成「在 GitHub 编辑」链接
-        loadSidebar: true,
-        loadNavbar: false,
-        subMaxLevel: 3,
-        search: {
-            placeholder: '搜索',
-            noData: '找不到结果',
-            paths: 'auto'
-        },
-        copyCode: {
-            buttonText: '复制',
-            errorText: '复制失败',
-            successText: '已复制'
-        },
-        pagination: {
-            previousText: '上一节',
-            nextText: '下一节'
-        },
-        plugins: [
-            function (hook, vm) {
-                hook.beforeEach(function (html) {
-                    // 在页面底部注入“最后更新”时间
-                    return html + '\n----\n最后更新：{docsify-updated}'
-                })
-            }
-        ]
-    }
-</script>
-<!-- 核心 -->
-<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-<!-- 插件 -->
-<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/copy-code.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/pagination.min.js"></script>
-<!-- 页脚时间戳依赖 -->
-<script src="//cdn.jsdelivr.net/npm/docsify-footer-enh/dist/footer.min.js"></script>
+<div id="app"></div>
 </body>
+<script>
+  window.$docsify = {
+    ga: 'UA-29425482-8',
+    name: 'Palettify',
+    repo: 'https://github.com/dobromir-hristov/palettify',
+    loadSidebar: true,
+    subMaxLevel: 2,
+    coverpage: true,
+//    routerMode: 'history',
+    executeScript: true,
+    auto2top: true
+  }
+</script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
+<script src="scripts/palettify.min.js"></script>
+<script src="scripts/palettify.styles.min.js"></script>
+<!--<script src="//unpkg.com/docsify/lib/plugins/external-script.min.js"></script>-->
+
 </html>
