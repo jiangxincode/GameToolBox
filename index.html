@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>MyApp Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 主题 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    <!-- 自定义夜间模式 -->
+    <link rel="stylesheet" href="static/dark.css" media="(prefers-color-scheme: dark)">
+    <!-- 图标 -->
+    <link rel="icon" href="static/logo.png">
+</head>
+<body>
+<div id="app">加载中...</div>
+<script>
+    window.$docsify = {
+        repo: 'jiangxincode/GameToolBox', // 右上角自动生成「在 GitHub 编辑」链接
+        loadSidebar: true,
+        loadNavbar: false,
+        subMaxLevel: 3,
+        search: {
+            placeholder: '搜索',
+            noData: '找不到结果',
+            paths: 'auto'
+        },
+        copyCode: {
+            buttonText: '复制',
+            errorText: '复制失败',
+            successText: '已复制'
+        },
+        pagination: {
+            previousText: '上一节',
+            nextText: '下一节'
+        },
+        plugins: [
+            function (hook, vm) {
+                hook.beforeEach(function (html) {
+                    // 在页面底部注入“最后更新”时间
+                    return html + '\n----\n最后更新：{docsify-updated}'
+                })
+            }
+        ]
+    }
+</script>
+<!-- 核心 -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<!-- 插件 -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/copy-code.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/pagination.min.js"></script>
+<!-- 页脚时间戳依赖 -->
+<script src="//cdn.jsdelivr.net/npm/docsify-footer-enh/dist/footer.min.js"></script>
+</body>
+</html>
