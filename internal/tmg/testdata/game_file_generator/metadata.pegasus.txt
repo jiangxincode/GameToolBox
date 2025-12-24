@@ -1,0 +1,17 @@
+collection: ALOYS_PSV
+sort-by: 103
+shortname:aloys_psv
+launch: "{env.appdir}\Emulators\vita3k-3842-ee8b6f11_windows\Vita3K.exe" "{file.path}"
+
+game:神秘海域 黄金深渊
+file:神秘海域 黄金深渊.zip
+sort-by:001
+developer:神秘海域 黄金深渊
+description:（动作冒险）PSVita独占德雷克冒险，画面表现力强劲，充分利用PSVita机能。讲述在中美洲寻找黄金城市的刺激旅程，解谜与战斗平衡出色。注：需设置GPU屏幕过滤为"最临近"，内部分辨率为1.25，并使用繁体中文以避免贴图错误和无汉化。
+
+game:重力眩晕
+file:重力眩晕.zip
+sort-by:002
+developer:重力眩晕
+description:（动作冒险）PSVita原创IP巅峰之作，独创重力操控系统带来前所未有的移动体验。在浮空城市中自由飞翔，美术风格独特，剧情悬疑引人入胜。
+

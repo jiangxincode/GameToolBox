@@ -8,6 +8,7 @@ import (
 	"fyne.io/fyne/v2/widget"
 
 	"example.com/game_tool_box/internal/resources"
+	"example.com/game_tool_box/internal/ui/tmg"
 )
 
 func main() {
@@ -17,25 +18,37 @@ func main() {
 	// Set main window icon
 	w.SetIcon(resources.IconPng)
 
-	// Common placeholder for not-yet-implemented menu items
+	// Simple view router
+	mainView := container.NewVBox(
+		widget.NewLabel("game_tool_box"),
+		widget.NewLabel("Fyne GUI skeleton is ready."),
+	)
+	router := container.NewMax(mainView)
+	w.SetContent(router)
+
 	showTodo := func(title string) {
 		dialog.ShowInformation(title, "这里将来会放置："+title+"。", w)
 	}
 
+	showMain := func() {
+		router.Objects = []fyne.CanvasObject{mainView}
+		router.Refresh()
+	}
+
 	// Java: tmg.game.file.gererator.title = "天马G-游戏文件生成器"
 	tianmaGGameFileGenerator := fyne.NewMenuItem("天马G-游戏文件生成器", func() {
-		showTodo("天马G-游戏文件生成器")
+		view := tmgui.NewGeneratorView(w)
+		back := widget.NewButton("返回", showMain)
+		page := container.NewBorder(container.NewHBox(back), nil, nil, nil, view)
+		router.Objects = []fyne.CanvasObject{page}
+		router.Refresh()
 	})
 
-	// 关键点：提供一个显式的“设置”菜单（可先留空），避免框架在某些平台将默认 Quit/Exit
-	// 菜单项“塞进”第一个菜单（你这里就是“天马G”）。
+	// 保留一个显式的“设置”菜单（可先留空），避免框架在某些平台将默认 Quit/Exit 注入第一个菜单。
 	mSettings := fyne.NewMenu("设置")
 
 	mTianmaG := fyne.NewMenu("天马G", tianmaGGameFileGenerator)
 
-	// Java help.menu structure:
-	// Help -> Document / Settings / Feedback / Check for Updates / Contribute / About
-	// 说明：你要求将依赖路径/显示语言/外观/置顶/开机启动放到设置界面内部，因此不在菜单展示。
 	mHelp := fyne.NewMenu("帮助",
 		fyne.NewMenuItem("文档", func() { showTodo("文档") }),
 		fyne.NewMenuItem("设置", func() { showTodo("设置") }),
@@ -51,11 +64,6 @@ func main() {
 
 	w.SetMainMenu(fyne.NewMainMenu(mSettings, mTianmaG, mHelp))
 
-	w.SetContent(container.NewVBox(
-		widget.NewLabel("game_tool_box"),
-		widget.NewLabel("Fyne GUI skeleton is ready."),
-	))
-
-	w.Resize(fyne.NewSize(480, 320))
+	w.Resize(fyne.NewSize(900, 650))
 	w.ShowAndRun()
 }
