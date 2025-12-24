@@ -1,12 +1,8 @@
 ![logo](images/logo.png)
 
-# palettify <small>1.0.3</small>
+# GameToolBox
 
-> An eye catching image effect plugin
+一个使用 Go 语言编写的游戏整理工具箱，使用 Fyne 作为 GUI。
 
-- Configurable plugin to apply visual effects to images using their color palette 
-- Extendable and easily configurable
-- Brings its own effects to the party
-
-[GitHub](https://github.com/dobromir-hristov/palettify)
+[GitHub](https://github.com/jiangxincode/GameToolBox)
 [Get Started](#intro)
