@@ -9,9 +9,5 @@ It scans the images you provide, extracts their color palette and applies the st
 
 **Palettify** also provides a really simple way to use the all the generated colors and palettes, with simple {{moustache}} bindings e.g. `border: '2px solid {{rgb.0}}'` 0 meaning the first and primary color in the palette.
 
-**[CHANGELOG](https://github.com/dobromir-hristov/palettify/blob/master/CHANGELOG.md)**
-
 - [Installation](installation.md)
 - [Getting Started](started.md)
-- [Advanced](advanced.md)
-- [Cool Effects](effects.md)
