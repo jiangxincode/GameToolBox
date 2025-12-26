@@ -7,15 +7,14 @@ import (
 	"fyne.io/fyne/v2/dialog"
 	"fyne.io/fyne/v2/widget"
 
-	"example.com/game_tool_box/internal/resources"
-	"example.com/game_tool_box/internal/ui/tmg"
+	"github.com/game_tool_box/internal/resources"
+	"github.com/game_tool_box/internal/ui/pegasus"
 )
 
 func main() {
 	a := app.New()
 	w := a.NewWindow("game_tool_box")
 
-	// Set main window icon
 	w.SetIcon(resources.IconPng)
 
 	// Simple view router
@@ -35,8 +34,8 @@ func main() {
 		router.Refresh()
 	}
 
-	// Java: tmg.game.file.gererator.title = "天马G-游戏文件生成器"
-	tianmaGGameFileGenerator := fyne.NewMenuItem("天马G-游戏文件生成器", func() {
+	// Java: pegasus.game.file.gererator.title = "天马G-游戏文件生成器"
+	pegasusGameFileGenerator := fyne.NewMenuItem("天马G-游戏文件生成器", func() {
 		view := tmgui.NewGeneratorView(w)
 		back := widget.NewButton("返回", showMain)
 		page := container.NewBorder(container.NewHBox(back), nil, nil, nil, view)
@@ -47,7 +46,7 @@ func main() {
 	// 保留一个显式的“设置”菜单（可先留空），避免框架在某些平台将默认 Quit/Exit 注入第一个菜单。
 	mSettings := fyne.NewMenu("设置")
 
-	mTianmaG := fyne.NewMenu("天马G", tianmaGGameFileGenerator)
+	mPegasus := fyne.NewMenu("天马G", pegasusGameFileGenerator)
 
 	mHelp := fyne.NewMenu("帮助",
 		fyne.NewMenuItem("文档", func() { showTodo("文档") }),
@@ -62,7 +61,7 @@ func main() {
 		}),
 	)
 
-	w.SetMainMenu(fyne.NewMainMenu(mSettings, mTianmaG, mHelp))
+	w.SetMainMenu(fyne.NewMainMenu(mSettings, mPegasus, mHelp))
 
 	w.Resize(fyne.NewSize(900, 650))
 	w.ShowAndRun()

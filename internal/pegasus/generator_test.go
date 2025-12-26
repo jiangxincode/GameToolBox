@@ -1,4 +1,4 @@
-package tmg
+package pegasus
 
 import (
 	"os"

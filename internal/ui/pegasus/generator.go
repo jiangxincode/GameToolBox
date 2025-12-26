@@ -13,11 +13,10 @@ import (
 	"fyne.io/fyne/v2/layout"
 	"fyne.io/fyne/v2/widget"
 
-	"example.com/game_tool_box/internal/tmg"
+	"github.com/game_tool_box/internal/pegasus"
 )
 
 // NewGeneratorView creates the Fyne UI for "天马G-游戏文件生成器".
-// It mirrors the Java Swing UI behavior as closely as practical in Fyne.
 //
 // Notes:
 //   - Video preview in Swing uses JavaFX; Go/Fyne version shows a placeholder for now.
@@ -26,7 +25,7 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 	rootEntry := widget.NewEntry()
 	rootEntry.SetPlaceHolder("选择根目录（包含 metadata.pegasus.txt）")
 
-	var allGames []tmg.GameModel
+	var allGames []pegasus.GameModel
 	filteredIdx := []int{}
 
 	loadedLabel := widget.NewLabel("已加载 0 个游戏")
@@ -98,7 +97,7 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 	selectedFilteredRow := -1
 	selectedCol := 0
 
-	showDetailFor := func(g tmg.GameModel) {
+	showDetailFor := func(g pegasus.GameModel) {
 		// cover
 		boxFront := g.BoxFrontImagePath
 		if boxFront != "" {
@@ -179,7 +178,7 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 			dialog.ShowInformation("提示", "请先设置根目录", w)
 			return
 		}
-		games, err := tmg.LoadGamesFromRootDir(root)
+		games, err := pegasus.LoadGamesFromRootDir(root)
 		if err != nil {
 			dialog.ShowError(err, w)
 			return
@@ -208,7 +207,7 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 			return
 		}
 
-		res := tmg.GenerateSelectedFiles(root, allGames)
+		res := pegasus.GenerateSelectedFiles(root, allGames)
 		if len(res.Errors) > 0 {
 			dialog.ShowError(fmt.Errorf("部分生成失败: %v", res.Errors[0]), w)
 			return
