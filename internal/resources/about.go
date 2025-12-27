@@ -7,7 +7,7 @@ import _ "embed"
 // Example:
 //
 //	go build -ldflags "-X github.com/game_tool_box/internal/resources.Version=v1.2.3" ./cmd/game_tool_box
-var Version = "dev"
+var Version = "v0.0.1"
 
 //go:embed about.md
 var aboutMarkdown string

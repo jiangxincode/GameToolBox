@@ -1,6 +1,9 @@
 package main
 
 import (
+	"context"
+	"fmt"
+	"net/url"
 	"strings"
 
 	"fyne.io/fyne/v2"
@@ -15,6 +18,7 @@ import (
 	aboutui "github.com/game_tool_box/internal/ui/about"
 	"github.com/game_tool_box/internal/ui/pegasus"
 	settingsui "github.com/game_tool_box/internal/ui/settings"
+	"github.com/game_tool_box/internal/update"
 )
 
 func main() {
@@ -48,10 +52,6 @@ func main() {
 	w.SetContent(router)
 
 	t := func(key string) string { return i18n.T(i18n.Current(), key) }
-
-	showTodo := func(title string) {
-		dialog.ShowInformation(title, t("todo.prefix")+title+"。", w)
-	}
 
 	showMain := func() {
 		router.Objects = []fyne.CanvasObject{mainView}
@@ -89,12 +89,61 @@ func main() {
 
 		mPegasus := fyne.NewMenu(t("menu.pegasus"), pegasusGameFileGenerator)
 
+		checkUpdate := func() {
+			progress := dialog.NewProgressInfinite(t("menuitem.help.update"), "...", w)
+			progress.Show()
+
+			go func() {
+				info, err := update.LatestRelease(context.Background(), "jiangxincode", "GameToolBox")
+
+				current := strings.TrimSpace(resources.Version)
+
+				var msg string
+				if err == nil {
+					msg = fmt.Sprintf("Current: %s\nLatest:  %s", current, info.TagName)
+					if info.HTMLURL != "" {
+						msg += "\n\n" + info.HTMLURL
+					}
+				}
+
+				fyne.Do(func() {
+					progress.Hide()
+					if err != nil {
+						dialog.ShowError(err, w)
+						return
+					}
+					dialog.ShowInformation(t("menuitem.help.update"), msg, w)
+				})
+			}()
+		}
+
 		mHelp := fyne.NewMenu(t("menu.help"),
-			fyne.NewMenuItem(t("menuitem.help.docs"), func() { showTodo(t("menuitem.help.docs")) }),
+			fyne.NewMenuItem(t("menuitem.help.docs"), func() {
+				u, err := url.Parse("https://jiangxincode.github.io/GameToolBox")
+				if err != nil {
+					dialog.ShowError(err, w)
+					return
+				}
+				_ = a.OpenURL(u)
+			}),
 			fyne.NewMenuItemSeparator(),
-			fyne.NewMenuItem(t("menuitem.help.feedback"), func() { showTodo(t("menuitem.help.feedback")) }),
-			fyne.NewMenuItem(t("menuitem.help.update"), func() { showTodo(t("menuitem.help.update")) }),
-			fyne.NewMenuItem(t("menuitem.help.contrib"), func() { showTodo(t("menuitem.help.contrib")) }),
+			fyne.NewMenuItem(t("menuitem.help.feedback"), func() {
+				u, err := url.Parse("https://github.com/jiangxincode/GameToolBox/issues/new")
+				if err != nil {
+					dialog.ShowError(err, w)
+					return
+				}
+				_ = a.OpenURL(u)
+			}),
+			fyne.NewMenuItem(t("menuitem.help.update"), checkUpdate),
+			fyne.NewMenuItem(t("menuitem.help.contrib"), func() {
+				u, err := url.Parse("https://github.com/jiangxincode/GameToolBox")
+				if err != nil {
+					dialog.ShowError(err, w)
+					return
+				}
+				_ = a.OpenURL(u)
+			}),
 			fyne.NewMenuItemSeparator(),
 			fyne.NewMenuItem(t("menuitem.help.about"), showMain),
 		)
