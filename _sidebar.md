@@ -2,7 +2,7 @@
 - Getting Started Guide
   - [Installation](installation.md)
   - [Getting Started](started.md)
-- Features
+- [Features](/features)
   - [ROM Generation](features/rom_generation.md)
   - [Media Organization](features/media_organization.md)
   - [Gamelist Conversion](features/gamelist_conversion.md)
