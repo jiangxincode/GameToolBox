@@ -153,6 +153,12 @@ func main() {
 
 	rebuildMenu()
 
-	w.Resize(fyne.NewSize(900, 650))
+	resizeAndCenter := func(size fyne.Size) {
+		w.Resize(size)
+		w.CenterOnScreen()
+	}
+
+	// Initial window size and center.
+	resizeAndCenter(fyne.NewSize(900, 650))
 	w.ShowAndRun()
 }
