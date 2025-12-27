@@ -1,6 +1,8 @@
 package main
 
 import (
+	"strings"
+
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
 	"fyne.io/fyne/v2/container"
@@ -8,6 +10,7 @@ import (
 	"fyne.io/fyne/v2/widget"
 
 	"github.com/game_tool_box/internal/resources"
+	aboutui "github.com/game_tool_box/internal/ui/about"
 	"github.com/game_tool_box/internal/ui/pegasus"
 )
 
@@ -17,11 +20,11 @@ func main() {
 
 	w.SetIcon(resources.IconPng)
 
+	// Default startup view: About page rendered from Markdown.
+	aboutMD := strings.ReplaceAll(resources.AboutMarkdown(), "{VERSION}", resources.Version)
+	mainView := aboutui.New(aboutMD)
+
 	// Simple view router
-	mainView := container.NewVBox(
-		widget.NewLabel("game_tool_box"),
-		widget.NewLabel("Fyne GUI skeleton is ready."),
-	)
 	router := container.NewMax(mainView)
 	w.SetContent(router)
 
@@ -56,9 +59,7 @@ func main() {
 		fyne.NewMenuItem("检查更新", func() { showTodo("检查更新") }),
 		fyne.NewMenuItem("贡献", func() { showTodo("贡献") }),
 		fyne.NewMenuItemSeparator(),
-		fyne.NewMenuItem("关于", func() {
-			dialog.ShowInformation("关于", "game_tool_box (Fyne)", w)
-		}),
+		fyne.NewMenuItem("关于", showMain),
 	)
 
 	w.SetMainMenu(fyne.NewMainMenu(mSettings, mPegasus, mHelp))
