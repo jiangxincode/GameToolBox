@@ -39,7 +39,7 @@ jobs:
         uses: actions/setup-go@v6
         with:
           # Keep in sync with go.mod
-          go-version: "1.22.x"
+          go-version: "1.24.x"
           cache: true
 
       - name: Download deps
