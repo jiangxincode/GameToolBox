@@ -2,8 +2,8 @@
 - [Getting Started Guide](/)
   - [Download and Install](getting_started_guide.md)
 - [Features](/)
-  - [ROM Generation](features/rom_generator.md)
-  - [Media Organization](features/media_directory_generator.md)
-  - [Game List Conversion](features/gamelist_conversion.md)
+  - [ROM Generator](features/rom_generator.md)
+  - [Media Directory Generator](features/media_directory_generator.md)
+  - [Gamelist Converter](features/gamelist_converter.md)
 - Developer
   - [Contributing](contributing.md)
