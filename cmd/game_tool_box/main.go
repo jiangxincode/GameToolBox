@@ -14,6 +14,7 @@ import (
 
 	"github.com/game_tool_box/internal/config"
 	"github.com/game_tool_box/internal/i18n"
+	"github.com/game_tool_box/internal/logging"
 	"github.com/game_tool_box/internal/resources"
 	aboutui "github.com/game_tool_box/internal/ui/about"
 	"github.com/game_tool_box/internal/ui/pegasus"
@@ -22,6 +23,13 @@ import (
 )
 
 func main() {
+	logging.Init()
+	logging.Infof("app start")
+	defer func() {
+		logging.Infof("app exit")
+		logging.Close()
+	}()
+
 	// i18n.Current() is initialized in i18n init() (including persisted config).
 	i18n.SetCurrent(i18n.Current())
 
@@ -65,6 +73,7 @@ func main() {
 		w.SetTitle(t("app.title"))
 
 		pegasusGameFileGenerator := fyne.NewMenuItem(t("menuitem.pegasus.gameFileGen"), func() {
+			logging.Infof("menu click: pegasus.gameFileGen")
 			view := tmgui.NewGeneratorView(w)
 			// No Back button on pages entered from menu.
 			router.Objects = []fyne.CanvasObject{view}
@@ -72,7 +81,9 @@ func main() {
 		})
 
 		showSettings = func() {
+			logging.Infof("menu click: settings.settings")
 			view := settingsui.NewSettingsView(t, func(newLang i18n.Lang) {
+				logging.Infof("settings change: lang=%s", newLang)
 				// Switch language and rebuild menus immediately.
 				i18n.SetCurrentPersisted(newLang)
 				rebuildMenu()
@@ -90,6 +101,7 @@ func main() {
 		mPegasus := fyne.NewMenu(t("menu.pegasus"), pegasusGameFileGenerator)
 
 		checkUpdate := func() {
+			logging.Infof("menu click: help.update")
 			progress := dialog.NewProgressInfinite(t("menuitem.help.update"), "...", w)
 			progress.Show()
 
@@ -119,6 +131,7 @@ func main() {
 
 		mHelp := fyne.NewMenu(t("menu.help"),
 			fyne.NewMenuItem(t("menuitem.help.docs"), func() {
+				logging.Infof("menu click: help.docs")
 				u, err := url.Parse("https://jiangxincode.github.io/GameToolBox")
 				if err != nil {
 					dialog.ShowError(err, w)
@@ -128,6 +141,7 @@ func main() {
 			}),
 			fyne.NewMenuItemSeparator(),
 			fyne.NewMenuItem(t("menuitem.help.feedback"), func() {
+				logging.Infof("menu click: help.feedback")
 				u, err := url.Parse("https://github.com/jiangxincode/GameToolBox/issues/new")
 				if err != nil {
 					dialog.ShowError(err, w)
@@ -137,6 +151,7 @@ func main() {
 			}),
 			fyne.NewMenuItem(t("menuitem.help.update"), checkUpdate),
 			fyne.NewMenuItem(t("menuitem.help.contrib"), func() {
+				logging.Infof("menu click: help.contrib")
 				u, err := url.Parse("https://github.com/jiangxincode/GameToolBox")
 				if err != nil {
 					dialog.ShowError(err, w)
@@ -145,7 +160,10 @@ func main() {
 				_ = a.OpenURL(u)
 			}),
 			fyne.NewMenuItemSeparator(),
-			fyne.NewMenuItem(t("menuitem.help.about"), showMain),
+			fyne.NewMenuItem(t("menuitem.help.about"), func() {
+				logging.Infof("menu click: help.about")
+				showMain()
+			}),
 		)
 
 		w.SetMainMenu(fyne.NewMainMenu(mSettings, mPegasus, mHelp))

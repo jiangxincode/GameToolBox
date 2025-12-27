@@ -14,6 +14,7 @@ import (
 	"fyne.io/fyne/v2/widget"
 
 	"github.com/game_tool_box/internal/config"
+	"github.com/game_tool_box/internal/logging"
 	"github.com/game_tool_box/internal/pegasus"
 )
 
@@ -30,6 +31,7 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 	if c, err := config.Load(); err == nil {
 		if strings.TrimSpace(c.RootDir) != "" {
 			rootEntry.SetText(c.RootDir)
+			logging.Infof("pegasus: restore rootDir=%s", c.RootDir)
 		}
 	}
 
@@ -44,6 +46,7 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 		}
 		c.RootDir = p
 		_ = config.Save(c)
+		logging.Infof("pegasus: persist rootDir=%s", p)
 	}
 
 	// Persist on manual edit (debounced enough for small config writes)
@@ -190,12 +193,14 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 	searchEntry := widget.NewEntry()
 	searchEntry.SetPlaceHolder("搜索游戏名称或文件名称")
 	searchEntry.OnChanged = func(s string) {
+		logging.Infof("pegasus: search changed q=%s", s)
 		applyFilter(s)
 		table.Refresh()
 		selectedFilteredRow = -1
 	}
 
 	clearSearchBtn := widget.NewButton("清除搜索", func() {
+		logging.Infof("pegasus: click clear search")
 		searchEntry.SetText("")
 	})
 
@@ -208,6 +213,7 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 
 	loadGameData := func() {
 		root := strings.TrimSpace(rootEntry.Text)
+		logging.Infof("pegasus: click load data root=%s", root)
 		if root == "" {
 			dialog.ShowInformation("提示", "请先设置根目录", w)
 			return
@@ -226,6 +232,7 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 
 	generateSelected := func() {
 		root := strings.TrimSpace(rootEntry.Text)
+		logging.Infof("pegasus: click generate selected root=%s", root)
 		if root == "" {
 			dialog.ShowInformation("提示", "请先设置根目录", w)
 			return
@@ -247,9 +254,11 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 			return
 		}
 		dialog.ShowInformation("提示", fmt.Sprintf("文件生成完成\nCreated=%d, Skipped=%d", res.Created, res.Skipped), w)
+		logging.Infof("pegasus: generate finished created=%d skipped=%d errors=%d", res.Created, res.Skipped, len(res.Errors))
 	}
 
 	chooseRootBtn := widget.NewButton("设置根目录", func() {
+		logging.Infof("pegasus: click choose root")
 		fd := dialog.NewFolderOpen(func(uri fyne.ListableURI, err error) {
 			if err != nil {
 				dialog.ShowError(err, w)
@@ -259,6 +268,7 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 				return
 			}
 			p := filepath.FromSlash(uri.Path())
+			logging.Infof("pegasus: chose rootDir=%s", p)
 			rootEntry.SetText(p)
 			persistRootDir(p)
 		}, w)
@@ -267,8 +277,14 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 
 	buttonRow := container.NewHBox(
 		widget.NewButton("加载/刷新数据", loadGameData),
-		widget.NewButton("全选", func() { selectAll(true) }),
-		widget.NewButton("取消全选", func() { selectAll(false) }),
+		widget.NewButton("全选", func() {
+			logging.Infof("pegasus: click select all")
+			selectAll(true)
+		}),
+		widget.NewButton("取消全选", func() {
+			logging.Infof("pegasus: click deselect all")
+			selectAll(false)
+		}),
 		widget.NewButton("生成选中文件", generateSelected),
 	)
 
