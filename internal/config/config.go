@@ -10,6 +10,8 @@ type Config struct {
 	Lang string `json:"lang"`
 	// Theme reserved for future use.
 	Theme string `json:"theme,omitempty"`
+	// RootDir remembers last selected root directory for Pegasus G generator.
+	RootDir string `json:"rootDir,omitempty"`
 }
 
 func configDir() (string, error) {

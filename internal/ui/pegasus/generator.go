@@ -13,10 +13,11 @@ import (
 	"fyne.io/fyne/v2/layout"
 	"fyne.io/fyne/v2/widget"
 
+	"github.com/game_tool_box/internal/config"
 	"github.com/game_tool_box/internal/pegasus"
 )
 
-// NewGeneratorView creates the Fyne UI for "天马G-游戏文件生成器".
+// NewGeneratorView creates the Fyne UI for "游戏文件生成器".
 //
 // Notes:
 //   - Video preview in Swing uses JavaFX; Go/Fyne version shows a placeholder for now.
@@ -24,6 +25,31 @@ import (
 func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 	rootEntry := widget.NewEntry()
 	rootEntry.SetPlaceHolder("选择根目录（包含 metadata.pegasus.txt）")
+
+	// Restore last root directory
+	if c, err := config.Load(); err == nil {
+		if strings.TrimSpace(c.RootDir) != "" {
+			rootEntry.SetText(c.RootDir)
+		}
+	}
+
+	persistRootDir := func(p string) {
+		p = strings.TrimSpace(p)
+		if p == "" {
+			return
+		}
+		c, _ := config.Load()
+		if c.RootDir == p {
+			return
+		}
+		c.RootDir = p
+		_ = config.Save(c)
+	}
+
+	// Persist on manual edit (debounced enough for small config writes)
+	rootEntry.OnChanged = func(s string) {
+		persistRootDir(s)
+	}
 
 	var allGames []pegasus.GameModel
 	filteredIdx := []int{}
@@ -37,15 +63,18 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 	coverImg.SetMinSize(fyne.NewSize(300, 400))
 	coverBox := container.NewBorder(coverTitle, nil, nil, nil, container.New(layout.NewMaxLayout(), coverImg))
 
-	gameDetail := widget.NewMultiLineEntry()
-	gameDetail.Disable()
+	// Use RichText (readable) instead of disabled Entry (grey text).
+	gameDetail := widget.NewRichTextFromMarkdown("")
 	gameDetail.Wrapping = fyne.TextWrapWord
-	gameDetailBox := widget.NewCard("游戏详情", "", container.New(layout.NewMaxLayout(), gameDetail))
+	gameDetailScroll := container.NewVScroll(gameDetail)
+	gameDetailScroll.SetMinSize(fyne.NewSize(320, 220))
+	gameDetailBox := widget.NewCard("游戏详情", "", gameDetailScroll)
 
 	mediaTabs := container.NewAppTabs(
 		container.NewTabItem("封面图片", coverBox),
 		container.NewTabItem("视频预览", widget.NewLabel("Go 版暂不支持视频预览")),
 	)
+	// Give details a fixed bottom area so it's always readable.
 	right := container.NewBorder(nil, gameDetailBox, nil, nil, mediaTabs)
 
 	// helper: sync filtered indices based on search
@@ -60,7 +89,7 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 	}
 	applyFilter("")
 
-	headers := []string{"选择状态", "序号", "游戏名称", "文件名称"}
+	headers := []string{"选择", "序号", "游戏名称", "文件名称"}
 	table := widget.NewTable(
 		func() (int, int) { return len(filteredIdx) + 1, len(headers) },
 		func() fyne.CanvasObject { return widget.NewLabel("") },
@@ -116,24 +145,29 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 			coverImg.Refresh()
 		}
 
-		detail := strings.Builder{}
-		detail.WriteString("游戏名称: ")
-		detail.WriteString(g.GameName)
-		detail.WriteString("\n")
-		detail.WriteString("文件名称: ")
-		detail.WriteString(g.FileName)
-		detail.WriteString("\n")
-		detail.WriteString("排序编号: ")
-		detail.WriteString(g.SortBy)
-		detail.WriteString("\n")
-		detail.WriteString("开发商: ")
-		detail.WriteString(g.Developer)
-		detail.WriteString("\n")
-		detail.WriteString("游戏简介: \n")
-		detail.WriteString(g.Description)
-		detail.WriteString("\n")
-		gameDetail.SetText(detail.String())
+		md := strings.Builder{}
+		md.WriteString("**游戏名称**：")
+		md.WriteString(g.GameName)
+		md.WriteString("\n\n")
+		md.WriteString("**文件名称**：")
+		md.WriteString(g.FileName)
+		md.WriteString("\n\n")
+		md.WriteString("**排序编号**：")
+		md.WriteString(g.SortBy)
+		md.WriteString("\n\n")
+		md.WriteString("**开发商**：")
+		md.WriteString(g.Developer)
+		md.WriteString("\n\n")
+		md.WriteString("**游戏简介**\n\n")
+		if strings.TrimSpace(g.Description) == "" {
+			md.WriteString("（无）")
+		} else {
+			md.WriteString(g.Description)
+		}
+
+		gameDetail.ParseMarkdown(md.String())
 		gameDetail.Refresh()
+		gameDetailScroll.ScrollToTop()
 	}
 
 	// Track which cell was selected; we'll use it for checkbox toggle.
@@ -224,7 +258,9 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 			if uri == nil {
 				return
 			}
-			rootEntry.SetText(filepath.FromSlash(uri.Path()))
+			p := filepath.FromSlash(uri.Path())
+			rootEntry.SetText(p)
+			persistRootDir(p)
 		}, w)
 		fd.Show()
 	})
@@ -236,7 +272,8 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 		widget.NewButton("生成选中文件", generateSelected),
 	)
 
-	searchRow := container.NewHBox(widget.NewLabel("搜索:"), searchEntry, clearSearchBtn)
+	// Old: searchRow := container.NewHBox(widget.NewLabel("搜索:"), searchEntry, clearSearchBtn)
+	searchRow := container.NewBorder(nil, nil, widget.NewLabel("搜索:"), clearSearchBtn, container.NewMax(searchEntry))
 
 	left := container.NewBorder(nil, nil, nil, nil, table)
 	split := container.NewHSplit(left, right)
