@@ -7,6 +7,9 @@ import (
 	"fyne.io/fyne/v2/app"
 	"fyne.io/fyne/v2/container"
 	"fyne.io/fyne/v2/dialog"
+	"fyne.io/fyne/v2/theme"
+
+	"github.com/game_tool_box/internal/config"
 	"github.com/game_tool_box/internal/i18n"
 	"github.com/game_tool_box/internal/resources"
 	aboutui "github.com/game_tool_box/internal/ui/about"
@@ -20,6 +23,19 @@ func main() {
 
 	a := app.New()
 	w := a.NewWindow(i18n.T(i18n.Current(), "app.title"))
+
+	// Apply persisted theme at startup.
+	if c, err := config.Load(); err == nil {
+		switch strings.ToLower(strings.TrimSpace(c.Theme)) {
+		case "light":
+			a.Settings().SetTheme(theme.LightTheme())
+		case "dark":
+			a.Settings().SetTheme(theme.DarkTheme())
+		default:
+			// "system" or empty => follow system preference.
+			a.Settings().SetTheme(theme.DefaultTheme())
+		}
+	}
 
 	w.SetIcon(resources.IconPng)
 

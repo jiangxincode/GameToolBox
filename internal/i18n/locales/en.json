@@ -19,6 +19,10 @@
   "settings.theme": "Theme",
   "settings.theme.todo": "(coming soon)",
 
+  "theme.system": "System",
+  "theme.light": "Light",
+  "theme.dark": "Dark",
+
   "lang.en": "English",
   "lang.zh": "Chinese",
 
