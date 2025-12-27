@@ -2,3 +2,4 @@
 - Setup
   - [Installation](installation.md)
   - [Getting Started](started.md)
+  - [Contributing](contributing.md)

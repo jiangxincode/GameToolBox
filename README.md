@@ -19,6 +19,3 @@ ease](https://github.com/jiangxincode/GameToolBox/actions/workflows/BuildAndRele
 
 
 一个使用 Go 语言编写的游戏整理工具箱，使用 Fyne 作为 GUI。
-
-- [Installation](installation.md)
-- [Getting Started](started.md)
