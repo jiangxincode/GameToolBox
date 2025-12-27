@@ -1,0 +1,27 @@
+{
+  "app.title": "game_tool_box",
+  "menu.settings": "Settings",
+  "menu.help": "Help",
+  "menu.pegasus": "Pegasus G",
+
+  "menuitem.settings.settings": "Settings",
+
+  "menuitem.help.docs": "Docs",
+  "menuitem.help.feedback": "Feedback",
+  "menuitem.help.update": "Check Updates",
+  "menuitem.help.contrib": "Contribute",
+  "menuitem.help.about": "About",
+
+  "menuitem.pegasus.gameFileGen": "Pegasus G - Game File Generator",
+
+  "page.settings.title": "Settings",
+  "settings.language": "Language",
+  "settings.theme": "Theme",
+  "settings.theme.todo": "(coming soon)",
+
+  "lang.en": "English",
+  "lang.zh": "Chinese",
+
+  "button.back": "Back",
+  "todo.prefix": "Coming soon: "
+}

@@ -1,0 +1,27 @@
+{
+  "app.title": "game_tool_box",
+  "menu.settings": "设置",
+  "menu.help": "帮助",
+  "menu.pegasus": "天马G",
+
+  "menuitem.settings.settings": "设置",
+
+  "menuitem.help.docs": "文档",
+  "menuitem.help.feedback": "意见反馈",
+  "menuitem.help.update": "检查更新",
+  "menuitem.help.contrib": "贡献",
+  "menuitem.help.about": "关于",
+
+  "menuitem.pegasus.gameFileGen": "天马G-游戏文件生成器",
+
+  "page.settings.title": "设置",
+  "settings.language": "语言",
+  "settings.theme": "主题",
+  "settings.theme.todo": "（暂未实现）",
+
+  "lang.en": "英文",
+  "lang.zh": "中文",
+
+  "button.back": "返回",
+  "todo.prefix": "这里将来会放置："
+}
