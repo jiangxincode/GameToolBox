@@ -20,8 +20,6 @@ import (
 
 // NewGeneratorView creates the Fyne UI for "游戏文件生成器".
 //
-// Notes:
-//   - Video preview in Swing uses JavaFX; Go/Fyne version shows a placeholder for now.
 //   - Checkbox column uses "✓" and toggles when selecting that column.
 func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 	rootEntry := widget.NewEntry()
@@ -60,13 +58,12 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 	loadedLabel := widget.NewLabel("已加载 0 个游戏")
 
 	// right side
-	coverTitle := widget.NewLabelWithStyle("封面图片", fyne.TextAlignCenter, fyne.TextStyle{Bold: true})
+	// Removed extra title above the image (tab title already shows it).
 	coverImg := canvas.NewImageFromResource(nil)
 	coverImg.FillMode = canvas.ImageFillContain
 	coverImg.SetMinSize(fyne.NewSize(300, 400))
-	coverBox := container.NewBorder(coverTitle, nil, nil, nil, container.New(layout.NewMaxLayout(), coverImg))
+	coverBox := container.New(layout.NewMaxLayout(), coverImg)
 
-	// Use RichText (readable) instead of disabled Entry (grey text).
 	gameDetail := widget.NewRichTextFromMarkdown("")
 	gameDetail.Wrapping = fyne.TextWrapWord
 	gameDetailScroll := container.NewVScroll(gameDetail)

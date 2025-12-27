@@ -56,7 +56,7 @@ func main() {
 	mainView := aboutui.New(aboutMD)
 
 	// Simple view router
-	router := container.NewMax(mainView)
+	router := container.NewStack(mainView)
 	w.SetContent(router)
 
 	t := func(key string) string { return i18n.T(i18n.Current(), key) }
@@ -102,8 +102,10 @@ func main() {
 
 		checkUpdate := func() {
 			logging.Infof("menu click: help.update")
-			progress := dialog.NewProgressInfinite(t("menuitem.help.update"), "...", w)
+			progress := dialog.NewProgress(t("menuitem.help.update"), "...", w)
 			progress.Show()
+			progressInfinite := progress
+			progressInfinite.SetValue(-1)
 
 			go func() {
 				info, err := update.LatestRelease(context.Background(), "jiangxincode", "GameToolBox")

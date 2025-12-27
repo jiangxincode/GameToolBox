@@ -21,15 +21,15 @@ ease](https://github.com/jiangxincode/GameToolBox/actions/workflows/BuildAndRele
 
 ## 下载与安装
 
-[![Download](https://img.shields.io/badge/Download-Download-green.svg)](https://jiangxincode.github.io/GameToolBox/#/getting_started_guide)
+[![Download](https://img.shields.io/badge/GameToolBox-Download-green.svg)](https://jiangxincode.github.io/GameToolBox/#/getting_started_guide)
 
 ## 功能与使用
 
-[![Features](https://img.shields.io/badge/GameToolBox-Features-green.svg)](https://jiangxincode.github.io/GameToolBox/#/rom_generator)
+[![Features](https://img.shields.io/badge/GameToolBox-Features-green.svg)](https://jiangxincode.github.io/GameToolBox/#/features/rom_generator)
 
 ## 贡献你的力量
 
-[![Contributing](https://img.shields.io/badge/Contribute-Contributing-green.svg)](https://jiangxincode.github.io/GameToolBox/#/contributing)
+[![Contributing](https://img.shields.io/badge/GameToolBox-Contributing-green.svg)](https://jiangxincode.github.io/GameToolBox/#/contributing)
 
 
 

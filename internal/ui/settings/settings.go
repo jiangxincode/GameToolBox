@@ -5,7 +5,6 @@ import (
 
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/layout"
 	"fyne.io/fyne/v2/theme"
 	"fyne.io/fyne/v2/widget"
 
@@ -136,6 +135,5 @@ func NewSettingsView(t func(key string) string, onLangChanged func(lang i18n.Lan
 		title,
 		widget.NewSeparator(),
 		form,
-		container.NewHBox(widget.NewLabel(t("settings.theme")), layout.NewSpacer(), widget.NewLabel("")),
 	)
 }

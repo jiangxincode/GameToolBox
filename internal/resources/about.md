@@ -9,4 +9,4 @@ For details, please visit: [https://github.com/jiangxincode/GameToolBox](https:/
 
 ## Author
 
-- Jiangxin [jiangxinnju@gmail.com](mailto:jiangxinnju@gmail.com)
+- Aloys [jiangxinnju@gmail.com](mailto:jiangxinnju@gmail.com)
