@@ -83,8 +83,8 @@ jobs:
           prerelease: false
           body: |
             BEFORE PUBLISHING CHECKLIST:
-            1. Update the version in pom.xml and push the change to github.
-            2. Add a new tag according with the version in pom.xml and push the tag to github.
+            1. Update the version in resources/about.go and push the change to github.
+            2. Add a new tag according with the version in resources/about.go and push the tag to github.
             3. Check whether there are failed github actions and whether the gh-page is updated successfully.
             4. Fill in the changelog below.
             5. Download the release zips and test that the binaries works.
