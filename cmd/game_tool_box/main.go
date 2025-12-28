@@ -80,6 +80,14 @@ func main() {
 			router.Refresh()
 		})
 
+		pegasusOssHandheldMedia := fyne.NewMenuItem(t("menuitem.pegasus.ossHandheldMedia"), func() {
+			logging.Infof("menu click: pegasus.ossHandheldMedia")
+			view := tmgui.NewOssHandheldMediaConverterView(w)
+			// No Back button on pages entered from menu.
+			router.Objects = []fyne.CanvasObject{view}
+			router.Refresh()
+		})
+
 		showSettings = func() {
 			logging.Infof("menu click: settings.settings")
 			view := settingsui.NewSettingsView(t, func(newLang i18n.Lang) {
@@ -98,7 +106,7 @@ func main() {
 			fyne.NewMenuItem(t("menuitem.settings.settings"), showSettings),
 		)
 
-		mPegasus := fyne.NewMenu(t("menu.pegasus"), pegasusGameFileGenerator)
+		mPegasus := fyne.NewMenu(t("menu.pegasus"), pegasusGameFileGenerator, pegasusOssHandheldMedia)
 
 		checkUpdate := func() {
 			logging.Infof("menu click: help.update")

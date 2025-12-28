@@ -13,6 +13,7 @@
   "menuitem.help.about": "About",
 
   "menuitem.pegasus.gameFileGen": "Game File Generator",
+  "menuitem.pegasus.ossHandheldMedia": "Convert to Open Handheld Media Files",
 
   "page.settings.title": "Settings",
   "settings.language": "Language",
