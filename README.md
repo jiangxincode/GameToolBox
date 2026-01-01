@@ -17,7 +17,13 @@ ease](https://github.com/jiangxincode/GameToolBox/actions/workflows/BuildAndRele
 [中文](https://www.readme-i18n.com/jiangxincode/GameToolBox?lang=zh)
 
 
-一个使用 Go 语言编写的游戏整理工具箱，使用 Fyne 作为 GUI。
+一个使用 Go 语言编写的游戏整理工具箱，使用 Fyne 作为 GUI。主要有如下特点：
+
+* 功能丰富，支持天马G/Pegasus 游戏配置、媒体与 ROM 文件的管理与整理。
+* 跨平台支持 Windows、macOS 与 Linux。
+* 已经完成平台基础架构搭建（日志、国际化、文档、CI等），后续会持续添加更多功能。
+* 开源免费，基于 Apache License V2.0 许可证发布。
+* 界面简洁，易于使用。
 
 ## 下载与安装
 
