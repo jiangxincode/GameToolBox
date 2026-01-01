@@ -16,7 +16,7 @@
 
 欢迎加入！任何形式的帮助都非常感谢。参与贡献的基本行为规范请参考 [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/)。
 
-### 如何构建项目
+## 如何构建项目
 
 1. 安装 Go（1.20+），并配置好环境变量 `GOPATH` 和 `GOROOT`。
 2. 下载依赖：`go mod download`
@@ -29,6 +29,6 @@
 - `internal/resources/`：内嵌资源（例如窗口图标）。
 - `examples/`：历史/练习用的独立示例程序（可忽略）。
 
-### 贡献者
+## 贡献者
 
 - Jiangxin <jiangxinnju@gmail.com>
