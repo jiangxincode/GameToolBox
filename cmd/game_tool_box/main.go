@@ -35,6 +35,16 @@ func main() {
 	fyneApp := app.New()
 	fyneWindow := fyneApp.NewWindow(i18n.T(i18n.Current(), "app.title"))
 
+	appTitle := func() string { return i18n.T(i18n.Current(), "app.title") }
+	setBreadcrumb := func(crumb string) {
+		crumb = strings.TrimSpace(crumb)
+		if crumb == "" {
+			fyneWindow.SetTitle(appTitle())
+			return
+		}
+		fyneWindow.SetTitle(appTitle() + " - " + crumb)
+	}
+
 	if cfg, err := config.Load(); err == nil {
 		switch strings.ToLower(strings.TrimSpace(cfg.Theme)) {
 		case "light":
@@ -62,7 +72,8 @@ func main() {
 	var showSettings func()
 
 	rebuildMenu = func() {
-		fyneWindow.SetTitle(t("app.title"))
+		// Keep current breadcrumb if any by default: menu rebuild updates app title only.
+		fyneWindow.SetTitle(appTitle())
 
 		mPegasus := fyne.NewMenu(t("menu.pegasus"))
 		mSettings := fyne.NewMenu(t("menu.settings"))
@@ -71,6 +82,7 @@ func main() {
 
 		pegasusRomManager := fyne.NewMenuItem(t("menuitem.pegasus.romManager"), func() {
 			logging.Infof("menu click: pegasus.romManager")
+			setBreadcrumb(t("menu.pegasus") + " / " + t("menuitem.pegasus.romManager"))
 			view := pegasusui.NewRomeManagerView(fyneWindow)
 			router.Objects = []fyne.CanvasObject{view}
 			router.Refresh()
@@ -79,6 +91,7 @@ func main() {
 
 		pegasusMediaManager := fyne.NewMenuItem(t("menuitem.pegasus.mediaManager"), func() {
 			logging.Infof("menu click: pegasus.mediaManager")
+			setBreadcrumb(t("menu.pegasus") + " / " + t("menuitem.pegasus.mediaManager"))
 			view := pegasusui.NewMediaManagerView(fyneWindow)
 			router.Objects = []fyne.CanvasObject{view}
 			router.Refresh()
@@ -87,6 +100,7 @@ func main() {
 
 		pegasusConfigManager := fyne.NewMenuItem(t("menuitem.pegasus.configManager"), func() {
 			logging.Infof("menu click: pegasus.configManager")
+			setBreadcrumb(t("menu.pegasus") + " / " + t("menuitem.pegasus.configManager"))
 			view := pegasusui.NewConfigManagerView(fyneWindow)
 			router.Objects = []fyne.CanvasObject{view}
 			router.Refresh()
@@ -95,6 +109,7 @@ func main() {
 
 		pegasusGameRemover := fyne.NewMenuItem(t("menuitem.pegasus.gameRemover"), func() {
 			logging.Infof("menu click: pegasus.gameRemover")
+			setBreadcrumb(t("menu.pegasus") + " / " + t("menuitem.pegasus.gameRemover"))
 			view := pegasusui.NewGameRemoverView(fyneWindow)
 			router.Objects = []fyne.CanvasObject{view}
 			router.Refresh()
@@ -103,11 +118,14 @@ func main() {
 
 		showSettings = func() {
 			logging.Infof("menu click: settings.settings")
+			setBreadcrumb(t("menu.settings") + " / " + t("menuitem.settings.settings"))
 			view := settingsui.NewSettingsView(t, func(newLang i18n.Lang) {
 				logging.Infof("settings change: lang=%s", newLang)
 				// Switch language and rebuild menus immediately.
 				i18n.SetCurrentPersisted(newLang)
 				rebuildMenu()
+				// restore breadcrumb in the new language
+				setBreadcrumb(t("menu.settings") + " / " + t("menuitem.settings.settings"))
 			})
 			router.Objects = []fyne.CanvasObject{container.NewPadded(view)}
 			router.Refresh()
@@ -184,6 +202,7 @@ func main() {
 
 		showAbout := func() {
 			logging.Infof("menu click: help.about")
+			setBreadcrumb(t("menu.help") + " / " + t("menuitem.help.about"))
 			router.Objects = []fyne.CanvasObject{mainView}
 			router.Refresh()
 		}
@@ -192,6 +211,7 @@ func main() {
 	}
 
 	rebuildMenu()
+	setBreadcrumb(t("menu.help") + " / " + t("menuitem.help.about"))
 
 	resizeAndCenter := func(size fyne.Size) {
 		fyneWindow.Resize(size)

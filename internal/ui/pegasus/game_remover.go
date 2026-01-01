@@ -273,11 +273,12 @@ func NewGameRemoverView(w fyne.Window) fyne.CanvasObject {
 
 	status := container.NewHBox(loadedLabel)
 
-	return container.NewBorder(
+	content := container.NewBorder(
 		container.NewVBox(container.NewBorder(nil, nil, nil, chooseRootBtn, rootEntry), buttonRow, searchRow),
 		status,
 		nil,
 		nil,
 		split,
 	)
+	return content
 }
