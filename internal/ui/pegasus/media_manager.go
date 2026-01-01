@@ -254,6 +254,34 @@ func NewMediaManagerView(w fyne.Window) fyne.CanvasObject {
 		logging.Infof("pegasus(oss): generate finished created=%d skipped=%d errors=%d", res.Created, res.Skipped, len(res.Errors))
 	}
 
+	generateEmptyMediaDirs := func() {
+		root := strings.TrimSpace(rootEntry.Text)
+		logging.Infof("pegasus(oss): click generate empty media dirs root=%s", root)
+		if root == "" {
+			dialog.ShowInformation("提示", "请先设置根目录", w)
+			return
+		}
+		selected := 0
+		for _, g := range allGames {
+			if g.Selected {
+				selected++
+			}
+		}
+		if selected == 0 {
+			dialog.ShowInformation("提示", "请选择要生成媒体目录的游戏", w)
+			return
+		}
+
+		res := pegasus.GenerateEmptyMediaFolders(root, allGames)
+		if len(res.Errors) > 0 {
+			dialog.ShowError(fmt.Errorf("部分生成失败: %v", res.Errors[0]), w)
+			logging.Infof("pegasus(oss): generate empty media dirs failed created=%d skipped=%d errors=%d", res.Created, res.Skipped, len(res.Errors))
+			return
+		}
+		dialog.ShowInformation("提示", fmt.Sprintf("媒体目录生成完成\nCreated=%d, Skipped=%d", res.Created, res.Skipped), w)
+		logging.Infof("pegasus(oss): generate empty media dirs finished created=%d skipped=%d errors=%d", res.Created, res.Skipped, len(res.Errors))
+	}
+
 	chooseRootBtn := widget.NewButton("设置根目录", func() {
 		logging.Infof("pegasus(oss): click choose root")
 		fd := dialog.NewFolderOpen(func(uri fyne.ListableURI, err error) {
@@ -282,6 +310,7 @@ func NewMediaManagerView(w fyne.Window) fyne.CanvasObject {
 			logging.Infof("pegasus(oss): click deselect all")
 			selectAll(false)
 		}),
+		widget.NewButton("生成对应游戏空媒体文件夹", generateEmptyMediaDirs),
 		widget.NewButton("转换为开源掌机格式", generateSelected),
 	)
 

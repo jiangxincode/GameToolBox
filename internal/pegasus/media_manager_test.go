@@ -65,3 +65,48 @@ func TestGenerateSelectedFilesForOssHandheld_MissingSourceCountsFailed(t *testin
 		t.Fatalf("expected error")
 	}
 }
+
+func TestGenerateEmptyMediaFolders_CreatesDirsAndSkipsExisting(t *testing.T) {
+	root := t.TempDir()
+
+	// Pre-create media/A to ensure it is skipped.
+	if err := os.MkdirAll(filepath.Join(root, "media", "A"), 0o755); err != nil {
+		t.Fatalf("mkdir media/A: %v", err)
+	}
+
+	games := []GameModel{
+		{Selected: true, GameName: "A"},
+		{Selected: true, GameName: "B"},
+		{Selected: false, GameName: "C"},
+	}
+	res := GenerateEmptyMediaFolders(root, games)
+	if len(res.Errors) != 0 {
+		t.Fatalf("unexpected errors: %v", res.Errors)
+	}
+	if res.Created != 1 {
+		t.Fatalf("expected Created=1, got %d", res.Created)
+	}
+	if res.Skipped != 1 {
+		t.Fatalf("expected Skipped=1, got %d", res.Skipped)
+	}
+	if res.Failed != 0 {
+		t.Fatalf("expected Failed=0, got %d", res.Failed)
+	}
+
+	if st, err := os.Stat(filepath.Join(root, "media", "B")); err != nil || !st.IsDir() {
+		t.Fatalf("expected media/B dir exists, err=%v", err)
+	}
+	if _, err := os.Stat(filepath.Join(root, "media", "C")); !os.IsNotExist(err) {
+		t.Fatalf("expected media/C not created")
+	}
+}
+
+func TestGenerateEmptyMediaFolders_EmptyRootFails(t *testing.T) {
+	res := GenerateEmptyMediaFolders("", []GameModel{{Selected: true, GameName: "A"}})
+	if res.Failed == 0 {
+		t.Fatalf("expected Failed>0")
+	}
+	if len(res.Errors) == 0 {
+		t.Fatalf("expected error")
+	}
+}

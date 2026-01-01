@@ -71,6 +71,77 @@ func GenerateSelectedFilesForOssHandheld(rootDir string, games []GameModel) OssH
 	return res
 }
 
+// MediaFolderGenerateResult is the result for generating empty media folders.
+// It creates <rootDir>/media/<GameName>/ for each selected game.
+type MediaFolderGenerateResult struct {
+	Created int
+	Skipped int
+	Failed  int
+
+	Errors []error
+}
+
+// GenerateEmptyMediaFolders creates empty media folders for selected games.
+//
+// Behavior:
+//   - Ensure <rootDir>/media exists.
+//   - For each selected game:
+//     mkdir -p <rootDir>/media/<GameName>
+//     If the directory already exists, it is counted as Skipped.
+func GenerateEmptyMediaFolders(rootDir string, games []GameModel) MediaFolderGenerateResult {
+	var res MediaFolderGenerateResult
+
+	rootDir = strings.TrimSpace(rootDir)
+	if rootDir == "" {
+		res.Failed++
+		res.Errors = append(res.Errors, fmt.Errorf("rootDir is empty"))
+		return res
+	}
+
+	mediaDir := filepath.Join(rootDir, "media")
+	if err := os.MkdirAll(mediaDir, 0o755); err != nil {
+		res.Failed++
+		res.Errors = append(res.Errors, fmt.Errorf("mkdir media dir %s: %w", mediaDir, err))
+		return res
+	}
+
+	for _, g := range games {
+		if !g.Selected {
+			continue
+		}
+		name := strings.TrimSpace(g.GameName)
+		if name == "" {
+			res.Failed++
+			res.Errors = append(res.Errors, fmt.Errorf("gameName is empty"))
+			continue
+		}
+
+		target := filepath.Join(mediaDir, name)
+		if st, err := os.Stat(target); err == nil {
+			if st.IsDir() {
+				res.Skipped++
+				continue
+			}
+			res.Failed++
+			res.Errors = append(res.Errors, fmt.Errorf("target exists but is not a directory: %s", target))
+			continue
+		} else if !os.IsNotExist(err) {
+			res.Failed++
+			res.Errors = append(res.Errors, fmt.Errorf("stat %s: %w", target, err))
+			continue
+		}
+
+		if err := os.MkdirAll(target, 0o755); err != nil {
+			res.Failed++
+			res.Errors = append(res.Errors, fmt.Errorf("mkdir %s: %w", target, err))
+			continue
+		}
+		res.Created++
+	}
+
+	return res
+}
+
 func copyFile(src, dst string) error {
 	src = filepath.Clean(src)
 	dst = filepath.Clean(dst)
