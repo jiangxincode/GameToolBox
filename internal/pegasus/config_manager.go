@@ -28,6 +28,101 @@ type ConfigDiff struct {
 	DuplicateInConfig []string    // duplicated file: entries (normalized)
 }
 
+type ConfigGenerateResult struct {
+	Written int
+	Skipped int
+	Failed  int
+
+	Errors []error
+}
+
+// GenerateSelectedConfig rewrites <rootDir>/metadata.pegasus.txt using selected games.
+//
+// Contract:
+//   - Writes a standard game block for each selected game.
+//   - Uses existing GameModel fields where available; falls back to GameName for developer/description.
+//   - sort-by will be assigned incrementally starting at 1.
+func GenerateSelectedConfig(rootDir string, games []GameModel) ConfigGenerateResult {
+	var res ConfigGenerateResult
+
+	rootDir = strings.TrimSpace(rootDir)
+	if rootDir == "" {
+		res.Failed++
+		res.Errors = append(res.Errors, fmt.Errorf("root dir is empty"))
+		return res
+	}
+
+	selected := make([]GameModel, 0, len(games))
+	for _, g := range games {
+		if !g.Selected {
+			continue
+		}
+		if strings.TrimSpace(g.GameName) == "" {
+			res.Failed++
+			res.Errors = append(res.Errors, fmt.Errorf("selected game has empty name"))
+			continue
+		}
+		if strings.TrimSpace(g.FileName) == "" {
+			res.Failed++
+			res.Errors = append(res.Errors, fmt.Errorf("game %q fileName is empty", g.GameName))
+			continue
+		}
+		selected = append(selected, g)
+	}
+
+	if len(selected) == 0 {
+		return res
+	}
+
+	metaPath := filepath.Join(rootDir, "metadata.pegasus.txt")
+	if err := os.MkdirAll(filepath.Dir(metaPath), 0o755); err != nil {
+		res.Failed++
+		res.Errors = append(res.Errors, err)
+		return res
+	}
+
+	f, err := os.OpenFile(metaPath, os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0o644)
+	if err != nil {
+		res.Failed++
+		res.Errors = append(res.Errors, err)
+		return res
+	}
+	defer func() { _ = f.Close() }()
+
+	w := bufio.NewWriter(f)
+	defer func() { _ = w.Flush() }()
+
+	for i, g := range selected {
+		name := strings.TrimSpace(g.GameName)
+		file := strings.TrimSpace(g.FileName)
+		dev := strings.TrimSpace(g.Developer)
+		if dev == "" {
+			dev = name
+		}
+		desc := strings.TrimSpace(g.Description)
+		if desc == "" {
+			desc = name
+		}
+
+		// Keep a blank line between records for readability.
+		if i > 0 {
+			_, _ = w.WriteString("\n")
+		}
+		_, _ = w.WriteString("game:" + name + "\n")
+		_, _ = w.WriteString("file:" + file + "\n")
+		_, _ = w.WriteString(fmt.Sprintf("sort-by:%03d\n", i+1))
+		_, _ = w.WriteString("developer:" + dev + "\n")
+		_, _ = w.WriteString("description:" + desc + "\n")
+
+		res.Written++
+	}
+
+	// Ensure file ends with a blank line.
+	_, _ = w.WriteString("\n")
+
+	return res
+}
+
 // LoadGamesFromRomFiles builds games from ROM files under rootDir.
 // It walks the directory and returns all files (excluding metadata.pegasus.txt and media/**).
 // FileName is stored as a relative path to rootDir using forward slashes.

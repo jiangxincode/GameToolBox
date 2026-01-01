@@ -9,7 +9,7 @@
 
   "menuitem.pegasus.romManager": "Game Rom file Manager",
   "menuitem.pegasus.mediaManager": "Game Media file Manager",
-  "menuitem.pegasus.configManager" : "Game Config(metadata.pegasus.txt) Manager",
+  "menuitem.pegasus.configManager" : "Game Config Manager",
   "menuitem.pegasus.gameRemover" : "Game Remover",
 
   "menuitem.help.docs": "Docs",

@@ -4,10 +4,19 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"strings"
 )
 
 type GenerateResult struct {
 	Created int
+	Skipped int
+	Failed  int
+
+	Errors []error
+}
+
+type DeleteResult struct {
+	Deleted int
 	Skipped int
 	Failed  int
 
@@ -59,5 +68,62 @@ func GenerateSelectedFiles(rootDir string, games []GameModel) GenerateResult {
 		_ = f.Close()
 		res.Created++
 	}
+	return res
+}
+
+// DeleteRomsNotInConfig deletes ROM files that exist on disk but are missing in metadata.pegasus.txt.
+// It is the inverse of "ExtraInConfig":
+//   - MissingInConfig: present in ROM dir, absent in config => should be deleted.
+//
+// Safety:
+//   - Only deletes paths that are under rootDir after filepath.Clean.
+//   - Skips non-existent files.
+func DeleteRomsNotInConfig(rootDir string) DeleteResult {
+	var res DeleteResult
+
+	diff, err := DiffConfigAgainstRomFiles(rootDir)
+	if err != nil {
+		res.Failed++
+		res.Errors = append(res.Errors, err)
+		return res
+	}
+
+	rootClean := filepath.Clean(rootDir)
+
+	for _, g := range diff.MissingInConfig {
+		if strings.TrimSpace(g.FileName) == "" {
+			res.Skipped++
+			continue
+		}
+
+		candidate := filepath.Join(rootClean, filepath.FromSlash(g.FileName))
+		candidate = filepath.Clean(candidate)
+
+		// Ensure candidate is within rootDir to avoid path traversal.
+		rel, relErr := filepath.Rel(rootClean, candidate)
+		if relErr != nil || rel == "." || strings.HasPrefix(rel, "..") {
+			res.Failed++
+			res.Errors = append(res.Errors, fmt.Errorf("refuse to delete outside root: %q", g.FileName))
+			continue
+		}
+
+		if _, statErr := os.Stat(candidate); statErr != nil {
+			if os.IsNotExist(statErr) {
+				res.Skipped++
+				continue
+			}
+			res.Failed++
+			res.Errors = append(res.Errors, fmt.Errorf("stat %s: %w", candidate, statErr))
+			continue
+		}
+
+		if rmErr := os.Remove(candidate); rmErr != nil {
+			res.Failed++
+			res.Errors = append(res.Errors, fmt.Errorf("remove %s: %w", candidate, rmErr))
+			continue
+		}
+		res.Deleted++
+	}
+
 	return res
 }

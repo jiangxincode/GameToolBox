@@ -286,3 +286,52 @@ func tail(s string, n int) string {
 	}
 	return string(r[len(r)-n:])
 }
+
+func TestGenerateSelectedConfig_RewritesMetadataWithSelectedGames(t *testing.T) {
+	root := t.TempDir()
+
+	games := []GameModel{
+		{Selected: true, GameName: "A", FileName: "roms/A.zip"},
+		{Selected: false, GameName: "B", FileName: "roms/B.zip"},
+		{Selected: true, GameName: "C", FileName: "roms/C.zip", Developer: "DevC", Description: "DescC"},
+	}
+
+	res := GenerateSelectedConfig(root, games)
+	if len(res.Errors) > 0 {
+		t.Fatalf("expected no errors, got %v", res.Errors[0])
+	}
+	if res.Written != 2 {
+		t.Fatalf("expected Written=2 got %d (res=%+v)", res.Written, res)
+	}
+
+	b, err := os.ReadFile(filepath.Join(root, "metadata.pegasus.txt"))
+	if err != nil {
+		t.Fatalf("read metadata: %v", err)
+	}
+	out := string(b)
+
+	// Should contain A and C, and not contain B.
+	if !strings.Contains(out, "game:A") || !strings.Contains(out, "file:roms/A.zip") {
+		t.Fatalf("expected A block, got:\n%s", out)
+	}
+	if strings.Contains(out, "game:B") || strings.Contains(out, "file:roms/B.zip") {
+		t.Fatalf("expected B not written, got:\n%s", out)
+	}
+	if !strings.Contains(out, "game:C") || !strings.Contains(out, "file:roms/C.zip") {
+		t.Fatalf("expected C block, got:\n%s", out)
+	}
+
+	// Default dev/desc for A should be game name.
+	if !strings.Contains(out, "developer:A") || !strings.Contains(out, "description:A") {
+		t.Fatalf("expected developer/description defaults for A, got:\n%s", out)
+	}
+	// Respect provided dev/desc for C.
+	if !strings.Contains(out, "developer:DevC") || !strings.Contains(out, "description:DescC") {
+		t.Fatalf("expected developer/description for C, got:\n%s", out)
+	}
+
+	// sort-by should be zero-padded.
+	if !strings.Contains(out, "sort-by:001") || !strings.Contains(out, "sort-by:002") {
+		t.Fatalf("expected sort-by entries 001/002, got:\n%s", out)
+	}
+}

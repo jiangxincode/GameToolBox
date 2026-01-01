@@ -9,7 +9,7 @@
 
   "menuitem.pegasus.romManager": "游戏ROM文件管理器",
   "menuitem.pegasus.mediaManager": "游戏媒体文件管理器",
-  "menuitem.pegasus.configManager" : "游戏配置文件（metadata.pegasus.txt）管理器",
+  "menuitem.pegasus.configManager" : "游戏配置文件管理器",
   "menuitem.pegasus.gameRemover" : "游戏移除器",
 
   "menuitem.help.docs": "文档",
