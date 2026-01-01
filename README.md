@@ -7,8 +7,9 @@ ease](https://github.com/jiangxincode/GameToolBox/actions/workflows/BuildAndRele
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/950bbed0f0344613b67ddceab0cded91)](https://app.codacy.com/gh/jiangxincode/GameToolBox/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/950bbed0f0344613b67ddceab0cded91)](https://app.codacy.com/gh/jiangxincode/GameToolBox/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
 
+GameToolBox 是一组小工具的集合，主要为天马G/Batocera等游戏前端系统的ROM管理设计。采用 Go 语言编写，使用 Fyne 作为 GUI 框架。
 
-一个使用 Go 语言编写的游戏整理工具箱，使用 Fyne 作为 GUI。主要有如下特点：
+GameToolBox 相对于其他管理工具，主要有如下特点：
 
 * 功能丰富，支持天马G/Pegasus 游戏配置、媒体与 ROM 文件的管理与整理。
 * 跨平台支持 Windows、macOS 与 Linux。
