@@ -1,4 +1,4 @@
-package tmgui
+package pegasusui
 
 import (
 	"fmt"
@@ -18,11 +18,9 @@ import (
 	"github.com/game_tool_box/internal/pegasus"
 )
 
-// NewOssHandheldMediaConverterView creates the Fyne UI for "转换为开源掌机媒体文件".
-//
-// NOTE: This is intentionally a full copy of the UI/logic from empty_game_file_generator.go
-// (NewGeneratorView), as requested. Do not refactor to call the original function yet.
-func NewOssHandheldMediaConverterView(w fyne.Window) fyne.CanvasObject {
+// NewConfigManagerView is a copy of NewRomeManagerView for now.
+// We'll adjust the config manager behavior later without affecting rom manager.
+func NewConfigManagerView(w fyne.Window) fyne.CanvasObject {
 	rootEntry := widget.NewEntry()
 	rootEntry.SetPlaceHolder("选择根目录（包含 metadata.pegasus.txt）")
 
@@ -30,7 +28,7 @@ func NewOssHandheldMediaConverterView(w fyne.Window) fyne.CanvasObject {
 	if c, err := config.Load(); err == nil {
 		if strings.TrimSpace(c.RootDir) != "" {
 			rootEntry.SetText(c.RootDir)
-			logging.Infof("pegasus(oss): restore rootDir=%s", c.RootDir)
+			logging.Infof("pegasus: restore rootDir=%s", c.RootDir)
 		}
 	}
 
@@ -45,7 +43,7 @@ func NewOssHandheldMediaConverterView(w fyne.Window) fyne.CanvasObject {
 		}
 		c.RootDir = p
 		_ = config.Save(c)
-		logging.Infof("pegasus(oss): persist rootDir=%s", p)
+		logging.Infof("pegasus: persist rootDir=%s", p)
 	}
 
 	// Persist on manual edit (debounced enough for small config writes)
@@ -191,14 +189,14 @@ func NewOssHandheldMediaConverterView(w fyne.Window) fyne.CanvasObject {
 	searchEntry := widget.NewEntry()
 	searchEntry.SetPlaceHolder("搜索游戏名称或文件名称")
 	searchEntry.OnChanged = func(s string) {
-		logging.Infof("pegasus(oss): search changed q=%s", s)
+		logging.Infof("pegasus: search changed q=%s", s)
 		applyFilter(s)
 		table.Refresh()
 		selectedFilteredRow = -1
 	}
 
 	clearSearchBtn := widget.NewButton("清除搜索", func() {
-		logging.Infof("pegasus(oss): click clear search")
+		logging.Infof("pegasus: click clear search")
 		searchEntry.SetText("")
 	})
 
@@ -211,7 +209,7 @@ func NewOssHandheldMediaConverterView(w fyne.Window) fyne.CanvasObject {
 
 	loadGameData := func() {
 		root := strings.TrimSpace(rootEntry.Text)
-		logging.Infof("pegasus(oss): click load data root=%s", root)
+		logging.Infof("pegasus: click load data root=%s", root)
 		if root == "" {
 			dialog.ShowInformation("提示", "请先设置根目录", w)
 			return
@@ -230,7 +228,7 @@ func NewOssHandheldMediaConverterView(w fyne.Window) fyne.CanvasObject {
 
 	generateSelected := func() {
 		root := strings.TrimSpace(rootEntry.Text)
-		logging.Infof("pegasus(oss): click generate selected root=%s", root)
+		logging.Infof("pegasus: click generate selected root=%s", root)
 		if root == "" {
 			dialog.ShowInformation("提示", "请先设置根目录", w)
 			return
@@ -246,20 +244,17 @@ func NewOssHandheldMediaConverterView(w fyne.Window) fyne.CanvasObject {
 			return
 		}
 
-		// IMPORTANT: do NOT call pegasus.GenerateSelectedFiles here.
-		// OSS handheld has its own generator entry-point under internal/pegasus.
-		res := pegasus.GenerateSelectedFilesForOssHandheld(root, allGames)
+		res := pegasus.GenerateSelectedConfigFiles(root, allGames)
 		if len(res.Errors) > 0 {
 			dialog.ShowError(fmt.Errorf("部分生成失败: %v", res.Errors[0]), w)
-			logging.Infof("pegasus(oss): generate failed created=%d skipped=%d errors=%d", res.Created, res.Skipped, len(res.Errors))
 			return
 		}
 		dialog.ShowInformation("提示", fmt.Sprintf("文件生成完成\nCreated=%d, Skipped=%d", res.Created, res.Skipped), w)
-		logging.Infof("pegasus(oss): generate finished created=%d skipped=%d errors=%d", res.Created, res.Skipped, len(res.Errors))
+		logging.Infof("pegasus: generate finished created=%d skipped=%d errors=%d", res.Created, res.Skipped, len(res.Errors))
 	}
 
 	chooseRootBtn := widget.NewButton("设置根目录", func() {
-		logging.Infof("pegasus(oss): click choose root")
+		logging.Infof("pegasus: click choose root")
 		fd := dialog.NewFolderOpen(func(uri fyne.ListableURI, err error) {
 			if err != nil {
 				dialog.ShowError(err, w)
@@ -269,7 +264,7 @@ func NewOssHandheldMediaConverterView(w fyne.Window) fyne.CanvasObject {
 				return
 			}
 			p := filepath.FromSlash(uri.Path())
-			logging.Infof("pegasus(oss): chose rootDir=%s", p)
+			logging.Infof("pegasus: chose rootDir=%s", p)
 			rootEntry.SetText(p)
 			persistRootDir(p)
 		}, w)
@@ -279,14 +274,14 @@ func NewOssHandheldMediaConverterView(w fyne.Window) fyne.CanvasObject {
 	buttonRow := container.NewHBox(
 		widget.NewButton("加载/刷新数据", loadGameData),
 		widget.NewButton("全选", func() {
-			logging.Infof("pegasus(oss): click select all")
+			logging.Infof("pegasus: click select all")
 			selectAll(true)
 		}),
 		widget.NewButton("取消全选", func() {
-			logging.Infof("pegasus(oss): click deselect all")
+			logging.Infof("pegasus: click deselect all")
 			selectAll(false)
 		}),
-		widget.NewButton("转换为开源掌机格式", generateSelected),
+		widget.NewButton("生成选中文件", generateSelected),
 	)
 
 	// Old: searchRow := container.NewHBox(widget.NewLabel("搜索:"), searchEntry, clearSearchBtn)

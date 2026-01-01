@@ -1,10 +1,16 @@
 {
   "app.title": "game_tool_box",
+
   "menu.settings": "Settings",
   "menu.help": "Help",
   "menu.pegasus": "Pegasus G",
 
   "menuitem.settings.settings": "Settings",
+
+  "menuitem.pegasus.romManager": "Game Rom file Manager",
+  "menuitem.pegasus.mediaManager": "Game Media file Manager",
+  "menuitem.pegasus.configManager" : "Game Config(metadata.pegasus.txt) Manager",
+  "menuitem.pegasus.gameRemover" : "Game Remover",
 
   "menuitem.help.docs": "Docs",
   "menuitem.help.feedback": "Feedback",
@@ -12,13 +18,9 @@
   "menuitem.help.contrib": "Contribute",
   "menuitem.help.about": "About",
 
-  "menuitem.pegasus.gameFileGen": "Game File Generator",
-  "menuitem.pegasus.ossHandheldMedia": "Convert to Open Handheld Media Files",
-
   "page.settings.title": "Settings",
   "settings.language": "Language",
   "settings.theme": "Theme",
-  "settings.theme.todo": "(coming soon)",
 
   "theme.system": "System",
   "theme.light": "Light",

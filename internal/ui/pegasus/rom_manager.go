@@ -1,4 +1,4 @@
-package tmgui
+package pegasusui
 
 import (
 	"fmt"
@@ -18,10 +18,7 @@ import (
 	"github.com/game_tool_box/internal/pegasus"
 )
 
-// NewGeneratorView creates the Fyne UI for "游戏文件生成器".
-//
-//   - Checkbox column uses "✓" and toggles when selecting that column.
-func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
+func NewRomeManagerView(w fyne.Window) fyne.CanvasObject {
 	rootEntry := widget.NewEntry()
 	rootEntry.SetPlaceHolder("选择根目录（包含 metadata.pegasus.txt）")
 
@@ -282,7 +279,7 @@ func NewGeneratorView(w fyne.Window) fyne.CanvasObject {
 			logging.Infof("pegasus: click deselect all")
 			selectAll(false)
 		}),
-		widget.NewButton("生成选中文件", generateSelected),
+		widget.NewButton("生成选中游戏的空ROM文件", generateSelected),
 	)
 
 	// Old: searchRow := container.NewHBox(widget.NewLabel("搜索:"), searchEntry, clearSearchBtn)

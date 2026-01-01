@@ -30,63 +30,76 @@ func main() {
 		logging.Close()
 	}()
 
-	// i18n.Current() is initialized in i18n init() (including persisted config).
 	i18n.SetCurrent(i18n.Current())
 
-	a := app.New()
-	w := a.NewWindow(i18n.T(i18n.Current(), "app.title"))
+	fyneApp := app.New()
+	fyneWindow := fyneApp.NewWindow(i18n.T(i18n.Current(), "app.title"))
 
-	// Apply persisted theme at startup.
-	if c, err := config.Load(); err == nil {
-		switch strings.ToLower(strings.TrimSpace(c.Theme)) {
+	if cfg, err := config.Load(); err == nil {
+		switch strings.ToLower(strings.TrimSpace(cfg.Theme)) {
 		case "light":
-			a.Settings().SetTheme(theme.LightTheme())
+			fyneApp.Settings().SetTheme(theme.LightTheme())
 		case "dark":
-			a.Settings().SetTheme(theme.DarkTheme())
+			fyneApp.Settings().SetTheme(theme.DarkTheme())
 		default:
 			// "system" or empty => follow system preference.
-			a.Settings().SetTheme(theme.DefaultTheme())
+			fyneApp.Settings().SetTheme(theme.DefaultTheme())
 		}
 	}
 
-	w.SetIcon(resources.IconPng)
+	fyneWindow.SetIcon(resources.IconPng)
 
 	// Default startup view: About page rendered from Markdown.
 	aboutMD := strings.ReplaceAll(resources.AboutMarkdown(), "{VERSION}", resources.Version)
 	mainView := aboutui.New(aboutMD)
 
-	// Simple view router
 	router := container.NewStack(mainView)
-	w.SetContent(router)
+	fyneWindow.SetContent(router)
 
 	t := func(key string) string { return i18n.T(i18n.Current(), key) }
-
-	showMain := func() {
-		router.Objects = []fyne.CanvasObject{mainView}
-		router.Refresh()
-	}
 
 	var rebuildMenu func()
 	var showSettings func()
 
 	rebuildMenu = func() {
-		w.SetTitle(t("app.title"))
+		fyneWindow.SetTitle(t("app.title"))
 
-		pegasusGameFileGenerator := fyne.NewMenuItem(t("menuitem.pegasus.gameFileGen"), func() {
-			logging.Infof("menu click: pegasus.gameFileGen")
-			view := tmgui.NewGeneratorView(w)
-			// No Back button on pages entered from menu.
+		mPegasus := fyne.NewMenu(t("menu.pegasus"))
+		mSettings := fyne.NewMenu(t("menu.settings"))
+		mHelp := fyne.NewMenu(t("menu.help"))
+		fyneWindow.SetMainMenu(fyne.NewMainMenu(mSettings, mPegasus, mHelp))
+
+		pegasusRomManager := fyne.NewMenuItem(t("menuitem.pegasus.romManager"), func() {
+			logging.Infof("menu click: pegasus.romManager")
+			view := pegasusui.NewRomeManagerView(fyneWindow)
 			router.Objects = []fyne.CanvasObject{view}
 			router.Refresh()
 		})
+		mPegasus.Items = append(mPegasus.Items, pegasusRomManager)
 
-		pegasusOssHandheldMedia := fyne.NewMenuItem(t("menuitem.pegasus.ossHandheldMedia"), func() {
-			logging.Infof("menu click: pegasus.ossHandheldMedia")
-			view := tmgui.NewOssHandheldMediaConverterView(w)
-			// No Back button on pages entered from menu.
+		pegasusMediaManager := fyne.NewMenuItem(t("menuitem.pegasus.mediaManager"), func() {
+			logging.Infof("menu click: pegasus.mediaManager")
+			view := pegasusui.NewMediaManagerView(fyneWindow)
 			router.Objects = []fyne.CanvasObject{view}
 			router.Refresh()
 		})
+		mPegasus.Items = append(mPegasus.Items, pegasusMediaManager)
+
+		pegasusConfigManager := fyne.NewMenuItem(t("menuitem.pegasus.configManager"), func() {
+			logging.Infof("menu click: pegasus.configManager")
+			view := pegasusui.NewConfigManagerView(fyneWindow)
+			router.Objects = []fyne.CanvasObject{view}
+			router.Refresh()
+		})
+		mPegasus.Items = append(mPegasus.Items, pegasusConfigManager)
+
+		pegasusGameRemover := fyne.NewMenuItem(t("menuitem.pegasus.gameRemover"), func() {
+			logging.Infof("menu click: pegasus.gameRemover")
+			view := pegasusui.NewGameRemoverView(fyneWindow)
+			router.Objects = []fyne.CanvasObject{view}
+			router.Refresh()
+		})
+		mPegasus.Items = append(mPegasus.Items, pegasusGameRemover)
 
 		showSettings = func() {
 			logging.Infof("menu click: settings.settings")
@@ -95,22 +108,38 @@ func main() {
 				// Switch language and rebuild menus immediately.
 				i18n.SetCurrentPersisted(newLang)
 				rebuildMenu()
-				// NOTE: do NOT call showSettings() here; the settings view refreshes itself.
 			})
-			// No Back button on pages entered from menu.
 			router.Objects = []fyne.CanvasObject{container.NewPadded(view)}
 			router.Refresh()
 		}
+		mSettings.Items = append(mSettings.Items, fyne.NewMenuItem(t("menuitem.settings.settings"), showSettings))
 
-		mSettings := fyne.NewMenu(t("menu.settings"),
-			fyne.NewMenuItem(t("menuitem.settings.settings"), showSettings),
-		)
+		goDocs := fyne.NewMenuItem(t("menuitem.help.docs"), func() {
+			logging.Infof("menu click: help.docs")
+			u, err := url.Parse("https://jiangxincode.github.io/GameToolBox")
+			if err != nil {
+				dialog.ShowError(err, fyneWindow)
+				return
+			}
+			_ = fyneApp.OpenURL(u)
+		})
+		mHelp.Items = append(mHelp.Items, goDocs)
+		mHelp.Items = append(mHelp.Items, fyne.NewMenuItemSeparator())
 
-		mPegasus := fyne.NewMenu(t("menu.pegasus"), pegasusGameFileGenerator, pegasusOssHandheldMedia)
+		feedback := fyne.NewMenuItem(t("menuitem.help.feedback"), func() {
+			logging.Infof("menu click: help.feedback")
+			u, err := url.Parse("https://github.com/jiangxincode/GameToolBox/issues/new")
+			if err != nil {
+				dialog.ShowError(err, fyneWindow)
+				return
+			}
+			_ = fyneApp.OpenURL(u)
+		})
+		mHelp.Items = append(mHelp.Items, feedback)
 
 		checkUpdate := func() {
 			logging.Infof("menu click: help.update")
-			progress := dialog.NewProgress(t("menuitem.help.update"), "...", w)
+			progress := dialog.NewProgress(t("menuitem.help.update"), "...", fyneWindow)
 			progress.Show()
 			progressInfinite := progress
 			progressInfinite.SetValue(-1)
@@ -131,62 +160,44 @@ func main() {
 				fyne.Do(func() {
 					progress.Hide()
 					if err != nil {
-						dialog.ShowError(err, w)
+						dialog.ShowError(err, fyneWindow)
 						return
 					}
-					dialog.ShowInformation(t("menuitem.help.update"), msg, w)
+					dialog.ShowInformation(t("menuitem.help.update"), msg, fyneWindow)
 				})
 			}()
 		}
+		updateItem := fyne.NewMenuItem(t("menuitem.help.update"), checkUpdate)
+		mHelp.Items = append(mHelp.Items, updateItem)
 
-		mHelp := fyne.NewMenu(t("menu.help"),
-			fyne.NewMenuItem(t("menuitem.help.docs"), func() {
-				logging.Infof("menu click: help.docs")
-				u, err := url.Parse("https://jiangxincode.github.io/GameToolBox")
-				if err != nil {
-					dialog.ShowError(err, w)
-					return
-				}
-				_ = a.OpenURL(u)
-			}),
-			fyne.NewMenuItemSeparator(),
-			fyne.NewMenuItem(t("menuitem.help.feedback"), func() {
-				logging.Infof("menu click: help.feedback")
-				u, err := url.Parse("https://github.com/jiangxincode/GameToolBox/issues/new")
-				if err != nil {
-					dialog.ShowError(err, w)
-					return
-				}
-				_ = a.OpenURL(u)
-			}),
-			fyne.NewMenuItem(t("menuitem.help.update"), checkUpdate),
-			fyne.NewMenuItem(t("menuitem.help.contrib"), func() {
-				logging.Infof("menu click: help.contrib")
-				u, err := url.Parse("https://github.com/jiangxincode/GameToolBox")
-				if err != nil {
-					dialog.ShowError(err, w)
-					return
-				}
-				_ = a.OpenURL(u)
-			}),
-			fyne.NewMenuItemSeparator(),
-			fyne.NewMenuItem(t("menuitem.help.about"), func() {
-				logging.Infof("menu click: help.about")
-				showMain()
-			}),
-		)
+		contrib := fyne.NewMenuItem(t("menuitem.help.contrib"), func() {
+			logging.Infof("menu click: help.contrib")
+			u, err := url.Parse("https://github.com/jiangxincode/GameToolBox")
+			if err != nil {
+				dialog.ShowError(err, fyneWindow)
+				return
+			}
+			_ = fyneApp.OpenURL(u)
+		})
+		mHelp.Items = append(mHelp.Items, contrib)
+		mHelp.Items = append(mHelp.Items, fyne.NewMenuItemSeparator())
 
-		w.SetMainMenu(fyne.NewMainMenu(mSettings, mPegasus, mHelp))
+		showAbout := func() {
+			logging.Infof("menu click: help.about")
+			router.Objects = []fyne.CanvasObject{mainView}
+			router.Refresh()
+		}
+		about := fyne.NewMenuItem(t("menuitem.help.about"), showAbout)
+		mHelp.Items = append(mHelp.Items, about)
 	}
 
 	rebuildMenu()
 
 	resizeAndCenter := func(size fyne.Size) {
-		w.Resize(size)
-		w.CenterOnScreen()
+		fyneWindow.Resize(size)
+		fyneWindow.CenterOnScreen()
 	}
 
-	// Initial window size and center.
 	resizeAndCenter(fyne.NewSize(900, 650))
-	w.ShowAndRun()
+	fyneWindow.ShowAndRun()
 }
