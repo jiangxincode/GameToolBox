@@ -1,13 +1,11 @@
-# Getting Started Guide
+## 下载
 
-### Download
-
-Download the latest release from GitHub:
+从 GitHub 下载最新版本：
 
 [![Release Version](https://img.shields.io/github/v/release/jiangxincode/GameToolBox?include_prereleases&sort=semver)](https://github.com/jiangxincode/GameToolBox/releases/latest)
 
-If download speed is slow, you can speed up by using: <https://gh.jasonzeng.dev/>
+如果下载速度较慢，可以使用以下加速地址：<https://gh.jasonzeng.dev/>
 
-### Install
+## 安装
 
-Not need at all, enjoy it.
+无需安装，下载后直接运行即可。
