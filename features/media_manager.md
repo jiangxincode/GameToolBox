@@ -8,3 +8,5 @@
 ## 操作
 
 **天马G / Pegasus → 媒体文件管理器**
+
+![媒体文件管理器](https://raw.githubusercontent.com/wiki/jiangxincode/GameToolBox/media_manager.png)

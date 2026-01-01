@@ -8,3 +8,5 @@
 ## 操作
 
 **天马G / Pegasus → ROM文件管理器**
+
+![ROM文件管理器](https://raw.githubusercontent.com/wiki/jiangxincode/GameToolBox/rom_manager.png)
