@@ -18,8 +18,6 @@ import (
 	"github.com/game_tool_box/internal/pegasus"
 )
 
-// NewGameRemoverView is currently a copy of the ROM manager view.
-// We'll change it to actual remove behavior later without impacting other pages.
 func NewGameRemoverView(w fyne.Window) fyne.CanvasObject {
 	rootEntry := widget.NewEntry()
 	rootEntry.SetPlaceHolder("选择根目录（包含 metadata.pegasus.txt）")
@@ -232,8 +230,8 @@ func NewGameRemoverView(w fyne.Window) fyne.CanvasObject {
 			dialog.ShowError(fmt.Errorf("部分处理失败: %v", res.Errors[0]), w)
 			return
 		}
-		dialog.ShowInformation("提示", fmt.Sprintf("处理完成\nCreated=%d, Skipped=%d", res.Created, res.Skipped), w)
-		logging.Infof("pegasus: remove finished created=%d skipped=%d errors=%d", res.Created, res.Skipped, len(res.Errors))
+		dialog.ShowInformation("提示", fmt.Sprintf("处理完成\nRemoved=%d, Skipped=%d", res.Removed, res.Skipped), w)
+		logging.Infof("pegasus: remove finished removed=%d skipped=%d errors=%d", res.Removed, res.Skipped, len(res.Errors))
 	}
 
 	chooseRootBtn := widget.NewButton("设置根目录", func() {
