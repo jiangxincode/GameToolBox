@@ -21,9 +21,8 @@ ease](https://github.com/jiangxincode/GameToolBox/actions/workflows/BuildAndRele
 
 * 功能丰富，支持天马G/Pegasus 游戏配置、媒体与 ROM 文件的管理与整理。
 * 跨平台支持 Windows、macOS 与 Linux。
-* 已经完成平台基础架构搭建（日志、国际化、文档、CI等），后续会持续添加更多功能。
-* 开源免费，基于 Apache License V2.0 许可证发布。
 * 界面简洁，易于使用。
+* 开源免费，基于 Apache License V2.0 许可证发布。
 
 ## 下载与安装
 
@@ -34,5 +33,7 @@ ease](https://github.com/jiangxincode/GameToolBox/actions/workflows/BuildAndRele
 [![Features](https://img.shields.io/badge/GameToolBox-Features-green.svg)](https://jiangxincode.github.io/GameToolBox/#/features/rom_manager)
 
 ## 贡献你的力量
+
+对于开发者，欢迎一起参与贡献。本项目已经完成平台基础架构搭建（日志、国际化、文档、CI等），方便大家快速上手开发新功能。
 
 [![Contributing](https://img.shields.io/badge/GameToolBox-Contributing-green.svg)](https://jiangxincode.github.io/GameToolBox/#/contributing)
