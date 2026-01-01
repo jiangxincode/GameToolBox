@@ -25,7 +25,7 @@ ease](https://github.com/jiangxincode/GameToolBox/actions/workflows/BuildAndRele
 
 ## 功能与使用
 
-[![Features](https://img.shields.io/badge/GameToolBox-Features-green.svg)](https://jiangxincode.github.io/GameToolBox/#/features/rom_generator)
+[![Features](https://img.shields.io/badge/GameToolBox-Features-green.svg)](https://jiangxincode.github.io/GameToolBox/#/features/rom_manager)
 
 ## 贡献你的力量
 

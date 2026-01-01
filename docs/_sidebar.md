@@ -1,9 +1,14 @@
 - [Home](/)
-- [Getting Started Guide](/)
-  - [Download and Install](getting_started_guide.md)
-- [Features](/)
-  - [ROM Generator](features/rom_generator.md)
-  - [Media Directory Generator](features/media_directory_generator.md)
-  - [Gamelist Converter](features/gamelist_converter.md)
+- [Getting Started Guide](getting_started_guide.md)
+
+- 天马G / Pegasus
+  - [ROM文件管理器](features/rom_manager.md)
+  - [媒体文件管理器](features/media_manager.md)
+  - [配置文件管理器（metadata.pegasus.txt）](features/config_manager.md)
+  - [游戏删除器](features/game_remover.md)
+
+- 设置
+  - [设置](settings.md)
+
 - Developer
   - [Contributing](contributing.md)
