@@ -1,4 +1,3 @@
-- [主页](/)
 - [下载与安装](getting_started_guide.md)
 - [设置](settings.md)
 - [参与贡献](contributing.md)
