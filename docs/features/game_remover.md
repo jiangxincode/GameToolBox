@@ -5,3 +5,5 @@
 ## 操作
 
 **天马G / Pegasus → 游戏删除器**
+
+![游戏删除器](https://raw.githubusercontent.com/wiki/jiangxincode/GameToolBox/game_remover.png)

@@ -9,4 +9,6 @@
 
 ## 操作
 
-**天马G / Pegasus → 配置管理器**
+**天马G / Pegasus → 配置文件管理器**
+
+![配置文件管理器](https://raw.githubusercontent.com/wiki/jiangxincode/GameToolBox/config_manager.png)
