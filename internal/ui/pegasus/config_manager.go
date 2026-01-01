@@ -200,59 +200,6 @@ func NewConfigManagerView(w fyne.Window) fyne.CanvasObject {
 		searchEntry.SetText("")
 	})
 
-	selectAll := func(sel bool) {
-		for i := range allGames {
-			allGames[i].Selected = sel
-		}
-		table.Refresh()
-	}
-
-	loadGameData := func() {
-		root := strings.TrimSpace(rootEntry.Text)
-		logging.Infof("pegasus: click load data root=%s", root)
-		if root == "" {
-			dialog.ShowInformation("提示", "请先设置根目录", w)
-			return
-		}
-		games, err := pegasus.LoadGamesFromRootDir(root)
-		if err != nil {
-			dialog.ShowError(err, w)
-			return
-		}
-		allGames = games
-		applyFilter(searchEntry.Text)
-		table.Refresh()
-		loadedLabel.SetText(fmt.Sprintf("已加载 %d 个游戏", len(allGames)))
-		dialog.ShowInformation("提示", "游戏数据加载完成", w)
-	}
-
-	generateSelected := func() {
-		root := strings.TrimSpace(rootEntry.Text)
-		logging.Infof("pegasus: click generate selected root=%s", root)
-		if root == "" {
-			dialog.ShowInformation("提示", "请先设置根目录", w)
-			return
-		}
-		selected := 0
-		for _, g := range allGames {
-			if g.Selected {
-				selected++
-			}
-		}
-		if selected == 0 {
-			dialog.ShowInformation("提示", "请选择要生成的游戏", w)
-			return
-		}
-
-		res := pegasus.GenerateSelectedConfigFiles(root, allGames)
-		if len(res.Errors) > 0 {
-			dialog.ShowError(fmt.Errorf("部分生成失败: %v", res.Errors[0]), w)
-			return
-		}
-		dialog.ShowInformation("提示", fmt.Sprintf("文件生成完成\nCreated=%d, Skipped=%d", res.Created, res.Skipped), w)
-		logging.Infof("pegasus: generate finished created=%d skipped=%d errors=%d", res.Created, res.Skipped, len(res.Errors))
-	}
-
 	chooseRootBtn := widget.NewButton("设置根目录", func() {
 		logging.Infof("pegasus: click choose root")
 		fd := dialog.NewFolderOpen(func(uri fyne.ListableURI, err error) {
@@ -271,17 +218,160 @@ func NewConfigManagerView(w fyne.Window) fyne.CanvasObject {
 		fd.Show()
 	})
 
+	loadFromRomFiles := func() {
+		root := strings.TrimSpace(rootEntry.Text)
+		logging.Infof("pegasus: click load from rom files root=%s", root)
+		if root == "" {
+			dialog.ShowInformation("提示", "请先设置根目录", w)
+			return
+		}
+		games, err := pegasus.LoadGamesFromRomFiles(root)
+		if err != nil {
+			dialog.ShowError(err, w)
+			return
+		}
+		allGames = games
+		applyFilter(searchEntry.Text)
+		table.Refresh()
+		loadedLabel.SetText(fmt.Sprintf("已加载 %d 个游戏", len(allGames)))
+		dialog.ShowInformation("提示", "ROM 文件扫描完成", w)
+	}
+
+	listMissing := func() {
+		root := strings.TrimSpace(rootEntry.Text)
+		logging.Infof("pegasus: click list missing root=%s", root)
+		if root == "" {
+			dialog.ShowInformation("提示", "请先设置根目录", w)
+			return
+		}
+		diff, err := pegasus.DiffConfigAgainstRomFiles(root)
+		if err != nil {
+			dialog.ShowError(err, w)
+			return
+		}
+		if len(diff.MissingInConfig) == 0 {
+			dialog.ShowInformation("提示", "配置文件中没有缺失的游戏", w)
+			return
+		}
+		lines := make([]string, 0, len(diff.MissingInConfig))
+		for _, g := range diff.MissingInConfig {
+			lines = append(lines, fmt.Sprintf("%s (%s)", g.GameName, g.FileName))
+		}
+		dialog.ShowInformation("缺失的游戏", strings.Join(lines, "\n"), w)
+	}
+
+	listExtra := func() {
+		root := strings.TrimSpace(rootEntry.Text)
+		logging.Infof("pegasus: click list extra root=%s", root)
+		if root == "" {
+			dialog.ShowInformation("提示", "请先设置根目录", w)
+			return
+		}
+		diff, err := pegasus.DiffConfigAgainstRomFiles(root)
+		if err != nil {
+			dialog.ShowError(err, w)
+			return
+		}
+		if len(diff.ExtraInConfig) == 0 {
+			dialog.ShowInformation("提示", "配置文件中没有多余的游戏", w)
+			return
+		}
+		lines := make([]string, 0, len(diff.ExtraInConfig))
+		for _, g := range diff.ExtraInConfig {
+			lines = append(lines, fmt.Sprintf("%s (%s)", g.GameName, g.FileName))
+		}
+		dialog.ShowInformation("多余的游戏", strings.Join(lines, "\n"), w)
+	}
+
+	deleteExtra := func() {
+		root := strings.TrimSpace(rootEntry.Text)
+		logging.Infof("pegasus: click delete extra root=%s", root)
+		if root == "" {
+			dialog.ShowInformation("提示", "请先设置根目录", w)
+			return
+		}
+		diff, err := pegasus.DiffConfigAgainstRomFiles(root)
+		if err != nil {
+			dialog.ShowError(err, w)
+			return
+		}
+		if len(diff.ExtraInConfig) == 0 {
+			dialog.ShowInformation("提示", "配置文件中没有多余的游戏", w)
+			return
+		}
+		confirmMsg := fmt.Sprintf("将从 metadata.pegasus.txt 中删除 %d 条多余的游戏记录，是否继续？", len(diff.ExtraInConfig))
+		dialog.ShowConfirm("确认删除", confirmMsg, func(ok bool) {
+			if !ok {
+				return
+			}
+			files := make([]string, 0, len(diff.ExtraInConfig))
+			for _, g := range diff.ExtraInConfig {
+				files = append(files, g.FileName)
+			}
+			removed, err := pegasus.RemoveGamesFromMetadata(root, files)
+			if err != nil {
+				dialog.ShowError(err, w)
+				return
+			}
+			dialog.ShowInformation("提示", fmt.Sprintf("删除完成，已删除 %d 条记录", removed), w)
+		}, w)
+	}
+
+	listDuplicates := func() {
+		root := strings.TrimSpace(rootEntry.Text)
+		logging.Infof("pegasus: click list duplicates root=%s", root)
+		if root == "" {
+			dialog.ShowInformation("提示", "请先设置根目录", w)
+			return
+		}
+		diff, err := pegasus.DiffConfigAgainstRomFiles(root)
+		if err != nil {
+			dialog.ShowError(err, w)
+			return
+		}
+		if len(diff.DuplicateInConfig) == 0 {
+			dialog.ShowInformation("提示", "配置文件中没有重复的游戏", w)
+			return
+		}
+		dialog.ShowInformation("重复的游戏", strings.Join(diff.DuplicateInConfig, "\n"), w)
+	}
+
+	fillMissing := func() {
+		root := strings.TrimSpace(rootEntry.Text)
+		logging.Infof("pegasus: click fill missing root=%s", root)
+		if root == "" {
+			dialog.ShowInformation("提示", "请先设置根目录", w)
+			return
+		}
+		diff, err := pegasus.DiffConfigAgainstRomFiles(root)
+		if err != nil {
+			dialog.ShowError(err, w)
+			return
+		}
+		if len(diff.MissingInConfig) == 0 {
+			dialog.ShowInformation("提示", "配置文件中没有缺失的游戏", w)
+			return
+		}
+		confirmMsg := fmt.Sprintf("将向 metadata.pegasus.txt 追加 %d 条缺失的游戏记录，是否继续？", len(diff.MissingInConfig))
+		dialog.ShowConfirm("确认补齐", confirmMsg, func(ok bool) {
+			if !ok {
+				return
+			}
+			if err := pegasus.AppendMissingGamesToMetadata(root, diff.MissingInConfig); err != nil {
+				dialog.ShowError(err, w)
+				return
+			}
+			dialog.ShowInformation("提示", "补齐完成", w)
+		}, w)
+	}
+
 	buttonRow := container.NewHBox(
-		widget.NewButton("加载/刷新数据", loadGameData),
-		widget.NewButton("全选", func() {
-			logging.Infof("pegasus: click select all")
-			selectAll(true)
-		}),
-		widget.NewButton("取消全选", func() {
-			logging.Infof("pegasus: click deselect all")
-			selectAll(false)
-		}),
-		widget.NewButton("生成选中文件", generateSelected),
+		widget.NewButton("从ROM文件加载数据", loadFromRomFiles),
+		widget.NewButton("列出配置文件中缺失的游戏", listMissing),
+		widget.NewButton("补齐配置文件中缺失的游戏", fillMissing),
+		widget.NewButton("列出配置文件中多余的游戏", listExtra),
+		widget.NewButton("删除配置文件中多余的游戏", deleteExtra),
+		widget.NewButton("列出配置文件中重复的游戏", listDuplicates),
 	)
 
 	// Old: searchRow := container.NewHBox(widget.NewLabel("搜索:"), searchEntry, clearSearchBtn)
