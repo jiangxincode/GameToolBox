@@ -14,16 +14,3 @@ file:重力眩晕.zip
 sort-by:002
 developer:重力眩晕
 description:（动作冒险）PSVita原创IP巅峰之作，独创重力操控系统带来前所未有的移动体验。在浮空城市中自由飞翔，美术风格独特，剧情悬疑引人入胜。
-
-game:伊苏8
-file:伊苏8.zip
-sort-by:003
-developer:伊苏8
-description:伊苏8
-
-game:女神异闻录4黄金版
-file:女神异闻录4黄金版.zip
-sort-by:004
-developer:女神异闻录4黄金版
-description:女神异闻录4黄金版
-

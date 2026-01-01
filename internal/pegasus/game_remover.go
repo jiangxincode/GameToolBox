@@ -7,6 +7,8 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/game_tool_box/internal/logging"
 )
 
 // GameRemover is the backend for the "Pegasus Game Remover" feature.
@@ -62,6 +64,7 @@ func RemoveSelectedGames(rootDir string, games []GameModel) GameRemoveResult {
 	metadataPath := filepath.Join(rootDir, "metadata.pegasus.txt")
 	removedFromMetadata, err := removeSelectedFromMetadata(metadataPath, selectedByName)
 	if err != nil {
+		logging.Errorf("pegasus.RemoveSelectedGames: removeSelectedFromMetadata failed path=%s err=%v", metadataPath, err)
 		res.Failed++
 		res.Errors = append(res.Errors, err)
 	} else {
@@ -75,6 +78,7 @@ func RemoveSelectedGames(rootDir string, games []GameModel) GameRemoveResult {
 		// media/<gameName>
 		mediaDir := filepath.Join(rootDir, "media", name)
 		if err := os.RemoveAll(mediaDir); err != nil {
+			logging.Errorf("pegasus.RemoveSelectedGames: remove media dir failed dir=%s err=%v", mediaDir, err)
 			res.Failed++
 			res.Errors = append(res.Errors, fmt.Errorf("remove media dir %s: %w", mediaDir, err))
 		}
@@ -96,6 +100,7 @@ func RemoveSelectedGames(rootDir string, games []GameModel) GameRemoveResult {
 				res.Skipped++
 				continue
 			}
+			logging.Errorf("pegasus.RemoveSelectedGames: remove rom failed path=%s err=%v", romPath, err)
 			res.Failed++
 			res.Errors = append(res.Errors, fmt.Errorf("remove rom %s: %w", romPath, err))
 			continue

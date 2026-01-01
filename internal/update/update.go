@@ -8,6 +8,8 @@ import (
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/game_tool_box/internal/logging"
 )
 
 type ReleaseInfo struct {
@@ -62,6 +64,7 @@ func latestFromReleases(ctx context.Context, owner, repo string) (ReleaseInfo, e
 
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
+		logging.Errorf("update: http request failed err=%v", err)
 		return ReleaseInfo{}, err
 	}
 	defer func() { _ = resp.Body.Close() }()
@@ -100,6 +103,7 @@ func latestFromTags(ctx context.Context, owner, repo string) (ReleaseInfo, error
 
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
+		logging.Errorf("update: http request failed err=%v", err)
 		return ReleaseInfo{}, err
 	}
 	defer func() { _ = resp.Body.Close() }()
