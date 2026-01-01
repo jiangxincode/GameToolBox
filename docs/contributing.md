@@ -20,7 +20,10 @@
 
 1. 安装 Go（1.20+），并配置好环境变量 `GOPATH` 和 `GOROOT`。
 2. 下载依赖：`go mod download`
-3. 构建：`go build -o game_tool_box.exe .\cmd\game_tool_box`
+3. 构建：
+    a. Windows: `go build -o game_tool_box.exe .\cmd\game_tool_box`
+    b. macOS: `go build -o game_tool_box ./cmd/game_tool_box`
+    c. Linux: `sudo apt-get install -y libgl1-mesa-dev xorg-dev; go build -o game_tool_box ./cmd/game_tool_box`
 4. 运行：`./game_tool_box.exe`
 
 ## 项目结构
