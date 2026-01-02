@@ -78,7 +78,6 @@ func main() {
 		mPegasus := fyne.NewMenu(t("menu.pegasus"))
 		mSettings := fyne.NewMenu(t("menu.settings"))
 		mHelp := fyne.NewMenu(t("menu.help"))
-		fyneWindow.SetMainMenu(fyne.NewMainMenu(mSettings, mPegasus, mHelp))
 
 		pegasusRomManager := fyne.NewMenuItem(t("menuitem.pegasus.romManager"), func() {
 			logging.Infof("menu click: pegasus.romManager")
@@ -119,14 +118,18 @@ func main() {
 		showSettings = func() {
 			logging.Infof("menu click: settings.settings")
 			setBreadcrumb(t("menu.settings") + " / " + t("menuitem.settings.settings"))
-			view := settingsui.NewSettingsView(t, func(newLang i18n.Lang) {
-				logging.Infof("settings change: lang=%s", newLang)
-				// Switch language and rebuild menus immediately.
-				i18n.SetCurrentPersisted(newLang)
-				rebuildMenu()
-				// restore breadcrumb in the new language
-				setBreadcrumb(t("menu.settings") + " / " + t("menuitem.settings.settings"))
-			})
+			view := settingsui.NewSettingsView(
+				t,
+				func(newLang i18n.Lang) {
+					logging.Infof("settings change: lang=%s", newLang)
+					i18n.SetCurrentPersisted(newLang)
+				},
+				func() {
+					// Rebuild and re-set menus after theme/lang changes.
+					rebuildMenu()
+					setBreadcrumb(t("menu.settings") + " / " + t("menuitem.settings.settings"))
+				},
+			)
 			router.Objects = []fyne.CanvasObject{container.NewPadded(view)}
 			router.Refresh()
 		}
@@ -208,6 +211,9 @@ func main() {
 		}
 		about := fyne.NewMenuItem(t("menuitem.help.about"), showAbout)
 		mHelp.Items = append(mHelp.Items, about)
+
+		// IMPORTANT: Set the main menu only after items are fully populated.
+		fyneWindow.SetMainMenu(fyne.NewMainMenu(mSettings, mPegasus, mHelp))
 	}
 
 	rebuildMenu()

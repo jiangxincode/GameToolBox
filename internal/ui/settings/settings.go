@@ -15,9 +15,14 @@ import (
 // NewSettingsView returns the settings page.
 //
 // Contract:
-//   - onLangChanged: will be called after user selects a language.
+//   - onLangChanged: called after user selects a new language (you should persist it).
+//   - onAppUIRefresh: optional; called after language/theme changes to refresh window-level UI (e.g. menus).
 //   - t: translation function for current language.
-func NewSettingsView(t func(key string) string, onLangChanged func(lang i18n.Lang)) fyne.CanvasObject {
+func NewSettingsView(
+	t func(key string) string,
+	onLangChanged func(lang i18n.Lang),
+	onAppUIRefresh func(),
+) fyne.CanvasObject {
 	// Widgets we need to update on language/theme switch.
 	title := widget.NewLabelWithStyle("", fyne.TextAlignLeading, fyne.TextStyle{Bold: true})
 
@@ -54,13 +59,13 @@ func NewSettingsView(t func(key string) string, onLangChanged func(lang i18n.Lan
 				return
 			}
 			lang, ok := langByLabel[selected]
-			if !ok {
-				return
-			}
-			if lang == i18n.Current() {
+			if !ok || lang == i18n.Current() {
 				return
 			}
 			onLangChanged(lang)
+			if onAppUIRefresh != nil {
+				onAppUIRefresh()
+			}
 			refresh()
 		}
 
@@ -99,7 +104,6 @@ func NewSettingsView(t func(key string) string, onLangChanged func(lang i18n.Lan
 			case "dark":
 				fyne.CurrentApp().Settings().SetTheme(theme.DarkTheme())
 			default:
-				// "system": use default theme (follows system preference).
 				fyne.CurrentApp().Settings().SetTheme(theme.DefaultTheme())
 				key = "system"
 			}
@@ -108,6 +112,10 @@ func NewSettingsView(t func(key string) string, onLangChanged func(lang i18n.Lan
 			c, _ := config.Load()
 			c.Theme = key
 			_ = config.Save(c)
+
+			if onAppUIRefresh != nil {
+				onAppUIRefresh()
+			}
 		}
 
 		// Load persisted theme selection.
