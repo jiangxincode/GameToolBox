@@ -82,13 +82,13 @@ func newGameListUI(w fyne.Window, logPrefix string) *gameListUI {
 
 	ui.coverImg = canvas.NewImageFromResource(nil)
 	ui.coverImg.FillMode = canvas.ImageFillContain
-	ui.coverImg.SetMinSize(fyne.NewSize(300, 400))
+	ui.coverImg.SetMinSize(fyne.NewSize(240, 280))
 	coverBox := container.New(layout.NewMaxLayout(), ui.coverImg)
 
 	ui.gameDetail = widget.NewRichTextFromMarkdown("")
 	ui.gameDetail.Wrapping = fyne.TextWrapWord
 	ui.gameDetailScroll = container.NewVScroll(ui.gameDetail)
-	ui.gameDetailScroll.SetMinSize(fyne.NewSize(320, 220))
+	ui.gameDetailScroll.SetMinSize(fyne.NewSize(280, 160))
 	gameDetailBox := widget.NewCard("游戏详情", "", ui.gameDetailScroll)
 
 	mediaTabs := container.NewAppTabs(
