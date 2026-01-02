@@ -2,6 +2,8 @@
 
 该页面对应应用内菜单：**设置 → 设置**。
 
+![设置界面](https://raw.githubusercontent.com/wiki/jiangxincode/GameToolBox/settings.gif)
+
 ## 语言
 
 - 支持：中文 / 英文
