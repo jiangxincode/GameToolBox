@@ -1,0 +1,35 @@
+collection: ALOYS_PSV
+sort-by: 103
+shortname:aloys_psv
+launch: "{env.appdir}\Emulators\vita3k-3842-ee8b6f11_windows\Vita3K.exe" "{file.path}"
+
+game:神秘海域 黄金深渊
+file:神秘海域 黄金深渊.zip
+sort-by:001
+developer:神秘海域 黄金深渊
+description:（动作冒险）PSVita独占德雷克冒险，画面表现力强劲，充分利用PSVita机能。讲述在中美洲寻找黄金城市的刺激旅程，解谜与战斗平衡出色。注：需设置GPU屏幕过滤为"最临近"，内部分辨率为1.25，并使用繁体中文以避免贴图错误和无汉化。
+
+game:胧村正
+file:胧村正.zip
+sort-by:011
+developer:胧村正
+description:（动作RPG）香草社和风美术巅峰，浮世绘风格画面精美绝伦。武士刀战斗爽快，料理系统有趣，四个DLC剧情丰富，音乐极具日本传统韵味。
+
+game:讨鬼传 极
+file:讨鬼传 极.zip
+sort-by:041
+developer:讨鬼传 极
+description:（共斗动作）和风幻想共斗游戏，追加大量新要素的加强版。战斗爽快，御魂系统丰富，支持四人联机，剧情完整度高。
+
+
+game:召唤之夜6 消失的境界
+file:召唤之夜6 消失的境界.zip
+sort-by:046
+developer:召唤之夜6 消失的境界
+description:（SRPG）系列15周年纪念作，融合策略战斗与视觉小说要素。双主角设定，剧情分支丰富，召唤兽系统独具特色，战棋爱好者值得一试。
+
+game:刀剑神域 虚空断章
+file:刀剑神域 虚空断章.zip
+sort-by:047
+developer:刀剑神域 虚空断章
+description:（动作RPG）SAO系列PSVita首作，包含原创剧情"虚空区"。以艾恩葛朗特为主要舞台，重现原作楼层攻略，战斗系统承袭主机版基础。注：画面表现较后续作品稍弱，但剧情内容丰富。
