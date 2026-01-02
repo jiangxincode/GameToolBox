@@ -34,6 +34,8 @@ type gameListUI struct {
 
 	table            *widget.Table
 	coverImg         *canvas.Image
+	noCoverLabel     *widget.Label
+	coverBox         *fyne.Container
 	gameDetail       *widget.RichText
 	gameDetailScroll *container.Scroll
 	right            fyne.CanvasObject
@@ -83,7 +85,12 @@ func newGameListUI(w fyne.Window, logPrefix string) *gameListUI {
 	ui.coverImg = canvas.NewImageFromResource(nil)
 	ui.coverImg.FillMode = canvas.ImageFillContain
 	ui.coverImg.SetMinSize(fyne.NewSize(240, 280))
-	coverBox := container.New(layout.NewMaxLayout(), ui.coverImg)
+
+	ui.noCoverLabel = widget.NewLabelWithStyle("无封面", fyne.TextAlignCenter, fyne.TextStyle{Bold: true})
+	ui.noCoverLabel.Hide()
+
+	// Stack: image at bottom, text hint on top.
+	ui.coverBox = container.New(layout.NewMaxLayout(), ui.coverImg, container.NewCenter(ui.noCoverLabel))
 
 	ui.gameDetail = widget.NewRichTextFromMarkdown("")
 	ui.gameDetail.Wrapping = fyne.TextWrapWord
@@ -92,8 +99,8 @@ func newGameListUI(w fyne.Window, logPrefix string) *gameListUI {
 	gameDetailBox := widget.NewCard("游戏详情", "", ui.gameDetailScroll)
 
 	mediaTabs := container.NewAppTabs(
-		container.NewTabItem("封面图片", coverBox),
-		container.NewTabItem("视频预览", widget.NewLabel("Go 版暂不支持视频预览")),
+		container.NewTabItem("封面图片", ui.coverBox),
+		container.NewTabItem("视频预览", widget.NewLabel("暂不支持，敬请期待！")),
 	)
 	ui.right = container.NewBorder(nil, gameDetailBox, nil, nil, mediaTabs)
 
@@ -204,22 +211,41 @@ func (ui *gameListUI) selectedCount() int {
 	return selected
 }
 
+func (ui *gameListUI) resetCoverImage() {
+	// Some platforms/cache paths keep showing the last decoded bitmap even after
+	// setting File/Resource to empty. Re-create the Image to force a real clear.
+	newImg := canvas.NewImageFromResource(nil)
+	newImg.FillMode = canvas.ImageFillContain
+	newImg.SetMinSize(ui.coverImg.MinSize())
+
+	ui.coverImg = newImg
+	// coverBox.Objects order: [image, centered label]
+	if ui.coverBox != nil && len(ui.coverBox.Objects) > 0 {
+		ui.coverBox.Objects[0] = ui.coverImg
+		ui.coverBox.Refresh()
+	}
+}
+
 func (ui *gameListUI) showDetailFor(g pegasus.GameModel) {
-	boxFront := g.BoxFrontImagePath
+	boxFront := strings.TrimSpace(g.BoxFrontImagePath)
 	if boxFront != "" {
 		if _, err := os.Stat(boxFront); err == nil {
+			ui.noCoverLabel.Hide()
 			ui.coverImg.File = boxFront
 			ui.coverImg.Resource = nil
 			ui.coverImg.Refresh()
+			ui.noCoverLabel.Refresh()
 		} else {
-			ui.coverImg.File = ""
-			ui.coverImg.Resource = nil
-			ui.coverImg.Refresh()
+			// file path set but missing on disk -> placeholder
+			ui.resetCoverImage()
+			ui.noCoverLabel.Show()
+			ui.noCoverLabel.Refresh()
 		}
 	} else {
-		ui.coverImg.File = ""
-		ui.coverImg.Resource = nil
-		ui.coverImg.Refresh()
+		// no cover path -> placeholder (never reuse previous image)
+		ui.resetCoverImage()
+		ui.noCoverLabel.Show()
+		ui.noCoverLabel.Refresh()
 	}
 
 	md := strings.Builder{}
