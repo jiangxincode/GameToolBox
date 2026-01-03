@@ -35,7 +35,6 @@
 - `internal/i18n/`：国际化相关。
 - `internal/resources/`：内嵌资源。
 - `docs/`：项目文档。
-- `examples/`：历史/练习用的独立示例程序（可忽略）。
 
 ## 贡献者
 
