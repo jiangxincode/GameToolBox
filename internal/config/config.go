@@ -14,7 +14,8 @@ type Config struct {
 	RootDir string `json:"rootDir,omitempty"`
 }
 
-func configDir() (string, error) {
+// Dir returns the application data directory used to store config/log files.
+func Dir() (string, error) {
 	// Allow overriding for testing or portable setups.
 	if base := os.Getenv("GAMETOOLBOX_HOME"); base != "" {
 		return filepath.Join(base, ".gametoolbox"), nil
@@ -28,7 +29,7 @@ func configDir() (string, error) {
 }
 
 func configPath() (string, error) {
-	dir, err := configDir()
+	dir, err := Dir()
 	if err != nil {
 		return "", err
 	}

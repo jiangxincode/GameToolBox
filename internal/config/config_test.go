@@ -13,7 +13,7 @@ func TestConfigDir_UsesDotGameToolBoxUnderHomeOverride(t *testing.T) {
 	}
 	t.Cleanup(func() { _ = os.Unsetenv("GAMETOOLBOX_HOME") })
 
-	dir, err := configDir()
+	dir, err := Dir()
 	if err != nil {
 		t.Fatalf("configDir() error: %v", err)
 	}

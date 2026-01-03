@@ -6,6 +6,8 @@ import (
 	"os"
 	"path/filepath"
 	"sync"
+
+	"github.com/game_tool_box/internal/config"
 )
 
 var (
@@ -15,7 +17,6 @@ var (
 )
 
 // Init initializes the app logger.
-// Log file is stored alongside config.json (i.e. ~/.gametoolbox/app.log).
 //
 // Safe to call multiple times.
 func Init() {
@@ -25,7 +26,7 @@ func Init() {
 		return
 	}
 
-	dir, err := configDir()
+	dir, err := config.Dir()
 	if err != nil {
 		// fallback to stdout only
 		logger = log.New(os.Stdout, "", log.LstdFlags|log.Lmicroseconds)
@@ -78,17 +79,4 @@ func Errorf(format string, args ...any) {
 		return
 	}
 	l.Printf("ERROR "+format, args...)
-}
-
-// --- small internal helpers ---
-
-func configDir() (string, error) {
-	if base := os.Getenv("GAMETOOLBOX_HOME"); base != "" {
-		return filepath.Join(base, ".gametoolbox"), nil
-	}
-	base, err := os.UserHomeDir()
-	if err != nil {
-		return "", err
-	}
-	return filepath.Join(base, ".gametoolbox"), nil
 }
