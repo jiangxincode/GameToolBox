@@ -46,7 +46,7 @@ func NewGameRemoverView(w fyne.Window) fyne.CanvasObject {
 			return
 		}
 		if ui.selectedCount() == 0 {
-			dialog.ShowInformation("提示", "请选择要移除的游戏", w)
+			dialog.ShowInformation("提示", "请选择要删除的游戏", w)
 			return
 		}
 
@@ -69,7 +69,7 @@ func NewGameRemoverView(w fyne.Window) fyne.CanvasObject {
 			logging.Infof("%s click deselect all", logPrefix)
 			ui.selectAll(false)
 		}),
-		widget.NewButton("移除选中游戏", removeSelected),
+		widget.NewButton("删除选中游戏", removeSelected),
 	)
 
 	searchRow := newSearchRow(ui.search, logPrefix)
