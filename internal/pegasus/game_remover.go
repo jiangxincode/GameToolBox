@@ -3,12 +3,12 @@ package pegasus
 import (
 	"bufio"
 	"fmt"
-	"io"
 	"os"
 	"path/filepath"
 	"strings"
 
 	"github.com/game_tool_box/internal/logging"
+	"github.com/game_tool_box/internal/pegasus/metadata"
 )
 
 // GameRemover is the backend for the "Pegasus Game Remover" feature.
@@ -127,7 +127,7 @@ func removeSelectedFromMetadata(metadataPath string, selectedByName map[string]G
 	if err != nil {
 		return 0, err
 	}
-	// Ensure out is closed on all error paths; on success we'll close explicitly before rename.
+	// Ensure out is closed on all error paths; on success we'll close explicitly before replace.
 	defer func() {
 		if err != nil {
 			_ = out.Close()
@@ -181,41 +181,10 @@ func removeSelectedFromMetadata(metadataPath string, selectedByName map[string]G
 		return removed, err
 	}
 
-	// Try rename first.
-	if renameErr := os.Rename(tmp, metadataPath); renameErr == nil {
-		return removed, nil
-	}
-
-	// If the destination exists/locked (common on Windows), try best-effort replace.
-	if rmErr := os.Remove(metadataPath); rmErr == nil || os.IsNotExist(rmErr) {
-		if renameErr2 := os.Rename(tmp, metadataPath); renameErr2 == nil {
-			return removed, nil
-		}
-	}
-
-	// Last resort: copy temp content into destination, then remove temp.
-	in, inErr := os.Open(tmp)
-	if inErr != nil {
-		err = inErr
+	if repErr := metadata.ReplaceFileAtomic(metadataPath, tmp); repErr != nil {
+		err = repErr
 		return removed, err
 	}
-	defer func() { _ = in.Close() }()
-
-	// Truncate/write destination
-	dst, dstErr := os.OpenFile(metadataPath, os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0o644)
-	if dstErr != nil {
-		err = dstErr
-		return removed, err
-	}
-	defer func() { _ = dst.Close() }()
-
-	if _, cErr := io.Copy(dst, in); cErr != nil {
-		err = cErr
-		return removed, err
-	}
-	_ = dst.Close()
-	_ = in.Close()
-	_ = os.Remove(tmp)
 
 	return removed, nil
 }

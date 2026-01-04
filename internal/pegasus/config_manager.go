@@ -3,12 +3,13 @@ package pegasus
 import (
 	"bufio"
 	"fmt"
-	"io"
 	"os"
 	"path/filepath"
 	"sort"
 	"strconv"
 	"strings"
+
+	"github.com/game_tool_box/internal/pegasus/metadata"
 )
 
 // ConfigManager is the backend for the "Pegasus Config Manager" feature.
@@ -462,35 +463,9 @@ func RemoveGamesFromMetadata(rootDir string, filesToRemove []string) (removed in
 		return removed, closeErr
 	}
 
-	// Replace (Windows-friendly): rename, then remove+rename, then copy fallback.
-	if renameErr := os.Rename(tmp, meta); renameErr == nil {
-		return removed, nil
+	if repErr := metadata.ReplaceFileAtomic(meta, tmp); repErr != nil {
+		return removed, repErr
 	}
-	if rmErr := os.Remove(meta); rmErr == nil || os.IsNotExist(rmErr) {
-		if renameErr2 := os.Rename(tmp, meta); renameErr2 == nil {
-			return removed, nil
-		}
-	}
-
-	// last resort: copy tmp into meta
-	in2, inErr := os.Open(tmp)
-	if inErr != nil {
-		return removed, inErr
-	}
-	defer func() { _ = in2.Close() }()
-
-	out2, outErr := os.OpenFile(meta, os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0o644)
-	if outErr != nil {
-		return removed, outErr
-	}
-	defer func() { _ = out2.Close() }()
-
-	if _, cErr := io.Copy(out2, in2); cErr != nil {
-		return removed, cErr
-	}
-	_ = out2.Close()
-	_ = in2.Close()
-	_ = os.Remove(tmp)
 
 	return removed, nil
 }
