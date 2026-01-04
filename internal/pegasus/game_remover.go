@@ -1,7 +1,6 @@
 package pegasus
 
 import (
-	"bufio"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -112,79 +111,30 @@ func RemoveSelectedGames(rootDir string, games []GameModel) GameRemoveResult {
 }
 
 func removeSelectedFromMetadata(metadataPath string, selectedByName map[string]GameModel) (removed int, err error) {
-	f, err := os.Open(metadataPath)
+	doc, err := metadata.ReadFile(metadataPath)
 	if err != nil {
 		if os.IsNotExist(err) {
-			// Nothing to do
 			return 0, nil
 		}
 		return 0, err
 	}
-	defer func() { _ = f.Close() }()
 
-	tmp := metadataPath + ".tmp"
-	out, err := os.OpenFile(tmp, os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0o644)
-	if err != nil {
-		return 0, err
-	}
-	// Ensure out is closed on all error paths; on success we'll close explicitly before replace.
-	defer func() {
-		if err != nil {
-			_ = out.Close()
-			_ = os.Remove(tmp)
-		}
-	}()
-
-	scanner := bufio.NewScanner(f)
-	buf := make([]byte, 0, 64*1024)
-	scanner.Buffer(buf, 2*1024*1024)
-
-	writer := bufio.NewWriter(out)
-
-	skipBlock := false
-
-	for scanner.Scan() {
-		line := scanner.Text()
-		trim := strings.TrimSpace(line)
-
-		if strings.HasPrefix(trim, "game:") {
-			currentGame := strings.TrimSpace(trim[len("game:"):])
-			if _, ok := selectedByName[currentGame]; ok {
-				skipBlock = true
-				removed++
-				continue // don't write this line
-			}
-			skipBlock = false
-		}
-
-		if skipBlock {
+	names := make(map[string]struct{}, len(selectedByName))
+	for name := range selectedByName {
+		n := strings.TrimSpace(name)
+		if n == "" {
 			continue
 		}
-
-		if _, werr := writer.WriteString(line + "\n"); werr != nil {
-			err = werr
-			return removed, err
-		}
+		names[n] = struct{}{}
 	}
 
-	if scanErr := scanner.Err(); scanErr != nil {
-		err = scanErr
+	removed = doc.RemoveByGameNames(names)
+	if removed == 0 {
+		return 0, nil
+	}
+
+	if err := doc.WriteFileAtomic(metadataPath); err != nil {
 		return removed, err
 	}
-
-	if flushErr := writer.Flush(); flushErr != nil {
-		err = flushErr
-		return removed, err
-	}
-	if closeErr := out.Close(); closeErr != nil {
-		err = closeErr
-		return removed, err
-	}
-
-	if repErr := metadata.ReplaceFileAtomic(metadataPath, tmp); repErr != nil {
-		err = repErr
-		return removed, err
-	}
-
 	return removed, nil
 }

@@ -5,6 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 	"testing"
+
+	"github.com/game_tool_box/internal/pegasus/metadata"
 )
 
 func TestLoadGamesFromRomFiles_SkipsMetadataAndMedia(t *testing.T) {
@@ -92,7 +94,7 @@ func TestDiffConfigAgainstRomFiles_MissingExtraDuplicate(t *testing.T) {
 	if len(diff.ExtraInConfig) != 1 {
 		t.Fatalf("expected ExtraInConfig=1, got %d (%v)", len(diff.ExtraInConfig), diff.ExtraInConfig)
 	}
-	if normalizeFileKey(diff.ExtraInConfig[0].FileName) != "roms/c.zip" {
+	if metadata.NormalizeFileKey(diff.ExtraInConfig[0].FileName) != "roms/c.zip" {
 		t.Fatalf("expected extra roms/C.zip, got %q", diff.ExtraInConfig[0].FileName)
 	}
 

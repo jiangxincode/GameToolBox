@@ -1,12 +1,10 @@
 package pegasus
 
 import (
-	"bufio"
 	"fmt"
 	"os"
 	"path/filepath"
 	"sort"
-	"strconv"
 	"strings"
 
 	"github.com/game_tool_box/internal/pegasus/metadata"
@@ -53,22 +51,27 @@ func GenerateSelectedConfig(rootDir string, games []GameModel) ConfigGenerateRes
 		return res
 	}
 
-	selected := make([]GameModel, 0, len(games))
+	selected := make([]metadata.Game, 0, len(games))
 	for _, g := range games {
 		if !g.Selected {
 			continue
 		}
-		if strings.TrimSpace(g.GameName) == "" {
+		name := strings.TrimSpace(g.GameName)
+		if name == "" {
 			res.Failed++
 			res.Errors = append(res.Errors, fmt.Errorf("selected game has empty name"))
 			continue
 		}
-		if strings.TrimSpace(g.FileName) == "" {
+		file := strings.TrimSpace(g.FileName)
+		if file == "" {
 			res.Failed++
 			res.Errors = append(res.Errors, fmt.Errorf("game %q fileName is empty", g.GameName))
 			continue
 		}
-		selected = append(selected, g)
+
+		dev := strings.TrimSpace(g.Developer)
+		desc := strings.TrimSpace(g.Description)
+		selected = append(selected, metadata.Game{GameName: name, FileName: file, Developer: dev, Description: desc})
 	}
 
 	if len(selected) == 0 {
@@ -76,51 +79,17 @@ func GenerateSelectedConfig(rootDir string, games []GameModel) ConfigGenerateRes
 	}
 
 	metaPath := filepath.Join(rootDir, "metadata.pegasus.txt")
-	if err := os.MkdirAll(filepath.Dir(metaPath), 0o755); err != nil {
+
+	doc := metadata.New()
+	doc.SetGames(selected)
+
+	if err := doc.WriteFileAtomic(metaPath); err != nil {
 		res.Failed++
 		res.Errors = append(res.Errors, err)
 		return res
 	}
 
-	f, err := os.OpenFile(metaPath, os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0o644)
-	if err != nil {
-		res.Failed++
-		res.Errors = append(res.Errors, err)
-		return res
-	}
-	defer func() { _ = f.Close() }()
-
-	w := bufio.NewWriter(f)
-	defer func() { _ = w.Flush() }()
-
-	for i, g := range selected {
-		name := strings.TrimSpace(g.GameName)
-		file := strings.TrimSpace(g.FileName)
-		dev := strings.TrimSpace(g.Developer)
-		if dev == "" {
-			dev = name
-		}
-		desc := strings.TrimSpace(g.Description)
-		if desc == "" {
-			desc = name
-		}
-
-		// Keep a blank line between records for readability.
-		if i > 0 {
-			_, _ = w.WriteString("\n")
-		}
-		_, _ = w.WriteString("game:" + name + "\n")
-		_, _ = w.WriteString("file:" + file + "\n")
-		_, _ = w.WriteString(fmt.Sprintf("sort-by:%03d\n", i+1))
-		_, _ = w.WriteString("developer:" + dev + "\n")
-		_, _ = w.WriteString("description:" + desc + "\n")
-
-		res.Written++
-	}
-
-	// Ensure file ends with a blank line.
-	_, _ = w.WriteString("\n")
-
+	res.Written = len(selected)
 	return res
 }
 
@@ -181,7 +150,7 @@ func DiffConfigAgainstRomFiles(rootDir string) (ConfigDiff, error) {
 	cfgByFile := map[string]GameModel{}
 	duplicates := map[string]int{}
 	for _, g := range cfgGames {
-		k := normalizeFileKey(g.FileName)
+		k := metadata.NormalizeFileKey(g.FileName)
 		if k == "" {
 			continue
 		}
@@ -194,7 +163,7 @@ func DiffConfigAgainstRomFiles(rootDir string) (ConfigDiff, error) {
 
 	romByFile := map[string]GameModel{}
 	for _, g := range romGames {
-		k := normalizeFileKey(g.FileName)
+		k := metadata.NormalizeFileKey(g.FileName)
 		if k == "" {
 			continue
 		}
@@ -247,106 +216,31 @@ func AppendMissingGamesToMetadata(rootDir string, missing []GameModel) error {
 
 	metaPath := filepath.Join(rootDir, "metadata.pegasus.txt")
 
-	maxSort := 0
-	maxSortWidth := 0
-	endsWithBlankLine := false
-
-	// Parse existing metadata:
-	//   - maxSort: only from game blocks (ignore collection blocks)
-	//   - maxSortWidth: preserve the digit width of the max sort-by (e.g. 003 => width=3)
-	//   - endsWithBlankLine: whether file currently ends with a blank line
-	// Accept both "game:" and "game: " styles for compatibility.
-	if b, err := os.ReadFile(metaPath); err == nil {
-		// ends with a blank line iff it ends with two line breaks.
-		endsWithBlankLine = strings.HasSuffix(string(b), "\n\n") || strings.HasSuffix(string(b), "\r\n\r\n")
-
-		scanner := bufio.NewScanner(strings.NewReader(string(b)))
-		buf := make([]byte, 0, 64*1024)
-		scanner.Buffer(buf, 2*1024*1024)
-
-		inGame := false
-		inCollection := false
-
-		for scanner.Scan() {
-			line := strings.TrimSpace(scanner.Text())
-			if line == "" {
-				continue
-			}
-
-			switch {
-			case strings.HasPrefix(line, "game:"):
-				inGame = true
-				inCollection = false
-			case strings.HasPrefix(line, "collection:"):
-				inCollection = true
-				inGame = false
-			case strings.HasPrefix(line, "sort-by:"):
-				if inGame && !inCollection {
-					svRaw := strings.TrimSpace(line[len("sort-by:"):])
-					sv := strings.TrimLeft(svRaw, "0")
-					if sv == "" {
-						sv = "0"
-					}
-					if n, err := strconv.Atoi(sv); err == nil {
-						if n > maxSort {
-							maxSort = n
-							maxSortWidth = len(svRaw)
-						} else if n == maxSort {
-							if len(svRaw) > maxSortWidth {
-								maxSortWidth = len(svRaw)
-							}
-						}
-					}
-				}
-			}
+	var doc *metadata.Document
+	if existing, err := metadata.ReadFile(metaPath); err == nil {
+		doc = existing
+	} else {
+		if !os.IsNotExist(err) {
+			return err
 		}
-		_ = scanner.Err()
+		// file missing => treat as empty
+		doc = metadata.Parse("")
 	}
 
-	if maxSortWidth <= 0 {
-		maxSortWidth = 1
+	mg := make([]metadata.Game, 0, len(missing))
+	for _, g := range missing {
+		mg = append(mg, metadata.Game{
+			GameName: g.GameName,
+			FileName: g.FileName,
+			// Developer/Description intentionally left empty to match old defaulting behavior
+			// SortBy is auto-generated based on existing max.
+		})
 	}
 
-	f, err := os.OpenFile(metaPath, os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0o644)
-	if err != nil {
+	if err := doc.AppendGames(mg); err != nil {
 		return err
 	}
-	defer func() { _ = f.Close() }()
-
-	w := bufio.NewWriter(f)
-	defer func() { _ = w.Flush() }()
-
-	// Ensure there is exactly one blank line separating the existing content and the first appended game.
-	// If the file currently doesn't end with a blank line, add exactly one newline.
-	if !endsWithBlankLine {
-		_, _ = w.WriteString("\n")
-	}
-
-	sortNo := maxSort
-	for i, g := range missing {
-		name := strings.TrimSpace(g.GameName)
-		if name == "" {
-			name = strings.TrimSuffix(filepath.Base(filepath.FromSlash(g.FileName)), filepath.Ext(g.FileName))
-		}
-		sortNo++
-		sortStr := fmt.Sprintf("%0*d", maxSortWidth, sortNo)
-
-		if i > 0 {
-			// Exactly one blank line between appended game blocks.
-			_, _ = w.WriteString("\n")
-		}
-
-		_, _ = w.WriteString("game:" + name + "\n")
-		_, _ = w.WriteString("file:" + g.FileName + "\n")
-		_, _ = w.WriteString("sort-by:" + sortStr + "\n")
-		_, _ = w.WriteString("developer:" + name + "\n")
-		_, _ = w.WriteString("description:" + name + "\n")
-	}
-
-	// Ensure file ends with a blank line.
-	_, _ = w.WriteString("\n")
-
-	return nil
+	return doc.WriteFileAtomic(metaPath)
 }
 
 // RemoveGamesFromMetadata removes entries whose normalized file key matches any in filesToRemove.
@@ -355,7 +249,7 @@ func RemoveGamesFromMetadata(rootDir string, filesToRemove []string) (removed in
 
 	removeSet := map[string]struct{}{}
 	for _, f := range filesToRemove {
-		k := normalizeFileKey(f)
+		k := metadata.NormalizeFileKey(f)
 		if k != "" {
 			removeSet[k] = struct{}{}
 		}
@@ -364,118 +258,21 @@ func RemoveGamesFromMetadata(rootDir string, filesToRemove []string) (removed in
 		return 0, nil
 	}
 
-	in, err := os.Open(meta)
+	doc, err := metadata.ReadFile(meta)
 	if err != nil {
 		if os.IsNotExist(err) {
 			return 0, nil
 		}
 		return 0, err
 	}
-	defer func() { _ = in.Close() }()
 
-	tmp := meta + ".tmp"
-	out, err := os.OpenFile(tmp, os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0o644)
-	if err != nil {
-		return 0, err
-	}
-	defer func() {
-		if err != nil {
-			_ = out.Close()
-			_ = os.Remove(tmp)
-		}
-	}()
-
-	scanner := bufio.NewScanner(in)
-	buf := make([]byte, 0, 64*1024)
-	scanner.Buffer(buf, 2*1024*1024)
-
-	w := bufio.NewWriter(out)
-
-	skip := false
-	blockFileKey := ""
-	blockLines := make([]string, 0, 16)
-	flushBlock := func() error {
-		if len(blockLines) == 0 {
-			return nil
-		}
-		if blockFileKey != "" {
-			if _, ok := removeSet[blockFileKey]; ok {
-				removed++
-				blockLines = blockLines[:0]
-				blockFileKey = ""
-				skip = false
-				return nil
-			}
-		}
-		for _, ln := range blockLines {
-			if _, werr := w.WriteString(ln + "\n"); werr != nil {
-				return werr
-			}
-		}
-		blockLines = blockLines[:0]
-		blockFileKey = ""
-		skip = false
-		return nil
+	removed = doc.RemoveByFileKeys(removeSet)
+	if removed == 0 {
+		return 0, nil
 	}
 
-	for scanner.Scan() {
-		line := scanner.Text()
-		trim := strings.TrimSpace(line)
-
-		if strings.HasPrefix(trim, "game:") {
-			if err := flushBlock(); err != nil {
-				return removed, err
-			}
-			blockLines = append(blockLines, line)
-			continue
-		}
-		if len(blockLines) == 0 {
-			// outside any game block, preserve
-			if _, werr := w.WriteString(line + "\n"); werr != nil {
-				return removed, werr
-			}
-			continue
-		}
-
-		if strings.HasPrefix(trim, "file:") {
-			fileVal := strings.TrimSpace(trim[len("file:"):])
-			blockFileKey = normalizeFileKey(fileVal)
-			if _, ok := removeSet[blockFileKey]; ok {
-				skip = true
-			}
-		}
-
-		if !skip {
-			blockLines = append(blockLines, line)
-		}
-	}
-	if scanErr := scanner.Err(); scanErr != nil {
-		return removed, scanErr
-	}
-	if err := flushBlock(); err != nil {
+	if err := doc.WriteFileAtomic(meta); err != nil {
 		return removed, err
 	}
-
-	if flushErr := w.Flush(); flushErr != nil {
-		return removed, flushErr
-	}
-	if closeErr := out.Close(); closeErr != nil {
-		return removed, closeErr
-	}
-
-	if repErr := metadata.ReplaceFileAtomic(meta, tmp); repErr != nil {
-		return removed, repErr
-	}
-
 	return removed, nil
-}
-
-func normalizeFileKey(fileName string) string {
-	f := strings.TrimSpace(fileName)
-	if f == "" {
-		return ""
-	}
-	f = filepath.ToSlash(f)
-	f = strings.TrimPrefix(f, "./")
-	return strings.ToLower(f)
 }
