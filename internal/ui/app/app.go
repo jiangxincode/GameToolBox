@@ -139,6 +139,11 @@ func (s *Shell) buildPegasusMenu() *fyne.Menu {
 			view := pegasusui.NewGameRemoverView(s.w)
 			s.navigate(s.t("menu.pegasus")+" / "+s.t("menuitem.pegasus.gameRemover"), view)
 		}),
+		fyne.NewMenuItem(s.t("menuitem.pegasus.gameAdder"), func() {
+			logging.Infof("menu click: pegasus.gameAdder")
+			view := pegasusui.NewGameAdderView(s.w)
+			s.navigate(s.t("menu.pegasus")+" / "+s.t("menuitem.pegasus.gameAdder"), view)
+		}),
 	)
 	return m
 }

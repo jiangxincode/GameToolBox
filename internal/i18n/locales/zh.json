@@ -11,6 +11,7 @@
   "menuitem.pegasus.mediaManager": "游戏媒体文件管理器",
   "menuitem.pegasus.configManager" : "游戏配置文件管理器",
   "menuitem.pegasus.gameRemover" : "游戏删除器",
+  "menuitem.pegasus.gameAdder" : "游戏添加器",
 
   "menuitem.help.docs": "文档",
   "menuitem.help.feedback": "意见反馈",
