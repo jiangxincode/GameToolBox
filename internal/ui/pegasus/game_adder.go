@@ -59,7 +59,7 @@ func NewGameAdderView(w fyne.Window) fyne.CanvasObject {
 			relPath, err := filepath.Rel(root, absPath)
 			if err != nil {
 				// If we can't get relative path, warn user and use absolute path
-				dialog.ShowInformation("提示", 
+				dialog.ShowInformation("提示",
 					fmt.Sprintf("所选文件不在根目录内，将使用绝对路径:\n%s", absPath), w)
 				relPath = absPath
 			} else {
