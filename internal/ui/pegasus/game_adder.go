@@ -58,7 +58,9 @@ func NewGameAdderView(w fyne.Window) fyne.CanvasObject {
 			// Calculate relative path from root directory
 			relPath, err := filepath.Rel(root, absPath)
 			if err != nil {
-				// If we can't get relative path, use the absolute path
+				// If we can't get relative path, warn user and use absolute path
+				dialog.ShowInformation("提示", 
+					fmt.Sprintf("所选文件不在根目录内，将使用绝对路径:\n%s", absPath), w)
 				relPath = absPath
 			} else {
 				// Convert to forward slashes for consistency
@@ -108,7 +110,8 @@ func NewGameAdderView(w fyne.Window) fyne.CanvasObject {
 
 		res := pegasus.AddSingleGame(root, game)
 		if len(res.Errors) > 0 {
-			dialog.ShowError(fmt.Errorf("添加失败: %v", res.Errors[0]), w)
+			errMsg := fmt.Sprintf("添加失败: %s", res.Errors[0].Error())
+			dialog.ShowError(fmt.Errorf("%s", errMsg), w)
 			return
 		}
 
@@ -118,7 +121,7 @@ func NewGameAdderView(w fyne.Window) fyne.CanvasObject {
 			return
 		}
 
-		dialog.ShowInformation("提示", fmt.Sprintf("游戏添加成功!\nAdded=%d", res.Added), w)
+		dialog.ShowInformation("提示", fmt.Sprintf("游戏添加成功!\n已添加: %d", res.Added), w)
 		logging.Infof("%s game added successfully: %s", logPrefix, gameName)
 
 		// Clear input fields after successful addition
