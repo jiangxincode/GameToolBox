@@ -59,6 +59,59 @@ func TestAddSingleGame(t *testing.T) {
 	}
 }
 
+func TestAddSingleGame_WithMediaFiles(t *testing.T) {
+	dir := t.TempDir()
+
+	// Create temporary media files
+	logoFile := filepath.Join(dir, "test_logo.png")
+	boxFrontFile := filepath.Join(dir, "test_boxfront.png")
+	videoFile := filepath.Join(dir, "test_video.mp4")
+
+	if err := os.WriteFile(logoFile, []byte("logo content"), 0o644); err != nil {
+		t.Fatalf("failed to create test logo: %v", err)
+	}
+	if err := os.WriteFile(boxFrontFile, []byte("boxfront content"), 0o644); err != nil {
+		t.Fatalf("failed to create test boxfront: %v", err)
+	}
+	if err := os.WriteFile(videoFile, []byte("video content"), 0o644); err != nil {
+		t.Fatalf("failed to create test video: %v", err)
+	}
+
+	game := GameModel{
+		GameName:          "Test Game",
+		FileName:          "test.rom",
+		LogoImagePath:     logoFile,
+		BoxFrontImagePath: boxFrontFile,
+		VideoFilePath:     videoFile,
+	}
+
+	res := AddSingleGame(dir, game)
+	if res.Added != 1 {
+		t.Errorf("expected Added=1, got %d", res.Added)
+	}
+
+	// Verify media files were copied
+	mediaDir := filepath.Join(dir, "media", "Test Game")
+	if _, err := os.Stat(mediaDir); os.IsNotExist(err) {
+		t.Errorf("media directory should exist")
+	}
+
+	destLogo := filepath.Join(mediaDir, "logo.png")
+	if content, err := os.ReadFile(destLogo); err != nil || string(content) != "logo content" {
+		t.Errorf("logo file should be copied correctly")
+	}
+
+	destBoxFront := filepath.Join(mediaDir, "boxFront.png")
+	if content, err := os.ReadFile(destBoxFront); err != nil || string(content) != "boxfront content" {
+		t.Errorf("boxFront file should be copied correctly")
+	}
+
+	destVideo := filepath.Join(mediaDir, "video.mp4")
+	if content, err := os.ReadFile(destVideo); err != nil || string(content) != "video content" {
+		t.Errorf("video file should be copied correctly")
+	}
+}
+
 func TestAddGames_MultipleGames(t *testing.T) {
 	dir := t.TempDir()
 
@@ -225,5 +278,26 @@ func TestAddGames_AppendToExisting(t *testing.T) {
 	}
 	if len(loaded) != 2 {
 		t.Errorf("expected 2 games, got %d", len(loaded))
+	}
+}
+
+func TestAddGames_MediaFileNotExist(t *testing.T) {
+	dir := t.TempDir()
+
+	// Specify non-existent media files
+	game := GameModel{
+		GameName:      "Test Game",
+		FileName:      "test.rom",
+		LogoImagePath: "/nonexistent/logo.png",
+	}
+
+	res := AddSingleGame(dir, game)
+	// Game should still be added to metadata even if media copy fails
+	if res.Added != 1 {
+		t.Errorf("expected Added=1 even with missing media, got %d", res.Added)
+	}
+	// Should have an error about media copy
+	if len(res.Errors) == 0 {
+		t.Error("expected error for missing media file")
 	}
 }

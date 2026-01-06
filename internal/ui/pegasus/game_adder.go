@@ -34,6 +34,16 @@ func NewGameAdderView(w fyne.Window) fyne.CanvasObject {
 	descriptionEntry.SetPlaceHolder("输入游戏描述（可选）")
 	descriptionEntry.SetMinRowsVisible(3)
 
+	// Media file entries
+	logoEntry := widget.NewEntry()
+	logoEntry.SetPlaceHolder("Logo图片路径（可选）")
+
+	boxFrontEntry := widget.NewEntry()
+	boxFrontEntry.SetPlaceHolder("封面图片路径（可选）")
+
+	videoEntry := widget.NewEntry()
+	videoEntry.SetPlaceHolder("视频文件路径（可选）")
+
 	// File chooser button for ROM file
 	chooseRomBtn := widget.NewButton("选择ROM文件", func() {
 		root := strings.TrimSpace(rootEntry.Text)
@@ -78,6 +88,60 @@ func NewGameAdderView(w fyne.Window) fyne.CanvasObject {
 		}, w)
 	})
 
+	// Logo file chooser button
+	chooseLogoBtn := widget.NewButton("选择Logo", func() {
+		dialog.ShowFileOpen(func(reader fyne.URIReadCloser, err error) {
+			if err != nil {
+				dialog.ShowError(err, w)
+				return
+			}
+			if reader == nil {
+				return
+			}
+			defer reader.Close()
+
+			absPath := reader.URI().Path()
+			logging.Infof("%s selected logo file: %s", logPrefix, absPath)
+			logoEntry.SetText(absPath)
+		}, w)
+	})
+
+	// BoxFront file chooser button
+	chooseBoxFrontBtn := widget.NewButton("选择封面", func() {
+		dialog.ShowFileOpen(func(reader fyne.URIReadCloser, err error) {
+			if err != nil {
+				dialog.ShowError(err, w)
+				return
+			}
+			if reader == nil {
+				return
+			}
+			defer reader.Close()
+
+			absPath := reader.URI().Path()
+			logging.Infof("%s selected boxFront file: %s", logPrefix, absPath)
+			boxFrontEntry.SetText(absPath)
+		}, w)
+	})
+
+	// Video file chooser button
+	chooseVideoBtn := widget.NewButton("选择视频", func() {
+		dialog.ShowFileOpen(func(reader fyne.URIReadCloser, err error) {
+			if err != nil {
+				dialog.ShowError(err, w)
+				return
+			}
+			if reader == nil {
+				return
+			}
+			defer reader.Close()
+
+			absPath := reader.URI().Path()
+			logging.Infof("%s selected video file: %s", logPrefix, absPath)
+			videoEntry.SetText(absPath)
+		}, w)
+	})
+
 	// Add game button
 	addGameBtn := widget.NewButton("添加游戏", func() {
 		root := strings.TrimSpace(rootEntry.Text)
@@ -102,10 +166,13 @@ func NewGameAdderView(w fyne.Window) fyne.CanvasObject {
 		}
 
 		game := pegasus.GameModel{
-			GameName:    gameName,
-			FileName:    fileName,
-			Developer:   strings.TrimSpace(developerEntry.Text),
-			Description: strings.TrimSpace(descriptionEntry.Text),
+			GameName:          gameName,
+			FileName:          fileName,
+			Developer:         strings.TrimSpace(developerEntry.Text),
+			Description:       strings.TrimSpace(descriptionEntry.Text),
+			LogoImagePath:     strings.TrimSpace(logoEntry.Text),
+			BoxFrontImagePath: strings.TrimSpace(boxFrontEntry.Text),
+			VideoFilePath:     strings.TrimSpace(videoEntry.Text),
 		}
 
 		res := pegasus.AddSingleGame(root, game)
@@ -129,6 +196,9 @@ func NewGameAdderView(w fyne.Window) fyne.CanvasObject {
 		fileNameEntry.SetText("")
 		developerEntry.SetText("")
 		descriptionEntry.SetText("")
+		logoEntry.SetText("")
+		boxFrontEntry.SetText("")
+		videoEntry.SetText("")
 	})
 
 	// Clear button
@@ -138,6 +208,9 @@ func NewGameAdderView(w fyne.Window) fyne.CanvasObject {
 		fileNameEntry.SetText("")
 		developerEntry.SetText("")
 		descriptionEntry.SetText("")
+		logoEntry.SetText("")
+		boxFrontEntry.SetText("")
+		videoEntry.SetText("")
 	})
 
 	// Create form layout
@@ -150,6 +223,14 @@ func NewGameAdderView(w fyne.Window) fyne.CanvasObject {
 		developerEntry,
 		widget.NewLabel("描述:"),
 		descriptionEntry,
+		widget.NewSeparator(),
+		widget.NewLabel("媒体文件 (可选):"),
+		widget.NewLabel("Logo图片:"),
+		container.NewBorder(nil, nil, nil, chooseLogoBtn, logoEntry),
+		widget.NewLabel("封面图片:"),
+		container.NewBorder(nil, nil, nil, chooseBoxFrontBtn, boxFrontEntry),
+		widget.NewLabel("视频文件:"),
+		container.NewBorder(nil, nil, nil, chooseVideoBtn, videoEntry),
 		container.NewHBox(addGameBtn, clearBtn),
 	)
 
@@ -159,8 +240,10 @@ func NewGameAdderView(w fyne.Window) fyne.CanvasObject {
 			"1. 设置Pegasus根目录\n" +
 			"2. 填写游戏信息（游戏名称和ROM文件名为必填项）\n" +
 			"3. 可以点击\"选择ROM文件\"按钮自动填充文件路径\n" +
-			"4. 点击\"添加游戏\"将游戏添加到metadata.pegasus.txt\n" +
-			"5. 添加成功后表单会自动清空，可继续添加下一个游戏",
+			"4. 可选：添加媒体文件（Logo图、封面图、视频）\n" +
+			"5. 点击\"添加游戏\"将游戏添加到metadata.pegasus.txt\n" +
+			"6. 媒体文件将自动复制到media/<游戏名称>/目录\n" +
+			"7. 添加成功后表单会自动清空，可继续添加下一个游戏",
 	)
 	instructions.Wrapping = fyne.TextWrapWord
 
