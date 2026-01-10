@@ -126,7 +126,7 @@ func TestAppendMissingGamesToMetadata_AndRemoveGamesFromMetadata(t *testing.T) {
 	}
 
 	// Append missing
-	missing := []GameModel{{GameName: "A", FileName: "roms/A.zip"}}
+	missing := []GameModel{{Game: metadata.Game{GameName: "A", FileName: "roms/A.zip"}}}
 	if err := AppendMissingGamesToMetadata(root, missing); err != nil {
 		t.Fatalf("AppendMissingGamesToMetadata: %v", err)
 	}
@@ -187,7 +187,7 @@ func TestAppendMissingGamesToMetadata_SortByIncrementsAndKeepsDeveloperDescripti
 		t.Fatalf("write metadata: %v", err)
 	}
 
-	missing := []GameModel{{GameName: "B", FileName: "roms/B.zip"}}
+	missing := []GameModel{{Game: metadata.Game{GameName: "B", FileName: "roms/B.zip"}}}
 	if err := AppendMissingGamesToMetadata(root, missing); err != nil {
 		t.Fatalf("AppendMissingGamesToMetadata: %v", err)
 	}
@@ -248,8 +248,8 @@ func TestAppendMissingGamesToMetadata_BlankLineFormatting(t *testing.T) {
 	}
 
 	missing := []GameModel{
-		{GameName: "C", FileName: "roms/C.zip"},
-		{GameName: "D", FileName: "roms/D.zip"},
+		{Game: metadata.Game{GameName: "C", FileName: "roms/C.zip"}},
+		{Game: metadata.Game{GameName: "D", FileName: "roms/D.zip"}},
 	}
 	if err := AppendMissingGamesToMetadata(root, missing); err != nil {
 		t.Fatalf("AppendMissingGamesToMetadata: %v", err)
@@ -293,9 +293,9 @@ func TestGenerateSelectedConfig_RewritesMetadataWithSelectedGames(t *testing.T) 
 	root := t.TempDir()
 
 	games := []GameModel{
-		{Selected: true, GameName: "A", FileName: "roms/A.zip"},
-		{Selected: false, GameName: "B", FileName: "roms/B.zip"},
-		{Selected: true, GameName: "C", FileName: "roms/C.zip", Developer: "DevC", Description: "DescC"},
+		{Selected: true, Game: metadata.Game{GameName: "A", FileName: "roms/A.zip"}},
+		{Selected: false, Game: metadata.Game{GameName: "B", FileName: "roms/B.zip"}},
+		{Selected: true, Game: metadata.Game{GameName: "C", FileName: "roms/C.zip", Developer: "DevC", Description: "DescC"}},
 	}
 
 	res := GenerateSelectedConfig(root, games)

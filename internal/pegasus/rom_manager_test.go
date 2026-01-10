@@ -5,14 +5,16 @@ import (
 	"path/filepath"
 	"strings"
 	"testing"
+
+	"github.com/game_tool_box/internal/pegasus/metadata"
 )
 
 func TestGenerateSelectedFiles(t *testing.T) {
 	root := t.TempDir()
 	games := []GameModel{
-		{Selected: true, GameName: "A", FileName: "a.zip"},
-		{Selected: false, GameName: "B", FileName: "b.zip"},
-		{Selected: true, GameName: "C", FileName: "nested/c.zip"},
+		{Selected: true, Game: metadata.Game{GameName: "A", FileName: "a.zip"}},
+		{Selected: false, Game: metadata.Game{GameName: "B", FileName: "b.zip"}},
+		{Selected: true, Game: metadata.Game{GameName: "C", FileName: "nested/c.zip"}},
 	}
 
 	res := GenerateSelectedFiles(root, games)

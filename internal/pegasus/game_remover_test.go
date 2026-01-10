@@ -5,6 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 	"testing"
+
+	"github.com/game_tool_box/internal/pegasus/metadata"
 )
 
 func TestRemoveSelectedGames_CurrentlyMirrorsGenerator(t *testing.T) {
@@ -19,7 +21,7 @@ func TestRemoveSelectedGames_CurrentlyMirrorsGenerator(t *testing.T) {
 	}
 
 	games := []GameModel{
-		{ID: 1, GameName: "g1", FileName: "roms/g1.zip", Selected: true},
+		{ID: 1, Selected: true, Game: metadata.Game{GameName: "g1", FileName: "roms/g1.zip"}},
 	}
 
 	res := RemoveSelectedGames(root, games)
@@ -70,8 +72,8 @@ func TestRemoveSelectedGames_RemovesMetadataMediaAndRom(t *testing.T) {
 	}
 
 	games := []GameModel{
-		{ID: 1, GameName: "A", FileName: "A.zip", Selected: true},
-		{ID: 2, GameName: "B", FileName: "B.zip", Selected: false},
+		{ID: 1, Selected: true, Game: metadata.Game{GameName: "A", FileName: "A.zip"}},
+		{ID: 2, Selected: false, Game: metadata.Game{GameName: "B", FileName: "B.zip"}},
 	}
 
 	res := RemoveSelectedGames(root, games)
@@ -117,7 +119,7 @@ func TestRemoveSelectedGames_MissingRomCountsSkipped(t *testing.T) {
 		t.Fatalf("write metadata: %v", err)
 	}
 
-	games := []GameModel{{GameName: "A", FileName: "A.zip", Selected: true}}
+	games := []GameModel{{Selected: true, Game: metadata.Game{GameName: "A", FileName: "A.zip"}}}
 	res := RemoveSelectedGames(root, games)
 	if res.Failed != 0 {
 		t.Fatalf("expected Failed=0 got %d (errs=%v)", res.Failed, res.Errors)

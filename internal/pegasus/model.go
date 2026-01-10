@@ -1,19 +1,20 @@
 package pegasus
 
-import "path/filepath"
+import (
+	"path/filepath"
 
-// GameModel mirrors the fields used by the Java version.
-// It represents one game entry parsed from metadata.pegasus.txt.
+	"github.com/game_tool_box/internal/pegasus/metadata"
+)
+
+// GameModel is a UI/business-friendly wrapper around metadata.Game.
 //
-// Note: Media files are optional. Their paths can be derived from rootDir + GameName.
+// It embeds metadata.Game to reuse the canonical Pegasus game fields, and adds
+// view state (Selected/ID) needed by the app.
 type GameModel struct {
-	Selected    bool
-	ID          int
-	GameName    string
-	FileName    string
-	SortBy      string
-	Developer   string
-	Description string
+	metadata.Game
+
+	Selected bool
+	ID       int
 }
 
 func (g GameModel) MediaDir(rootDir string) string {

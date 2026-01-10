@@ -126,7 +126,7 @@ func LoadGamesFromRomFiles(rootDir string) ([]GameModel, error) {
 		}
 		rel = filepath.ToSlash(rel)
 
-		g := GameModel{ID: id, GameName: strings.TrimSuffix(name, filepath.Ext(name)), FileName: rel}
+		g := GameModel{ID: id, Game: metadata.Game{GameName: strings.TrimSuffix(name, filepath.Ext(name)), FileName: rel}}
 		id++
 		games = append(games, g)
 		return nil

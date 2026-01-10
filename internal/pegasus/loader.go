@@ -33,13 +33,9 @@ func LoadGamesFromRootDir(rootDir string) ([]GameModel, error) {
 	games := make([]GameModel, 0, len(parsed))
 	for i, g := range parsed {
 		gm := GameModel{
-			ID:          i + 1,
-			Selected:    false,
-			GameName:    g.GameName,
-			FileName:    g.FileName,
-			SortBy:      g.SortBy,
-			Developer:   g.Developer,
-			Description: g.Description,
+			Game:     g,
+			ID:       i + 1,
+			Selected: false,
 		}
 		games = append(games, gm)
 	}
