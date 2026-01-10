@@ -22,6 +22,102 @@ func NewConfigManagerView(w fyne.Window) fyne.CanvasObject {
 	ui.rootEntry = rootEntry
 	chooseRootBtn := newChooseRootButton(w, rootEntry, persistRootDir, logPrefix)
 
+	// --- Reorder actions operate directly on the loaded table (ui.allGames) ---
+	moveSelected := func(delta int) {
+		if len(ui.allGames) == 0 {
+			return
+		}
+		// Collect selected indices in *current* order.
+		idxs := make([]int, 0)
+		for i, g := range ui.allGames {
+			if g.Selected {
+				idxs = append(idxs, i)
+			}
+		}
+		if len(idxs) == 0 {
+			dialog.ShowInformation("提示", "请先在列表中勾选要移动的游戏（可多选）", w)
+			return
+		}
+
+		// Stable move: up => from small->large; down => from large->small.
+		if delta < 0 {
+			for i := 0; i < len(idxs)-1; i++ {
+				for j := i + 1; j < len(idxs); j++ {
+					if idxs[j] < idxs[i] {
+						idxs[i], idxs[j] = idxs[j], idxs[i]
+					}
+				}
+			}
+		} else {
+			for i := 0; i < len(idxs)-1; i++ {
+				for j := i + 1; j < len(idxs); j++ {
+					if idxs[j] > idxs[i] {
+						idxs[i], idxs[j] = idxs[j], idxs[i]
+					}
+				}
+			}
+		}
+
+		// Move and keep selection on moved items.
+		newSel := make([]bool, len(ui.allGames))
+		for _, from := range idxs {
+			to := from + delta
+			if to < 0 || to >= len(ui.allGames) {
+				newSel[from] = true
+				continue
+			}
+			ui.allGames[from], ui.allGames[to] = ui.allGames[to], ui.allGames[from]
+			newSel[to] = true
+		}
+		for i := range ui.allGames {
+			ui.allGames[i].Selected = newSel[i]
+			ui.allGames[i].ID = i + 1
+		}
+		ui.applyFilter(ui.search.Text)
+		ui.table.Refresh()
+	}
+
+	persistOrder := func() {
+		root := ui.rootDir()
+		if root == "" {
+			dialog.ShowInformation("提示", "请先设置根目录", w)
+			return
+		}
+		if len(ui.allGames) == 0 {
+			dialog.ShowInformation("提示", "请先加载数据", w)
+			return
+		}
+
+		orderedFiles := make([]string, 0, len(ui.allGames))
+		for _, g := range ui.allGames {
+			orderedFiles = append(orderedFiles, g.FileName)
+		}
+
+		confirmMsg := fmt.Sprintf("将按当前顺序重写 metadata.pegasus.txt，并重新编号 sort-by（共 %d 条）。是否继续？", len(orderedFiles))
+		dialog.ShowConfirm("确认保存顺序", confirmMsg, func(ok bool) {
+			if !ok {
+				return
+			}
+			if _, err := pegasus.ReorderGamesInMetadata(root, orderedFiles); err != nil {
+				dialog.ShowError(err, w)
+				return
+			}
+			dialog.ShowInformation("提示", "顺序已保存到 metadata.pegasus.txt", w)
+			// Reload to reflect canonical sort-by.
+			games, err := pegasus.LoadGamesFromRootDir(root)
+			if err != nil {
+				dialog.ShowError(err, w)
+				return
+			}
+			ui.setGames(games)
+		}, w)
+	}
+
+	moveUpBtn := widget.NewButton("↑ 上移", func() { moveSelected(-1) })
+	moveDownBtn := widget.NewButton("↓ 下移", func() { moveSelected(1) })
+	saveOrderBtn := widget.NewButton("保存顺序到配置", persistOrder)
+	orderToolbar := container.NewHBox(moveUpBtn, moveDownBtn, saveOrderBtn)
+
 	loadGameData := func() {
 		root := ui.rootDir()
 		logging.Infof("%s click load data root=%s", logPrefix, root)
@@ -206,11 +302,17 @@ func NewConfigManagerView(w fyne.Window) fyne.CanvasObject {
 	status := container.NewHBox(ui.loadedLabel)
 
 	content := container.NewBorder(
-		container.NewVBox(container.NewBorder(nil, nil, nil, chooseRootBtn, rootEntry), buttonRows, searchRow),
+		container.NewVBox(
+			container.NewBorder(nil, nil, nil, chooseRootBtn, rootEntry),
+			buttonRows,
+			searchRow,
+			orderToolbar,
+		),
 		status,
 		nil,
 		nil,
 		split,
 	)
+
 	return content
 }

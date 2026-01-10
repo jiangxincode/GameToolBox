@@ -2,5 +2,5 @@ bin/
 pkg/
 .idea/
 *.log
-game_tool_box.exe
+*.exe
 game_tool_box

@@ -79,6 +79,13 @@ func (g GameItem) Kind() ItemKind  { return ItemGame }
 func (g GameItem) Lines() []string { return g.lines }
 func (g GameItem) Game() Game      { return g.game }
 
+// NewGameItem constructs a GameItem from raw lines and parsed game fields.
+// This is primarily used by internal tooling that needs to rewrite a game block
+// while preserving all other document items.
+func NewGameItem(lines []string, game Game) GameItem {
+	return GameItem{lines: append([]string(nil), lines...), game: game}
+}
+
 // LoadFromRootDir reads <rootDir>/metadata.pegasus.txt and parses it into a Document.
 func LoadFromRootDir(rootDir string) (*Document, error) {
 	path := filepath.Join(rootDir, "metadata.pegasus.txt")
@@ -205,6 +212,19 @@ func Parse(text string) *Document {
 	flushRaw()
 	flushGame()
 	return d
+}
+
+// Items returns a shallow copy of the document items in file order.
+// This is intended for internal tooling that needs to reorder game blocks while
+// preserving non-game content (collections/comments/raw formatting).
+func (d *Document) Items() []Item {
+	return append([]Item(nil), d.items...)
+}
+
+// SetItems replaces the document items.
+// Callers must ensure items are well-formed.
+func (d *Document) SetItems(items []Item) {
+	d.items = append([]Item(nil), items...)
 }
 
 // Games returns all parsed games (in file order).
