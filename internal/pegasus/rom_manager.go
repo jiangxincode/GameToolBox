@@ -38,7 +38,7 @@ func GenerateSelectedFiles(rootDir string, games []GameViewModel) GenerateResult
 			res.Errors = append(res.Errors, fmt.Errorf("game %q fileName is empty", g.GameName))
 			continue
 		}
-		target := filepath.Join(rootDir, g.FileName)
+		target := filepath.Join(rootDir, filepath.FromSlash(g.FileName))
 		if _, err := os.Stat(target); err == nil {
 			res.Skipped++
 			continue

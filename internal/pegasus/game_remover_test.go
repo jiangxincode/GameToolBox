@@ -128,3 +128,32 @@ func TestRemoveSelectedGames_MissingRomCountsSkipped(t *testing.T) {
 		t.Fatalf("expected Skipped>0 when rom missing, got %d", res.Skipped)
 	}
 }
+
+func TestRemoveSelectedGames_RefusesDeleteOutsideRoot(t *testing.T) {
+	root := t.TempDir()
+	outsideDir := t.TempDir()
+	outsideFile := filepath.Join(outsideDir, "outside.zip")
+	if err := os.WriteFile(outsideFile, []byte("x"), 0o644); err != nil {
+		t.Fatalf("write outside file: %v", err)
+	}
+
+	// Include metadata so the flow is closer to real usage.
+	meta := strings.Join([]string{
+		"game: A",
+		"file: ../outside.zip",
+		"",
+	}, "\n")
+	if err := os.WriteFile(filepath.Join(root, "metadata.pegasus.txt"), []byte(meta), 0o644); err != nil {
+		t.Fatalf("write metadata: %v", err)
+	}
+
+	games := []GameViewModel{{Selected: true, Game: metadata.Game{GameName: "A", FileName: "../outside.zip"}}}
+	res := RemoveSelectedGames(root, games)
+
+	if res.Failed == 0 || len(res.Errors) == 0 {
+		t.Fatalf("expected failure when refusing delete outside root, got res=%+v", res)
+	}
+	if _, err := os.Stat(outsideFile); err != nil {
+		t.Fatalf("expected outside file NOT deleted, stat err=%v", err)
+	}
+}

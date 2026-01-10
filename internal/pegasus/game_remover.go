@@ -89,10 +89,16 @@ func RemoveSelectedGames(rootDir string, games []GameViewModel) GameRemoveResult
 			res.Errors = append(res.Errors, fmt.Errorf("game %q fileName is empty", name))
 			continue
 		}
-		romPath := rom
-		if !filepath.IsAbs(romPath) {
-			romPath = filepath.Join(rootDir, filepath.FromSlash(romPath))
+
+		romPath, pathErr := safePathUnderRoot(rootDir, rom)
+		if pathErr != nil {
+			// Refuse deleting outside root (including absolute paths).
+			logging.Errorf("pegasus.RemoveSelectedGames: refuse to delete rom path=%q err=%v", rom, pathErr)
+			res.Failed++
+			res.Errors = append(res.Errors, fmt.Errorf("refuse to delete rom %q: %w", rom, pathErr))
+			continue
 		}
+
 		if err := os.Remove(romPath); err != nil {
 			if os.IsNotExist(err) {
 				// If missing, treat as skipped (already removed or never existed).
