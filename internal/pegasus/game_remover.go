@@ -29,7 +29,7 @@ type GameRemoveResult struct {
 	Errors []error
 }
 
-func RemoveSelectedGames(rootDir string, games []GameModel) GameRemoveResult {
+func RemoveSelectedGames(rootDir string, games []GameViewModel) GameRemoveResult {
 	var res GameRemoveResult
 
 	rootDir = strings.TrimSpace(rootDir)
@@ -40,7 +40,7 @@ func RemoveSelectedGames(rootDir string, games []GameModel) GameRemoveResult {
 	}
 
 	// Build lookup of selected games by name.
-	selectedByName := make(map[string]GameModel)
+	selectedByName := make(map[string]GameViewModel)
 	selectedCount := 0
 	for _, g := range games {
 		if !g.Selected {
@@ -110,7 +110,7 @@ func RemoveSelectedGames(rootDir string, games []GameModel) GameRemoveResult {
 	return res
 }
 
-func removeSelectedFromMetadata(metadataPath string, selectedByName map[string]GameModel) (removed int, err error) {
+func removeSelectedFromMetadata(metadataPath string, selectedByName map[string]GameViewModel) (removed int, err error) {
 	doc, err := metadata.ReadFile(metadataPath)
 	if err != nil {
 		if os.IsNotExist(err) {

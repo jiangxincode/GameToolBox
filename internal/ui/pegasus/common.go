@@ -29,7 +29,7 @@ type gameListUI struct {
 	search      *widget.Entry
 	loadedLabel *widget.Label
 
-	allGames    []pegasus.GameModel
+	allGames    []pegasus.GameViewModel
 	filteredIdx []int
 
 	table            *widget.Table
@@ -187,7 +187,7 @@ func (ui *gameListUI) applyFilter(query string) {
 	}
 }
 
-func (ui *gameListUI) setGames(games []pegasus.GameModel) {
+func (ui *gameListUI) setGames(games []pegasus.GameViewModel) {
 	ui.allGames = games
 	ui.applyFilter(ui.search.Text)
 	ui.table.Refresh()
@@ -226,7 +226,7 @@ func (ui *gameListUI) resetCoverImage() {
 	}
 }
 
-func (ui *gameListUI) showDetailFor(g pegasus.GameModel) {
+func (ui *gameListUI) showDetailFor(g pegasus.GameViewModel) {
 	boxFront := strings.TrimSpace(g.BoxFrontImagePath(ui.rootDir()))
 	if boxFront != "" {
 		if _, err := os.Stat(boxFront); err == nil {

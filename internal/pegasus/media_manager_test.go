@@ -28,7 +28,7 @@ func TestGenerateSelectedFilesForOssHandheld_RecreatesImagesAndCopiesBoxFront(t 
 		t.Fatalf("write src: %v", err)
 	}
 
-	games := []GameModel{{Selected: true, Game: metadata.Game{GameName: "A"}}}
+	games := []GameViewModel{{Selected: true, Game: metadata.Game{GameName: "A"}}}
 	res := GenerateSelectedFilesForOssHandheld(root, games)
 	if len(res.Errors) != 0 {
 		t.Fatalf("unexpected errors: %v", res.Errors)
@@ -55,7 +55,7 @@ func TestGenerateSelectedFilesForOssHandheld_RecreatesImagesAndCopiesBoxFront(t 
 
 func TestGenerateSelectedFilesForOssHandheld_MissingSourceCountsFailed(t *testing.T) {
 	root := t.TempDir()
-	games := []GameModel{{Selected: true, Game: metadata.Game{GameName: "A"}}}
+	games := []GameViewModel{{Selected: true, Game: metadata.Game{GameName: "A"}}}
 	res := GenerateSelectedFilesForOssHandheld(root, games)
 	if res.Created != 0 {
 		t.Fatalf("expected Created=0, got %d", res.Created)
@@ -76,7 +76,7 @@ func TestGenerateEmptyMediaFolders_CreatesDirsAndSkipsExisting(t *testing.T) {
 		t.Fatalf("mkdir media/A: %v", err)
 	}
 
-	games := []GameModel{
+	games := []GameViewModel{
 		{Selected: true, Game: metadata.Game{GameName: "A"}},
 		{Selected: true, Game: metadata.Game{GameName: "B"}},
 		{Selected: false, Game: metadata.Game{GameName: "C"}},
@@ -104,7 +104,7 @@ func TestGenerateEmptyMediaFolders_CreatesDirsAndSkipsExisting(t *testing.T) {
 }
 
 func TestGenerateEmptyMediaFolders_EmptyRootFails(t *testing.T) {
-	res := GenerateEmptyMediaFolders("", []GameModel{{Selected: true, Game: metadata.Game{GameName: "A"}}})
+	res := GenerateEmptyMediaFolders("", []GameViewModel{{Selected: true, Game: metadata.Game{GameName: "A"}}})
 	if res.Failed == 0 {
 		t.Fatalf("expected Failed>0")
 	}

@@ -20,7 +20,7 @@ func TestRemoveSelectedGames_CurrentlyMirrorsGenerator(t *testing.T) {
 		t.Fatalf("write rom: %v", err)
 	}
 
-	games := []GameModel{
+	games := []GameViewModel{
 		{ID: 1, Selected: true, Game: metadata.Game{GameName: "g1", FileName: "roms/g1.zip"}},
 	}
 
@@ -71,7 +71,7 @@ func TestRemoveSelectedGames_RemovesMetadataMediaAndRom(t *testing.T) {
 		t.Fatalf("mkdir media/B: %v", err)
 	}
 
-	games := []GameModel{
+	games := []GameViewModel{
 		{ID: 1, Selected: true, Game: metadata.Game{GameName: "A", FileName: "A.zip"}},
 		{ID: 2, Selected: false, Game: metadata.Game{GameName: "B", FileName: "B.zip"}},
 	}
@@ -119,7 +119,7 @@ func TestRemoveSelectedGames_MissingRomCountsSkipped(t *testing.T) {
 		t.Fatalf("write metadata: %v", err)
 	}
 
-	games := []GameModel{{Selected: true, Game: metadata.Game{GameName: "A", FileName: "A.zip"}}}
+	games := []GameViewModel{{Selected: true, Game: metadata.Game{GameName: "A", FileName: "A.zip"}}}
 	res := RemoveSelectedGames(root, games)
 	if res.Failed != 0 {
 		t.Fatalf("expected Failed=0 got %d (errs=%v)", res.Failed, res.Errors)

@@ -24,7 +24,7 @@ type OssHandheldGenerateResult struct {
 //   - Recreate <rootDir>/images (if exists: delete then mkdir)
 //   - For each selected game:
 //     copy <rootDir>/media/<GameName>/boxFront.png -> <rootDir>/images/<GameName>.png
-func GenerateSelectedFilesForOssHandheld(rootDir string, games []GameModel) OssHandheldGenerateResult {
+func GenerateSelectedFilesForOssHandheld(rootDir string, games []GameViewModel) OssHandheldGenerateResult {
 	var res OssHandheldGenerateResult
 
 	rootDir = strings.TrimSpace(rootDir)
@@ -88,7 +88,7 @@ type MediaFolderGenerateResult struct {
 //   - For each selected game:
 //     mkdir -p <rootDir>/media/<GameName>
 //     If the directory already exists, it is counted as Skipped.
-func GenerateEmptyMediaFolders(rootDir string, games []GameModel) MediaFolderGenerateResult {
+func GenerateEmptyMediaFolders(rootDir string, games []GameViewModel) MediaFolderGenerateResult {
 	var res MediaFolderGenerateResult
 
 	rootDir = strings.TrimSpace(rootDir)

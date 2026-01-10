@@ -27,7 +27,7 @@ type DeleteResult struct {
 // It matches the Java behavior:
 //   - create <rootDir>/<fileName> if it doesn't exist
 //   - if exists: skip
-func GenerateSelectedFiles(rootDir string, games []GameModel) GenerateResult {
+func GenerateSelectedFiles(rootDir string, games []GameViewModel) GenerateResult {
 	var res GenerateResult
 	for _, g := range games {
 		if !g.Selected {

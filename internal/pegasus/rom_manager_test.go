@@ -11,7 +11,7 @@ import (
 
 func TestGenerateSelectedFiles(t *testing.T) {
 	root := t.TempDir()
-	games := []GameModel{
+	games := []GameViewModel{
 		{Selected: true, Game: metadata.Game{GameName: "A", FileName: "a.zip"}},
 		{Selected: false, Game: metadata.Game{GameName: "B", FileName: "b.zip"}},
 		{Selected: true, Game: metadata.Game{GameName: "C", FileName: "nested/c.zip"}},

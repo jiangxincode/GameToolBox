@@ -129,7 +129,7 @@ func NewRomeManagerView(w fyne.Window) fyne.CanvasObject {
 			}
 		}
 
-		toGen := make([]pegasus.GameModel, 0, len(diff.ExtraInConfig))
+		toGen := make([]pegasus.GameViewModel, 0, len(diff.ExtraInConfig))
 		for _, g := range diff.ExtraInConfig {
 			fileKey := strings.ToLower(filepath.ToSlash(strings.TrimSpace(g.FileName)))
 			if len(selected) > 0 {

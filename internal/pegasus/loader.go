@@ -15,7 +15,7 @@ import (
 // It follows the Java implementation strictly:
 //   - Recognize: game:, file:, sort-by:, developer:, description:
 //   - Each "game:" starts a new record.
-func LoadGamesFromRootDir(rootDir string) ([]GameModel, error) {
+func LoadGamesFromRootDir(rootDir string) ([]GameViewModel, error) {
 	if strings.TrimSpace(rootDir) == "" {
 		return nil, errors.New("root dir is empty")
 	}
@@ -30,9 +30,9 @@ func LoadGamesFromRootDir(rootDir string) ([]GameModel, error) {
 	}
 
 	parsed := doc.Games()
-	games := make([]GameModel, 0, len(parsed))
+	games := make([]GameViewModel, 0, len(parsed))
 	for i, g := range parsed {
-		gm := GameModel{
+		gm := GameViewModel{
 			Game:     g,
 			ID:       i + 1,
 			Selected: false,

@@ -22,9 +22,9 @@ import (
 // We'll diverge the logic later.
 
 type ConfigDiff struct {
-	MissingInConfig   []GameModel // present in ROM dir but not in metadata
-	ExtraInConfig     []GameModel // present in metadata but ROM file missing
-	DuplicateInConfig []string    // duplicated file: entries (normalized)
+	MissingInConfig   []GameViewModel // present in ROM dir but not in metadata
+	ExtraInConfig     []GameViewModel // present in metadata but ROM file missing
+	DuplicateInConfig []string        // duplicated file: entries (normalized)
 }
 
 type ConfigGenerateResult struct {
@@ -41,7 +41,7 @@ type ConfigGenerateResult struct {
 //   - Writes a standard game block for each selected game.
 //   - Uses existing GameModel fields where available; falls back to GameName for developer/description.
 //   - sort-by will be assigned incrementally starting at 1.
-func GenerateSelectedConfig(rootDir string, games []GameModel) ConfigGenerateResult {
+func GenerateSelectedConfig(rootDir string, games []GameViewModel) ConfigGenerateResult {
 	var res ConfigGenerateResult
 
 	rootDir = strings.TrimSpace(rootDir)
@@ -96,13 +96,13 @@ func GenerateSelectedConfig(rootDir string, games []GameModel) ConfigGenerateRes
 // LoadGamesFromRomFiles builds games from ROM files under rootDir.
 // It walks the directory and returns all files (excluding metadata.pegasus.txt and media/**).
 // FileName is stored as a relative path to rootDir using forward slashes.
-func LoadGamesFromRomFiles(rootDir string) ([]GameModel, error) {
+func LoadGamesFromRomFiles(rootDir string) ([]GameViewModel, error) {
 	rootDir = strings.TrimSpace(rootDir)
 	if rootDir == "" {
 		return nil, fmt.Errorf("root dir is empty")
 	}
 
-	var games []GameModel
+	var games []GameViewModel
 	id := 1
 	walkErr := filepath.WalkDir(rootDir, func(path string, d os.DirEntry, err error) error {
 		if err != nil {
@@ -126,7 +126,7 @@ func LoadGamesFromRomFiles(rootDir string) ([]GameModel, error) {
 		}
 		rel = filepath.ToSlash(rel)
 
-		g := GameModel{ID: id, Game: metadata.Game{GameName: strings.TrimSuffix(name, filepath.Ext(name)), FileName: rel}}
+		g := GameViewModel{ID: id, Game: metadata.Game{GameName: strings.TrimSuffix(name, filepath.Ext(name)), FileName: rel}}
 		id++
 		games = append(games, g)
 		return nil
@@ -147,7 +147,7 @@ func DiffConfigAgainstRomFiles(rootDir string) (ConfigDiff, error) {
 		return ConfigDiff{}, err
 	}
 
-	cfgByFile := map[string]GameModel{}
+	cfgByFile := map[string]GameViewModel{}
 	duplicates := map[string]int{}
 	for _, g := range cfgGames {
 		k := metadata.NormalizeFileKey(g.FileName)
@@ -161,7 +161,7 @@ func DiffConfigAgainstRomFiles(rootDir string) (ConfigDiff, error) {
 		}
 	}
 
-	romByFile := map[string]GameModel{}
+	romByFile := map[string]GameViewModel{}
 	for _, g := range romGames {
 		k := metadata.NormalizeFileKey(g.FileName)
 		if k == "" {
@@ -170,14 +170,14 @@ func DiffConfigAgainstRomFiles(rootDir string) (ConfigDiff, error) {
 		romByFile[k] = g
 	}
 
-	var missing []GameModel
+	var missing []GameViewModel
 	for k, g := range romByFile {
 		if _, ok := cfgByFile[k]; !ok {
 			missing = append(missing, g)
 		}
 	}
 
-	var extra []GameModel
+	var extra []GameViewModel
 	for k, g := range cfgByFile {
 		// Extra means in metadata but ROM file doesn't exist.
 		if _, ok := romByFile[k]; ok {
@@ -209,7 +209,7 @@ func DiffConfigAgainstRomFiles(rootDir string) (ConfigDiff, error) {
 }
 
 // AppendMissingGamesToMetadata appends missing games as new game blocks to metadata.pegasus.txt.
-func AppendMissingGamesToMetadata(rootDir string, missing []GameModel) error {
+func AppendMissingGamesToMetadata(rootDir string, missing []GameViewModel) error {
 	if len(missing) == 0 {
 		return nil
 	}
