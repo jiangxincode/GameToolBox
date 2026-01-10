@@ -11,6 +11,7 @@
   "menuitem.pegasus.mediaManager": "Game Media file Manager",
   "menuitem.pegasus.configManager" : "Game Config Manager",
   "menuitem.pegasus.gameRemover" : "Game Remover",
+  "menuitem.pegasus.manualAddGame" : "Manual Add Game",
 
   "menuitem.help.docs": "Docs",
   "menuitem.help.feedback": "Feedback",
