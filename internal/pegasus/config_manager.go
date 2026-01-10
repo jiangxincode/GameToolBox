@@ -243,13 +243,13 @@ func AppendMissingGamesToMetadata(rootDir string, missing []GameViewModel) error
 	return doc.WriteFileAtomic(metaPath)
 }
 
-// RemoveGamesFromMetadata removes entries whose normalized file key matches any in filesToRemove.
-func RemoveGamesFromMetadata(rootDir string, filesToRemove []string) (removed int, err error) {
+// RemoveGamesFromMetadata removes entries whose game name matches any in gameNamesToRemove.
+func RemoveGamesFromMetadata(rootDir string, gameNamesToRemove []string) (removed int, err error) {
 	meta := filepath.Join(rootDir, "metadata.pegasus.txt")
 
 	removeSet := map[string]struct{}{}
-	for _, f := range filesToRemove {
-		k := metadata.NormalizeFileKey(f)
+	for _, n := range gameNamesToRemove {
+		k := strings.TrimSpace(n)
 		if k != "" {
 			removeSet[k] = struct{}{}
 		}
@@ -266,7 +266,7 @@ func RemoveGamesFromMetadata(rootDir string, filesToRemove []string) (removed in
 		return 0, err
 	}
 
-	removed = doc.RemoveByFileKeys(removeSet)
+	removed = doc.RemoveByGameNames(removeSet)
 	if removed == 0 {
 		return 0, nil
 	}

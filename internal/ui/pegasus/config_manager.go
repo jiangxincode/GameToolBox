@@ -22,43 +22,21 @@ func NewConfigManagerView(w fyne.Window) fyne.CanvasObject {
 	ui.rootEntry = rootEntry
 	chooseRootBtn := newChooseRootButton(w, rootEntry, persistRootDir, logPrefix)
 
-	loadFromRomFiles := func() {
+	loadGameData := func() {
 		root := ui.rootDir()
-		logging.Infof("%s click load from rom files root=%s", logPrefix, root)
+		logging.Infof("%s click load data root=%s", logPrefix, root)
 		if root == "" {
 			dialog.ShowInformation("提示", "请先设置根目录", w)
 			return
 		}
-		games, err := pegasus.LoadGamesFromRomFiles(root)
+		games, err := pegasus.LoadGamesFromRootDir(root)
 		if err != nil {
-			logging.Errorf("%s load from rom files failed root=%s err=%v", logPrefix, root, err)
+			logging.Errorf("%s load games failed root=%s err=%v", logPrefix, root, err)
 			dialog.ShowError(err, w)
 			return
 		}
 		ui.setGames(games)
-		dialog.ShowInformation("提示", "ROM 文件扫描完成", w)
-	}
-
-	generateSelected := func() {
-		root := ui.rootDir()
-		logging.Infof("%s click generate selected config root=%s", logPrefix, root)
-		if root == "" {
-			dialog.ShowInformation("提示", "请先设置根目录", w)
-			return
-		}
-		if ui.selectedCount() == 0 {
-			dialog.ShowInformation("提示", "请选择要生成配置的游戏", w)
-			return
-		}
-
-		res := pegasus.GenerateSelectedConfig(root, ui.allGames)
-		if len(res.Errors) > 0 {
-			dialog.ShowError(fmt.Errorf("部分生成失败: %v", res.Errors[0]), w)
-			logging.Infof("%s generate config failed written=%d skipped=%d failed=%d errors=%d", logPrefix, res.Written, res.Skipped, res.Failed, len(res.Errors))
-			return
-		}
-		dialog.ShowInformation("提示", fmt.Sprintf("配置生成完成\nWritten=%d, Skipped=%d", res.Written, res.Skipped), w)
-		logging.Infof("%s generate config finished written=%d skipped=%d failed=%d errors=%d", logPrefix, res.Written, res.Skipped, res.Failed, len(res.Errors))
+		dialog.ShowInformation("提示", "游戏数据加载完成", w)
 	}
 
 	listMissing := func() {
@@ -131,11 +109,11 @@ func NewConfigManagerView(w fyne.Window) fyne.CanvasObject {
 			if !ok {
 				return
 			}
-			files := make([]string, 0, len(diff.ExtraInConfig))
+			gameNames := make([]string, 0, len(diff.ExtraInConfig))
 			for _, g := range diff.ExtraInConfig {
-				files = append(files, g.FileName)
+				gameNames = append(gameNames, g.GameName)
 			}
-			removed, err := pegasus.RemoveGamesFromMetadata(root, files)
+			removed, err := pegasus.RemoveGamesFromMetadata(root, gameNames)
 			if err != nil {
 				logging.Errorf("%s remove games from metadata failed root=%s err=%v", logPrefix, root, err)
 				dialog.ShowError(err, w)
@@ -198,7 +176,7 @@ func NewConfigManagerView(w fyne.Window) fyne.CanvasObject {
 
 	// 按钮太多并排会导致界面过宽，这里按功能分组分成 3 行。
 	buttonRow1 := container.NewHBox(
-		widget.NewButton("从ROM文件加载数据", loadFromRomFiles),
+		widget.NewButton("加载/刷新数据", loadGameData),
 		widget.NewButton("全选", func() {
 			logging.Infof("%s click select all", logPrefix)
 			ui.selectAll(true)
@@ -207,16 +185,15 @@ func NewConfigManagerView(w fyne.Window) fyne.CanvasObject {
 			logging.Infof("%s click deselect all", logPrefix)
 			ui.selectAll(false)
 		}),
-		widget.NewButton("生成选中游戏的配置", generateSelected),
-		widget.NewButton("列出配置文件中重复的游戏", listDuplicates),
+		widget.NewButton("列出配置中重复的游戏", listDuplicates),
 	)
 	buttonRow2 := container.NewHBox(
-		widget.NewButton("列出配置文件中缺失的游戏", listMissing),
-		widget.NewButton("补齐配置文件中缺失的游戏", fillMissing),
+		widget.NewButton("列出无配置有ROM的游戏", listMissing),
+		widget.NewButton("补齐对应游戏的配置", fillMissing),
 	)
 	buttonRow3 := container.NewHBox(
-		widget.NewButton("列出配置文件中多余的游戏", listExtra),
-		widget.NewButton("删除配置文件中多余的游戏", deleteExtra),
+		widget.NewButton("列出有配置无ROM的游戏", listExtra),
+		widget.NewButton("删除对应游戏的配置", deleteExtra),
 	)
 	buttonRows := container.NewVBox(buttonRow1, buttonRow2, buttonRow3)
 

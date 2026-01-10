@@ -9,105 +9,59 @@ import (
 	"github.com/game_tool_box/internal/pegasus/metadata"
 )
 
-func TestLoadGamesFromRomFiles_SkipsMetadataAndMedia(t *testing.T) {
+// NOTE: Tests in this file are intentionally ordered by feature area:
+//   1) metadata append/remove helpers
+//   2) diff logic
+//   3) ROM scanning helper
+//   4) config generation
+
+func TestRemoveGamesFromMetadata_PreservesCollectionAndNormalizesBlankLines(t *testing.T) {
 	root := t.TempDir()
+	metaPath := filepath.Join(root, "metadata.pegasus.txt")
 
-	if err := os.WriteFile(filepath.Join(root, "metadata.pegasus.txt"), []byte("game: X\nfile: x.zip\n"), 0o644); err != nil {
-		t.Fatalf("write metadata: %v", err)
-	}
-	if err := os.MkdirAll(filepath.Join(root, "media", "X"), 0o755); err != nil {
-		t.Fatalf("mkdir media: %v", err)
-	}
-	// If media is not skipped, these would be returned — make sure they are ignored.
-	if err := os.WriteFile(filepath.Join(root, "media", "X", "boxFront.png"), []byte("img"), 0o644); err != nil {
-		t.Fatalf("write media file: %v", err)
-	}
-	if err := os.WriteFile(filepath.Join(root, "media", "media_should_not_be_scanned.zip"), []byte("no"), 0o644); err != nil {
-		t.Fatalf("write media rom-like file: %v", err)
-	}
-
-	if err := os.MkdirAll(filepath.Join(root, "roms"), 0o755); err != nil {
-		t.Fatalf("mkdir roms: %v", err)
-	}
-	if err := os.WriteFile(filepath.Join(root, "roms", "a.zip"), []byte("a"), 0o644); err != nil {
-		t.Fatalf("write rom: %v", err)
-	}
-
-	games, err := LoadGamesFromRomFiles(root)
-	if err != nil {
-		t.Fatalf("LoadGamesFromRomFiles: %v", err)
-	}
-	if len(games) != 1 {
-		t.Fatalf("expected 1 rom file, got %d (%v)", len(games), games)
-	}
-	if games[0].FileName != "roms/a.zip" {
-		t.Fatalf("expected relative filename roms/a.zip, got %q", games[0].FileName)
-	}
-}
-
-func TestDiffConfigAgainstRomFiles_MissingExtraDuplicate(t *testing.T) {
-	root := t.TempDir()
-
-	// Create ROM files: A.zip and B.zip
-	if err := os.MkdirAll(filepath.Join(root, "roms"), 0o755); err != nil {
-		t.Fatalf("mkdir roms: %v", err)
-	}
-	if err := os.WriteFile(filepath.Join(root, "roms", "A.zip"), []byte("a"), 0o644); err != nil {
-		t.Fatalf("write A.zip: %v", err)
-	}
-	if err := os.WriteFile(filepath.Join(root, "roms", "B.zip"), []byte("b"), 0o644); err != nil {
-		t.Fatalf("write B.zip: %v", err)
-	}
-
-	// metadata contains:
-	// - A.zip twice (duplicate)
-	// - C.zip (extra, missing on disk)
+	// Intentionally include extra blank lines; after removal we expect them to be collapsed.
 	meta := strings.Join([]string{
-		"game: A",
-		"file: roms/A.zip",
+		"game:A",
+		"file:roms/A.zip",
 		"",
-		"game: A2",
-		"file: roms/A.zip",
 		"",
-		"game: C",
-		"file: roms/C.zip",
+		"collection:Favorites",
+		"sort-by:999",
+		"",
+		"game:B",
+		"file:roms/B.zip",
+		"",
 		"",
 	}, "\n")
-	if err := os.WriteFile(filepath.Join(root, "metadata.pegasus.txt"), []byte(meta), 0o644); err != nil {
+	if err := os.WriteFile(metaPath, []byte(meta), 0o644); err != nil {
 		t.Fatalf("write metadata: %v", err)
 	}
 
-	diff, err := DiffConfigAgainstRomFiles(root)
+	removed, err := RemoveGamesFromMetadata(root, []string{"A"})
 	if err != nil {
-		t.Fatalf("DiffConfigAgainstRomFiles: %v", err)
+		t.Fatalf("RemoveGamesFromMetadata: %v", err)
+	}
+	if removed != 1 {
+		t.Fatalf("expected removed=1 got %d", removed)
 	}
 
-	// Missing: B.zip
-	if len(diff.MissingInConfig) != 1 {
-		t.Fatalf("expected MissingInConfig=1, got %d (%v)", len(diff.MissingInConfig), diff.MissingInConfig)
+	b, err := os.ReadFile(metaPath)
+	if err != nil {
+		t.Fatalf("read metadata: %v", err)
 	}
-	if diff.MissingInConfig[0].FileName != "roms/B.zip" {
-		t.Fatalf("expected missing roms/B.zip, got %q", diff.MissingInConfig[0].FileName)
-	}
+	out := string(b)
 
-	// Extra: C.zip
-	if len(diff.ExtraInConfig) != 1 {
-		t.Fatalf("expected ExtraInConfig=1, got %d (%v)", len(diff.ExtraInConfig), diff.ExtraInConfig)
+	if strings.Contains(out, "file:roms/A.zip") {
+		t.Fatalf("expected A removed, got:\n%s", out)
 	}
-	if metadata.NormalizeFileKey(diff.ExtraInConfig[0].FileName) != "roms/c.zip" {
-		t.Fatalf("expected extra roms/C.zip, got %q", diff.ExtraInConfig[0].FileName)
+	if !strings.Contains(out, "collection:Favorites") {
+		t.Fatalf("expected collection preserved, got:\n%s", out)
 	}
-
-	// Duplicate: roms/a.zip
-	foundDup := false
-	for _, d := range diff.DuplicateInConfig {
-		if d == "roms/a.zip" {
-			foundDup = true
-			break
-		}
+	if !strings.Contains(out, "file:roms/B.zip") {
+		t.Fatalf("expected B preserved, got:\n%s", out)
 	}
-	if !foundDup {
-		t.Fatalf("expected duplicate contains roms/a.zip, got %v", diff.DuplicateInConfig)
+	if strings.Contains(out, "\n\n\n") {
+		t.Fatalf("expected blank lines normalized (no triple newline), got:\n%s", out)
 	}
 }
 
@@ -144,7 +98,7 @@ func TestAppendMissingGamesToMetadata_AndRemoveGamesFromMetadata(t *testing.T) {
 	}
 
 	// Remove it back
-	removed, err := RemoveGamesFromMetadata(root, []string{"roms/A.zip"})
+	removed, err := RemoveGamesFromMetadata(root, []string{"A"})
 	if err != nil {
 		t.Fatalf("RemoveGamesFromMetadata: %v", err)
 	}
@@ -278,15 +232,106 @@ func TestAppendMissingGamesToMetadata_BlankLineFormatting(t *testing.T) {
 	}
 }
 
-func tail(s string, n int) string {
-	if n <= 0 {
-		return ""
+func TestDiffConfigAgainstRomFiles_MissingExtraDuplicate(t *testing.T) {
+	root := t.TempDir()
+
+	// Create ROM files: A.zip and B.zip
+	if err := os.MkdirAll(filepath.Join(root, "roms"), 0o755); err != nil {
+		t.Fatalf("mkdir roms: %v", err)
 	}
-	r := []rune(s)
-	if len(r) <= n {
-		return s
+	if err := os.WriteFile(filepath.Join(root, "roms", "A.zip"), []byte("a"), 0o644); err != nil {
+		t.Fatalf("write A.zip: %v", err)
 	}
-	return string(r[len(r)-n:])
+	if err := os.WriteFile(filepath.Join(root, "roms", "B.zip"), []byte("b"), 0o644); err != nil {
+		t.Fatalf("write B.zip: %v", err)
+	}
+
+	// metadata contains:
+	// - A.zip twice (duplicate)
+	// - C.zip (extra, missing on disk)
+	meta := strings.Join([]string{
+		"game: A",
+		"file: roms/A.zip",
+		"",
+		"game: A2",
+		"file: roms/A.zip",
+		"",
+		"game: C",
+		"file: roms/C.zip",
+		"",
+	}, "\n")
+	if err := os.WriteFile(filepath.Join(root, "metadata.pegasus.txt"), []byte(meta), 0o644); err != nil {
+		t.Fatalf("write metadata: %v", err)
+	}
+
+	diff, err := DiffConfigAgainstRomFiles(root)
+	if err != nil {
+		t.Fatalf("DiffConfigAgainstRomFiles: %v", err)
+	}
+
+	// Missing: B.zip
+	if len(diff.MissingInConfig) != 1 {
+		t.Fatalf("expected MissingInConfig=1, got %d (%v)", len(diff.MissingInConfig), diff.MissingInConfig)
+	}
+	if diff.MissingInConfig[0].FileName != "roms/B.zip" {
+		t.Fatalf("expected missing roms/B.zip, got %q", diff.MissingInConfig[0].FileName)
+	}
+
+	// Extra: C.zip
+	if len(diff.ExtraInConfig) != 1 {
+		t.Fatalf("expected ExtraInConfig=1, got %d (%v)", len(diff.ExtraInConfig), diff.ExtraInConfig)
+	}
+	if metadata.NormalizeFileKey(diff.ExtraInConfig[0].FileName) != "roms/c.zip" {
+		t.Fatalf("expected extra roms/C.zip, got %q", diff.ExtraInConfig[0].FileName)
+	}
+
+	// Duplicate: roms/a.zip
+	foundDup := false
+	for _, d := range diff.DuplicateInConfig {
+		if d == "roms/a.zip" {
+			foundDup = true
+			break
+		}
+	}
+	if !foundDup {
+		t.Fatalf("expected duplicate contains roms/a.zip, got %v", diff.DuplicateInConfig)
+	}
+}
+
+func TestLoadGamesFromRomFiles_SkipsMetadataAndMedia(t *testing.T) {
+	root := t.TempDir()
+
+	if err := os.WriteFile(filepath.Join(root, "metadata.pegasus.txt"), []byte("game: X\nfile: x.zip\n"), 0o644); err != nil {
+		t.Fatalf("write metadata: %v", err)
+	}
+	if err := os.MkdirAll(filepath.Join(root, "media", "X"), 0o755); err != nil {
+		t.Fatalf("mkdir media: %v", err)
+	}
+	// If media is not skipped, these would be returned — make sure they are ignored.
+	if err := os.WriteFile(filepath.Join(root, "media", "X", "boxFront.png"), []byte("img"), 0o644); err != nil {
+		t.Fatalf("write media file: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(root, "media", "media_should_not_be_scanned.zip"), []byte("no"), 0o644); err != nil {
+		t.Fatalf("write media rom-like file: %v", err)
+	}
+
+	if err := os.MkdirAll(filepath.Join(root, "roms"), 0o755); err != nil {
+		t.Fatalf("mkdir roms: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(root, "roms", "a.zip"), []byte("a"), 0o644); err != nil {
+		t.Fatalf("write rom: %v", err)
+	}
+
+	games, err := LoadGamesFromRomFiles(root)
+	if err != nil {
+		t.Fatalf("LoadGamesFromRomFiles: %v", err)
+	}
+	if len(games) != 1 {
+		t.Fatalf("expected 1 rom file, got %d (%v)", len(games), games)
+	}
+	if games[0].FileName != "roms/a.zip" {
+		t.Fatalf("expected relative filename roms/a.zip, got %q", games[0].FileName)
+	}
 }
 
 func TestGenerateSelectedConfig_RewritesMetadataWithSelectedGames(t *testing.T) {
@@ -336,4 +381,15 @@ func TestGenerateSelectedConfig_RewritesMetadataWithSelectedGames(t *testing.T) 
 	if !strings.Contains(out, "sort-by:001") || !strings.Contains(out, "sort-by:002") {
 		t.Fatalf("expected sort-by entries 001/002, got:\n%s", out)
 	}
+}
+
+func tail(s string, n int) string {
+	if n <= 0 {
+		return ""
+	}
+	r := []rune(s)
+	if len(r) <= n {
+		return s
+	}
+	return string(r[len(r)-n:])
 }

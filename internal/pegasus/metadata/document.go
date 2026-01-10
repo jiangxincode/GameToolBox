@@ -243,29 +243,6 @@ func (d *Document) RemoveByGameNames(names map[string]struct{}) int {
 	return removed
 }
 
-// RemoveByFileKeys removes any game block whose normalized file key matches keys.
-// Returns number of removed blocks.
-func (d *Document) RemoveByFileKeys(keys map[string]struct{}) int {
-	if len(keys) == 0 {
-		return 0
-	}
-	removed := 0
-	filtered := d.items[:0]
-	for _, it := range d.items {
-		gi, ok := it.(GameItem)
-		if ok {
-			k := NormalizeFileKey(gi.game.FileName)
-			if _, hit := keys[k]; hit {
-				removed++
-				continue
-			}
-		}
-		filtered = append(filtered, it)
-	}
-	d.items = filtered
-	return removed
-}
-
 // Render renders the document with light normalization:
 //   - unifies newlines to d.newline
 //   - collapses runs of blank lines to at most one blank line
