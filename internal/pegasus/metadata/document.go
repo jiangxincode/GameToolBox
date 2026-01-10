@@ -9,18 +9,34 @@ import (
 )
 
 // Document is a lightly-normalizing, round-trippable representation of
-// metadata.pegasus.txt.
+// Pegasus metadata files (typically `metadata.pegasus.txt`).
+//
+// This package intentionally focuses on the subset of the Pegasus meta-files
+// spec that GameToolBox needs, while keeping the original file as intact as
+// possible (comments, unknown keys, collections, and formatting).
 //
 // Goals:
-//   - Preserve unknown lines/blocks (comments/collection/unknown keys)
-//   - Light normalization on write (newline normalization + collapse excessive blank lines)
-//   - Provide helpers to list/remove game blocks
+//   - Preserve non-game content (comments, blank lines, collection blocks, unknown keys)
+//   - Provide helpers to list/remove game entries (by name or by `file:`)
+//   - Write back using an atomic replace + light whitespace normalization
 //
-// Parsing contract (compatible with existing code):
-//   - A game block starts at a line whose TrimSpace has prefix "game:".
-//   - The game name is the trimmed remainder after "game:".
-//   - file/sort-by/developer/description are recognized within a game block.
-//   - Everything else is preserved as raw lines.
+// Parsing behavior (aligned with https://pegasus-frontend.org/docs/user-guide/meta-files/):
+//   - A new game entry starts at a line whose trimmed key is `game` (case-insensitive).
+//     Example accepted forms: `game: Title`, `game : Title`, `GAME: Title`.
+//   - Inside a game entry, we only *extract* a small subset of keys used by this app:
+//       `file`, `sort-by`, `developer`, `description` (case-insensitive).
+//     Any additional lines are preserved as raw lines within the entry.
+//   - Collection blocks (e.g. `collection: ...`) are treated as *non-game* sections.
+//     When such a key is encountered while parsing a game entry, the game entry is
+//     closed and the line becomes part of the raw section.
+//
+// Known limitations / intentional trade-offs:
+//   - We don't fully model every Pegasus key; unknown keys are preserved but not
+//     exposed via the structured Game fields.
+//   - Duplicate keys inside a game entry are stored as-is in lines; the structured
+//     fields keep the last parsed value.
+//   - Render() collapses multiple consecutive blank lines and always ensures the
+//     file ends with a single newline.
 
 type Document struct {
 	items   []Item
@@ -113,15 +129,43 @@ func Parse(text string) *Document {
 		gameLines = gameLines[:0]
 	}
 
+	parseKV := func(line string) (key, val string, ok bool) {
+		trim := strings.TrimSpace(line)
+		if trim == "" {
+			return "", "", false
+		}
+		idx := strings.IndexByte(trim, ':')
+		if idx < 0 {
+			return "", "", false
+		}
+		key = strings.ToLower(strings.TrimSpace(trim[:idx]))
+		val = strings.TrimSpace(trim[idx+1:])
+		if key == "" {
+			return "", "", false
+		}
+		return key, val, true
+	}
+
+	isGameField := func(key string) bool {
+		switch key {
+		case "file", "sort-by", "developer", "description":
+			return true
+		default:
+			return false
+		}
+	}
+
 	for scanner.Scan() {
 		line := scanner.Text()
-		trim := strings.TrimSpace(line)
+		key, val, ok := parseKV(line)
 
-		if strings.HasPrefix(trim, "game:") {
+		// Per Pegasus meta-files spec, a new game entry starts at a line whose
+		// trimmed key is `game` (case-insensitive; allows spaces around ':').
+		if ok && key == "game" {
 			flushRaw()
 			flushGame()
 
-			g := Game{GameName: strings.TrimSpace(trim[len("game:"):])}
+			g := Game{GameName: val}
 			current = &g
 			gameLines = append(gameLines, line)
 			continue
@@ -132,31 +176,28 @@ func Parse(text string) *Document {
 			continue
 		}
 
-		// If we're inside a game block and encounter a non-blank line that is NOT
-		// a recognized game field, treat it as the start of a raw section (e.g.
-		// collection blocks), matching existing behavior that only cares about
-		// known keys.
-		if trim != "" &&
-			!strings.HasPrefix(trim, "file:") &&
-			!strings.HasPrefix(trim, "sort-by:") &&
-			!strings.HasPrefix(trim, "developer:") &&
-			!strings.HasPrefix(trim, "description:") {
-			// Close game block and re-process this line as raw.
+		// Inside a game block:
+		// If we encounter a non-empty key/value that isn't a recognized game field,
+		// it likely starts another block type (e.g. collection), so we close the
+		// game block and treat this line as raw.
+		if ok && key != "" && !isGameField(key) {
 			flushGame()
 			rawBuf = append(rawBuf, line)
 			continue
 		}
 
-		// inside game block
-		switch {
-		case strings.HasPrefix(trim, "file:"):
-			current.FileName = strings.TrimSpace(trim[len("file:"):])
-		case strings.HasPrefix(trim, "sort-by:"):
-			current.SortBy = strings.TrimSpace(trim[len("sort-by:"):])
-		case strings.HasPrefix(trim, "developer:"):
-			current.Developer = strings.TrimSpace(trim[len("developer:"):])
-		case strings.HasPrefix(trim, "description:"):
-			current.Description = strings.TrimSpace(trim[len("description:"):])
+		// Parse known subset.
+		if ok {
+			switch key {
+			case "file":
+				current.FileName = val
+			case "sort-by":
+				current.SortBy = val
+			case "developer":
+				current.Developer = val
+			case "description":
+				current.Description = val
+			}
 		}
 		gameLines = append(gameLines, line)
 	}
