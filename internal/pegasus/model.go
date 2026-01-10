@@ -5,7 +5,7 @@ import "path/filepath"
 // GameModel mirrors the fields used by the Java version.
 // It represents one game entry parsed from metadata.pegasus.txt.
 //
-// Note: Media files are optional and will be resolved if a media/<gameName>/ directory exists.
+// Note: Media files are optional. Their paths can be derived from rootDir + GameName.
 type GameModel struct {
 	Selected    bool
 	ID          int
@@ -14,12 +14,20 @@ type GameModel struct {
 	SortBy      string
 	Developer   string
 	Description string
-
-	LogoImagePath     string
-	BoxFrontImagePath string
-	VideoFilePath     string
 }
 
 func (g GameModel) MediaDir(rootDir string) string {
 	return filepath.Join(rootDir, "media", g.GameName)
+}
+
+func (g GameModel) LogoImagePath(rootDir string) string {
+	return filepath.Join(g.MediaDir(rootDir), "logo.png")
+}
+
+func (g GameModel) BoxFrontImagePath(rootDir string) string {
+	return filepath.Join(g.MediaDir(rootDir), "boxFront.png")
+}
+
+func (g GameModel) VideoFilePath(rootDir string) string {
+	return filepath.Join(g.MediaDir(rootDir), "video.mp4")
 }

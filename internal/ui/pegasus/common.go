@@ -227,7 +227,7 @@ func (ui *gameListUI) resetCoverImage() {
 }
 
 func (ui *gameListUI) showDetailFor(g pegasus.GameModel) {
-	boxFront := strings.TrimSpace(g.BoxFrontImagePath)
+	boxFront := strings.TrimSpace(g.BoxFrontImagePath(ui.rootDir()))
 	if boxFront != "" {
 		if _, err := os.Stat(boxFront); err == nil {
 			ui.noCoverLabel.Hide()
