@@ -12,6 +12,29 @@ type Config struct {
 	Theme string `json:"theme,omitempty"`
 	// RootDir remembers last selected root directory for Pegasus G generator.
 	RootDir string `json:"rootDir,omitempty"`
+
+	// MediaScrapeBaseURL is an optional base URL used by the media scraper.
+	//
+	// If set, the scraper will try to download (per selected game):
+	//   <baseURL>/<url.PathEscape(GameName)>/boxFront.png
+	//   <baseURL>/<url.PathEscape(GameName)>/logo.png
+	//   <baseURL>/<url.PathEscape(GameName)>/video.mp4
+	//
+	// Example: https://example.com/pegasus/media
+	MediaScrapeBaseURL string `json:"mediaScrapeBaseURL,omitempty"`
+
+	// MediaScrapeOverwrite controls whether existing local media files will be overwritten.
+	// Default false: only download missing files.
+	MediaScrapeOverwrite bool `json:"mediaScrapeOverwrite,omitempty"`
+
+	// --- ScreenScraper credentials ---
+	// ScreenScraperDevID / ScreenScraperDevPassword are required by ScreenScraper API.
+	ScreenScraperDevID       string `json:"screenScraperDevID,omitempty"`
+	ScreenScraperDevPassword string `json:"screenScraperDevPassword,omitempty"`
+
+	// Optional user account for higher rate limits / additional access.
+	ScreenScraperUser     string `json:"screenScraperUser,omitempty"`
+	ScreenScraperPassword string `json:"screenScraperPassword,omitempty"`
 }
 
 // Dir returns the application data directory used to store config/log files.

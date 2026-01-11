@@ -1,6 +1,7 @@
 package pegasusui
 
 import (
+	"errors"
 	"fmt"
 
 	"fyne.io/fyne/v2"
@@ -36,6 +37,32 @@ func NewMediaManagerView(w fyne.Window) fyne.CanvasObject {
 		}
 		ui.setGames(games)
 		dialog.ShowInformation("提示", "游戏数据加载完成", w)
+	}
+
+	scrapeSelectedMedia := func() {
+		root := ui.rootDir()
+		logging.Infof("%s click scrape selected media root=%s", logPrefix, root)
+		if root == "" {
+			dialog.ShowInformation("提示", "请先设置根目录", w)
+			return
+		}
+		if ui.selectedCount() == 0 {
+			dialog.ShowInformation("提示", "请选择要刮削媒体文件的游戏", w)
+			return
+		}
+
+		res, err := pegasus.ScrapeSelectedMedia(root, ui.allGames)
+		if err != nil {
+			if errors.Is(err, pegasus.ErrMediaScrapeNotConfigured) {
+				dialog.ShowInformation("提示", "请先在【设置】里填写 ScreenScraper 的 DevID/DevPassword（以及可选的账号密码）", w)
+				return
+			}
+			// Partial failures are returned as err with res.Errors populated.
+			logging.Errorf("%s scrape selected media failed root=%s created=%d skipped=%d failed=%d err=%v", logPrefix, root, res.Created, res.Skipped, res.Failed, err)
+			dialog.ShowError(fmt.Errorf("刮削存在失败: %v", err), w)
+			return
+		}
+		dialog.ShowInformation("提示", fmt.Sprintf("媒体文件刮削完成\nDownloaded=%d, Skipped=%d", res.Created, res.Skipped), w)
 	}
 
 	generateSelected := func() {
@@ -94,6 +121,7 @@ func NewMediaManagerView(w fyne.Window) fyne.CanvasObject {
 			ui.selectAll(false)
 		}),
 		widget.NewButton("生成对应游戏空媒体文件夹", generateEmptyMediaDirs),
+		widget.NewButton("自动刮削媒体文件", scrapeSelectedMedia),
 		widget.NewButton("转换为开源掌机格式", generateSelected),
 	)
 
