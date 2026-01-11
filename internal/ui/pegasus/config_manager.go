@@ -88,17 +88,17 @@ func NewConfigManagerView(w fyne.Window) fyne.CanvasObject {
 			return
 		}
 
-		orderedFiles := make([]string, 0, len(ui.allGames))
+		orderedGameNames := make([]string, 0, len(ui.allGames))
 		for _, g := range ui.allGames {
-			orderedFiles = append(orderedFiles, g.FileName)
+			orderedGameNames = append(orderedGameNames, g.GameName)
 		}
 
-		confirmMsg := fmt.Sprintf("将按当前顺序重写 metadata.pegasus.txt，并重新编号 sort-by（共 %d 条）。是否继续？", len(orderedFiles))
+		confirmMsg := fmt.Sprintf("将按当前顺序重写 metadata.pegasus.txt，并重新编号 sort-by（共 %d 条）。是否继续？", len(orderedGameNames))
 		dialog.ShowConfirm("确认保存顺序", confirmMsg, func(ok bool) {
 			if !ok {
 				return
 			}
-			if _, err := pegasus.ReorderGamesInMetadata(root, orderedFiles); err != nil {
+			if _, err := pegasus.ReorderGamesInMetadata(root, orderedGameNames); err != nil {
 				dialog.ShowError(err, w)
 				return
 			}

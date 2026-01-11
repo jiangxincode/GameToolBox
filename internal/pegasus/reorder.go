@@ -14,11 +14,11 @@ type ReorderResult struct {
 }
 
 // ReorderGamesInMetadata rewrites the order of game blocks in metadata.pegasus.txt
-// according to the given ordered file list (relative to rootDir).
+// according to the given ordered game name list ("game:" titles).
 //
 // Important: It preserves all non-game sections (e.g. collection blocks, comments,
 // unknown raw lines) exactly as-is, and only reorders game blocks.
-func ReorderGamesInMetadata(rootDir string, orderedFiles []string) (ReorderResult, error) {
+func ReorderGamesInMetadata(rootDir string, orderedGameNames []string) (ReorderResult, error) {
 	var res ReorderResult
 
 	rootDir = strings.TrimSpace(rootDir)
@@ -44,10 +44,10 @@ func ReorderGamesInMetadata(rootDir string, orderedFiles []string) (ReorderResul
 	}
 
 	// Build normalized order list (unique, first-win).
-	order := make([]string, 0, len(orderedFiles))
+	order := make([]string, 0, len(orderedGameNames))
 	seen := map[string]bool{}
-	for _, f := range orderedFiles {
-		k := metadata.NormalizeFileKey(f)
+	for _, name := range orderedGameNames {
+		k := metadata.NormalizeGameNameKey(name)
 		if k == "" || seen[k] {
 			continue
 		}
@@ -63,7 +63,7 @@ func ReorderGamesInMetadata(rootDir string, orderedFiles []string) (ReorderResul
 			if used[i] {
 				continue
 			}
-			if metadata.NormalizeFileKey(gi.Game().FileName) == k {
+			if metadata.NormalizeGameNameKey(gi.Game().GameName) == k {
 				sorted = append(sorted, gi)
 				used[i] = true
 				break

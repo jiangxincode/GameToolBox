@@ -6,6 +6,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"unicode"
 )
 
 // Document is a lightly-normalizing, round-trippable representation of
@@ -351,3 +352,35 @@ func NormalizeFileKey(fileName string) string {
 
 // Backward-compatible alias for internal callers.
 func normalizeFileKey(fileName string) string { return NormalizeFileKey(fileName) }
+
+// NormalizeGameNameKey normalizes a metadata `game:` value (title) for stable matching.
+//
+// Rules:
+//   - trims leading/trailing spaces
+//   - collapses any whitespace runs (spaces/tabs/newlines) into a single space
+//   - lowercases
+func NormalizeGameNameKey(name string) string {
+	s := strings.TrimSpace(name)
+	if s == "" {
+		return ""
+	}
+
+	// Collapse all unicode whitespace to single ASCII spaces.
+	b := strings.Builder{}
+	b.Grow(len(s))
+	prevSpace := false
+	for _, r := range s {
+		if unicode.IsSpace(r) {
+			if prevSpace {
+				continue
+			}
+			b.WriteByte(' ')
+			prevSpace = true
+			continue
+		}
+		b.WriteRune(r)
+		prevSpace = false
+	}
+
+	return strings.ToLower(b.String())
+}

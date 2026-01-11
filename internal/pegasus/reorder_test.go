@@ -34,7 +34,7 @@ func TestReorderGamesInMetadata_ReordersAndRenumbersSortBy(t *testing.T) {
 		t.Fatalf("write: %v", err)
 	}
 
-	_, err := ReorderGamesInMetadata(root, []string{"B.zip", "C.zip", "A.zip"})
+	_, err := ReorderGamesInMetadata(root, []string{"B", "C", "A"})
 	if err != nil {
 		t.Fatalf("ReorderGamesInMetadata: %v", err)
 	}
@@ -84,7 +84,7 @@ func TestReorderGamesInMetadata_PreservesCollectionBlock(t *testing.T) {
 		t.Fatalf("write: %v", err)
 	}
 
-	_, err := ReorderGamesInMetadata(root, []string{"B.zip", "A.zip"})
+	_, err := ReorderGamesInMetadata(root, []string{"B", "A"})
 	if err != nil {
 		t.Fatalf("ReorderGamesInMetadata: %v", err)
 	}
@@ -114,3 +114,5 @@ func TestReorderGamesInMetadata_PreservesCollectionBlock(t *testing.T) {
 		t.Fatalf("unexpected game order:\n%s", out)
 	}
 }
+
+// (order list now uses game titles rather than file names)
