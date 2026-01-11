@@ -34,16 +34,10 @@ func GenerateSelectedFilesForOssHandheld(rootDir string, games []GameViewModel) 
 		return res
 	}
 
-	imagesDir := filepath.Join(rootDir, "images")
-	// Recreate images directory
-	if err := os.RemoveAll(imagesDir); err != nil {
+	imagesDir, err := RecreateDirUnderRoot(rootDir, "images", 0o755)
+	if err != nil {
 		res.Failed++
-		res.Errors = append(res.Errors, fmt.Errorf("remove images dir %s: %w", imagesDir, err))
-		return res
-	}
-	if err := os.MkdirAll(imagesDir, 0o755); err != nil {
-		res.Failed++
-		res.Errors = append(res.Errors, fmt.Errorf("mkdir images dir %s: %w", imagesDir, err))
+		res.Errors = append(res.Errors, err)
 		return res
 	}
 
@@ -58,7 +52,14 @@ func GenerateSelectedFilesForOssHandheld(rootDir string, games []GameViewModel) 
 			continue
 		}
 
-		src := filepath.Join(rootDir, "media", name, "boxFront.png")
+		mediaDir, mediaErr := SafeMediaDir(rootDir, name)
+		if mediaErr != nil {
+			res.Failed++
+			res.Errors = append(res.Errors, fmt.Errorf("refuse to access media for %q: %w", name, mediaErr))
+			continue
+		}
+
+		src := filepath.Join(mediaDir, "boxFront.png")
 		dst := filepath.Join(imagesDir, name+".png")
 
 		if err := copyFile(src, dst); err != nil {

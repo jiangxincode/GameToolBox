@@ -88,22 +88,17 @@ func DeleteRomsNotInConfig(rootDir string) DeleteResult {
 		return res
 	}
 
-	rootClean := filepath.Clean(rootDir)
-
 	for _, g := range diff.MissingInConfig {
-		if strings.TrimSpace(g.FileName) == "" {
+		rel := strings.TrimSpace(g.FileName)
+		if rel == "" {
 			res.Skipped++
 			continue
 		}
 
-		candidate := filepath.Join(rootClean, filepath.FromSlash(g.FileName))
-		candidate = filepath.Clean(candidate)
-
-		// Ensure candidate is within rootDir to avoid path traversal.
-		rel, relErr := filepath.Rel(rootClean, candidate)
-		if relErr != nil || rel == "." || strings.HasPrefix(rel, "..") {
+		candidate, joinErr := SafeJoinUnderRoot(rootDir, rel)
+		if joinErr != nil {
 			res.Failed++
-			res.Errors = append(res.Errors, fmt.Errorf("refuse to delete outside root: %q", g.FileName))
+			res.Errors = append(res.Errors, fmt.Errorf("refuse to delete rom %q: %w", rel, joinErr))
 			continue
 		}
 

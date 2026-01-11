@@ -281,14 +281,14 @@ func NewConfigManagerView(w fyne.Window) fyne.CanvasObject {
 			logging.Infof("%s click deselect all", logPrefix)
 			ui.selectAll(false)
 		}),
-		widget.NewButton("列出配置中重复的游戏", listDuplicates),
+		widget.NewButton("查找配置中重复的游戏", listDuplicates),
 	)
 	buttonRow2 := container.NewHBox(
-		widget.NewButton("列出无配置有ROM的游戏", listMissing),
+		widget.NewButton("查找无配置有ROM的游戏", listMissing),
 		widget.NewButton("补齐对应游戏的配置", fillMissing),
 	)
 	buttonRow3 := container.NewHBox(
-		widget.NewButton("列出有配置无ROM的游戏", listExtra),
+		widget.NewButton("查找有配置无ROM的游戏", listExtra),
 		widget.NewButton("删除对应游戏的配置", deleteExtra),
 	)
 	buttonRows := container.NewVBox(buttonRow1, buttonRow2, buttonRow3)
@@ -305,8 +305,8 @@ func NewConfigManagerView(w fyne.Window) fyne.CanvasObject {
 		container.NewVBox(
 			container.NewBorder(nil, nil, nil, chooseRootBtn, rootEntry),
 			buttonRows,
-			searchRow,
 			orderToolbar,
+			searchRow,
 		),
 		status,
 		nil,

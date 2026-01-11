@@ -75,39 +75,36 @@ func RemoveSelectedGames(rootDir string, games []GameViewModel) GameRemoveResult
 	// 2) Delete media dirs and ROM files
 	for name, g := range selectedByName {
 		// media/<gameName>
-		mediaDir := filepath.Join(rootDir, "media", name)
-		if err := os.RemoveAll(mediaDir); err != nil {
-			logging.Errorf("pegasus.RemoveSelectedGames: remove media dir failed dir=%s err=%v", mediaDir, err)
+		mediaDir, mediaErr := SafeMediaDir(rootDir, name)
+		if mediaErr != nil {
+			logging.Errorf("pegasus.RemoveSelectedGames: refuse to delete media dir game=%q err=%v", name, mediaErr)
 			res.Failed++
-			res.Errors = append(res.Errors, fmt.Errorf("remove media dir %s: %w", mediaDir, err))
+			res.Errors = append(res.Errors, fmt.Errorf("refuse to delete media dir for %q: %w", name, mediaErr))
+		} else {
+			if err := os.RemoveAll(mediaDir); err != nil {
+				logging.Errorf("pegasus.RemoveSelectedGames: remove media dir failed dir=%s err=%v", mediaDir, err)
+				res.Failed++
+				res.Errors = append(res.Errors, fmt.Errorf("remove media dir %s: %w", mediaDir, err))
+			}
 		}
 
 		// rom file
-		rom := strings.TrimSpace(g.FileName)
-		if rom == "" {
+		romRel := strings.TrimSpace(g.FileName)
+		if romRel == "" {
 			res.Failed++
 			res.Errors = append(res.Errors, fmt.Errorf("game %q fileName is empty", name))
 			continue
 		}
 
-		romPath, pathErr := safePathUnderRoot(rootDir, rom)
-		if pathErr != nil {
-			// Refuse deleting outside root (including absolute paths).
-			logging.Errorf("pegasus.RemoveSelectedGames: refuse to delete rom path=%q err=%v", rom, pathErr)
-			res.Failed++
-			res.Errors = append(res.Errors, fmt.Errorf("refuse to delete rom %q: %w", rom, pathErr))
-			continue
-		}
-
-		if err := os.Remove(romPath); err != nil {
+		if err := RemoveFileUnderRoot(rootDir, romRel); err != nil {
 			if os.IsNotExist(err) {
 				// If missing, treat as skipped (already removed or never existed).
 				res.Skipped++
 				continue
 			}
-			logging.Errorf("pegasus.RemoveSelectedGames: remove rom failed path=%s err=%v", romPath, err)
+			logging.Errorf("pegasus.RemoveSelectedGames: remove rom failed rel=%q err=%v", romRel, err)
 			res.Failed++
-			res.Errors = append(res.Errors, fmt.Errorf("remove rom %s: %w", romPath, err))
+			res.Errors = append(res.Errors, fmt.Errorf("remove rom %q: %w", romRel, err))
 			continue
 		}
 		res.Removed++
