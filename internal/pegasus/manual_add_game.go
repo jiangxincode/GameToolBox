@@ -61,7 +61,7 @@ func ManualAddGame(rootDir string, req ManualAddGameRequest) (ManualAddGameResul
 	romRel := filepath.Base(req.SourceRomPath)
 	romRel = filepath.ToSlash(strings.TrimPrefix(strings.TrimSpace(romRel), "./"))
 
-	romDstAbs, err := safePathUnderRoot(rootDir, romRel)
+	romDstAbs, err := SafeJoinUnderRoot(rootDir, romRel)
 	if err != nil {
 		return res, err
 	}
@@ -90,7 +90,11 @@ func ManualAddGame(rootDir string, req ManualAddGameRequest) (ManualAddGameResul
 			return res, err
 		}
 		res.MediaDirName = mediaName
-		mediaDir := filepath.Join(rootDir, "media", mediaName)
+
+		mediaDir, err := SafeMediaDir(rootDir, mediaName)
+		if err != nil {
+			return res, err
+		}
 		if err := os.MkdirAll(mediaDir, 0o755); err != nil {
 			return res, fmt.Errorf("mkdir media dir: %w", err)
 		}
