@@ -207,11 +207,11 @@ t("romConverter.failureCount"), result.FailureCount)
 
 if len(result.Errors) > 0 {
 // Show first few errors
-errorMsg := msg + "\n\n错误信息:\n"
+errorMsg := msg + "\n\n" + t("romConverter.errorDetails") + ":\n"
 maxErrors := 5
 for i, err := range result.Errors {
 if i >= maxErrors {
-errorMsg += fmt.Sprintf("\n...还有 %d 个错误", len(result.Errors)-maxErrors)
+errorMsg += fmt.Sprintf("\n"+t("romConverter.moreErrors"), len(result.Errors)-maxErrors)
 break
 }
 errorMsg += fmt.Sprintf("\n%s", err.Error())

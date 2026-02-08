@@ -33,8 +33,8 @@ return []SwitchFormat{FormatXCI, FormatNSP, FormatNSZ, FormatXCZ}
 
 // GetSwitchTools returns available Switch ROM conversion tools.
 func GetSwitchTools() []ConversionTool {
-// Placeholder for common Switch ROM conversion tools
-// Users can add their own tools later
+// Note: Tool names are static as they are proper nouns/brand names.
+// Descriptions are in English; localization can be added in UI layer if needed.
 return []ConversionTool{
 {
 Name:        "nsz (nicoboss/nsz)",
@@ -49,9 +49,9 @@ Description: "XCI to NSP converter",
 GitHubRepo:  "The-4n/4NXCI",
 },
 {
-Name:        "自定义工具 (Custom Tool)",
+Name:        "Custom Tool",
 ID:          "custom",
-Description: "用户自定义的转换工具",
+Description: "User-defined conversion tool",
 GitHubRepo:  "",
 },
 }

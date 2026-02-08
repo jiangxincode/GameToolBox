@@ -58,5 +58,13 @@
   "romConverter.error.noSourceDir": "Please select source ROM directory",
   "romConverter.error.noTargetDir": "Please select target save directory",
   "romConverter.error.sameDir": "Source and target directories cannot be the same",
-  "romConverter.error.downloadFailed": "Tool download failed"
+  "romConverter.error.downloadFailed": "Tool download failed",
+  "romConverter.errorDetails": "Error Details",
+  "romConverter.moreErrors": "...and %d more errors",
+  "romConverter.tool.nsz": "nsz (nicoboss/nsz)",
+  "romConverter.tool.nsz.desc": "NSZ/XCZ compression/decompression tool",
+  "romConverter.tool.4nxci": "4NXCI",
+  "romConverter.tool.4nxci.desc": "XCI to NSP converter",
+  "romConverter.tool.custom": "Custom Tool",
+  "romConverter.tool.custom.desc": "User-defined conversion tool"
 }

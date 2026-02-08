@@ -58,5 +58,13 @@
   "romConverter.error.noSourceDir": "请选择源ROM目录",
   "romConverter.error.noTargetDir": "请选择目标保存目录",
   "romConverter.error.sameDir": "源目录和目标目录不能相同",
-  "romConverter.error.downloadFailed": "工具下载失败"
+  "romConverter.error.downloadFailed": "工具下载失败",
+  "romConverter.errorDetails": "错误信息",
+  "romConverter.moreErrors": "还有 %d 个错误",
+  "romConverter.tool.nsz": "nsz (nicoboss/nsz)",
+  "romConverter.tool.nsz.desc": "NSZ/XCZ压缩/解压工具",
+  "romConverter.tool.4nxci": "4NXCI",
+  "romConverter.tool.4nxci.desc": "XCI到NSP转换器",
+  "romConverter.tool.custom": "自定义工具",
+  "romConverter.tool.custom.desc": "用户自定义的转换工具"
 }
