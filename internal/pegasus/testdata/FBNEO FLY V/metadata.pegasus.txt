@@ -1,0 +1,1700 @@
+collection: 飞机街机
+sort-by: 005
+extensions: 7z, zip
+ignore-files: 
+  ddp3.zip
+  ddpdojp.zip
+  terracre.zip
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbneo_libretro.dll" "{file.path}"
+
+game: 1941 反击战
+file: 1941.zip
+sort-by: 001
+developer: 1941 反击战
+publisher: Capcom
+genre: 1
+x-id: FBNEO FLY V
+description: 《1941反击战》是卡普空公司于1990年发行在街机平台上的纵版飞行射击游戏。游戏的目标就是如其他飞行射击游戏一样沿途收集弹药击落敌人的飞机。游戏中玩家的飞机并不是像以往同类型的游戏那样有若干架飞机的生命，而是采取了生命值系统，每当玩家被击中时就损失一格生命，当生命值为0时则游戏结束，玩家可以选择是否continue。游戏中的保险大招会有强力的清屏效果，但代价是损失一格生命值。 游戏一共有六大关卡，关卡的场景分别为，北大西洋上空、欧洲港口、V3火箭基地、布兰登堡大门、大平原和敌方总基地。这款游戏虽然年代比1942要久远，但是游戏却是出来的晚，而且出现在CPS1基板上，而且游戏的内容似乎已经脱离二战体裁，已经走向未来战争的性质了。这款游戏很有自己的个性，机体是个特殊合金制成的似的，可以沿着周围的涯壁象个大风车一样滚动前进！游戏的蓄力系统和一些宝物POWER等方式和1942，1943系统一样，没有太大的改进，但是游戏的趣味性和难度设定上可是上了一个很大的台阶。虽然是个纵版游戏，但是空间范围的变化很大，我想主要是为了那个“机体可以沿壁滚动”而专门这样制作的吧关卡中的机关等设计的很是巧妙，如城市那关的反射激光的镜子，BOSS也都是战斗机，坦克，装甲车，一个个都是CAPCOM的STG关卡的招牌BOSS，足以看出这款STG作品十分的硬派。
+
+game: 1942
+file: 1942.zip
+sort-by: 002
+developer: 1942
+publisher: Capcom
+genre: 1
+x-id: FBNEO FLY V
+description: 卡普空1984年出品的飞机游戏。游戏以第二次世界大战为背景，玩家操纵美军的P-38闪电式战斗机，敌机则是日本风格的虚构机种。全部有32关，以太平洋战争的战场为主。另外《1942》在“炸弹”系统还没有广泛的被导入射击游戏时，率先加入了能够紧急回避敌人攻击的“空中回旋”，算是“炸弹”的前身
+
+game: 1943 改
+file: 1943kai.zip
+sort-by: 003
+developer: 1943 改
+publisher: Capcom
+genre: 1
+x-id: FBNEO FLY V
+description: 街机游戏《1943》的改进版，其中包含经过调整的武器、更少的关卡和新的配乐。
+
+game: 1943 中途岛海战
+file: 1943.zip
+sort-by: 004
+developer: 1943 中途岛海战
+publisher: Capcom
+genre: 1
+x-id: FBNEO FLY V
+description: 1943是CAPCOM“1942系列”的第2作，这次游戏的背景以太平洋战争的中途岛海战为主，玩家与1942一样操作美军的P-38闪电式战斗机，在中途岛与日本海军展开决战。前作1942最大的特色“空中回旋”、“子机”系统都有保留下来，1943更新加入了许多新武装，与最具特色的“能源系统”，打破了过去射击游戏的自机只能承受一次攻击的概念，加上受到了同年推出的究极虎的影响，加入了类似“炸弹系统”的“Mega Crash”。1943与1942最大的不同点就是1942并没有名确的指出游戏中的敌军是日本海军，只有暧昧的将游戏中出现的敌机以日本风格命名，但是1943除了部分的虚构武装，游戏中出现的所有战舰都是用史实存在的日本战舰去命名的。
+
+game: 1943 中途岛海战 Mark II
+file: 1943mii.zip
+sort-by: 005
+developer: 1943 中途岛海战 Mark II
+publisher: Capcom
+genre: 1
+x-id: FBNEO FLY V
+description: 本作是《1943》非官方美版街机游戏。游戏中的飞机来自 1943改，但背景画面来自1943，是款不折不扣的缝合怪。
+
+game: 19XX 命运否决战
+file: 19xx.zip
+sort-by: 007
+developer: 19XX 命运否决战
+publisher: Capcom
+genre: 1
+x-id: FBNEO FLY V
+description: 19XX命运否决战是一个垂直的滚动射击街机游戏，诞生于1995年（1996年版权），由Capcom卡普空出品。游戏是该公司的二战飞机射击游戏19系列的第四作。故事发生在一个虚构的战争中，一个孤独的飞行员试图打败引发核灾难的邪恶组织挑起的另一次世界大战。玩家将选择三个不同的飞机，在速度，力量不同的等级，攻击强度之一。当通过各级飞行，三个主要的武器可以拿起各自的项目，无论是用于火灾蔓延火神子弹，直发射激光器，或者多方位的导弹。通过举办消防按钮，玩家可以充电到一个特殊的火灾导弹。如果这种导弹击中一个大一点的敌人，玩家将锁定到该敌，并能快速归位弹火进一步损害。同时每架飞机还配有保险（三架飞机的保险都是一样的）可以蓄力也可以直接放出，直接放出是全屏攻击伤害较低时间较短，按住保险键不放则进入蓄力阶段，共有三条蓄能条，第一条如果未能读满就放出保险的话威力则跟直接放出一样，蓄力到第二阶段可升级为中范围爆炸攻击，蓄力到最高阶段可释放高伤害全屏攻击。
+
+game: 打击者1945 1
+file: s1945.zip
+sort-by: 009
+developer: 打击者1945 1
+publisher: Psikyo
+genre: 1
+x-id: FBNEO FLY V
+description: 打击者1945(Striker 1945)是日本彩京公司(Psikyo)于1995年发售的一款纵向卷轴飞行射击类游戏。作为飞行射击类游戏的一个里程碑，1945可以说是开创了该类游戏的另一个先河。每个街机厅里几乎都有1945。尽管众多更好的飞行射击类游戏层出不穷，但作为鼻祖，1945至今仍然有非常高的人气。打击者1945开辟了蓄力攻击的先河，玩家首先需要至少吃掉一个或以上的蓝瓶(即Power Up)，得到一架或以上的协同小飞机，然后按住A键一段时间(具体时间与玩家所选机型有关，与火力大小无关)，当战机举起协同小飞机并发出特殊声音，代表蓄力完成，此时松开A键，激发出蓄力攻击。每架战机都有不同的蓄力攻击。其中BF-109的蓄力攻击是绝大多数玩家最爱，没有之一。吃金币是打击者1945最有趣的特色，玩家在游戏中击毁敌方战机或建筑会出现不断闪光的金币，玩家吃到金币会得到一定的额外分数。与其他射击类游戏不同的是金币的分值并不是固定的，金币在闪光的瞬间是最高分值2000分(大金币即两块金币摞一起的分值是普通金币的2倍即4000，下同)，闪光结束后到金币颜色最暗时为最低值200，期间的分值跟随金币闪光的频率波动，这让许多分数控玩家大伤脑筋，一边要躲避枪林弹雨，一边要时刻注视金币的闪光频率，一不小心就落个“人为财死鸟为食亡”。1945年，第二次世界大战结束。和平的气息开始在全球蔓延开来。但是，一个由世界上部分高级军事将领所组成的名叫CANY的全球军事组织出现了。他们把征服世界作为第一目标。随后，CANY的活动在前苏联，美国，日本，德国等国家均被发现。令人吃惊的是,CANY组织居然拥有当时人类从来没有见过的军事武器，其中包括火箭、UFO、机器人等等。为了维持在二战以后难得的和平，地球上一群能力突出的机长们自发的组织起来了一个名为“Striker”(打击者)的小组，企图通过当时拥有的武器装备，消灭CANY的阴谋。
+
+game: 打击者1945 2
+file: s1945ii.zip
+sort-by: 010
+developer: 打击者1945 2
+publisher: Psikyo
+genre: 1
+x-id: FBNEO FLY V
+description: 《打击者1945》的续作，或许也是国内玩家最熟悉的一款。可使用的机种由前作中的6种机体又新增了4种机体。前作中只能存储一段的蓄力攻击，在本作里随着攻击敌人的次数以及使其损伤值，可以慢慢存聚计量表最高可存至三段，如此让游戏更加富有变化性。而在画面的呈现效果上也采用更加高清，色彩更为丰富的全新背景。普遍被认为是彩京的最高代表作。
+
+game: 打击者1945 3
+file: s1945iii.zip
+sort-by: 011
+developer: 打击者1945 3
+publisher: Psikyo
+genre: 1
+x-id: FBNEO FLY V
+description: 打击者1945 3是日本彩京公司(Psikyo)于1999年发售的一款纵向卷轴飞行射击类游戏。作为街机经典之作打击者1945的第三个版本，该作的最大不同，是引进了现代的机型，让玩家更能够融入游戏的氛围，并且大大增加了游戏的难度和可玩性。打击者1945 III的玩法和前两部作品基本相同，基于前两部作品，1945 III做了以下的改进：1.最大火力为3(即吃3个power up便能达到最大火力)，在一二代里为4个；2.蓄力攻击的威力是根据玩家击中敌人的次数而决定，左下角的能量条边是蓄力攻击的威力,有3个等级， 等级越高,威力越大。 一代里是根据附机数量而决定；3. 附机只作为蓄力攻击的发起者， 一二代里附机拥有自己的火力；4.获取额外分数的手段由一二代的金砖变成了勋章，分数仍然是从200-2000不等，如果玩家连续获得2000分的勋章，在最后的技巧判定中，系统会将玩家连续获得2000分勋章的数量考虑进去；5.大部分BOSS会在特定的时候暴漏出自己的弱点，若玩家能够近身并且攻击，那么BOSS将被秒杀，玩家也将获得额外的分数作为奖励；6.游戏结束后，系统会根据你的分数，2000分勋章的连续获得次数，以及秒杀BOSS的次数对你的飞行技巧做出判定：比如"初学者"，"一般机长"，"合格机长"，"C级机长"，"B级机长"，"A级机长"等等。
+
+game: 打击者1945 3改
+file: 1945kiii.zip
+sort-by: 012
+developer: 打击者1945 3改
+publisher: Oriental Soft
+genre: 1
+x-id: FBNEO FLY V
+description: Oriental Soft于1999年推出的打击者1945续作。画面很华丽，操作手感也很好，蓄力攻击分为三个等级，等级越高，蓄力攻击的攻击力、持续时间也就越长，但同时蓄力的也越长，所以不要老想着用最高等级的蓄力攻击，该出手时就出手。游戏的加分道具也很有特色，都是赌博机上的一些符号，这些符号会不停变化，不同的符号加分不同，其中“7”符号加分多。游戏可选战机也很多，包括隐藏战机在内共10个，算是很多了，值得注意的是，该游戏可以选中国的苏—37战机，这在飞机游戏中倒是很少见的。选出隐藏战机“SE-11L”的方法：投币后，按住B键不放就会直接进入选人画面，迅速将光标移到问号处，在按A键确定隐藏战机“SE-11L”就会出现。在整个选人过程中，B键是一直按住不放的。
+
+game: 龙之光辉
+file: dragnblz.zip
+sort-by: 014
+developer: 龙之光辉
+publisher: Psikyo
+genre: 1
+x-id: FBNEO FLY V
+description: 《龙之光辉》又叫《飞龙骑士》，是彩京于2000发行于街机上的一款纵版射击游戏，游戏以龙骑士题材，与其他射击游戏不同，此款游戏中加入了人机分离的系统，玩家可以选择骑着坐骑战斗或与坐骑分开来战斗，使游戏的玩法更多样化，选择不同的龙骑士开始的关卡也不一样，这也是彩京射击游戏的一特色，玩家每次开始都不用打相同的关卡，就算你很菜，选择了其他的飞机，你也能体验到其他的游戏关卡。
+
+game: 太空轰炸机
+file: sbomber.zip
+sort-by: 015
+developer: 太空轰炸机
+publisher: Psikyo
+genre: 1
+x-id: FBNEO FLY V
+description: 彩京在1998年出品的纵版飞机游戏，知名度不高。
+
+game: 武装飞鸟1
+file: gunbird.zip
+sort-by: 016
+developer: 武装飞鸟1
+publisher: Psikyo
+genre: 1
+x-id: FBNEO FLY V
+description: 1994年由彩京制作发表的飞行射击街机游戏。不过家用版的发售者是ATLUS。继93年度best拍摄赏得奖创作「战国ACE」后，彩京纵版stg游戏第二弹。游戏背景是中世纪幻象风格，几位主角们为了寻找传说中的魔镜，达成各自的愿望，踏上了漫长的旅程。角色变为可爱的卡通风格，五个主角为了达成愿望而寻找能给予其愿望的神，但被类似时空旅行系列的三恶人反派阻止。武装飞鸟游戏发生在19世纪欧洲，人类开始在动力飞行成功时候的谈话：「我采集的碎片和再复活货币。解开了我的封印祈求。」随法兰西的考古学者发现了传说中「太阳神的魔镜」。在世界各地飞行着寻找梦想，在心中隐藏着各自愿望的５人『天空的冒险者』。
+
+game: 武装飞鸟2
+file: gunbird2.zip
+sort-by: 017
+developer: 武装飞鸟2
+publisher: Psikyo
+genre: 1
+x-id: FBNEO FLY V
+description: 继前作“GUNBIRD”4年后，新的5人组合全新登场。 “STRIKERSII”所特有的三段LEVEL强化系统加入到本作！使用了第三个射击键的新攻击系统“接近攻击”首次登场！其他有“发光2000点”那熟悉的吃金币方法。“高得分·CHAIN系统”连续吃2000分！不用说愚蠢3人组也健在。有趣程度也更加扩大，“GUNBIRD2”正在起飞！！新人物设计，用GUNBIRD的喜剧化表现了极美的世界。新的GUNBIRD世界诞生！
+
+game: 战国ACE
+file: sngkace.zip
+sort-by: 018
+developer: 战国ACE
+publisher: Psikyo
+genre: 1
+x-id: FBNEO FLY V
+description: 《战国ACE》是著名的STG游戏制作家彩京的处女作，也叫《战国世纪》属于纵版空战射击类游戏。游戏一共提供了六名不同的角色让玩家挑选：女忍者-珍、僧侣-天外、超天才犬-犬王丸、巫女-小寄、独眼武士-AIn、发明家-源内。每名角色都有自己独特的座机，其攻击方式各不相同，游戏还设置有蓄力攻击。《战国ACE》是彩京历史作品的第一弹！ 游戏借用了《Sonic Wings》的一大创意(当然，这一创意还在彩京日后其他的游戏中得到延续)：那就是可选角色。游戏一共提供了六名不同的角色让玩家挑选。每名角色都有自己的座机，其攻击方式各不相同。敌人是饭纲制造的傀儡兵和用邪术控制的石像鬼等怪物。由于朴素的操作性和出人意表的世界设定，曾使本作获得1993年度「best拍摄奖」大奖。邪教首领饭纲为了统治世界，抓走公主后把公主关在了机器人机童神里面。怀有各自想法的六个人为了营救公主，他们与邪教展开了激烈的战斗。
+
+game: 双翼人
+file: lwings.zip
+sort-by: 019
+developer: 双翼人
+publisher: Capcom
+genre: 1
+x-id: FBNEO FLY V
+description: 人类即将在很外星文明留下的超强计算机DARK的帮助下，实现从古文明到未来文明的进化。而这时，DARK突然开始出现故障。世界陷入了恐慌，人类濒临灭绝。战神阿瑞斯赐予两个年轻人爱与勇气的翅膀，将人类的生存与未来托付给他们。这是款纵版射击游戏，有类似铁板阵的准星。
+
+game: 威虎战机
+file: varth.zip
+sort-by: 020
+developer: 威虎战机
+publisher: Capcom
+genre: 1
+x-id: FBNEO FLY V
+description: 1992年6月，几乎是与“街霸2”的第一个家用主机移植版本SFC版发售的同时，“威虎战机 雷暴行动”正式在街机登场！本作的推出使人们再次看到了CAPCOM那远远凌驾对手之上的制作能力。这部作品可以说将CPS1主板的性能发挥得淋漓尽致，营造出的火爆游戏画面至今难有比肩者。CAPCOM的每个飞机游戏都会有些与众不同的地方，这个游戏也不例外！ 首先，有两种机型可选，一种是保护球在四周环绕的，一种是保护球一直在前方吸收子弹，显然对于这种纵版游戏来说，后者是更好的；最特别的地方是在于这个游戏的炸弹是可以蓄的，就是说你放完三个保险后，保险又会慢慢蓄满，这样又可以入炸弹了，如果打得好的话，就等于有无数个保险了！每当看到这部作品中与巨大关底作战那种魄力场面，就不禁心动手痒。其独创的以副机挡弹为主的游戏方式同以往射击游戏以躲闪为乐可谓背道而驰，但也正因如此使得战斗更加白热化，那就是“冒着敌人的炮火，前进，前进”。而保险可以随时间而恢复的设定也是一绝，快速转动摇杆还可以加速恢复，结果往往就是战事稍平，性急的玩家就把整个机台都摇动了。与一般的街机游戏类似，它没有复杂的剧情，游戏一开始便直接进入激烈的战斗。该游戏相比一般的飞行射击游戏有着自己明显的特色，这款游戏中提供的飞机都拥有阻挡子弹的保护球，这将直接为战斗带来了更丰富的玩法，这意味着玩家如果对操作有自信，可以顶着保护球直接冲入敌方总阵营与敌军顶着干，另外该游戏还有炸弹储蓄系统，当玩家的大招用光后可以通过蓄力的方式来生成炸弹，相当于玩家通过优秀的操作便可以产生无限循环的大招。虽然游戏快感度很高，可惜关卡较短。
+
+game: 首领蜂
+file: donpachi.zip
+sort-by: 021
+developer: 首领蜂
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: CAVE在1995年推出的系列第一部作品，CAVE开山作，弹幕鼻祖，怒首领蜂前身。第一次引入“真Boss”概念。
+
+game: 怒首领蜂1
+file: ddonpach.zip
+sort-by: 022
+developer: 怒首领蜂1
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: 《怒首领蜂》是CAVE在1997年发售的一款弹幕STG游戏。本作是系列第二部作品，也是前作《首领蜂》的续篇、 本作为了极端提高"回避敌弹"这个STG的基本要素，同屏敌弹数达到了恐怖的最多245发，而且使用判定极小的自机在弹幕之间穿梭(由于处理落的存在)的创意大受好评。直到现在依旧被誉为“弹幕系STG”的金字塔作品。
+
+game: 怒首领蜂2 蜂暴
+file: ddp2.zip
+sort-by: 023
+developer: 怒首领蜂2 蜂暴
+publisher: Capcom
+genre: 1
+x-id: FBNEO FLY V
+description: 怒首领蜂2：蜂暴是2001年出品的怒首领蜂的二代，这次的制作公司换成了出品过《三国战记》、《傲剑狂刀》以及《龙虎榜》等一系列麻将游戏的IGS公司。怒首领蜂2蜂暴游戏的风格 和前作相比并没有多大的改动，游戏中设置了两种保命保险，一种是通常的雷，另一种是蓄力型保险，当气槽MAX后就可以使用。游戏的画面依然华丽，非常火 暴，COMBO连击的设定依然存在，操作手感也非常好。是一款制作精良的精品飞机游戏。
+
+game: 怒首领蜂2 蜂暴 中文版
+file: ddp2101c.zip
+sort-by: 024
+developer: 怒首领蜂2 蜂暴 中文版
+publisher: Capcom
+genre: 1
+x-id: FBNEO FLY V
+description: 怒首领蜂2：蜂暴是2001年出品的怒首领蜂的二代，这次的制作公司换成了出品过《三国战记》、《傲剑狂刀》以及《龙虎榜》等一系列麻将游戏的IGS公司。怒首领蜂2蜂暴游戏的风格 和前作相比并没有多大的改动，游戏中设置了两种保命保险，一种是通常的雷，另一种是蓄力型保险，当气槽MAX后就可以使用。游戏的画面依然华丽，非常火 暴，COMBO连击的设定依然存在，操作手感也非常好。是一款制作精良的精品飞机游戏。
+
+game: 怒首领蜂3 大往生
+file: ddpdoj.zip
+sort-by: 025
+developer: 怒首领蜂3 大往生
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: 《怒首领蜂大往生》是由日本Cave公司制作的经典卷屏弹幕式射击游戏，该作是系列第4作，也是1997年发售的《怒首领蜂》的正统续作。该作在2002年4月5日首发，之后移植了多个平台。系统方面依旧延续怒首领蜂的风格，将弹幕发挥到极致。在STG难度排行榜上位列第一，但这并不影响该作的人气。绝佳的STG游戏。漫天飞舞、色彩绚丽的弹幕效果成为了游戏的主要特色，也是最吸引玩家的地方。这次《怒首领蜂大往生》比以前更夸张，玩家可以选择三位美少女驾驶的先进战机，与1000年前被封印的古代文明展开战...
+
+game: 怒首领蜂4 大复活
+file: ddpdfk.zip
+sort-by: 027
+developer: 怒首领蜂4 大复活
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: 怒首领蜂 大复活是CAVE在2008年出品的一款弹幕纵版飞机游戏。该作品是STG"怒首领蜂"系列的第4作，也是怒首领蜂3 大往生的续作。故事背景为大往生中Expert强化人偶的结局之后发生的一系列事情。本作在2008年5月首发在街机平台，同年6月推出1.5版本，之后相继推出了黑版以及在XBOX360家用机平台和智能手机平台推出移植和改编版本。相对于怒首领蜂3 大往生，本作增加了一系列设定：标明自机判定点、Hyper散枪消弹、自动雷机能等等。深受STG玩家喜爱。
+
+game: 怒首领蜂4 大复活 黑标
+file: dfkbl.zip
+sort-by: 028
+developer: 怒首领蜂4 大复活 黑标
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: 这是“怒首领蜂：大复活”的改进版本，具有以下改进：战斗机的选择已更改——玩家现在先选择战斗机类型，然后选择风格（炸弹、动力或强力）。这分别对应简单、中等和困难难度。然后，玩家可以选择是否使用自动炸弹。战斗机现在可以同时发射激光和射击。计分器的数字字母大小每 5 位增加一次，以便于查看添加了红色模式，右上角的一个小长条（或与两个玩家一起玩时的中上部），如果你同时发射激光和射击，它会增加。当它超过某个阈值时，仪表中的条变为红色，当它处于红色时，游戏变得更加困难。当玩家死亡时，该条将重置，或在玩家未同时发射激光和射击后减少。除非您将“红色模式”条变为红色，否则 Hyper 仪表的增加非常缓慢。此外，Hyper power本身在使用后消耗得更快。现在可以为 Power 风格“收集”Hypers。继续增加 Hyper 仪表，当仪表充满时它会像炸弹一样储存。现在激活 hyper 会显示 Hyper 效果的当前“等级”，并暂时阻挡子弹。阶段中的蜜蜂奖励项目功能不同。如果满足某些要求，Hibachi（真正的最终BOSS）现在可以出现在第一周目。此外，最终BOSS太煞钵（现已更名为地狱极灭至尊兵器-黄金灾厄）和真正的最终BOSS的难度/耐久度都大幅提升。命中连击现在以不同方式计算。也就是说，除非您将“红色模式”条变为红色，否则命中组合不会上升得那么快。所有的音乐都被替换了。
+
+game: 怒首领蜂5 最大往生
+file: ddpsdoj.zip
+sort-by: 029
+developer: 怒首领蜂5 最大往生
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: 《怒首领蜂 最大往生》 (Dodonpachi Saidaioujou) 是CAVE在2012年发售的一款弹幕射击游戏(STG)，2013年发售Xbox360版。标题含有“完”一字，所以游戏也可称《怒首领蜂：最大往生完》，或许标志着该作为怒首领蜂系列的最后一作，甚至也可能代表着本作是CAVE的最后一款街机上的弹幕射击游戏，从此弹幕大厂CAVE完全沦落成为手游大厂。本作音乐由前作《怒首领蜂大往生》、《怒首领蜂大复活》音乐制作者并木学担当，人物设计由凪良担当，并请了许多有名的声优为游戏内的登场角色配音，弹幕演出效果一如既往的华丽。而本作也有新创意较少、爆分BUG、里隐藏BOSS难度不合理等缺点，使得该作作为怒首领蜂系列乃至CAVE街机STG的收官之作并不完美。此外，《怒首领蜂　一面番长》为IOS平台作品，人物版面等内容大体相同，可以看作为本作的手机版本。
+
+game: 怒首领蜂5 最大往生与纳克鲁斯
+file: sdojak.zip
+sort-by: 030
+developer: 怒首领蜂5 最大往生与纳克鲁斯
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: 
+
+game: 虫姬1
+file: mushisam.7z
+sort-by: 031
+developer: 虫姬1
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: 虫姬系列的第一作，2004年在街机上首发，后来移植至PS2。游戏中的地球大多数地区处于沙漠化，居住在地球上的生物大多为巨大的甲壳类关节动物。人类将这些甲壳类生物称作“甲兽”，奉其为森林之神，并生存在这些甲兽的阴影下。森林的一个小角落里有一个人类的村落，这里每200年一次必须将一个15岁——也就是正值成年的人作为“贡品”献给甲兽大人，这样才能够确保人类能够安宁的居住下去。每到“贡品”献上的夜晚，天上都会陨落无数的流星。王国“降星之里”也因此而得名。Reco公主小时候有一次迷路误入了甲兽森林——真珠森，公主在森林里遇见了一个男孩子Aki并收到了他给予的手镯和发饰礼物。带上手镯后，公主便能听得懂甲兽的话，于是在那之后经常出入真珠森。而村落的人们看到了Reco公主手上的手镯时都大吃一惊。因为那手镯意味着Reco公主被选为了15岁成年之时就要献给甲虫大人的“贡品”，当然这事情村落里的人都闭口不提。在15岁也就是公主成年的那一年，降星之里泛滥起了瘟疫，人们相继在这未知的瘟疫中倒下，而唯独Reco公主还是健康的。为拯救降星之里，公主决定重返真珠森，《虫姬》游戏便从这里开始……游戏有3个模式，Original ，Maniac，Ultra，每个模式的得分系统和敌人设定各有不同。击杀敌人会掉出黄色的得分道具琥珀，高速移动时能自动吸收空中琥珀，低速时自动吸收地面琥珀。琥珀出现后迅速吸收有2倍分数与倍率的奖励，同时琥珀颜色变绿以区分普通琥珀。死一命扣1/3倍率。BOMB会降低倍率数。
+
+game: 虫姬2 1.5版
+file: futari15.zip
+sort-by: 032
+developer: 虫姬2 1.5版
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: 2007年作品
+
+game: 虫姬2黑版
+file: futaribl.zip
+sort-by: 033
+developer: 虫姬2黑版
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: 虫姬2的续作，玩家可以在上帝模式和新模式Boss Rush中挑战疯狂的敌人，体验挑战子弹地狱的快感！游戏添加了IAP商店，你可以购买子弹，自定义界面和设置，无限次续关和存档，获得更小的着弹面积等功能。当然整套下来，价格不菲。游戏提供了三种不同的模式和4个难度级别（初级，普通，高难度，地狱）供忠实的弹幕粉丝挑战！
+
+game: 铸蔷薇
+file: ibara.zip
+sort-by: 034
+developer: 铸蔷薇
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: 铸蔷薇是YGW入驻CAVE之后的又一STG三部曲第1个作品，但是游戏除了画面音乐外素质很差，版面乱，BOSS难度设计极不平衡，基本上就是空战之路的劣化版，游戏背景为 19 世纪蒸汽机技术颠峰时代的北欧虚构国家「艾尔德怀兹（ Edelweiss ）」，故事叙述原本担任「皇立机械式义肢研究所」所长，后辞职神秘失踪的年轻女科学家 泰蕾莎 ‧ 蔷薇（ Teresa Rose ），突然率领 5 名女性部下，以机械军团「蔷薇庭园」大举入侵，企图毁灭艾尔德怀兹。
+
+game: 铸蔷薇黑
+file: ibarablk.zip
+sort-by: 035
+developer: 铸蔷薇黑
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: CAVE在铸蔷薇后重新调整制作了黑版，系统也稍倾向于CAVE风格，机体火力配置可自由搭配，途中拾取火力类型可切换，rank可见，放雷吃蔷薇道具可清rank，难度大大降低，游戏性也得到提升。
+
+game: 铸蔷薇 粉红甜心
+file: pinkswts.zip
+sort-by: 036
+developer: 铸蔷薇 粉红甜心
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: 铸蔷薇第三部作品。
+
+game: 铸蔷薇 自杀俱乐部
+file: pinkswtssc.zip
+sort-by: 037
+developer: 铸蔷薇 自杀俱乐部
+publisher: Cave
+x-id: FBNEO FLY V
+description: 
+
+game: 决意 绊地狱
+file: ket.zip
+sort-by: 038
+developer: 决意 绊地狱
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: 决意：绊地狱是2003年在日本推出的2D街机射击游戏，后移植NDS和Xbox360平台，该游戏以华丽的弹幕著称。本作拥有广大的大型机台死忠粉丝，推出6年以来人气一直不坠。从1900年破坏环境中产生的全球变暖近几年正在加速，导致全球水位上升。许多国家的陆地被海洋侵蚀从而导致海岸线变更，促使新的领土问题产生，各国之间的战争也日易激烈起来。而在年年白热化的战争背后，EVAC Industry(简称EI社)向世界各地出售军火，并从中获取了巨大的利益，成为了加剧战争的催化剂。为了打破这一局面，联合国与EI社进行了交涉，提出了“全面禁止出/进口武器”的提议。但是被完全拒绝了。经过反复谈判交涉，没有任何进展的联合国最后决定进行秘密的武装干涉，由一只表面上是无国籍的武装抵抗组织，实际上是联合国领导下的特别作战部队实施一次奇袭。最后，有四个年轻人决定参与并实施这个残酷的军事行动。堵上了自身的生命，为了各自的目的,以及——带着某种相互之间可以穿越一切的羁绊，决意踏入了地狱般的战场。
+
+game: 长空超翼神1
+file: espgal.zip
+sort-by: 039
+developer: 长空超翼神1
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: 本作是CAVE在2002年的“绊地狱”与“怒首领蜂 大往生”之后，于2003年推出的新作。游戏可以看作是1998年射击名作“长空超少年”的续作，这也是CAVE这家射击名厂9年以来在“首领蜂”系列之外唯一的系列化作品。游戏中除了传统的射击与保险外，新加入的觉圣系统是一大特色。进入觉圣死界时所有的敌方子弹都会变成紫色，速度也会变得很慢，而此时击破敌机能够获得大量的金块。这也使得游戏的画面极度华丽，充分展示了CAVE在2D平面技术领域坚持到底的信心。游戏的难度相比“怒首领蜂 大往生”，至少在初期来说并不算高，当然如果是追求高分的话另当别论，手感则依然保持了CAVE一贯的优良传统。
+
+game: 长空超翼神2
+file: espgal2.zip
+sort-by: 040
+developer: 长空超翼神2
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: Cave系又一硬派STG作品，本作为前作ESPGaluda的续作，又名圣战之翼，除了在系统上直接继承自前作外并加以改良，另外追加了第三名角色浅木Asagi，使得游戏的玩法更加多变。在XBOX360版中不仅保留了原来街机版的要素，黑标签模式中更追加了绝死眼系统以及前作1面以及5面Boss Seseri作为自机登场。另外改编模式和Omake模式使本作的可玩性再次提升。2023年，森罗国根据炼金术为基础的机械和产业革命推动其前进。但是，森罗国国王麝香希望成为千年的国王，在他的野心之下成功造出了用圣灵石封印的“圣灵机关”。森罗国迅速从一个中小国发展成为一个大国。凭借圣灵机关的强大力量，他踏平了许多国家。后来，麝香开始了更加可怕的Project·Espagaluda，凭借人和圣灵石的融合造就更加强大的肉体。于是男女主角“扬羽（Ageha）”和“楯羽（Tateha）”就这样作为GALUDA出生了。这时，圣灵计划中的一个大臣大概是良心发现，带着两个小孩子逃出了帝都。麝香没能将其抓回，但这也让他警觉起来，为了对抗自己研究出来的GALUDA的力量开始了新一轮的研究，最终凭借圣灵机关制造出了“机甲羽翼”，成为新一代的武器配备。而GALUDA兄妹在那位大臣的帮助下，在边境小国度过了无忧无虑的16个年头。但当森罗国的魔手最终伸向他们的住地时，两人体内犹如天真的孩子般的GALUDA的力量终于觉醒了……（以上为ESPGALUDA长空超翼神1的剧情，也是2代剧情的前提。）2025年，一个叫做苍间国（SOMA）的国家建立，而苍间国的国王依旧痴迷于圣灵力量的研究，他们制造出了比“机甲羽翼”更强大的“辉羽”，以及能够制造出真GALUDA的真·圣灵机关，准备兴起自己的国家。苍间国利用真·圣灵机关制造出的第三个GALUDA实验体浅木（Asagi），居住在苍间国的城堡里。后来她目睹了地下实验室里许多实验体的悲剧，决定兴起叛乱。在国王授予她“苍间国第一GALUDA”荣誉称号的仪式上，她完成了真觉圣，并杀死了苍间国王逃走，ESPGALUDA II的战斗便由此开始……
+
+game: 骑猪少女
+file: mmpork.zip
+sort-by: 041
+developer: 骑猪少女
+publisher: Cave
+genre: 1
+x-id: FBNEO FLY V
+description: 骑猪少女是一款空战游戏。骑猪少女游戏不仅有着比较搞笑的风格，弹幕也十分华丽。在玩的时候只看到满屏的各色弹幕以及各种猪头金币什么的。喜欢轻松风格的玩家，可以下载骑猪少女玩玩。静止的小猪：增加蓄力槽。若蓄力槽满了，则获得1000分。降落伞小猪：增加蓄力槽。若蓄力槽满了，则获得1000分。小P：升级火力，最高为4级。满级时得5000分。大P：升至满级。死的时候才出现。B：增加保险槽。蓄力攻击摧毁地面敌人可得。保险槽满后，得到一个保险。最多拥有5个保险。猪头勋章：最小为100分，最高为1W分。连续吃勋章，会使分数递增。当漏吃打出的勋章且当前屏幕上没有勋章时，下一个打出的勋章分数会变为当前勋章分数的1/10。当松开Ｂ，按Ａ时会自动吸取勋章。
+
+game: 长空超少年
+file: esprade.zip
+sort-by: 042
+developer: 长空超少年
+publisher: Atlus
+genre: 1
+x-id: FBNEO FLY V
+description: CAVE/ATLUS于1998年的STG弹幕（纵版射击游戏）作品，科幻题材与STG相结合的大作。该游戏的中弹判定过高，普遍认为是中弹范围在头部左右。而且CAVE相继作出了两款续作。设计手感和人设都是十分出色，关卡设计也更加成熟，在前期怒首领蜂的基础上，进一步强化了弹幕表现，加入了特殊攻击已经耗费能量槽发动保险的系统，再后来的圣战之翼系统就是承袭自本作。游戏中要操纵1名拥有超能力的少年去完成粉碎一个未来政权组织的积深以久的阴谋.有3名主角可供选择,攻击能力各有差别,而且每个主角都有这各自的登场背景,其中游戏的第2和第3关是随机出现的。操作方式也是单独设计的，3键各有作用，其中保险转换成了能量槽方式，每用一次有强大的摧毁能力肩保命招，可以通过蓄力等方式灵活使用能量槽，一旦用了一部分，等每吃满游戏中的规定数量的金钱罐就会有能量F块可以补充。当然还有能量P块，有大小之分，收集4个大的就会满攻击能力。另外第4关最后突然出现的火车那里有隐藏的加命。游戏的氛围具有很浓的科幻风格，加上那些奇形怪状的敌人和战斗机器，BOSS也是个性鲜明，加上BT精神的贯穿其中，这款作品难度还是很大的。这部作品主要体现了CAVE对子弹艺术的深刻挖掘，比如BOSS的攻击方式，子弹处处体现出美感，如坦克的霰弹花，第5关那个石像更是将"天女散花"的概念演绎的美仑美换，然而这并不是高潮，真正的BT是最后BOSS的5种攻击形态，都是极副观赏价值的，尤其是最后女王的"千佛手"，相信死在那样的子弹下，不会太过抱怨的。
+
+game: 飞翼力量
+file: wingforc.zip
+sort-by: 043
+developer: 飞翼力量
+publisher: Atlus
+genre: 1
+x-id: FBNEO FLY V
+description: A.I (Atlus授权)于1993年推出的一款纵版飞机游戏。画面和音效相当不错，不过敌机子弹很快，游戏难度比较高。
+
+game: 狱门山物语
+file: guwange.zip
+sort-by: 044
+developer: 狱门山物语
+publisher: Atlus
+genre: 1
+x-id: FBNEO FLY V
+description: 《狱门山物语》是射击游戏后起之秀CAVE公司于1999年推出的一款高品质街机游戏。游戏延续了该公司作品出色的手感，精彩的创意，丰富多彩的弹幕等优点。能够在模拟器上玩到这样优秀的游戏真是玩家之福啊。能够吸引街机爱好者，这款游戏当然是有着不少优点啦。一，画面即使放到今天来看还是非常的细致华美。二，人设的风格很特别，很唯美。尤其是女角色柊小雨，清丽中透着一丝冷艳。三，背景音乐绝赞！在整个游戏流程中，背景音乐不仅丰富多样，而且都具有很高的水准，和攻关进程完美地融合起来。四，深厚沉重的世界观。游戏将日本室町时代的那种和式古风精彩地显现出来，而且适当地穿插进日本流传已久的各种鬼怪。
+
+game: 太空侵略者95
+file: spcinv95.zip
+sort-by: 045
+developer: 太空侵略者95
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: 太空侵略者95-月球的进攻，是Taito于1995年推出的太空侵略者新作，玩法还是太空侵略者的常规玩法，但画风为Q版可爱的风格，类似KONAMI的Q版沙罗曼蛇。画面和手感都不错的一款纵版飞机游戏。
+
+game: 太空侵略者DX
+file: spacedx.zip
+sort-by: 047
+developer: 太空侵略者DX
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: 元祖太空侵略者（日语：スペースインベーダー，英语：Space Invaders）是Taito公司于1978年出品，在美国由Midway发行。太空侵略者DX是Taito在1994年重新制作的太空侵略者复刻版，包含了几个版本的太空侵略者游戏，画面音效有所提升。这个游戏可以让今天的玩家体会当年风靡全球的游戏，同时画面又不像1978年的游戏那样太过古老。
+
+game: 超级太空侵略者
+file: ssi.zip
+sort-by: 048
+developer: 超级太空侵略者
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: Taito于1990出品的太空侵略者续作。
+
+game: 太空侵略者 回归
+file: retofinv.zip
+sort-by: 049
+developer: 太空侵略者 回归
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: 太空侵略者回归是传奇原作太空侵略者的全彩更新；具有挑战关卡和盘旋下落的外星人。本作虽然本身具有足够的可玩性，但其在五年后发布的续集“Super Space Invaders '91”才是那个得到了极大改进的作品，也更适合现代玩家。
+
+game: 魔法大作战
+file: sstriker.zip
+sort-by: 050
+developer: 魔法大作战
+publisher: Raizing
+genre: 1
+x-id: FBNEO FLY V
+description: Raizing于1993出品的纵版飞机游戏。这是Raizing的第一部作品，也可以看成是疾风魔法大作战的首部作品。后来Raizing又在1994年推出了续作疾风魔法大作战，2000年在cps2基板上推出了超级魔法大作战。这个系列是除了CAVE和彩京外的厂商制作的画面最出色的飞机游戏之一。
+
+game: 疾风魔法大作战1
+file: kingdmgp.zip
+sort-by: 052
+developer: 疾风魔法大作战1
+publisher: Raizing
+genre: 1
+x-id: FBNEO FLY V
+description: 疾风魔法大作战（疾風魔法大作戦，しんっぷまほうだいさくせん，Kingdom Grandprix）是由RAIZING所制作的纵向卷轴弹幕射击游戏，是RAIZING发布的第二作作品，于1994年发布。这个“哥布林战役”结束于哥布林国王之死，但是哥布林王国的余党还在战争结束的时候继续抢掠，就把哥布林王国的余党封印在地底除了哥布林国王的儿子Bashinet以及八大自机之一的BulGin哥布林将军和他的两位手下。卡德温尔国王为了振奋百姓，就在这胜利的第一年召开大型活动作为纪念。这个活动是“世界大型飞机比赛”。这个比赛没有什么规则限制，使用的武器也是没有限制的，只有最快以及最强的人在胜利后获得女神的拥抱。国王表示“胜者就可以许下任何愿望”，也招来了所有的强者来加入这场比赛。但是，谁也没有意识到这两大势力来干涉这个比赛...
+
+game: 疾风魔法大作战2 超级魔法大作战
+file: dimahoo.zip
+sort-by: 053
+developer: 疾风魔法大作战2 超级魔法大作战
+publisher: Capcom
+genre: 1
+x-id: FBNEO FLY V
+description: 疾风魔法大作战正宗第2作，2000年运行在CPS2业务用基板上了，彻底的ER合作作品，比起前作，ER的浓厚的空战风格得以体现，虽然色调更加阴暗，但是游戏的火暴程度不减，ER空战的平衡性大大增加，可以说通过这一作品看出ER做空战作品的经验已经相当纯熟了。
+
+game: 超时空要塞1
+file: macross.zip
+sort-by: 054
+developer: 超时空要塞1
+publisher: Banpresto
+genre: 1
+x-id: FBNEO FLY V
+description: Banpresto于1992年推出的纵版飞机游戏，根据同名漫画改编。
+
+game: 超时空要塞 Plus
+file: macrossp.zip
+sort-by: 055
+developer: 超时空要塞 Plus
+publisher: Banpresto
+genre: 1
+x-id: FBNEO FLY V
+description: 超时空要塞 Plus 是一款基于超时空要塞动漫的 2D 垂直滚动射击游戏，诞生于1996年。玩家可以从 3 个角色中选择一个：驾驶 YF-19 的 Isamu Dyson、驾驶 YF-21 的 Guld Bowman 和驾驶 VF-11 的无名女飞行员。游戏玩法非常简单——玩家向前飞并射击敌人。他有枪、炸弹和导弹（长按射击释放导弹攻击）。玩家可以收集特殊敌人掉落的道具。
+
+game: SD高达 新的战斗
+file: neobattl.zip
+sort-by: 056
+developer: SD高达 新的战斗
+publisher: Banpresto
+genre: 1
+x-id: FBNEO FLY V
+description: SD高达主角的纵版飞行射击游戏。中规中矩。可以蓄力攻击。
+
+game: 石破天惊
+file: agallet.zip
+sort-by: 057
+developer: 石破天惊
+publisher: Banpresto
+genre: 1
+x-id: FBNEO FLY V
+description: Banpresto(眼镜社)1996年出品的经典近未来空战游戏。众所周知，眼镜社是靠卖漫画发家的公司，自然比较注重游戏的画面质量，在这方面下了不少功夫。大量特效的运用导致游戏背景极其绚烂刺眼，使得玩家精力不能完全集中，除BOSS外敌我双方体积比例过小，BOSS战弹雨密布导致稍有不慎就会被敌人干掉，尤其是最终决战只能用恐怖来形容等等，可谓缺憾多多。不过相对该社其他空战游戏而言，本作确实博众家之所长，拥有很多的闪光点，完全可以挤身90年代经典空战游戏之列。
+
+game: 铁甲万能侠Z
+file: mazinger.zip
+sort-by: 058
+developer: 铁甲万能侠Z
+publisher: Banpresto
+genre: 1
+x-id: FBNEO FLY V
+description: Banpresto于1994年制作的纵版飞机游戏。铁甲万能侠为港版译名，日文原名译作《魔神Z》，为日本漫画家永井豪与东映动画所共同企划而成的“魔神系列”第一作，同时也是剧中主角所驾的巨大机器人之名称。铁甲万能侠故事讲述，铁甲万能侠维护正义、铲除邪恶的行为得到了民众的支持，但邪恶的势力并不会因此消失。统治着迈锡尼人的黑暗大将军和他得力的黑暗军团认为铁甲万能侠是他们征服世界的障碍，于是组织了大批怪兽同时攻击铁甲万能侠。
+
+game: 咸蛋超人警备队
+file: ultrax.zip
+sort-by: 059
+developer: 咸蛋超人警备队
+publisher: Banpresto
+genre: 1
+x-id: FBNEO FLY V
+description: Banpresto/Tsuburaya Productions/Seta于1995年推出的纵版飞机游戏。手感和画面意外得好，伴随着昭和风的奥特曼主题曲进行游戏，非常有特色的一款飞机游戏，绝对值得一试。
+
+game: 阿修罗风暴
+file: ashura.zip
+sort-by: 060
+developer: 阿修罗风暴
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: Taito于1990年出品的纵版飞机游戏。
+
+game: 大旋风
+file: twinhawk.zip
+sort-by: 061
+developer: 大旋风
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: Taito 1989年出品。故事发生在第二次世界大战结束后的5年，哥罗哥国（虚拟）的二战功臣占巴尼将军不满战后的待遇，野心迅速膨胀，动用手下的不对占据哥国第一大岛：波波岛。并宣布此岛独立，为韩里加独立国。得意洋洋的占巴尼还开始哥国开战，企图以武力征服母国。哥国总统布朗特忍无可忍，宣布全国总动员，进行还击。仅仅用了半年，叛军就被打垮了。占巴尼率领残部逃到了秘密基地，准备使用威力巨大惊世骇俗的H武器。面对此危急关头，哥国决定出动最最精锐的空中特种部队大旋风。背负着哥国全民的希望和祝福，大旋风空中特种部队开始离开航道：起飞！
+
+game: 飞鸟&飞鸟
+file: asuka.zip
+sort-by: 062
+developer: 飞鸟&飞鸟
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: Taito于1988年出品的纵版飞机游戏。
+
+game: 风云战机
+file: acrobatm.zip
+sort-by: 064
+developer: 风云战机
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: 风云战机是由Taito在1991年发行的。最初由UPL在1991年发布，并授权给Taito制造和发行。它于1992年被移植到SFC。有两种武器可供玩家选择，其中之一是波浪枪（宣布在街机版中为广角）。波浪射击是一种散射，其大小、数量和强度都会增加。充电后，"波浪射击 "可以释放出一种短距离，但威力巨大的激光爆炸，当收集到 "波浪 "图标时，其宽度和强度都会增加。另一种武器是飓风射击，这是一种独特的区域效应武器，发射时顺时针环绕飞船，然后向前飞行。充电后，飓风射击在屏幕上发射一个能量球，但每次发射都有一秒钟的延迟。玩家也可以使用炸弹，但与许多射击游戏不同，玩家最多只能持有两枚炸弹。这两枚炸弹就安装在飞船的机翼下。如果敌人击中了其中一个炸弹，这个炸弹就会被引爆，为玩家创造一个破坏性的防护罩。玩家也可以手动引爆炸弹。
+
+game: 哈雷彗星
+file: halleysc.zip
+sort-by: 065
+developer: 哈雷彗星
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: rom运行不了。太空射击游戏。保护地球免受坠落的彗星和小行星的伤害。
+
+game: 究极虎2
+file: tcobra2.zip
+sort-by: 066
+developer: 究极虎2
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: 《究极虎1》的续作。设计了战机威力提升系统。游戏除了相当优秀的操控性之外，究极虎2游戏中的道具和提升火力的装备亦很丰富。其中自机的武器就分为散弹、激光、十字导弹和排弹四种，这在当时也算是超多了。保险攻击的威力也非常巨大，一颗保险可谓满屏皆花！
+
+game: 龙神
+file: ryujin.zip
+sort-by: 067
+developer: 龙神
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: Taito于1993推出的一款纵版飞机游戏。
+
+game: 逆鳞弹
+file: gekiridn.zip
+sort-by: 068
+developer: 逆鳞弹
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: Taito于1995年出品的一款纵版飞机游戏。
+
+game: 枪锁
+file: gunlock.zip
+sort-by: 070
+developer: 枪锁
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: Taito于1993年出品的纵版飞机游戏。这款游戏画面和操作性都非常不错，爽快感十足，但是难度却相当的大。关卡设计的非常不错，值得研究。
+
+game: 枪之国度
+file: gunfront.zip
+sort-by: 071
+developer: 枪之国度
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: 枪之国度是由Taito于1990年制作的一款纵版飞机游戏。玩家从双机关枪开始，这双机关枪被加强，并通过从野牛形状的敌人那里得到的我们一角硬币的形状进行升级，每五一角硬币赋予飞船的枪支力量。玩家还可以从一个炸弹供应开始，通过从被摧毁的地面部队收集金条升级到进一步破坏。一旦玩家累积25枚炸弹，他们就可以使用轰炸机Max，这是玩家最强大的炸弹。玩家还可以捡起两个不同侧面的旋转硬币:一面是银色一面是金色。如果玩家在银色边收集硬币，那么玩家只会为他们的枪获得另一枚硬币。然而，如果玩家在黄金一侧收集硬币，那么玩家的枪支和炸弹供应就会最大化到最大。玩家炸弹的一个独特特性是炸弹爆炸的方向可以由玩家的移动决定。如果玩家将飞机移动到屏幕右下角并发射炸弹，那么炸弹的飞行方向将与飞机的运动方向相反。这个功能只能在玩家拥有大量炸弹数量时使用，因为只有一到两枚炸弹就会导致小型无方向性爆炸。就像大多数投弹的炸弹一样，炸弹也可以作为防御敌人火力的盾牌。游戏使用了一个检查点系统，在这个系统中，倒下的单人玩家将从他们死亡的检查点开始。枪之国度还采用了一种反自动射击机制，如果玩家的射击速度太快，到第二阶段难度就会最大。
+
+game: 天空风暴
+file: gseeker.zip
+sort-by: 073
+developer: 天空风暴
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: Taito于1992年制作的纵版飞机游戏，可以使用前方的炮台，还有僚机进行战斗，作为一款1992年的游戏，画面非常不错。
+
+game: 战鹰
+file: fhawk.zip
+sort-by: 075
+developer: 战鹰
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: 在Fighting Hawk中，玩家将驾驶自己的战机“猎鹰”在草原、冰山、冰川、雪原和城市中与敌人作战。玩家的最终目标是击落敌人的最新型轰炸机“龙帽”。
+
+game: 魔幻兵器
+file: masterw.zip
+sort-by: 076
+developer: 魔幻兵器
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: 一场为期七天的核风暴给地球带来了翻天覆地的变化。大地裂开，大海沸腾，生物发生变化。人类也不例外。在结束了被诅咒的7天战争后，剩下的人换了细胞，回归自然，以忍受剧烈的环境变化。然而，被选中的一部分人——他们被称为科学家——创造了一台计算机，它可以带领人们留下种子人类。这台计算机称为 N。这款游戏相当于是铁板阵的全面升级版，玩法非常类似，也可以攻击和破坏地面单位。
+
+game: 空战之路
+file: bgaregga.zip
+sort-by: 077
+developer: 空战之路
+publisher: Raizing
+genre: 1
+x-id: FBNEO FLY V
+description: 由Raizing制作，Eighting发行的纵版飞机游戏，于1996年发布。
+
+game: 空战之路 1945II
+file: bgareggabl.zip
+sort-by: 078
+developer: 空战之路 1945II
+publisher: Raizing
+genre: 1
+x-id: FBNEO FLY V
+description: \n1）自机拥有3格血量设定，初始自带2雷，初始拥有最大火力，阵亡获得1.5雷；\n2）原版切换僚机阵型的C键，在祖国版中不可切换阵型（默认跟踪型），但可以切换自机；\n3）原版的连射需要手动提升多个档次才能达到最快射速，祖国版只需提升一次就能达到最快射速（RANK也会相应提高）；\n4）祖国版有二周目，比原版难，更适合高手贪分。\n\n
+
+game: 空战之路 雷神传
+file: bgareggabla.zip
+sort-by: 079
+developer: 空战之路 雷神传
+publisher: Raizing
+genre: 1
+x-id: FBNEO FLY V
+description: \n1）自机只能选择来自《魔法大作战》中的4架飞机，自机初始自带2.5雷，阵亡补充1.5雷；\n2）原版的粒子效果在该版本中被清除，更容易看清敌方子弹；\n3）该版本Rank上升速度较原版快，该版本还拥有二周目（Extended）模式，难度非同寻常；\n4）自机子弹射速不再像原版一样需要多次执行快速连按两次A键进行逐渐升档，只需执行一次即可达到最高射速。\n\n
+
+game: 蝙蝠骑警
+file: batriderhk.zip
+sort-by: 080
+developer: 蝙蝠骑警
+publisher: Raizing
+genre: 1
+x-id: FBNEO FLY V
+description: 《蝙蝠骑警》是由RAIZING发行的一款空战街机类游戏。说到RAIZING公司，由于在上世纪90年代制作的一批优秀作品，而在街机玩家们心目中拥有一定的地位。本作的剧情是为了对付那些法律无法制裁的大奸大恶，政府就招揽了一些犯罪者作为特工组织起来，并将其命名为零号警队。游戏的操作易上手但难度很大，游戏由于节奏较快，经常会来不及看清弹幕而被击中。不过游戏的可玩性性还是相当强，其中包含了聚气模式，玩家可通过长按攻击键来打出强力一击，并且游戏中的弹药种类也相当丰富，得到后会发展出各种模式的攻击方式，这些战斗模式中没有最强的一种，只有最合适关卡的一种，玩家可根据当时状况拟定战略。
+
+game: 大蜜蜂88
+file: galaga88.zip
+sort-by: 081
+developer: 大蜜蜂88
+publisher: Namco
+genre: 1
+x-id: FBNEO FLY V
+description: Galaga '88 是旧款“Galaga”（1981年小蜜蜂）的改进版本，具有更多入侵者和更强的火力。 Galaga '88 让玩家有机会再次击退来自 Galagan 王国的入侵者。一或两个玩家可以尝试与入侵者作战。这次 Galagan 有四个盟友，每个盟友都拥有独特武器和护盾。通过消灭特殊的敌人或障碍，玩家可以获得“物品”。当玩家拥有两件物品时，他们可以传送到另一个维度，以新的策略对抗更多的 Galagan 船只。在具有挑战性的关卡中（在这个游戏中被标记为“这就是银河之舞”），玩家需要击落尽可能多的入侵者，因为 Galagans 会随着华尔兹、探戈、进行曲或爵士乐曲调跳舞。
+
+game: 大蜜蜂加强版
+file: gaplus.zip
+sort-by: 082
+developer: 大蜜蜂加强版
+publisher: Namco
+genre: 1
+x-id: FBNEO FLY V
+description: Gaplus 是 Namco 经典“Galaxian”系列的第三款游戏，Gaplus 接续了 1981 年的“Galaga”（大蜜蜂）。在保持与其前身相同的经典“外观”的同时，Gaplus 的图形明显优于“Galaga”；游戏增加的调色板和微妙的阴影使用使进攻的外星人看起来更加坚固。
+
+game: 发射
+file: blastoff.zip
+sort-by: 083
+developer: 发射
+publisher: Namco
+genre: 1
+x-id: FBNEO FLY V
+description: Blast Off 是一款纵版的飞行射击游戏。尽管游戏玩法截然不同，但 Blast Off 是八年前发布的 Bosconian 的续集。与许多其他同类纵版飞行射击游戏（包括 Namco 自己的 铁板阵）一样，玩家控制着一艘面向屏幕顶部的船，它可以在背景向下滚动时自由移动，将敌人带入视野；玩家可以消灭敌人以获得积分。该游戏使用两个按钮 - 一个用于让飞船发射圆形激光，而另一个用于循环显示其四种武器模式。红色图案是螺旋状的两束激光，蓝色图案是正前方一束激光，黄色图案是正前方一左一右各一束激光，绿色是斜前方两束激光（一束一个在左边，一个在右边），一个在后面。飞船还可以蓄力攻击。
+
+game: 龙魂1
+file: dspirit.zip
+sort-by: 084
+developer: 龙魂1
+publisher: Namco
+genre: 1
+x-id: FBNEO FLY V
+description: DRAGON SPIRIT 是 NAMCO 于 1987 年发行的一款射击游戏。玩家控制变身为“Blue Dragon”的英雄“Amul”，拯救被黑暗领主“Zawell”带走的米德加德公主“Alicia”。与地面和空中的敌人作战，并使用强化物品在这些地区前进。游戏后来被移植到了多个平台上。
+
+game: 龙魂2
+file: dsaber.zip
+sort-by: 085
+developer: 龙魂2
+publisher: Namco
+genre: 1
+x-id: FBNEO FLY V
+description: Namco于1990年出品的纵版飞机游戏。
+
+game: 外星人趣味射击
+file: cosmogng.zip
+sort-by: 086
+developer: 外星人趣味射击
+publisher: Namco
+genre: 1
+x-id: FBNEO FLY V
+description: 类太空侵略者的飞行射击游戏。
+
+game: 王牌战斗机
+file: fghtatck.zip
+sort-by: 087
+developer: 王牌战斗机
+publisher: Namco
+genre: 1
+x-id: FBNEO FLY V
+description: Namco于1992开发的纵版飞机游戏。
+
+game: 翼人战士
+file: phelios.zip
+sort-by: 088
+developer: 翼人战士
+publisher: Namco
+genre: 1
+x-id: FBNEO FLY V
+description: 一款基于希腊神话的出色垂直射击游戏。玩家控制太阳神阿波罗，他骑着他的飞马飞马飞马穿越古希腊，执行一项任务，将他的妹妹月神阿尔忒弥斯从恶魔提丰的魔掌中解救出来。射杀鹰身女妖和骷髅等所有敌人，以及地精和巨大的敌方首领。按下开火按钮会使他的剑发射一小发子弹，同时按住它为剑充电，释放时发射更大的火球。即使是最小的敌人也会受到多次打击，所以标准射击没什么用处。
+
+game: 星云战机
+file: nebulray.zip
+sort-by: 089
+developer: 星云战机
+publisher: Namco
+genre: 1
+x-id: FBNEO FLY V
+description: Namco于1994年推出的一款纵版飞机游戏。 这款stg游戏以未来的太空大战为主题，把太空战的场景可以说无论在画面上还是操作系统上都表现的异常的完美。本作突出的亮点就是大胆的用飞船仓内的运动速度为参照物，作为第一视角来体现整个游戏场景的动态变化，他运用了飞船与地面等周围事物的速度差来磨合控制键的使用，使游戏的场景时刻处于互动状态，玩过传统stg游戏的朋友刚上手很难适应这一特殊的空间运动状态，而那种游戏中体现的明显的错位差，使玩家用2D角度体会空战的那种感觉显得非常强烈突出。游戏中的弹幕大多以强烈刺激视觉的线条激光束为主，包括主机的攻击方式，也是红和绿两种亮性色彩的子弹束，并通过打击在敌机上最终崩溅消逝在暗黑色调下的太空中的视觉冲击来演绎游戏中体现的太空战的真实，俨然仿照了星球大战中的特效。激光束作为主要的弹幕后，那种具有鲜明色彩和速度感的线条时刻横贯穿插在游戏画面中，而游戏画面又是通过采用混沌手法和实物摹刻的方式来表现，两大类形象事物的糅合和搭配无疑更加强烈的刻画出了这款游戏制作者间接诠释的太空战主题。当然优秀的操作系统和表现手法的游戏画面下，和敌兵乃至Boss的对战自然也是让人时刻处于紧张和专注中，尤其是Boss的对战，虽然不算太摄人心魄，但是游戏中时刻体现的互动画面却在与Boss的对战中增添了更浓的紧张气氛，还有高速下的要塞战，敌机被击毁后滚落坠毁的样子。一切的细节说明游戏从整体上通过游戏画面的特殊表现手法，为其在游戏的趣味性上加了很大的佐料。本游戏确实是个十分难得优秀的stg作品。
+
+game: 雷电1
+file: raiden.zip
+sort-by: 090
+developer: 雷电1
+publisher: Seibu Kaihatsu
+genre: 1
+x-id: FBNEO FLY V
+description: Seibu Kaihatsu（西武开发）于1990年推出的纵版飞机游戏，是一款非常有名的作品。雷电的初代非常经典，玩家能使用的子弹颜色只有两种，要么激光要么散弹。另外辅机也有两种，一种是导弹，一种是跟踪弹。激光和散弹的威力都是一样的，不过激光相对比较集中。不像后期的游戏，玩家只需要吃四个P就能满火力，这款游戏的子弹级别需要玩家吃很多相同颜色的能量才能满。《雷电》正是90年代飞行射击游戏的领头羊，游戏难度不大，当年算是质量最为上乘的游戏。即使二十多年后，仍然受到玩家的追捧。这就是雷电初代的魅力。而游戏最大的看点，就是在于两架飞机之间的火力合作，要是两架飞机合并在一起发射，打出来的子弹威力要高出很多。早期的游戏炸弹都是没有无敌状态的，这款游戏也是一样，很多玩家在死之前都会放出一个炸弹。
+
+game: 雷电2
+file: raiden2.zip
+sort-by: 091
+developer: 雷电2
+publisher: Seibu Kaihatsu
+genre: 1
+x-id: FBNEO FLY V
+description: Seibu Kaihatsu（西武开发）于1993年出品的雷电续作，比原版的特效添加了许多，加入立体设计，新游戏也把敌人改成了红水晶【TRAOE】，也增加了难度，有着不小的挑战性，许多爱好者改成同人作品推向其他游戏，大家才真正认识雷电，认识到了弹幕射击游戏。
+
+game: 雷电DX
+file: raidendx.zip
+sort-by: 092
+developer: 雷电DX
+publisher: Seibu Kaihatsu
+genre: 1
+x-id: FBNEO FLY V
+description: Seibu Kaihatsu（西武开发）于1994年继雷电1和2后出品的雷电第三部作品。相当于系列第3作。
+
+game: 雷电战机1
+file: rdft.zip
+sort-by: 093
+developer: 雷电战机1
+publisher: Seibu Kaihatsu
+genre: 1
+x-id: FBNEO FLY V
+description: Seibu Kaihatsu（西武开发）于1996年出品的雷电的续作。相当于系列第4作。
+
+game: 雷电战机2
+file: rdft2.zip
+sort-by: 094
+developer: 雷电战机2
+publisher: Seibu Kaihatsu
+genre: 1
+x-id: FBNEO FLY V
+description: 雷电战机2 地狱俯射，是Seibu开发（西武开发）于1997年出品的雷电战机第2部作品。相当于系列第5作。
+
+game: 雷电战机喷射版
+file: rfjet.zip
+sort-by: 095
+developer: 雷电战机喷射版
+publisher: Seibu Kaihatsu
+genre: 1
+x-id: FBNEO FLY V
+description: Seibu Kaihatsu（西武开发）于1998年继雷电战机1和2后出品的雷电战机第三部作品。相当于是系列第6作。
+
+game: 毒蛇任务
+file: viprp1.zip
+sort-by: 096
+developer: 毒蛇任务
+publisher: Seibu Kaihatsu
+genre: 1
+x-id: FBNEO FLY V
+description: Seibu Kaihatsu（西武开发）于1995年推出的纵版飞机游戏。有别于雷电系列的空战作品，本游戏的主线很分明，场景完全是太空战斗模式，和地球没任何关系，描述的是我方基地被围后，秘密潜派两架飞机突出重围，最后摧毁敌方大本营的情节。后面的PC上的假雷电系列都受这款游戏很深的影响。本游戏系统设置的很精致，伪3D的太空和基地烘托背景，光源延迟效果和其他特殊效果的应用，使这款游戏的太空场景被体现的淋漓尽致，当然战斗也是很激烈的，敌方子弹特点:虽然不多，但是很快，设计的几何效果很巧妙，而且没几个子弹是无用的，而且命中率很精准来，攻击AI很高。
+
+game: 轰炸传说
+file: sspirits.zip
+sort-by: 097
+developer: 轰炸传说
+publisher: SEGA
+genre: 1
+x-id: FBNEO FLY V
+description: 世嘉的纵版飞行射击游戏，可以获得子机增强火力。游戏有那个时期stg游戏的优点，画面清新，音乐优美。阴影的利用也增强了立体感。
+
+game: 铁锤战机
+file: hamaway.zip
+sort-by: 098
+developer: 铁锤战机
+publisher: SEGA
+genre: 1
+x-id: FBNEO FLY V
+description: Sega/Santos于1991年推出的纵版飞机游戏。
+
+game: 音速轰炸机
+file: sonicbom.zip
+sort-by: 099
+developer: 音速轰炸机
+publisher: SEGA
+genre: 1
+x-id: FBNEO FLY V
+description: 音速轰炸机是Sega于1987推出的一款古老的纵版飞机游戏。
+
+game: 四国战机1
+file: aerofgt.zip
+sort-by: 100
+developer: 四国战机1
+publisher: Video System
+genre: 1
+x-id: FBNEO FLY V
+description: 又名四国战记，1992街机版《Areo Fighters》一问世，就引起了很大的轰动。流畅的手感、靓丽的角色、超炫的画面、劲爆的音乐，都给国内玩家留下了非常深的印象。
+
+game: 超级空军
+file: turbofrc.zip
+sort-by: 104
+developer: 超级空军
+publisher: Video System
+genre: 1
+x-id: FBNEO FLY V
+description: Video System于1991年出品的一款纵版飞行射击游戏，玩家将操纵一架由汽车改造装备最新武器和特别装置的战斗机，主要任务是要摧毁全球的恐怖分子隐秘基地，敌人方面除了有战斗机之外，还有船舰与航空母舰的攻击，以及地面猛烈的炮火，在敌人的炮火交叉攻击中，玩家必须依靠灵巧的双手来避开这些攻击。在游戏中玩家可以升级武器和导弹，并随游戏进度会获得新的战斗机。游戏秉承一贯高制作水平，带给玩家全新的感受，近乎真实的超酷战斗机和各种战斗单位，多种武器和导弹绚丽多彩。玩家也可以进入游戏对键位进行设置。游戏画面华丽，效果惊人。完全展现了飞行射击游戏的动人魅力，游戏节奏紧张刺激，玩家可以一边欣赏精美的战斗画面一边和敌人进行激烈的战斗，在游戏中一些隐藏的装备需要攻击一些特定目标才能得到，吸引了玩家对游戏进行深入探索。
+
+game: ASO
+file: aso.zip
+sort-by: 105
+developer: ASO
+publisher: SNK
+genre: 1
+x-id: FBNEO FLY V
+description: ASO 是一款卷轴射击游戏，由SNK在1985年出品。在区分空对空和空对地武器这个设计上学习了铁板阵。导弹用于摧毁地面敌人，而类似激光的武器则用于对付空中对手。在每个关卡中，玩家必须击退威胁空间站的一波又一波敌人，并且必须在每个关卡结束时击败一个 Boss。与该类型的大多数早期游戏一样，当玩家死亡时，所有武器升级都会丢失。
+
+game: 直升机战斗
+file: chopper.zip
+sort-by: 106
+developer: 直升机战斗
+publisher: SNK
+genre: 1
+x-id: FBNEO FLY V
+description: SNK 的一款驾驶直升机的纵版飞行射击游戏。
+
+game: 异次元战机
+file: tnextspc.zip
+sort-by: 107
+developer: 异次元战机
+publisher: SNK
+genre: 1
+x-id: FBNEO FLY V
+description: 一款1989年的竖版飞行射击游戏。驾驶你的飞船穿越深空，收集各种速度和武器物品来击落众多敌人，恢复银河系的和平！游戏特色是道具系统比较丰富。游戏提了供十种物品供您拾取，包括速度提升、激光武器、散弹枪、火焰喷射器、微型宇宙飞船助手和导弹。
+
+game: 百慕大魔鬼三角
+file: bermudat.zip
+sort-by: 108
+developer: 百慕大魔鬼三角
+publisher: SNK
+genre: 1
+x-id: FBNEO FLY V
+description: 垂直滚动的射击游戏。
+
+game: 雷霆之翼G2020
+file: gstream.zip
+sort-by: 109
+developer: 雷霆之翼G2020
+publisher: Oriental Soft
+genre: 1
+x-id: FBNEO FLY V
+description: 雷霆之翼G2020（又称G暴风战机2020）是Oriental Soft Japan于2002年出品的一款飞机游戏。游戏的背景设置在未来时代，玩家将作为一名超级飞行员与侵略地球的外星人展开激战。游戏在画面上采用了非常绚丽的三维色调制作而来，而在玩法上则遵循了传统的战斗模式，并融合了弹药搭配系统，玩家只需通过拾取特定组合的弹药便可搭配出不同的效果，在关卡中根据BOSS与敌人的属性来合理使用该功能便是游戏的关键。
+
+game: X2222
+file: x2222.zip
+sort-by: 110
+developer: X2222
+publisher: Oriental Soft / Promat
+genre: 1
+x-id: FBNEO FLY V
+description: X2222是一款未发售的太空飞行射击游戏，由于未完成，所以没有声音。本作是由东方软件开发，曾计划于2000年左右发售。
+
+game: 8号火力
+file: eightfrc.zip
+sort-by: 111
+developer: 8号火力
+publisher: Tecmo
+genre: 1
+x-id: FBNEO FLY V
+description: 8号火力，又名8力战机，是Tecmo于1994年出品的纵版飞机游戏，该游戏的背景结合了科幻与日漫，包含了非常多机甲元素，科技感强烈，画面效果非常棒，还加入了聚气大招玩法，在双人模式下还能发挥出更多的充满趣味性战斗方式。
+
+game: 炮钉
+file: gunnail.zip
+sort-by: 112
+developer: 炮钉
+publisher: Tecmo
+genre: 1
+x-id: FBNEO FLY V
+description: NMK/Tecmo于1993推出的纵版飞机游戏。生命值越少则打死敌人后的倍率越高，只剩下最后一格血的时候是X12。
+
+game: 真急急炮
+file: zingzip.zip
+sort-by: 113
+developer: 真急急炮
+publisher: Tecmo
+genre: 1
+x-id: FBNEO FLY V
+description: Allumer/Tecmo于1992年推出的一款纵版飞机游戏。
+
+game: 捉虫敢死队
+file: gemini.zip
+sort-by: 114
+developer: 捉虫敢死队
+publisher: Tecmo
+genre: 1
+x-id: FBNEO FLY V
+description: Tecmo纵向射击街机作品《Gemini Wing(捉虫敢死队/双子星/昆虫世界/昆虫大战/虫虫特攻队)》在1987年问世，没有火力增强，这在stg来说恐怕是很少见的了，但正也正是无火力增强，使得游戏对特殊武器的依赖也无形中增强，而容易获得的变化多端、种类丰富的尾挂特殊武器，也正是这个游戏最大的亮点。玩的时候猛K带尾挂的蝎子，把它挂接的特殊武器打得不断变化，等打到有自己需要的东西以后上去抢劫。而双打的时候互相抢特殊武器也是乐事一件。这个游戏的弹速偏慢，属无规则松散型，很多是直冲player机体而来，用于限制机体移动的部分很少。所以在这个游戏的进行中，除了间歇时间以外，基本上机体都是在不断地改变位置。而限制机体移动的责任，就交由版面和敌人来承担了。stg中的普通敌人的AI大多都体现于移动轨迹和放弹时机与方向，而这个游戏中敌人是罕见的丰富，而丰富变化的敌人和地形，加上特殊武器，基本上使这个游戏涵盖了几乎所有目前已知能在stg中体验到的乐趣。无论是连打，欺骗AI进行躲避，在狭窄空间中穿行，高速躲避，高速移动物体的准确命中，隐藏点的探索……等等等等。昆虫的种类丰富，确实令人惊叹，但是这个游戏的版面风格设计也确实充满了梦幻感和想象力。不过在这个令人精神高度紧张的游戏中，恐怕没有多余的精神来欣赏了。在旁观战的感觉很不错，特别是每个场景的第一次出现，轻快且节奏感强烈的音乐也是游戏的亮点，那急促的鼓点，与瓢泼大雨般倾泄而下的昆虫配合得丝丝入扣，一旁看高手打机的观众(其实是小P孩)也会热血沸腾High到极点。Boss的设计在这个游戏中，只算不功不过了。游戏里的生物有：带尾挂蝎子，六黄翅小蜻蜓，青眼四翅小蝇，红点翅小蜻蜓，草莓虫，弯颚蠕虫(变特殊武器)，弯颚青虫，大头红眼苍蝇，蝴蝶，17翅红眼蜈蚣，绿单眼红色飞虫，双翅绿小飞虫，黄色三绿条蠕虫，黄色飞鼠，蓝色地虫，青白十字大地虫，青白十字小地虫，金色粉头蜘蛛，凸眼地虫，大眼地虫，金色粉眼圆甲虫，火圈虫，青白复眼小飞虫，青白色天牛，蠕动草履虫，金色草履虫，沙皮地葵，圆地葵，褐色小地葵，青草绳虫，鸭蛋虫，金翅小蝇，黄眼蝙蝠，食人草，食蝇花，猪笼花36种异形昆虫生物，再加上Boss的话有41种哦。游戏加币续关的时候要从此关开头重打，在第7关死完后加币续关的话要从第6关开始重打，有点变态吧…机尾挂的特殊武器种类有：三向火弹，旋风，火墙，火柱，跟踪导弹，加命，2万分，5万分，10万分。最多只能挂14个，双打时可以互相交换尾挂武器，当然，也可以和带尾挂蝎子交换哦！掌握好特殊武器的使用是破关的关键，当然，不使用特殊武器(打大蜻蜓时还是要用)而且一命通关的高手也有哦。
+
+game: 最终星际力量
+file: fstarfrc.zip
+sort-by: 115
+developer: 最终星际力量
+publisher: Tecmo
+genre: 1
+x-id: FBNEO FLY V
+description: 最终星际力量是Tecmo于1992年制作的一款纵版飞机游戏。这个游戏在fc的版本被广泛译作雷鸟号。
+
+game: 游戏天堂 射击大师！
+file: gametngk.zip
+sort-by: 117
+developer: 游戏天堂 射击大师！
+publisher: Jaleco
+genre: 1
+x-id: FBNEO FLY V
+description: Game Tengoku - The Game Paradise 是一款以真实街机房为场景的独特的竖版飞行射击游戏。玩家扮演五个不同角色之一，每个角色都有不同的武器。街机厅内游戏屏幕的画面非常精彩，也能有效分散玩家的注意力。该游戏是对Jaleco的深情致敬——游戏初始界面中滚动着Jaleco 游戏（街机和家用机）中出现过的许多角色，游戏中的所有敌人也来自以前的 Jaleco 游戏。游戏提供“标准”和“限时攻击”两种模式，并具有常见的一系列武器升级、炸弹和奖励物品。
+
+game: 战斗机械
+file: cybattlr.zip
+sort-by: 118
+developer: 战斗机械
+publisher: Jaleco
+genre: 1
+x-id: FBNEO FLY V
+description: 外星人正在入侵，唯一的希望是配备激光炮和超酷激光剑的机器人战士。所以准备好爆炸
+
+game: 趣味战机
+file: plusalph.zip
+sort-by: 119
+developer: 趣味战机
+publisher: Jaleco
+genre: 1
+x-id: FBNEO FLY V
+description: Plus Alpha 是一款俯视图类型的射击游戏，具有明亮且非常幼稚的图形 - 但是等等，不要仅仅因为它看起来很幼稚就判断游戏。有些人不喜欢像这样的图形游戏，但您必须知道看起来很幼稚的图形和幼稚的*游戏玩法*之间的区别。 Plus Alpha 永远不会让您觉得自己在玩一款专为儿童设计的游戏 - 因为它玩起来非常有趣，而且与其他一些图形类似于 Plus Alpha 的游戏不同，它很难被击败。
+
+game: 湾岸战争
+file: desertwr.zip
+sort-by: 120
+developer: 湾岸战争
+publisher: Jaleco
+genre: 1
+x-id: FBNEO FLY V
+description: 一款垂直滚动的射击游戏，任务是从敌方战场上解救战俘。
+
+game: SS任务特命编
+file: ssmissin.zip
+sort-by: 121
+developer: SS任务特命编
+publisher: Comad
+genre: 1
+x-id: FBNEO FLY V
+description: Comad于1992年推出的纵版飞机游戏，游戏中玩家将扮演一名皇家飞行员，操控直升机前去执行难度最高的SS任务。机体在画面中占比很大，躲避子弹要非常小心。
+
+game: 海湾战争2
+file: gulfwar2.zip
+sort-by: 122
+developer: 海湾战争2
+publisher: Comad
+genre: 1
+x-id: FBNEO FLY V
+description: Comad于1991年推出的纵版飞机游戏。
+
+game: 空袭
+file: airattck.zip
+sort-by: 123
+developer: 空袭
+publisher: Comad
+genre: 1
+x-id: FBNEO FLY V
+description: Comad于1996年出品的一款纵版飞机游戏。
+
+game: V5战机
+file: vfive.zip
+sort-by: 124
+developer: V5战机
+publisher: Toaplan
+genre: 1
+x-id: FBNEO FLY V
+description: V5战机又名飞鹰风暴，是Toaplan于1993年制作的纵版飞机游戏，该游戏的背景设置在外星，玩家将扮演一名外星战将，为了自己星球在未来的和平从而前去摧毁邪恶的外星人星球，一场大战一触即发。游戏画面给人一种艳丽的感觉，无论是海洋基地、荒漠要塞、还是太空堡垒等关卡场景都更有一种立体的感觉。各种武器攻击和爆炸的光影效果同样非常华丽炫目。
+
+game: 达人王1
+file: truxton.zip
+sort-by: 125
+developer: 达人王1
+publisher: Toaplan
+genre: 1
+x-id: FBNEO FLY V
+description: 达人王第一作是由Toaplan在1992年发布的一款纵版飞机游戏。 它的口号是 "超越掌控，成为国王"。敌人的耐久度很高，而自机受攻击的判定却很大。 此外，玩家如果被击毁，是不能原地复活的，需要返回到最后一个复活点。
+
+game: 达人王2
+file: truxton2.zip
+sort-by: 126
+developer: 达人王2
+publisher: Toaplan
+genre: 1
+x-id: FBNEO FLY V
+description: 达人王2是Toaplan于1992年在日本和欧洲发行的纵版飞机游戏。它是达人王1的续作。故事发生在原版游戏的事件之后，玩家扮演两名战斗机飞行员，控制HyperFighter太空战斗机飞船，努力推翻由Dogurava领导的回归的Gidans外星种族，使银河系摆脱奴役。2019年，该游戏版权由Tatsujin持有，这是一家由前Toaplan成员Masahiro Yuge在2017年成立的公司，现在与许多其他Toaplan IP一起隶属于日本街机制造商exA-Arcadia。
+
+game: 飞翔鲛
+file: fshark.zip
+sort-by: 127
+developer: 飞翔鲛
+publisher: Toaplan
+genre: 1
+x-id: FBNEO FLY V
+description: Toaplan（东亚企划）于1987年开发的纵版飞机游戏，当时TOPLAN初出茅庐，出品的飞机游戏由TAITO挂名发行。TOPLAN的飞机游戏以高难度或者说硬派著称，这个游戏玩家死命后不能原地复活，流程必须回滚。
+
+game: 疯狂枪支
+file: batsugun.zip
+sort-by: 128
+developer: 疯狂枪支
+publisher: Toaplan
+genre: 1
+x-id: FBNEO FLY V
+description: Toaplan于1993年出品的纵版飞机游戏。这是一款在90年代街机厅里很受欢迎的飞机游戏，一共有5关，难度适中。疯狂枪支Batsugun这款STG还是十分概念的，特别是它的中弹判定设置的非常前卫，以至于自机可以穿梭于弹雨之中，这和Taito擦着就亡的风格截然不同，这种敌弹看似密集实则疏空的设定以后被彩京发扬光大，东亚企划收山之作。游戏为2P，各有3架飞机可选。此游戏有2个特点，第一就是一个人放完炸弹以后，第二人接着放的话会合成炸弹，威力无穷。第二个特点就是下面有个进度，当进度满的时候会变身，子弹也会有所变化，最多可以变2次身，到第三次的时候满了也不会有变化的了。
+
+game: 鲛!鲛!鲛!
+file: fireshrk.zip
+sort-by: 129
+developer: 鲛!鲛!鲛!
+publisher: Toaplan
+genre: 1
+x-id: FBNEO FLY V
+description: 鲛!鲛!鲛!由Toaplan在1989年发售。它是该公司《飞翔鲛Flying Shark》（1987年）的续作，部分游戏系统沿用了《究极虎》（1987年）的系统。 标题名称暗含前日本军队在袭击珍珠港时使用的密码 "虎！虎！虎！"。在日本之外，该游戏由Romster发行，标题为《Fire Shark》。 由于难度问题，这款游戏在日本昙花一现，但在游戏杂志《Gamesto》的Toa计划特辑的采访中，它被披露在日本以外的地区相当受欢迎。1990年，该游戏被移植到Mega Drive上，并在游戏杂志《Famicom News》的 "Cross Review "部分入选银牌名人堂。
+
+game: 究极虎1
+file: twincobr.zip
+sort-by: 130
+developer: 究极虎1
+publisher: Toaplan
+genre: 1
+x-id: FBNEO FLY V
+description: 《究极虎》是Toaplan于1987制作的一款高难度纵卷轴射击作品。设计了战机威力提升系统。游戏除了相当优秀的操控性之外，游戏中的道具和提升火力的装备亦很丰富。其中自机的武器就分为散弹、激光、十字导弹和排弹四种，这在当时也算是超多了。保险攻击的威力也非常巨大，一颗保险可谓满屏皆花！武器提升道具基本要靠玩家途中拾取的P字宝物，10级的提升空间对于追求完美的玩家来说诱惑力实在是巨大。
+
+game: 雷射战机
+file: dogyuun.zip
+sort-by: 131
+developer: 雷射战机
+publisher: Toaplan
+genre: 1
+x-id: FBNEO FLY V
+description: 雷射战机是一款空战街机游戏，游戏呈漫画风格，剧情非常简单，讲诉在未来的世界中战斗机对抗机器人的故事，这款游戏前期没有任何难度，但后期难度却极高，是一款跨度较大的作品。游戏没有多余的机型供玩家选择，只有四种风格不同的子弹，它们分别拥有直线、追踪、扩散、快速等功能，根据不同的关卡情境，使用不同的弹药也正是这款游戏的重点。另外游戏中没有任何大招，大招技能则由玩家的两架副机的能力所代替，当玩家启用它们时他们会释放出爆破为玩家挡掉子弹，但副机起作用时玩家将无法攻击，所以如何取舍全看玩家自己，一款朴实经典的空战作品。
+
+game: 银河战机
+file: vimana.zip
+sort-by: 132
+developer: 银河战机
+publisher: Toaplan
+genre: 1
+x-id: FBNEO FLY V
+description: 银河战机是Toaplan于1991年出品的一款纵版飞机游戏。该游戏的背景设置在上古时代的古印度，在那个文明还不太发达的时候却遭到了外星人的攻击，于是某些人利用被封印的智慧开发出了一台不属于该文明下的飞行装置，这也成为了全人类最后的希望。该游戏是一款非常古老的空战作品，虽然游戏在画面上看起来已略显粗糙，不过就其可玩性却异常的出色，整场游戏只提供了一架战机，在这方面有些类似于经典的“雷电”，不过游戏各种关卡中提供了许许多多的加强型道具，使得玩家可以将自己的战斗机武装成特定的战斗风格，对于喜爱空战游戏的玩家来说这是款值得一试的佳作。
+
+game: 老虎直升机
+file: tigerh.zip
+sort-by: 133
+developer: 老虎直升机
+publisher: Toaplan
+genre: 1
+x-id: FBNEO FLY V
+description: TOAPLAN于1985年发行的一款纵版直升机游戏。
+
+game: 阿古斯
+file: argus.zip
+sort-by: 134
+developer: 阿古斯
+publisher: NMK
+genre: 1
+x-id: FBNEO FLY V
+description: 虽然大量借鉴了铁板阵这一纵向射击游戏的奠基之作，但 Argus 还是加入了许多创新的设计。玩家的飞船始终呈现在屏幕中央，随着玩家左右移动，地面实际上会向相反的方向滚动。玩家沿同一方向一直飞可以回到起点（大概因为地球是圆的……）。其他新设计包括漂浮在空中的迷宫墙，可以随意穿过。某些地面目标提供特殊武器或升级道具，但必须轰炸 3 次才能获得它们。每个阶段结束时都会出现BOSS战。 Boss 有一个不常暴露的弱点，只需一枚炸弹即可摧毁，但如果玩家没有成功，Boss 会在指定时间后离开。在 Boss 战之后有一个着陆关，必须成功操纵才能获得奖励积分。飞船在每个关卡都会收到一种新武器（循环中有 5 种不同的组合）。
+
+game: 阿卡迪亚战机
+file: arcadian.zip
+sort-by: 135
+developer: 阿卡迪亚战机
+publisher: NMK
+genre: 1
+x-id: FBNEO FLY V
+description: NMK于1994年出品的纵版飞机游戏，手感还不错。
+
+game: 雷龙1
+file: tdragonb.zip
+sort-by: 136
+developer: 雷龙1
+publisher: NMK
+genre: 1
+x-id: FBNEO FLY V
+description: 《雷龙》是雷龙系列街机游戏的第一代，游戏中共有四种火力，分别是数字1、2、3、4，一般第1种和第4种用得多些，另两种用得少些，子弹是各有优缺点，这个游戏中我方和敌方的飞机都设计得比较大，加上机身很是灵活，所以较被容易击中。如果在游戏中一币的飞机死完后，这时再续币打的话，会出现一个S，吃了后火力和炸弹全满...这个游戏在我们小时候的街机厅里是必备的一个射击游戏，难度相当大，通关了以后可以继续打，但是到第二轮也就是第9关开始难度非常大。1号弹是散弹,全屏攻击，面积大，攻击力一般。2号弹是直弹，直线攻击力强。3号弹是乱弹，攻击力一般。4号弹是从尾巴开始出弹的，攻击力强，但速度很慢。小星星，连续累计吃10颗奖一架飞机，中途挂了得重新开始累计，一般都是隐藏在左右两边。炸弹，攻击力强，最多吃8颗。
+
+game: 雷龙2
+file: tdragon2.zip
+sort-by: 137
+developer: 雷龙2
+publisher: NMK
+genre: 1
+x-id: FBNEO FLY V
+description: 雷龙2是TECMO\nMK 推出的一系列纵版飞行射击类游戏，雷龙一代因为密集的子弹群和敌机群令玩家紧张不已，对玩家反应速度是极大的挑战。这使它成为当年一款非常流行的射击游戏，火力种类丰富，但是机体的中弹判定很大，难度较高。 雷龙2是经典纵版飞行射击类游戏雷龙的续作，虽然是雷龙的续作但风格和一代有着相当大的差别。 游戏共8关，初始三条生命（3架飞机）1P为散射武器，2P为集中直射。
+
+game: 高米达斯星战
+file: galmedes.zip
+sort-by: 138
+developer: 高米达斯星战
+publisher: Visco
+genre: 1
+x-id: FBNEO FLY V
+description: Visco于1992年推出的一款纵版飞机游戏。游戏一个按键是射击，一个是切换子弹，系统其实还算特别，但感觉机体设定和整体画面都不太好。
+
+game: 国联防卫军
+file: earthjkr.zip
+sort-by: 139
+developer: 国联防卫军
+publisher: Visco
+genre: 1
+x-id: FBNEO FLY V
+description: Visco于1993年出品的纵版飞机游戏。
+
+game: 雷刃
+file: stmblade.zip
+sort-by: 140
+developer: 雷刃
+publisher: Visco
+genre: 1
+x-id: FBNEO FLY V
+description: 又名雷刃暴风，是Visco于1996年出品的纵版飞机游戏。SSV基板由三大射击名厂SAMMY SETA VISCO合力开发的性能极高的街机游戏基板。貌似VISCO在制作EARTH JOKER之后就发觉需要新机板，这才联合SETA和SAMMY开发了SSV，然后SETA在上面推出了双鹰2，SAMMY制作了CHANGE AIR BALDE，VISCO更有婆裟罗系列(都是经典的stg大作)。据说STORM BLADE当初的价格相当高，所以国内引进的很少，在机厅中并不流行，但这丝毫不影响其成为90年代末期街机上少有的空战stg大作。凭借新基板的高性能与美工的匠心独运，游戏的画面有了质的飞跃，几乎达到当时的次时代家用机游戏水准，大大超越同期的其他空战游戏，即使与2000年初的雷电斗士系列相比也不遑多让，不能不说是一部难得的精品佳作。游戏中可以选择来自美英俄日等不同国家的4名王牌飞行员，他们的战机也性能各异，不尽相同，这点似乎是借鉴了四国战机系列的独特构思，值得一提的是，各角色机身上的显著部位还分别覆盖上了本国国旗，非常有意思。关于游戏系统方面，可以说是采众家之所长，加之制作厂商本着认真负责的态度研发，取得了良好的游戏性和不俗的视听效果，游戏中分三段提升火力，这点和四国战机系列很类似包括那个提升火力的宝物和BOMB图形也同出一辙，不过本作摈弃了火力满档后一定时间会再次降级的设定，让人充分体会到依仗强大火力秋风扫落叶般横扫一切敌人的爽快感。
+
+game: 婆娑罗1
+file: vasara.zip
+sort-by: 141
+developer: 婆娑罗1
+publisher: Visco
+genre: 1
+x-id: FBNEO FLY V
+description: Visco在2000年制作的经典纵版射击游戏，游戏以日本战国为背景，玩家可以选用真田幸村，杂贺孙市，岛左近三位角色.以对抗德川家康为首的敌对势力.敌方小兵都是些日本武士加机械飞行物。敌方的boss是德川家方面的人物，如德川家康，伊达正宗等等，当打败他们时会显示出他们的名字，是婆沙罗的独特设计.游戏中按A键射击，按B键是放炸弹，如果按住A键可以储气，放开A键则是劈砍，可以在劈烂敌机时在敌人身上打出红宝石.本款游戏画风独特，操作起来也很快上手，是值得一试的好游戏。
+
+game: 婆娑罗2
+file: vasara2.zip
+sort-by: 142
+developer: 婆娑罗2
+publisher: Visco
+genre: 1
+x-id: FBNEO FLY V
+description: Visco公司在时隔一年后再度推出婆裟罗系列的第二部作品.在本作中敌人换成了第六天魔王织田信长，玩家可选用的角色包括武田信胜，明治淦麾秀，百地三太夫(伊贺流忍者的首领)，清胧坊以及隐藏人物:一代杂贺孙市的父亲杂贺孙一.作为续作除了操作方面前作基本一致外还加入敌方角色的对白，如果将对方头目级角色击败的话会显示他的头像，这是一大特色.当每关通关后论功行赏时会计算你游戏中得到金钱的数量和在游戏斩首对方大将的人数，而且全部有头像显示，BOSS则为大头像。
+
+game: 安卓行动
+file: androidp.zip
+sort-by: 143
+developer: 安卓行动
+publisher: Nasco
+genre: 1
+x-id: FBNEO FLY V
+description: Nasco出品的类太空侵略者和大蜜蜂的游戏。
+
+game: 鹞鹰战机
+file: tharrier.zip
+sort-by: 144
+developer: 鹞鹰战机
+publisher: UPL
+genre: 1
+x-id: FBNEO FLY V
+description: UPL于1989年出品的纵版飞机游戏。
+
+game: 欧米加战机
+file: omegaf.zip
+sort-by: 145
+developer: 欧米加战机
+publisher: UPL
+genre: 1
+x-id: FBNEO FLY V
+description: 虽然与大多数垂直卷轴射击游戏相似，Omega Fighter 在其游戏玩法、关卡和敌人焦点方面是独一无二的：玩家面对的不是飞越多个关卡，而是一个包含每个关卡的巨大太空巡洋舰。玩家拿起两种武器，如果玩家拿起不同的道具，它总是会重置为最低等级：(I) - 离子激光：直射，捡起更多以增加伤害，但代价是缩短长度。近战的理想选择。(W) - 广角射击：收集更多子弹时射程更广。非常适合远距离攻击敌人，但造成的伤害较小。还有两个物品被炸弹按钮按下，玩家最多可以拾取其中两个：银 - 激活以减慢屏幕上的一切。有助于躲避子弹并靠近以获得更高的分数。黄金 - 消灭屏幕上的所有敌人，得分取决于使用物品前与玩家的亲近程度。
+
+game: 爆裂战机
+file: explbrkr.zip
+sort-by: 146
+developer: 爆裂战机
+publisher: Kaneko
+genre: 1
+x-id: FBNEO FLY V
+description: Kaneko于1992年推出的一款纵版飞机游戏。
+
+game: 机甲飞龙
+file: cyvern.zip
+sort-by: 147
+developer: 机甲飞龙
+publisher: Kaneko
+genre: 1
+x-id: FBNEO FLY V
+description: Kaneko在1998年推出的一款纵版飞机游戏。
+
+game: 闪激
+file: sengekis.zip
+sort-by: 148
+developer: 闪激
+publisher: Kaneko
+genre: 1
+x-id: FBNEO FLY V
+description: Kaneko/Warashi于1997年出品的纵版飞机游戏。
+
+game: 托佩尔博士的冒险
+file: drtoppel.zip
+sort-by: 149
+developer: 托佩尔博士的冒险
+publisher: Kaneko
+genre: 1
+x-id: FBNEO FLY V
+description: 本作是一款可爱画风的纵版飞行射击游戏。玩家在其中操纵一个可爱的绿色生物。
+
+game: 超电磁炮
+file: nost.zip
+sort-by: 150
+developer: 超电磁炮
+publisher: FACE
+genre: 1
+x-id: FBNEO FLY V
+description: 又名预言战机，是Face于1993年制作的一款纵版飞机游戏。该游戏的背景设置在未来世界，由于科技的进一步发展，各种尖端武器对人类的威胁也变得愈来愈大，为了维持猪和平，国际组织决定派遣最强战机前去世界各地将不法份子手中的大型兵器全部摧毁。
+
+game: 超级战机
+file: superx.zip
+sort-by: 151
+developer: 超级战机
+publisher: NTC
+genre: 1
+x-id: FBNEO FLY V
+description: Dooyong于1994年推出的纵版飞机游戏。
+
+game: 超时迷宫
+file: legion.zip
+sort-by: 152
+developer: 超时迷宫
+publisher: Nichibutsu
+genre: 1
+x-id: FBNEO FLY V
+description: 纵版飞行射击游戏。除了一般的奖励系统外，游戏特别之处是可以接上地面的小人增强火力，有点像赤色要塞的射击。另外大招也比较特别，会让屏幕直接黑白。本作的遗憾之处是音乐和音效合在一起略显聒噪。
+
+game: 武装编队
+file: armedf.zip
+sort-by: 153
+developer: 武装编队
+publisher: Nichibutsu
+genre: 1
+x-id: FBNEO FLY V
+description: 纵版射击游戏。背景为异形风格，有实用的子机系统。
+
+game: UFO 变形战机
+file: dangar.zip
+sort-by: 154
+developer: UFO 变形战机
+publisher: Nichibutsu
+genre: 1
+x-id: FBNEO FLY V
+description: 你在垂直滚动游戏中驾驶宇宙飞船，同时与敌舰作战并收集飞船部件，这些部件组合在一起形成一个巨大的、用拳头发射的机器人。如果玩家可以将机器人保持在一体（考虑到游戏向您抛出的敌人数量，这是一项艰巨的任务），他们最终将能够用枪武装它，甚至可以将其变成几艘具有毁灭性的强大小型船只之一.
+
+game: 兵蜂2 出击兵蜂
+file: blswhstla.zip
+sort-by: 155
+developer: 兵蜂2 出击兵蜂
+publisher: Konami
+genre: 1
+x-id: FBNEO FLY V
+description: 是一款由科乐美制作的卷轴射击类型街机游戏，游戏于1991年2月20日发行，后来移植至多个平台。与前作《兵蜂》相比，本作图像和声音进行了改善。这款游戏的画面非常Q版，并且游戏的音乐也是欢乐明快，玩起来也是非常有手感。
+
+game: 兵蜂1
+file: twinbee.zip
+sort-by: 156
+developer: 兵蜂1
+publisher: Konami
+genre: 1
+x-id: FBNEO FLY V
+description: 是一款由科乐美制作的卷轴射击类型街机游戏，游戏于1985年发行，后来移植至多个平台。
+
+game: 闪电战机
+file: lgtnfght.zip
+sort-by: 158
+developer: 闪电战机
+publisher: Konami
+genre: 1
+x-id: FBNEO FLY V
+description: 日版名称闪电战士，是Konami 于1990年出品的纵版飞机游戏。主机的火力很小，不能连发，吃到一种牌牌后就可以连发了，总共就两种子弹，一种是火力集中的连发枪，一种是小散弹枪，所以画面简明扼要，干干净净，打起来真过瘾。炸弹分两种，一种是火龙，一种是激光，各有优缺点，你要根据不同的关底大机使用不同的炸弹。
+
+game: 飓风战机
+file: typhoon.zip
+sort-by: 159
+developer: 飓风战机
+publisher: Konami
+genre: 1
+x-id: FBNEO FLY V
+description: Typhoon (c) 1987 Konami.控制一架强大的直升机，用这架来自Konami战机摧毁敌人的据点。Typhoon具有一些令人印象深刻的图形，其中充满了旋转和缩放效果（但有些可能会有点晕！），扎实的配乐和出色的游戏控制。强烈推荐任何射击爱好者！
+
+game: 大王
+file: daioh.zip
+sort-by: 160
+developer: 大王
+publisher: Athena
+genre: 1
+x-id: FBNEO FLY V
+description: Athena于1993年推出的纵版飞机游戏。
+
+game: 重装战机S.T.G
+file: stg.zip
+sort-by: 161
+developer: 重装战机S.T.G
+publisher: Athena
+genre: 1
+x-id: FBNEO FLY V
+description: Athena/Tecmo于1991出品的一款纵版飞机游戏。
+
+game: 弹铳
+file: feversos.zip
+sort-by: 162
+developer: 弹铳
+publisher: Nihon System
+genre: 1
+x-id: FBNEO FLY V
+description: 弹铳是CAVE于1998年推出的纵版飞机游戏，在游戏里可以选择各式各样的蓄力攻击，你可以选择慢性的导弹来对敌人进行蓄力攻击，也可以选择火力非常集中的子弹来进行蓄力攻击。游戏的保险炸弹也是非常独特的，后面几关难度比较大，喜欢挑战极限的朋友不妨去试试吧。
+
+game: 空中打击
+file: skysmash.zip
+sort-by: 163
+developer: 空中打击
+publisher: Nihon Systems
+genre: 1
+x-id: FBNEO FLY V
+description: Nihon System于1990年推出的纵版飞机游戏。游戏的敌机外形和阵势都有194X系列的影子。
+
+game: 飞虎队
+file: flytiger.zip
+sort-by: 164
+developer: 飞虎队
+publisher: Dooyong
+genre: 1
+x-id: FBNEO FLY V
+description: Dooyong于1992年推出的一款纵版飞机游戏。
+
+game: 海湾风暴
+file: gulfstrm.zip
+sort-by: 165
+developer: 海湾风暴
+publisher: Dooyong
+genre: 1
+x-id: FBNEO FLY V
+description: Dooyong于1991年推出的纵版飞机游戏。
+
+game: 雷霆旋风
+file: pollux.zip
+sort-by: 166
+developer: 雷霆旋风
+publisher: Dooyong
+genre: 1
+x-id: FBNEO FLY V
+description: Dooyong于1991年推出的纵版飞机游戏。
+
+game: 太空飞鲨
+file: rshark.zip
+sort-by: 167
+developer: 太空飞鲨
+publisher: Dooyong
+genre: 1
+x-id: FBNEO FLY V
+description: Dooyong于1995推出的纵版飞机游戏。这款游戏的战斗场面非常的绚丽，难度也非常大，几个关底的设计也各有特点，系统相对简单。
+
+game: 鹰击蓝空
+file: bluehawk.zip
+sort-by: 168
+developer: 鹰击蓝空
+publisher: Dooyong
+genre: 1
+x-id: FBNEO FLY V
+description: Dooyong于1993年推出的纵版飞机游戏。
+
+game: 铁翼飞龙
+file: wivernwg.zip
+sort-by: 169
+developer: 铁翼飞龙
+publisher: SemiCom
+genre: 1
+x-id: FBNEO FLY V
+description: SemiCom于2001出品的纵版飞机游戏，由于是2000年以后新出的游戏，画面非常好，可惜目前模拟器对声音仍不能完美模拟，导致声音像噪音一样难听，如果体验的话，建议把音量调小或关闭。
+
+game: 重子战机
+file: baryon.zip
+sort-by: 170
+developer: 重子战机
+publisher: SemiCom
+genre: 1
+x-id: FBNEO FLY V
+description: Semicom/Tirano于1997年出品的纵版飞机游戏。
+
+game: 钢铁任务
+file: vmetal.zip
+sort-by: 171
+developer: 钢铁任务
+publisher: Excellent System
+genre: 1
+x-id: FBNEO FLY V
+description: Excellent System于1995年出品的纵版飞机游戏。玩家可选用男女两名角色。作为一款1995年的飞机游戏，画面和音乐可以说是中规中矩。
+
+game: 空牙
+file: kuhga.zip
+sort-by: 172
+developer: 空牙
+publisher: Data East
+genre: 1
+x-id: FBNEO FLY V
+description: DATA EAST公司于1991年推出的经典空战游戏，游戏采用了90年代常用的纵卷轴背景，画面与音效均是同类作品中的佼佼者，各关BOSS皆非常富有特色，且打法各异，背景音乐是采用当时的高保真乐队演奏是难得的精品。
+
+game: 空牙外传
+file: skullfng.zip
+sort-by: 173
+developer: 空牙外传
+publisher: Data East
+genre: 1
+x-id: FBNEO FLY V
+description: 空牙外传是Data East于1996年出品的纵版飞机游戏。这款游戏是当年名作《空牙》的正统续作，画面大幅升级，游戏流程适中，关底设计的也非常出色，难度也不小，可惜当年街机厅很少见到，导致国内流行度不高，确实有点遗憾。
+
+game: 绘本国大冒险
+file: wndrplnt.zip
+sort-by: 174
+developer: 绘本国大冒险
+publisher: Data East
+genre: 1
+x-id: FBNEO FLY V
+description: 在这款色彩缤纷的射击游戏中，玩家控制一艘星际飞船，进行两种基本攻击——击中空中敌人的双发子弹和命中星际飞船前方目标指示的地面物体的投掷炸弹。在每个星球上，玩家都会找到商店，可以在其中购买更好的设备，用于船舶发动机（以提高速度）、导弹（更好但火力有限）、炸弹（对地面目标的破坏更大但有限）、屏障（以保护飞船）和选项（销售混合设备）。购买所需的信用来自被摧毁的机载和地面目标。玩家可以找到字母拾取器，这些拾取器拼写出 EXTRA、MONEY、BLAST 和 SECRO。如果收集了一个单词的所有字母，玩家将获得与该单词匹配的奖金。如果星舰被摧毁（来自敌人的射弹或与敌人的碰撞），玩家将失去生命。在一个星球的尽头，玩家必须反复轰炸或射击敌人头目才能前往下一个星球。
+
+game: 超真实达尔文战机
+file: srdarwin.zip
+sort-by: 175
+developer: 超真实达尔文战机
+publisher: Data East
+genre: 1
+x-id: FBNEO FLY V
+description: SRD: Super Real Darwin是由Data East开发发行的一款竖版卷轴射击街机游戏。它是 Data East 1986 年街机游戏 Darwin 4078 的续集。玩家控制一艘能够变异成不同形状的小型战斗机。随着玩家获得更多能量，飞船的外观将随着升级的武器而改变。故事始于 Lakya 星球，该星球上技术先进的居民不知不觉地释放了被称为 Evol 的星球生命力。随着释放的 Evol 从 Lakya 星球漂移，它被附近星球 Cokyo 的居民接收； Cokyo 的人民启动了 Shlohe 项目，该计划利用他们捕获的 Evol 开发先进的生物船和武器来入侵 Lakya 星球。 Lakya 的居民使用他们自己进化的战舰来报复 Cokyo 的入侵。
+
+game: 孤独的灵魂
+file: slspirit.zip
+sort-by: 176
+developer: 孤独的灵魂
+publisher: Promat
+genre: 1
+x-id: FBNEO FLY V
+description: 一款来自的韩国竖版飞行射击游戏。本作是后来山寨作品1945kIII 的早期版本。
+
+game: 轰炸东京
+file: tokio.zip
+sort-by: 177
+developer: 轰炸东京
+publisher: Romstar Incorporated
+genre: 1
+x-id: FBNEO FLY V
+description: 驾驶你的双翼飞机飞越东京市，你必须击落成群的敌机，同时避免他们的攻击。收集并控制多架双翼飞机来增强你的火力并帮助你取得胜利。游戏的卖点在于真实的东京地图。
+
+game: 红鹰
+file: stagger1.zip
+sort-by: 178
+developer: 红鹰
+publisher: Afega
+genre: 1
+x-id: FBNEO FLY V
+description: Afega于1998年推出的纵版飞机游戏。虽然是90年代后期的游戏，但是画面比较古老。
+
+game: 火爆战机
+file: airass.zip
+sort-by: 179
+developer: 火爆战机
+publisher: Irem
+genre: 1
+x-id: FBNEO FLY V
+description: IREM于1993年出品的纵版飞机游戏。从这款游戏里能看到众多经典飞机游戏的影子，比如究极虎，雷电等，所以说这款游戏玩起来就是中规中矩，没有什么新意，而且最后的boss有一种来凑数的感觉。
+
+game: 神鹰一号
+file: terracren.zip
+sort-by: 181
+developer: 神鹰一号
+publisher: Nichibutsu
+genre: 1
+x-id: FBNEO FLY V
+description: Nichibutsu于1985出品的一款纵版飞机游戏。《神鹰一号》在游戏中的设定与《1942》的“空中回旋”有着些许相似之处，但不同的是，玩家操控战斗机回避的同时，依旧保持着强有力的火力输出。凭借着出色的游戏设定，在一众80年代的STG游戏中，其游戏的可玩性丝毫不弱于卡普空的《1942》，被许多玩家称为是80年代STG佳作之一。
+
+game: 空战双鹰
+file: airduel.zip
+sort-by: 182
+developer: 空战双鹰
+publisher: Irem
+genre: 1
+x-id: FBNEO FLY V
+description: 空战双鹰又名空中决战（Air Duel ），是IREM于1990年发行的一款纵版飞行游戏。玩家可以选择战斗机或武装直升机。没关开始玩家都可以重新选择战斗机或直升机。这大大提高了游戏自由度和可玩性。
+
+game: 梦幻战机
+file: imgfight.zip
+sort-by: 183
+developer: 梦幻战机
+publisher: Irem
+genre: 1
+x-id: FBNEO FLY V
+description: Irem于1988年推出的纵版飞机游戏，比较古老的作品。
+
+game: 致命因子
+file: lethalth.zip
+sort-by: 184
+developer: 致命因子
+publisher: Irem
+genre: 1
+x-id: FBNEO FLY V
+description: Irem于1991年推出的纵版飞机游戏。这个游戏的炸弹是需要快速点按射击键，左侧的火力槽会上涨，随着上涨的等级提高，火力也会维持在高水平。当火力槽满的时候，火力最大，也可放炸弹攻击。但是一旦使用炸弹，火力又会降低到0，需要重新快速点按射击攒满火力槽。
+
+game: 劲弩战机
+file: arbalest.zip
+sort-by: 185
+developer: 劲弩战机
+publisher: SETA Corporation
+genre: 1
+x-id: FBNEO FLY V
+description: Seta于1989年出品的纵版飞机游戏。
+
+game: 沙漠之狐
+file: metafox.zip
+sort-by: 186
+developer: 沙漠之狐
+publisher: SETA Corporation
+genre: 1
+x-id: FBNEO FLY V
+description: Seta于1989制作的纵版飞机游戏。
+
+game: 双鹰1
+file: twineagl.zip
+sort-by: 187
+developer: 双鹰1
+publisher: SETA Corporation
+genre: 1
+x-id: FBNEO FLY V
+description: Seta 于1988年推出(Taito授权) 的一款纵版飞机名作，玩家操纵直升机游玩，画面在当时来说非常不错。该作有fc移植游戏。
+
+game: 双鹰2
+file: twineag2.zip
+sort-by: 188
+developer: 双鹰2
+publisher: SETA Corporation
+genre: 1
+x-id: FBNEO FLY V
+description: Seta于1994年推出双鹰的续作。玩家控制直升机游玩，机体在画面上占比很高，需要小心躲避子弹。该作由于是在6年后推出的，画面和音效获得极大程度的提高，值得一玩。
+
+game: 空刃
+file: cairblad.zip
+sort-by: 189
+developer: 空刃
+publisher: Sammy Studios
+genre: 1
+x-id: FBNEO FLY V
+description: SAMMY于1999年推出的纵版飞机游戏。这是街机上少有的对战飞机游戏。它的画面相当精良，A级作品，本游戏爆机难度很大，国内机厅基本上没有这个作品，没玩过的应该去尝尝鲜。这款游戏，大致是说一个日本军事基地来考察各地战机制作水平，以提高国防能力，于是各个厂商拿出自己的招牌作品来参加这个对抗赛，不合格者马上出局，战斗就此展开。游戏两人玩就是对战了，一共3个血条，关键时刻可以召唤巨型战斗机器进行拼杀，十分的过瘾。如果一个人玩CPU，恐怕你就很弱小了，首先战斗过程中会有其他小的战斗机（小兵）出来对付你，慢慢的耗你的血，可气的是对方CPU关键时刻可以召唤2次以上巨型战机，来虐你个原始形态的飞机，子弹速度非常的快，弹幕显得很刁钻...而且对战双方突然的交换位置，也是很难适应的飞机对战作品，还是不成熟啊。
+
+game: 空战 冥王计划
+file: wrofaero.zip
+sort-by: 190
+developer: 空战 冥王计划
+publisher: Yang Cheng
+genre: 1
+x-id: FBNEO FLY V
+description: Yang Cheng于1993出品的纵版飞机游戏。手感一般，难度较高，死亡后不能原地复活。
+
+game: 狂鲛战机
+file: madshark.zip
+sort-by: 191
+developer: 狂鲛战机
+publisher: Allumer
+genre: 1
+x-id: FBNEO FLY V
+description: Allumer于1993年推出的纵版飞机游戏。
+
+game: 沙漠之蝎
+file: sandscrp.zip
+sort-by: 192
+developer: 沙漠之蝎
+publisher: FACE
+genre: 1
+x-id: FBNEO FLY V
+description: Face于1992年推出的纵版飞机游戏。
+
+game: 守护风暴
+file: grdnstrm.zip
+sort-by: 194
+developer: 守护风暴
+publisher: Apple Industries
+genre: 1
+x-id: FBNEO FLY V
+description: Afega于1998年推出的一款纵版飞机游戏，又名红狐战机2。
+
+game: 双翼
+file: dblewing.zip
+sort-by: 195
+developer: 双翼
+publisher: Mitchell
+genre: 1
+x-id: FBNEO FLY V
+description: Mitchell于1993制作的纵版飞机游戏。
+
+game: 天空警报
+file: skyalert.zip
+sort-by: 196
+developer: 天空警报
+publisher: Metro 3D
+genre: 1
+x-id: FBNEO FLY V
+description: Sky Alert 是一款竖版飞行射击游戏。有两种飞机可供选择：A 型和 B 型。A和B都有两种可以在游戏中更换的主要武器以及一种炸弹攻击。 A 型飞机具有短程凝固汽油弹和激光，也可以使用制导火箭进行大范围攻击。 B型有一个带有导弹的散布式火神炮和一个带有散布式导弹的强大自动加农炮。
+
+game: 天空大冒险
+file: skyadvnt.zip
+sort-by: 197
+developer: 天空大冒险
+publisher: Alpha Denshi Co.
+genre: 1
+x-id: FBNEO FLY V
+description: 《天空大冒险》游戏有4款飞机可供选择，各有特点，基本速度都不快，躲子弹有点不够灵活，大多数小怪的子弹是可以抵消的，同时还可以增加分数，天空大冒险此游戏的得分方式不同于其它游戏，按个位数计分，最高分也只能到4位数，并且每关的分数不累计，每关都有机会奖命（加人），不过可能性不大，每关结束后都有一个排名评比，只有拿到第一名才给奖命（可以增强你挑战极限的欲望）。
+
+game: 星际争霸战机
+file: misncrft.zip
+sort-by: 198
+developer: 星际争霸战机
+publisher: Sunsoft
+genre: 1
+x-id: FBNEO FLY V
+description: 游戏是一个究极缝合怪风格的山寨作品。游戏中所有背景图案、选择界面、音效和关底动画，都抄袭自星际争霸母巢之战。而游戏中的BGM和主题音乐则来自魔兽争霸2。游戏中的爆炸效果和洛克人X4、X5、X6中的一模一样。游戏中的飞机和其他元素也显然是照抄彩京。
+
+game: 星球卫士
+file: starfigh.zip
+sort-by: 199
+developer: 星球卫士
+publisher: SunA
+genre: 1
+x-id: FBNEO FLY V
+description: 韩国山寨大王SunA的作品，有着不太协调的音效和音乐。玩家操纵的飞机与各种宇宙飞船、坦克和BOSS战斗。被摧毁的敌人有时会掉落道具。其中包括：辅助武器（漂浮火箭）、短周期护盾（漂浮环）、加速道具 (S) 和额外炸弹 (B)。游戏可供双人游玩。
+
+game: 星系炮火
+file: galaxygn.zip
+sort-by: 200
+developer: 星系炮火
+publisher: Electronic Devices Italy
+genre: 1
+x-id: FBNEO FLY V
+description: 意大利公司1989年的作品。 游戏中玩家必须驾驶强大的宇宙飞船飞越外星城市和行星，与邪恶势力进行一场单人战争。游戏特别之处必须其背景的变化，有种滚动轮轴的感觉，应该是在模拟星球的表面。
+
+game: 眩之风暴
+file: hotdogst.zip
+sort-by: 201
+developer: 眩之风暴
+publisher: ACE International
+genre: 1
+x-id: FBNEO FLY V
+description: Marble于1996年制作的一款纵版飞机游戏，在游戏里各种子弹的威力是它比较独特的地方，游戏是可以蓄力攻击的，有些子弹蓄力攻击的话可以让你呈无敌状态的，有些则呈跟踪状态等等。
+
+game: 银色千年
+file: silvmil.zip
+sort-by: 202
+developer: 银色千年
+publisher: Para
+genre: 1
+x-id: FBNEO FLY V
+description: 银色千年是Para于1995年出品的一款纵版飞机游戏，它其实是一款同人游戏，游戏的故事围绕着六位具有超能力的美少女拯救地球的精彩故事而展开，其中大量元素都取材自动漫原作。该游戏的背景发生在浩瀚的宇宙之中，玩家们在游戏中要做的便是通过战胜各种来袭的敌人让自己不断向最终BOSS靠近，而操作上这款游戏同样运用了经典的空战弹幕，玩家在其中要做的便是从容的应对各种战斗状况，同时游戏结合了大量魔幻RPG元素，对于空战爱好者来说绝对值得一试。
+
+game: 战斗翔鹰
+file: bbakraid.zip
+sort-by: 204
+developer: 战斗翔鹰
+publisher: Eighting
+genre: 1
+x-id: FBNEO FLY V
+description: 战斗翔鹰（バトルバクレイド，Battle Bakraid）是由Raizing制作，Eighting发行的纵版飞机游戏，于1999年发布。
+
+game: 火凤凰
+file: phoenix.zip
+sort-by: 206
+developer: 火凤凰
+publisher: Amstar
+genre: 1
+x-id: FBNEO FLY V
+description: Jaleco于1985出品的一款纵版飞机游戏，有fc移植作，也曾移植到其他家用机平台。
+
+game: 电子作战
+file: alcon.zip
+sort-by: 249
+developer: 电子作战
+publisher: Taito
+genre: 1
+x-id: FBNEO FLY V
+description: 一款年代久远的射击游戏，和宇宙巡航机有一样的系统。
+

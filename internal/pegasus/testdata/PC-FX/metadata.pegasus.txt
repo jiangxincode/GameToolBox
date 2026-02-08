@@ -1,0 +1,433 @@
+collection: PC-FX
+sort-by: 056
+launch: "{env.appdir}\RetroArch\retroarch.exe" -L "{env.appdir}\RetroArch\cores\mednafen_pcfx_libretro.dll" "{file.path}"
+
+game: SLG-梦幻模拟战2 FX 汉化版
+file: DerLangrisserFX.chd
+sort-by: 001
+developer: 梦幻模拟战2 FX 汉化版 V1.0修正版
+description: 【破解】by 痕，【翻译】by 雪剑冰刀\nPCFX版本的梦幻模拟战2于1996.4.26发售，应该说是介于SFC版和PS/SS版之间。很多梦幻模拟战的铁杆玩家都说PCFX版本是2代中素质最高的，梦幻模拟战2 FX重新绘制了头像，增加了过场动画以及真人语音，这个版本比SS和PS版更完整,动画比SS,PS版更全,放魔法时有语音,角色会喊出魔法名,梦战fans务必要体验一把，游戏秘籍选关，隐藏商店和ps1版一致，各位玩家可在游戏中进行尝试。\n修正V1.0不能进入第5关的BUG，汉化了职业名，汉化了菜单文字，修复了MV/MR/MP增加失效的BUG，SCEN78以后的文本按照日文原文重新导入了进去，更正一些翻译的错误，选关秘籍修改为可以选1-108关。
+
+game: SLG-古大陆物语FX 英文字幕版
+file: Farland Story FX.chd
+sort-by: 002
+developer: 古大陆物语FX 英文字幕版
+description: TGL 1996.11.8出品在NEC的家用主机PCFX上的一款S.RPG类游戏隔年后完全移植到PC及PS上。本作是PC98古大陆物语1，2的合集，游戏方式跟火纹系列类似，但地图是采用类似“圣战系谱”的那种大尺寸地图方式来进行的。FX版每次通关都会插入原创动画。
+
+game: SLG-惑星攻机队-小猫
+file: Wakusei-Koukitai Little Cats.chd
+sort-by: 003
+developer: 惑星攻机队-小猫
+description: 作为特殊部队“黑皮猫”的司令官，养育了4个女孩子，让机器人骑着“骑兵”，完成任务的培养和战略模拟。角色由石田敦子配音。
+
+game: SLG-闪光羽翼
+file: Sparkling Feather.chd
+sort-by: 004
+developer: 闪光羽翼
+description: 目的是指挥被称为“羽翼”的守护战士们，与企图支配地球的“海洋”战斗。很久很久以前，有一个幸福的国度，叫做永羽国。在仁慈的神灵的保护下，它繁荣昌盛，直到一场灾难降临：一个恶魔摧毁了王国，它从地球上消失了。但是少数被称为“羽毛”的被选中的人继续保留着神圣的宝石，这使他们能够在与恶魔军队的战斗中使用独特的力量。每根羽毛都保护着一颗宝石，而红宝石宝石的保护者就是游戏的主角——一个来自我们现代世界的普通高中男孩，起初他不想与古老的预言和英雄事迹有任何关系。但当他从 Feathers 的领袖那里获得新的力量时，他明白自己的命运是与邪恶作斗争，并可能使 Eternal Feather 恢复昔日的辉煌。Sparkling Feather 是一款回合制策略游戏，带有轻微的角色扮演和“约会模拟”元素。羽毛与恶魔的大规模战斗发生在等距战场上。英雄们在战场上移动，当敌人在范围内时用武器攻击，并使用攻击性和治疗性魔法。赢得战斗后，队伍会自动升级。在战斗之间，玩家可以玩轮盘赌类型的游戏，这可能会让他与其中一只羽毛（女性和男性！）约会。在约会期间，玩家可以选择对话主题，并且根据他的选择，同伴的参数可以增加或减少。
+
+game: SLG-特勤机甲队FX
+file: POWERDoLLS FX.chd
+sort-by: 005
+developer: 特勤机甲队FX
+description: 以近未来的殖民行星为舞台，指挥只有女性组织的特殊部队的进行战斗。共有9个任务。有6名队员，每名队员的能力和特性各不相同，必须一边考虑角色一边进行游戏。
+
+game: SLG-绀碧之舰队
+file: Konpeki No Kantai.chd
+sort-by: 006
+developer: 绀碧之舰队
+description: 改编自动漫系列《深蓝舰队》，而后者又改编自荒卷芳雄的同名小说。该游戏从第一集开始就遵循动漫的故事。它设置在另一个宇宙中，讲述了一个真实历史人物的虚构故事，山本五十六海军上将（1884 -1943 年），他是二战期间日本舰队的指挥官。实际上，他是在美军飞机袭击中丧生的。然而，在动画（和游戏）中，在 1905 年对马海战后不久，他奇迹般地登上了日进号战舰。之后，他利用未来的知识确保日本成为最强大的国家世界上的国家。该游戏重现了二次世界大战期间与美国的伪历史战斗，如动漫中所描绘的那样。这是一款以海战为主的回合制策略游戏。玩家控制着日本深蓝舰队，能够对它的方方面面进行微观管理，包括定制战舰、分配士兵，甚至创造新的武器​​以部署在战斗中。
+
+game: SLG-女神天国2
+file: Megami Tengoku 2.chd
+sort-by: 007
+developer: 女神天国2
+description: 这是继PC引擎版之后的系列第二弹。这次，从上一部作品的RPG变更为模拟。敌人的目的是将世界变成多边形的世界，这是对FX以外的游戏机进行的彻底讽刺。游戏设置在一个由女性统治的神奇土地上，即仁慈的女神玛玛梅加，黑暗女神亚米玛玛不断试图打败她并接管她。每个女神身边都有“巫女”，都是年轻漂亮的姑娘。游戏让玩家控制八位巫女中的任何一位，四位在 Mamamega 一方（Rurubell、Lilith、Stashia 和 Juliana），四位在 Yamimama 一方（Rouge、Pastel、Angela 和 Maharaja）。可以在同一侧的女孩之间切换，但不能在对立阵营的女孩之间切换。游戏的目标是收集尽可能多的追随者。玩家带领他最喜欢的巫女穿越 Megami Paradise 广阔的自上而下的世界，试图招募尽可能多的人站在他们这边。女孩们可以使用不同的方式（甜美、热情等）与人交谈。他们可以购买各种物品来增加他们的参数，从而增加他们对普通公民的吸引力。有时换衣服也有帮助。还有一些战斗，利用老虎机系统和其他迷你游戏。游戏有昼夜循环（比实时快得多）；有些地方只在白天开放，反之亦然。目标必须在一年的比赛时间内实现。
+
+game: SLG-漫画家之路
+file: Comic Road.chd
+sort-by: 008
+developer: 漫画家之路
+description: Comicroad是一款“生活模拟”游戏，由一个梦想成为漫画家的年轻女孩（玩家自己命名）主演。为了成功，她要做的不仅仅是画好；重要的是要发展她个性的其他方面，还要注意财务状况，否则工作过多可能会降低她的绘画技能。社交生活、体育锻炼、阅读——一切都有后果！游戏玩法主要包括做出决定（通过菜单选择）；游戏中没有玩家角色导航，除了从第一人称视角观看的商店。有多种方式来管理女孩的生活。玩家可以制定整整一个月的时间表，或者决定每天要做什么。每个动作都会对女主角的参数产生影响。例如，每天只是休息会降低体型和吸引力。在漫画上工作可以提高各自的技能。可以打电话给朋友并与他们共度时光，或者去购物。游戏中有很多物品，所有这些物品都会以这种或其他方式影响女主角的统计数据 - 例如衣服、绘画配件、书籍，甚至是 PC-FX 控制台，可以在电子商店以 20000 日元左右的价格购买。
+
+game: SLG-亚尔芭蕾亚的少女
+file: Aruberea's Maiden.chd
+sort-by: 009
+developer: 亚尔芭蕾亚的少女
+description: 培养主人公成为圣少女，和圣骑士结婚的养成类游戏。游戏中和敌人的战斗采用托马斯卡控球棒进行战斗，多种多样的种类混合在一起。
+
+game: SLG-续初恋物语-修学旅行
+files:
+  Zoku Hatukoi Monogatari/Zoku Hatukoi Monogatari - Disc A.chd
+  Zoku Hatukoi Monogatari/Zoku Hatukoi Monogatari - Disc B.chd
+sort-by: 010
+developer: 续初恋物语-修学旅行
+assets.box_front: media/Zoku Hatukoi Monogatari/boxFront.png
+assets.logo: media/Zoku Hatukoi Monogatari/logo.png
+assets.video: media/Zoku Hatukoi Monogatari/video.mp4
+description: 由垣野内成美设计角色的游戏，以初恋为题材的恋爱模拟游戏。从小学、中学、高中、大学4个时代中选择，以修学旅行为舞台。
+
+game: SLG-安琪莉可特别版1
+file: Angelique Special.chd
+sort-by: 011
+developer: 安琪莉可特别版1
+description: 在第一场 Angelique 游戏的事件之后，Angelique Limoges 成为了 Cosmos 的女王，而她的前对手 Rosalie - 她的助手。现在一个全新的Cosmos出现了，是时候为它选出一个新的女王了。这次的人选是安琪莉可·科莱（游戏主角）和蕾切尔·哈特。在这部续集中，游戏系统基本保持不变。安琪莉可又一次不得不使用外交手段让九大守护者借给她力量（让她土地上的居民开心），或者对她产生更强烈的感情。这部续集中的新内容是能够与三位不同的导师一起工作，培养女主角的思想、感觉或尊严，这将影响她与其他角色互动的方式，也会影响守护者的行为。
+
+game: SLG-安琪莉可特别版2
+file: Angelique Special 2.chd
+sort-by: 012
+developer: 安琪莉可特别版2
+description: Angelique Special 是原版 Angelique for Super Famicom (SNES) 的增强版。游戏玩法（冒险、策略和约会模拟的混合体）或故事情节（一个名叫 Angelique Limoges 的简单女孩必须与九名守护者成为女王才能成为女王）没有变化。此版本具有略微改进的图形、CD 质量的音乐、配音和动漫风格的过场动画。
+
+game: SLG-卒业2-新生代
+file: Sotsugyou II - Neo Generation FX.chd
+sort-by: 013
+developer: 卒业2-新生代
+description: 作为 Sotsugyo/Graduation 系列的衍生游戏，这款游戏正如其名称所暗示的那样：与真实的人一起毕业。不是动漫风格的女学生肖像，而是真正的日本年轻女性的照片（和一些全动态视频）。游戏玩法与其他毕业游戏遵循相同的公式：作为一名高中教师，玩家的任务是成功带领五名高中女生毕业。大多数活动包括制定时间表、组织课程和给女孩布置作业。有必要了解每个女孩的长处和短处，以便选择正确的活动。老师不仅监督女孩们在学校所做的一切，还监督她们在闲暇时间的一些活动，包括制定假期计划。
+
+game: SLG-卒业R-真实毕业
+file: Sotsugyou R - Graduation Real.chd
+sort-by: 014
+developer: 卒业R-真实毕业
+description: 作为 Sotsugyō/Graduation 系列的衍生游戏，这款游戏正如其名称所暗示的那样：与真人一起毕业。不是动漫风格的女学生肖像，而是真正的日本年轻女性的照片（和一些全动态视频）。游戏玩法与其他毕业游戏遵循相同的公式：作为一名高中教师，玩家的任务是成功带领五名高中女生毕业。大多数活动包括制定时间表、组织课程和给女孩布置作业。有必要了解每个女孩的长处和短处，以便选择正确的活动。老师不仅监督女孩们在学校所做的一切，还监督她们在闲暇时间的一些活动，包括制定假期计划。
+
+game: ANIME-动漫美少女大集合 Vol.1
+file: Anime Freak FX Vol 1.chd
+sort-by: 015
+developer: 动漫美少女大集合 Vol.1
+description: 以动画为主打的软件。人气动画《小红帽恰恰》的大特辑。除了对声优冰上恭子的采访之外，还收录了完全原创动画《私人偶像》。
+
+game: ANIME-动漫美少女大集合 Vol.2
+file: Anime Freak FX Vol 2.chd
+sort-by: 016
+developer: 动漫美少女大集合 Vol.2
+description: 动画“蓝色种子”的大特辑。在偶像弗里克的游戏中，可以和蓝色种子的女主角红叶约会。樱井智在沃斯弗里克登场。有她的未经加工的原始摄录。
+
+game: ANIME-动漫美少女大集合 Vol.3
+file: Anime Freak FX Vol 3.chd
+sort-by: 017
+developer: 动漫美少女大集合 Vol.3
+description: “天地无用！”大特集。电视版的汇总篇，关注度很高。连载OVA《私生活之眼》最终篇。游戏内可以演唱《EVA》的主题曲。
+
+game: ANIME-动漫美少女大集合 Vol.4
+file: Anime Freak FX Vol 4.chd
+sort-by: 018
+developer: 动漫美少女大集合 Vol.4
+description: OVA的《夏马尼拉公主》、《魔法使Tai！》可以看到“梅斯爆热时空”、“史莱亚兹史莱士史佩”4个著名场面，“盛开！性感涂鸦、彩虹少女队棱镜骑士第26话等，动画粉丝们必看的内容丰富多彩。
+
+game: ANIME-动漫美少女大集合 Vol.5
+files:
+  Anime Freak FX Vol 5/Anime Freak FX Vol 5 - Disc A.chd
+  Anime Freak FX Vol 5/Anime Freak FX Vol 5 - Disc B.chd
+sort-by: 019
+developer: 动漫美少女大集合 Vol.5
+assets.box_front: media/Anime Freak FX Vol 5/boxFront.png
+assets.logo: media/Anime Freak FX Vol 5/logo.png
+assets.video: media/Anime Freak FX Vol 5/video.mp4
+description: CD 2张合集，内容增加。除了之前的要素外，还准备了美少女角色制服图鉴、纸牌猜谜等10个环节。
+
+game: ANIME-动漫美少女大集合 Vol.6
+files:
+  Anime Freak FX Vol 6/Anime Freak FX Vol 6 - Disc A.chd
+  Anime Freak FX Vol 6/Anime Freak FX Vol 6 - Disc B.chd
+sort-by: 020
+developer: 动漫美少女大集合 Vol.6
+assets.box_front: media/Anime Freak FX Vol 6/boxFront.png
+assets.logo: media/Anime Freak FX Vol 6/logo.png
+assets.video: media/Anime Freak FX Vol 6/video.mp4
+description: 《棱镜骑士》、人气动画、声优情报等，和《vol.5》一样，两张专辑组分量十足。
+
+game: ADV-初吻物语
+file: First Kiss Story.chd
+sort-by: 021
+developer: 初吻物语
+description: 被称为最初为 PC-FX 发布的最后一款游戏（七个月后发布了 PS版），初吻故事让玩家扮演一个高中男孩的角色（玩家必须自己命名），他的父母离开了城镇毕业前一个月。因此，在这个月里，他将住在他父母的朋友折仓家，该家由两个姐妹加奈和真奈美以及她们的母亲（一位年轻迷人的寡妇）组成。是的，您已经猜到了 - 英雄（以及玩家）可以征服所有三个人的心，再加上居住在 Akitsuki 市的十几个可爱的女孩 - 这就是故事的内容。
+
+game: ADV-首映日
+file: Can Can Bunny Extra DX.chd
+sort-by: 022
+developer: 首映日
+description: 第五部 Can Can Bunny 游戏也是该系列的第一部直接续集。这个故事与前作非常相似：再次，主人公感到孤独，急于交女朋友，或者更准确地说，急于与不同的女孩发生性关系。再一次，仁慈美丽的女神斯瓦蒂和她的助手日本神话中的七位幸运神前来提供帮助。尽管故事与之前的游戏几乎相同，但游戏玩法进行了重大改进。界面仍然是传统的日式菜单命令，但现在有更多的位置，其中许多可以通过在主地图上单击它们来自由访问。一旦玩家达到可以开始对女孩进行身体诱惑的程度，界面就会切换到点击，带有上下文敏感的光标用于触摸、亲吻等。有必要多次尝试不同的动作了解女孩认为什么是愉快的，什么不是，否则女孩可能会生气，游戏就会结束。与之前的游戏相比，这里有更多的女孩可以勾引，从女学生到天主教修女（认真的）。还有各种额外内容（正如标题所暗示的），包括一个内容丰富的相册，其中排列了女孩的各种照片，以便她们讲述她的故事，以及一个额外的故事集，主人公可以在其中更多地了解他遇到的女孩在主游戏中，甚至再次与他们互动。
+
+game: ADV-同级生2
+file: Doukyuusei 2.chd
+sort-by: 023
+developer: 同级生2
+description: Dokyusei 2 是经典的“爱情冒险”，这种类型也被（非常错误地）称为“约会模拟”。你是一名高中生，父亲是周游世界的著名考古学家，母亲在他小时候就去世了。现在是你在88中的第三个年头，自然而然地，你最关心的是你的爱情生活。你能和十五位可爱的女同学中的一位成功约会并圆满结束吗？游戏机制很像“标准”冒险游戏（检查物体、访问不同地点、与人交谈、做出决定），但情节完全围绕你与女孩的关系展开。游戏有自己的内部时钟。您可以在“城市地图”上围绕您的角色移动，访问不同的位置。每次访问需要 20-30 分钟的游戏时间。您可以预约并在特定时间访问各个地方。你做出的决定会影响故事。
+
+game: ADV-恋爱餐厅 英文字幕版
+file: Pia Carrot e Youkoso!! We've Been Waiting for You.chd
+sort-by: 024
+developer: 恋爱餐厅 英文字幕版
+description: 在 Pia Carrot e YÅkoso!! 中，玩家控制 18 岁的日本男高中生 Yusuke Kinoshita。他打算过一个清凉的暑假，却发现自己没有钱。别无选择，他在父亲的餐厅“Pia Carrot”找到了一份工作。一场比他梦寐以求的暑假更精彩的冒险就此展开：他在餐厅认识了众多漂亮女孩，并决定哪一个是他一生的挚爱……该游戏是一款真实的约会模拟游戏，游戏玩法侧重于为主角制定日程和选择活动。每天开始时，玩家通常会在上班前选择一个动作。这些动作包括给英雄在游戏中遇到的任何一个女孩打电话，去不同的地方，简单地休息等等。在工作中，玩家应该为幽助制定一个时间表，让他去不同的地方工作（厨房、地下室、柜台等）。下班后，是时候选择和哪个女孩聊天了。还有许多事件会提示玩家选择一个动作或对话选项。所有这些行为都会影响 Yusuke 的统计数据，最终使他对路上遇到的各种女孩更有（或更少）吸引力。根据玩家塑造和安排主角活动的方式，他将遵循许多不同的叙述之一，遇到不同的人，并最终——如果玩家足够坚持——赢得他爱的女孩的心。电脑版和 PC-FX 版以露骨的裸体和性场景为特色。
+
+game: ADV-大小姐搜查网
+file: Ojousama Sousamou.chd
+sort-by: 025
+developer: 大小姐搜查网
+description: Ojosama Sosamo 改编自动漫系列《新人侦探团》，讲述了以富有的绫小路姐妹为首的一群年轻女孩收到一封恐吓信，并决定担任侦探查明寄信人的故事。然而，游戏并没有遵循这个故事，而是让玩家置身于一个无名的男贼的境地，他的目标是智取女孩并成功偷走贵重物品！这是一款冒险/益智游戏。玩家通过等距位置引导小偷。每个位置通常包含会耗尽小偷 HP 的危险点，以及需要解决的难题，例如带有单向瓷砖的复杂迷宫。如果女孩靠近，小偷会听到警告声。一旦一个女孩出现，就可以在回合制战斗中与她战斗，但这需要武器或其他物品，这些物品应该能找到，但并不总是很容易拿到。如果英雄的 HP 归零，他就会被女孩们抓住并关进监狱。
+
+game: ADV-火舞女子缠组
+file: Fire Woman Matoi-Gumi.chd
+sort-by: 026
+developer: 火舞女子缠组
+description: 本作的主人公是刚转学到白鹭高中的交换生。在他到达时，他目睹了一个男孩欺负一名女学生。自然地，他来救她，但被男孩和他的朋友们打得很惨。令他吃惊的是，三名高中女生赶到并打败了歹徒。主人公得知那些女孩属于一个名为“Matoi-gumi”的组织。这些受过良好武术训练的女孩保护校园免受流氓之类的侵害。主人公决定加入 Matoi-gumi。也许他会拯救足够多的女孩，让其中一个感激并成为他的女朋友！Fire Woman: Matoi-gumi 是一款角色扮演游戏，虽然不是传统意义上的。游戏中没有超自然现象。角色的成长取决于训练，而不是通过打足够多的战斗来升级。学习武术、打篮球、参加化学课——一切都会影响英雄的参数。游戏中没有随机战斗；战斗与故事相关，通常发生在英雄试图营救女孩时。战斗是回合制的，但每回合都有一个计时器；在时间用完之前，玩家必须为英雄输入四个动作的组合（包括拳打脚踢等）。游戏中还有一个“约会模拟”元素。可以在称为“GPS”（“Gal 定位系统”）的特殊屏幕上看到“重要”女孩。如果他们遇到麻烦，他们会脸上流汗。是否营救女孩由玩家决定。有时可以通过其他方式与女孩变得友好，例如参加她喜欢的俱乐部。送女孩回家增加了她的感情。到游戏结束时，英雄将与最喜欢他、与他相处时间最长的女孩在一起。游戏有一个时间表，跟踪假期、女孩生日等事件，尽管实际游戏不是实时的——当玩家决定让英雄回家时一天结束，或者作为结束与故事相关的事件。
+
+game: ADV-蓝色芝加哥
+files:
+  Blue Chicago Blues/Blue Chicago Blues Disc1.chd
+  Blue Chicago Blues/Blue Chicago Blues Disc2.chd
+sort-by: 027
+developer: 蓝色芝加哥
+assets.box_front: media/Blue Chicago Blues/boxFront.png
+assets.logo: media/Blue Chicago Blues/logo.png
+assets.video: media/Blue Chicago Blues/video.mp4
+description: 继谋杀俱乐部之后，这是又一部关于无所畏惧的私家侦探 J.B. Harold 的侦探故事。这一次，一位不知名的红裙女子在芝加哥被谋杀。一名开始调查这起谋杀案的女侦探也被杀了，这一次凶手让它看起来像是自杀。J.B.哈罗德抵达芝加哥，现在必须与当地警方合作解开谜团。J.B. Harold：Blue Chicago Blues 是一部互动电影。玩家的大部分时间都花在观看电影片段上（有真人演员和风景）。在某些时候，电影会冻结，玩家会看到一个有两个或更多选择的屏幕。每一次选择都会让时间提前，所以需要好好计划才能不耗尽时间，顺利破案。
+
+game: ADV-乐天少女俱乐部
+file: Tekipaki Working Love FX.chd
+sort-by: 028
+developer: 乐天少女俱乐部
+description: Tekipaki: Working Love FX 本质上是 Tekipaki: Working Love for Turbo CD 的升级版。它在主游戏中添加了几个场景，主要玩日式冒险——玩家可以选择对话选项或前往的地点。这些场景为游戏的三位外星女主角 Naomi、Hikaru 和 Edalt 的个性添加了更多背景（例如，在其中一个场景中，Hikaru 的火星猫从动物园逃脱，玩家的工作是找到他).游戏的 PC-FX 版本还添加了一个“omake”选项，可以在其中查看女孩的照片。
+
+game: ADV-邻居公主罗尔菲
+file: Tonari No Princess Rolfee.chd
+sort-by: 029
+developer: 邻居公主罗尔菲
+description: PC-FX 控制台的官方吉祥物现在是她自己游戏中的明星。 Rolfee 是一个受到恶魔威胁的魔法国度的公主。因此，Rolfee 和她的家人——包括一只名叫 Nyai 的可爱小动物——搬到了日本。罗尔菲要上高中了，她希望好好学习，结交朋友。她会在学校取得成功吗？她会被同学喜欢吗？她不会和家人吵架吗？这一切都取决于玩家！Tonari no Princess Rolfee 是一款日式冒险游戏，带有一些温和的模拟元素（Rolfee 的参数可以根据玩家的动作增加或减少）。大多数交互包括选择去哪个位置（通过菜单命令）。游戏的一个有点不寻常的特点是它的随机事件。前往某个地点会触发角色的随机出现，因此没有明确和安全的方法来让某些事件发生。触发不同的事件会导致故事的不同结果和不同的结局。
+
+game: ADV-迷你宝贝
+file: Minimum Nanonic.chd
+sort-by: 030
+developer: 迷你宝贝
+description: 一位科学家一直在进行一项错误的实验……非常错误。一声爆炸摧毁了房子。之后，一个名叫迈克尔的可爱小玩具睁开了眼睛……发现他真的还活着。他现在可以思考、说话和走路了。他做出的第一个决定是查看科学家的三个可爱女儿：光、希美和翼。令他（和他们）惊讶的是，失败的实验让三个女孩都变小了！现在迈克尔和女孩们必须找到疯狂的爸爸，并以某种方式让一切恢复正常。
+
+game: ADV-声优乐园
+files:
+  Voice Paradise/Voice Paradise - Disc A.chd
+  Voice Paradise/Voice Paradise - Disc B.chd
+sort-by: 031
+developer: 声优乐园
+assets.box_front: media/Voice Paradise/boxFront.png
+assets.logo: media/Voice Paradise/logo.png
+assets.video: media/Voice Paradise/video.mp4
+description: 游戏的英雄在他的太空船中，正在前往他的家乡星球的路上。但是宇宙飞船迫降在地球上。英雄正在执行一项重要的星际任务，并且必须在一个月内返回他的家乡星球。他试图找出造成坠机的原因，并发现是一种声音干扰了船上的无线电波。突然，三个动漫女孩出现在他面前。
+
+game: ADV-天地无用！魉皇鬼FX
+files:
+  Tenchi Muyo FX/Tenchi Muyo FX - Disc A.chd
+  Tenchi Muyo FX/Tenchi Muyo FX - Disc B.chd
+sort-by: 032
+developer: 天地无用！魉皇鬼FX
+assets.box_front: media/Tenchi Muyo FX/boxFront.png
+assets.logo: media/Tenchi Muyo FX/logo.png
+assets.video: media/Tenchi Muyo FX/video.mp4
+description: 游戏分为前后半部分，根据前半部分的行动，后半部分的剧本分为三种。游戏配音人员和动画配音一致、穿插大量的过场动画。
+
+game: ADV-甜心战士FX
+file: Cutey Honey FX.chd
+sort-by: 033
+developer: 甜心战士FX
+description: 该游戏基于 Go Nagai 的漫画，该漫画后来被制作成动漫电视连续剧。游戏并没有跟随漫画的情节，而是让玩家扮演一个无名男侦探的角色，他前往一个名为 Austral Island 的虚构国家寻找失踪的女孩。当英雄到达岛上时，他很快发现有某种超自然组织可能是女孩失踪的原因。然后他勾搭上了漫画和电视剧的女主角蜜如月，她是一个可以采取各种战斗形式并与邪恶生物战斗的机器人。这是一款具有简单交互（点击）的冒险游戏，光标在查看对象时变为蓝色，在使用对象或与人交谈时变为黄色。在某些屏幕上有多种对话选择。游戏中没有谜题，但有时玩家会在战斗序列中控制Honey，这就像一个迷你游戏，需要在限定时间内尽可能多次按下按钮，并选择敌人身体上的弱点执行攻击。还有一张岛屿地图，玩家可以在上面导航主角。与许多其他日本冒险游戏不同，角色在 Cutey Honey 的几乎每个屏幕上都是动画的，而且游戏的很大一部分被动漫风格的电影占据。
+
+game: ADV-我的女神
+files:
+  Aa! Megami Sama/Aa! Megami Sama - Disc A.chd
+  Aa! Megami Sama/Aa! Megami Sama - Disc B.chd
+sort-by: 034
+developer: 我的女神
+assets.box_front: media/Aa! Megami Sama/boxFront.png
+assets.logo: media/Aa! Megami Sama/logo.png
+assets.video: media/Aa! Megami Sama/video.mp4
+description: 根据藤岛康介原的人气漫画制作，电脑同作的移植作品。FX版中除了主人公圭一以外，其余都采用和动画版相同的配音人员。除此之外，还追加了新的动画和两个新的迷你游戏。
+
+game: ADV-无罪制裁
+file: Team Innocent.chd
+sort-by: 035
+developer: 无罪制裁
+description: 游戏的事件设定在未来。银河警察发现一位名叫克洛诺斯的科学家对人类进行了基因实验。警察局长解救了三个小女孩，每个女孩身上都带有这些实验的痕迹。快进 15 年：三个女孩——萨基、莉莉丝和爱丽儿——现在为银河警察局工作，决心查明关于她们的起源和实验性质的真相。他们被派去执行三个危险的任务——他们可能无法生存的任务…Team Innocent: The Point of No Return 是一款带有动作元素的冒险游戏。在三个任务中，玩家控制三个女孩中的每一个。每个女主角都必须探索一个大地点，收集物品并在途中解决难题。女孩们还可以找到并装备各种武器，从手枪到斧头。玩家可以选择三种动作模式之一进行战斗：近战攻击、踢腿和射击。这些女孩从预渲染背景的第三人称视角和不断变化的摄像机角度进行导航，就像在旧的生化危机游戏中一样，除了女孩是精灵而不是 3D 模型。该游戏有许多动漫风格的过场动画和所有对话的画外音。
+
+game: ADV-银河公主传说优奈FX-哀伤的海妖塞壬
+file: Ginga Ojousama Densetsu Yuna FX.chd
+sort-by: 036
+developer: 银河公主传说优奈FX-哀伤的海妖塞壬
+description: Galaxy Fräulein Yuna 系列的第三场比赛，Kanashimi no Sirene 在上一场比赛结束的地方接球。在成功拯救地球后，尤娜和她的新朋友，永远饥饿的女机器人尤里·库伯，回到了她们正常的高中生活——至少她们是这么想的。因为她的宿敌会不惜一切代价摧毁她，包括错误地指责她有统治世界的计划。这引起了一位代号为“Sirene”的银河联盟高级女情报官的注意，她假装是白冈台高中的交换生，而她的真正目的是逮捕尤娜。Kanashimi no Sirene的玩法与该系列的其他游戏类似，主要玩法包括自动进入不同的屏幕并进行对话选择。还有回合制战斗，玩家必须在正确的时间选择正确的攻击来击败对手。游戏过程中还会出现一些小游戏，例如问答秀和老虎机类游戏，目的是为尤娜获得新衣服。游戏中有一个内容丰富的“Extras”菜单，其中包括角色相册、图形草图、与该系列相关的各种材料的照片（例如杂志或以前游戏的封面）等。
+
+game: ADV-重返魔域
+file: Return to Zork.chd
+sort-by: 037
+developer: 重返魔域
+description: 你站在白宫后面。邮箱里有东西。来自巫师的视频消息通知您您是麻雀谷抽奖活动的赢家……现在，通过魔法飞行。然而，到达这个神秘的地方后，并非一切都如愿以偿。没有人会见你，而你遇到的人似乎对抽奖活动一无所知。看起来这是一个私人假期，你需要在这片土地上找到自己的出路。Return to Zork 是一款使用真人演员和视频序列的第一人称冒险游戏。游戏界面与Myst相似；玩家还可以旋转视角来发现新区域并发现可以使用或拾取的物品。一路上会遇到各种角色，并通过对话选择系统与他们交谈。
+
+game: STG-超神兵器 英文字幕版
+file: Tyoushin Heiki Zeroigar.chd
+sort-by: 038
+developer: 超神兵器 英文字幕版
+description: 宇宙被邪恶的帝国（机械兽军团）所支配，一位名叫露露的少女背叛了帝国的皇帝，偷走了新开发的超兵器核心，逃到了地球上。时值西历1945年，二战中的日本，科学家和外星少女的邂逅，日本和地球的命运就此改变。这款游戏出在PC-FX这个没有前途的平台上，实在是被埋没的名作。游戏的画面和效果都比较出色。精美的穿场动画和多达20种以上的特殊兵器以及得分等级提升系统，让此作拥有极高的评价。游戏总共有4种模式可以供玩家自由挑战。动画模式里有类似闪亮银枪的RPG系统，机体有几项数值。相当于等级、攻击力、生命值、特殊武器耐久值。射击的分数会换算成经验值给玩家的机体，经验值积累到一定程度就可以给机体升级。即使失败了还能保留经验值再继续挑战。而特殊兵器的种类相当丰富，五花八门。
+
+game: STG-虚空漂流-尼鲁格恩斯
+file: Kokuu Hyouryuu Nirgends.chd
+sort-by: 039
+developer: 虚空漂流-尼鲁格恩斯
+description: Koku Hyoryo Nirgends 讲述了一个名叫 Dünn Bit 的年轻人的故事，他刚刚被招募到一个名为“Windmühle”的特殊军事单位。在年轻漂亮的队长 Eis Schwarz 的带领下，这支部队专攻可以变身为名为“Divers”的巨型战斗机器人的独特飞机。他们最近开始在 Vidar 地区开展行动，那里发现了敌人的活动。 Dünn 必须证明自己是一名有能力的飞行员和战斗机，也许还要给漂亮的机长或团队中的其他人留下印象，其中大多数是漂亮的女孩......该游戏融合了日式冒险和飞机战斗模拟（增加了巨型机器人战斗）。冒险部分遵循标准程序：导航位置的概览地图，并选择菜单命令（“看”、“说话”、“思考”等进行交互）。战斗是从飞行员的角度模拟飞机，包括管理油料和弹药、定位飞机、用雷达跟踪敌人、定制飞机零件等。在战斗中随时可以变身为潜水员, 并且各有优缺点。
+
+game: ACT-鬼神童子FX-金刚炎斗
+file: Kishin Douji Zenki FX Vajura Fight.chd
+sort-by: 040
+developer: 鬼神童子FX-金刚炎斗
+description: 1995.12.22在PCFX上出品，根据系列漫画《鬼神童子 ZENKI》改编的横版卷轴动作游戏，主角是前鬼和役小明二人，可进行双打。游戏的主要内容就是BOSS战，战斗可以像格斗游戏一样放必杀技，BOSS战之间大多只有比较短的关卡连接。每到剧情处都会暂停播放带语音的对话。作为PC-FX上难得一见的游戏类型，值得推荐。PS:该作品目前的实体游戏光盘价格十分昂贵。
+
+game: ACT-路路里拉路拉 英文字幕版
+file: Ruruli Ra Rura.chd
+sort-by: 041
+developer: 路路里拉路拉 英文字幕版
+description: Rururi Ra Rura 是一款平台/益智游戏。玩家必须在广阔的迷宫般的世界中找到正确的道路，使用不同的角色来克服各种障碍。例如，阿克西德可以用他的剑砍木头或绳子，雷纳斯用火魔法融化冰块等等。随着游戏的进行，越来越多的角色会加入，每个角色都有独特的能力来推进，包括一只青蛙长-范围跳跃和一个可以通过裂缝挤压自己的液体角色。每个位置至少有一个营地，玩家可以在这里切换角色。大地点有多个出口，经常需要返回到不同角色的地点才能解锁新区域或新地点的出口。游戏中有各种各样的敌人，可以使用物理攻击或角色特定的魔法来击败它们。 Boss 战在不同的屏幕上进行。周围还散布着许多提升属性和治疗效果的物品。
+
+game: ACT-史莱姆汽泡姊妹
+file: Chip Chan Kick.chd
+sort-by: 042
+developer: 史莱姆汽泡姊妹
+description: 史莱姆汽泡姊妹（Chip Chan Kick）又名《猫鼠姐妹》，是类似雪人兄弟类的游戏 只不过主角换成了猫娘和鼠娘，对抗5个精灵妹子和他们的坐骑及一个弱鸡最终BOSS。关卡分为6大关，每大关由10个小关卡组成，第十小关为BOSS关卡。混关需要较高的意识（犹豫就会白给）和运气（比如第五关的兔子BOSS的追踪弹和强化道具和EXTEND的出率），EXTEND再击晕后推倒杂鱼后（不包括被撞的杂鱼）概率出现6个字母气球，全收集后1UP。强化能力道具（双杀杂鱼概率出现）有箭头（略微+射程）史莱姆（同屏发射2史莱姆）鞋子（+速度 很关键因为这游戏初始移动速度就不能接受）星星（一定时间无敌+同屏发射4史莱姆的BUFF）交命后能力直接回归初始状态，全敌体术碰到交一命（5精灵妹子及BOSS无敌时间那段时间没有身体判定），基本上拿到强化能力道具（尤其是加速）就是淦，一死命基本上被敌人MVP或者GOD LIKE（满残直接GG）的情况也有。除了坐骑BOSS和最终弱鸡BOSS外，一定时间没能清掉敌人就会出现难缠的家伙，会发射晕眩弹或追踪晕眩弹并追着主角（经典套路），而且坐骑或最终BOSS时间拖久了BOSS也会概率发射晕眩弹或追踪晕眩弹。敌人弹幕类攻击有的会打晕主角 有的撞到直接交一命（冰火雷最明显），难度除了影响部分杂鱼的耐久，还影响BOSS的耐久和弹幕密度（EASY难度无限续关）。5精灵妹子，杂鱼低于一定数量会召唤，要优先集火不然跑到杂鱼堆里很麻烦。最终BOSS因为太有规律性，加上最后关卡所以连初始状态都不太难所以称之弱鸡不为过（比第一关坐骑都简单）。
+
+game: ACT-天外魔境 电脑络缲格斗传
+file: Tengai Makyu Karakuri Kakutouden.chd
+sort-by: 043
+developer: 天外魔境 电脑络缲格斗传
+description: 1995.7.28在PCFX上发行的动画格斗类游戏，此类游戏在PCFX上有两部作品，真的可以说十分的另类，天外魔境-电脑络缲格斗传以“天外魔境”系列的人物为主角，操作类似猜拳比胜负，具体说来就是游戏完全用动画来展现人物的招式动作，操作方法是看着画面显示的情景快速按手柄上的键输入指令来控制人物。这种类型的游戏是PC-FX特有的类型，该兴趣的玩家可以试一下。
+
+game: ACT-战斗英雄
+file: Battle Heat.chd
+sort-by: 044
+developer: 战斗英雄
+description: 在一个荒凉而残酷的世界里，两个氏族正在为统治而战：由战士凯领导的高贵的克里夫共和国，以及由阿拉米斯和神秘的装甲格兹冯达克领导的邪恶的神圣黑暗帝国。玩家可以选择扮演任何善恶角色（每个氏族四个）——但只能与对方的战士作战。Battle Heat!作为格斗游戏的最大创新在于，每一个动作都被视为全动态动画风格的序列。控制器的每个按钮都分配了一个特定的动作（包括跳跃），玩家按下它的那一刻，它就会触发电影。该游戏以许多不同的电影为特色，包括特定的电影，例如，一个角色被踢倒并立即做出自己的攻击反应。可以在锦标赛模式下玩游戏（仅限 Republic of Kriph），或者选择一场免费战斗，这也使得扮演坏人成为可能。
+
+game: RPG-龙骑士4
+file: Dragon Knight IV.chd
+sort-by: 045
+developer: 龙骑士4
+description: 龙骑士4是elf公司于1997.3.28在NEC公司的PCFX主机发行的一款RPG游戏，其版本涵盖8个平台（PC DOS版、pc98、x68000版、fmtowns版、sfc版、pcfx版、ps版和 PC Windows版），从1994年的DOS/PC98版到2007年的WINDOWS重置版发售时间跨度超过10年，从8位的PCE到16位的SFC再到32位的PS跨3代主机，外带还有4话18禁OVA动画——如果限定只讨论游戏主体（含HD重制）而不考虑续作、资料片、DLC……的话，以生命力之强，受众之广而论，别说是里番，就算是以整个游戏界而言，能与其匹敌的也就不过是俄罗斯方块、炸弹人、PACMAN之类的始祖级游戏而已。从历史轨迹上而言，这已经无愧于“里程碑式作品”这个称号了。
+
+game: RPG-魔剑道Z
+file: Makeruna! Makendou Z.chd
+sort-by: 046
+developer: 魔剑道Z
+description: 马克鲁纳！ Makendo Z 发生在与 Makeruna 相同的宇宙中！ Makendo，在日本以外被称为 Kendo Rage。然而，与第一款游戏（或其续作）不同的是，这是一款日式角色扮演游戏。和其他 Makeruna 一样！ Makendo 游戏（名字的意思是不要输，魔法剑道！），它有喜剧元素。故事发生在一所高中，两姐妹 Hikari 和 Mai 就读。他们的表妹沙耶刚从美国作为交换生回到日本。由于一次不幸的实验，通往魔界的大门在学校开启。女孩们必须利用她们的魔法剑道力量找到通往恶魔世界的入口，打败恶魔，恢复学校的和平。马克鲁纳！ Makendo Z 玩起来就像传统的日本角色扮演游戏，具有自上而下的导航和从第一人称视角观看的随机回合制战斗。与其他日本角色扮演游戏相比，游戏系统也很简单：游戏进程是严格线性的，女孩们不能装备任何东西。然而，他们可以使用魔法咒语和各种剑道技术。该游戏以动漫风格的电影和静态镜头为特色。例如，每项剑道技术都显示为全屏动漫风格的图片。
+
+game: RPG-王子最终传承
+files:
+  Last Imperial Prince/Last Imperial Prince - Disc A.chd
+  Last Imperial Prince/Last Imperial Prince - Disc B.chd
+sort-by: 047
+developer: 王子最终传承
+assets.box_front: media/Last Imperial Prince/boxFront.jpg
+assets.logo: media/Last Imperial Prince/logo.png
+assets.video: media/Last Imperial Prince/video.mp4
+description: 1997.3.14发售的PCFX游戏，类似《北欧女神传》的那种横版卷轴画面方式的ARPG游戏，不过本游戏几乎就只有横版卷轴这么一种画面方式。结合这种画面方式，游戏包含很强的动作游戏要素。游戏的系统非常简单，很容易上手。喜欢这类游戏的就试一下吧。
+
+game: RPG-安琪莉可-天空的镇魂歌
+file: Angelique Tenkuu No Requim.chd
+sort-by: 048
+developer: 安琪莉可-天空的镇魂歌
+description: Angelique宇宙第一款RPG游戏，专为女性玩家打造的冒险/约会模拟游戏，围绕年轻女孩成为各个星球的女王而展开。玩家扮演 Angelique Collet，Angelique Special 2 的女主角。第一场比赛的主角 Angelique Limoges，现在是 Angelique Collet 母星的女王，受到一个名叫 Leviath 的神秘人的威胁。她的监护人被监禁，她的生命处于危险之中。 Angelique Collet 必须解放守护者并拯救她的家园。游戏玩法类似于传统的日式角色扮演游戏，有俯视视角、回合制战斗等。不过，这款角色扮演游戏中也包含了其他 Angelique 游戏中的约会模拟元素。女主角可以和她队伍中的男性角色进行对话。根据她的回答和决定，她将参与其中一个角色。
+
+game: RPG-边界之门-王国的女儿
+file: Boundary Gate - Daughter Of Kingdom.chd
+sort-by: 049
+developer: 边界之门-王国的女儿
+description: 很久以前，第一位母亲创造了世界，并用五个神奇的符号祝福了它，使它保持平衡。这些符号隐藏在一座神圣的神殿深处，以保护周围的一切和每一个人。许多年后，一位名叫芬恩的冒险家在安布罗斯市找工作。确实有很多工作要做：怪物在这个国家游荡，战争的威胁比以往任何时候都更加真实。一天晚上，芬恩在城市中漫步，突然发现一名年轻女孩被怪物袭击。自然而然地，他打败了怪物，救了女孩，女孩原来是一位希望恢复父亲王国的公主。两人决定携手合作，前往附近一座废墟、怪物横行的城市冒险……Boundary Gate 是一款具有类似地牢的 3D 布局的老式角色扮演游戏。
+
+game: RPG-纯爱游侠-剑之微笑
+file: Blue Breaker.chd
+sort-by: 050
+developer: 纯爱游侠-剑之微笑
+description: 从电脑上移植人气18禁游戏。总共有9位美少女登场。在对话中一边动摇女孩子的心情一边进行故事，最终以紧紧抓住她们的心成为亲密的关系为目标。比电脑版更美的画面是卖点。
+
+game: RPG-奇迹-最后的启示
+file: Miraculum The Last Revelation.chd
+sort-by: 051
+developer: 奇迹-最后的启示
+description: 在 Miraculum 的世界里，住着一位强大的国王，名叫 Siegwald。但他的力量还不够，他将一头被封印在雕像中的远古恶魔复活了。但是恶魔并没有授予他权力，而是吞噬了国王的灵魂并占据了他的身体。然后他发誓要一劳永逸地毁灭人类。几年后，假齐格瓦尔德率领他的军队征服了土地并扩大了他的帝国。就在这时，一位名叫杰伊的战士来到了港口城市海勒斯。现在他必须找到忠诚的盟友并最终阻止皇帝的邪恶计划。Miraculum: The Last Revelation 的玩法就像传统的日式角色扮演游戏，有世界地图、城镇和地牢可供参观，以及在回合制战斗中在随机战斗中击败的敌人。场景主要是中世纪的幻想，但也有科幻元素。玩家队伍可以在战斗中使用多种招式，也可以将角色设置为AI模式，只分配给他们通用策略。从图形上看，该游戏类似于典型的 16 位日本角色扮演游戏，但它有一些动漫风格的过场动画、CD 质量的音乐和重要对话的画外音。
+
+game: RPG-侠客游FX
+file: Lunatic Dawn.chd
+sort-by: 052
+developer: 侠客游FX
+description: 尽管起源于日本，但 Lunatic Dawn实际上更像是非常老派的西方角色扮演游戏，而不是它的日本兄弟。它几乎没有故事，完全依赖于探索和战略战斗。设置在一个几乎没有或没有显着特征的中世纪世界。
+
+game: SPT-超级职棒联盟FX
+file: Super Power League FX.chd
+sort-by: 053
+developer: 超级职棒联盟FX
+description: Super Power League FX 允许玩家参加日本最负盛名的棒球联赛——日本职业棒球。玩家可以选择在冠军模式中带领 12 支 NPB 官方球队中的一支夺冠，或者在单场比赛模式中与任何一支球队进行单独比赛。还有一种训练模式和创建自己的球队、招募球员并让他们参加锦标赛的可能性。
+
+game: SPT-全日本女子职业摔角
+files:
+  All Japan Female Pro Wrestle - Queen Of Queens/All Japan Female Pro Wrestle - Queen Of Queens - Disc A.chd
+  All Japan Female Pro Wrestle - Queen Of Queens/All Japan Female Pro Wrestle - Queen Of Queens - Disc B.chd
+sort-by: 054
+developer: 全日本女子职业摔角
+assets.box_front: media/All Japan Female Pro Wrestle - Queen Of Queens/boxFront.png
+assets.logo: media/All Japan Female Pro Wrestle - Queen Of Queens/logo.png
+assets.video: media/All Japan Female Pro Wrestle - Queen Of Queens/video.mp4
+description: 人气全日本女子职业摔跤选手们登场，这是一款充分利用了真人电影的职业摔跤游戏。从正面捕捉选手们的动作，采用根据时机输入指令的系统。
+
+game: TBL-小红帽恰恰
+file: Akazukin Chacha.chd
+sort-by: 055
+developer: 小红帽恰恰
+description: 该游戏基于 Min Ayahana 的漫画和动画 Akazukin Cha-Cha（“Red Riding Hood Cha-Cha”）。故事讲述了恰恰和她的老师一起住在山上学习魔法的故事。 Cha-Cha 和她最好的朋友 Riiya，一个狼人男孩，必须打败邪恶的魔王。Akazukin Cha-Cha：Osawagase！恐慌赛跑！是一款最多可容纳六名玩家的棋盘游戏。每个玩家对应电视剧中的一个角色。每个玩家通过掷骰子在棋盘上前进。降落在不同的领域会导致不同的结果：寻找物品、被攻击等。游戏的策略元素通过赋予每个角色独特的统计数据和能力来扩展，这些数据和能力需要在特殊情况下使用。某些障碍只有在两个或更多角色聚集在同一个领域时才能解决。
+
+game: TBL-纯爱扑克牌乐园
+file: Tokimeki Card Paradise Koi no Royal Straight Flush.chd
+sort-by: 056
+developer: 纯爱扑克牌乐园
+description: Tokimeki Card Paradise 包括四种纸牌游戏：扑克、二十一点、速度和日本纸牌游戏 Papanuki。这些游戏中的每一个都可以与一个或多个漂亮的年轻女性对手进行比赛。女孩们每输一局就脱掉衣服，直到输掉整场比赛才脱光衣服。在真正的 PC-FX 时尚中，每一个脱衣动作都呈现为动漫风格的电影。
+
+game: TBL-不可思议之国的安琪莉可
+file: Fushigi No Kuni No Angelique.chd
+sort-by: 057
+developer: 不可思议之国的安琪莉可
+description: 这个游戏是 Angelique 故事的一个变体：一个名叫 Angelique 的普通女学生卷入了一场成为宇宙女王的斗争，为此必须与英俊而强大的元素守护者成为朋友。该游戏具有与 Angelique Special 相同的世界和图形，但故事略有不同：Angelique 在外面的一棵树附近睡着了，梦见她从兔子洞中掉了下来（以爱丽丝梦游仙境的方式）进入了她遇到的神奇国度她永远的对手罗莎莉亚。与其他 Angelique 游戏不同，Fushigi no Kuni no Angelique 玩起来像棋盘游戏，王国分为 Angelique 移动的领域。
+
+game: TBL-麻将悟空-天竺
+file: Mahjong Gokuu Tenjiku.chd
+sort-by: 058
+developer: 麻将悟空-天竺
+description: Tenjiku 是《西游记》中角色之间的麻将锦标赛。
+
+game: TBL-超真实麻将PV
+file: Super Real Mahjong P.V FX.chd
+sort-by: 059
+developer: 超真实麻将PV
+description: 超真实麻将PV是脱衣麻将系列的第五部。游戏中没有背景故事；玩家只是被介绍给三名高中女生 - 水木、绫和 Akira - 向他挑战麻将游戏。主要的麻将模式是一对一的麻将模式；每次成功完成一轮后，女孩都会脱掉一部分衣服。游戏的计算机版本包含裸体场景；在控制台版本中，PC-FX 是唯一一个同样缺乏审查的版本。一些版本具有次要游戏模式，例如玩家控制三个女孩并与另外三个人打麻将的团队模式。
+
+game: TBL-上海-万里长城
+file: Shanghai The Great Wall.chd
+sort-by: 060
+developer: 上海-万里长城
+description: 上海 - Banri no Choujou 是一款基于麻将的街机视频游戏。在日本为各种控制台系统发布。 Banri no Choujou 的意思是“长城”。该游戏在美国被称为“上海：三重威胁”，由 Activision 为 3DO 和 Sega Saturn 发行。古代麻将游戏的另一个版本。玩家会看到一组排列在一起并堆叠的图块，每个图块有 2 个或 4 个图案阵列。这些必须通过匹配对移除，但只能移除可见且左侧或右侧有空格的图块。 Activision 的上海系列中的此版本包括三款游戏以及经典上海。在长城中，瓷砖是垂直堆叠的，当较低的瓷砖被移除时，瓷砖会掉落，就像俄罗斯方块一样。在北京，制造缝隙是为了让成组的瓷砖滑动。 Golden Tile 看到两名玩家试图同时清除一组布局。三重主题延续了三种游戏模式：单人纸牌、2 人“Pandamonium”和街机。三个主题拼贴组合构成了“三重威胁”。
+
+game: TBL-柏青夫君FX-幻之岛大决战
+file: Pachio-Kun FX.chd
+sort-by: 061
+developer: 柏青夫君FX-幻之岛大决战
+description: Pachio-kun FX 是一款弹球游戏。人气爆棚的吉祥物柏青君，长得像个有腿的弹球，正在幽灵岛举办弹球大赛。玩家可以选择控制几个可用角色之一；即使选择不影响游戏玩法，选择不同的角色也会导致在弹珠机移动过程中显示不同的动漫 FMV。目标是打败 7位弹珠机大师，他们可以在岛上的不同地点遇到并挑战战斗。战斗不仅涉及使用您自己的弹球机，还涉及冻结对手当前正在玩的球一段时间。这可以通过在各种弹珠店独自玩耍并收集球和特殊点来完成。
+
+game: COL-PCE粉丝特别CD-ROM收藏专辑1
+file: PC Engine Fan - Special CD-ROM Vol. 1.chd
+sort-by: 062
+developer: PCE粉丝特别CD-ROM收藏专辑1
+description: PC Engine FAN 杂志出版的一本特别书籍的封面光盘。包含几个商业游戏的演示：Angelique Special 2、Yuna FX、Nirgends、Fire Woman
+
+game: COL-PCE粉丝特别CD-ROM收藏专辑2
+file: PC Engine Fan - Special CD-ROM Vol. 2.chd
+sort-by: 063
+developer: PCE粉丝特别CD-ROM收藏专辑2
+description: PC Engine FAN 杂志出版的一本特别书籍的封面光盘。包含商业游戏的演示：日本 PC-FX 平台的 Nirgends 和 Blue Breaker 的演示。
+
+game: COL-PCE粉丝特别CD-ROM收藏专辑3
+file: PC Engine Fan - Special CD-ROM Vol. 3.chd
+sort-by: 064
+developer: PCE粉丝特别CD-ROM收藏专辑3
+description: PC Engine FAN 杂志出版的一本特别书籍的封面光盘。包含商业游戏的演示：日本 PC-FX 平台的 Zeroigar 演示和 Zoku Hatsukoi 的 FMV。
+

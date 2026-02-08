@@ -1,0 +1,85 @@
+collection: SFC-MSU1
+sort-by: 028
+extensions: sfc
+launch: "{env.appdir}\RetroArch\retroarch.exe" -L "{env.appdir}\RetroArch\cores\snes9x_libretro.dll" "{file.path}"
+
+game: 超级马里奥1-3
+file: Super Mario All-Stars MSU-1/sma_msu1.sfc
+developer: 超级马里奥全明星 MSU-1
+assets.box_front: media/超级马里奥1-3/boxFront.jpg
+assets.logo: media/超级马里奥1-3/logo.png
+assets.video: media/超级马里奥1-3/video.mp4
+description: 该版本增强了BGM音质及音效。由RedScorpion和Conn适配MSU-1。MSU–1是一个没有问世的特殊芯片，当年由任天堂开发，预计用于与SONY合作的SFC-CD。这个芯片于2012年被一位程序员以软件模拟的形式开发出来，现今可用来改造SFC游戏，使之读取额外的音乐与视频文件。任天堂将FC超级马里奥游戏按照SFC机能重新制作，修补BUG，其中，对《超级马里奥兄弟2》的2P主角路易进行了个性化设定，对《超级马里奥兄弟3》则将过去因机能限制而流于呆板的背景进行重新绘制，除此之外，《超级马里奥兄弟合集》皆忠实于原作。于1993年夏季商战期间上市，取得212万份的销量，北美版本的成绩也大致相当。
+
+game: 超级银河战士
+file: Super Metroid MSU-1/supermetroid_msu1.sfc
+developer: 超级银河战士 MSU-1
+assets.box_front: media/超级银河战士/boxFront.jpg
+assets.logo: media/超级银河战士/logo.png
+assets.video: media/超级银河战士/video.mp4
+description: 该版本增强了BGM音质及音效。适配MSU-1与汉化作者不详。MSU–1是一个没有问世的特殊芯片，当年由任天堂开发，预计用于与SONY合作的SFC-CD。这个芯片于2012年被一位程序员以软件模拟的形式开发出来，现今可用来改造SFC游戏，使之读取额外的音乐与视频文件。1994年3月19日，由横井军平领头制作的任系动作代表《超级银河战士》（超级密特罗德）发售，并长期停留在各媒体的史上最佳100款游戏前列，被视为SNES（美版SFC）上最好的游戏，为动作类游戏树立了新典范。凭借SFC的硬件进步，《超级银河战士》为银河城类游戏奠定了基础：优秀的战斗系统、自由合理搭配的技能、开放性地图、间隔房间式存档点，这些元素依旧流行于最新游戏中。
+
+game: 恶魔城XX
+file: Castlevania Dracula X MSU-1/cdx-msu1.sfc
+developer: 恶魔城XX MSU-1
+assets.box_front: media/恶魔城XX/boxFront.jpg
+assets.logo: media/恶魔城XX/logo.png
+assets.video: media/恶魔城XX/video.mp4
+description: 该版本增强了BGM音质及音效。由Conn和Kurrono适配MSU-1。MSU–1是一个没有问世的特殊芯片，当年由任天堂开发，预计用于与SONY合作的SFC-CD。这个芯片于2012年被一位程序员以软件模拟的形式开发出来，现今可用来改造SFC游戏，使之读取额外的音乐与视频文件。《恶魔城XX》延续了血之轮回的游戏系统，分支不再是玩家自己选择，而是在特定关中藏有密道，找到密道就可以进入分支，而且不需要找到下一个分支的入口，也不会转回主情节。不过没有记忆功能。操作方法:按上或下键上下楼梯，如果跳起来的话按上键可以落到楼梯上，快速按两下跳跃键可以后空翻。按X键可以发动必杀技。
+
+game: 塞尔达传说
+file: Zelda ALTTP MSU-1/alttp_msu.sfc
+developer: 塞尔达传说 众神的三角力量 MSU-1
+assets.box_front: media/塞尔达传说 三角力量/boxFront.jpg
+assets.logo: media/塞尔达传说 三角力量/logo.png
+assets.video: media/塞尔达传说 三角力量/video.mp4
+description: 该版本加入了片头动画，增强了BGM音质及音效。由hahalink汉化原游戏、Conn适配MSU-1、hlken修正MSU-1对于汉化版产生的花屏BUG。《塞尔达传说：众神的三角力量》（The Legend of Zelda：A Link to the Past）于1991年11月21日首发在SFC平台，日本地区销量首破百万，全球461万。当时Fami通杂志为这款游戏打出了39分的历史最高分，其一度被称为最高杰作，成为了SFC主机上历代综合评价最高的一款游戏，记录直到七年后才被同系列的正统续篇所打破。
+
+game: 天地创造
+file: Terranigma Arranged MSU-1/Terranigma_msu1.sfc
+developer: 天地创造 MSU-1
+assets.box_front: media/天地创造/boxFront.jpg
+assets.logo: media/天地创造/logo.png
+assets.video: media/天地创造/video.mp4
+description: 该版本增强了BGM音质及音效。由Necrosaro汉化原游戏、RedScorpion适配欧版ROM的MSU-1并放出源码、hlken修改源代码使之适配日版和汉化版。MSU–1是一个没有问世的特殊芯片，当年由任天堂开发，预计用于与SONY合作的SFC-CD。这个芯片于2012年被一位程序员以软件模拟的形式开发出来，现今可用来改造SFC游戏，使之读取额外的音乐与视频文件。《天地创造》 是QUINTET制作组在SFC上的“天地三部曲”的最后一章，也是QUINTET为ENIX制作的最后一款游戏，由于发售太晚，最终的销量不佳，但至少在国内，玩家对这个游戏还是非常认可的，甚至奉其为神作。
+
+game: 荒野双枪
+file: Wild Guns MSU-1/wguns-msu1.sfc
+developer: 荒野双枪 MSU-1
+assets.box_front: media/荒野双枪/boxFront.jpg
+assets.logo: media/荒野双枪/logo.png
+assets.video: media/荒野双枪/video.mp4
+description: 该版本增强了BGM音质及音效。由PepilloPEV与Relikk适配MSU-1。MSU–1是一个没有问世的特殊芯片，当年由任天堂开发，预计用于与SONY合作的SFC-CD。这个芯片于2012年被一位程序员以软件模拟的形式开发出来，现今可用来改造SFC游戏，使之读取额外的音乐与视频文件。在《荒野双枪》中，玩家扮演一对亡命鸳鸯，在西部险恶的世界火爆厮杀。游戏内容简单明了，不用费尽心思的去破解谜题，只要让枪里的子弹准确的击中目标就好了，是比较优秀的动作游戏，值得尝试。
+
+game: 忍者神龟4
+file: TMNT IV MSU-1/tmnt4_msu1.sfc
+developer: 忍者神龟4 时空神龟 MSU-1
+assets.box_front: media/忍者神龟4/boxFront.jpg
+assets.logo: media/忍者神龟4/logo.png
+assets.video: media/忍者神龟4/video.mp4
+description: 该版本增强了BGM音质及音效。由DarkShock适配MSU-1。MSU–1是一个没有问世的特殊芯片，当年由任天堂开发，预计用于与SONY合作的SFC-CD。这个芯片于2012年被一位程序员以软件模拟的形式开发出来，现今可用来改造SFC游戏，使之读取额外的音乐与视频文件。《忍者神龟4：时空神龟》（TMNT 4：Turtles in Time），是系列的第二款街机游戏，讲述神龟不断穿越时空的战斗。SFC版补上了街机没有的科技大厦，附赠一场另类的“第二人称”BOSS战，屏幕视角变为施莱德视角，神龟需要用投技把杂兵丢到屏幕上，才能对施莱德造成伤害。Hard难度下，杂兵配置有所变化，强力敌人出现频率更高，BOSS的AI也得到了提升，新增的决斗模式和挑战模式也提升了耐玩度。整体素质令人满意，成为SFC上最好的清版过关游戏之一。
+
+game: 快打旋风1
+file: Final Fight MSU-1/ff_msu1.sfc
+developer: 快打旋风1 MSU-1
+assets.box_front: media/快打旋风1/boxFront.jpg
+assets.logo: media/快打旋风1/logo.png
+assets.video: media/快打旋风1/video.mp4
+description: 该版本添加了MD-CD版的音轨。由Pepillopev适配MSU-1。MSU–1是一个没有问世的特殊芯片，当年由任天堂开发，预计用于与SONY合作的SFC-CD。这个芯片于2012年被一位程序员以软件模拟的形式开发出来，现今可用来改造SFC游戏，使之读取额外的音乐与视频文件。超任版的《快打旋风》是众多家用机移植版中最糟糕的，不过傻人总有傻福，偏偏就是任天堂后来独占了《快打旋风》全系列的作品，其后的二代和三代只在超任上推出，连街机版都没有，更别提移植到其他游戏公司的主机上了。
+
+game: 洛克人7
+file: Mega Man 7 MSU-1/megaman7_msu1.sfc
+developer: 洛克人7 MSU-1
+assets.box_front: media/洛克人7/boxFront.jpg
+assets.logo: media/洛克人7/logo.png
+assets.video: media/洛克人7/video.mp4
+description: 该版本增强了BGM音质及音效。由DarkShock适配MSU-1。MSU–1是一个没有问世的特殊芯片，当年由任天堂开发，预计用于与SONY合作的SFC-CD。这个芯片于2012年被一位程序员以软件模拟的形式开发出来，现今可用来改造SFC游戏，使之读取额外的音乐与视频文件。洛克人系列继在FC平台上推出1-6代以后，CAPCOM在1995年3月24日于超级任天堂平台推出了7代，名为“宿命的对决”。在第6代的最后，洛克人终于逮捕了邪恶的威利博士，但好景不长，威利博士早在实验室准备了另外4个战斗机器人，4个机器人行动起来后，城市又陷入了一片混乱。
+
+game: 异形战机3
+file: R-Type III MSU-1/rt3-msu1.sfc
+developer: 异形战机3 MSU-1
+assets.box_front: media/异形战机3/boxFront.jpg
+assets.logo: media/异形战机3/logo.png
+assets.video: media/异形战机3/video.mp4
+description: 该版本增强了BGM音质及音效。适配作者不详。MSU–1是一个没有问世的特殊芯片，当年由任天堂开发，预计用于与SONY合作的SFC-CD。这个芯片于2012年被一位程序员以软件模拟的形式开发出来，现今可用来改造SFC游戏，使之读取额外的音乐与视频文件。SFC版的本作是系列的正统作品的第三作，故事时间是在第三次拜德战争期间。本作中玩家将操作有着收束贯通和持续放出这两种强力波动炮的战机“R-9·0·3”来作战。在本作中还增加了两种新类型的“FORCE”，让游戏整体玩法变的更为多样。
+

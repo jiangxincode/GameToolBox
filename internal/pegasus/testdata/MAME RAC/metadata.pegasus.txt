@@ -1,0 +1,193 @@
+collection: 赛车街机
+sort-by: 006
+launch: "{env.appdir}\RetroArch\retroarch.exe" -L "{env.appdir}\RetroArch\cores\mame_libretro.dll" "{file.path}"
+
+game: 山脊赛车93
+file: ridgerac.zip
+sort-by: 001
+developer: 山脊赛车93
+x-id: MAME RAC
+description: 传奇赛车系列山脊赛车的首作，后来移植到PS上更是大放异彩。据制作团队所说，原本的计划是打造出一款F1赛车游戏，但是由于当时日本车迷中流行的某种风气而放弃，转而开发更易被大众所接受的游戏。当时日本的年轻人热衷于飘移，热衷于在蜿蜒的山路上比赛。玩家根本不想在过弯时减速，于是抱着“能不能做出一款将车手能力发挥到极致并体验极速快感的竞速游戏呢？”的想法，《山脊赛车》这样一款允许玩家高速操控车辆并享受飘移过弯的游戏诞生了。尽管与现实有些格格不入，但在《山脊赛车》的华丽视觉效果下，伴随着日本流行音乐的强劲节拍与引擎的轰鸣声，游戏以惊心动魄的驾驶体验迸发出了竞速最强音。贯穿系列作品的飘移特色允许车手以惊人的速度过弯，同时借由车辆的瞬间失控赋予他们心惊肉跳却为之痴迷的刺激感。这足以证明《山脊赛车》从未打算模拟真实驾驶，只为兴奋刺激的竞速体验而生。要体现《山脊赛车》夸张的速度感及营造紧张刺激的氛围，最合适的音乐类型便是电音摇滚，这种音乐能给人能量、旅程以及速度的感觉。历史上，很多早期夜店的音乐风格就是如此。因此，开发团队根据每代作品的不同来配以当前的流行音乐。在系列每代作品中，开发团队都会找出一个关键字眼或是图片，交给创作配乐的音乐家并和他们说“风格随意，但请保持游戏灵魂。”这样每个人会根据关键字眼来自由创作极具速度感的音乐。随后开发团队将作品进行对比，集众家之长设计出饱满的《山脊赛车》配乐。
+
+game: 山脊赛车2
+file: ridgera2.zip
+sort-by: 002
+developer: 山脊赛车2
+x-id: MAME RAC
+description: 山脊赛车（Ridge Racer）最早1993年出现在街机平台，采用了南梦宫自家的System 22基板，当时的赛车游戏普遍缺少真实车辆和赛道授权，于是开发团队放弃了完全追求真实模拟的想法，而是将简单、爽快、好玩作为游戏的理念，并从当时日本赛车爱好者流行的漂移驾驶中获得启发，打造出了全新独特的风格。《山脊赛车》给人印象最深的，莫过于在当时震撼级别的全3D多边形画面，城市、山区、海滨、桥梁、隧道等多种风格场景，以及白天黑夜不同环境下景色，都让习惯了2D画面的玩家惊叹不已，开发者巧妙利用了高洛德着色（也叫顶点着色，简单地说就是用渐变色取代单色，让多边形具有更强的立体感），在有限的多边形处理能力基础上，实现了更为精细的效果，这也成为了系列后续作品特色之一。游戏对真实车辆的操作进行了大幅简化，游戏中只要松开油门，然后左右转动方向盘，车辆就会进入可控的漂移状态，让你可以在高速行驶中轻松过弯。这样的规则虽然有悖物理规律，但是让首次接触3D赛车游戏的玩家轻松上手，并体验到驾驶、追逐、超越的乐趣，再加上创新设计的大型驾驶框体，使得《山脊赛车》迅速成为街机厅的热门，引来无数玩家投币和围观。《山脊赛车》初代获得巨大成功后，南梦宫对街机和家用机采用了不同的续作路线，1994年和1995年，先后推出了街机版Ridge Racer 2和Rave Racer，增加了新的赛道和通信对战等功能，不过玩家更熟悉的则是PS主机一周年作品，1995年12月3日推出的Ridge Racer Revolution，国内玩家一般俗称“山脊赛车2”。本rom是街机版的2，才是系列真正的第二作，和国内普遍的称呼不同。
+
+game: 山脊赛车95
+file: raverace.zip
+sort-by: 003
+developer: 山脊赛车95
+x-id: MAME RAC
+description: 堪称《山脊赛车》正统续作的《极速赛车》(Rave Racer)于街机发售，基板虽与前作相同，但相较之下更为出色。这是山脊赛车系列的第三作。玩家再次于前作长短两个规格的赛道上风驰电掣，但这回添加了两条全新的城市与山地路线。二者都成为亮眼的添加要素，城市路线中玩家沿立交桥疾驰，城市的辉宏气象尽收眼底，而更具挑战性的山地关卡则与城市截然不同，装点着峡谷与小溪的蜿蜒山间路线映衬出美丽的田园风光。极具人气的系列人物永濑丽子也于《极速赛车》首次登台亮相，不过直到PS版《山脊赛车3》发行时该人物才被官方正式定名。但遗憾的是，尽管《极速赛车》广受好评，但与《山脊赛车2》一样都没有登陆PS平台。
+
+game: A级方程式赛车1
+file: acedrive.zip
+sort-by: 008
+developer: A级方程式赛车1
+x-id: MAME RAC
+description: 《A级方程式赛车》（日语：エースドライバー，Ace Driver）是南梦宫在1994年发行的3D竞速街机游戏。游戏中玩家驾驶一级方程式赛车在各种赛道环行。南梦宫之后发行了两部街机续作：《A级方程式赛车 胜利金足》（1996）和《A级方程式赛车3 最终圈》（2008）。玩家可以选择自动或手动档，以及新手和专家等级。玩家可以选择4个车队的8辆车。《A级方程式赛车》获得第76届国际游乐园及景点协会（IAAPA）斩最佳投币游戏。《A级方程式赛车》大量使用电脑助力技术，即拖尾的玩家会被大幅加速，追上领头的玩家。然而在拖尾玩家追上领先玩家后，加速还会延续一小段时间——于是导致了“加速”策略，玩家故意落到后面，在游戏最后半圈利用加速冲刺，让其他玩家无法追上。
+
+game: A级方程式赛车2
+file: victlap.zip
+sort-by: 009
+developer: A级方程式赛车2
+x-id: MAME RAC
+description: 一款追逐视角赛车游戏，拥有比原版更多的赛道和汽车。
+
+game: GTI俱乐部
+file: gticlub.zip
+sort-by: 013
+developer: GTI俱乐部
+x-id: MAME RAC
+description: GTI俱乐部是Konami发行的经典竞速游戏。本作曾经是街机上的火热系列,玩家可以在比赛中欣赏到法国、英国、意大利、美国和日本各地的城市景观。
+
+game: VR 赛车
+file: vr.zip
+sort-by: 015
+developer: VR 赛车
+x-id: MAME RAC
+description: 世嘉凭借精湛而创新的“Virtua Racing”再次证明自己是赛车类型的王者。这是第一款完全使用阴影填充多边形图形渲染的赛车游戏（第一款使用填充多边形渲染的游戏是 Atari 令人难以置信的 1983 年发行的“我，机器人”）。除了出色的图形和出色的可玩性，Virtua Racing 还允许玩家切换摄像机视角以适应他们喜欢的游戏风格。该游戏具有 3 种精心设计且多样化的赛道； “大森林”、“海湾大桥”和“雅典卫城”。这款游戏当年让无数国外玩家惊掉下巴，至今还有人在视频平台上回顾当年初次见到这款游戏时的震撼。
+
+game: 超酷赛车手
+file: coolridr.zip
+sort-by: 018
+developer: 超酷赛车手
+x-id: MAME RAC
+description: Cool Riders 是 SEGA OutRunners 的精神继承者。游戏类似于 OutRunners，只是游戏玩法是以摩托车而非汽车为特色。游戏也少不了检查点的设计。 Cool Riders 共有 50 个关卡，与 OutRun 和 OutRunners 非常相似，有几条分支路线遍布世界各地，并决定了您的下一阶段将是什么。一个关键的区别是 Cool Riders 具有三重分支阶段出口，而不是 OutRun 的双分支。游戏使用数字化图形。
+
+game: 环绕方程式
+file: indyheat.zip
+sort-by: 032
+developer: 环绕方程式
+x-id: MAME RAC
+description: 游戏得到了Danny Sullivan的授权。游戏可供3人同时游玩，并给出了15条Danny Sullivan最喜欢的赛道。玩家的车能加速，也能着火、撞毁或失去燃料。Danny Sullivan常会驾驶一辆黄车出现。
+
+game: 环绕越野赛车
+file: offroad.zip
+sort-by: 033
+developer: 环绕越野赛车
+x-id: MAME RAC
+description: 公认的最好的固定版面赛车游戏。
+
+game: 环绕越野赛车 Track-Pak
+file: offroadt.zip
+sort-by: 034
+developer: 环绕越野赛车 Track-Pak
+x-id: MAME RAC
+description: 比原版增加了更多赛道。
+
+game: 环游世界大赛车
+file: orunners.zip
+sort-by: 035
+developer: 环游世界大赛车
+x-id: MAME RAC
+description: 多人竞速游戏，最多可供8人同时分屏游玩。Out Runners 具有原版的多条路线，但这次包括大量可选择的车辆；每一种都有不同的优势和劣势，例如更高的速度或更好的操控性。 Out Runners 捕捉了 Out Run 的精神，增加了角色、幽默、众多可选配乐（包括 Jake Elwood 对比赛的无线电广播）和几乎不会被撞车打断的无缝驾驶体验。
+
+game: 火焰车轮
+file: wheelfir.zip
+sort-by: 037
+developer: 火焰车轮
+x-id: MAME RAC
+description: 《火焰车轮》是一款上世纪90年代由TCH开发的街机赛车游戏，采用第三人称视角进行游玩。
+
+game: 技术驱动
+file: technodr.zip
+sort-by: 040
+developer: 技术驱动
+x-id: MAME RAC
+description: 一个未来风的赛车游戏。玩家驾驶一辆高科技黄色汽车，通过 psicodelic 未来学课程，在许多不同领域进行测试。该游戏以优美的电子音乐为特色，游戏玩法基于出现在屏幕右上角的驾驶符号。这些符号对应不同的驾驶测试，如快速思考、动力控制、平稳驾驶、漂移王等。游戏中总共包含 15 个测试。测试分为三个部分，玩家要么通过测试，要么不通过测试，然后继续进行下一个测试。您必须快速加速并在棘手的弯道和跳跃坡道中保持控制，同时躲避物体才能赢得比赛。
+
+game: 加速
+file: speedup.zip
+sort-by: 041
+developer: 加速
+x-id: MAME RAC
+description: 可供最多 8 名玩家（通过连接的柜子）进行单圈比赛。每圈结束后，最慢的汽车将被淘汰，比赛将继续进行，直到只剩下获胜者。在单人游戏中，玩家与 A.I. 的领域竞争。每个玩家从十辆可用的汽车中选择一辆，然后选择他们喜欢的赛道（初学者、高级或专家）。比赛可以在一圈到九圈之间变化，具体取决于对手玩家的数量。显示屏右上角的屏幕地图指示所有竞争对手的位置。
+
+game: 劲风赛车
+file: windheat.zip
+sort-by: 043
+developer: 劲风赛车
+x-id: MAME RAC
+description: 《火箭车》系列外传，可选择车辆数量由Midnight Run的4辆变成了14+3辆且所有车都可进行性能调整，游戏由分数制排行彻底变成了现阶段的计时排行且T.A模式和正常模式排行分开算。科乐美的赛车游戏手感偏滑，滑冰般的漂移手感以及爽快的漂移操作使得游戏容易上手同时也要考一下操控能力，这一作也为后面的幻之神作打下基础。
+
+game: 口袋赛车
+file: pocketrc.zip
+sort-by: 046
+developer: 口袋赛车
+x-id: MAME RAC
+description: 从山脊赛车系列中剥离的外传性质作品。作品中玩家操作的是更小的车辆。
+
+game: 马赫 GO GO GO
+file: speedrcr.zip
+sort-by: 052
+developer: 马赫 GO GO GO
+x-id: MAME RAC
+description: Speed Racer 是一款基于成功动漫的出色赛车游戏——该作也是相当元祖的科幻汽车动漫。
+
+game: 摩托风暴
+file: motoraid.zip
+sort-by: 054
+developer: 摩托风暴
+x-id: MAME RAC
+description: 可能很多人是在审判之眼上玩过这款游戏吧。世嘉的很多老街机在如龙上都得到了精神传承的机会。在这款摩托比赛过程中，玩家还能对其他车手发动攻击。
+
+game: 呯嘭客车
+file: ppcar.zip
+sort-by: 055
+developer: 呯嘭客车
+x-id: MAME RAC
+description: 俯视角的赛车游戏，需要收集每张地图上散落的代币。游戏玩法和南梦宫的传奇街机"Rally-X"（迷魂阵X）相近，但除了更好的画面，从可玩性而言，并不如1980年的作品。;
+
+game: 赛车巡回锦标赛
+file: csprint.zip
+sort-by: 058
+developer: 赛车巡回锦标赛
+x-id: MAME RAC
+description: 雅达利经典街机Sprint系列的升级版，增加了升级车辆的射击。这个游戏里换车时机非常重要，会给对手拉开距离的时间。换车速度也可以通过升级直升机得到提升。
+
+game: 世界拉力赛2 双倍马力
+file: wrally2.zip
+sort-by: 062
+developer: 世界拉力赛2 双倍马力
+x-id: MAME RAC
+description: World Rally 2: Twin Racing 是 World Rally Championship 的续作，游戏的场景这次从西班牙来到了葡萄牙。游戏玩法与原版游戏非常相似。标题中的 Twin Racing 指的是一个新的机制，因为机柜现在有两个并排的游玩装置，每个装置都有自己的屏幕、座椅、方向盘和踏板。游戏仅使用一个 PCB 来提供两个装置的控制。系列初代是一个只有方向盘和按钮的站立式单人机柜。两名玩家可以在同一赛道上直接相互挑战，另一方玩家在己方屏幕上显示为无法伤害的幽灵。玩家也可以选择并肩作战，但各有各的单人游戏。只要他们都在 60 秒内完成，两位玩家都可以继续比赛而无需花费额外的游戏币。
+
+game: 未来骑士
+file: cybrcycc.zip
+sort-by: 065
+developer: 未来骑士
+x-id: MAME RAC
+description: Cyber Cycles 是一款摩托车赛车游戏，有 2 个赛道； Greenhill：沿着海岸线的高速轨道和 Neo Yokahoma：夜间在市区的未来风赛道。
+
+game: 午夜道路赛车2
+file: midnrun.zip
+sort-by: 066
+developer: 午夜道路赛车2
+x-id: MAME RAC
+description: Midnight Run: Road Fighter 2 是一款街机赛车游戏，也是 Road Fighter 的现代 3D 续作。玩家可以选择四种不同颜色的汽车和三种不同的路线。这些课程是日落试跑（简单）、星光热力赛（中等）或午夜狂飙（困难）。您在单环赛道上与 3 辆争夺第一名的赛车比赛。在赛车时，玩家还必须到达延长时间的检查点并通过尽可能多的汽车。
+
+game: 越野车队
+file: offroadc.zip
+sort-by: 074
+developer: 越野车队
+x-id: MAME RAC
+description: 越野挑战赛是一款越野卡车赛车游戏。玩家在各种景观中与其他越野车比赛，同时沿途收集氮气和金币。在赛道上获得的金币或从其他赛车中获得的金币可用于升级车辆。玩家完成赛道后，他们会升至下一个难度并再次进行比赛，但同时保留升级后的卡车。
+
+game: 越野机车
+file: scross.zip
+sort-by: 076
+developer: 越野机车
+x-id: MAME RAC
+description: 世嘉1992年的作品，游戏为分屏显示。玩家需要在泥泞的赛道骑行。游戏有飞跃和打斗要素。
+
+game: 最后冲剌 R
+file: finalapr.zip
+sort-by: 083
+developer: 最后冲剌 R
+x-id: MAME RAC
+description: 本作是南梦宫长达11年的系列F1作品中的最后一款。该系列的初始是1982年的"Pole Position"。系列松散的手感和低门槛的特点都得以保留，只是得益于硬件的升级，游戏画面变得更好了。游戏共有4条赛道。
+

@@ -1,0 +1,245 @@
+collection: VB
+sort-by: 029
+extensions: bin, vb, vboy
+launch: "{env.appdir}\RetroArch\retroarch.exe" -L "{env.appdir}\RetroArch\cores\mednafen_vb_libretro.dll" "{file.path}"
+
+game: 3D俄罗斯方块
+file: 3-D Tetris (USA).vb
+sort-by: 001
+developer: 3D俄罗斯方块
+description: Virtual Boy 上的 3D 俄罗斯方块游戏，具有 3 种模式。第一个包含五层俄罗斯方块。每次你完成一层时，方块就会掉落、消失，你将获得积分奖励。在第二种情况下，您将方块放在井的中心周围，目的是让它们消失。第三种模式是在比赛开始前张贴表格。您将必须完美地重现该表格。
+
+game: 布洛克斯
+file: BLOX (World) (v1.1) (Aftermarket) (Homebrew).vb
+sort-by: 002
+developer: 布洛克斯
+description: BLOX 由 KR155E 创建，基于 1982 年的街机游戏 Sokobon 和 1990 年的 Game Boy 游戏 Boxxle。您在棋盘周围移动方块，直到它们覆盖上面有目标的方块。一旦所有的盒子都在一个目标上，您就可以进入下一个级别。尽管这是一个简单的概念，但就像许多优秀的游戏一样，随着您的进步，它会变得越来越难。游戏的长度取决于您设置的游戏难度。
+
+game: 布洛克斯2
+file: BLOX 2 (World) (En,Fr,De,Es,It,Sv,Fi,Cs,Sl) (Aftermarket) (Homebrew).vb
+sort-by: 003
+developer: 布洛克斯2
+description: BLOX 2 是 Sokoban 的克隆版，这是一款益智游戏，在其中，你需要将关卡中的所有盒子推到球门场上。它是 KR155E 对 2003 年原始 BLOX 的完全重写，并以任何可能的方式对前传进行了改进。最值得注意的是新的迷你模式，用于多达 29×32 个字段的超大关卡、“Multiblox”模式，其中两个玩家解决一个关卡，每个关卡由两个 D-Pads 中的一个控制、撤消功能、存储选项的广泛保存功能、完成的关卡以及活动游戏、多语言功能、带有音效的完整声音支持和大量谜题。拥有超过 1800 个谜题，BLOX 2 仍然是迄今为止最大的 Virtual Boy 自制游戏，内容方面。它甚至包含第一个游戏的所有60个谜题，可以通过按钮代码解锁。
+
+game: 弹跳高手
+file: Bound High (Japan) (En) (Proto).vb
+sort-by: 004
+developer: 弹跳高手
+description: 如果重新启动控制台，Bound High 是本可以拯救 Virtualboy 的游戏之一。尽管已经完成，但由于控制台没有成功，游戏被推迟了几次并最终被取消。 Chalvo，弹跳机器人，在位于太空的 3D 关卡中追踪威胁地球居民和平的外星入侵者 - 地球上方或类似宇宙。
+
+game: 塞维利亚队长2
+file: Capitan Sevilla 2 (World) (Es) (Aftermarket) (Homebrew).vb
+sort-by: 005
+developer: 塞维利亚队长2
+description: Capitán Sevilla 2是Hi-Score和Dinamic Software的Capitán Sevilla的致敬和续集，由Rubén Garcerá Soto于1988年为Amstrad CPC，ZX Spectrum和MSX制作。这是一款幽默的横向卷轴动作平台游戏，您可以在其中跳跃和射击总共 4 个区域。该游戏在2年PVB编码比赛中获得二等奖。2010年，以新名称“Capitán Sevilla 2018D”，该游戏由VUEngine团队在VUEngine从头开始重建。由于最初的游戏演示仅是 3D 的，因此所有环境都以 2D 形式重新制作。
+
+game: 超越速度
+file: Elevated Speed (World) (High Resolution Version) (Aftermarket) (Homebrew).vb
+sort-by: 006
+developer: 超越速度
+description: 将自己绑在未来派赛车机的驾驶舱中，踩下助力！《Elevated Speed》将带您进入2017年霓虹灯闪烁的未来，以证明自己是地球上最快的EMV驱动器...甚至更多！
+
+game: 大鱼吃小鱼
+file: Fishbone (World) (Aftermarket) (Homebrew).vb
+sort-by: 007
+developer: 大鱼吃小鱼
+description: 大鱼吃小鱼！在 Fishbone 中，您扮演一条名为 Bubbles 的鱼，通过尽可能多地吃小鱼，同时避开比您大的鱼、炸弹和其他有害物质，在总共 4 个级别中获得高分。
+
+game: 银河弹珠台
+file: Galactic Pinball (Japan, USA) (En).vb
+sort-by: 008
+developer: 银河弹珠台
+description: Galactic Pinball 是 1995 年在 Virtual Boy 上发布的弹球视频游戏。除了高分之外，您还可以在四个弹珠台之间进行选择。这些被命名为外星人、不明飞行物、殖民地和宇宙。
+
+game: 高尔夫
+file: Golf (USA).vb
+sort-by: 009
+developer: 高尔夫
+description: Golf 是 1995 年在 Virtual Boy 上发布的高尔夫视频游戏。高尔夫采用 3D 视角，包含“锦标赛”和“熊玩”两种模式以及球场中的 18 个洞。
+
+game: 汉堡在去瑞士的路上
+file: Hamburgers En Route to Switzerland (World) (Aftermarket) (Homebrew).vb
+sort-by: 010
+developer: 汉堡在去瑞士的路上
+description: “前往瑞士的汉堡包”是一款横向卷轴射击游戏，您可以在其中扮演飞行的汉堡包。你控制汉堡侦察员 zybort，作为汉堡群前往瑞士的前线。沿着迁徙路径是要射击的恶毒奶昔和要避免的可怕洋葱圈。 zybort 能否将汉堡带到可爱的瑞士国度？把那个控制器拿在手里，看看吧！
+
+game: 超级格斗
+file: Hyper Fighting (World) (Aftermarket) (Homebrew).vb
+sort-by: 011
+developer: 超级格斗
+description: Virtualboy 上的街头霸王 2 移植。您只能与 Ryu 一起玩，并与 Dhalsim、Ryu、Chun Li 和 Guile 对战。
+
+game: 杀虫剂
+file: Insecticide (World) (Aftermarket) (Homebrew).vb
+sort-by: 012
+developer: 杀虫剂
+description: 杀死一个虫子很容易，但是当你自己是一个虫子时呢？把自己绑在虫子的鞋子里（等等，虫子不穿鞋，但你知道我的意思）并战斗到死。你是否足够强壮，可以进行杀虫？
+
+game: 印斯茅斯之馆
+file: Insmouth no Yakata (Japan).vb
+sort-by: 013
+developer: 印斯茅斯之馆
+description: Insmouse No Yakata（有时被翻译为疯狂老鼠大厦，尽管它的意思是因斯茅斯之家）是一款生存恐怖游戏，灵感来自H.P.洛夫克拉夫特的作品，于1995年专门为Virtual Boy发布，并且仅在日本发布。它就像一个带有第一人称射击元素的地牢爬行游戏，每个关卡都有时间限制。1922年，你控制了一名私家侦探，他受雇前往一个据称闹鬼的森林，以便在豪宅内取回死灵。取回书后，他发现自己被困住了，因为豪宅内部发生了变化，怪物开始出现。你的最终目标是找到杜曼的钥匙，并到达出口。试着带着书逃离豪宅，活着，并领取你的薪水！
+
+game: 杰克兄弟
+file: Jack Bros. no Meiro de Hiihoo! (Japan).vb
+sort-by: 014
+developer: 杰克兄弟
+description: Jack Bros.是1995年在Virtual Boy上发布的一款冒险视频游戏。一年一度的万圣节，我们国家与仙女之间的大门打开了。所有仙子必须在23:00返回仙境，否则将被永远放逐。你需要从杰克三兄弟中选择一人进行操控，每个人都性能各异，有自己的专属武器和特殊攻击。本作部分角色来自于女神转生系列，而且也是地牢性质，不过玩法不同；攻关方法是每层找到全部钥匙然后不断向下跳打倒Boss。
+
+game: 马里奥冲击
+file: Mario Clash (Japan, USA).vb
+sort-by: 015
+developer: 马里奥冲击
+description: GB之父横井军平亲自带领研发一组制作的益智类游戏，是经典街机版《马里奥兄弟》的升级版，只不过这次你需要扔龟壳打倒敌人（所以有点更像家用机的马里奥了）。游戏相当有趣，而且量大管饱（一共99关！）。
+
+game: 马里奥战斗
+file: Mario Combat (World) (Aftermarket) (Homebrew).vb
+sort-by: 016
+developer: 马里奥战斗
+description: 玩家自制的第一人称马里奥射击游戏。
+
+game: 马里奥赛车
+file: Mario Kart - Virtual Cup (World) (Aftermarket) (Homebrew).vb
+sort-by: 017
+developer: 马里奥赛车
+description: 以马里奥为英雄的著名卡丁车游戏的自制游戏。
+
+game: 马里奥大陆
+file: Mario VB (World) (Aftermarket) (Homebrew).vb
+sort-by: 018
+developer: 马里奥大陆
+description: VB Mario Land，也称为 Mario Adventure，是官方未发布马里奥游戏的粉丝自制版。马里奥兄弟VB（マリオ兄弟.VB）是经典马里奥兄弟的重置，带有额外的3D元素，用来展示Virtual Boy的图形功能。这是1994年Shoshinkai上最早发布的Virtual Boy游戏之一，当时有一个原型可供与会者播放。节目结束后，马里奥兄弟.VB再也没有听说过，很可能是因为它被用来制作成马里奥冲击。
+
+game: 马里奥网球
+file: Mario's Tennis (Japan, USA).vb
+sort-by: 019
+developer: 马里奥网球
+description: 这是每台VirtualBoy系统都自带的一款游戏。游戏没太大特点，就是用马里奥系列的角色打网球罢了。背景的层次和角色视角上比同时期GB版本要好一点，但是没有N64的好。其实如果要达到最佳的VR效果，游戏加一个可选择的第一人称视角肯定会更好一些，可惜这只是一个假设。
+
+game: 尼斯特时髦保龄球
+file: Nester's Funky Bowling (USA).vb
+sort-by: 020
+developer: 尼斯特时髦保龄球
+description: 和很多VB游戏一个问题，就是这款游戏完全可以出在其他平台上，没有太用到VB机能的特殊之处。值得一提的是，它是以老游戏杂志《任天堂力量》上连载漫画人物尼斯特为主角做的游戏，而且角色的细节还是比较生动的。
+
+game: 炮弹大对决
+file: Niko-chan Battle (Japan) (Proto).vb
+sort-by: 021
+developer: 炮弹大对决
+description: Faceball 将成为支持未发布的 Virtual Boy GameLink 电缆的游戏之一。与其他游戏机上的 Faceball 游戏（例如 Game Boy 和 SNES 上的 Faceball 2000）一样，Virtual Boy 版本可以描述为带有笑脸球的自我射击游戏。在一个完全遗漏了所有不必要的细节甚至纹理的迷宫中，你必须在一定的时间限制内追捕并射击所有敌人，时间限制会随着关卡的增加而缩短。右上角的雷达和迷宫地图（您可以通过按“开始”显示）帮助您定位敌人。
+
+game: 炸弹人 燃烧炸弹
+file: Panic Bomber (USA).vb
+sort-by: 022
+developer: 炸弹人 燃烧炸弹
+description: 炸弹人炸开常雾之岛！准备好与炸弹人一起进行爆炸性的益智游戏吧！引爆可怕的废墟、险恶的森林和荒漠的世界。征服永雾岛并夺取三位天界力量模型。不要恐慌！或者，您可能会被贪婪的 Flashy 女士或致命的 Dracu-Doom 伯爵烧焦。用夸张的动作和燃烧的策略点燃可怕的末日城堡。只有这样你才能打开通往传说中的炸弹人金色雕像的大门。这是一个令人费解的爆炸！
+
+game: 红色警报
+file: Red Alarm (Japan).vb
+sort-by: 023
+developer: 红色警报
+description: 穿越虚拟空间令人难以置信的维度，最终任务一目了然。抹杀 KAOS 制造的所有敌人和障碍，从内部终结这个来势汹汹的战斗系统。Tech-Wing 战斗机使用令人印象深刻的高科技武器库和规避机动加速前进。旋转死亡、间谍舱和蚊子机甲无处不在！人类的命运将很快被决定。红色警报！红色警报！警报状态红色！！
+
+game: 红色方块
+file: Red Square (World) (Aftermarket) (Homebrew).vb
+sort-by: 024
+developer: 红色方块
+description: 2019 年的《红方块》（Red Square）是由 Kresna 与合作伙伴 Nyrator 为一个限时游戏开发竞赛（game jam）而制作的。对于他们来说，这是一个涉猎新领域的机会。
+
+game: SD高达 维度战争
+file: SD Gundam - Dimension War (Japan).vb
+sort-by: 025
+developer: SD高达 维度战争
+description: VB上最后一款作品，也是高达游戏史上较为冷门的作品。游戏形式是常规的SRPG，有特色的地方在于特写战斗时的视角和立体感，比较新鲜。
+
+game: 苏联 2010
+file: Soviet Union 2010 (World) (v1.2) (Aftermarket) (Homebrew).vb
+sort-by: 026
+developer: 苏联 2010
+description: 该游戏是为2010年举行的星球VB编码比赛而制作的，它赢得了第四名，但只差第三名一票。符拉迪沃斯托克的一些科学家发明了一台时间机器，并用它回到了 1960 年代，即苏联和美国之间进行太空竞赛的时间。它奏效了，但在回到 2010 年时，一次故障将他们送到了冷战仍在继续的平行宇宙。你是红军的一员。拯救科学家！你控制着一艘装有大炮的太空船。你的任务是摧毁尽可能多的为美国服务的船只，并在获得尽可能多的分数的同时活着离开。
+
+game: 苏联 2011
+file: Soviet Union 2011 (World) (v1.2) (Aftermarket) (Homebrew).vb
+sort-by: 027
+developer: 苏联 2011
+description: 苏联2011是苏联2010的续集。在其中，你控制一架配备大炮的苏联飞机。你的任务是击落尽可能多的美国飞机，在获得高分的同时活着出去。现在是2011年。两个超级大国之间的战争仍在继续。在成功干掉了美国太空军的数十艘战舰后，红军派你去地球上做秩序。地球上的战争是严重的，夺走了许多人的生命。美国空军强大而危险，不会轻易消失。不要怜悯！告诉他们谁是老板！
+
+game: 太空侵略者
+file: Space Invaders - Virtual Collection (Japan).vb
+sort-by: 028
+developer: 太空侵略者
+description: 所有地球人注意！在你附近发现了无情的外星人部落。防止危险的太空入侵者登陆你的领土。用你的大炮抵御一波又一波的外星入侵者。不要让它们撞到地面，否则你和地球都完了！摧毁他们并得分！
+
+game: 太空壁球
+file: Space Squash (Japan).vb
+sort-by: 029
+developer: 太空壁球
+description: Space Squash 是其中一种游戏，其前提非常简单，您可以将其写在邮票背面，并且仍有空间。你守卫隧道的一端，你的对手守卫另一端，你们俩都在四处漂浮，互相击打带刺的球。越过对手得分。先到三胜。
+
+game: 太空弹球
+file: Space Pinball (Japan) (En) (Proto).vb
+sort-by: 030
+developer: 太空弹球
+description: 这是银河弹珠台的日语版本未发布原型。在旋转的行星上爆炸你的弹球，把它们变成宇宙世界中的尘埃。让你的冰球在深空殖民地的银河系中飞行。打败邪恶的骷髅，打出终极UFO大奖！击倒多个戒指，在外星人的地方摧毁邪恶的袭击者。挑战艰难的障碍，拯救世界免受即将到来的破坏！
+
+game: T&E高尔夫
+file: T&E Virtual Golf (Japan).vb
+sort-by: 031
+developer: T&E高尔夫
+description: Virtual Golf 是 1995 年在 Virtual Boy 上发布的高尔夫视频游戏。高尔夫采用 3D 视角，包含“锦标赛”和“熊玩”两种模式以及球场中的 18 个洞。
+
+game: 机器人拳击
+file: Teleroboxer (Japan, USA).vb
+sort-by: 032
+developer: 机器人拳击
+description: 第一人称的拳击游戏，可谓是平台上少有的能体现VB优势的精品。通过两个方向键格挡，通过扳机键出拳。这款游戏体现了VB的潜力所在，不过可能是由于VB前期的保密性，导致几乎没有其他开发商能做到这一点。
+
+game: 垂直战机
+file: Vertical Force (USA).vb
+sort-by: 033
+developer: 垂直战机
+description: 飞行射击游戏，利用到了VB产生高低差视觉的机能。游戏的特色是飞机机体可以上下移动。
+
+game: 保龄球VB
+file: Virtual Bowling (Japan).vb
+sort-by: 034
+developer: 保龄球VB
+description: Virtual Bowling 是 1995 年在 Virtual Boy 上发布的保龄球游戏。共有三种游戏模式：“标准”模式，您完成一组简单的 10 帧即可获得高分，“锦标赛”模式和“训练模式”，您可以在每次投掷前以任意组合自由放置球瓶。
+
+game: 瓦里奥大陆VB
+file: Virtual Boy Wario Land (Japan, USA).vb
+sort-by: 035
+developer: 瓦里奥大陆VB
+description: Virtual Boy平台上公认的最好玩的游戏，只能说是错生在了这个任天堂历史销售最差（80万）的游戏机上了。游戏的质量很高，可以和GB/GBC上的瓦里奥大陆一较高下，玩法基本相同，但还有许多利用到VB特性的设计，有3D效果，强烈推荐！
+
+game: 钓鱼VB
+file: Virtual Fishing (Japan).vb
+sort-by: 036
+developer: 钓鱼VB
+description: 潜入大自然中，鱼儿自由游来游去！美丽，自然风光深沉！一条山涧，清澈的溪流，湖泊...您将挑战哪些钓鱼地点？以3D形式出现的各种东西！在3D中感受诱饵飞舞和鱼接近等的快感！丰富的鱼类，甚至是梦想中的鱼类！有17种鱼，包括虹鳟鱼，黑鲈鱼等等！3种很棒的游戏模式！赢得锦标赛后，您可以挑战其时间攻击！钓鱼结果被记录下来！您的技能将按物种、大小、数量和时间进行测试！鱼可以自由地向右、向左、向前或向后移动。尝试在自由模式中无忧无虑地钓鱼，或在锦标赛模式中测试您的技能！
+
+game: 益智实验VB
+file: Virtual Lab (Japan).vb
+sort-by: 037
+developer: 益智实验VB
+description: Virtual Lab 是 1995 年在 Virtual Boy 上发布的益智游戏。该游戏介于俄罗斯方块和白日梦之间。硬币从屏幕顶部掉落，必须排列成完全封闭的管状。
+
+game: 棒球联赛VB
+file: Virtual Pro Yakyuu '95 (Japan).vb
+sort-by: 038
+developer: 棒球联赛VB
+description: 你现在在虚拟大联盟中。与来自世界各地的 18 支球队比赛。投掷快速球、叉球、坠球、滑球和变速球。摆动围栏，放下短打。乱搞苍蝇。卡住的驱动器。并标记出跑步者。一切都在具有传奇色彩的 3D 中。具有单人游戏、全明星和三角旗比赛模式。记住这一点：这是唯一一款可以在虚拟男孩棒球场玩的棒球游戏。所以不要丢球。拿起一个先发投手。设置您的 DH。并走到盘子里。
+
+game: 俄罗斯方块VB
+file: V-Tetris (Japan).vb
+sort-by: 039
+developer: 俄罗斯方块VB
+description: V-Tetris 是日本独有的 Virtual Boy 俄罗斯方块游戏。不要将它与类似的 Virtual Boy 标题 3D Tetris 混淆，因为这两款游戏完全不同。与 3D 俄罗斯方块不同，V-Tetris 与原始俄罗斯方块游戏大部分相同，唯一的区别是圆柱形拼图模式，其中块可以放置在 3-D 螺旋中。
+
+game: 未来水世界
+file: Waterworld (USA).vb
+sort-by: 040
+developer: 未来水世界
+description: 执事在等着您！执事将不惜一切代价控制世界上最宝贵的资源……他让嗜血的吸烟者在环礁文明上大放异彩，疯狂寻找伊诺拉——掌握旱地秘密的纹身女孩。只有您可以抽 Smokers 并装饰 Deacon！Waterworld 通过令人难以置信的流畅和逼真的 3D 动画、粒子效果和纹理映射渲染图形，让您的 Virtual Boy 尖叫栩栩如生。因此，今天就踏入这个充满动作的街机体验，了解 3D 游戏的全部内容。
+

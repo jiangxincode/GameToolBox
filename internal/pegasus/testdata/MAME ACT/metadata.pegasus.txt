@@ -1,0 +1,220 @@
+collection:动作街机
+sort-by:001
+extensions: 7z, zip
+ignore-files: 
+  neogeo.zip
+  pgm.zip
+  stvbios.zip
+  coh3002c.zip
+  segabill.zip
+  qsound_hle.7z
+  kov2nl.zip
+  orleg2.zip
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/mame_libretro.dll" "{file.path}"
+
+game: 龙与地下城2 暗黑秘影 汉化版
+file: ddsomj.zip
+sort-by: 011
+developer: 龙与地下城2 暗黑秘影 汉化版
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: MAME ACT
+description: 盛大汉化版
+
+game: 吞食天地2 汉化版
+file: wofa.zip
+sort-by: 027
+developer: 吞食天地2 汉化版
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: MAME ACT
+description: 有了汉化版，终于可以看懂人物对话和剧情了。
+
+game: 快打旋风3 盗版
+file: ffight3b.zip
+sort-by: 084
+developer: 快打旋风3 盗版
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: MAME ACT
+description: 当年街机厅比较常见的快打旋风3盗版机台，实际CAPCOM从未在街机上出过快打旋风3，只有sfc版，但盗版商把sfc版移植到了街机基板，关卡顺序改动，音效感觉比sfc版好一些，另外在击败关底boss后可以无限擒拿刷分来奖命。
+
+game: 出击飞龙2
+file: strider2.zip
+sort-by: 086
+developer: 出击飞龙2
+publisher: Capcom
+genre: Platform
+x-id: MAME ACT
+description: Capcom于1998年推出的出击飞龙续作。画面异常华丽，手感出色，背景有3d画面，部分敌人也是3d的。
+
+game: 三国战纪2 盖世英雄
+file: kov2nl_302cn.zip
+sort-by: 137
+developer: 三国战纪2 盖世英雄
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: MAME ACT
+description: 《三国战纪2：盖世英雄 Knights Of Valour 2 New Legend)》是由鈊象电子制作的一款动作类游戏，三国战纪2盖世英雄属于PGM2系统，借着各种新增元素，为所有玩家呈献截然不同的游戏乐趣。《三国战纪2盖世英雄》是带储存的，在三国战纪2群雄争霸上增加了许多元素，如披风，指环，玉佩，图腾，靴子和许多隐藏元素，但不能复制。特色介绍：自订名称:凡是使用卡片的玩家，开卡时都能为角色设定自己喜欢的名称。之后游戏中的介面、对话和排行榜中，都会显示您独一无二的专属名称，让您与众不同！官阶提升:每次完成关卡，角色就会获得一定数量的功勋值，而随着不断累积功勋值，角色将会从最基本的九品官一路晋升，挤身将军、都尉、骠骑将军、丞相、英杰、大英雄等高位，最后还会获得角色专属的神秘封号！装饰系统:本游戏新增的“装饰品”系统，将可以让角色的造型更特别、更抢眼。无论是红光灼灼的斗气，还是虚幻莫测的残影，只要搭配得宜，就能让你的角色随时都能展现惊人的王者之风，吸引众人的钦羡目光。神秘事件:本游戏除了加入全新的最终头目 卑弥乎&真·卑弥乎)，游戏关卡里还隐藏了许多神秘的事件 犬神事件等)让待玩家挖掘。随着玩家对游戏的了解越来越多，就能逐渐揭开所有秘密，阻止威胁三国世界的可怕阴谋。V302版出场自带满级武器，可以存储上一局留下来的道具，但是同一种大型宝物一个背包里只能装3个。
+
+game: 三国战纪3
+file: kov3.zip
+sort-by: 145
+developer: 三国战纪3
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: MAME ACT
+description: 2011年8月22日，IGS 鈊象电子股份有限公司)终于开通了《三国战纪3》的官网，正式公布了《三国战纪3》，并且放出了人物情报。本作中黄忠将被删除，取代的是他的女儿 黄芸），一位设定上十分华丽的美女。而貂蝉将穿着高跟鞋出场，性感气势一如既往，最让人意外的是本作新增刘备和周瑜！加上大家熟悉的过去的武将们，新的三国战纪，会带来怎样的波乱之像呢？游戏有两种模式，一种是雄图霸业，一个种是武将对决。雄图霸业就是过关模式，一共有5张大地图，每张大地图里又有5张小地图。新手玩家刚进去，只有3张大地图，分别是：新手，一般，高手。还有2张大地图是达人左、达人右，要开启这2张达人地图必须将前面3张大地图中的小地图全部打一遍 隐藏地图除外），不论难度！武将对决就是刷徽章专用，玩家自己挑选6个场景跟6位BOSS单挑！对决场景中对玩家有各种负面限制或者BOSS有各种能力加成，诸如玩家道具禁止、耗气3倍、移动速度减慢、混乱等，BOSS加成有超硬汉、攻击附带晕属性、几率性一击必杀等。
+
+game: 西游释厄传2
+file: orleg2_104cn.zip
+sort-by: 164
+developer: 西游释厄传2
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: MAME ACT
+description: 西游释厄传2是台湾IGS 鈊象电子股份有限公司）出的一款小众消遣2D横板通关类游戏。可选人物十人，其中5男5女标准组合，自由度较高，打击感畅快华丽。2D建模，彩色画面，画面锯齿清晰可见但不影响游戏，采用传统的一摇杆四按键，游戏有繁体中文版、简体中文版 有卡片）以及日文版、英文版 无卡片），几种版本之间几乎无区别，只是不同地区所使用的卡不同，简体和繁体之间的卡不能互通用。游戏可插存储卡，卡相当于自己游戏的储存进度，500次游戏时间，可续卡，价格视地区而定。此游戏通关后不可继续游戏，需重投币在次游戏，游戏上手稍有难度，但深入进去可能会比较有研究。此游戏可以多人游戏，通常一至四人，可无限续币，游戏玩法因人而异。
+
+game: 极之暴力
+file: brutforc.zip
+sort-by: 178
+developer: 极之暴力
+publisher: Irem
+genre: Beat-'Em-Up
+x-id: MAME ACT
+description: 街机动作过关游戏，又名：强力斗士，主要体验跟街上小混混厮打，斗智斗勇。
+
+game: 电精
+file: denseib.zip
+sort-by: 182
+developer: 电精
+publisher: bootleg
+genre: Beat-'Em-Up
+x-id: MAME ACT
+description: 《电精》是由Banpresto公司于1996年制作的清版动作游戏。这个版本是盗版商把sfc版的电精（街机电神魔傀移植作）从逆移植到街机，所以称之为盗版电精，盗版的音效似乎比sfc的好那么一些。不过在MAME运行下图片仍然不是很精确，属于情怀版。正统与盗版区别：电神魔傀是电精的前身，可选6人，发招繁琐。主角们拥有大量华丽的招数和动作，双打时还能使出很多令人眼花缭乱的合体技。而且敌人的AI相当不错，很有挑战性。公元2079年，远东地区，出现了称作控制体联合国家的奇异国度。这个国家的统治者并非人类，而 是“神”和“恶魔”。都市的所有信息都集结于巨大的网络系统，并由一个叫做“控制体”的超级电脑控制，它就是这个国家的统治者。“控制体”的监视范围遍及都市的所有部位，任何细微的地方也不会漏过。这样，完美抑制犯罪的目标看起来已经达成。但是，近年开始出现了被称为“Ghost”的不能被“控制体”感知的人。政府为了对抗多发的Ghost犯罪，设立了特殊的警察机构“Ghost Chaser“。SFC电精可选3人，发招简化，保留了电神魔傀的超必杀。盗版街机电精可选3人，发招简化，无超必杀技。全员共通技  A（攻击）B（ 跳跃）   防御  按住 A, 如果再按 ← 是快速防御  击倒技← + A   投技  捉住敌人 ← + B   必杀 按住A, ↓↑ 或 ←→, 放开A (可蓄力)   超必杀 血红且气满, 按住A, ↑↓→   合体超杀 两人均气满,捉住另一人,方向键 + B   合体投技 一人捉住敌人, 另一人从正面接近按A。
+
+game: 武田信玄
+file: tshingen.zip
+sort-by: 209
+developer: 武田信玄
+publisher: Jaleco
+x-id: MAME ACT
+description: 游戏玩法较为单调，但是部分场景的绘制很有立体感和历史感。
+
+game: 阿拉伯魔法 汉化版
+file: arabianmj.zip
+sort-by: 227
+developer: 阿拉伯魔法 汉化版
+publisher: Taito
+genre: Beat-'Em-Up
+x-id: MAME ACT
+description: 盛大汉化版
+
+game: 快打刑事
+file: diehard.zip
+sort-by: 237
+developer: 快打刑事
+publisher: SEGA
+genre: Beat-'Em-Up
+x-id: MAME ACT
+description: 谁是3D清版动作过关游戏的NO.1？快打刑事当仁不让。1994在街机上问世以后，便大受好评。无论是在日本，还是在中国两岸三地，所有玩家通吃。游戏剧情虽然落入俗套，两名特警(2代起变为三名)营救人质。但是在动作上却如清风迎面徐徐而来。丰富的动作套路如轻拳、重拳、轻腿，重腿、飞踢、挡腿、戴手铐、枪指、背摔、骑打、膝顶、扫堂腿等等，即使是一款格斗游戏，招式也不过如此；大量高互动的拾取道具如手枪、冲锋枪、光线枪、盒式火箭弹、喷火罐、杀虫剂、胡椒粉、蛋糕、海鱼、弓箭、人身、桌椅板凳、电冰箱、手雷、棍棒、笤帚等等等，恐怕角色扮演游戏的道具也未必能与之比拟。至于爽快的手感，火爆的画面，更是爱不释手到磨破手指终不悔，为伊消得人憔悴。
+
+game: 森林守护神 汉化版
+file: runark.zip
+sort-by: 245
+developer: 森林守护神 汉化版
+publisher: Taito
+genre: Beat-'Em-Up
+x-id: MAME ACT
+description: 盛大汉化版
+
+game: 光明使者 中文版
+file: lightbrj.zip
+sort-by: 247
+developer: 光明使者 中文版
+publisher: Taito
+genre: Maze
+x-id: MAME ACT
+description: 盛大汉化版
+
+game: 功里金团 汉化版
+file: kurikintj.zip
+sort-by: 249
+developer: 功里金团 汉化版
+publisher: Taito
+genre: Platform
+x-id: MAME ACT
+description: 盛大汉化版
+
+game: 美女大冒险 汉化版
+file: mizubaku.zip
+sort-by: 251
+developer: 美女大冒险 汉化版
+publisher: Taito
+genre: Platform
+x-id: MAME ACT
+description: 盛大汉化版
+
+game: 雷狐战士 汉化版
+file: thundfoxj.zip
+sort-by: 252
+developer: 雷狐战士 汉化版
+publisher: Taito
+genre: Platform
+x-id: MAME ACT
+description: 盛大汉化版
+
+game: 新西兰物语 汉化版
+file: tnzs.zip
+sort-by: 253
+developer: 新西兰物语 汉化版
+publisher: Taito
+genre: Platform
+x-id: MAME ACT
+description: 盛大汉化版
+
+game: 阿尔戈斯古战士 汉化版
+file: rygarj.zip
+sort-by: 288
+developer: 阿尔戈斯古战士 汉化版
+publisher: Tecmo
+genre: Platform
+x-id: MAME ACT
+description: 盛大汉化版
+
+game: 大决战 大西洋的动乱
+file: bigfight.zip
+sort-by: 290
+developer: 大决战 大西洋的动乱
+publisher: Namco
+genre: Platform
+x-id: MAME ACT
+description: 游戏以豪华游轮为舞台。全部流程都在这艘船上进行。场景中可使用的道具都会发出白色耀眼的闪光。是一款非常好玩也非常难打的一个动作类游戏。刚开始我方只有三个角色，分别是男女格斗家和一个猛男，在游戏的过程中，把前四关的BOSS打败后，他们也会加入我们一起战斗，他们分别是印第安酋长、木乃伊、刀客和皮鞭女；游戏中的招式和格斗游戏的发法很相似，也可以挡住敌人的招式，在这点的设计上有点像变身忍者，游戏的关数很长。
+
+game: 零组特攻队
+file: zeroteam.zip
+sort-by: 298
+developer: 零组特攻队
+publisher: Fabtek
+genre: Beat-'Em-Up
+x-id: MAME ACT
+description: 《零组特攻队》是非常经典的一款横板过关类游戏，和《雷电》一样都是西武开发旗下发行的游戏，但是当年在街机游戏厅的占有率不是很高，因此一般只有稍微大型一点的游戏厅才会有。SEIBU这一崛起的游戏厂商，借助雷电这一绝对经典的STG，一炮走红。雷电这一游戏为STG定下了一个标准的弹雷两要素的模框，为以后的STG作品的制作起了一个借鉴作用。挤入STG市场的SEIBU凭借雷电才得以与当时的STG大家TAITO和KONAMI分庭抗争。但是93年左右的市场基本上都是动作过关游戏的天下。为了打出自己的招牌品格，最大限度的体现该公司的游戏美工风格，SEIBU分隶属公司Seibu Kaihatsu与该年制作了这么一款迷你珍袖的动作游戏，游戏借鉴了CAPCOM的标准血条动作游戏格式，同时结合了自己制作STG作品时的本分风格特色，当然充分利用了自己基板的优势机限，游戏础授后以其夸张搞笑的动作造型，细腻简洁的游戏模式，使得发行后深受青少年尤其是低龄儿童的喜爱。SEIBU在后续陆续推出了该游戏的很多版本 美式版本等)，最格外突出的是NEW ZERO TEAM，与原作ZERO TEAM相较，游戏的关卡次序完全打乱，而且火箭筒的固定出现地点有所变更。
+
+game: 王者水晶
+file: crysking.zip
+sort-by: 329
+developer: 王者水晶
+publisher: BrezzaSoft
+genre: Beat-'Em-Up
+x-id: MAME ACT
+description: 王者水晶是2001年韩国Brezza Soft研发的一款街机动作游戏，游戏英文名称为The Crystal of Kings，是一款比较大众化的动作游戏。在一个被称为“神界的黄昏”的时代，众神均离我们而去，只留下了构成这个世界的水晶……这些水晶拥有根据主人志向而改变自身形状的能力有一天，大陆上诞生了给人类带来贪念的黑檀水晶——The Dark Kingdom，四位勇士为了摧毁它踏上了漫长的旅程……
+
+game: 永远的蝙蝠侠
+file: batmanfr.zip
+sort-by: 331
+developer: 永远的蝙蝠侠
+publisher: Atari
+genre: Platform
+x-id: MAME ACT
+description: 基于同名电影横版卷轴对战，主角是黑暗骑士和他的搭档罗宾。玩家控制蝙蝠侠或罗宾，在众多关卡中杀出一条血路，击败蝙蝠侠的两个臭名昭著的敌人“双面人”和“谜语人”。在整个游戏过程中可以使用许多武器来帮助蝙蝠侠完成他的任务；包括 Bat-a-rang、Batrope、气枪和金属切割机。蝙蝠侠可以使用蝙蝠绳索 Batrope 到达高平台。
+

@@ -1,0 +1,131 @@
+collection: 飞机街机
+sort-by: 005
+extensions: 7z, zip
+ignore-files: 
+  pgm.zip
+  neogeo.zip
+  coh1000t.zip
+  coh1002m.zip
+  segabill.zip
+  stvbios.zip
+  qsound_hle.7z
+  coh1002v.zip
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/mame_libretro.dll" "{file.path}"
+
+game: 19XX 命运否决战 汉化版
+file: 19xxjr2.zip
+sort-by: 008
+developer: 19XX 命运否决战 汉化版
+publisher: Capcom
+genre: 1
+x-id: MAME FLY V
+description: 盛大汉化版
+
+game: 怒首领蜂3 大往生 魂
+file: ddpdojt.zip
+sort-by: 026
+developer: 怒首领蜂3 大往生 魂
+publisher: IGS
+genre: 1
+x-id: MAME FLY V
+description: 2010年，IGS在发布了怒首领蜂 大往生的中国移植版：怒首领蜂大往生魂。该作移植的是白版，增加了easy模式：难度降低但无2周目（1，2周目难度均小于白版）。
+
+game: 太空侵略者95 汉化版
+file: akkanvdr.zip
+sort-by: 046
+developer: 太空侵略者95 汉化版
+publisher: Taito
+genre: 1
+x-id: MAME FLY V
+description: 盛大汉化版
+
+game: 魔法大作战 汉化版
+file: mahoudai.zip
+sort-by: 051
+developer: 魔法大作战 汉化版
+publisher: Raizing
+genre: 1
+x-id: MAME FLY V
+description: 盛大汉化版
+
+game: 飞鸟&飞鸟 汉化版
+file: asuka.zip
+sort-by: 063
+developer: 飞鸟&飞鸟 汉化版
+publisher: Taito
+genre: 1
+x-id: MAME FLY V
+description: 盛大汉化版
+
+game: 逆鳞弹 汉化版
+file: gekiridnj.zip
+sort-by: 069
+developer: 逆鳞弹 汉化版
+publisher: Taito
+genre: 1
+x-id: MAME FLY V
+description: 盛大汉化版
+
+game: 枪之国度 汉化版
+file: gunfrontj.zip
+sort-by: 072
+developer: 枪之国度 汉化版
+publisher: Taito
+genre: 1
+x-id: MAME FLY V
+description: 盛大汉化版
+
+game: 天空风暴 汉化版
+file: gseekerj.zip
+sort-by: 074
+developer: 天空风暴 汉化版
+publisher: Taito
+genre: 1
+x-id: MAME FLY V
+description: 盛大汉化版
+
+game: 四国战机 特别版
+file: aerofgts.zip
+sort-by: 101
+developer: 四国战机 特别版
+publisher: Video System
+genre: 1
+x-id: MAME FLY V
+description: 适合 1 或 2 名玩家的垂直滚动射击游戏。控件是方向性的和 2 个按钮。按钮 1 发射你的主武器，按钮 2 发射你的特殊武器。您可以从四个国家的飞机之一中进行选择：美国、日本、俄罗斯、法国、瑞典或联合国。一旦被选中，您将开始执行各种任务。在任务期间，您会射杀各种坏蛋，并在关卡结束时与老板战斗。任务期间可以使用道具，这些道具可以为您的特殊武器充电或升级您的主要武器。所有主要武器升级都会在死亡时丢失，您的特殊武器将恢复到默认使用次数。当扮演玩家 2 时，您会得到不同的飞机类型。 2 人模式是合作的。
+
+game: 最终星际力量 汉化版
+file: fstarfrc.zip
+sort-by: 116
+developer: 最终星际力量 汉化版
+publisher: Tecmo
+genre: 1
+x-id: MAME FLY V
+description: 盛大汉化版
+
+game: 式神之城1
+file: shikigam.zip
+sort-by: 193
+developer: 式神之城1
+publisher: Alfa System
+genre: 1
+x-id: MAME FLY V
+description: 注：该游戏的开机自检时间很长，建议使用热键呼出RA菜单读取已经自检完的存档，这样可以快速进入游戏。式神之城是Alpha System于2001年推出的纵版射击游戏，本作是该系列的第一部作品。 在世界观方面，它与其他Alpha System的作品（高機動幻想ガンパレード・マーチ）有联系（平行世界）。本作可使用的人物有玖珂光太郎，巫女结城小夜，日向玄乃丈，金大正等，以及三名隐藏角色。系统特点是除了可普通攻击外，每名角色还可召唤强大的式神进行攻击。
+
+game: 勇气之刃
+file: brvblade.zip
+sort-by: 203
+developer: 勇气之刃
+publisher: Eighting
+genre: 1
+x-id: MAME FLY V
+description: 勇气之刃于2000年由Raizing制作，Eighting发行的纵版飞机游戏。本游戏是ER合作的一款3Dstg作品，ZiNc上亦能运行，游戏以科幻故事为题材，讲述的是在未来的某个年代里，北方国度出现邪恶的力量，他们自持拥有了传说中的魔剑，锻造了数支魔剑兵器和武装舰队妄图发起战争，数名正义而勇敢的飞行员前去打败他们的阴谋，并最终成功封印魔剑的故事。这部3Dstg作品个人感觉并不出色，ER还是抓住针型子弹不放来设计弹幕，但是游戏的流程没有太多的体现那种空间操纵感，根本达不到TAITO老练的3Dstg制作水准，从第一关的巨大坦克战机可以看出在可以模仿RAYSTORM的第一关场景，因为背境等等实在太象了。关于游戏流程比较单调，而且难度不是太大，完全背离了以往ER那给人以爽快感的游戏设计路线，没有太多鲜明的特色，感觉就是个3D包装下的2Dstg作品，而且弹幕的设计上也显得很疲软，没有新鲜的东西，就是最后一关和最后拥有魔剑的Boss还算有点意思。
+
+game: 紫炎龙
+file: shienryu.zip
+sort-by: 205
+developer: 紫炎龙
+publisher: Warashi
+genre: 1
+x-id: MAME FLY V
+description: Warashi于1997出品的纵版飞机游戏，画面很好，后来被移植到ps2。本游戏难度较高，在单打模式下，如果玩家死命，不能原地复活，需要退回检查点，但在BOSS战中可以原地复活；在双打模式下，可以原地续命。保险可以抵消敌人的子弹，但此时玩家不是无敌的。这个游戏部分制作人员来自于飞机游戏大王，因此在系统方面可以看到很多大王的影子。 大王于1993年发行，紫焰龙于1997年发行。 紫焰龙中有一些向大王致敬一些场景。游戏还有一个等级系统，拥有的生命、炸弹和物品越多，机体等级越高。
+

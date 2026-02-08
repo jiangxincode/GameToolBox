@@ -1,0 +1,1034 @@
+collection: MD hack
+sort-by: 038
+extensions: smd, bin, 7z, zip, gen, md
+launch: "{env.appdir}\RetroArch\retroarch.exe" -L "{env.appdir}\RetroArch\cores\picodrive_libretro.dll" "{file.path}"
+
+game: 怒之铁拳1
+file: 怒之铁拳1.zip
+sort-by: 001
+developer: 怒之铁拳1
+x-id: MD hack(picodrive)
+description: 完全无敌，火力援助不减
+
+game: 怒之铁拳2 Ultra2019
+file: 怒之铁拳2 Ultra2019.zip
+sort-by: 003
+developer: 怒之铁拳2 Ultra2019
+x-id: MD hack(picodrive)
+description: 怒之铁拳2的一个改版，主角狂暴化，可像恐龙新世纪一样斜向跑步，非常灵活，跑步过程中攻击可实现自动连击，极其爽快
+
+game: 怒之铁拳2 汉娜版
+file: 怒之铁拳2 汉娜版.zip
+sort-by: 005
+developer: 怒之铁拳2 汉娜版
+x-id: MD hack(picodrive)
+description: 可使用汉娜
+
+game: 怒之铁拳2 街霸4大天王版
+file: 怒之铁拳2 街霸4大天王版.zip
+sort-by: 006
+developer: 怒之铁拳2 街霸4大天王版
+x-id: MD hack(picodrive)
+description: 可选用街霸2的四大boss
+
+game: 怒之铁拳2 快打旋风版
+file: 怒之铁拳2 快打旋风版.zip
+sort-by: 008
+developer: 怒之铁拳2 快打旋风版
+x-id: MD hack(picodrive)
+description: 可使用快打旋风1代三名角色和春丽。出招：哈格  德式拱桥摔:从背后抓住敌人按Ｂ   大坐:抓住敌人按Ｃ再按Ｂ  铁锤拳:跑动中按Ｂ 音速冲击波:ＢＣ同时按下 战斧旋风拳:前Ａ（不损耗自身体力） 霹雳风雷拳:Ａ（损耗自身体力）          科迪   神龙旋风拳:跑动中按Ｂ 神龙组合拳:按住Ｂ半秒以上再松开 神龙架招:ＢＣ同时按下并按住Ｂ或Ｃ不动（架招成功则获得半秒无敌时间，并以神龙组合拳反击，失败则有惩罚硬直） 升龙拳:前Ａ（不损耗自身体力） 旋风脚:Ａ（损耗自身体力）          凯  武神八双拳:跑动中按Ｂ 武神摆莲脚:按住Ｂ半秒以上再松开  截拳双截棍:ＢＣ同时按下  武神气功弹:前Ａ（不损耗自身体力） 旋风脚:Ａ（损耗自身体力）              春丽（国际刑警，同时也是摔角霸王的忠实观众） 风车投:抓住敌人按Ｃ再迅速按Ｂ 鹤脚落:跑动中按Ｂ 气功拳:按住Ｂ半秒以上再松开  无影百裂脚:ＢＣ同时按下  天升脚:前Ａ（不损耗自身体力）  旋风脚:Ａ（损耗自身体力）
+
+game: 怒之铁拳2 裸版
+file: 怒之铁拳2 裸版.zip
+sort-by: 009
+developer: 怒之铁拳2 裸版
+x-id: MD hack(picodrive)
+description: 可选用原女主裸体，铁血战士，盐老鸭，索尼克中的纳克鲁斯
+
+game: 怒之铁拳2 美少女战士版
+file: 怒之铁拳2 美少女战士版.zip
+sort-by: 010
+developer: 怒之铁拳2 美少女战士版
+x-id: MD hack(picodrive)
+description: 可选用包括美少女战士、敌兵和其他女性角色在内的多名角色
+
+game: 怒之铁拳2 女格斗士
+file: 怒之铁拳2 女格斗士.zip
+sort-by: 011
+developer: 怒之铁拳2 女格斗士
+x-id: MD hack(picodrive)
+description: 可选用4名其他游戏中的女性角色，包括电神魔傀的黑骑士，恐龙新世纪中的汉娜，世界英雄的女剑士珍妮和格斗家出云良子。
+
+game: 怒之铁拳2 女孩天堂全屏
+file: 怒之铁拳2 女孩天堂全屏.zip
+sort-by: 013
+developer: 怒之铁拳2 女孩天堂全屏
+x-id: MD hack(picodrive)
+description: 女孩天堂版可选用多达23名女性角色，来自于拳皇、世界英雄、电神魔傀等众多游戏，这个改版是全屏攻击的，非常变态，适合体验一把
+
+game: 怒之铁拳2 夏尔米版
+file: 怒之铁拳2 夏尔米版.zip
+sort-by: 015
+developer: 怒之铁拳2 夏尔米版
+x-id: MD hack(picodrive)
+description: 可选用拳皇人物夏尔米，必杀技非常强大
+
+game: 怒之铁拳2 英雄出击
+file: 怒之铁拳2 英雄出击.zip
+sort-by: 016
+developer: 怒之铁拳2 英雄出击
+x-id: MD hack(picodrive)
+description: 可选用李小龙，终结者，忍者战士女主，原女主换装
+
+game: 怒之铁拳2 真人快打版
+file: 怒之铁拳2 真人快打版.zip
+sort-by: 017
+developer: 怒之铁拳2 真人快打版
+x-id: MD hack(picodrive)
+description: 可选用真人快打人物，敌人被击倒时尸体有残酷血腥效果
+
+game: 怒之铁拳2 终极斗士
+file: 怒之铁拳2 终极斗士.zip
+sort-by: 018
+developer: 怒之铁拳2 终极斗士
+x-id: MD hack(picodrive)
+description: 可选用摔跤霸王中的蝎子Astro（拥有摔跤霸王杀人蜂艾尔·史汀的头钻技能），boss希瓦，变身忍者女主布鲁内特，街霸达尔西姆
+
+game: 怒之铁拳3 7人无敌
+file: 怒之铁拳3 7人无敌.zip
+sort-by: 019
+developer: 怒之铁拳3 7人无敌
+x-id: MD hack(picodrive)
+description: 可选用7名角色，无敌版
+
+game: 怒之铁拳3 机关版
+file: 怒之铁拳3 机关版.zip
+sort-by: 020
+developer: 怒之铁拳3 机关版
+x-id: MD hack(picodrive)
+description: 总共追加8位女性人物,至此可用人物：原版主角    (稍稍加强冲刺攻击与特殊攻击的判定) 原版女主角 （追加飞踢时裙子会...稍稍加特殊攻击的判定） 原版老头   （追加未使用掌劈动作加强判定）［选这个人后同时按住主机1P与副机2P的C直到游戏开始可开启此人超级拳模式］ 敌方ASH依然保持原版  估计是不是根本没人用？还是在欧美超级受欢迎？ 原版保镖（第一关BOSS）     加入原版不可用的某踢与某些更合适的动作（标题画面“我图片左下方那个画面同时按“上、Ｂ、START”即可在进入选人画面时看到可选 追加夜叉（第二关BOSS）    （直接可选,可用道具,1.3版后再追加那只夜叉兽..） ［选这个人到游戏开始快速1分钟内死掉可开启此人呆呆拳模式］ 追加弁天（神凰拳女神） 使用直接可选保镖的秘籍后，选任何人进入游戏后死掉，接续时才可选此人。或者用2P在1P游戏中按2P的START加入则直接可选。 此人自戴兵器。 追加美月（惩罚者女忍） 用任何人在打倒ASH时按住A直到下个场景，在游戏中死掉，接续时才可选此人。或者用2P在1P达成击败ASH按A过场后,在游戏中按2P的START加入则直接可选。 此人自戴兵器。======另外在正常可用7人外，關於其他隱藏5名人物：--1POISON出现方法:（块打旋风女警察）1.使用弁天时被背抓后可使POISON出现2.使用弁天时掉入单侧的悬崖也可使POISON出现3.使用弁天时被電到也可使POISON出现4.使用美月时,B+C同時按可使POISON出现5.使用美月时,背抓敵人后按B可使POISON出现  --2シーナ出现方法:（神凰拳美人鱼）使用夜叉使用組合技即可使シーナ出现 --3アーカシア出现方法:（梦幻之星4女性无衣敌人）使用夜叉到游戏开始1分钟内快速死掉一條命，下一條命即可开启，按B即可使アーカシア出现--4シェイドミラージュ出现方法:（梦幻之星4女性无衣敌人） 使用夜叉使用棍棒道具時，按前+A 即可使シェイドミラージュ出现 --5轉生風雷神出现方法:（神凰拳风雷女神） 使用弁天时使用組合技即可使轉生風雷神出现。
+
+game: 怒之铁拳3 战斗狂怒版
+file: 怒之铁拳3 战斗狂怒版.zip
+sort-by: 021
+developer: 怒之铁拳3 战斗狂怒版
+x-id: MD hack(picodrive)
+description: 战斗狂怒（Fight'N Rage）是一款由sebagamesdev制作发行，向90年代动作清版游戏致敬的独立游戏，采用经典像素风格，包括多人合作、每关BOSS战、公路摩托车、水上摩托等。这是可选用战斗狂怒三名角色的怒之铁拳3改版。战斗狂怒中充满大量快打旋风和怒之铁拳的元素，这个改版让战斗狂怒的人物穿越回怒之铁拳中战斗。
+
+game: 超级忍2
+file: 超级忍2.zip
+sort-by: 022
+developer: 超级忍2
+x-id: MD hack(picodrive)
+description: 闪电护身不减，命数不减，按暂停立刻加600手里剑，HP恢复满
+
+game: 超级忍2汉化
+file: 超级忍2汉化.zip
+sort-by: 023
+developer: 超级忍2汉化
+x-id: MD hack(picodrive)
+description: 无敌，无限命，无限忍术，无限道具，汉化版。
+
+game: 索尼克3D
+file: 索尼克3D.zip
+sort-by: 024
+developer: 索尼克3D
+x-id: MD hack(picodrive)
+description: 游戏开始时可选择任意关卡
+
+game: 漫画地带
+file: 漫画地带.zip
+sort-by: 027
+developer: 漫画地带
+x-id: MD hack(picodrive)
+description: 休息恢复HP，按C可换招式（可能无效）
+
+game: 超级街头霸王2
+file: 超级街头霸王2.zip
+sort-by: 028
+developer: 超级街头霸王2
+x-id: MD hack(picodrive)
+description: 无敌且出招简化。隆 RYU  ◎波动拳 →+P     ◎灼热波动拳    ↓+P     ◎升龙拳↘+P    ◎龙卷旋风脚   ←+K       ◎空中龙卷旋风脚   ←+K 空中         肯 KEN  ◎波动拳 →+P       ◎升龙拳↘+P    ◎龙卷旋风脚       ←+K   ◎空中龙卷旋风脚   ←+K 空中       春丽 CHUN LI  ◎百裂脚       K连打         ◎气功拳       →+P           ◎回旋鹤脚蹴   ↑+K     ◎回旋鹤脚蹴   ↑+K(空中可)  本田 E.HONDA  ◎百裂张手       P连打  ◎超级头突     →+P           ◎超级百贯落   ↑+K古烈 GUILE  ◎音速手刀     →+P    ◎脚刀         ↑+K    布兰卡 BLANKA  ◎雷霆电击       P连打     ◎回旋撞击     →+P          ◎后步转       →+K  ◎回旋上击     ↑+K     桑基尔夫 ZANGIEF  ◎双截旋风掌  轻P键同时按          ◎快速旋风掌  轻K键同时按(←or→控制左右移动)         ◎螺旋打桩    近敌时↓+p           ◎原子弹爆炸  近敌时↓+K      ◎飞行炸弹    投掷距离以外↓+K达尔锡 DHALSIM  ◎瑜伽火       ↓+P  ◎瑜伽光明     ↓+K  ◎瑜伽隐身    ←or→ + PPP/KKK   拜森 M.BISON  ◎回旋拳       PPP or KKK按住一会再放开       (根据蓄力时间不同共分为8个阶段)     ◎前冲直拳     →+P       ◎冲勾拳     →+K        ◎野牛头槌     ↑+P     巴洛克 BALROG  ◎滚动水晶刺   →+P        ◎高空杀       ↑+P(再按_P能令攻击形式改变)       ◎飞翔巴塞罗那 ↑+K·弹墙后，P     (下降中可用方向控制左右移动)  ◎饭纲落       ↑+K·弹墙后近敌时任一方向+P(下降中可用方向控制左右移动)  萨卡特 SAGAT  ◎猛虎波(上段)   →+P          ◎猛虎波(下段)   →+K           ◎猛虎上升      ↘+P         ◎虎膝击        ↘+K  维加 VEGA  ◎精神爆击     →+P     ◎双重膝压     →+K   ◎恶魔颠倒     ↑+P         ◎头部挤压     ↑+K   ◎船形攻击       P   嘉米 CAMMY  ◎旋转之箭      →+K  ◎大炮轰击     ↘+K   ◎回旋拳        ↓+P      飞龙 FEI LONG  ◎烈火拳      →+P  (可连续输入3次)    ◎炽炎脚    ←+K       迪杰 DEE JAY  ◎真空手刀     →+P       ◎旋转双踢     →+K       ◎机关炮上勾拳 ↑+P·P连打         猎鹰 T.HAWK  ◎神鹰降     空中,轻P       ◎飞斧炸弹        ←+P       ◎墨西哥台风近敌时↓+P
+
+game: 梦幻模拟战1简易版
+file: 梦幻模拟战1简易版.zip
+sort-by: 029
+developer: 梦幻模拟战1简易版
+x-id: MD hack(picodrive)
+description: 简易版，能力提高，指挥修正
+
+game: 梦幻模拟战2
+file: 梦幻模拟战2.zip
+sort-by: 030
+developer: 梦幻模拟战2
+x-id: MD hack(picodrive)
+description: 简体中文，商店物品价格均为10P
+
+game: 梦幻模拟战2简易版
+file: 梦幻模拟战2简易版.zip
+sort-by: 031
+developer: 梦幻模拟战2简易版
+x-id: MD hack(picodrive)
+description: 中文，简易版，修改EXP，佣兵能力，魔法及武器数值，使游戏更简单
+
+game: 大航海时代2
+file: 大航海时代2.zip
+sort-by: 032
+developer: 大航海时代2
+x-id: MD hack(picodrive)
+description: 按A+C加5000黄金
+
+game: 梦幻战士1
+file: 梦幻战士1.zip
+sort-by: 033
+developer: 梦幻战士1
+x-id: MD hack(picodrive)
+description: HP不减，MP不减，命数不减
+
+game: 梦幻战士3
+file: 梦幻战士3.zip
+sort-by: 034
+developer: 梦幻战士3
+x-id: MD hack(picodrive)
+description: 无敌，无限跳，命数不减
+
+game: 光明力量1-诸神之遗产
+file: 光明力量1-诸神之遗产.zip
+sort-by: 035
+developer: 光明力量1-诸神之遗产
+x-id: MD hack(picodrive)
+description: 中文版，部分人物能力最强
+
+game: 光明力量2-古代之封印
+file: 光明力量2-古代之封印.zip
+sort-by: 036
+developer: 光明力量2-古代之封印
+x-id: MD hack(picodrive)
+description: 中文版，秘籍简化：SEGA标志出现时按住←不放，听到效果音，然后：⒈SEGA消失前按住↑不放，就会进入作弊页面。此时按B出现队员列表，然后每按A或者C都可以全员升1级。在战斗中用魔法脱离后复活、变身、买武器、换战士。而选择超级商店（编码30）可以购买全部道具武器。记录后再进入游戏后，退出战场再读取记录就可以普通游戏了。⒉SEGA消失前按住↓不放，可以进行情节选关。还有游戏中按B不放.可以无地形限制，随便走动。
+
+game: 光明十字军
+file: 光明十字军.zip
+sort-by: 037
+developer: 光明十字军
+x-id: MD hack(picodrive)
+description: 语言可选中文，HP不减，金钱最大
+
+game: 新创世纪
+file: 新创世纪.zip
+sort-by: 038
+developer: 新创世纪
+x-id: MD hack(picodrive)
+description: 中文版，HP不减，按Z穿墙
+
+game: 忍者神龟
+file: 忍者神龟.zip
+sort-by: 039
+developer: 忍者神龟
+x-id: MD hack(picodrive)
+description: 命数不减
+
+game: 忍者神龟 斯莱德的再次复仇
+file: 忍者神龟 斯莱德的再次复仇.zip
+sort-by: 040
+developer: 忍者神龟 斯莱德的再次复仇
+x-id: MD hack(picodrive)
+description: 本作为怒之铁拳2的改版，素材源自《忍者神龟 施莱德的复仇》。可选人物有Raph、Leo、Donnie、Mikey、April O'Neil、Splinter 和 Casey Jones，共计七人。
+
+game: 忍者神龟 斯莱德的再次复仇 黄帽版
+file: 忍者神龟 斯莱德的再次复仇 黄帽版.zip
+sort-by: 041
+developer: 忍者神龟 斯莱德的再次复仇 黄帽版
+x-id: MD hack(picodrive)
+description: 本作在怒之铁拳2改版《忍者神龟 斯莱德的再次复仇》的基础上将鼠老师斯普林特改为《恐龙快打》人物黄帽穆斯塔法（老三），敌方小兵、BOSS的打击判定和语音也根据需要做了一些调整。在抓住敌人的招式里加入了火箭筒攻击，两梭子冲锋枪加一发炮弹，威力巨大。
+
+game: 忍者蛙与双截龙
+file: 忍者蛙与双截龙.zip
+sort-by: 042
+developer: 忍者蛙与双截龙
+x-id: MD hack(picodrive)
+description: 命数不减
+
+game: 忍者蛙与双截龙强化
+file: 忍者蛙与双截龙强化.zip
+sort-by: 043
+developer: 忍者蛙与双截龙强化
+x-id: MD hack(picodrive)
+description: 命数40条，无限跳，同时按AC可无限放大招
+
+game: 腐尸之屋2
+file: 腐尸之屋2.zip
+sort-by: 047
+developer: 腐尸之屋2
+x-id: MD hack(picodrive)
+description: 暂停后HP恢复满，按住ABC跳转下一场景，命数不减
+
+game: 腐尸之屋3
+file: 腐尸之屋3.zip
+sort-by: 048
+developer: 腐尸之屋3
+x-id: MD hack(picodrive)
+description: 命数99，按A变身，恢复人形后HP恢复满
+
+game: 腐尸之屋3强化
+file: 腐尸之屋3强化.zip
+sort-by: 049
+developer: 腐尸之屋3强化
+x-id: MD hack(picodrive)
+description: 按住↑+C键跳至下一关，但会出现背景花版，不影响玩。初始变身能力全满，用一次就没了。命数30会减。共6关。最终boss也可以跳关。
+
+game: 蚯蚓战士2
+file: 蚯蚓战士2.zip
+sort-by: 050
+developer: 蚯蚓战士2
+x-id: MD hack(picodrive)
+description: HP减到0也不会死
+
+game: 火箭骑士
+file: 火箭骑士.zip
+sort-by: 051
+developer: 火箭骑士
+x-id: MD hack(picodrive)
+description: 命数不减
+
+game: 恶魔城
+file: 恶魔城.zip
+sort-by: 052
+developer: 恶魔城
+x-id: MD hack(picodrive)
+description: B+C切换无敌，无限跳，初始武器最强，副武器不减
+
+game: 大魔界村
+file: 大魔界村.zip
+sort-by: 053
+developer: 大魔界村
+x-id: MD hack(picodrive)
+description: 按住A+B键进入下一关，按住A+C键回到前一关，但是跳关会减命，总共60条命，每条命初始拥有黄金铠甲，碰一次敌人会丢，再被攻击5下才会死。最终boss不能跳关，但很容易过关。
+
+game: 阿拉丁
+file: 阿拉丁.zip
+sort-by: 054
+developer: 阿拉丁
+x-id: MD hack(picodrive)
+description: 命数不减，宝石和苹果99
+
+game: 火枪英雄
+file: 火枪英雄.zip
+sort-by: 056
+developer: 火枪英雄
+x-id: MD hack(picodrive)
+description: HP不减，暂停后，按↑切换1号子弹种类，按↓切换2号子弹种类
+
+game: 暴力克星
+file: 暴力克星.zip
+sort-by: 057
+developer: 暴力克星
+x-id: MD hack(picodrive)
+description: 命数非常多
+
+game: JUJU传说
+file: JUJU传说.zip
+sort-by: 059
+developer: JUJU传说
+x-id: MD hack(picodrive)
+description: 命数不减
+
+game: Mazin传说
+file: Mazin传说.zip
+sort-by: 060
+developer: Mazin传说
+x-id: MD hack(picodrive)
+description: 开始键立刻恢复满HP，同时加9条命数，获得暂时性隐身
+
+game: Q版超能力美少女
+file: Q版超能力美少女.zip
+sort-by: 061
+developer: Q版超能力美少女
+x-id: MD hack(picodrive)
+description: 等级3，炸弹9，命数9，HP最大
+
+game: X战警
+file: X战警.zip
+sort-by: 062
+developer: X战警
+x-id: MD hack(picodrive)
+description: 无敌，大招不减
+
+game: 阿莉莎之龙
+file: 阿莉莎之龙.zip
+sort-by: 063
+developer: 阿莉莎之龙
+x-id: MD hack(picodrive)
+description: HP不减，闪电快速恢复
+
+game: 暴风战机
+file: 暴风战机.zip
+sort-by: 064
+developer: 暴风战机
+x-id: MD hack(picodrive)
+description: 无敌，炸弹不减，子弹最强
+
+game: 爆裂激战
+file: 爆裂激战.zip
+sort-by: 065
+developer: 爆裂激战
+x-id: MD hack(picodrive)
+description: 子弹不减，炸弹不减，命数不减，无限原地续关
+
+game: 北斗神拳
+file: 北斗神拳.zip
+sort-by: 066
+developer: 北斗神拳
+x-id: MD hack(picodrive)
+description: 无敌
+
+game: 蝙蝠侠
+file: 蝙蝠侠.zip
+sort-by: 067
+developer: 蝙蝠侠
+x-id: MD hack(picodrive)
+description: 命数不减，原地复活。但不能按开始键暂停，否则会把HP清零，为HP hack错误
+
+game: 蝙蝠侠与罗宾
+file: 蝙蝠侠与罗宾.zip
+sort-by: 068
+developer: 蝙蝠侠与罗宾
+x-id: MD hack(picodrive)
+description: A键满气攻击，增加威力，C键换命，暂停换武器
+
+game: 不朽的巫师
+file: 不朽的巫师.zip
+sort-by: 069
+developer: 不朽的巫师
+x-id: MD hack(picodrive)
+description: 中文，HP不减，命数不减，金钱不减，卷轴不减
+
+game: 彩虹岛
+file: 彩虹岛.zip
+sort-by: 070
+developer: 彩虹岛
+x-id: MD hack(picodrive)
+description: 按住A+C键，可跳到下一小关。同时按开始键+下键，直接跳转结局。但有时按键没作弊效果，需要多试几次。共40关，命数30条，会减。
+
+game: 超惑星战记2
+file: 超惑星战记2.zip
+sort-by: 071
+developer: 超惑星战记2
+x-id: MD hack(picodrive)
+description: HP不减，暂停后按C特殊炮弹数量变满
+
+game: 超人
+file: 超人.zip
+sort-by: 072
+developer: 超人
+x-id: MD hack(picodrive)
+description: 无敌
+
+game: 出击飞龙1
+file: 出击飞龙1.zip
+sort-by: 073
+developer: 出击飞龙1
+x-id: MD hack(picodrive)
+description: 按住→+C可跳关。共60命，9血，每条命登场即拥有最强剑
+
+game: 出击飞龙2
+file: 出击飞龙2.zip
+sort-by: 074
+developer: 出击飞龙2
+x-id: MD hack(picodrive)
+description: 手里剑满，开始+↑可无敌，开始+↓切回非无敌，B+↑加命
+
+game: 大旋风
+file: 大旋风.zip
+sort-by: 075
+developer: 大旋风
+x-id: MD hack(picodrive)
+description: 255条命，炸弹不减，僚机可无限召唤，续关不减。死命后不能原地复活。
+
+game: 斗技王
+file: 斗技王.zip
+sort-by: 076
+developer: 斗技王
+x-id: MD hack(picodrive)
+description: 快速升级，MP不减
+
+game: 哆啦A梦
+file: 哆啦A梦.zip
+sort-by: 077
+developer: 哆啦A梦
+x-id: MD hack(picodrive)
+description: 命数99，无敌，按A换道具
+
+game: 风暴丛林
+file: 风暴丛林.zip
+sort-by: 078
+developer: 风暴丛林
+x-id: MD hack(picodrive)
+description: 无敌，弹药不减
+
+game: 风暴都市
+file: 风暴都市.zip
+sort-by: 079
+developer: 风暴都市
+x-id: MD hack(picodrive)
+description: 无敌，弹药不减
+
+game: 风暴沙漠
+file: 风暴沙漠.zip
+sort-by: 080
+developer: 风暴沙漠
+x-id: MD hack(picodrive)
+description: 无敌，弹药不减
+
+game: 疯狂潜入者
+file: 疯狂潜入者.zip
+sort-by: 081
+developer: 疯狂潜入者
+x-id: MD hack(picodrive)
+description: HP不减
+
+game: 复仇之刃
+file: 复仇之刃.zip
+sort-by: 082
+developer: 复仇之刃
+x-id: MD hack(picodrive)
+description: 无敌
+
+game: 盖亚战机
+file: 盖亚战机.zip
+sort-by: 083
+developer: 盖亚战机
+x-id: MD hack(picodrive)
+description: 无敌，火力最强
+
+game: 钢铁帝国
+file: 钢铁帝国.zip
+sort-by: 084
+developer: 钢铁帝国
+x-id: MD hack(picodrive)
+description: HP不减，炸弹不减，速度最快，两个僚机，99条命
+
+game: 高飞狗的惊异之旅
+file: 高飞狗的惊异之旅.zip
+sort-by: 085
+developer: 高飞狗的惊异之旅
+x-id: MD hack(picodrive)
+description: HP不减
+
+game: 怪物世界4
+file: 怪物世界4.zip
+sort-by: 086
+developer: 怪物世界4
+x-id: MD hack(picodrive)
+description: HP不减
+
+game: 怪物世界4强化
+file: 怪物世界4强化.zip
+sort-by: 087
+developer: 怪物世界4强化
+x-id: MD hack(picodrive)
+description: 中文版，初始金钱最多(会减)，升级水晶最多且不减，可用来慢慢加体力。无限跳跃。回复药不减。
+
+game: 海滩冲浪者
+file: 海滩冲浪者.zip
+sort-by: 088
+developer: 海滩冲浪者
+x-id: MD hack(picodrive)
+description: HP不减，命数不减，绿狗不减
+
+game: 黑水海盗
+file: 黑水海盗.zip
+sort-by: 089
+developer: 黑水海盗
+x-id: MD hack(picodrive)
+description: 无限血，无限命，无限金钱，无限钥匙。
+
+game: 红色地带
+file: 红色地带.zip
+sort-by: 090
+developer: 红色地带
+x-id: MD hack(picodrive)
+description: 无敌，弹药不减
+
+game: 花式撞球
+file: 花式撞球.zip
+sort-by: 091
+developer: 花式撞球
+x-id: MD hack(picodrive)
+description: 无限杆
+
+game: 皇帝的财宝
+file: 皇帝的财宝.zip
+sort-by: 092
+developer: 皇帝的财宝
+x-id: MD hack(picodrive)
+description: 透明无敌，全装备，HP不减，金钱最大，拥有剑气
+
+game: 毁灭骑兵
+file: 毁灭骑兵.zip
+sort-by: 093
+developer: 毁灭骑兵
+x-id: MD hack(picodrive)
+description: 命数不减，可原地复活，子弹999会减。
+
+game: 混乱引擎
+file: 混乱引擎.zip
+sort-by: 094
+developer: 混乱引擎
+x-id: MD hack(picodrive)
+description: HP255，不能显示出大量HP，但HP总量很多，很难死亡，子弹最强。
+
+game: 机械战警3
+file: 机械战警3.zip
+sort-by: 095
+developer: 机械战警3
+x-id: MD hack(picodrive)
+description: 命数99，HP800，初始拥有全武器，子弹999会减
+
+game: 吉姆大显神威
+file: 吉姆大显神威.zip
+sort-by: 096
+developer: 吉姆大显神威
+x-id: MD hack(picodrive)
+description: 命数不减，炸弹为9，暂停可加命数，死后不远处复活
+
+game: 交叉火力
+file: 交叉火力.zip
+sort-by: 097
+developer: 交叉火力
+x-id: MD hack(picodrive)
+description: 命数不减，原地复活
+
+game: 鲛鲛鲛
+file: 鲛鲛鲛.zip
+sort-by: 098
+developer: 鲛鲛鲛
+x-id: MD hack(picodrive)
+description: 命数不减，炸弹不减，暂停后，按上进作弊菜单，可自由选择子弹类型，调整剩余炸弹数量
+
+game: 孔雀王2
+file: 孔雀王2.zip
+sort-by: 101
+developer: 孔雀王2
+x-id: MD hack(picodrive)
+description: 无敌
+
+game: 孔雀王2中文强化
+file: 孔雀王2中文强化.zip
+sort-by: 102
+developer: 孔雀王2中文强化
+x-id: MD hack(picodrive)
+description: 中文版，初始8条命会减，每条命有八格血会减。4种法术全开启。无需蓄力，放出的法术是最大威力。无限跳跃。
+
+game: 雷电战机
+file: 雷电战机.zip
+sort-by: 103
+developer: 雷电战机
+x-id: MD hack(picodrive)
+description: 炸弹不减，死亡后不能原地复活
+
+game: 雷狐行动
+file: 雷狐行动.zip
+sort-by: 104
+developer: 雷狐行动
+x-id: MD hack(picodrive)
+description: 命数不减，武器子弹用完后会自动变成下一个武器子弹装满，无限循环下去
+
+game: 邻居不是人
+file: 邻居不是人.zip
+sort-by: 106
+developer: 邻居不是人
+x-id: MD hack(picodrive)
+description: 全物品
+
+game: 灵魂战机
+file: 灵魂战机.zip
+sort-by: 107
+developer: 灵魂战机
+x-id: MD hack(picodrive)
+description: 无敌
+
+game: 零翼战机
+file: 零翼战机.zip
+sort-by: 108
+developer: 零翼战机
+x-id: MD hack(picodrive)
+description: 命数99，两个僚机。攻击键配合方向键可以换子弹，如果不想换子弹，只要持续按住攻击键进行攻击，再按方向键就不会切换子弹了
+
+game: 龙虎之拳
+file: 龙虎之拳.zip
+sort-by: 109
+developer: 龙虎之拳
+x-id: MD hack(picodrive)
+description: HP不减
+
+game: 蚂蚁骑士
+file: 蚂蚁骑士.zip
+sort-by: 110
+developer: 蚂蚁骑士
+x-id: MD hack(picodrive)
+description: ↑+AB恢复满HP，弹药和命数，↓+AB获得一段时间的透明隐身
+
+game: 迈克尔杰克逊月球漫步
+file: 迈克尔杰克逊月球漫步.zip
+sort-by: 111
+developer: 迈克尔杰克逊月球漫步
+x-id: MD hack(picodrive)
+description: 1.站立按上，增加双重攻击效果 2.按B左右移动增加攻击效果B。3.血少时按A增加攻击效果A与回血,出现流星(血槽要受攻击才显示) 4.缩短技能冷却时间 5.OPTIONS选择TRIGGER可选关
+
+game: 麦当劳财宝乐园
+file: 麦当劳财宝乐园.zip
+sort-by: 112
+developer: 麦当劳财宝乐园
+x-id: MD hack(picodrive)
+description: HP不减，命数9，部分道具不减
+
+game: 脉冲超人
+file: 脉冲超人.zip
+sort-by: 113
+developer: 脉冲超人
+x-id: MD hack(picodrive)
+description: HP不减，命数99
+
+game: 美少女战士
+file: 美少女战士.zip
+sort-by: 114
+developer: 美少女战士
+x-id: MD hack(picodrive)
+description: 命数不减
+
+game: 蒙纳克皇族
+file: 蒙纳克皇族.zip
+sort-by: 115
+developer: 蒙纳克皇族
+x-id: MD hack(picodrive)
+description: 金钱6万，兵力6万，npc为5万
+
+game: 米老鼠幻影城堡
+file: 米老鼠幻影城堡.zip
+sort-by: 116
+developer: 米老鼠幻影城堡
+x-id: MD hack(picodrive)
+description: 无敌，按住跳可大跳并浮空，道具不减
+
+game: 魔导物语
+file: 魔导物语.zip
+sort-by: 117
+developer: 魔导物语
+x-id: MD hack(picodrive)
+description: 不完全汉化版，HP999，MP999
+
+game: 魔物猎人妖子
+file: 魔物猎人妖子.zip
+sort-by: 118
+developer: 魔物猎人妖子
+x-id: MD hack(picodrive)
+description: 无敌，无限跳，时间不减，命数不减
+
+game: 鸟人战机
+file: 鸟人战机.zip
+sort-by: 119
+developer: 鸟人战机
+x-id: MD hack(picodrive)
+description: HP不减，子弹不减
+
+game: 泡泡与史威克
+file: 泡泡与史威克.zip
+sort-by: 120
+developer: 泡泡与史威克
+x-id: MD hack(picodrive)
+description: 30条命，每条命HP9，无限跳
+
+game: 三国志3
+file: 三国志3.zip
+sort-by: 121
+developer: 三国志3
+x-id: MD hack(picodrive)
+description: 繁体中文修正加强版
+
+game: 森林守护者
+file: 森林守护者.zip
+sort-by: 122
+developer: 森林守护者
+x-id: MD hack(picodrive)
+description: HP不减
+
+game: 森林王子
+file: 森林王子.zip
+sort-by: 123
+developer: 森林王子
+x-id: MD hack(picodrive)
+description: HP不减，命数不减
+
+game: 杀虫战记
+file: 杀虫战记.zip
+sort-by: 124
+developer: 杀虫战记
+x-id: MD hack(picodrive)
+description: 无敌，火力最强，不减命
+
+game: 闪电出击2
+file: 闪电出击2.zip
+sort-by: 125
+developer: 闪电出击2
+x-id: MD hack(picodrive)
+description: 无敌
+
+game: 闪电出击3
+file: 闪电出击3.zip
+sort-by: 126
+developer: 闪电出击3
+x-id: MD hack(picodrive)
+description: 命数99且不减，可原地复活，C键可任意切换子弹类型
+
+game: 闪电出击4
+file: 闪电出击4.zip
+sort-by: 127
+developer: 闪电出击4
+x-id: MD hack(picodrive)
+description: 无敌
+
+game: 神圣战机
+file: 神圣战机.zip
+sort-by: 128
+developer: 神圣战机
+x-id: MD hack(picodrive)
+description: 标题画面按住ABC开始开启无敌。这个游戏的手感很差，但是，在游戏中暂停后，↓+ABC通关，可欣赏福利画面
+
+game: 生化战机
+file: 生化战机.zip
+sort-by: 129
+developer: 生化战机
+x-id: MD hack(picodrive)
+description: 持续按住A键隐身无敌，但撞击敌机有一定概率会死。C键为聚气攻击。
+
+game: 失落的世界
+file: 失落的世界.zip
+sort-by: 130
+developer: 失落的世界
+x-id: MD hack(picodrive)
+description: 无敌
+
+game: 狮子王
+file: 狮子王.zip
+sort-by: 131
+developer: 狮子王
+x-id: MD hack(picodrive)
+description: HP不减
+
+game: 时空异变
+file: 时空异变.zip
+sort-by: 132
+developer: 时空异变
+x-id: MD hack(picodrive)
+description: 无敌，金钱最大且不减
+
+game: 世嘉银河战士
+file: 世嘉银河战士.zip
+sort-by: 133
+developer: 世嘉银河战士
+x-id: MD hack(picodrive)
+description: 无敌，暂停加雷和命数，A+方向键可切换不同武器，但不要切换成机枪射击，否则会死机
+
+game: 水浒风云传
+file: 水浒风云传.zip
+sort-by: 134
+developer: 水浒风云传
+x-id: MD hack(picodrive)
+description: 死后命数增加
+
+game: 死之迷宫
+file: 死之迷宫.zip
+sort-by: 135
+developer: 死之迷宫
+x-id: MD hack(picodrive)
+description: HP只会被减一点，不会死亡，不会饥饿
+
+game: 松鼠鲁兹
+file: 松鼠鲁兹.zip
+sort-by: 136
+developer: 松鼠鲁兹
+x-id: MD hack(picodrive)
+description: 无限跳
+
+game: 天使之翼
+file: 天使之翼.zip
+sort-by: 137
+developer: 天使之翼
+x-id: MD hack(picodrive)
+description: 全员能力值满
+
+game: 铁钩船长
+file: 铁钩船长.zip
+sort-by: 138
+developer: 铁钩船长
+x-id: MD hack(picodrive)
+description: 无敌，命数不减，可无限空中自由飞行，剑刃满级
+
+game: 兔宝宝历险记
+file: 兔宝宝历险记.zip
+sort-by: 139
+developer: 兔宝宝历险记
+x-id: MD hack(picodrive)
+description: HP不减，命数99且不减
+
+game: 午夜出击
+file: 午夜出击.zip
+sort-by: 140
+developer: 午夜出击
+x-id: MD hack(picodrive)
+description: 99条命，会减
+
+game: 武者ALESTE
+file: 武者ALESTE.zip
+sort-by: 141
+developer: 武者ALESTE
+x-id: MD hack(picodrive)
+description: 命数不减，主火力最强，两个僚机
+
+game: 武装刑警ESWAT
+file: 武装刑警ESWAT.zip
+sort-by: 142
+developer: 武装刑警ESWAT
+x-id: MD hack(picodrive)
+description: 30条命，HP最大，但会减少，按A键可无限跳（C键是普通跳）
+
+game: 星际枪骑兵
+file: 星际枪骑兵.zip
+sort-by: 143
+developer: 星际枪骑兵
+x-id: MD hack(picodrive)
+description: 无敌，拥有两个跟踪导弹，命数不减
+
+game: 幸运兄弟
+file: 幸运兄弟.zip
+sort-by: 144
+developer: 幸运兄弟
+x-id: MD hack(picodrive)
+description: 无敌
+
+game: 旋风狗泰兹
+file: 旋风狗泰兹.zip
+sort-by: 145
+developer: 旋风狗泰兹
+x-id: MD hack(picodrive)
+description: HP不减，旋风不减，掉下悬崖会死
+
+game: 旋风女战士
+file: 旋风女战士.zip
+sort-by: 146
+developer: 旋风女战士
+x-id: MD hack(picodrive)
+description: HP不减，MP不减
+
+game: 雪人兄弟
+file: 雪人兄弟.zip
+sort-by: 147
+developer: 雪人兄弟
+x-id: MD hack(picodrive)
+description: 命数最多且不减，永远拥有加速
+
+game: 杨家将
+file: 杨家将.zip
+sort-by: 148
+developer: 杨家将
+x-id: MD hack(picodrive)
+description: HP增多，命数增多，续关增多。HP显示为满，但是会死
+
+game: 野马战机
+file: 野马战机.zip
+sort-by: 149
+developer: 野马战机
+x-id: MD hack(picodrive)
+description: 命数不减，炸弹不减，死后子弹威力不减
+
+game: 异形3
+file: 异形3.zip
+sort-by: 150
+developer: 异形3
+x-id: MD hack(picodrive)
+description: HP不减，武器齐全弹药不减，无限跳，按暂停时间恢复满
+
+game: 异形风暴
+file: 异形风暴.zip
+sort-by: 151
+developer: 异形风暴
+x-id: MD hack(picodrive)
+description: 无敌，无限使用大招
+
+game: 异形战士
+file: 异形战士.zip
+sort-by: 152
+developer: 异形战士
+x-id: MD hack(picodrive)
+description: HP不减，子弹不减，招式无限使用
+
+game: 异形战士汉化版
+file: 异形战士汉化版.zip
+sort-by: 153
+developer: 异形战士汉化版
+x-id: MD hack(picodrive)
+description: 无敌，子弹不减，时间不减。
+
+game: 翼人
+file: 翼人.zip
+sort-by: 154
+developer: 翼人
+x-id: MD hack(picodrive)
+description: 命数无限
+
+game: 元素支配者
+file: 元素支配者.zip
+sort-by: 155
+developer: 元素支配者
+x-id: MD hack(picodrive)
+description: 无敌，拥有分身，护盾，随时可切换所有武器，火力最大
+
+game: 战场之狼
+file: 战场之狼.zip
+sort-by: 156
+developer: 战场之狼
+x-id: MD hack(picodrive)
+description: 无敌，炸弹不减
+
+game: 战斗玛利亚
+file: 战斗玛利亚.zip
+sort-by: 157
+developer: 战斗玛利亚
+x-id: MD hack(picodrive)
+description: 命数不减，原地复活，装备最强，炸弹无限且可快速使用
+
+game: 战斗原始人
+file: 战斗原始人.zip
+sort-by: 158
+developer: 战斗原始人
+x-id: MD hack(picodrive)
+description: 无敌，命数不减，按住A+↑或↓，B+↑或↓，C+↑或↓可切换共6种武器
+
+game: 真实的谎言
+file: 真实的谎言.zip
+sort-by: 159
+developer: 真实的谎言
+x-id: MD hack(picodrive)
+description: HP不减
+
+game: 终结者2
+file: 终结者2.zip
+sort-by: 160
+developer: 终结者2
+x-id: MD hack(picodrive)
+description: HP不减，命数不减，弹药不减
+
+game: 捉虫英雄
+file: 捉虫英雄.zip
+sort-by: 161
+developer: 捉虫英雄
+x-id: MD hack(picodrive)
+description: 无敌，HP不减，命数不减，大招不减，经验增多
+
+game: 捉鬼敢死队
+file: 捉鬼敢死队.zip
+sort-by: 162
+developer: 捉鬼敢死队
+x-id: MD hack(picodrive)
+description: HP不减，暂停命数和金钱最大
+
