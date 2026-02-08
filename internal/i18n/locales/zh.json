@@ -66,5 +66,11 @@
   "romConverter.tool.4nxci": "4NXCI",
   "romConverter.tool.4nxci.desc": "XCI到NSP转换器",
   "romConverter.tool.custom": "自定义工具",
-  "romConverter.tool.custom.desc": "用户自定义的转换工具"
+  "romConverter.tool.custom.desc": "用户自定义的转换工具",
+  "romConverter.downloadingTool": "正在下载工具",
+  "romConverter.installingTool": "正在安装工具",
+  "romConverter.toolInstalled": "工具安装成功",
+  "romConverter.error.downloadToolFailed": "工具下载失败",
+  "romConverter.error.toolNotFound": "未找到工具",
+  "romConverter.error.conversionFailed": "转换失败"
 }

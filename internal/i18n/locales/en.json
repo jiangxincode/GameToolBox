@@ -66,5 +66,11 @@
   "romConverter.tool.4nxci": "4NXCI",
   "romConverter.tool.4nxci.desc": "XCI to NSP converter",
   "romConverter.tool.custom": "Custom Tool",
-  "romConverter.tool.custom.desc": "User-defined conversion tool"
+  "romConverter.tool.custom.desc": "User-defined conversion tool",
+  "romConverter.downloadingTool": "Downloading tool",
+  "romConverter.installingTool": "Installing tool",
+  "romConverter.toolInstalled": "Tool installed successfully",
+  "romConverter.error.downloadToolFailed": "Tool download failed",
+  "romConverter.error.toolNotFound": "Tool not found",
+  "romConverter.error.conversionFailed": "Conversion failed"
 }

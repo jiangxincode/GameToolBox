@@ -1,6 +1,7 @@
 package romconverter
 
 import (
+"context"
 "fmt"
 "os"
 "path/filepath"
@@ -13,7 +14,6 @@ Name        string // Display name
 ID          string // Unique identifier
 Description string // Tool description
 GitHubRepo  string // GitHub repository (owner/repo)
-// Future: Add binary path, version, etc.
 }
 
 // SwitchFormat represents a Nintendo Switch ROM format.
@@ -33,8 +33,6 @@ return []SwitchFormat{FormatXCI, FormatNSP, FormatNSZ, FormatXCZ}
 
 // GetSwitchTools returns available Switch ROM conversion tools.
 func GetSwitchTools() []ConversionTool {
-// Note: Tool names are static as they are proper nouns/brand names.
-// Descriptions are in English; localization can be added in UI layer if needed.
 return []ConversionTool{
 {
 Name:        "nsz (nicoboss/nsz)",
@@ -82,6 +80,8 @@ targetDir    string
 sourceFormat SwitchFormat
 targetFormat SwitchFormat
 progressCB   func(ConversionProgress)
+toolManager  *ToolManager
+ctx          context.Context
 }
 
 // NewConverter creates a new ROM converter.
@@ -91,6 +91,7 @@ sourceDir, targetDir string,
 sourceFormat, targetFormat SwitchFormat,
 progressCallback func(ConversionProgress),
 ) *Converter {
+toolManager, _ := NewToolManager()
 return &Converter{
 tool:         tool,
 sourceDir:    sourceDir,
@@ -98,6 +99,8 @@ targetDir:    targetDir,
 sourceFormat: sourceFormat,
 targetFormat: targetFormat,
 progressCB:   progressCallback,
+toolManager:  toolManager,
+ctx:          context.Background(),
 }
 }
 
@@ -119,8 +122,6 @@ return nil
 }
 
 // Convert performs the ROM format conversion.
-// This is a placeholder implementation that will need to be extended
-// with actual tool integration.
 func (c *Converter) Convert() ConversionResult {
 result := ConversionResult{}
 
@@ -133,6 +134,38 @@ return result
 if err := os.MkdirAll(c.targetDir, 0755); err != nil {
 result.Errors = append(result.Errors, fmt.Errorf("failed to create target directory: %w", err))
 return result
+}
+
+// Check if tool is installed, if not download it
+if c.toolManager != nil && !c.toolManager.IsToolInstalled(c.tool) {
+if c.tool.ID != "custom" {
+if c.progressCB != nil {
+c.progressCB(ConversionProgress{
+CurrentFile:  "Downloading tool...",
+SuccessCount: 0,
+FailureCount: 0,
+TotalCount:   0,
+IsRunning:    true,
+})
+}
+
+err := c.toolManager.DownloadTool(c.ctx, c.tool, func(msg string) {
+if c.progressCB != nil {
+c.progressCB(ConversionProgress{
+CurrentFile:  msg,
+SuccessCount: 0,
+FailureCount: 0,
+TotalCount:   0,
+IsRunning:    true,
+})
+}
+})
+
+if err != nil {
+result.Errors = append(result.Errors, fmt.Errorf("failed to download tool: %w", err))
+return result
+}
+}
 }
 
 // Find all ROM files with the source format
@@ -159,8 +192,6 @@ IsRunning:    true,
 })
 }
 
-// TODO: Implement actual conversion logic based on the selected tool
-// For now, this is a placeholder that simulates conversion
 err := c.convertFile(romFile)
 if err != nil {
 result.FailureCount++
@@ -202,29 +233,28 @@ return nil
 return files, err
 }
 
-// convertFile converts a single ROM file.
-// This is a placeholder that needs to be implemented with actual tool integration.
+// convertFile converts a single ROM file using the tool manager.
 func (c *Converter) convertFile(sourcePath string) error {
-// Placeholder implementation
-// In a real implementation, this would:
-// 1. Check if the conversion tool is installed
-// 2. Download the tool if not installed
-// 3. Execute the tool with appropriate parameters
-// 4. Handle the conversion output
+if c.toolManager == nil {
+return fmt.Errorf("tool manager not initialized")
+}
 
-// For now, return an error indicating this is not yet implemented
-return fmt.Errorf("conversion not yet implemented - tool integration required")
+// Use the tool manager to execute the conversion
+return c.toolManager.ExecuteConversion(c.tool, sourcePath, c.targetDir, c.sourceFormat, c.targetFormat)
 }
 
 // IsToolInstalled checks if the selected conversion tool is installed.
 func (c *Converter) IsToolInstalled() bool {
-// Placeholder - will check if tool binary exists
+if c.toolManager == nil {
 return false
+}
+return c.toolManager.IsToolInstalled(c.tool)
 }
 
 // DownloadTool downloads and installs the selected conversion tool.
 func (c *Converter) DownloadTool() error {
-// Placeholder for tool download logic
-// Will implement GitHub release download in the future
-return fmt.Errorf("tool download not yet implemented")
+if c.toolManager == nil {
+return fmt.Errorf("tool manager not initialized")
+}
+return c.toolManager.DownloadTool(c.ctx, c.tool, nil)
 }
