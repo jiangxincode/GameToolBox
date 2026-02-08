@@ -49,6 +49,7 @@ type ItemKind int
 const (
 	ItemRaw ItemKind = iota
 	ItemGame
+	ItemCollection
 )
 
 type Item interface {
@@ -62,6 +63,26 @@ type RawItem struct {
 
 func (r RawItem) Kind() ItemKind  { return ItemRaw }
 func (r RawItem) Lines() []string { return r.lines }
+
+// Collection represents a Pegasus collection block with its metadata.
+// Collections group games together and define how they should be launched.
+type Collection struct {
+	Name       string // collection: name
+	ShortName  string // shortname: name
+	SortBy     string // sort-by: number
+	Launch     string // launch: command template
+	Extensions string // extension: comma-separated list
+	Files      string // files: path patterns
+}
+
+type CollectionItem struct {
+	lines      []string
+	collection Collection
+}
+
+func (c CollectionItem) Kind() ItemKind      { return ItemCollection }
+func (c CollectionItem) Lines() []string     { return c.lines }
+func (c CollectionItem) Collection() Collection { return c.collection }
 
 type Game struct {
 	// Core fields
@@ -140,7 +161,9 @@ func Parse(text string) *Document {
 
 	var rawBuf []string
 	var gameLines []string
-	var current *Game
+	var collectionLines []string
+	var currentGame *Game
+	var currentCollection *Collection
 	gameID := 1
 	_ = gameID // kept for future stable IDs; currently unused
 
@@ -152,12 +175,20 @@ func Parse(text string) *Document {
 		rawBuf = rawBuf[:0]
 	}
 	flushGame := func() {
-		if current == nil {
+		if currentGame == nil {
 			return
 		}
-		d.items = append(d.items, GameItem{lines: append([]string(nil), gameLines...), game: *current})
-		current = nil
+		d.items = append(d.items, GameItem{lines: append([]string(nil), gameLines...), game: *currentGame})
+		currentGame = nil
 		gameLines = gameLines[:0]
+	}
+	flushCollection := func() {
+		if currentCollection == nil {
+			return
+		}
+		d.items = append(d.items, CollectionItem{lines: append([]string(nil), collectionLines...), collection: *currentCollection})
+		currentCollection = nil
+		collectionLines = collectionLines[:0]
 	}
 
 	parseKV := func(line string) (key, val string, ok bool) {
@@ -189,87 +220,138 @@ func Parse(text string) *Document {
 		}
 	}
 
+	isCollectionField := func(key string) bool {
+		switch key {
+		case "shortname", "sort-by", "launch", "extension", "files":
+			return true
+		default:
+			return false
+		}
+	}
+
 	for scanner.Scan() {
 		line := scanner.Text()
 		key, val, ok := parseKV(line)
 
-		// Per Pegasus meta-files spec, a new game entry starts at a line whose
-		// trimmed key is `game` (case-insensitive; allows spaces around ':').
+		// New collection block
+		if ok && key == "collection" {
+			flushRaw()
+			flushGame()
+			flushCollection()
+
+			c := Collection{Name: val}
+			currentCollection = &c
+			collectionLines = append(collectionLines, line)
+			continue
+		}
+
+		// New game block
 		if ok && key == "game" {
 			flushRaw()
 			flushGame()
+			flushCollection()
 
 			g := Game{GameName: val}
-			current = &g
+			currentGame = &g
 			gameLines = append(gameLines, line)
 			continue
 		}
 
-		if current == nil {
-			rawBuf = append(rawBuf, line)
-			continue
-		}
-
-		// Inside a game block:
-		// If we encounter a non-empty key/value that isn't a recognized game field,
-		// it likely starts another block type (e.g. collection), so we close the
-		// game block and treat this line as raw.
-		if ok && key != "" && !isGameField(key) {
-			flushGame()
-			rawBuf = append(rawBuf, line)
-			continue
-		}
-
-		// Parse known subset.
-		if ok {
-			switch key {
-			case "file":
-				current.FileName = val
-			case "sort-by":
-				current.SortBy = val
-			case "developer":
-				current.Developer = val
-			case "description":
-				current.Description = val
-			case "publisher":
-				current.Publisher = val
-			case "genre":
-				current.Genre = val
-			case "genres":
-				current.Genres = val
-			case "players":
-				current.Players = val
-			case "rating":
-				current.Rating = val
-			case "release":
-				current.Release = val
-			case "logo":
-				current.Logo = val
-			case "video":
-				current.Video = val
-			case "screenshot":
-				current.Screenshot = val
-			case "boxfront":
-				current.BoxFront = val
-			case "boxback":
-				current.BoxBack = val
-			case "boxspine":
-				current.BoxSpine = val
-			case "boxfull":
-				current.BoxFull = val
-			case "background":
-				current.Background = val
-			case "music":
-				current.Music = val
-			case "files":
-				current.Files = val
+		// Inside a collection block
+		if currentCollection != nil {
+			if ok && key != "" && !isCollectionField(key) {
+				// Unknown field that's not a collection field - ends collection block
+				flushCollection()
+				rawBuf = append(rawBuf, line)
+				continue
 			}
+
+			// Parse collection fields
+			if ok {
+				switch key {
+				case "shortname":
+					currentCollection.ShortName = val
+				case "sort-by":
+					currentCollection.SortBy = val
+				case "launch":
+					currentCollection.Launch = val
+				case "extension":
+					currentCollection.Extensions = val
+				case "files":
+					currentCollection.Files = val
+				}
+			}
+			collectionLines = append(collectionLines, line)
+			continue
 		}
-		gameLines = append(gameLines, line)
+
+		// Inside a game block
+		if currentGame != nil {
+			// If we encounter a non-empty key/value that isn't a recognized game field,
+			// it likely starts another block type (e.g. collection), so we close the
+			// game block and treat this line as raw.
+			if ok && key != "" && !isGameField(key) {
+				flushGame()
+				rawBuf = append(rawBuf, line)
+				continue
+			}
+
+			// Parse known game fields
+			if ok {
+				switch key {
+				case "file":
+					currentGame.FileName = val
+				case "sort-by":
+					currentGame.SortBy = val
+				case "developer":
+					currentGame.Developer = val
+				case "description":
+					currentGame.Description = val
+				case "publisher":
+					currentGame.Publisher = val
+				case "genre":
+					currentGame.Genre = val
+				case "genres":
+					currentGame.Genres = val
+				case "players":
+					currentGame.Players = val
+				case "rating":
+					currentGame.Rating = val
+				case "release":
+					currentGame.Release = val
+				case "logo":
+					currentGame.Logo = val
+				case "video":
+					currentGame.Video = val
+				case "screenshot":
+					currentGame.Screenshot = val
+				case "boxfront":
+					currentGame.BoxFront = val
+				case "boxback":
+					currentGame.BoxBack = val
+				case "boxspine":
+					currentGame.BoxSpine = val
+				case "boxfull":
+					currentGame.BoxFull = val
+				case "background":
+					currentGame.Background = val
+				case "music":
+					currentGame.Music = val
+				case "files":
+					currentGame.Files = val
+				}
+			}
+			gameLines = append(gameLines, line)
+			continue
+		}
+
+		// Not in any block - treat as raw
+		rawBuf = append(rawBuf, line)
 	}
 
 	flushRaw()
 	flushGame()
+	flushCollection()
 	return d
 }
 
@@ -295,6 +377,19 @@ func (d *Document) Games() []Game {
 			continue
 		}
 		out = append(out, gi.game)
+	}
+	return out
+}
+
+// Collections returns all parsed collections (in file order).
+func (d *Document) Collections() []Collection {
+	out := make([]Collection, 0, len(d.items))
+	for _, it := range d.items {
+		ci, ok := it.(CollectionItem)
+		if !ok {
+			continue
+		}
+		out = append(out, ci.collection)
 	}
 	return out
 }
