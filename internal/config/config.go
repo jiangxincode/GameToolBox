@@ -35,6 +35,12 @@ type Config struct {
 	// Optional user account for higher rate limits / additional access.
 	ScreenScraperUser     string `json:"screenScraperUser,omitempty"`
 	ScreenScraperPassword string `json:"screenScraperPassword,omitempty"`
+
+	// --- ROM Converter settings ---
+	// RomConverterSourceDir remembers last selected source directory for ROM conversion.
+	RomConverterSourceDir string `json:"romConverterSourceDir,omitempty"`
+	// RomConverterTargetDir remembers last selected target directory for ROM conversion.
+	RomConverterTargetDir string `json:"romConverterTargetDir,omitempty"`
 }
 
 // Dir returns the application data directory used to store config/log files.

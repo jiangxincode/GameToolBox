@@ -4,6 +4,7 @@
   "menu.settings": "Settings",
   "menu.help": "Help",
   "menu.pegasus": "Pegasus G",
+  "menu.romConverter": "ROM Format Converter",
 
   "menuitem.settings.settings": "Settings",
 
@@ -12,6 +13,8 @@
   "menuitem.pegasus.configManager" : "Game Config Manager",
   "menuitem.pegasus.gameRemover" : "Game Remover",
   "menuitem.pegasus.manualAddGame" : "Manual Add Game",
+
+  "menuitem.romConverter.switch": "Switch",
 
   "menuitem.help.docs": "Docs",
   "menuitem.help.feedback": "Feedback",
@@ -31,5 +34,29 @@
   "lang.zh": "Chinese",
 
   "button.back": "Back",
-  "todo.prefix": "Coming soon: "
+  "todo.prefix": "Coming soon: ",
+
+  "romConverter.title": "ROM Format Converter",
+  "romConverter.tool": "Conversion Tool",
+  "romConverter.selectTool": "Select Tool",
+  "romConverter.sourceFormat": "Source Format",
+  "romConverter.targetFormat": "Target Format",
+  "romConverter.sourceDir": "Source ROM Directory",
+  "romConverter.targetDir": "Target Save Directory",
+  "romConverter.chooseDir": "Choose Directory",
+  "romConverter.convert": "Start Conversion",
+  "romConverter.status": "Status",
+  "romConverter.idle": "Ready",
+  "romConverter.converting": "Converting...",
+  "romConverter.complete": "Conversion Complete",
+  "romConverter.currentFile": "Current File",
+  "romConverter.successCount": "Success",
+  "romConverter.failureCount": "Failed",
+  "romConverter.totalCount": "Total",
+  "romConverter.downloading": "Downloading tool...",
+  "romConverter.error.noTool": "Please select a conversion tool",
+  "romConverter.error.noSourceDir": "Please select source ROM directory",
+  "romConverter.error.noTargetDir": "Please select target save directory",
+  "romConverter.error.sameDir": "Source and target directories cannot be the same",
+  "romConverter.error.downloadFailed": "Tool download failed"
 }

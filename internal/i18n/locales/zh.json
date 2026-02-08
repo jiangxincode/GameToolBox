@@ -4,6 +4,7 @@
   "menu.settings": "设置",
   "menu.help": "帮助",
   "menu.pegasus": "天马G",
+  "menu.romConverter": "ROM文件格式转换",
 
   "menuitem.settings.settings": "设置",
 
@@ -12,6 +13,8 @@
   "menuitem.pegasus.configManager" : "游戏配置文件管理器",
   "menuitem.pegasus.gameRemover" : "游戏删除器",
   "menuitem.pegasus.manualAddGame" : "手动增加游戏",
+
+  "menuitem.romConverter.switch": "Switch",
 
   "menuitem.help.docs": "文档",
   "menuitem.help.feedback": "意见反馈",
@@ -31,5 +34,29 @@
   "lang.zh": "中文",
 
   "button.back": "返回",
-  "todo.prefix": "这里将来会放置："
+  "todo.prefix": "这里将来会放置：",
+
+  "romConverter.title": "ROM格式转换器",
+  "romConverter.tool": "转换工具",
+  "romConverter.selectTool": "选择转换工具",
+  "romConverter.sourceFormat": "源格式",
+  "romConverter.targetFormat": "目标格式",
+  "romConverter.sourceDir": "源ROM目录",
+  "romConverter.targetDir": "目标保存目录",
+  "romConverter.chooseDir": "选择目录",
+  "romConverter.convert": "开始转换",
+  "romConverter.status": "状态",
+  "romConverter.idle": "就绪",
+  "romConverter.converting": "正在转换...",
+  "romConverter.complete": "转换完成",
+  "romConverter.currentFile": "当前文件",
+  "romConverter.successCount": "成功",
+  "romConverter.failureCount": "失败",
+  "romConverter.totalCount": "总计",
+  "romConverter.downloading": "正在下载工具...",
+  "romConverter.error.noTool": "请选择转换工具",
+  "romConverter.error.noSourceDir": "请选择源ROM目录",
+  "romConverter.error.noTargetDir": "请选择目标保存目录",
+  "romConverter.error.sameDir": "源目录和目标目录不能相同",
+  "romConverter.error.downloadFailed": "工具下载失败"
 }
