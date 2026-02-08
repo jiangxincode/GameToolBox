@@ -65,7 +65,7 @@ Directory structure:
 ## Usage
 
 ### From UI
-1. Select "ROM文件格式转换" → "Switch" from menu
+1. Select "ROM文件格式转换" (ROM Format Converter) → "Switch" from menu
 2. Choose conversion tool
 3. Select source and target formats
 4. Choose source ROM directory
