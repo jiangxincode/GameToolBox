@@ -1,0 +1,110 @@
+collection: MD hack
+sort-by: 038
+extensions: smd, bin, 7z, zip, gen
+launch: "{env.appdir}\RetroArch\retroarch.exe" -L "{env.appdir}\RetroArch\cores\genesis_plus_gx_libretro.dll" "{file.path}"
+
+game: 怒之铁拳2 23角色版
+file: 怒之铁拳2 23角色版.zip
+sort-by: 002
+developer: 怒之铁拳2 23角色版
+x-id: MD hack
+description: 可选用地方小兵 boss在内的共23名角色，并不是所有角色都很好用，但很有新鲜感，适合体验一下多角色。可无限跳，暂停再开始可换角色，必杀不减HP。
+
+game: 怒之铁拳2 大蛇悟空版
+file: 怒之铁拳2 大蛇悟空版.zip
+sort-by: 004
+developer: 怒之铁拳2 大蛇悟空版
+x-id: MD hack
+description: 可选角色有大蛇，超赛悟空，拳皇里的zero。三个人各有特色，Zero拿了武器后，站立不动的话，武器虽然花了，但是在身上漂浮的效果超帅，堪称完美，不是因为屠杀的效果劲爆，而是这个作品里，可选角色的颜色，声音和尺寸处理的十分到位。与背景和敌兵角色完全融为一体，感觉完全是一个游戏里的人，而不是刻意修改拼凑上去的感觉。
+
+game: 怒之铁拳2 街头霸王
+file: 怒之铁拳2 街头霸王.zip
+sort-by: 007
+developer: 怒之铁拳2 街头霸王
+x-id: MD hack
+description: 可选用街霸2达尔西姆，隆，古烈，肯四名角色。
+
+game: 怒之铁拳2 女孩天堂
+file: 怒之铁拳2 女孩天堂.zip
+sort-by: 012
+developer: 怒之铁拳2 女孩天堂
+x-id: MD hack
+description: 怒之铁拳2 女孩天堂是一个国外改版，把原版中所有的出场角色都换成了女性角色，包括出场的主角和敌方角色。
+
+game: 怒之铁拳2 忍者战士
+file: 怒之铁拳2 忍者战士.zip
+sort-by: 014
+developer: 怒之铁拳2 忍者战士
+x-id: MD hack
+description: 可选用忍者战士的几名忍者角色。女性角色行走时非常“合拍”，非常有“韵律感”。
+
+game: 魂斗罗
+file: 魂斗罗.zip
+sort-by: 025
+developer: 魂斗罗
+x-id: MD hack
+description: 全关卡可玩，ABC同时按下可无敌。
+
+game: 魂斗罗3.3
+file: 魂斗罗3.3.zip
+sort-by: 026
+developer: 魂斗罗3.3
+x-id: MD hack
+description: 全关卡八角色HP不减，原rom是俄罗斯高手的作品，一个8个人，原来4个主角都在，又另外加了4个机器人，把所有分支版面串在了一起，重新编排了剧情，很不错的改版。Hack内容：HP不减，命无限，武器不掉落了。增加武器伤害，修正了11级时的蜘蛛，移除了4级时进入竞技场的变化。武器的全新平衡，固定了1级的建造，固定了4级的建造，现在用于角色通过6HP。修复了1级建筑，修复了2级蜘蛛。
+
+game: 战斧1
+file: 战斧1.zip
+sort-by: 044
+developer: 战斧1
+x-id: MD hack
+description: HP不减
+
+game: 战斧2
+file: 战斧2.zip
+sort-by: 045
+developer: 战斧2
+x-id: MD hack
+description: HP不减，MP不减
+
+game: 战斧3
+file: 战斧3.zip
+sort-by: 046
+developer: 战斧3
+x-id: MD hack
+description: 命数不减，MP不减
+
+game: 落日骑士
+file: 落日骑士.zip
+sort-by: 055
+developer: 落日骑士
+x-id: MD hack
+description: 开始键+↑无敌
+
+game: ★乌鸦少女艾拉
+file: ★乌鸦少女艾拉.zip
+sort-by: 058
+developer: ★乌鸦少女艾拉
+x-id: MD hack
+description: 2021年的新作。游戏画面精美炫酷，玩法是传统的横版过关。本hack rom中，按B键（攻击）开启无敌。
+
+game: 街头霸王复刻简化
+file: 街头霸王复刻简化.zip
+sort-by: 099
+developer: 街头霸王复刻简化
+x-id: MD hack
+description: 方向键+拳脚可轻松出招
+
+game: 空牙
+file: 空牙.zip
+sort-by: 100
+developer: 空牙
+x-id: MD hack
+description: HP不减
+
+game: 粒子战士2
+file: 粒子战士2.zip
+sort-by: 105
+developer: 粒子战士2
+x-id: MD hack
+description: HP不减
+

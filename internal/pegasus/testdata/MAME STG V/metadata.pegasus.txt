@@ -1,0 +1,52 @@
+collection:射击街机
+sort-by:003
+extensions: 7z, zip
+ignore-files: 
+  neogeo.zip
+  pgm.zip
+  stvbios.zip
+  coh1002m.zip
+  namcoc74.7z
+  m68705p5.zip
+  qsound_hle.7z
+  segabill.zip
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/mame_libretro.dll" "{file.path}"
+
+game: 奇奇怪界 汉化版
+file: kikikai.zip
+sort-by: 052
+developer: 奇奇怪界 汉化版
+publisher: Taito
+genre: 2
+release: 86-1-1
+x-id: MAME STG V
+description: 盛大官方汉化版
+
+game: 怪叔叔救美
+file: nob.zip
+sort-by: 086
+developer: 怪叔叔救美
+publisher: Data East
+x-id: MAME STG V
+description: 该游戏是一款垂直滚动射击游戏，玩家控制的角色必须爬上一棵树并射击类似虫子的敌人。故事讲述了公主被昆虫世界的恶棍绑架了，而 Zippy Bug 不得不去救她。射击敌人后，他们会掉落水果，玩家可以收集这些水果来获得额外的分数。敌人优势还会掉落让主角一触即死的头骨。玩家可以短时间飞行，每次完成后，屏幕底部“我爱你”中的一个字母就会用完。这些字母会在一小段时间内重新生成。游戏中还有其他物品，例如钥匙，它将玩家包围在一个泡泡中，使他不会受到 1 次攻击。另一个道具是一枚戒指，它似乎可以立即补充所有用完的“我爱你”字母。锤子允许玩家消灭屏幕上的所有敌人。每个关卡的末尾都有一个BOSS战。
+
+game: 魂斗罗1 汉化版
+file: contraj.zip
+sort-by: 092
+developer: 魂斗罗1 汉化版
+publisher: Konami
+genre: Platform
+release: 87-1-1
+x-id: MAME STG V
+description: 盛大官方汉化版
+
+game: 守护者
+file: asylum.zip
+sort-by: 183
+developer: 守护者
+publisher: Leland Corp.
+genre: Shoot-'Em-Up
+release: 91-1-1
+x-id: MAME STG V
+description: 俯视图射击游戏。玩家控制三个角色中的一个来选择，一个名叫“Rip”的性感女孩拿着刀，一个名叫“Rak”的枪手拿着一把枪，一个名叫“Rol”的强壮男人拿着一把锁链狼牙棒，他们必须逃离一个阴暗晦暗的地方，由邪恶的“先生”建造的庇护大楼。 G' 将我们的英雄囚禁在其中。你必须在跳跃和射击所有令人毛骨悚然的生物的同时穿越迷宫般的水平，直到你找到电梯出口到下一个水平，然后他们战斗到庇护所的顶部以摧毁 G 先生并活着逃脱地方。游戏特色，血腥场景和美妙的声音！
+

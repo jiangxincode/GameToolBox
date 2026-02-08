@@ -1,0 +1,472 @@
+collection: 运动街机
+sort-by: 007
+extensions: 7z, zip
+ignore-files: 
+  pgm.zip
+  neogeo.zip
+  drgnwrld.zip
+  kingdrby.zip
+  crysbios.zip
+  namcoc76.7z
+  ym2413.zip
+  coh1002m.zip
+  sys573.zip
+  segabill.zip
+  konamigx.7z
+  aleck64.zip
+  stvbios.zip
+  m68705p5.zip
+  coh1000t.zip
+  midcsd.zip
+  sente6vb.zip
+  ym2608.zip
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/mame_libretro.dll" "{file.path}"
+
+game: 战斗足球
+file: fsoccer.zip
+sort-by: 008
+developer: 战斗足球
+publisher: SNK
+release: Soccer
+x-id: MAME SPO
+description: 高空足球比赛。
+
+game: 超级足球
+file: sfchamp.zip
+sort-by: 015
+developer: 超级足球
+publisher: Taito
+release: Soccer
+x-id: MAME SPO
+description: 作为 Hat Trick Hero 的精神续作，Super Football Champ 是一款纯粹的街机动作游戏，打破了所有视频足球游戏都必须是这项运动的严肃模拟的想法。 SFC 是一种足球游戏，您可以在街机厅花一个小时左右的零钱，然后在回家的路上嘲笑一包筹码。游戏中的图形通常是街机，笨重的多边形球员在球场上缓慢地走来走去，为了控球而推来推去。尽管他们看起来像是一群编号的克隆人，但您的明星球员确实以其独特的特征和发型从人群中脱颖而出（别忘了提到他头顶闪烁的“Ace”箭头）。有 30 支国际团队可供选择，他们的技能与现实生活中的对手水平相当。
+
+game: 英式足球
+file: fiveside.zip
+sort-by: 016
+developer: 英式足球
+publisher: Konami
+release: Soccer
+x-id: MAME SPO
+description: Five A Side Soccer 是 Konami Ultra Sports 系列中的两款游戏之一。这场足球比赛是在一个或两个玩家的桌面街机上进行的。每个玩家使用两个按钮和一个轨迹球来控制足球运动员。球员可以自定义球队的比赛风格和特点，无论是注重防守还是擅长踢球。还有三种不同类型的足球场。
+
+game: 顶级足球
+file: prmrsocr.zip
+sort-by: 017
+developer: 顶级足球
+publisher: Konami
+release: Soccer
+x-id: MAME SPO
+description: Premier Soccer 是一款足球游戏，您可以在其中选择一支球队并努力让他们进入决赛并赢得比赛。在从该大陆选择一个国家之前，您首先要选择您想要玩的大陆。您还有四种选择，可以选择您希望相机在播放时的距离。
+
+game: 意大利足球赛1997
+file: lbgrande.zip
+sort-by: 019
+developer: 意大利足球赛1997
+publisher: Namco
+genre: Namco
+release: Soccer
+x-id: MAME SPO
+description: Libero Grande 至少可以说是一款非常独特的足球游戏。在这个游戏中，你只控制球队中的一名明星球员，玩起来像后来实况足球系列里的一球成名模式。
+
+game: 青春得分 EX
+file: primglex.zip
+sort-by: 020
+developer: 青春得分 EX
+publisher: Namco
+release: Soccer
+x-id: MAME SPO
+description: J-League Prime Goal EX 是 Sony 游戏机中的首批足球游戏之一，继之前出现在 SNES 之后，Prime Goal 是一款简单的动作游戏，具有简单的街机控制。日本版包含所有 14 支 JLeague 球队和获得完全许可的球员，而欧洲版则包含相同数量的国家队和虚构的球员，全部来自欧洲。游戏模式包括友谊赛、联赛和杯赛淘汰赛模式，以及全明星赛，玩家可以从选定区域的最佳球星中选择自己的球星。
+
+game: Tecmo 世界杯足球
+file: twcupmil.zip
+sort-by: 023
+developer: Tecmo 世界杯足球
+publisher: Tecmo
+genre: Tecmo
+release: Soccer
+x-id: MAME SPO
+description: 作为 Tecmo World Cup '98 的改进版，Tecmo World Cup Millenium 拥有比 Tecmo 早期作品更好的画面、更多动作和更流畅的帧率。玩家可以选择十六个可用的国家队中的任何一个；如果由 AI 控制，则无法手动选择对手。
+
+game: 进化足球
+file: evosocc.zip
+sort-by: 026
+developer: 进化足球
+publisher: Evoga
+genre: Evoga
+release: Soccer
+x-id: MAME SPO
+description: Evoga/BrezzaSoft于2001年推出的2.5D足球游戏，画面还不错。
+
+game: 一脚进门
+file: pwrkick.zip
+sort-by: 031
+developer: 一脚进门
+publisher: Sunwise
+release: Soccer
+x-id: MAME SPO
+description: 
+
+game: NBA背靠背
+file: nbapbp.zip
+sort-by: 035
+developer: NBA背靠背
+publisher: Konami
+genre: Konami
+release: Basketball
+x-id: MAME SPO
+description: NBA Play By Play 是一款获得官方授权的街机篮球游戏，玩家可以控制 NBA 29 支球队中的任何一支。游戏的目标是打完 1998 年 NBA 季后赛并最终赢得 NBA 总决赛。游戏玩法与 Konami 的另一款篮球游戏 NBA Give 'n Go 类似，但摄像机为出现在边线。除了标准的投篮和传球外，还可以进行各种特殊的比赛，例如空中接力、假扣篮、反弹扣篮、假动作、后仰或勾手投篮等等。
+
+game: NBA跑轰
+file: rungun.zip
+sort-by: 036
+developer: NBA跑轰
+publisher: Konami
+genre: Konami
+release: Basketball
+x-id: MAME SPO
+description: 类似于 NBA Jam 的街机篮球游戏。在单独的柜子上与其他人对战。
+
+game: NBA跑轰2
+file: rungun2.zip
+sort-by: 037
+developer: NBA跑轰2
+publisher: Konami
+genre: Konami
+release: Basketball
+x-id: MAME SPO
+description: KonamiNBA跑轰系列的的第二作，有着更好的画面，玩法和视角则基本一样。
+
+game: 街头大灌篮
+file: harddunk.zip
+sort-by: 043
+developer: 街头大灌篮
+publisher: SEGA
+genre: SEGA
+release: Basketball
+x-id: MAME SPO
+description: 世嘉的3对3街头篮球游戏，节奏很快。
+
+game: 1 on 1
+file: 1on1gov.zip
+sort-by: 048
+developer: 1 on 1
+publisher: Tecmo
+genre: Tecmo
+release: Basketball
+x-id: MAME SPO
+description: 井上雄彦的人设。游戏为一对一的街头篮球，有格斗游戏般的必杀系统。除了常规篮球技术外，但可以适度使用一些非法的动作，打少林篮球。游戏有隐藏人物：井上雄彦可供使用，他来自灌篮高手爆笑解说的的Q版画风和其他人物迥异。
+
+game: 灌篮高手
+file: suprslam.zip
+sort-by: 049
+developer: 灌篮高手
+publisher: Toei Animation
+genre: Banpresto
+release: Basketball
+x-id: MAME SPO
+description: 灌篮高手街机版是一款移植于街机平台的篮球游戏，这款游戏是根据经典动漫作品《灌篮高手》改编而来，这是部神奇的动漫，不知改变了多少人的人生，有许多人正是因为这部动漫而开始打篮球。游戏的画面属于经典的街机风，其中的人物与场景都根据原作进行了还原，玩家不仅会看到熟悉的人物，还会体验到各个人物的那些经典招式，如樱木花道的神一样的防守、三井寿的三分球、赤木的暴力灌篮等等，绝对是灌篮高手爱好者们不能错过的作品。
+
+game: 运动会 84
+file: fieldday.zip
+sort-by: 061
+developer: 运动会 84
+publisher: Taito
+release: Running trails
+x-id: MAME SPO
+description: 参加女子高中田径比赛，与电脑或其他选手比赛。挑战各种赛事，证明自己无愧于Undoukai Athlete的称号。
+
+game: 卡普空棒球
+file: cbasebal.zip
+sort-by: 065
+developer: 卡普空棒球
+publisher: Capcom
+release: Baseball
+x-id: MAME SPO
+description: Capcom 棒球：Suketto Gaijin Oo-Abare 是一款非常罕见的棒球游戏。
+
+game: 超级世界棒球 '98
+file: sws98.zip
+sort-by: 075
+developer: 超级世界棒球 '98
+publisher: Namco
+release: Baseball
+x-id: MAME SPO
+description: Super World Stadium '98 (c) 1998 南梦宫。 - 技术 - Namco System 12 硬件游戏 ID：SS8 主 CPU：PSX（@ 16.9344 Mhz），H8/3002（@ 14.7456 Mhz）声音芯片：C352（@ 14.7456 Mhz）玩家：2 控制：8 向操纵杆按钮：6 - 琐事 - 超级
+
+game: 超级世界棒球 '99
+file: sws99.zip
+sort-by: 076
+developer: 超级世界棒球 '99
+publisher: Namco
+release: Baseball
+x-id: MAME SPO
+description: 超级世界体育场 1999 (c) 1999 南梦宫。 - 技术 - Namco System 12 硬件游戏 ID：SS9 主 CPU：PSX（@ 16.9344 Mhz），H8/3002（@ 14.7456 Mhz）声音芯片：C352（@ 14.7456 Mhz）玩家：2 控制：8 向操纵杆按钮：6 - 琐事 - 超
+
+game: 虚拟保龄球
+file: vbowl.zip
+sort-by: 096
+developer: 虚拟保龄球
+publisher: IGS
+genre: IGS
+release: Bowling
+x-id: MAME SPO
+description: IGS于1996年推出的一款保龄球游戏，漫画风格，人物表情生动，风靡一时。
+
+game: 技巧保龄球
+file: techbowl.zip
+sort-by: 098
+developer: 技巧保龄球
+publisher: SEGA
+release: Bowling
+x-id: MAME SPO
+description: 
+
+game: 滚球之星
+file: bmcbowl.zip
+sort-by: 099
+developer: 滚球之星
+publisher: BMC
+release: Bowling
+x-id: MAME SPO
+description: 正如标题所说：来自 BMC 的保龄球游戏:-)
+
+game: 保龄球大师
+file: alleymas.zip
+sort-by: 101
+developer: 保龄球大师
+publisher: Cinematronics
+release: Bowling
+x-id: MAME SPO
+description: 一场保龄球比赛。
+
+game: 特达保龄球
+file: stratab.zip
+sort-by: 104
+developer: 特达保龄球
+publisher: Strata
+release: Bowling
+x-id: MAME SPO
+description: 
+
+game: 大头拳击
+file: fhboxers.zip
+sort-by: 110
+developer: 大头拳击
+publisher: SEGA
+release: Boxing
+x-id: MAME SPO
+description: 一款来自 Sega 的滑稽而奇异的 3-D 拳击游戏，拳击手还有什么，FUNKY HEADS！
+
+game: 旗鼓相当
+file: grmatch.zip
+sort-by: 113
+developer: 旗鼓相当
+publisher: Yankee Game Technology
+release: Boxing
+x-id: MAME SPO
+description: 
+
+game: 橄榄球英雄
+file: rushhero.zip
+sort-by: 117
+developer: 橄榄球英雄
+publisher: Konami
+genre: Konami
+release: Football
+x-id: MAME SPO
+description: 具有实时动画、CG 渲染和 3D 透视效果，是款出色的橄榄球游戏。
+
+game: 美式橄榄球
+file: tdfever.zip
+sort-by: 120
+developer: 美式橄榄球
+publisher: SNK
+release: Football
+x-id: MAME SPO
+description: Touchdown Fever 是一款来自 SNK 的街机足球游戏。与电脑或人类对手正面交锋，或与另一位人类玩家组队对抗电脑。为联赛（单场比赛）或锦标赛比赛选择五分钟、十分钟或十五分钟的比赛。
+
+game: 乡村高尔夫俱乐部
+file: countryc.zip
+sort-by: 127
+developer: 乡村高尔夫俱乐部
+publisher: SNK
+release: Golf
+x-id: MAME SPO
+description: 一场高尔夫比赛。
+
+game: Vs. 女子高尔夫
+file: smgolf.zip
+sort-by: 131
+developer: Vs. 女子高尔夫
+publisher: Nintendo
+release: Golf
+x-id: MAME SPO
+description: 
+
+game: Tecmo 高尔夫 86
+file: teedoff.zip
+sort-by: 134
+developer: Tecmo 高尔夫 86
+publisher: Tecmo
+release: Golf
+x-id: MAME SPO
+description: 让 Tee'd Off 将您推入果岭！ Tee'd Off 是 Tecmo, Incorporated 推出的一款出色的全新高尔夫游戏。它使用多向轨迹球，让玩家可以完全控制每一次击球。 Tee'd Off 拥有一个 22 洞高尔夫球场，有许多令人兴奋的变量，可以保持玩家的高兴趣并确保您的投资回报！
+
+game: 花式撞球 Cool Pool
+file: coolpool.zip
+sort-by: 141
+developer: 花式撞球 Cool Pool
+publisher: Catalina
+release: Pool
+x-id: MAME SPO
+description: 游戏有 4 种不同类型的台球可供选择：“Straight Pool”、“Eight Ball”、“Nine Ball”和“Strip Pool”。 Strip Pool 游戏包含与成人相关的材料，不适合年轻玩家。此游戏中还有 3 种不同的可选女孩角色和行为。
+
+game: 美女花式桌球
+file: pokechmp.zip
+sort-by: 142
+developer: 美女花式桌球
+publisher: D.G.R.M.
+release: Pool
+x-id: MAME SPO
+description: 扑克冠军 (c) 1995 DGRM。 - 技术 - 主 CPU：(2x) M6502 (@ 4 Mhz) 声音芯片：YM2203 (@ 1.5 Mhz)、YM3812 (@ 3 Mhz)、OKI6295 (@ 7.575 Khz) 播放器：2 个按钮：2 - TRIVIA - 这是一个Data East 的“Pocket Gal”的韩国黑客：它使用 RAM 来存储 Pa
+
+game: 另类撞球
+file: pbillian.zip
+sort-by: 145
+developer: 另类撞球
+publisher: Kaneko
+release: Pool
+x-id: MAME SPO
+description: Prebillian 是一款在未来环境中的奇异台球游戏。
+
+game: 超真实撞球 撞球学园
+file: realbrk.zip
+sort-by: 147
+developer: 超真实撞球 撞球学园
+publisher: Nakanihon
+release: Pool
+x-id: MAME SPO
+description: 一款台球游戏，当您赢得比赛时，您将获得一些亚洲美女的照片。
+
+game: 标靶撞球96
+file: tgtbal96.zip
+sort-by: 148
+developer: 标靶撞球96
+publisher: Yun Sung
+release: Pool
+x-id: MAME SPO
+description: 
+
+game: 冬季11项竞技
+file: winterht.zip
+sort-by: 150
+developer: 冬季11项竞技
+publisher: SEGA
+genre: SEGA
+release: Skiing
+x-id: MAME SPO
+description: 世嘉的运动题材作品，Winter Heat 是 DecAthlete（又称Athlete Kings）续作的家庭版，以冬季运动取代十项全能。比赛（在街机、土星或练习模式下）包括11个项目，由8名不同国籍的运动员参赛。该游戏是一个典型的冬季运动游戏，与 Epyx 发布的游戏一脉相承，但更具有街机的感觉。项目包括：高速滑雪、跳台滑雪、滑降、短道速滑、俯式冰橇、回转、空中技巧、雪橇、速度滑冰、单板滑雪、越野赛。
+
+game: 阿尔卑斯滑雪2
+file: alpinr2b.zip
+sort-by: 151
+developer: 阿尔卑斯滑雪2
+publisher: Namco
+genre: Namco
+release: Skiing
+x-id: MAME SPO
+description: 知名的滑雪游戏，游戏角色失去平衡的姿势很搞笑，而从高处一跃而下的刺激让笔者记忆犹新。
+
+game: 滑雪maxx
+file: skimaxx.zip
+sort-by: 154
+developer: 滑雪maxx
+publisher: Kyle Hodgetts / ICE
+release: Skiing
+x-id: MAME SPO
+description: Skimaxx (c) 1996 ICE（娱乐创新概念）。滑水模拟器。 - 来源 - 机器的图片。游戏的ROM。
+
+game: 极限滑雪板
+file: cbaj.zip
+sort-by: 155
+developer: 极限滑雪板
+publisher: Tecmo
+genre: Tecmo
+release: Skiing
+x-id: MAME SPO
+description: Cool Boarders Arcade Jam 是 Cool Boarders 系列中的街机单板滑雪游戏。游戏中，动作分也很重要。
+
+game: 桌上网球冠军
+file: ttchamp.zip
+sort-by: 157
+developer: 桌上网球冠军
+publisher: Gamart?
+release: Table tennis
+x-id: MAME SPO
+description: 
+
+game: 乒乓王
+file: ppking.zip
+sort-by: 159
+developer: 乒乓王
+publisher: Taito
+release: Table tennis
+x-id: MAME SPO
+description: 乒乓球王 (c) 1985 台东。 - 技术 - 主 CPU：Z80（@ 6 Mhz），Z80（@ 3 Mhz） 声音 CPU：M6809（@ 750 Khz） 声音芯片：YM2203（@ 1.5 Mhz），MSM5205（@ 375 Khz） - TRIVIA - 6 月发布1985. - 资源 - 游戏的 ROM。
+
+game: 网球热击
+file: hstennis.zip
+sort-by: 165
+developer: 网球热击
+publisher: Strata
+release: Tennis
+x-id: MAME SPO
+description: 来自 Strata 的网球游戏。
+
+game: 沙滩排球世界锦标赛 1997
+file: wbbc97.zip
+sort-by: 169
+developer: 沙滩排球世界锦标赛 1997
+publisher: Comad
+release: Volleyball
+x-id: MAME SPO
+description: 一种排球比赛，国际男女队伍参加世界沙滩球锦标赛。
+
+game: 飞镖大赛
+file: amerdart.zip
+sort-by: 190
+developer: 飞镖大赛
+publisher: Ameri
+release: Darts
+x-id: MAME SPO
+description: 具有 5 种不同游戏变体的飞镖游戏，包括：Flash（靶心游戏）、Sector Shoot-Out（编号目标游戏）、301（传统飞镖游戏）、High Score 和 Cricket（局/分游戏） .
+
+game: 击剑士
+file: gsword.zip
+sort-by: 191
+developer: 击剑士
+publisher: Allumer
+release: Various
+x-id: MAME SPO
+description: Great Swordsman 是一款 1 对 1 的侧视剑术格斗游戏，涵盖 3 种剑术格斗：击剑、剑道和角斗士式格斗。
+
+game: 空中自行车
+file: propcycl.zip
+sort-by: 194
+developer: 空中自行车
+publisher: Namco
+genre: Namco
+release: Driving
+x-id: MAME SPO
+description: 1996年由Namco出品的飞行游戏，玩家骑在一辆自行车框体，控制飞行的自行车完成赛道，撞击气球得分。
+
+game: 冷冻' 狂怒
+file: fishfren.zip
+sort-by: 195
+developer: 冷冻' 狂怒
+publisher: Time Warner Interactive
+genre: Time Warner Interactive
+release: Fishing
+x-id: MAME SPO
+description: 您的目标基本上是在不被任何敌方生物捕获的情况下尽可能多地捕获鱼。
+

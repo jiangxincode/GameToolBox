@@ -1,0 +1,1382 @@
+collection: 运动街机
+sort-by: 007
+extensions: 7z, zip
+ignore-files: 
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbneo_libretro.dll" "{file.path}"
+
+game: 得点王1
+file: ssideki.zip
+sort-by: 001
+developer: 得点王1
+publisher: SNK
+genre: SNK
+release: Soccer
+x-id: FBNEO SPO
+description: 得点王系列的第一作，由SNK于1992年推出.音效相当出色.是街机上最好的足球游戏，里面有许多动作在实况足球7里才开始出现，而且有许多技能巧需要手动去操作。游戏流畅，速度感极好。
+
+game: 得点王2
+file: ssideki2.zip
+sort-by: 002
+developer: 得点王2
+publisher: SNK
+genre: SNK
+release: Soccer
+x-id: FBNEO SPO
+description: 得点王2世界冠军.SNK经过2年的研究与1994制作的该系列的第二代. 本作采用了现场录音的方法，背景音乐使玩家感到非常熟悉, 当得球队员在射程范围内得球时，会有特写镜头让人射门,随着游戏的进行，升级后的前锋威力无比, 游戏中可以攻击裁判。
+
+game: 得点王3
+file: ssideki3.zip
+sort-by: 003
+developer: 得点王3
+publisher: SNK
+genre: SNK
+release: Soccer
+x-id: FBNEO SPO
+description: 由SNK于1995年推出。系列的第三作，音效相当出色。本作新加入了点球决战，是街机上最好的足球游戏，里面有许多动作在实况足球7里才开始出现，而且有许多技能巧需要手动去操作。游戏流畅，速度感极好。
+
+game: 得点王4
+file: ssideki4.zip
+sort-by: 004
+developer: 得点王4
+publisher: SNK
+genre: SNK
+release: Soccer
+x-id: FBNEO SPO
+description: SNK在1996年推出了得点王4，这也是得点王系列最后一作。本作中SNK也是为了将最后一作做的有诚意。他们在游戏中加入了隐藏队伍就是SNK SUPERSTARS，SNK超级明星队。那么游戏中他们也是可以通过一定条件乱入的，就是在SNK冠军赛模式中，第三话PK达到十五分以上。第四话的时候SNK超级明星队会出现。而且从乱入画面也可以看出阵容。包括这里的人设。京、红丸、大门、特瑞博加德、安迪出自拳皇96的人设。而坂崎亮与罗伯特则是龙虎之拳外传的原画。
+
+game: 机皇杯98
+file: neocup98.zip
+sort-by: 005
+developer: 机皇杯98
+publisher: SNK
+genre: SNK
+release: Soccer
+x-id: FBNEO SPO
+description: SNK于1998制作的足球游戏，是继1996年得点王4之后SNK制作的街机足球游戏新作，基本就是得点王的换皮游戏，几乎可以看成是得点王第5部。
+
+game: 开心射门5对5迷你足球
+file: pgoal.zip
+sort-by: 006
+developer: 开心射门5对5迷你足球
+publisher: SNK
+genre: SNK
+release: Soccer
+x-id: FBNEO SPO
+description: Pleasure Goal（日语名称：Futsal）于 1996 年发布，是 Saurus 为 Neo Geo 开发的第一款也是唯一一款足球 (Soccer) 游戏。有 16 支球队参加“Saurus 杯”比赛。您的团队与同组中的所有其他团队比赛，然后进入淘汰赛的半决赛，最后进入决赛并赢得杯赛。值得一提的是，Pleasure Goal 的规则几乎没有以真实的五人制足球为基础——五人制足球是一种 5 对 5 人的室内足球。游戏速度感十足，还有能施展华丽技巧的按键。
+
+game: 机器人足球大赛
+file: socbrawl.zip
+sort-by: 007
+developer: 机器人足球大赛
+publisher: SNK
+genre: SNK
+release: Soccer
+x-id: FBNEO SPO
+description: 赛博风的未来足球游戏。玩家操作的是机器人球员，可以在场上尽情滑铲，类似热血足球。两边球员均有力量槽，槽满时可以使用特技。
+
+game: 进了！进了！进了！
+file: goalx3.zip
+sort-by: 009
+developer: 进了！进了！进了！
+publisher: Visco
+genre: SNK
+release: Soccer
+x-id: FBNEO SPO
+description: 一场足球比赛，除了拥有技巧、天赋、激情以外，当然还有需要不断的进球！有 28 支国家队可供选择，参加锦标赛，成为世界冠军。通过小组赛阶段，进入循环淘汰赛阶段，在这个阶段是一场定胜负的赛制。游戏中按住射门按钮直到能量条充满，玩家就可以进行一次强力的超级射门！
+
+game: 94国际杯
+file: intcup94.zip
+sort-by: 010
+developer: 94国际杯
+publisher: Taito
+genre: Taito
+release: Soccer
+x-id: FBNEO SPO
+description: International Cup '94是Taito于1994年发行的一款足球游戏。游戏中的对抗比较激烈。
+
+game: 太东力量足球
+file: pwrgoal.zip
+sort-by: 011
+developer: 太东力量足球
+publisher: Taito
+genre: Taito
+release: Soccer
+x-id: FBNEO SPO
+description: Taito Power Goal 是一款来自 Taito 的足球游戏。游戏简直是功夫足球，拳打脚踢非常野蛮，不过太过分的动作还是会吃牌的。
+
+game: 足球英雄 '93
+file: cupfinal.zip
+sort-by: 012
+developer: 足球英雄 '93
+publisher: Taito
+release: Soccer
+x-id: FBNEO SPO
+description: Taito Cup Finals 是 Taito 推出的足球比赛。
+
+game: 冠军杯足球赛
+file: footchmp.zip
+sort-by: 013
+developer: 冠军杯足球赛
+publisher: Taito
+release: Soccer
+x-id: FBNEO SPO
+description: 在八支国际足球队之间进行选择，然后在尝试赢得唯一的世界杯时测试您的技能和反应能力！平局不是胜利，意味着你输了，所以好好发挥，确保你获得持续的胜利，在令人敬畏的足球冠军中取得进步！击败所有球队，在狂热的球迷面前见证你的球队捧起奖杯！成为你一直都知道的冠军！
+
+game: 超级杯决赛
+file: scfinals.zip
+sort-by: 014
+developer: 超级杯决赛
+publisher: Taito
+release: Soccer
+x-id: FBNEO SPO
+description: Super Cup Finals是一款来自Taito的足球比赛。
+
+game: J 联盟足球 胜利射门
+file: vshoot.zip
+sort-by: 018
+developer: J 联盟足球 胜利射门
+publisher: Namco
+release: Soccer
+x-id: FBNEO SPO
+description: 日本顶级联赛球队的足球比赛。
+
+game: 特库摩世界足球赛96
+file: twsoc96.zip
+sort-by: 021
+developer: 特库摩世界足球赛96
+publisher: Tecmo
+genre: Tecmo
+release: Soccer
+x-id: FBNEO SPO
+description: Tecmo World Soccer '96 是一款足球游戏。游戏共有 32 支可玩球队，在进攻端，您可以分别使用 A 和 C 按钮执行短传或长传，而 B 按钮执行得分球。在防守时，您可以使用 B 按钮手动切换球员控制，或使用 A 按钮滑动铲球对方持球者。大部分时间游戏都像传统的 2D 足球游戏一样玩，但是当持球者和防守球员对峙时，游戏就会变成一对一界面。
+
+game: 世界杯足球 '90
+file: twcup90.zip
+sort-by: 022
+developer: 世界杯足球 '90
+publisher: Tecmo
+release: Soccer
+x-id: FBNEO SPO
+description: Tecmo 世界杯是一场只有国家队参加的足球比赛。如标题所示，您可以参加世界杯锦标赛，其中还包括资格赛。您可以从 24 个国家/地区中选择您的球队，尽管到游戏发布时，该分类与最新一届世界杯的名单并不相同。此外，与真正的世界杯相比，资格赛只有四支球队，只有 24 支球队可以参加。除了世界杯，唯一的其他单人游戏模式是与随机选择的球队进行友谊赛。
+
+game: 超级视觉足球：欧洲世嘉杯
+file: svf.zip
+sort-by: 024
+developer: 超级视觉足球：欧洲世嘉杯
+publisher: SEGA
+genre: SEGA
+release: Soccer
+x-id: FBNEO SPO
+description: 世嘉1994年出品的足球游戏，采用了球门视角，代入感更强。
+
+game: 石头球
+file: stonebal.zip
+sort-by: 025
+developer: 石头球
+publisher: Art & Magic
+genre: Art & Magic
+release: Soccer
+x-id: FBNEO SPO
+description: Stone Ball诞生于1994年，是一款集足球、冰球和棒球于一体的趣味游戏，参赛者是一群手持大棒的穴居人。他们可以铲球、冲撞或击中对手。特殊奖励允许穴居人焚烧甚至埋葬他们的敌人......
+
+game: 足球盛况2
+file: gstrik2.zip
+sort-by: 027
+developer: 足球盛况2
+publisher: Human Amusement
+genre: Human Amusement
+release: Soccer
+x-id: FBNEO SPO
+description: 一款来自 Human 的足球游戏，有更多的球队可供选择，而且画面也比初代更好。游戏的球门视角在同类游戏中独树一帜。
+
+game: 梦想足球'94
+file: dsoccr94.zip
+sort-by: 028
+developer: 梦想足球'94
+publisher: Irem
+genre: Irem
+release: Soccer
+x-id: FBNEO SPO
+description: Dream Soccer '94 由 Irem 于 1994 年制作并1994 年 9 月发布。Dream Soccer' 94 是老Irem 的最后一款电子游戏。 Irem随即被母公司解散，主要是因为他们的游戏销量不是很好。不久之后，一些员工独立重建了 Irem。该游戏的广告牌为众多 Irem 游戏做广告。其中有R*Type、空中决斗、驰骋-武警部队、少校称号、卧底、枪战和霹雳火，大概是已经知道了公司解散的命运后所做出最后挽留吧。
+
+game: 点球大战V2
+file: wpksocv2.zip
+sort-by: 029
+developer: 点球大战V2
+publisher: Jaleco
+genre: Jaleco
+release: Soccer
+x-id: FBNEO SPO
+description: 把点球大战这个最激动人心的环节做成了单独的游戏。游戏中的点球大战分为两种，一种是真实系的，一种是有“超级射门”的超级系。本作非常适合双人对战游玩。
+
+game: 后街足球
+file: bssoccer.zip
+sort-by: 030
+developer: 后街足球
+publisher: SunA
+release: Soccer
+x-id: FBNEO SPO
+description: 可以选择 14 个国际团队中的一个。比赛在街头进行，足球带有“街头霸王”元素。
+
+game: 1992欧洲冠军
+file: euroch92.zip
+sort-by: 032
+developer: 1992欧洲冠军
+publisher: V-System Co
+release: Soccer
+x-id: FBNEO SPO
+description: 这场比赛在日本被称为帽子戏法英雄“Hattrick Hero”，在欧洲以外被称为足球冠军“Football Champ”。在这个欧洲版本中，超级射门SUPER SHOOT 的条件有所不同：得分必须是平局，只有队长才能进行这种射门，且整场比赛只能进行一次。他必须在场上的某个区域静止不动时接球射门。
+
+game: 两步上篮
+file: ddribble.zip
+sort-by: 033
+developer: 两步上篮
+publisher: Konami
+release: Basketball
+x-id: FBNEO SPO
+description: Konami 的一款篮球游戏，最初用于 Arcade 并移植到家用游戏机。它是 Konami 的“Exciting”运动系列的一部分。
+
+game: 庞克篮球
+file: punkshot.zip
+sort-by: 034
+developer: 庞克篮球
+publisher: Konami
+release: Basketball
+x-id: FBNEO SPO
+description: Punk Shot 最多需要四名球员到纽约市中心进行一些二对二的街头篮球比赛，没有裁判，没有规则。两队对决，比赛分四节（每节 2 到 5 分钟）进行，比赛地点位于 3 个不同地点的临时场地：小巷、公园和港口。自然地，这不仅仅是在校外保持冷静和投篮：每一方都有几个不怀好意的家伙，他们总是热衷于在附近制造麻烦。因此，Punk Shot 快乐地将篮球变成了一项全面接触的运动——头部将被砸、鼻子被打、私处被踢。最重要的是，每个球场都有各种各样的环境危害，从湿滑的香蕉皮和让你的屁股着火，到公园里的狗和它们对裤子的特殊品味。
+
+game: NBA极限滞空
+file: nbamht.zip
+sort-by: 038
+developer: NBA极限滞空
+publisher: Midway
+genre: Midway
+release: Basketball
+x-id: FBNEO SPO
+description: 游戏是Midway为1996年春出品的NBA滞空做的芯片升级版，修正了该作的一些bug，增强了游戏体验。由于这部的球员名单和春季发售的NBA滞空一样，所以这款半年后才发售的作品玩起来稍微有点过时。
+
+game: NBA嘉年华
+file: nbajam.zip
+sort-by: 039
+developer: NBA嘉年华
+publisher: Midway
+genre: Midway
+release: Basketball
+x-id: FBNEO SPO
+description: NBA Jam 是一款基于美国国家篮球协会（NBA）的长期篮球视频游戏系列。该游戏最初是由 Midway开发的街机游戏，由于其逼真的数字化图形，过分展示和夸张的二对二篮球比赛风格而广受欢迎。作为Midway的 Arch Rivals的后继者，最初的1993年 NBA Jam使球员能够跳出自己的身高很多倍，制造扣篮来挑战人类的能力，并自由地将对手推开或屈肘。它还具有各种秘密角色，并具有在播放会话之间跟踪玩家记录和统计信息的功能。
+
+game: NBA嘉年华锦标赛
+file: nbajamte.zip
+sort-by: 040
+developer: NBA嘉年华锦标赛
+publisher: Midway
+genre: Midway
+release: Basketball
+x-id: FBNEO SPO
+description: 本作是经典街机游戏NBA嘉年华的升级版。游戏增加了新球员和新特性，不过玩法并没有变。
+
+game: NBA篮球 1996
+file: nbahangt.zip
+sort-by: 041
+developer: NBA篮球 1996
+publisher: Midway
+release: Basketball
+x-id: FBNEO SPO
+description: NBA Hang Time 是一款 2 对 2 街机篮球动作游戏，紧随 NBA Jam 的脚步。所有 NBA 球队，每支球队有 4 名球员可供选择，包括快节奏、顶级篮球，无视比赛的正常规则，但包括犯规和界外球。
+
+game: 大扣篮
+file: dunkshot.zip
+sort-by: 042
+developer: 大扣篮
+publisher: SEGA
+release: Basketball
+x-id: FBNEO SPO
+description: Dunk Shot 是 Sega 于 1987 年为 Sega System 16B 硬件发布的一款自上而下的篮球街机游戏。
+
+game: 二对二篮球斗牛
+file: archrivl.zip
+sort-by: 044
+developer: 二对二篮球斗牛
+publisher: Bally Midway
+release: Basketball
+x-id: FBNEO SPO
+description: Arch Rivals 是一款搞笑的篮球游戏，特色是自定义球队名称和颜色。一场完整的比赛由四节组成，每节四分钟。每支球队有两名球员，比赛的目标是在终场哨响之前得分超过对手。
+
+game: 街头篮球
+file: strhoop.zip
+sort-by: 045
+developer: 街头篮球
+publisher: Data East
+genre: Data East
+release: Basketball
+x-id: FBNEO SPO
+description: Street Hoop俗称neogeo街头篮球，1994年由Dataeast推出，当时的街机上有着大量的足球游戏（例如得点王系列），而高品质的篮球游戏却很少（由Slam Dunk改编的几部游戏效果很一般）。而这款Street Hoop操作简单，画面简洁亮丽，人物动作丰富而略显夸张，比赛节奏紧凑，可玩性和流行度都很高（曾经在街机中有着很高的人气）。赢球当然好！输球也只能接币或者结束。如果平局本游戏也算你输，因为输球和平局都一样要接币。单打的话一定要赢才行，哪怕赢一分，双打平局最坑了，双方都要接币，所以双打平局的话还不如一赢一输。 打进4个球（无论2分还是3分）就会获得一次SUPER SHOT必杀球，必杀球只能过了半场后才能使用，没过半场远程的话是发不出的。注意：零度角也就是底角的位置，如果在三分线外必杀球会投出三分火球，如果三分线再进去这位置也只能普通2分投篮不会出必杀。美国是篮球王国，属性极佳。是对战的主要选择队伍，最华丽最多动作最有力量的扣篮。中上等的速度，防守能力也比较强。建议初学多用美国队，这样你就能很快熟练这个游戏。德国可以说是防守最强，弹跳扣篮仅次于美国队，不过速度最慢，带球时容易被挨打抢断，建议合理的多传球，速度不快是本队的一个致命伤。英国队可能是综合能力最差的一个队，防守防守比德国差一个档次，但是速度与三分命中率比德国好点。投篮过程在空中时也会被对手挨打下来是英国队的致命弱点，不过抢篮板和盖帽英国队的连续弹跳能力是很强的。如果你不想挑战极限的话，那么就没必要选择这支球队。意大利队是能力各方面最平衡的球队，身高、防守、扣篮、速度、快攻等都均属于中上水准。西班牙队能力比较平均，但是3分和防守能力突出点，如果玩家喜欢投3分和防守建议使用西班牙。法国队3分能力非常神准，速度动作很快就完成了扣篮得分，可以说是得分最容易的球队。因为身高是所有球队中最矮的，因此防守太差，最好的防守就是进攻来保住自己的优势。中国队攻防比较全面，3分突出点，速度慢点，进攻时也不适合带球过久。日本队各个能力都比较平均，和意大利比起来就是日本队属于中等意大利属于中上，算是最标准最公平能力的球队。韩国队防守能力一般，速度最快，比较重视进攻的一支球队。台湾队三分球能力最强，其他能力也比较平均，但在内线持球僵持能力无法和球类队相比，这支球队主要以外线为准。以上这些球队的能力也只是个参考数据，很不稳定。有时比赛美国队的3分也如雨一样，中国队台湾队也能常常暴扣，而且3分好的球队10投0中，三分差的队5投5中等等一些现象都有（这个说的是与电脑对打，不是双打）。
+
+game: 街头篮球96
+file: hoops96.zip
+sort-by: 046
+developer: 街头篮球96
+publisher: Data East
+genre: Data East
+release: Basketball
+x-id: FBNEO SPO
+description: 来自世界各地的球队参加的篮球比赛。规则与常规篮球比赛类似，但有一个区别 - 球员拥有超能力，使他们能够完成令人难以置信的壮举。
+
+game: 正面冲突
+file: inyourfa.zip
+sort-by: 047
+developer: 正面冲突
+publisher: Jaleco
+release: Basketball
+x-id: FBNEO SPO
+description: In Your Face 是一对一（或二对二）的半场街头篮球比赛。它似乎是基于 Jaleco 之前在 NES 上发布的一款名为 Hoops 的篮球游戏。
+
+game: 3 对 3 疯狂灌篮
+file: 3on3dunk.zip
+sort-by: 050
+developer: 3 对 3 疯狂灌篮
+publisher: Video System
+release: Basketball
+x-id: FBNEO SPO
+description: 3 On 3 Dunk Madness 是一款类似篮球比赛的“NBA Jam”
+
+game: 卡普空运动俱乐部
+file: csclub.zip
+sort-by: 051
+developer: 卡普空运动俱乐部
+publisher: Capcom
+genre: Capcom
+release: Running trails
+x-id: FBNEO SPO
+description: 卡普空运动俱乐部共有三个游戏组成，人物的造型设计很是卡通化，尤其是网球的人物特别可爱。在游戏里你可以玩篮球、足球、棒球，每款游戏都自己独特的特色都是以Q版进行的。比如游戏中的篮球游戏，你可以在里面体验灌篮、三分球投篮、盖帽等等。
+
+game: 脱线行大运
+file: esckids.zip
+sort-by: 052
+developer: 脱线行大运
+publisher: Konami
+genre: Konami
+release: Running trails
+x-id: FBNEO SPO
+description: 脱线行大运是1991年Konami研发的一款另类又爆笑的游戏。玩家必须操控一个运动员穿越各种障碍地形, 并且用各种方式妨碍对手以赢得最后胜利。胜利后可以获得奖金, 此时可提升自己的能力。游戏进行时也会出现金币, 鸡腿...等道具, 若是连续三次得到冠军则可进入下一个关卡。
+
+game: 科乐美运动会84
+file: hyperspt.zip
+sort-by: 053
+developer: 科乐美运动会84
+publisher: Konami
+genre: Konami
+release: Running trails
+x-id: FBNEO SPO
+description: Hyper Sports 是一款多项目体育游戏，是 1983 年开创性的街机游戏“田径运动会”的续集。与“田径运动会”一样，该游戏最多支持四名玩家，由两个 RUN 按钮（在本续集中更名为 GO）和一个动作 - 或 UP - 按钮控制。点击 GO，玩家将加速、射击或举起。向上推，玩家将跳跃或射击。该游戏提供七种不同的奥林匹克赛事，玩家必须在每项赛事中获得资格才能晋级下一项。如果您未能在某项赛事中获得资格，则游戏结束。
+
+game: 科乐美运动会88
+file: 88games.zip
+sort-by: 054
+developer: 科乐美运动会88
+publisher: Konami
+genre: Konami
+release: Running trails
+x-id: FBNEO SPO
+description: Konami '88（也称为 '88 Games 或 Hyper Sports Special）是科乐美田径系列的第三作，有4种运动可供选择。本系列在FC上大受欢迎。
+
+game: 战斗学校
+file: combatsc.zip
+sort-by: 055
+developer: 战斗学校
+publisher: Konami
+genre: Konami
+release: Running trails
+x-id: FBNEO SPO
+description: Combat School 是一个或两个玩家的多项目战斗主题体育游戏，在游戏风格上类似于 Konami 早期的田径游戏。玩家必须在严格的教官的监督下参加一系列新兵训练营式的赛事，最终目标是完成所有赛事并作为一名正式士兵毕业。游戏由七个训练项目组成，每个项目都必须在规定时间内完成才能进入下一个项目。如果选手只是勉强错过了一项赛事的资格赛，他们必须完成一定数量的引体向上作为惩罚。如果他们在时限内做到了这一点，他们就可以进入下一个事件。然而，这每轮只会发生一次。
+
+game: 田径运动会
+file: trackfld.zip
+sort-by: 056
+developer: 田径运动会
+publisher: Konami
+genre: Konami
+release: Running trails
+x-id: FBNEO SPO
+description: 1983年的时候，科乐美在街机上做了一个全新的体育运动游戏，名叫超级奥运，用日语读就是“害怕奥林匹克”。这是一款非主流的街机游戏，在一片打打杀杀和宇宙飞船里，突然出现一个现实题材的游戏（当然标枪扔太高也是会有宇宙飞船的），而且还是以小游戏合集的面貌出现在人们面前。正巧次年是洛杉矶奥运会，引进该游戏的街机厅，纷纷在店门口挂出画有吉祥物山姆白头鹰的海报，吸引了不少普通人的注意。值得一提的是，在当时奥运版权管理还不完善的情况下（洛杉矶奥运正式确立奥运的版权运作制度），该游戏已经获得了国际奥委会的授权，但仅限日本国内，这也就造成之后美版挂羊头的严重后果。由于游戏事实上只有田径方面的6个运动，加上后续版权问题，游戏才改名为田径运动会。
+
+game: 超能运动会1
+file: numanath.zip
+sort-by: 057
+developer: 超能运动会1
+publisher: Namco
+genre: Namco
+release: Running trails
+x-id: FBNEO SPO
+description: 超能运动会是来自街机平台一款1993年的魔幻运动类游戏，其背景结合了奥运会题材制作而来，其将魔法战斗玩法与各种体育项目相结合，在以运动会为主的游戏中属于非常少见的作品。
+
+game: 游泳大赛
+file: wmatch.zip
+sort-by: 058
+developer: 游泳大赛
+publisher: SEGA
+release: Running trails
+x-id: FBNEO SPO
+description: Water Match是一款多项目多人游戏，采用Konami传奇的“田径”系列风格，包括自由泳、单人皮划艇、四人划船等项目。
+
+game: 金牌运动会
+file: goldmedl.zip
+sort-by: 059
+developer: 金牌运动会
+publisher: SNK
+release: Running trails
+x-id: FBNEO SPO
+description: 这是一项以汉城奥运会为蓝本的多项目田径比赛，最多可容纳四名选手，共有九个不同的项目。尽管深受 Konami 自己的“田径”系列的影响，Gold Medalist 缺乏其所基于的游戏的上瘾性和严密的游戏机制。可以按任何顺序尝试的九个学科是：
+
+game: 破纪录者
+file: recordbr.zip
+sort-by: 060
+developer: 破纪录者
+publisher: Taito
+genre: Taito
+release: Running trails
+x-id: FBNEO SPO
+description: Recordbreaker 是 Taito 推出的奥林匹克运动会游戏，项目众多。参加不同的赛事并争夺金牌。游戏可供双人分屏竞赛。
+
+game: 超能运动会2
+file: machbrkr.zip
+sort-by: 062
+developer: 超能运动会2
+publisher: Namco
+release: Running trails
+x-id: FBNEO SPO
+description: 次年发布的续作，拥有七个可选角色。南梦宫的脑洞依旧很大。
+
+game: 棒球大饭桶
+file: dokaben.zip
+sort-by: 063
+developer: 棒球大饭桶
+publisher: Capcom
+release: Baseball
+x-id: FBNEO SPO
+description: 使用一副随机纸牌进行的日本棒球比赛。有趣的设计。
+
+game: 棒球大饭桶2
+file: dokaben2.zip
+sort-by: 064
+developer: 棒球大饭桶2
+publisher: Capcom
+release: Baseball
+x-id: FBNEO SPO
+description: 使用一副随机纸牌进行的日本棒球比赛。
+
+game: 超级强打 '94
+file: gslgr94u.zip
+sort-by: 066
+developer: 超级强打 '94
+publisher: Namco
+release: Baseball
+x-id: FBNEO SPO
+description: Great Sluggers - Featuring 1994 Team Rosters 是 Namco 的美国职业棒球大联盟比赛。
+
+game: 超级强打 93 新世界棒球
+file: gslugrsj.zip
+sort-by: 067
+developer: 超级强打 93 新世界棒球
+publisher: Namco
+release: Baseball
+x-id: FBNEO SPO
+description: Great Sluggers - New World Stadium 是 Namco 推出的一款日本棒球游戏。
+
+game: 球界道中记
+file: kyukaidk.zip
+sort-by: 068
+developer: 球界道中记
+publisher: Namco
+release: Baseball
+x-id: FBNEO SPO
+description: Kyūkai Dōchūki 是一款街机风格的棒球游戏，采用与 Yōkai Dōchūki 相同风格的小型 SD 型玩家。
+
+game: 超级世界棒球
+file: sws.zip
+sort-by: 069
+developer: 超级世界棒球
+publisher: Namco
+release: Baseball
+x-id: FBNEO SPO
+description: 超级世界体育场 (c) 1992 南梦宫。 - 技术 - Namco System 2 硬件游戏 ID：SS 主 CPU：(2x) 68000 (@ 12.288 Mhz)、M6809 (@ 3.072 Mhz)、HD63705 (@ 2.048 Mhz) 声卡芯片：C140 (@ 21.39 Khz)、YM2151 (@ 3.57958 Mhz) 玩家：2 控制：8-wa
+
+game: 超级世界棒球 '92
+file: sws92.zip
+sort-by: 070
+developer: 超级世界棒球 '92
+publisher: Namco
+release: Baseball
+x-id: FBNEO SPO
+description: Super World Stadium '92 (c) 1992 南梦宫。 - 技术 - Namco System 2 硬件游戏 ID：SSS 主 CPU：(2x) 68000 (@ 12.288 Mhz)、M6809 (@ 3.072 Mhz)、HD63705 (@ 2.048 Mhz) 声卡芯片：C140 (@ 21.39 Khz)、YM2151 (@ 3.57958 Mhz) 玩家：2 控制：
+
+game: 超级世界棒球 '93 激斗版
+file: sws93.zip
+sort-by: 071
+developer: 超级世界棒球 '93 激斗版
+publisher: Namco
+release: Baseball
+x-id: FBNEO SPO
+description: Super World Stadium '93 (c) 1993 南梦宫。 - 技术 - Namco System 2 硬件游戏 ID：SST 主 CPU：(2x) 68000 (@ 12.288 Mhz)、M6809 (@ 3.072 Mhz)、HD63705 (@ 2.048 Mhz) 声卡芯片：C140 (@ 21.39 Khz)、YM2151 (@ 3.57958 Mhz) 玩家：2 控制：
+
+game: 超级世界棒球 '95
+file: sws95.zip
+sort-by: 072
+developer: 超级世界棒球 '95
+publisher: Namco
+release: Baseball
+x-id: FBNEO SPO
+description: Super World Stadium '95 (c) 1995 南梦宫。 - 技术 - Namco 系统 NB-1 硬件 游戏 ID：SS5 主 CPU：68EC020 (@ 24.192 Mhz)，M37702 (@ 16.128 Mhz) 声音芯片：C352 (@ 16.128 Mhz) 玩家：2 控制：8 向操纵杆按钮：3 - 琐事 - SUP
+
+game: 超级世界棒球 '96
+file: sws96.zip
+sort-by: 073
+developer: 超级世界棒球 '96
+publisher: Namco
+release: Baseball
+x-id: FBNEO SPO
+description: Super World Stadium '96 (c) 1996 南梦宫。 - 技术 - Namco 系统 NB-1 硬件 游戏 ID：SS6 主 CPU：68EC020（@ 24.192 Mhz），M37702（@ 16.128 Mhz） 声音芯片：C352（@ 16.128 Mhz）玩家：2 控制：8 向操纵杆按钮：3 - 琐事 - Sup
+
+game: 超级世界棒球 '97
+file: sws97.zip
+sort-by: 074
+developer: 超级世界棒球 '97
+publisher: Namco
+release: Baseball
+x-id: FBNEO SPO
+description: Super World Stadium '97 (c) 1997 南梦宫。 - 技术 - Namco 系统 NB-1 硬件 游戏 ID：SS7 主 CPU：68EC020 (@ 24.192 Mhz)，M37702 (@ 16.128 Mhz) 声音芯片：C352 (@ 16.128 Mhz) 玩家：2 控制：8 向操纵杆按钮：3 - 琐事 - Sup
+
+game: 职业棒球世界体育场
+file: ws.zip
+sort-by: 077
+developer: 职业棒球世界体育场
+publisher: Namco
+release: Baseball
+x-id: FBNEO SPO
+description: 一款日本棒球游戏，本质上是 Namco 为任天堂 Famicom 推出的“家庭体育场”的街机版。
+
+game: 棒球之星
+file: bstars.zip
+sort-by: 078
+developer: 棒球之星
+publisher: SNK
+release: Baseball
+x-id: FBNEO SPO
+description: Baseball Stars Professional 是 Nintendo Entertainment System 的 Baseball Stars 的后续游戏，具有漫画风格的图形。从各种团队中进行选择，包括 Celestial Planets、Heavenly Bodies、Shadow Demons、Battle Knights、Fabulous Superstars 等等。然后选择要举办比赛的场地：SNK体育场或者SNK球馆。每个字段具有相同的维度，但它们的容量不同。比赛的进行方式与普通棒球相同。具有 VS。两个玩家可以互相对战的模式。
+
+game: 棒球之星2
+file: bstars2.zip
+sort-by: 079
+developer: 棒球之星2
+publisher: SNK
+genre: SNK
+release: Baseball
+x-id: FBNEO SPO
+description: 这是 Baseball Stars Professional 的后续，以快节奏的街机风格棒球为特色，有六支虚构的球队，每支球队都有自己的长处和短处。玩法有两个难度：Beginner，自动为玩家接球，Exciting则让玩家手动接球。此外，还有两种主要的游戏模式，在单人游戏模式下，玩家将参加十五支球队的锦标赛，或者在多人游戏模式下与朋友正面交锋。棒球的标准规则仍然适用，但它增加了玩家可以在比赛中拾取和使用的道具，例如投手投掷更快或击球手更好的击球能力。比赛中可以替换球员，但每场比赛最多只能替换 3 名球员。游戏通过带有漫画风格过场动画的 2D 图形来展示动作，例如游戏过程中会弹出的戏剧性接球和本垒打。
+
+game: 2020 年超级棒球
+file: 2020bb.zip
+sort-by: 080
+developer: 2020 年超级棒球
+publisher: SNK
+release: Baseball
+x-id: FBNEO SPO
+description: 在 2020 年，棒球终于进化了。 2020年不再有常规的职业棒球，由超级棒球协会设计的棒球一直很受欢迎，是最好的运动。然而，事实是该协会使用了巨额资金来推广超级棒球作为演艺事业。他们利用控制电脑操纵着每个玩家的能力，暗中决定每场比赛的胜负。知道这一点的球员拆除了电脑的连接部件，开始玩他们自己的棒球比赛。最后，一场公平的比赛将在赛博蛋体育场进行。2020 年超级棒球是一款采用新规则的快节奏游戏，您可以从 12 名男性、女性或机器人玩家中选择 1 人。在游戏过程中，您可以通过惊人的捕获获得的奖品让您的团队变得更强大。
+
+game: MVP棒球
+file: mvp.zip
+sort-by: 081
+developer: MVP棒球
+publisher: SEGA
+genre: SEGA
+release: Baseball
+x-id: FBNEO SPO
+description: 世嘉1989年出品的有搞笑元素的棒球游戏，角色动作十分夸张有趣。
+
+game: 关键击球手
+file: cltchitr.zip
+sort-by: 082
+developer: 关键击球手
+publisher: SEGA
+release: Baseball
+x-id: FBNEO SPO
+description: Clutch Hitter 是一款棒球游戏，最初是为 Sega System 18 硬件发布的，然后移植到 Sega Game Gear。 Game Gear 版本仅在北美发行。
+
+game: 刺激大联盟
+file: exctleag.zip
+sort-by: 083
+developer: 刺激大联盟
+publisher: SEGA
+release: Baseball
+x-id: FBNEO SPO
+description: 
+
+game: 超级联赛
+file: suprleag.zip
+sort-by: 084
+developer: 超级联赛
+publisher: SEGA
+release: Baseball
+x-id: FBNEO SPO
+description: Sega 推出的这款棒球游戏是 Super League 系列的首款游戏，采用创辉高分辨率图像。不要将它与同名的 Megadrive/Genesis 游戏混淆。
+
+game: 神奇棒球赛
+file: magicbal.zip
+sort-by: 085
+developer: 神奇棒球赛
+publisher: SemiCom
+release: Baseball
+x-id: FBNEO SPO
+description: Magicball Fighting (c) 1994 SemiCom。 - 来源 - 游戏的 ROM。
+
+game: 棒球
+file: semibase.zip
+sort-by: 086
+developer: 棒球
+publisher: SemiCom
+release: Baseball
+x-id: FBNEO SPO
+description: 韩国棒球比赛。
+
+game: 奇妙联盟 '96
+file: wondl96.zip
+sort-by: 087
+developer: 奇妙联盟 '96
+publisher: SemiCom
+release: Baseball
+x-id: FBNEO SPO
+description: 
+
+game: 世界棒球
+file: bottom9.zip
+sort-by: 088
+developer: 世界棒球
+publisher: Konami
+release: Baseball
+x-id: FBNEO SPO
+description: 1 或 2 名玩家从纽约、芝加哥、洛杉矶、亚特兰大或波士顿等城市选择一个棒球俱乐部，并在这场棒球比赛中与电脑或彼此竞争。可以投出各种各样的球，击球手可以改变他们的站姿和挥杆角度。
+
+game: 替补投手
+file: relief.zip
+sort-by: 089
+developer: 替补投手
+publisher: Atari
+release: Baseball
+x-id: FBNEO SPO
+description: 一种棒球比赛，可以选择玩标准棒球比赛或通过一系列比赛作为替补投手比赛。
+
+game: 棒球英雄
+file: stadhero.zip
+sort-by: 090
+developer: 棒球英雄
+publisher: Data East
+release: Baseball
+x-id: FBNEO SPO
+description: 
+
+game: 棒球英雄96
+file: stadhr96.zip
+sort-by: 091
+developer: 棒球英雄96
+publisher: Data East
+genre: Data East
+release: Baseball
+x-id: FBNEO SPO
+description: 3d建模的Q版棒球游戏，画面非常不错。
+
+game: 力量棒球
+file: pubball.zip
+sort-by: 092
+developer: 力量棒球
+publisher: Incredible Technologies
+release: Baseball
+x-id: FBNEO SPO
+description: 
+
+game: 实力职业棒球
+file: jitsupro.zip
+sort-by: 093
+developer: 实力职业棒球
+publisher: Jaleco
+release: Baseball
+x-id: FBNEO SPO
+description: 日本职业棒球比赛使用假球员姓名。这是流行的 NES 棒球游戏的街机版本。
+
+game: 奇妙联盟之星
+file: wlstar.zip
+sort-by: 094
+developer: 奇妙联盟之星
+publisher: Mijin
+release: Baseball
+x-id: FBNEO SPO
+description: 一场棒球比赛。
+
+game: 震撼联盟
+file: dleague.zip
+sort-by: 095
+developer: 震撼联盟
+publisher: Taito
+release: Baseball
+x-id: FBNEO SPO
+description: Dynamite League 是一款棒球比赛。
+
+game: 爆笑保龄球
+file: lbowling.zip
+sort-by: 097
+developer: 爆笑保龄球
+publisher: SNK
+genre: SNK
+release: Bowling
+x-id: FBNEO SPO
+description: SNK于1990年推出的一款保龄球游戏，漫画风格。后来IGS也推出了一款和它类似的保龄球风格游戏叫虚拟保龄球。
+
+game: 保龄之道
+file: bowlrama.zip
+sort-by: 100
+developer: 保龄之道
+publisher: Capcom
+release: Bowling
+x-id: FBNEO SPO
+description: Bowl-O-Rama 有 3 种不同的保龄球变化可供选择，包括“Regulation Bowling”、“Flash-O-Matic”和“BlackJack”
+
+game: 世界级保龄球DX
+file: wcbowldx.zip
+sort-by: 102
+developer: 世界级保龄球DX
+publisher: Incredible Technologies
+release: Bowling
+x-id: FBNEO SPO
+description: Incredible Technologies 出品的 World Class Bowling Arcade 是一款高度拟真的保龄球街机游戏。这是原作的豪华加强版。最多可以让 4 名玩家互相对抗。
+
+game: 极上疯狂保龄球
+file: krzybowl.zip
+sort-by: 103
+developer: 极上疯狂保龄球
+publisher: Sammy
+genre: Sammy
+release: Bowling
+x-id: FBNEO SPO
+description: 保龄球游戏。可以选择正常玩法和超级玩法，超级玩法中每局保龄球瓶子的摆放方式都不一样。
+
+game: 重量拳击
+file: poundfor.zip
+sort-by: 105
+developer: 重量拳击
+publisher: Irem
+release: Boxing
+x-id: FBNEO SPO
+description: 一款架空拳击游戏，您可以在其中战斗成为世界上最好的拳击手。
+
+game: 拳击决赛
+file: fround.zip
+sort-by: 106
+developer: 拳击决赛
+publisher: Konami
+release: Boxing
+x-id: FBNEO SPO
+description: 拳击比赛。你扮演 Jabbin Jim 的角色，他在一个比一个更强硬的不同对手中杀出一条血路。从洛基电影中可以辨认出一些对手。您的拳击手具有三个属性：力量、速度和耐力，这些都会影响他的整体力量等级。可以通过在回合之间参加小游戏来提升属性。
+
+game: 泰森拳击
+file: punchout.zip
+sort-by: 107
+developer: 泰森拳击
+publisher: Nintendo
+release: Boxing
+x-id: FBNEO SPO
+description: 玩家扮演一名绿发拳击手，他必须通过六名越来越有传奇色彩的拳击手杀出一条血路，才能在这场精湛的一对一格斗游戏中赢得“冠军”称号。
+
+game: 重量拳击
+file: hwchamp.zip
+sort-by: 108
+developer: 重量拳击
+publisher: SEGA
+release: Boxing
+x-id: FBNEO SPO
+description: Heavyweight Champ 是一款第一人称拳击游戏，您可以在其中引导一位名叫“Kid Crusher”的拳击手提高排名并获得世界重量级拳击冠军。赢得并成功卫冕腰带，成为真正的冠军。
+
+game: 冠军拳击
+file: titlef.zip
+sort-by: 109
+developer: 冠军拳击
+publisher: SEGA
+release: Boxing
+x-id: FBNEO SPO
+description: 主角被透视并勾勒出轮廓的拳击街机游戏。玩家用两个操纵杆控制拳击手的出拳、格挡和闪避。
+
+game: 主场拳击
+file: mainsnk.zip
+sort-by: 111
+developer: 主场拳击
+publisher: SNK
+release: Boxing
+x-id: FBNEO SPO
+description: SNK的一款拳击游戏。
+
+game: 明日之丈
+file: scessjoe.zip
+sort-by: 112
+developer: 明日之丈
+publisher: Wave
+release: Boxing
+x-id: FBNEO SPO
+description: 极其罕见，这款游戏基于经典漫画/动漫系列 Ashita no Joe（明日之乔）。漫画于 1968 年至 1973 年在少年杂志上连载。 1970 年至 1971 年和 1980 年至 1981 年还有 2 部电视剧，1980 年上映了一部电影。
+
+game: 热血高校躲避球
+file: spdodgeb.zip
+sort-by: 114
+developer: 热血高校躲避球
+publisher: Technos Japan Corp.
+genre: Technos Japan Corp.
+release: Dodgeball
+x-id: FBNEO SPO
+description: 1987年出品，因此画风更接近fc版的热血高校躲避球。
+
+game: 新热血高校躲避球
+file: sdodgeb.zip
+sort-by: 115
+developer: 新热血高校躲避球
+publisher: Tecmo
+genre: Tecmo
+release: Dodgeball
+x-id: FBNEO SPO
+description: 热血高校躲避球街机版的续作，1996年推出，画风更接近sfc版。游戏有能量槽的设定，影响必杀技的使用。
+
+game: 企鹅大战
+file: pkunwar.zip
+sort-by: 116
+developer: 企鹅大战
+publisher: UPL
+release: Dodgeball
+x-id: FBNEO SPO
+description: 一种计时游戏，企鹅在桌子上滚动球体，试图击中对手得分。比赛结束时，在桌子一侧拥有最少球体的角色是赢家。
+
+game: 原始橄榄球
+file: pigskin.zip
+sort-by: 118
+developer: 原始橄榄球
+publisher: Midway
+release: Football
+x-id: FBNEO SPO
+description: 与野蛮人一起踢足球！一场基本的足球比赛在充满武器、陷阱，甚至是不惜一切代价让你慢下来的旁观者的场地上进行！
+
+game: 疯狂橄榄球
+file: fbfrenzy.zip
+sort-by: 119
+developer: 疯狂橄榄球
+publisher: SNK
+release: Football
+x-id: FBNEO SPO
+description: 玩完 Football Frenzy 之后，您再也不会玩另一场足球比赛了！ Football Frenzy 伴随着持续不断的逐场比赛宣布，是最棒的强硬动作！您将以全立体声听到每一次令人骨碎的铲球和头盔对头盔、金属对金属的撞击声。球员们为球队牺牲身体的刺耳的咕哝声和呻吟声让你和他们一起在场上！相机变焦为您提供有史以来最耀眼的特写镜头。所以，带上你的垫子和头盔！锦标赛模式、电影显示和超过 10 支球队可供选择，使这个足球包变得完整。在这个 46-MEG 令人震撼的烤架上与电脑或朋友对战，太棒了……足球狂潮！
+
+game: Tecmo 橄榄球
+file: tbowl.zip
+sort-by: 121
+developer: Tecmo 橄榄球
+publisher: Tecmo
+release: Football
+x-id: FBNEO SPO
+description: TECMO BOWL - 勇气与荣耀的游戏！现在，戴上你的头盔，开始行动吧！选择您的球队并为您自己的比赛计划选择比赛。从瞬间开始，每次传球、盖帽、跑动和铲球的完全控制权都在你的手中。特库摩碗！
+
+game: 狂野橄榄球
+file: hiimpact.zip
+sort-by: 122
+developer: 狂野橄榄球
+publisher: Williams
+release: Football
+x-id: FBNEO SPO
+description: 威廉姆斯的美式橄榄球比赛。
+
+game: 主题高尔夫
+file: majtitle.zip
+sort-by: 123
+developer: 主题高尔夫
+publisher: Irem
+release: Golf
+x-id: FBNEO SPO
+description: 一场高尔夫比赛，你将参加一场重要的高尔夫锦标赛的最后一轮比赛，你的目标是在 18 洞比赛后登上排行榜榜首，将奖杯带回家。您还可以与最多 4 名玩家一起与好友竞争。
+
+game: 主题高尔夫 2
+file: majtitl2.zip
+sort-by: 124
+developer: 主题高尔夫 2
+publisher: Irem
+release: Golf
+x-id: FBNEO SPO
+description: Major Title 2 是一款最多四名玩家的高尔夫游戏，他们可以选择作为四名不同的高尔夫球手之一进行比赛。每个高尔夫球手都拥有独特的技能组合，这会影响他们进行某些类型击球的能力（强力击球手、全能球员、技术员和魔术师）。
+
+game: 李·特雷维诺 决战高尔夫
+file: fitegolf.zip
+sort-by: 125
+developer: 李·特雷维诺 决战高尔夫
+publisher: SNK
+release: Golf
+x-id: FBNEO SPO
+description: 1 至 4 名球员可以在 18 洞美国球场或 18 洞日本球场上开球。玩家 1
+
+game: 顶尖高尔夫
+file: tpgolf.zip
+sort-by: 126
+developer: 顶尖高尔夫
+publisher: SNK
+release: Golf
+x-id: FBNEO SPO
+description: 一流的比赛！在美丽的球场上，无声的竞争将开始。从四个单独的玩家中选择。玩一场拿骚游戏，感受不同的变化。享受真实的高尔夫刺激！
+
+game: NEO大联盟高尔夫
+file: turfmast.zip
+sort-by: 128
+developer: NEO大联盟高尔夫
+publisher: Nazca Corporation
+genre: SNK
+release: Golf
+x-id: FBNEO SPO
+description: Neo Turf Masters 是一款高尔夫游戏，可在三个不同的国家/地区进行比赛。和真实比赛一样，每场有 18 个洞，总共有 54 个洞。该游戏具有两人对战模式和三种单人游戏模式。您可以从六个不同的角色中选择一个，每个角色都有自己的优缺点。
+
+game: 乡村高尔夫
+file: dcclub.zip
+sort-by: 129
+developer: 乡村高尔夫
+publisher: SEGA
+release: Golf
+x-id: FBNEO SPO
+description: 动态抄送- Dynamic Country Club 是一款基于多边形的高尔夫模拟游戏。
+
+game: 超级高尔夫大师赛
+file: sgmast.zip
+sort-by: 130
+developer: 超级高尔夫大师赛
+publisher: SEGA
+release: Golf
+x-id: FBNEO SPO
+description: Jumbo Ozaki Super Masters 是一款来自 Sega 的高尔夫游戏。
+
+game: 老鹰高尔夫
+file: eaglshot.zip
+sort-by: 132
+developer: 老鹰高尔夫
+publisher: Sammy
+release: Golf
+x-id: FBNEO SPO
+description: 一场高尔夫比赛。
+
+game: 美国经典高尔夫
+file: usclssic.zip
+sort-by: 133
+developer: 美国经典高尔夫
+publisher: SETA Corporation
+release: Golf
+x-id: FBNEO SPO
+description: 一种基本的高尔夫游戏，从发球台的视野开始，显示风速、方向和到果岭的距离。选择您的球杆并以所需的力量和方向滚动轨迹球来挥杆。标准杆和低于标准杆的额外球洞。
+
+game: 重力抽杀
+file: hvysmsh.zip
+sort-by: 135
+developer: 重力抽杀
+publisher: Data East
+genre: Data East
+release: Handball
+x-id: FBNEO SPO
+description: Heavy Smash 是一款充满未来感的手球游戏。玩家可以选择来自美国、日本、西班牙、巴西、德国、英国、意大利、埃及、澳大利亚的团队或一个特殊的电子人团队。 游戏由三个按钮控制：一个用于投球，另一个用于将球传给另一位队友，第三个按钮用于跳跃。你有一个能量计，它会随着时间的推移快速充满，当它完全充满时，可以使用超级必杀。
+
+game: 金牌冰上曲棍球
+file: bladestl.zip
+sort-by: 136
+developer: 金牌冰上曲棍球
+publisher: Konami
+release: Hockey
+x-id: FBNEO SPO
+description: 一场冰球比赛，包含肉搏战和肢体暴力。具有特写镜头动作场景，其中两名球员（每队一名）扔掉他们的手套并互相拳打脚踢。
+
+game: 2对2冰上曲棍球公开赛
+file: openice.zip
+sort-by: 137
+developer: 2对2冰上曲棍球公开赛
+publisher: Midway
+genre: Midway
+release: Hockey
+x-id: FBNEO SPO
+description: 一场由 1995 年 NHL 球员和球队参加的四人冰球比赛。基本就是NBA Jam的冰球版。你选择一支球队，然后参加斯坦利杯。
+
+game: 火爆群龙 守门大对决
+file: slapshot.zip
+sort-by: 138
+developer: 火爆群龙 守门大对决
+publisher: Taito
+genre: Taito
+release: Hockey
+x-id: FBNEO SPO
+description: 桌上冰球的街机版。里面的角色都有特技，增加了游玩乐趣。
+
+game: 暴力冰上曲棍球
+file: hitice.zip
+sort-by: 139
+developer: 暴力冰上曲棍球
+publisher: Williams
+genre: Taito
+release: Hockey
+x-id: FBNEO SPO
+description: 2对2冰球赛，可供4人游玩。类似热血冰球，游戏以打架为主，打球为辅。游戏中还可以购买短时间内提高球员能力的功能饮料。
+
+game: 撞球女老千
+file: pgalvip.zip
+sort-by: 140
+developer: 撞球女老千
+publisher: A.C.E.
+release: Pool
+x-id: FBNEO SPO
+description: 
+
+game: 花式桌球
+file: pcktgal.zip
+sort-by: 143
+developer: 花式桌球
+publisher: Data East
+genre: Data East
+release: Pool
+x-id: FBNEO SPO
+description: 别看这个游戏比较古老，却是FC撞球游戏的最初原形。这款游戏比FC上的弹性更加加强，而且还有美女脱衣表演，想做高手仅仅打长杆准还不够，还要学会走位才行。游戏中球洞不时出现很多有趣的奖励设置，而且每关过后的花式打法（奖BALL）也要用的上走位才行，还有跳球（那个非绝顶高手不要使用），学会走位才能有打球的意识，才是打台球的王道。
+
+game: 美女花式桌球 豪华版
+file: pktgaldx.zip
+sort-by: 144
+developer: 美女花式桌球 豪华版
+publisher: Data East
+release: Pool
+x-id: FBNEO SPO
+description: 一个有四个级别的台球游戏，每个级别由不同的女人表示。获得足够的分数，让女人脱光衣服，让你更上一层楼。可以在帧之间尝试技巧投篮，当两个人玩时，获胜者是三帧中最好的两帧。
+
+game: 撞球高手 折磨
+file: rackemup.zip
+sort-by: 146
+developer: 撞球高手 折磨
+publisher: Konami
+release: Pool
+x-id: FBNEO SPO
+description: 
+
+game: 板球
+file: carket.zip
+sort-by: 149
+developer: 板球
+publisher: SemiCom
+release: Pool
+x-id: FBNEO SPO
+description: 
+
+game: 夏日天使
+file: troangel.zip
+sort-by: 152
+developer: 夏日天使
+publisher: Irem
+release: Skiing
+x-id: FBNEO SPO
+description: Tropical Angel 是对 3d 赛车类型的抽象演绎，让玩家控制一名女性滑水者，她必须躲避从水中突出的许多岩石，同时试图通过一定数量的门 - 以一对的形式标志 - 在时间限制到期之前。加速按钮需要一直按住，而“技巧”按钮可以让滑水女孩旋转八十度，然后向后滑行。玩家在向后行驶时无法转向，但会在整个过程中获得奖励积分。随着游戏的进行，小坡道、浮标和鲨鱼开始发挥作用。可以跳过小坡道以增加玩家的分数，尽管它们总是难以到达的位置。浮标通常非常靠近，但在它们之间滑雪可以获得奖励积分。最后，鲨鱼会时不时出现，碰到它就意味着游戏结束，不管玩家还剩多少时间。
+
+game: 雪板锦标赛
+file: snowboar.zip
+sort-by: 153
+developer: 雪板锦标赛
+publisher: Gaelco
+genre: Gaelco
+release: Skiing
+x-id: FBNEO SPO
+description: 一款单板滑雪游戏。
+
+game: 科乐美乒乓球
+file: pingpong.zip
+sort-by: 156
+developer: 科乐美乒乓球
+publisher: Konami
+release: Table tennis
+x-id: FBNEO SPO
+description: Konami 的 Ping Pong 是一款适合一两个玩家玩的简单乒乓球模拟游戏。 Ping Pong 提供三种不同类型的击球；上旋、后旋和扣球。实际的游戏玩法以击球时机和击球选择为中心，玩家的球棒会自动移动以跟踪球的运动。
+
+game: 乒乓大师 '93
+file: ppmast93.zip
+sort-by: 158
+developer: 乒乓大师 '93
+publisher: Electronic Devices S.R.L.
+release: Table tennis
+x-id: FBNEO SPO
+description: Ping Pong Masters '93 是一款街机乒乓游戏。
+
+game: 真实乒乓球
+file: speedspn.zip
+sort-by: 160
+developer: 真实乒乓球
+publisher: TCH
+genre: TCH
+release: Table tennis
+x-id: FBNEO SPO
+description: 不错的乒乓球比赛，手感很扎实。
+
+game: 超级世界网球
+file: swcourt.zip
+sort-by: 161
+developer: 超级世界网球
+publisher: Namco
+release: Tennis
+x-id: FBNEO SPO
+description: 超级世界法院 (c) 1992 南梦宫。 - 技术 - Namco 系统 NA-1 硬件游戏 ID：SC 主 CPU：68000（@ 12.52825 Mhz），M37710（@ 12.52825 Mhz）声音芯片：C140（@ 42.667 Khz）玩家：4控制：8向操纵杆按钮：3 - 琐事 - 即使
+
+game: 网球绝招 近身攻击
+file: passsht.zip
+sort-by: 162
+developer: 网球绝招 近身攻击
+publisher: SEGA
+release: Tennis
+x-id: FBNEO SPO
+description: 传球射门有 4 个级别。第一级在法国，然后是澳大利亚、美国，最后是第四级在英国。对于前 3 个级别，玩家只玩决赛。然而，在英格兰，球员进入四分之一决赛，然后进入半决赛，然后进入决赛。
+
+game: 球拍也疯狂
+file: paddlema.zip
+sort-by: 163
+developer: 球拍也疯狂
+publisher: SNK
+release: Tennis
+x-id: FBNEO SPO
+description: Paddle Mania 是一款具有奥林匹克风格的俯视网球游戏。在玩游戏的单人和合作模式时，玩家将交替在花哨的球场上与其他网球运动员交手，以及与其他运动项目的运动员竞争。尽管以网球为主题，但计分方式与空气曲棍球更相似，球场两侧都有一个目标，球队需要防守并瞄准目标。你面对的奥林匹克运动员从排球队到冲浪运动员再到单个相扑选手，而与网球运动员对抗的噱头包括定期打开和关闭的球门，一个有障碍物防止你站在里面的东西，还有一个球门的一部分被移动的墙挡住了。通过左右挥动球拍，您需要获得比对手更多的分数才能移动到下一个运动员。有一个多人游戏选项，您可以在其中相互竞争而不是合作，虽然你们仍然是网球运动员，但您可以从单人游戏模式中的不同噱头球场中进行选择。
+
+game: 终极网球
+file: ultennis.zip
+sort-by: 164
+developer: 终极网球
+publisher: Art
+genre: Art & Magic
+release: Tennis
+x-id: FBNEO SPO
+description: 1993年的网球游戏，采用了真实的球员和球场，有不错的拟真度。游戏还支持回放。
+
+game: 壁球
+file: squash.zip
+sort-by: 166
+developer: 壁球
+publisher: Gaelco
+genre: Itisa
+release: Tennis
+x-id: FBNEO SPO
+description: 来自西班牙街机厂商Gaelco 的壁球游戏。采用了漫画画风。
+
+game: 大力扣杀1
+file: pspikes.zip
+sort-by: 167
+developer: 大力扣杀1
+publisher: Video System
+genre: Video System
+release: Volleyball
+x-id: FBNEO SPO
+description: 91年发售的排球游戏，是同类游戏中的佼佼者。
+
+game: 大力扣杀2
+file: pspikes2.zip
+sort-by: 168
+developer: 大力扣杀2
+publisher: SNK
+genre: Video System
+release: Volleyball
+x-id: FBNEO SPO
+description: Neo Geo 上的 Power Spikes 2 是一款排球游戏，发售于1994年，是初代时隔3年的续作。游戏加入了机器人球队。
+
+game: 世界沙滩排球
+file: wbeachvl.zip
+sort-by: 170
+developer: 世界沙滩排球
+publisher: Playmark
+release: Volleyball
+x-id: FBNEO SPO
+description: 沙滩排球比赛。
+
+game: 世界杯排球 95
+file: wcvol95.zip
+sort-by: 171
+developer: 世界杯排球 95
+publisher: Data East
+release: Volleyball
+x-id: FBNEO SPO
+description: 世界杯排球
+
+game: 王牌攻击者
+file: aceattac.zip
+sort-by: 172
+developer: 王牌攻击者
+publisher: SEGA
+release: Volleyball
+x-id: FBNEO SPO
+description: Ace Attacker 是一款头顶排球游戏。
+
+game: 沙滩排球锦标赛
+file: vball.zip
+sort-by: 173
+developer: 沙滩排球锦标赛
+publisher: Sharp
+release: Volleyball
+x-id: FBNEO SPO
+description: 玩家控制一对名叫乔治和迈克尔的海滩流浪汉，他们靠与当地人打沙滩排球为生。一天，他们找到一张全国沙滩排球锦标赛的传单，为获胜队提供 2,500,000 美元的现金奖励。
+
+game: 超级排球
+file: svolley.zip
+sort-by: 174
+developer: 超级排球
+publisher: V-System Co.
+release: Volleyball
+x-id: FBNEO SPO
+description: 超级排球是街机终端上的体育游戏。
+
+game: 拳击擂台
+file: mainevt.zip
+sort-by: 175
+developer: 拳击擂台
+publisher: Konami
+release: Wrestling
+x-id: FBNEO SPO
+description: 一种摔跤游戏，您可以从 8 名摔跤手中选出 2 名参加双打比赛。
+
+game: 摔跤
+file: wrestwar.zip
+sort-by: 176
+developer: 摔跤
+publisher: SEGA
+release: Wrestling
+x-id: FBNEO SPO
+description: 在 Sega 于 1989 年推出的这款街机游戏中，带领新秀摔跤手 Bruce Blade 登上摔跤世界的巅峰。
+
+game: 摔跤锦标赛
+file: champwr.zip
+sort-by: 177
+developer: 摔跤锦标赛
+publisher: Taito
+release: Wrestling
+x-id: FBNEO SPO
+description: 八名原创摔跤手在单人或双人比赛中为荣耀、金钱而战，并赢得 TWF 巡回赛的冠军腰带。
+
+game: WWF 超级巨星
+file: wwfsstar.zip
+sort-by: 178
+developer: WWF 超级巨星
+publisher: Technos Japan
+release: Wrestling
+x-id: FBNEO SPO
+description: 
+
+game: 疯狂摔跤 2
+file: maniach.zip
+sort-by: 179
+developer: 疯狂摔跤 2
+publisher: Technos Japan Corp.
+release: Wrestling
+x-id: FBNEO SPO
+description: Mania Challenge 是摔跤游戏 Mat Mania 的续集。游戏玩法和功能（包括摔跤手的动作，除了增加了落踢）完全相同。最重要的新增内容是与其他人类玩家的对抗模式。原始版本中未命名的摔跤手主角现在称为炸药汤米。在对抗模式中，他只能与一个具有相同动作的克隆角色战斗，称为飓风乔。
+
+game: 摔跤旋风
+file: blzntrnd.zip
+sort-by: 180
+developer: 摔跤旋风
+publisher: Human
+release: Wrestling
+x-id: FBNEO SPO
+description: 由 Masato Masuda 和他的团队开发的街机摔跤游戏，最著名的作品是 Fire Pro Wrestling 系列。
+
+game: 马蹄铁比赛
+file: shuuz.zip
+sort-by: 181
+developer: 马蹄铁比赛
+publisher: Atari
+release: Sports
+x-id: FBNEO SPO
+description: 马蹄铁游戏。
+
+game: 野外飞盘
+file: wjammers.zip
+sort-by: 182
+developer: 野外飞盘
+publisher: Data East
+genre: SNK
+release: Sports
+x-id: FBNEO SPO
+description: Windjammers 来自于现实中的一门冷门运动，称为飞碟网球或飞盘网球。您和对手在中间有低网的竞技场中对峙。通过将飞盘扔进玩家身后的球门或当您的对手无法及时接住飞盘时得分。有两个动作：常规投掷和吊球。您还可以为投掷增加特殊效果。捕捉困难的飞盘时，您可以滑动以更快地移动。有六个角色可供选择，具有特定的能力和适合他们技能的球场。一组比赛由 30 秒的比赛组成。三局两胜或两盘平局后金球决胜。
+
+game: 盾牌大战
+file: flipshot.zip
+sort-by: 183
+developer: 盾牌大战
+publisher: Visco
+genre: SNK
+release: Sports
+x-id: FBNEO SPO
+description: Visco于1998年制作的一款益智游戏。
+
+game: 碰碰球大战
+file: bangbead.zip
+sort-by: 184
+developer: 碰碰球大战
+publisher: Visco
+genre: SNK
+release: Sports
+x-id: FBNEO SPO
+description: VISCO公司2000年制作的一款经典休闲类街机游戏。玩家在对战过程中，主角可以到处乱走，主要是把球顶回去，破坏对手后面的物品，谁先把对方后面的墙破完，谁就胜利了。游戏的规则是双方利用球击破对方后面的物品，全部击破的话就可胜利。游戏是对战模式，关卡将区域一分为二，人物只能在自己的区域内活动，而要想击破对方守护的物品，就需要靠击球来击破物品了。游戏的操作比较简单，很容易上手。球飞行的轨迹因为人物的攻击面和攻击位置的关系，飞行轨迹没有规律的，需要玩家有良好的反应能力和操作能力。整体上是一款比较新颖的游戏，值得一玩。
+
+game: 暴力溜冰
+file: rollerg.zip
+sort-by: 185
+developer: 暴力溜冰
+publisher: Konami
+genre: Konami
+release: Sports
+x-id: FBNEO SPO
+description: Rollergames 是两款 1990 年 Konami 视频游戏的名称，一款是投币式街机游戏，另一款是 Nintendo Entertainment System 游戏，两者均基于同名电视节目。这款街机游戏忠实于节目，不像 NES 版本的 RollerGames，后者是一款横向卷轴游戏。这场比赛是为两名球员进行的，并且有来自联盟的所有滑冰运动员和经理。分数值从真实节目中减半（并在需要时四舍五入），并且在四个 6 分钟的时间段内只有四个 99 秒的循环而不是 45 秒的循环。
+
+game: 斗牛
+file: bullfgt.zip
+sort-by: 186
+developer: 斗牛
+publisher: SEGA
+release: Sports
+x-id: FBNEO SPO
+description: 您在斗牛场扮演斗牛士，控件包括一个操纵杆和两个按钮。显然，操纵杆让你四处移动，而按钮分别用于移动和刺穿斗篷。您可以通过用斗篷牵着公牛、刺伤公牛、将它撞到墙上、在它的背上开一个伤口并杀死它来得分。杀死公牛后，您将进入下一阶段，公牛会越来越凶猛，最终，第二头公牛会加入其中。
+
+game: 美国马蹄铁比赛
+file: horshoes.zip
+sort-by: 187
+developer: 美国马蹄铁比赛
+publisher: Taito
+release: Sports
+x-id: FBNEO SPO
+description: American Horseshoes 是一款 1 到 4 人的马蹄铁游戏。每个玩家都可以从四个角色中选择一个。每局有2个投球。球员可以在每次投球前选择抓地力和投掷角度。轨迹球的滚动决定了每个球的距离。每局比赛结束后，得分都会显示为立桩区的头顶投篮。每个玩家的分数在整个游戏过程中都显示在屏幕顶部。在每 3 局结束时，玩家可以通过插入额外积分来继续。每场比赛最多可以打9局。
+
+game: 大相扑
+file: coozumou.zip
+sort-by: 188
+developer: 大相扑
+publisher: Data East
+release: Sumo
+x-id: FBNEO SPO
+description: Oozumou (c) 1984 数据东方。 - 技术 - DECO 盒式系统硬件。 [Cassette No.41] - 来源 - 游戏的 ROM。
+
+game: 出世大相扑
+file: ssozumo.zip
+sort-by: 189
+developer: 出世大相扑
+publisher: Tecmo
+release: Sumo
+x-id: FBNEO SPO
+description: 相扑比赛。
+
+game: 救生圈滑水赛
+file: toobin.zip
+sort-by: 192
+developer: 救生圈滑水赛
+publisher: Domark
+release: Swimming
+x-id: FBNEO SPO
+description: Toobin' 涉及 Biff 和 Jet 骑着轮胎沿着河流的急流前进。你向左或向右转动轮胎，随着水流漂移，确保避开河岸和中间的分界线。危险包括鳄鱼、散落的原木和树枝，以及渔民——您配备了有限的锡罐来应对这些。在向下的路上有一些门可以滑过 - 这些会给你一个积分奖励。每个级别都有严格的时间限制，但如果你成功了，最后会有一个踢球派对。
+
+game: 超越巅峰
+file: armwrest.zip
+sort-by: 193
+developer: 超越巅峰
+publisher: Nintendo
+genre: Nintendo
+release: Arm wrestling
+x-id: FBNEO SPO
+description: 在 Arm Wrestling 中，玩家在一系列扳手比赛中与许多不同的、明显卡通风格的对手较量。该游戏的图形风格与任天堂的经典“Punch-Out!!”非常相似。系列。游戏玩法要求玩家一开始将摇杆向左推，但每当电脑对手开始行动时，玩家必须将摇杆向右推进行反击，按下按钮增加威力。如果反击不成功，来回移动摇杆数次可以避免玩家被压制。玩家的对手必须在计数器到达一分钟之前被压制，否则比赛将输掉。
+

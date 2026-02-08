@@ -1,0 +1,476 @@
+collection: 休闲街机
+sort-by: 007
+extensions: 7z, zip
+ignore-files: 
+  pgm.zip
+  neogeo.zip
+  drgnwrld.zip
+  kingdrby.zip
+  crysbios.zip
+  namcoc76.zip
+  ym2413.zip
+  coh1002m.zip
+  sys573.zip
+  segabill.zip
+  konamigx.7z
+  aleck64.zip
+  stvbios.zip
+  m68705p5.zip
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/mame_libretro.dll" "{file.path}"
+
+game: 麻将砖块
+file: jongbou.zip
+sort-by: 011
+developer: 麻将砖块
+publisher: SNK
+genre: SNK
+release: Action
+x-id: MAME ECT
+description: Mahjong Block Jongbou 是 Breakout 风格的街机游戏和麻将游戏的结合。玩家可以通过从屏幕上移除所有砖块来通关，也可以通过收集掉落的变成麻将棋子的砖块来完成一手有效的麻将牌。在最初的街机版本中，玩家在每个级别后都会获得一张穿着性感服装的动漫风格女孩的照片。这些奖励图片已从 Nintendo Famicom 版本中删除。
+
+game: 泡泡龙2(平台)汉化版
+file: bubsymphj.zip
+sort-by: 024
+developer: 泡泡龙2(平台)汉化版
+publisher: Taito
+genre: Taito
+release: Platform
+x-id: MAME ECT
+description: 盛大汉化版
+
+game: 木匠兄弟汉化版
+file: dondokodj.zip
+sort-by: 036
+developer: 木匠兄弟汉化版
+publisher: Taito
+genre: Taito
+release: Platform
+x-id: MAME ECT
+description: 盛大汉化版
+
+game: 仙境物语 汉化版
+file: flstoryj.zip
+sort-by: 038
+developer: 仙境物语 汉化版
+publisher: Taito
+genre: Taito
+release: Platform
+x-id: MAME ECT
+description: 盛大汉化版
+
+game: 黄金赛马86
+file: kingdrbb.zip
+sort-by: 055
+developer: 黄金赛马86
+publisher: Tazmi
+genre: Tazmi
+release: Casino, Casino / Race
+x-id: MAME ECT
+description: 黄金赛马86是80年代风靡全国街机房的一款赛马游戏，原名是国王德比赛马，出品于1981年的游戏，后来台湾盗版1986年版在国内普及。本游戏使用MAME运行，仍不完美，进入游戏时需要重启一次才能正常使用，而且背景的草坪贴图只能显示为土黄色。好在可以听一听熟悉的音乐感受一下当年街机房的气氛。如果想体会到正常画面的赛马游戏，可以在本整合包“其他游戏”文件夹里找到黄金赛马的pc版体验。
+
+game: 急速赛马1
+file: glpracr.zip
+sort-by: 059
+developer: 急速赛马1
+publisher: Tecmo
+genre: Tecmo
+release: Horses race
+x-id: MAME ECT
+description: 急速赛马是一款来自街机平台的赛马题材作品，其中把真实的赛马比赛与街机操作相结合，这种玩法比想象的更具挑战性，同时难度也更高，若你也是的赛马爱好者的话绝对不容错过。该游戏中玩家将扮演一名传奇赛马选手，通过选择自己的马匹参加各种富有挑战性的赛马比赛，每场比赛中都会有各种来自世界各地的选手，随着玩家战胜它们，赛马的难度也会变得越来越高，对于马匹与赛道的把握要求也将更强。
+
+game: 急速赛马2
+file: glpracr2.zip
+sort-by: 060
+developer: 急速赛马2
+publisher: Tecmo
+genre: Tecmo
+release: Horses race
+x-id: MAME ECT
+description: 奔驰赛马2 Gallop Racer 2是一款来自街机平台的赛马题材作品，其中把真实的赛马比赛与街机操作相结合，这种玩法比想象的更具挑战性，同时难度也更高，若你也是的赛马爱好者的话绝对不容错过。
+
+game: 急速赛马2 日版
+file: glpracr2j.zip
+sort-by: 061
+developer: 急速赛马2 日版
+publisher: Tecmo
+genre: Tecmo
+release: Horses race
+x-id: MAME ECT
+description: 奔驰赛马2 Gallop Racer 2是一款来自街机平台的赛马题材作品，其中把真实的赛马比赛与街机操作相结合，这种玩法比想象的更具挑战性，同时难度也更高，若你也是的赛马爱好者的话绝对不容错过。
+
+game: 急速赛马3
+file: glpracr3.zip
+sort-by: 062
+developer: 急速赛马3
+publisher: Tecmo
+genre: Tecmo
+release: Horses race
+x-id: MAME ECT
+description: 急速赛马3是一款来自街机平台的赛马题材游戏，这是该系列的第三部作品，相比前作不论是画面还是玩法上都有了很大的提升，不过作为街机有游戏，其难度依然保持了高标准，对于赛马爱好者来说绝对不容错过。该游戏中玩家将接触到最真实的赛马玩法，精准的控制马匹越过各种障碍并取得胜利即可，同时其中结合了最前沿的竞速操作，虽然玩家们将可以在高速奔跑中获得很棒的乐趣，喜欢的玩家就一起了解吧。
+
+game: 天蚕变3D 舞动之眼
+file: danceyes.zip
+sort-by: 064
+developer: 天蚕变3D 舞动之眼
+publisher: Namco
+genre: Namco
+release: Puzzle-Game
+x-id: MAME ECT
+description: Namco于1996年推出的3d天蚕变，虽说是天蚕变，但因为是街机大厂，也只能打打擦边球，过关后并没有进一步深入性地“奖励”玩家。
+
+game: 泡泡堂
+file: bballoon.zip
+sort-by: 071
+developer: 泡泡堂
+publisher: Eolith Co., Ltd.
+genre: Eolith
+release: Action
+x-id: MAME ECT
+description: 玩家在一个小岛上的八个不同场景中控制可爱的卡通人物。环境包括冰川、带风车的围墙村庄、地下火车隧道、森林、炸弹工厂、沙漠绿洲和
+
+game: 噗呦噗呦3
+file: puyosun.zip
+sort-by: 077
+developer: 噗呦噗呦3
+publisher: Compile
+genre: Compile
+release: Puzzle-Game
+x-id: MAME ECT
+description: “Puyo Puyo”系列的第三个游戏。
+
+game: 魔法宝石97
+file: colmns97.zip
+sort-by: 084
+developer: 魔法宝石97
+publisher: SEGA
+genre: SEGA
+release: Puzzle-Game
+x-id: MAME ECT
+description: 成套的彩色珠宝以随机顺序掉落。游戏的目的是将珠宝垂直、水平或对角排列成三排或更多排，使它们消失。
+
+game: 埃及艳后宝石方块
+file: cleopatr.zip
+sort-by: 085
+developer: 埃及艳后宝石方块
+publisher: Taito
+genre: Taito
+release: Puzzle-Game
+x-id: MAME ECT
+description: Cleopatra Fortune 是一款具有古埃及风情的益智三消游戏，拥有美妙的音乐。
+
+game: 埃及艳后宝石方块 汉化版
+file: cleopatr/cleopatr.zip
+sort-by: 086
+developer: 埃及艳后宝石方块 汉化版
+assets.box_front: media/cleopatr/boxFront.jpg
+assets.logo: media/cleopatr/logo.png
+assets.video: media/cleopatr/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/mame2003_plus_libretro.dll" "{file.path}"
+release: Puzzle-Game
+x-id: MAME ECT
+description: 盛大汉化版
+
+game: 樱大战 花组对战方块
+file: hanagumi.zip
+sort-by: 087
+developer: 樱大战 花组对战方块
+publisher: SEGA
+genre: SEGA
+release: Puzzle-Game
+x-id: MAME ECT
+description: Columns 的竞争变体，以樱花大战系列中的角色为特色。
+
+game: 心跳回忆 对战解迷球
+file: tkmmpzdm.zip
+sort-by: 088
+developer: 心跳回忆 对战解迷球
+publisher: Konami
+genre: Konami
+release: Puzzle-Game
+x-id: MAME ECT
+description: Tokimeki Memorial Taisen Puzzle-dama 是 Taisen Puzzle-dama 系列中的一款游戏，以 Konami 约会模拟游戏“Tokimeki Memorial”中的女性角色为特色。该游戏设置为单人游戏的 CPU 对手的两人对战益智游戏。“硬币”从屏幕顶部以两个一组的形式掉落，玩家必须形成三个或更多相同颜色硬币的链条才能使它们消失。一次清除多个链会将锁定的硬币发送到另一侧。这些锁定的硬币被封闭在透明的球体中，当附近的硬币从屏幕上清除时，这些球体就会被移除。这可以引发更多的链条，从而增加游戏的策略。如果硬币堆积到屏幕顶部，则玩家输掉游戏。继续后，玩家将重新开始同一场比赛。
+
+game: 曲吉鼠解谜1
+file: cookbib.zip
+sort-by: 107
+developer: 曲吉鼠解谜1
+genre: SemiCom
+release: Puzzle-Game
+x-id: MAME ECT
+description: 1995的益智游戏，游戏有点仿造泡泡龙游戏，虽然特征上是一样的，但是游戏里是以水果为主的，相同的水果是可以抵消掉的。游戏的画面虽然感觉一般。但总体耐玩性还是比较强的，只要多练相信你会以更快的速度完成每一关吧。
+
+game: 块块消 汉化版
+file: plottinga.zip
+sort-by: 113
+developer: 块块消 汉化版
+publisher: Taito
+genre: Taito
+release: Puzzle-Game
+x-id: MAME ECT
+description: 盛大汉化版
+
+game: 陆地创造者 汉化版
+file: landmakrj.zip
+sort-by: 115
+developer: 陆地创造者 汉化版
+publisher: Taito
+genre: Taito
+release: Puzzle-Game
+x-id: MAME ECT
+description: 盛大汉化版
+
+game: 骆驼珠汉化版
+file: cameltryj.zip
+sort-by: 121
+developer: 骆驼珠汉化版
+publisher: Taito
+genre: Taito
+release: Action
+x-id: MAME ECT
+description: 原名骆驼珠，又名天旋地转，为盛大汉化版。一款控制小球在迷宫移动的益智小游戏。
+
+game: 所罗门之钥 汉化版
+file: solomonj.zip
+sort-by: 130
+developer: 所罗门之钥 汉化版
+publisher: Tecmo
+genre: Tecmo
+release: Puzzle-Game
+x-id: MAME ECT
+description: 盛大汉化版
+
+game: 钻地先生
+file: mrdrillr.zip
+sort-by: 131
+developer: 钻地先生
+publisher: Namco
+genre: Namco
+release: Puzzle-Game
+x-id: MAME ECT
+description: 一款非常容易上瘾的益智游戏，玩家必须在无尽的方块冲击中向下钻取，试图让相同颜色的方块接触并随后使它们消失。可以领取“Undergrounder”奖励以获得奖励积分，并且必须收集气囊以恢复玩家不断减少的空气供应。
+
+game: 动力射击弹珠
+file: pwrflip.zip
+sort-by: 143
+developer: 动力射击弹珠
+publisher: Excellent System
+release: Pinball
+x-id: MAME ECT
+description: Power Flipper Pinball Shooting是由Excellent Systems于1994年制作的。
+
+game: 究极徐徐大作战
+file: hyperbbc.zip
+sort-by: 145
+developer: 究极徐徐大作战
+publisher: Konami
+genre: Konami
+release: Compilation
+x-id: MAME ECT
+description: 究极徐徐大作战是由KONAMI公司开发的由众多恶搞小游戏组成的休闲游戏，玩法类似瓦里奥制造，不!应该是瓦里奥制造象它，究极徐徐大作战诞生那时任天堂还没有瓦里奥制造。此款游戏非常代表日本人恶搞的精神，独乐乐不如众乐乐，一款嬉皮搞怪的游戏。《究极徐徐大作战》没有什么大牌的制作人，也没有什么华丽的画面，一切都显得那么的平淡，那么的不起眼，似乎注定这款游戏从诞生到这个世上起，就应该湮没在时间的洪流之中。然而是金子就必然有其闪光的地方，这个游戏的亮点就是休闲。该游戏的第一作收录了40多个迷你游戏，分别为玩家的反应能力、判断能力、大脑协调能力等众多能力做出了考验。究极徐徐大作战系列有点类似于经典的热血高校，游戏中有非常多有意思的小游戏给玩家来挑战比赛，想要赢得最后的胜利，就必须在每一个小游戏中都有出色的表现。
+
+game: 冒险小子
+file: twrshaft.zip
+sort-by: 147
+developer: 冒险小子
+genre: Aruze Corp
+release: Platform
+x-id: MAME ECT
+description: Tower&Shaft英语本地化本系列补丁将Aleck64标题“Tower&Shaft”本地化为北美英语，并可选择将其修改为在任天堂64硬件上运行。使用的是经过修订的盒式磁带转换方法，与后来的转换版本一致。这应该可以替代原来的N64转换版本。游戏是Mac游戏NS Tower和NS Shaft的街机许可证，最初由Nagi-P Software的Akihiko Kusangi编写，并通过NIFTY Serve发行。游戏再简单不过了。在塔中，当Aleck自动左右移动时，按住并松开按钮1即可跳跃。在竖井中，向左和向右移动以落在平台上。不要从屏幕上掉下来或被上面的尖刺压扁。无尽模式是无尽的。是的，它在999层停止计数，但会一直持续到你死。高分只会一直保持下去。
+
+game: 益智游戏
+file: maruchan.zip
+sort-by: 152
+developer: 益智游戏
+publisher: SEGA
+genre: SEGA
+release: Compilation
+x-id: MAME ECT
+description: Maru-Chan de Goo! 是一款以 Maruchan Noodle 为背景的迷你游戏。
+
+game: 寻宝记  解谜与行动
+file: sandor.zip
+sort-by: 153
+developer: 寻宝记  解谜与行动
+publisher: SEGA
+genre: SEGA
+release: Puzzle-Game
+x-id: MAME ECT
+description: 一款包含益智、测验和动作游戏的游戏。
+
+game: 爆转陀螺
+file: topbladv.zip
+sort-by: 157
+developer: 爆转陀螺
+publisher: SonoKong
+genre: SonoKong
+release: Fight
+x-id: MAME ECT
+description: 一款陀螺陀螺战斗游戏，基于成功的动漫和玩具。
+
+game: 大大革命
+file: dai2kaku.zip
+sort-by: 158
+developer: 大大革命
+publisher: SystemBit
+genre: SystemBit
+release: Asiatic board game
+x-id: MAME ECT
+description: Dai-Dai-Kakumei (c) 2004 SystemBit。 - TRIVIA - 2004 年 6 月发布。 - 来源 - 游戏的 rom。
+
+game: 南梦宫迷你游戏98
+file: tenkomor.zip
+sort-by: 159
+developer: 南梦宫迷你游戏98
+publisher: Namco
+genre: Namco
+release: Compilation
+x-id: MAME ECT
+description: Tenkomori Shooting 是一款 3D（具有 2D 游戏玩法）街机游戏。它是各种射击迷你游戏的集合 - 其中一些是经典的 shmups。该游戏的结构和呈现类似于 Point Blank，因为它完全由迷你游戏组成，每个游戏都有一定的配额要完成。
+
+game: 中国龙1
+file: drgnwrldv10c.zip
+sort-by: 164
+developer: 中国龙1
+publisher: IGS
+genre: IGS
+release: Puzzle-Game
+x-id: MAME ECT
+description: 游戏的玩法非常简单，下面能储存七张牌，只需要找出同样的三张牌就可以消除如果，一时半会没找到合适的组合，本局就结束。必须先从面上的牌开始抽取，下面的牌有部分都是隐藏的，高手的话会进行预判到了后面的关卡，游戏难度变得非常大，很多玩家甚至会觉得眼花缭乱。
+
+game: 五子棋
+file: othellos.zip
+sort-by: 172
+developer: 五子棋
+publisher: Success
+genre: Success
+release: Asiatic board game
+x-id: MAME ECT
+description: 奥赛罗或黑白棋是一款适合两人的策略棋盘游戏，在 8×8 的非棋盘上进行。有 64 个相同的游戏棋子，称为圆盘（通常拼写为“圆盘”），一侧是浅色的，另一侧是深色的。玩家轮流将磁盘放在棋盘上，分配给他们的颜色面朝上。在游戏过程中，任何处于一条直线上且被刚刚放置的棋子和当前玩家颜色的另一个棋子所包围的对手颜色的棋子都将被翻回当前玩家的颜色。
+
+game: 五子棋  连珠贵族
+file: renju.zip
+sort-by: 173
+developer: 五子棋  连珠贵族
+publisher: Visco
+genre: Visco
+release: Asiatic board game
+x-id: MAME ECT
+description: Gomoku 游戏（日本连接四类游戏）。
+
+game: 重重危机
+file: tondemo.zip
+sort-by: 183
+developer: 重重危机
+publisher: Tecmo
+genre: Tecmo
+release: Compilation
+x-id: MAME ECT
+description: 一个奇怪的游戏，以有趣的迷你游戏为特色。该游戏讲述了一个四口之家的每个日本工薪阶层家庭成员，从他们的日常生活中走出奇异的冒险之旅，为祖母 Haruko 买生日礼物。该游戏由几个串在一起的面向动作的迷你游戏组成，并以预渲染的过场动画结束。该游戏由 Kenichi Nishi 设计和编写脚本，配乐则来自东京 Ska Paradise Orchestra。
+
+game: 泰山闯天关
+file: tarzanc.zip
+sort-by: 184
+developer: 泰山闯天关
+release: Compilation
+x-id: MAME ECT
+description: 一款老虎机赌博小游戏。
+
+game: 问答365
+file: quiz365t.zip
+sort-by: 186
+developer: 问答365
+publisher: Nakanihon
+genre: Nakanihon
+release: Quiz
+x-id: MAME ECT
+description: Nakanihon于1994年出品的问答类小游戏，比民国教育委员会晚一年出品，属于精神续作。
+
+game: 民国教育委员会
+file: quizchql.zip
+sort-by: 187
+developer: 民国教育委员会
+publisher: Nakanihon
+genre: Nakanihon
+release: Quiz
+x-id: MAME ECT
+description: 台湾游乐场中非常少见的益智问答机台(但是日本此类游戏机台倒是不少), 这款问答游戏也是将日本知名游戏中文化后, 加入适合台湾本土的题目, 便成了游乐场中的新宠儿---民国教育委员会. 这款机台在目前的游乐场中还是非常普遍的机台, 由此可知在台湾受欢迎的程度. 整体风格非常可爱, 各种人物的表情也多样化. 游戏采用问答的方式, 玩家从题目中来选择正确答案. 玩法主要有两类, 一种是民国教育委员会模式, 题目比较适合学生, 玩家要一路升到大学; 一种则是买卖能力模式, 题目比较适合成人. 无论何种模式, 玩家在玩的时候不但能从中获得知识, 更能享受到玩电玩的乐趣, 若是跟朋友家人一起玩更是乐趣无穷。
+
+game: 海洋巴斯鲈钓
+file: seabass.zip
+sort-by: 205
+developer: 海洋巴斯鲈钓
+publisher: A Wave Inc
+genre: A Wave Inc
+release: Fishing, Hunting and Fishing
+x-id: MAME ECT
+description: 一款钓鱼游戏，拥有不错的画面和玩法。
+
+game: 疯狂弹珠
+file: marble.zip
+sort-by: 206
+developer: 疯狂弹珠
+publisher: Atari
+genre: Atari
+release: Action
+x-id: MAME ECT
+description: Marble Madness 是雅达利1984年出品的游戏，适合一到两个玩家游玩。考虑到年底，这款游戏的画面已经足够好了，玩法也足够3D。游戏的目标是引导一个小玻璃弹珠穿过三维迷宫，并在关卡计时器结束前到达终点线。当越过终点线时，计时器上剩余的任何秒数都将结转到下一关。除了必须在危险的人行道和坡道上滚动弹珠外，许多障碍物和不友好的生物会试图减慢弹珠的前进速度或将其撞到平台的边缘，从而浪费更多宝贵的时间。双人游戏让玩家竞争第一个达到目标。Marble Madness共拥有六个不同的迷宫。
+
+game: 战旗船长
+file: captflag.zip
+sort-by: 208
+developer: 战旗船长
+publisher: Jaleco
+genre: Jaleco
+release: Compilation
+x-id: MAME ECT
+description: Jaleco 推出了 Captain Flag，一款适合全家人的休闲游戏。在船长发出必须遵守的口头命令时，请听取他的意见。如果他说“举起红色”，请快速移动并举起红色操纵杆。不过要小心！他可能会将他的指示更改为“不要举起红色”，那时您必须忽略举起红色的指示。 Captain Flag 具有很棒的视频动画和口头命令，玩法也比较另类。
+
+game: 电车 GO!
+file: dendego.zip
+sort-by: 210
+developer: 电车 GO!
+publisher: Taito
+genre: Taito
+release: Race
+x-id: MAME ECT
+description: 电车Go！是一款火车模拟器，玩家在其中扮演驾驶员的角色，必须在特定时限内将乘客送至车站。
+
+game: 电车 GO! 高速编
+file: dendego2.zip
+sort-by: 211
+developer: 电车 GO! 高速编
+publisher: Taito
+genre: Taito
+release: Race
+x-id: MAME ECT
+description: 电车GO的续作，这个系列在日本获得了意想不到的成功。
+
+game: 急速跳跳乐
+file: mfjump.zip
+sort-by: 214
+developer: 急速跳跳乐
+publisher: Tecmo
+genre: Tecmo
+release: Platform
+x-id: MAME ECT
+description: 玩家可以选择 Roocho、Beochi、Chito、Golem 四个可选角色之一，在空中平台跑道上操纵角色。玩家必须向前或向后跳跃，并且需要在前进时挑选物品并避免掉入缝隙才能到达终点跑道。
+
+game: 犰狳赛跑
+file: adillor.zip
+sort-by: 212
+developer: 犰狳赛跑
+genre: Namco
+release: Race
+x-id: MAME ETC
+description: 1997年由Namco出品的跑酷游戏，玩家使用一只巨大的轨迹球控制犰狳滚动来完成跑酷。
+
+game: 送报男孩
+file: paperboy.zip
+sort-by: 213
+developer: 运动 送报男孩
+publisher: Atari
+genre: Atari
+release: Race
+x-id: MAME ETC
+description: 雅达利著名的竞速游戏，后来在多个平台有移植。游戏的玩法就是尽可能准确的送报，并躲避各种阻碍。
+

@@ -1,0 +1,180 @@
+collection: PC
+sort-by: 070
+launch: {file.path}
+
+game: 幻世录I
+file: 幻世录I/hsl01.bat
+sort-by: 001
+developer: 幻世录I v1.06 极速-坐标-SL乱数-作弊版
+assets.box_front: media/幻世录I/boxFront.png
+assets.logo: media/幻世录I/logo.png
+assets.video: media/幻世录I/video.mp4
+description: 《幻世录I》是由奥汀科技研发的超经典战棋游戏。\n极速补丁由失落的宇宙提供\n"\Roms\pc\幻世录\攻略"有攻略\n【作弊模式】\nF5 血/魔法/气 全满\nF6 血/魔法/气 只剩1\nF7 加经验（第一次按升级，后续每次加100）\nF8 加钱（每次10000）\n【隐藏物品坐标】\n双头的死神(欧姆村) X=656 Y=560 玻璃戒指、回复药、解毒草\n遭遇(戈尔山道) X=496 Y=464 阔刃剑、回复药，X=176 Y=464 妖精之泉x2\n御之源巢窟(盗贼洞窟) X=624 Y=368 黄金首饰\n猛拧(呼啸平原) X=304 Y=592 土之源\n宣战(席达镇) X=400 Y=336 魔之源、黄金首饰，X=816 Y=688 烈炎戒指、力之源\n寂寥(宁静之森)X=592 Y=592 银制发饰、解毒草，X=784 Y=368 凝气之环\n哀怨(帕尼西雅城废墟) X=816 Y=240 水晶剑、琥珀水晶\n狙兵(菲纳斯河畔) X=496 Y=304 三叉戟，X=1392 Y=144 风之源、水之源\n失落(废都曼多力亚) X=1296 Y=560 黄金的圣杯\n寻(艾瓦台地) X=624 Y=144 湛蓝水晶、土之源，X=432 Y=560 深红之瞳\n援救(艾瓦台地) X=624 Y=144 逆十字，X=432 Y=560 火红水晶、灵之源\n真理(利鲁玛山地)※克里夫未死 X=48 Y=80，X=1488 Y=208，X=592 Y=720 幸运缎带、凝气之环、秘药、妖精之泉\n真理(利鲁玛山地)※克里夫死亡 X=48 Y=80，X=1488 Y=208，X=432 Y=944 凝气之环、幸运缎带、奥义之证\n怒涛(巴瀚纳海峡) X=1360 Y=1552 冥晦之轮\n异种(深渊之沼) X=752 Y=48 绿结晶\n魔骑士(回音之谷) X=144 Y=48 刚岩之盔，X=144 Y=432 琥珀水晶\n狂砂(哈莫特沙漠)※回音之谷打倒克罗蒂 X=592 Y=912 女神之冠\n狂砂(哈莫特沙漠)※回音之谷脱离 X=112 Y=656 女神之冠\n信念(约瑟河) X=912 Y=304 翠绿水晶、水之源，X=144 Y=624 极光护轮\n离散(绝望之谷) X=752 Y=176 火之源、风之源，X=336 Y=48 大地之衣\n奔逃(漆黑之森) X=176 Y=560 邪眼假面，X=592 Y=496 湛蓝水晶\n解明(黄昏之丘阴) X=240 Y=304 黑水晶\n阻碍(拉格纳沼地) X=336 Y=688 翠绿水晶\n虚实(沙罗尼亚近郊)X=576 Y=704 丈八蛇矛，X=640 Y=160 琥珀水晶\n变节(萨鲁司海岸) X=304 Y=560 火红水晶，X=112 Y=1072 奥义之证\n未知(古代神殿遗迹) X=272 Y=144 黄金的圣杯\n崩陷(黄昏之丘阳) X=112 Y=272 隐密之轮\n恶魔者之翼(悲叹之湖) X=80 Y=560 圣骑士勋章，X=1200 Y=880 支配之杖\n猎杀(尼布鲁瀑布) X=912 Y=240 恶魔晶石，X=1168 Y=976 追风之羽\n破浪(日没湾) X=80 Y=496 海龙之弓\n遗产(众神的宫殿遗址) X=880 Y=752 白光之翼，X=528 Y=1872穹苍之炼
+
+game: 幻世录II
+file: 幻世录II/HSLPRE.exe
+sort-by: 002
+developer: 幻世录II v1.03a
+assets.box_front: media/幻世录II/boxFront.png
+assets.logo: media/幻世录II/logo.png
+assets.video: media/幻世录II/video.mp4
+description: 《幻世录II》是由奥汀科技研发一款超经典战棋类游戏。\n"\Roms\pc\幻世录2\攻略"有攻略\n【作弊模式】\n在战场上按~键即可观察坐标\n首先秘籍必须在战斗中才能使用，在为当前人物选择“移动”，“魔法”，“待机”的时候使用\n按下Ctrl+Insert会出现输入字符串的窗口\n输入 dmmode ，按回车，如果输入成功，输入的字符会消失，输入窗口清空;\n此时输入GETGOLD 10000 ，按回车，即获得金钱10000，同样如果输入成功窗口就会清空，否则输入的字符还在\n获得物品的秘技是\nGETITEM n1 n2 (目前角色获得代号n1到n2的物品)\n比如你目前控制的角色是布莱特，你输入getitem 1 12,就会得到下面列表里1-12号的武器，也就是全部剑系的武器(注意!!使用成功后布莱特身上原有的物品全部消失!!!)物品栏里只有1-12这12种剑(如果你的布莱特此时只能带8个物品，那么你只能得到1-8号的武器)\n【物品代码】\n1 长铁剑2 利刃剑3 水晶剑4 飞斩剑5 圣纹剑6 炎魔剑7 空雷之剑8 封神剑9 龙牙10 妖刀 龙光11 圣剑 希鲁达12 终神秘器13 手杖14 水晶杖15 圣杖\n16 炎灵之杖17 邪骇灵杖18 闪雷杖19 月牙法杖20 地灵之杖\n21 魔杖 霜雪22 世界树枝23 支配者之杖24 魔神器 幻空25 热斗拳套26 猫爪27 斗气拳套28 白金爪29 夺魂冰钩30 流星闪爪31 火神刃爪32 神器 苍穹33 盗贼小刀34 冰晶小刀35 龙牙匕首36 秘刀 细雪37 震雷匕首38 空斩短刃39 魔刀 哭杀40 刺枪41 闪刺枪42 鱼叉43 瞬风之枪44 三叉戟45 斩龙矛46 虚空之枪47 妖枪 暗影48 龙枪 空斩杀49 死枪 奥汀50 神枪 永恒51 长弓52 水晶弓53 狙击弓54 鬼灵之弓55 破云之弓56 天劫57 星夜之弓58 魔弓 龙杀破59 巨弓 世界60 钢斧61 战斧62 狂战士之斧63 炽雷之斧64 鬼炎斧65 霸邪天煌66 七星龙
+
+game: 仙剑奇侠传98 柔情版
+file: 仙剑奇侠传98 柔情版/PAL.bat
+sort-by: 003
+developer: 仙剑奇侠传98 柔情版
+assets.box_front: media/仙剑奇侠传98 柔情版/boxFront.png
+assets.logo: media/仙剑奇侠传98 柔情版/logo.png
+assets.video: media/仙剑奇侠传98 柔情版/video.mp4
+description: 《仙剑奇侠传Windows95版》，也就是真正的“仙剑95版”，1997年8月出品，使用繁体字，在台湾，香港及海外地区发行，可在windows操作系统下运行。《仙剑奇侠传98柔情篇》，即大宇同年于大陆推出的Windows95版之相应简体版。首发于1997年10月，在大陆发行时有两家代理商获得授权：双语公司（先后发行仙剑98柔情篇和仙剑98柔情篇：世纪回顾纪念版）和晶合公司（发行仙剑98柔情篇：晶合时代风版）。除了简繁区别外，《仙剑奇侠传98柔情篇》和《仙剑奇侠传Windows95版》无区别。\n窗口/全屏切换模式 (F12)\n已打v2.3文字除错、润色补丁\n"Pegasus\Roms-v3.5\pc\仙剑奇侠传98柔情版\全图攻略"里有全地图\试炼窟全宝物路线\怪物属性\紫金葫芦概率表
+
+game: 大富翁4 超时空之旅
+file: 大富翁4 超时空之旅/rich4.bat
+sort-by: 004
+developer: 大富翁4 超时空之旅 v3.11
+assets.box_front: media/大富翁4 超时空之旅/boxFront.png
+assets.logo: media/大富翁4 超时空之旅/logo.png
+assets.video: media/大富翁4 超时空之旅/video.mp4
+description: \n《大富翁4》是由大宇资讯开发的一款多人联机模拟经营游戏。原版于1998年发行；资料片超时空之旅于2000年发行
+
+game: 问题小魔女Origin
+file: 问题小魔女Origin/Trouble Witches Origin.bat
+sort-by: 005
+developer: 问题小魔女Origin
+assets.box_front: media/问题小魔女Origin/boxFront.jpg
+assets.logo: media/问题小魔女Origin/logo.png
+assets.video: media/问题小魔女Origin/video.mp4
+description: 这款游戏画风可爱，音乐动听，售价不贵，是我长期一直很喜欢的游戏，作为天马整合包的主要制作人，我希望大家能去steam支持下作者。问题小魔女Origin(Trouble Witches Origin)是Studio SiestA 根据《问题小魔女》重新制作、Rocket-Engine发行的一款2D横版动作弹幕射击类游戏作品，游戏是一款重制作品，游戏拥有720P的高清画面，加入了一名新的魔女角色，此外游戏还支持全语音的剧情内容以及新的挑战模式dlc内容等。新版主要的改动有：新增一名魔女、画面对应720P、所有画面从头绘制、降低魔法阵使用难度、故事对话全部配音、随后将推出应战形式DLC。\n如果闪退，请到"Pegasus\Roms-v3.5\pc\Trouble Witches Origin"中用"metadata.pegasus(win7等闪退请用这个).txt"替换"metadata.pegasus.txt"
+
+game: 快打旋风终极版3.0
+file: 快打旋风终极版3.0/Final Fight LNS Ultimate.exe
+sort-by: 006
+developer: 快打旋风终极版3.0
+assets.box_front: media/快打旋风终极版3.0/boxFront.jpg
+assets.logo: media/快打旋风终极版3.0/logo.png
+assets.video: media/快打旋风终极版3.0/video.mp4
+description: 由西班牙LNS小组开发的万众瞩目的OPENBOR大作快打旋风LNS更新了最新版，最新发布的版本增加了很多的角色，该作品估计以后不会在更新了。这个游戏历史好几年，玩法、打击感都非常的棒，有招式系统，有超必杀技系统，还有不同的难度和隐藏关卡，一款非常不错的游戏。
+
+game: 怒之铁拳重制V5版
+file: 怒之铁拳重制V5版/SorR.exe
+sort-by: 007
+developer: 怒之铁拳重制V5版
+assets.box_front: media/怒之铁拳重制V5版/boxFront.jpg
+assets.logo: media/怒之铁拳重制V5版/logo.png
+assets.video: media/怒之铁拳重制V5版/video.mp4
+description: 《怒之铁拳》爱好者制作的经典自制游戏《怒之铁拳重制V5版》。西班牙制作小组顶住世嘉官方的压力， 历经七年的精心制作，终于诞生出这个极品游戏，整个游戏无论是在人物、场景、音乐、手感还是火爆程度上， 都远远的超越了世嘉官方的原作系列。游戏中加上隐藏角色总共有19个人物可选用，包括小组原创的角色。每个人物的动作，招式都制作严谨，带给玩家意想不到的爽快感。游戏的关卡丰富，分支路线众多，单说第一关就有四个起点可以选择。整个游戏全路线共有关卡127个，大大增加了重复游戏性，让玩家欲罢不能。音乐也是本游戏的一大亮点。本作共有背景音乐七十余首，不仅把原系列作品三部曲的全部背景音乐重新制作，而且加入了不少自己的原创音乐。时而优雅，时而激情，时而热血，时而静谧。音乐与场景，场景与战斗之间形成了绝妙的搭配，从多角度带给玩家极限的乐趣享受。
+
+game: 吞食天地 关云长全传
+file: 吞食天地 关云长全传/Game.exe
+sort-by: 008
+developer: 吞食天地 关云长全传
+assets.box_front: media/吞食天地 关云长全传/boxFront.jpg
+assets.logo: media/吞食天地 关云长全传/logo.png
+assets.video: media/吞食天地 关云长全传/video.mp4
+description: 天地吞食2关云长全传是大秦崇雷制作的一款同人版吞食天地的游戏，虽然RPGMAKER工具制作的游戏大多不好玩，但是本作制作相当精良，此游戏汲取了原版各家吞食天地的精华，剧情跌宕起伏，丰富多彩。灭张角、伐董卓、三英战吕布等剧情都尽量还原历史的原貌，其中还添加了温酒斩华雄、收貂蝉招周仓、单刀赴会、水淹七军、走麦城等很多情节，让人再一次回到那个金戈铁马、叱咤风云的三国时代，游戏的〖竹简〗系统，让你能随时随地的存档，游戏里还穿插了周仓驾船追庞德等小游戏等你去挑战，更有神秘的隐藏剧情期待你去触发。游戏共有八章：第一章 祭天地桃园结义  第二章 废汉君董卓弄权  第三章 陶恭祖三让徐州  第四章 饿狼吕布访徐州  第五章 云长千里走单骑  第六章 定三分亮出茅庐  第七章 诸葛亮傍略四郡  第八章 关云长威震华夏。如果通关时你的民心达到了10，看完通关时的滚屏字幕后耐心等下去的话，就能触发神秘的第九章的隐藏剧情。未能实现的伐吴剧本：原计划是关羽走脱临沮后隐居，另一方面，刘备得知关羽兵败后，且传闻关羽已死，大怒率兵伐吴，一路和现在的剧本差不多，但夷陵后面第2个寨设计如果黄忠败北则黄忠死亡，然后打完第三个寨后，关兴单独追杀潘璋，到附近的村子，见到隐居的关羽，父子重聚，斩杀潘璋。随后和刘备汇合猇亭大败陆逊。再后来的剧情和现在的没有区别了。只是这里有小改动未能实现。
+
+game: 黄金赛马86版 完美版
+file: 黄金赛马86版 完美版/KRACE.EXE
+sort-by: 009
+developer: 黄金赛马86版 完美版
+assets.box_front: media/黄金赛马86版 完美版/boxFront.jpg
+assets.logo: media/黄金赛马86版 完美版/logo.png
+assets.video: media/黄金赛马86版 完美版/video.mp4
+description: 黄金赛马86是80年代风靡全国街机房的一款赛马游戏，原名是国王德比赛马，出品于1981年的游戏，后来台湾盗版1986年版在国内普及。这个版本是黄金赛马86版的pc版，可以弥补MAME版贴图显示错误的不足。
+
+game: 超级玛丽63
+file: FLASH游戏/超级玛丽63.swf
+sort-by: 010
+developer: 超级玛丽63
+assets.box_front: media/超级玛丽63/boxFront.png
+assets.logo: media/超级玛丽63/logo.png
+assets.video: media/超级玛丽63/video.mp4
+launch: "FLASH游戏/FlashPlayer11.exe" "{file.path}"
+description: 美国的Runouw公司创作的Flash平台游戏《Super Mario 63》(简称《SM63》，中文《超级马里奥63》)是一款极其优秀的同人游戏，其难度、构思、制作均不亚于红极一时的《永远的玛丽》。《Super Mario 63》是一款纯"混搭"游戏，综合了《超级马里奥世界2:耀西岛》(1995)的砖块、敌人素材;《超级马里奥64》(1996)的城堡、关卡、图块、音乐;《阳光马里奥》(2002)的水泵、太阳币;《超级马里奥64 DS》(2004);《马里奥与路易基RPG》(2003~2009)的马里奥、路易基;《超级马里奥银河》(2007-2010)《任天堂明星大乱斗》的音乐和《新超级马里奥兄弟》的星星币等游戏的要素。其中更是空前地加入了关卡编辑器，为喜爱这个游戏的玩家提供了一个发挥自己无穷的想象力的机会。
+
+game: 混合版马里奥
+file: FLASH游戏/混合版马里奥.swf
+sort-by: 011
+developer: 混合版马里奥
+assets.box_front: media/混合版马里奥/boxFront.png
+assets.logo: media/混合版马里奥/logo.png
+assets.video: media/混合版马里奥/video.mp4
+launch: "FLASH游戏/FlashPlayer11.exe" "{file.path}"
+description: 《混合马里奥》（英文：Super Mario Bros. Crossover）是一款动作冒险类的Flash小游戏，直译为《超级马里奥穿越》，改编自任天堂游戏公司于1985年在FC平台上发布的经典作品《超级马里奥》（英文：Super Mario Bros.）。在这款马里奥游戏中，你将可以选择多种游戏人物穿越到马里奥兄弟的冒险旅程中来。可使用《超级马里奥》，《洛克人》，《魂斗罗》，《恶魔城》，《银河战士》，《塞尔达传说》，《超惑星战记》，《忍者龙剑传》等多个经典游戏系列中的人物。
+
+game: 二战前线1
+file: FLASH游戏/二战前线1.swf
+sort-by: 012
+developer: 二战前线1
+assets.box_front: media/二战前线1/boxFront.png
+assets.logo: media/二战前线1/logo.png
+assets.video: media/二战前线1/video.mp4
+launch: "FLASH游戏/FlashPlayer11.exe" "{file.path}"
+description: 类合金弹头游戏。这个系列也是一些玩家的童年经典IP。比较有趣的是，与合金弹头1代类似，二战前线1代的手雷也是强得离谱，手雷dps高达233.3，比第二部的四连发火箭炮（224）还高。
+
+game: 二战前线2
+file: FLASH游戏/二战前线2.swf
+sort-by: 013
+developer: 二战前线2
+assets.box_front: media/二战前线2/boxFront.png
+assets.logo: media/二战前线2/logo.png
+assets.video: media/二战前线2/video.mp4
+launch: "FLASH游戏/FlashPlayer11.exe" "{file.path}"
+description: 二代是系列的巅峰之作，拥有充满想象力的武器系统。二战前线2亚洲抗日,合金突击队在欧洲成功地保护了盟军后，英雄们将到亚洲去继续战斗！更多的使命、更多的敌人、更大的冒险、更猛烈的炮火。有男女两名角色可以选择，一开始可以选择携带的武器。操作方法：WASD控制移动，鼠标键射击，Q/E切换武器。
+
+game: 二战前线3
+file: FLASH游戏/二战前线3/commando3.swf
+sort-by: 014
+developer: 二战前线3
+assets.box_front: media/二战前线3/boxFront.png
+assets.logo: media/二战前线3/logo.png
+assets.video: media/二战前线3/video.mp4
+launch: "FLASH游戏/FlashPlayer11.exe" "{file.path}"
+description: 二战前线3 是一款由miniclip 出品的二战前线系列小游戏最新作，这是二战前线的最新力作。游戏中，继上一部二战前线2突击队在亚洲战场取得胜利后，这一部中突击队将赴欧洲战场，因为敌人正在策划渗透到埃及，诺曼底和柏林，这威胁到了世界和平，游戏玩家将作为突击队奔赴敌人前线，消灭敌人，毁灭敌人的计划。特种兵们，该行动了!游戏最大特点是人物变高了，也抛弃了2代的武器库设定。
+
+game: 洛克人1代BOSS vs 2代BOSS
+file: FLASH游戏/洛克人1代BOSS vs 2代BOSS/MegamanDL v1.4.exe
+sort-by: 015
+developer: 洛克人1代BOSS vs 2代BOSS
+assets.box_front: media/洛克人1代BOSS vs 2代BOSS/boxFront.png
+assets.logo: media/洛克人1代BOSS vs 2代BOSS/logo.png
+assets.video: media/洛克人1代BOSS vs 2代BOSS/video.mp4
+description: 洛克人的同人作品。用BOSS对战BOSS属实是很好的创意。缺点是游戏难度偏大。
+
+game: 洛克人2代BOSS vs 3代BOSS
+file: FLASH游戏/洛克人2代BOSS vs 3代BOSS/MegamanDL2 v1.6.exe
+sort-by: 016
+developer: 洛克人2代BOSS vs 3代BOSS
+assets.box_front: media/洛克人2代BOSS vs 3代BOSS/boxFront.png
+assets.logo: media/洛克人2代BOSS vs 3代BOSS/logo.png
+assets.video: media/洛克人2代BOSS vs 3代BOSS/video.mp4
+description: 洛克人同人作品，依然保持了高质量。作者如今正在打磨洛克人3代vs4代。
+
+game: 街霸X洛克人
+file: FLASH游戏/街霸X洛克人/SFXMMv2_US.exe
+sort-by: 017
+developer: 街霸X洛克人
+assets.box_front: media/街霸X洛克人/boxFront.png
+assets.logo: media/街霸X洛克人/logo.png
+assets.video: media/街霸X洛克人/video.mp4
+description: 《街霸X洛克人》是洛克人25周年官方出品的免费纪念作品。这款8位像素风格穿越游戏以洛克人为主角，而众多街霸中的角色成为反派BOSS，在每关关底打败他们，获得他们的格斗能力以对付下一关的BOSS。
+
+game: 坦克大战重制版 1.3.5
+file: 坦克大战重制版 1.3.5/Battle City Remake.exe
+sort-by: 018
+developer: 坦克大战重制版 1.3.5
+assets.box_front: media/坦克大战重制版 1.3.5/boxFront.png
+assets.logo: media/坦克大战重制版 1.3.5/logo.png
+assets.video: media/坦克大战重制版 1.3.5/video.mp4
+description: 完美复原fc版的双人合作模式 ，闯关模式，以及自定义地图功能。全面进化的全新3d画面效果。本版本是不减命的中文修改版。
+
+game: 阿波波大冒险
+file: FLASH游戏/阿波波大冒险.exe
+sort-by: 019
+developer: 阿波波大冒险
+assets.box_front: media/阿波波大冒险/boxFront.png
+assets.logo: media/阿波波大冒险/logo.png
+assets.video: media/阿波波大冒险/video.mp4
+description: Abobo's Big Adventure 是一款免费的动作游戏，使用 Flash 开发，是一部向任天堂致敬的作品。进入游戏，会看到一个很酷的片头（耐心看完会取得成就），然后就可以开始游戏。游戏完全采用了 8-bit 的 NES 风格，非常怀旧。第一关一开始就会发现熟悉的《双截龙》场景，而在开始征途的过程中玩家则会发现：任天堂红白机中的各种角色会悉数登场，比如《功夫》、《大金刚》等等，玩起来感觉相当奇特。游戏难度还是蛮高的，而且随着游戏的进行，玩法也在不断发生变化（从 Beat'em Up 到 Platformer，再到格斗和地牢冒险，真是相当丰富），涵盖了很多知名游戏的玩法和角色，让人充满了探索的欲望。另外游戏也很无厘头，比如揪掉 NPC 的人头可以吃血，吃坏了肚子把马桶撑坏可以逃脱等等，很多画面都充满血腥暴力，所以要定级为少儿不宜。对于从任天堂红白机过来的一代来说，这款游戏会勾起人们很多美好回忆，绝对值得一玩。
+

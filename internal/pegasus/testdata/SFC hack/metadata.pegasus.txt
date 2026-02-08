@@ -1,0 +1,2783 @@
+collection: SFC hack
+sort-by: 027
+extensions: sfc, smc, 7z, zip
+launch: "{env.appdir}\RetroArch\retroarch.exe" -L "{env.appdir}\RetroArch\cores\snes9x_libretro.dll" "{file.path}"
+
+game: RPG中文 超时空之轮
+file: 超时空之轮.zip
+sort-by: 001
+developer: 超时空之轮
+description: 按选择键金钱最大，战斗一次升一级
+
+game: RPG中文 最终幻想6
+file: 最终幻想6.zip
+sort-by: 002
+developer: 最终幻想6
+description: 中文，全员能力最强，物品价格为1
+
+game: RPG中文 天地创造
+file: 天地创造.zip
+sort-by: 003
+developer: 天地创造
+description: HP最大，金钱最大，水晶最大，攻击力防御力运气最大。
+
+game: RPG中文 塞尔达传说
+file: 塞尔达传说.zip
+sort-by: 004
+developer: 塞尔达传说
+description: 按选择键可无限加金钱，HP，全屏攻击
+
+game: RPG中文 时空勇士
+file: 时空勇士.zip
+sort-by: 005
+developer: 时空勇士
+description: 中文，全员能力最强，HP最高
+
+game: RPG中文 牧场物语
+file: 牧场物语.zip
+sort-by: 006
+developer: 牧场物语
+description: 中文版，体力不减，物品不减
+
+game: RPG中文 风来之西林 不可思议的迷宫2
+file: 风来之西林 不可思议的迷宫2.zip
+sort-by: 007
+developer: 风来之西林 不可思议的迷宫2
+description: HP最大，盾剑最强，金钱最多
+
+game: RPG中文 圣剑传说3
+file: 圣剑传说3.zip
+sort-by: 008
+developer: 圣剑传说3
+description: 金钱最大，全道具
+
+game: RPG中文 勇者斗恶龙1+2
+file: 勇者斗恶龙1+2.zip
+sort-by: 009
+developer: 勇者斗恶龙1+2
+description: 金钱不减，其他修改效果不明
+
+game: RPG中文 重装机兵2
+file: 重装机兵2.zip
+sort-by: 010
+developer: 重装机兵2
+description: 金钱最大，战斗一次升一级，逃跑也升级
+
+game: RPG中文 重装机兵R
+file: 重装机兵R.zip
+sort-by: 011
+developer: 重装机兵R
+description: 初始等级最高能力最强
+
+game: RPG中文 重装机兵R0.96红狼纪念版
+file: 重装机兵R0.96红狼纪念版.zip
+sort-by: 012
+developer: 重装机兵R0.96红狼纪念版
+description: 这个版本是几位牛人合作改出来的，非常强大的mod改版。将主角形象完美替换成了红狼的形象，丝毫不亚于MM4的DLC服装，甚至还添加了两把“DLC”武器，已经通关的玩家不妨试试这个改版！此外这个版本是在0.96汉化版的基础上改得，有一些修复合并，同时有些小优化。主人公形象完美替换为红狼，默认名为“狼”，伙伴默认名也为中文，另外战车的默认名、食金虫的默认名也都是中文。所以起名界面推荐使用默认名作为结束，这样能实现全中文名。人类武器略微调整变动，主要是增加两个实力不俗的人类武器（武器虽然是原创不过保证大家都见过），都在后期的某个赏金首身上，建议刷一刷。人类装备的对应职业有所调整，允许主人公可以装备几乎所有的武器。此改版的作者是：河马王子。
+
+game: RPG中文 重装机兵R商店修改
+file: 重装机兵R商店修改.zip
+sort-by: 013
+developer: 重装机兵R商店修改
+description: 游戏刚开始就可以在商店购买强力装备和道具
+
+game: RPG中文 重装机兵R最强之魂
+file: 重装机兵R最强之魂.zip
+sort-by: 014
+developer: 重装机兵R最强之魂
+description: 修正原版各种数值，使难度适中，节奏流畅合理，平衡性非常好。战车部分，取消主炮弹改，限制弹量，对价格、重量、攻击进行调整。副炮降低重量，副炮不能拦截，主炮才能拦截，无法拦截激光，避免拦截过强。SE调节重量、价格和弹药价格，增强实用价值。取消前期购买传真。增强出租车装备。调整特殊炮弹、道具价格。人类HP提升，加强特效武器攻击，调整护甲价格，物品价格平衡。敌人全面强化，赏金首加强或增添组合，增加变化和战术性。敌人掉落概率增加，去除不合理掉落。调整赏金。调整贩卖物品，删减无用物品，物价平衡。部分武器强化攻击范围。去除诺亚系统屠杀功能，最强引擎增加。传真可在出租车使用，中期5号车自带，后期拉多北营地有售。人类部分武器加强。
+
+game: SLG中文 第3次超级机器人大战
+file: 第3次超级机器人大战.zip
+sort-by: 015
+developer: 第3次超级机器人大战
+description: 一战升一级，金钱最大
+
+game: SLG中文 第4次超级机器人大战
+file: 第4次超级机器人大战.zip
+sort-by: 016
+developer: 第4次超级机器人大战
+description: 一战升一级，金钱最大
+
+game: SLG中文 火焰之纹章3 纹章之谜
+file: 火焰之纹章3 纹章之谜.zip
+sort-by: 017
+developer: 火焰之纹章3 纹章之谜
+description: 金钱最多，一战升一级
+
+game: SLG中文 火焰之纹章4 圣战之系谱
+file: 火焰之纹章4 圣战之系谱.zip
+sort-by: 018
+developer: 火焰之纹章4 圣战之系谱
+description: 金钱最多，一战升一级
+
+game: SLG中文 火焰之纹章5 多拉基亚776
+file: 火焰之纹章5 多拉基亚776.zip
+sort-by: 019
+developer: 火焰之纹章5 多拉基亚776
+description: 金钱最多，一战升一级
+
+game: SLG中文 火焰之纹章5 强化
+file: 火焰之纹章5 强化.zip
+sort-by: 020
+developer: 火焰之纹章5 强化
+description: 人物加强，大部分武器无限用
+
+game: SLG中文 剑士法兰多1
+file: 剑士法兰多1.zip
+sort-by: 021
+developer: 剑士法兰多1
+description: 快速升级
+
+game: SLG中文 三国志3
+file: 三国志3.zip
+sort-by: 022
+developer: 三国志3
+description: 威力加强版
+
+game: ACT BB鸟
+file: BB鸟.zip
+sort-by: 023
+developer: BB鸟
+description: HP不减
+
+game: ACT BB鸟 大野狼与BB鸟
+file: BB鸟 大野狼与BB鸟.zip
+sort-by: 024
+developer: BB鸟 大野狼与BB鸟
+description: HP不减
+
+game: ACT CB世界
+file: CB世界.zip
+sort-by: 025
+developer: CB世界
+description: HP不减
+
+game: ACT GS美神
+file: GS美神.zip
+sort-by: 026
+developer: GS美神
+description: HP不减
+
+game: ACT SD英雄大战3
+file: SD英雄大战3.zip
+sort-by: 027
+developer: SD英雄大战3
+description: 命数不减
+
+game: ACT SD英雄大战外传2
+file: SD英雄大战外传2.zip
+sort-by: 028
+developer: SD英雄大战外传2
+description: HP不减
+
+game: ACT X战警 变种末世录
+file: X战警 变种末世录.zip
+sort-by: 029
+developer: X战警 变种末世录
+description: HP不减
+
+game: ACT 阿拉丁
+file: 阿拉丁.zip
+sort-by: 030
+developer: 阿拉丁
+description: 不减命和子弹数量，无限跳，按开始键可以开启或关闭无敌，画面会多了个星星提示
+
+game: ACT 邦卡猫大冒险
+file: 邦卡猫大冒险.zip
+sort-by: 031
+developer: 邦卡猫大冒险
+description: HP不减，命数不减，炸弹不减
+
+game: ACT 鲍比的世界
+file: 鲍比的世界.zip
+sort-by: 032
+developer: 鲍比的世界
+description: HP不减
+
+game: ACT 暴力刑警
+file: 暴力刑警.zip
+sort-by: 033
+developer: 暴力刑警
+description: HP不减，命数不减，时间不减
+
+game: ACT 蝙蝠侠与罗宾的大冒险
+file: 蝙蝠侠与罗宾的大冒险.zip
+sort-by: 034
+developer: 蝙蝠侠与罗宾的大冒险
+description: HP不减，道具不减，无限跳
+
+game: ACT 蝙蝠侠重现江湖
+file: 蝙蝠侠重现江湖.zip
+sort-by: 035
+developer: 蝙蝠侠重现江湖
+description: 命数不减
+
+game: ACT 变相怪杰
+file: 变相怪杰.zip
+sort-by: 036
+developer: 变相怪杰
+description: HP不减，大招无限使用，命数不减
+
+game: ACT 兵蜂
+file: 兵蜂.zip
+sort-by: 037
+developer: 兵蜂
+description: HP不减
+
+game: ACT 波斯王子
+file: 波斯王子.zip
+sort-by: 038
+developer: 波斯王子
+description: 时间不减
+
+game: ACT 超级大金刚1
+file: 超级大金刚1.zip
+sort-by: 039
+developer: 超级大金刚1
+description: 无敌
+
+game: ACT 超级大金刚2
+file: 超级大金刚2.zip
+sort-by: 040
+developer: 超级大金刚2
+description: 透明无敌
+
+game: ACT 超级大金刚3
+file: 超级大金刚3.zip
+sort-by: 041
+developer: 超级大金刚3
+description: 命数不减
+
+game: ACT 超级恶魔城4
+file: 超级恶魔城4.zip
+sort-by: 042
+developer: 超级恶魔城4
+description: 命99条（会减），副武器99（会减），初始有时钟副武器，无限跳。画面上左角有两排字OFF OFF,按开始键暂停后再按A或B键开启无敌和一击毙敌。开启后第一排会变成WUDI,第二排就是1HIT一击毙敌。第一关的boss不可以开启一击毙敌效果，最后第六关也是，关闭用无敌打一样快速结束。一击毙敌除了boss外，小兵也是有效果的。
+
+game: ACT 超级马里奥全明星
+file: 超级马里奥全明星.zip
+sort-by: 043
+developer: 超级马里奥全明星
+description: 1代和1代失落的关卡吃过一次蘑菇后，再碰到敌人就不会死，只会切换大小状态。2代拔萝卜HP不减。3代无修改。
+
+game: ACT 超级马里奥全明星+世界强化
+file: 超级马里奥全明星+世界强化.zip
+sort-by: 044
+developer: 超级马里奥全明星+世界强化
+description: 1代和1代失落的关卡，按L，R，X都有变身或无敌的效果，但2代拔萝卜和3没有修改效果。马里奥世界在游戏中先L键调出道具，再用选择键使用，可无限调宝。
+
+game: ACT 超级马里奥世界强化
+file: 超级马里奥世界强化.zip
+sort-by: 045
+developer: 超级马里奥世界强化
+description: 中文，命数不减，无限跳，R键转换状态，3种类型（有音效）。L键火球人全屏攻击（有音效）。
+
+game: ACT 超级马里奥世界无敌
+file: 超级马里奥世界无敌.zip
+sort-by: 046
+developer: 超级马里奥世界无敌
+description: 无敌，无限跳
+
+game: ACT 超级冒险岛1
+file: 超级冒险岛1.zip
+sort-by: 047
+developer: 超级冒险岛1
+description: 无敌
+
+game: ACT 超级冒险岛2
+file: 超级冒险岛2.zip
+sort-by: 048
+developer: 超级冒险岛2
+description: HP不减
+
+game: ACT 超级梦幻战士4
+file: 超级梦幻战士4.zip
+sort-by: 049
+developer: 超级梦幻战士4
+description: HP不减，技能不减
+
+game: ACT 超级星球大战帝国反击
+file: 超级星球大战帝国反击.zip
+sort-by: 050
+developer: 超级星球大战帝国反击
+description: 无敌
+
+game: ACT 超级星球大战绝地归来
+file: 超级星球大战绝地归来.zip
+sort-by: 051
+developer: 超级星球大战绝地归来
+description: HP不减
+
+game: ACT 超级原人1
+file: 超级原人1.zip
+sort-by: 052
+developer: 超级原人1
+description: HP不减
+
+game: ACT 超级原人2
+file: 超级原人2.zip
+sort-by: 053
+developer: 超级原人2
+description: HP不减
+
+game: ACT 超人
+file: 超人.zip
+sort-by: 054
+developer: 超人
+description: HP不减
+
+game: ACT 传说战士
+file: 传说战士.zip
+sort-by: 055
+developer: 传说战士
+description: HP不减，MP不减，命数不减
+
+game: ACT 大盗伍佑卫门1
+file: 大盗伍佑卫门1.zip
+sort-by: 056
+developer: 大盗伍佑卫门1
+description: 金钱修改，命数不减，武器最大，L键全屏攻击，R键+上HP不减。
+
+game: ACT 大盗伍佑卫门2
+file: 大盗伍佑卫门2.zip
+sort-by: 057
+developer: 大盗伍佑卫门2
+description: HP不减，金钱修改
+
+game: ACT 大盗伍佑卫门3
+file: 大盗伍佑卫门3.zip
+sort-by: 058
+developer: 大盗伍佑卫门3
+description: HP不减，金钱不减
+
+game: ACT 大盗伍佑卫门4
+file: 大盗伍佑卫门4.zip
+sort-by: 059
+developer: 大盗伍佑卫门4
+description: HP不减
+
+game: ACT 大力工头阿源君
+file: 大力工头阿源君.zip
+sort-by: 060
+developer: 大力工头阿源君
+description: HP会减，但到0后HP不减，不会死亡。掉落悬崖会死。
+
+game: ACT 第一武士
+file: 第一武士.zip
+sort-by: 061
+developer: 第一武士
+description: HP不减，命数不减，无限跳，道具不减
+
+game: ACT 电精
+file: 电精.zip
+sort-by: 062
+developer: 电精
+description: HP不减，能量不减，大招可连续出。命数不减。
+
+game: ACT 电精强化版
+file: 电精强化版.zip
+sort-by: 063
+developer: 电精强化版
+description: 无限续关，出招简化，增添连招，不减能量，解除绝招血限制，可无限出绝招。两个玩家可选同一个人物。
+
+game: ACT 恶魔城XX
+file: 恶魔城XX.zip
+sort-by: 064
+developer: 恶魔城XX
+description: HP不减，命数不减，心不减
+
+game: ACT 恶魔少年1
+file: 恶魔少年1.zip
+sort-by: 065
+developer: 恶魔少年1
+description: HP不减，炸弹不减，命数不减
+
+game: ACT 恶魔少年2
+file: 恶魔少年2.zip
+sort-by: 066
+developer: 恶魔少年2
+description: HP不减，炸弹不减，命数不减
+
+game: ACT 恶魔少年3
+file: 恶魔少年3.zip
+sort-by: 067
+developer: 恶魔少年3
+description: HP不减
+
+game: ACT 飞毛腿
+file: 飞毛腿.zip
+sort-by: 068
+developer: 飞毛腿
+description: HP不减
+
+game: ACT 飞天蝙蝠2
+file: 飞天蝙蝠2.zip
+sort-by: 069
+developer: 飞天蝙蝠2
+description: HP不减，命数不减
+
+game: ACT 钢铁战士
+file: 钢铁战士.zip
+sort-by: 070
+developer: 钢铁战士
+description: 命数不减，炸弹不减，LR换人，AB放炸弹
+
+game: ACT 古城救美
+file: 古城救美.zip
+sort-by: 071
+developer: 古城救美
+description: 无敌，时间无限
+
+game: ACT 怪兽之王1
+file: 怪兽之王1.zip
+sort-by: 072
+developer: 怪兽之王1
+description: HP不减，时间不减
+
+game: ACT 怪兽之王2
+file: 怪兽之王2.zip
+sort-by: 073
+developer: 怪兽之王2
+description: HP不减，时间不减
+
+game: ACT 怪物三人行
+file: 怪物三人行.zip
+sort-by: 074
+developer: 怪物三人行
+description: HP不减，命数不减，吼叫不减
+
+game: ACT 鬼神童子烈斗雷传
+file: 鬼神童子烈斗雷传.zip
+sort-by: 075
+developer: 鬼神童子烈斗雷传
+description: HP不减，命数不减
+
+game: ACT 黑水海盗
+file: 黑水海盗.zip
+sort-by: 076
+developer: 黑水海盗
+description: 命数不减，时间不减
+
+game: ACT 火箭骑士
+file: 火箭骑士.zip
+sort-by: 077
+developer: 火箭骑士
+description: HP不减
+
+game: ACT 机动战士高达V
+file: 机动战士高达V.zip
+sort-by: 078
+developer: 机动战士高达V
+description: 命数不减
+
+game: ACT 机甲警察
+file: 机甲警察.zip
+sort-by: 079
+developer: 机甲警察
+description: 命数不减，死后不能原地续关
+
+game: ACT 极恶双雄
+file: 极恶双雄.zip
+sort-by: 080
+developer: 极恶双雄
+description: HP不减
+
+game: ACT 迦楼罗王
+file: 迦楼罗王.zip
+sort-by: 081
+developer: 迦楼罗王
+description: 无限变身
+
+game: ACT 假面骑士
+file: 假面骑士.zip
+sort-by: 082
+developer: 假面骑士
+description: 命数不减
+
+game: ACT 金刚狼
+file: 金刚狼.zip
+sort-by: 083
+developer: 金刚狼
+description: HP不减
+
+game: ACT 绝岭雄风
+file: 绝岭雄风.zip
+sort-by: 084
+developer: 绝岭雄风
+description: HP不减
+
+game: ACT 凯伦的疯狂追逐
+file: 凯伦的疯狂追逐.zip
+sort-by: 085
+developer: 凯伦的疯狂追逐
+description: HP不减
+
+game: ACT 科学怪人的冒险
+file: 科学怪人的冒险.zip
+sort-by: 086
+developer: 科学怪人的冒险
+description: HP不减
+
+game: ACT 恐龙王国大冒险
+file: 恐龙王国大冒险.zip
+sort-by: 087
+developer: 恐龙王国大冒险
+description: HP不减
+
+game: ACT 恐龙战队
+file: 恐龙战队.zip
+sort-by: 088
+developer: 恐龙战队
+description: HP不减
+
+game: ACT 恐龙战队电影版
+file: 恐龙战队电影版.zip
+sort-by: 089
+developer: 恐龙战队电影版
+description: HP不减，吃一个闪电就能加满MP，且MP消耗不完
+
+game: ACT 快打刑事1
+file: 快打刑事1.zip
+sort-by: 090
+developer: 快打刑事1
+description: 命数不减
+
+game: ACT 快打刑事2 乱
+file: 快打刑事2 乱.zip
+sort-by: 091
+developer: 快打刑事2 乱
+description: 命数不减
+
+game: ACT 快打刑事3 修罗
+file: 快打刑事3 修罗.zip
+sort-by: 092
+developer: 快打刑事3 修罗
+description: HP不减，无限放超杀，放超杀的方法是按住X键，再按A键。
+
+game: ACT 快打旋风1
+file: 快打旋风1.zip
+sort-by: 093
+developer: 快打旋风1
+description: 命数不减
+
+game: ACT 快打旋风2
+file: 快打旋风2.zip
+sort-by: 094
+developer: 快打旋风2
+description: 命数不减，选择键换人
+
+game: ACT 快打旋风3超级hack1
+file: 快打旋风3超级hack1.zip
+sort-by: 095
+developer: 快打旋风3超级hack1
+description: 1.在游戏中可以换人，但是并不是即时换人，换了之后要切换画面后才会换，所以要换人的话只要按以下键，然后等到切换画面之后就变了。按L+上是GUY  按L+左是HAGGER  按L+下是LUCIA  按L+右是DEAN 2.马上得到武器,在游戏中直接按键就可以得到武器 按R+上是HAGGER专用武器 按R+右是GUY专用武器 按R+下是LUCIA专用武器  3.自动控制我方角色 按R+X就可以自动控制我方角色，切换画面前一定要按R+左换回自己控制,不然就直接进入接关画面 4.所有关卡的敌人全部替换,很多地方添加了BOSS出场,而且大多是双BOSS出现.关底大多都是双BOSS
+
+game: ACT 快打旋风3超级hack2
+file: 快打旋风3超级hack2.zip
+sort-by: 096
+developer: 快打旋风3超级hack2
+description: 命数不减，能量不减，选择键切换人物。出大招简化，出绝招的方法，按着Ｒ键时再抓住敌人后按拳，每个人物出绝招的方法是一样的，只有女角色无需抓住敌人。
+
+game: ACT 狂野特攻队
+file: 狂野特攻队.zip
+sort-by: 097
+developer: 狂野特攻队
+description: 命数不减
+
+game: ACT 雷恩与史地皮1疯狂家庭
+file: 雷恩与史地皮1疯狂家庭.zip
+sort-by: 098
+developer: 雷恩与史地皮1疯狂家庭
+description: HP不减
+
+game: ACT 雷恩与史地皮2扭曲时间
+file: 雷恩与史地皮2扭曲时间.zip
+sort-by: 099
+developer: 雷恩与史地皮2扭曲时间
+description: HP不减
+
+game: ACT 雷克斯龙冒险
+file: 雷克斯龙冒险.zip
+sort-by: 100
+developer: 雷克斯龙冒险
+description: 无敌
+
+game: ACT 龙王战士
+file: 龙王战士.zip
+sort-by: 101
+developer: 龙王战士
+description: 命数无限，放魔法HP不减，但被攻击会减HP，道具8级
+
+game: ACT 露卡大冒险
+file: 露卡大冒险.zip
+sort-by: 102
+developer: 露卡大冒险
+description: HP不减
+
+game: ACT 洛可的摩登生活
+file: 洛可的摩登生活.zip
+sort-by: 103
+developer: 洛可的摩登生活
+description: HP不减
+
+game: ACT 美丽新世界2
+file: 美丽新世界2.zip
+sort-by: 104
+developer: 美丽新世界2
+description: 无敌，碰到敌人后，敌人直接死亡
+
+game: ACT 美女与野兽
+file: 美女与野兽.zip
+sort-by: 105
+developer: 美女与野兽
+description: HP不减
+
+game: ACT 美少女战士R
+file: 美少女战士R.zip
+sort-by: 106
+developer: 美少女战士R
+description: 命数不减，大招无限
+
+game: ACT 美食战队
+file: 美食战队.zip
+sort-by: 107
+developer: 美食战队
+description: HP不减，敌人被打两下就死。但是主角怕电灯人，会造成死亡。
+
+game: ACT 魅影
+file: 魅影.zip
+sort-by: 108
+developer: 魅影
+description: HP不减，时间不减
+
+game: ACT 米奇狂热
+file: 米奇狂热.zip
+sort-by: 109
+developer: 米奇狂热
+description: HP不减
+
+game: ACT 名将
+file: 名将.zip
+sort-by: 110
+developer: 名将
+description: HP不减，但放保险会减HP
+
+game: ACT 摩登原始人
+file: 摩登原始人.zip
+sort-by: 111
+developer: 摩登原始人
+description: HP不减，道具不减，命数不减
+
+game: ACT 魔法大进击
+file: 魔法大进击.zip
+sort-by: 112
+developer: 魔法大进击
+description: HP不减，魔法道具不减
+
+game: ACT 魔法剑
+file: 魔法剑.zip
+sort-by: 113
+developer: 魔法剑
+description: HP不减
+
+game: ACT 魔剑道1
+file: 魔剑道1.zip
+sort-by: 114
+developer: 魔剑道1
+description: 命数不减，原地复活继续
+
+game: ACT 魔力小马
+file: 魔力小马.zip
+sort-by: 115
+developer: 魔力小马
+description: 99条命，命数会减，但可原地复活
+
+game: ACT 南国少年
+file: 南国少年.zip
+sort-by: 116
+developer: 南国少年
+description: 命数不减，气功不减。HP很长，很难死掉，但不能原地复活。
+
+game: ACT 庞克勇士
+file: 庞克勇士.zip
+sort-by: 117
+developer: 庞克勇士
+description: 命数无限
+
+game: ACT 皮克急速大冒险
+file: 皮克急速大冒险.zip
+sort-by: 118
+developer: 皮克急速大冒险
+description: 命数不减，但不能原地复活
+
+game: ACT 奇多豹野外大冒险
+file: 奇多豹野外大冒险.zip
+sort-by: 119
+developer: 奇多豹野外大冒险
+description: 命数不减，但遇敌会死，且不能原地继续
+
+game: ACT 忍者龙剑传巴
+file: 忍者龙剑传巴.zip
+sort-by: 120
+developer: 忍者龙剑传巴
+description: 无限跳，选择键开启无敌。本作是fc三部曲的复刻合集。
+
+game: ACT 忍者神龟4
+file: 忍者神龟4.zip
+sort-by: 121
+developer: 忍者神龟4
+description: 无敌
+
+game: ACT 忍者蛙与双截龙
+file: 忍者蛙与双截龙.zip
+sort-by: 122
+developer: 忍者蛙与双截龙
+description: 命数不减
+
+game: ACT 忍者战士牙
+file: 忍者战士牙.zip
+sort-by: 123
+developer: 忍者战士牙
+description: HP不减
+
+game: ACT 闪灵悍将
+file: 闪灵悍将.zip
+sort-by: 124
+developer: 闪灵悍将
+description: HP不减
+
+game: ACT 少年邦德
+file: 少年邦德.zip
+sort-by: 125
+developer: 少年邦德
+description: HP不减，但飞机关卡会死
+
+game: ACT 少年忍者佐助
+file: 少年忍者佐助.zip
+sort-by: 126
+developer: 少年忍者佐助
+description: 击败一名敌人后升满级
+
+game: ACT 神探加吉特
+file: 神探加吉特.zip
+sort-by: 127
+developer: 神探加吉特
+description: 同时按LR开启无敌，无限跳，命数不减，能力等级最高，武器不减。
+
+game: ACT 圣诞老人大进击
+file: 圣诞老人大进击.zip
+sort-by: 128
+developer: 圣诞老人大进击
+description: HP不减
+
+game: ACT 狮子王
+file: 狮子王.zip
+sort-by: 129
+developer: 狮子王
+description: HP不减
+
+game: ACT 时空特警
+file: 时空特警.zip
+sort-by: 130
+developer: 时空特警
+description: HP不减，弹药不减
+
+game: ACT 史莱姆大冒险
+file: 史莱姆大冒险.zip
+sort-by: 131
+developer: 史莱姆大冒险
+description: HP不减
+
+game: ACT 双截龙归来(超级双截龙)
+file: 双截龙归来.zip
+sort-by: 132
+developer: 双截龙归来(超级双截龙)
+description: 命数不减
+
+game: ACT 松鼠大战
+file: 松鼠大战.zip
+sort-by: 133
+developer: 松鼠大战
+description: 命数不减，火球不减，无限跳，选择键开启无敌
+
+game: ACT 唐老鸭魔法之法螺
+file: 唐老鸭魔法之法螺.zip
+sort-by: 134
+developer: 唐老鸭魔法之法螺
+description: HP不减
+
+game: ACT 踢克超人
+file: 踢克超人.zip
+sort-by: 135
+developer: 踢克超人
+description: HP不减，命数不减，大招不减
+
+game: ACT 天龙斩
+file: 天龙斩.zip
+sort-by: 136
+developer: 天龙斩
+description: HP不减，大招不减
+
+game: ACT 铁臂阿童木
+file: 铁臂阿童木.zip
+sort-by: 137
+developer: 铁臂阿童木
+description: HP不减，命数不减
+
+game: ACT 铁钩船长
+file: 铁钩船长.zip
+sort-by: 138
+developer: 铁钩船长
+description: HP不减
+
+game: ACT 兔宝宝大冒险
+file: 兔宝宝大冒险.zip
+sort-by: 139
+developer: 兔宝宝大冒险
+description: 无敌，无限跳
+
+game: ACT 玩具总动员
+file: 玩具总动员.zip
+sort-by: 140
+developer: 玩具总动员
+description: HP不减
+
+game: ACT 无敌铁金刚Z
+file: 无敌铁金刚Z.zip
+sort-by: 141
+developer: 无敌铁金刚Z
+description: HP不减
+
+game: ACT 无路可退
+file: 无路可退.zip
+sort-by: 142
+developer: 无路可退
+description: HP不减，命数不减
+
+game: ACT 辛普森霸子的幻想
+file: 辛普森霸子的幻想.zip
+sort-by: 143
+developer: 辛普森霸子的幻想
+description: HP不减，命数不减
+
+game: ACT 新热血硬派国夫的挽歌
+file: 新热血硬派国夫的挽歌.zip
+sort-by: 144
+developer: 新热血硬派国夫的挽歌
+description: HP不减
+
+game: ACT 修罗战士钢
+file: 修罗战士钢.zip
+sort-by: 145
+developer: 修罗战士钢
+description: 同时按LR开启无敌，命数不减，无限跳，飞镖炸弹不减。最终boss需一面跳一面打他，或放大招打。
+
+game: ACT 岩球先生
+file: 岩球先生.zip
+sort-by: 146
+developer: 岩球先生
+description: HP不减
+
+game: ACT 异次元来访者
+file: 异次元来访者.zip
+sort-by: 147
+developer: 异次元来访者
+description: 道具不减
+
+game: ACT 异神战士
+file: 异神战士.zip
+sort-by: 148
+developer: 异神战士
+description: 无敌，偶尔会死掉
+
+game: ACT 音速超人1
+file: 音速超人1.zip
+sort-by: 149
+developer: 音速超人1
+description: 无敌，无限大招
+
+game: ACT 音速超人2
+file: 音速超人2.zip
+sort-by: 150
+developer: 音速超人2
+description: 命数不减，无限大招
+
+game: ACT 永远的蝙蝠侠
+file: 永远的蝙蝠侠.zip
+sort-by: 151
+developer: 永远的蝙蝠侠
+description: 命数不减，原地复活
+
+game: ACT 幽浮假面战士
+file: 幽浮假面战士.zip
+sort-by: 152
+developer: 幽浮假面战士
+description: 命数不减，原地复活
+
+game: ACT 原始人大进击
+file: 原始人大进击.zip
+sort-by: 153
+developer: 原始人大进击
+description: HP不减，命数不减，吼叫不减
+
+game: ACT 圆桌骑士
+file: 圆桌骑士.zip
+sort-by: 154
+developer: 圆桌骑士
+description: 命数不减
+
+game: ACT 战斗原始人1
+file: 战斗原始人1.zip
+sort-by: 155
+developer: 战斗原始人1
+description: 无敌
+
+game: ACT 战斗原始人2
+file: 战斗原始人2.zip
+sort-by: 156
+developer: 战斗原始人2
+description: 命数不减
+
+game: ACT 战斗原始人3
+file: 战斗原始人3.zip
+sort-by: 157
+developer: 战斗原始人3
+description: HP不减，命数不减
+
+game: ACT 战国传承
+file: 战国传承.zip
+sort-by: 158
+developer: 战国传承
+description: 无限接关
+
+game: ACT 蜘蛛侠
+file: 蜘蛛侠.zip
+sort-by: 159
+developer: 蜘蛛侠
+description: HP不减
+
+game: ACT 蜘蛛侠与X战警
+file: 蜘蛛侠与X战警.zip
+sort-by: 160
+developer: 蜘蛛侠与X战警
+description: 命数不减
+
+game: ACT 蜘蛛侠与毒液
+file: 蜘蛛侠与毒液.zip
+sort-by: 161
+developer: 蜘蛛侠与毒液
+description: HP不减
+
+game: ACT 猪小弟的万圣节冒险
+file: 猪小弟的万圣节冒险.zip
+sort-by: 162
+developer: 猪小弟的万圣节冒险
+description: HP不减，但掉下坑会死
+
+game: ACT 足球小子
+file: 足球小子.zip
+sort-by: 163
+developer: 足球小子
+description: HP不减
+
+game: AVG 美少女梦工场
+file: 美少女梦工场.zip
+sort-by: 164
+developer: 美少女梦工场
+description: 无限打工，金钱修改
+
+game: AVG 赛马大亨2
+file: 赛马大亨2.zip
+sort-by: 165
+developer: 赛马大亨2
+description: 金钱不减
+
+game: AVG 赛马英雄
+file: 赛马英雄.zip
+sort-by: 166
+developer: 赛马英雄
+description: 钱最大
+
+game: AVG 无人岛物语
+file: 无人岛物语.zip
+sort-by: 167
+developer: 无人岛物语
+description: 补给品不减
+
+game: AVG 育马物语2
+file: 育马物语2.zip
+sort-by: 168
+developer: 育马物语2
+description: 初始拥有金钱一亿元，购买金钱不减
+
+game: AVG 真一获千金
+file: 真一获千金.zip
+sort-by: 169
+developer: 真一获千金
+description: 金钱修改
+
+game: FLY SD高达2
+file: SD高达2.zip
+sort-by: 170
+developer: SD高达2
+description: 命数不减
+
+game: FLY 超级地球防卫军
+file: 超级地球防卫军.zip
+sort-by: 171
+developer: 超级地球防卫军
+description: HP不减
+
+game: FLY 超级异形战机
+file: 超级异形战机.zip
+sort-by: 172
+developer: 超级异形战机
+description: 无敌
+
+game: FLY 超级战鹰
+file: 超级战鹰.zip
+sort-by: 173
+developer: 超级战鹰
+description: 弹药无限
+
+game: FLY 超时空要塞
+file: 超时空要塞.zip
+sort-by: 174
+developer: 超时空要塞
+description: 无敌
+
+game: FLY 垂直作战
+file: 垂直作战.zip
+sort-by: 175
+developer: 垂直作战
+description: 无敌
+
+game: FLY 大流士战机
+file: 大流士战机.zip
+sort-by: 176
+developer: 大流士战机
+description: 无敌
+
+game: FLY 飞行英雄
+file: 飞行英雄.zip
+sort-by: 177
+developer: 飞行英雄
+description: 命数不减，炸弹不减
+
+game: FLY 风云战机
+file: 风云战机.zip
+sort-by: 178
+developer: 风云战机
+description: 命数不减
+
+game: FLY 极上沙罗曼蛇
+file: 极上沙罗曼蛇.zip
+sort-by: 179
+developer: 极上沙罗曼蛇
+description: 命数不减，每条命拥有激光枪，导弹，按4次道具键立刻拥有4个帮手，每条命拥有防护罩，速度满级。死后不能原地继续。
+
+game: FLY 究极合体战机
+file: 究极合体战机.zip
+sort-by: 180
+developer: 究极合体战机
+description: 命数不减
+
+game: FLY 雷电传说
+file: 雷电传说.zip
+sort-by: 181
+developer: 雷电传说
+description: 无敌，炸弹不减
+
+game: FLY 雷霆机器人
+file: 雷霆机器人.zip
+sort-by: 182
+developer: 雷霆机器人
+description: 40条命，会减， 可无限使用防护罩产生无敌效果，子弹最强，带绿色跟踪弹
+
+game: FLY 棉花小魔女
+file: 棉花小魔女.zip
+sort-by: 183
+developer: 棉花小魔女
+description: 命数不减，魔法不减
+
+game: FLY 沙漠风暴
+file: 沙漠风暴.zip
+sort-by: 184
+developer: 沙漠风暴
+description: HP不减，弹数不减，油不减
+
+game: FLY 闪电出击
+file: 闪电出击.zip
+sort-by: 185
+developer: 闪电出击
+description: 无敌
+
+game: FLY 生化金属战机
+file: 生化金属战机.zip
+sort-by: 186
+developer: 生化金属战机
+description: 蓄力能量不减，可使用四个球围绕防护罩接近无敌，但撞击大型敌机会死。命数不减，每条命初始拥有W弹及导弹。
+
+game: FLY 四国战机
+file: 四国战机.zip
+sort-by: 187
+developer: 四国战机
+description: 命数无限，炸弹无限，接关无限
+
+game: FLY 太空争霸 美版
+file: 太空争霸 美版.zip
+sort-by: 188
+developer: 太空争霸 美版
+description: 无敌，炸弹不减，命数不减
+
+game: FLY 太空争霸 日版
+file: 太空争霸 日版.zip
+sort-by: 189
+developer: 太空争霸 日版
+description: 无限命
+
+game: FLY 外星大眼小蜜蜂
+file: 外星大眼小蜜蜂.zip
+sort-by: 190
+developer: 外星大眼小蜜蜂
+description: 命数不减
+
+game: FLY 外星大眼小蜜蜂强化
+file: 外星大眼小蜜蜂强化.zip
+sort-by: 191
+developer: 外星大眼小蜜蜂强化
+description: 初始40条命，会减，每条命初始拥有最强子弹，每条命出场都有护罩（只能挡一次）
+
+game: FLY 异形战机3
+file: 异形战机3.zip
+sort-by: 192
+developer: 异形战机3
+description: 无敌，碰到墙会死，命数不减，稍稍蓄力可放威力最强子弹
+
+game: FLY 银河风暴
+file: 银河风暴.zip
+sort-by: 193
+developer: 银河风暴
+description: 命数不减
+
+game: FLY 宇宙骑士
+file: 宇宙骑士.zip
+sort-by: 194
+developer: 宇宙骑士
+description: HP不减
+
+game: FLY 宇宙巡航机3
+file: 宇宙巡航机3.zip
+sort-by: 195
+developer: 宇宙巡航机3
+description: 完全无敌，撞墙也不死
+
+game: FLY 战区88
+file: 战区88.zip
+sort-by: 196
+developer: 战区88
+description: 金钱最大，弹药不减
+
+game: FLY 重装战机
+file: 重装战机.zip
+sort-by: 197
+developer: 重装战机
+description: 命数不减，副武器弹数不减，每条命初始子弹最强
+
+game: FTG 超级街头霸王2
+file: 超级街头霸王2.zip
+sort-by: 198
+developer: 超级街头霸王2
+description: 隆 RYU\n───────────────────────\n ◎波动拳       →+P\n◎灼热波动拳   ↓+P\n◎升龙拳       ←+P\n◎龙卷旋风脚   ←+K\n◎龙卷旋风脚   ←+K（空中）\n肯 KEN\n───────────────────────\n◎波动拳       →+P\n◎升龙拳       ↓+P\n◎龙卷旋风脚   ←+K\n◎龙卷旋风脚   ←+K（空中）\n春丽 CHUN LI\n───────────────────────\n◎百裂脚         K（连打）\n◎气功拳       →+P\n◎回旋鹤脚蹴   ↓+K（空中可）\n本田 E.HONDA\n───────────────────────\n◎百裂张手       P（连打）\n◎超级头突     →+P\n◎超级百贯落   ↓+K\n盖尔 GUILE\n───────────────────────\n◎音速手刀    →+P\n◎脚刀        ↓+K\n布兰卡 BLANKA\n───────────────────────\n◎雷霆电击      P（连打）\n◎回旋撞击    →+P\n◎后步转      →+K\n◎回旋上击    ↓+K\n桑基尔夫 ZANGIEF\n───────────────────────\n◎双截旋风掌轻P中P（左右移动）\n◎快速旋风掌轻K中K（左右移动）\n◎螺旋打桩     ↓+p（近敌时）\n◎原子弹爆炸   ↓+K（近敌时）\n◎飞行炸弹     ↓+K（投掷距离以外）\n达尔锡 DHALSIM\n───────────────────────\n◎瑜伽火       →+P\n◎瑜伽光明     ↓+K\n◎瑜伽隐身  ←or→+轻P中Por轻K中K\n拜森 M.BISON\n───────────────────────\n◎回旋拳轻 PPPorKKK（按住一会再放开）\n◎前冲直拳      →+P\n◎前冲勾拳      →+K\n◎野牛头槌      ↑+P              \n巴洛克 BALROG\n───────────────────────\n◎滚动水晶刺    →+P               \n◎高空杀        ↓+P\n◎飞翔巴塞罗那  ↓+K.P\n◎饭纲落        ↓+K.（任一方向+P）\n萨卡特 SAGAT\n───────────────────────\n◎猛虎波（上段）→+P\n◎猛虎波（下段）→+K\n◎猛虎上升      ↓+P\n◎虎膝击        ↓+K\n维加 VEGA\n───────────────────────\n◎精神爆击     →+P\n◎双重膝压     →+K\n◎恶魔颠倒     ↓+P·P\n◎头部挤压     ↓+K.P\n嘉米 CAMMY\n───────────────────────\n◎旋转之箭      →+K\n◎大炮轰击      ↓+K\n◎回旋拳        ↓+P\n飞龙 FEI LONG\n───────────────────────\n◎烈火拳        →+P（3次）\n◎炽炎脚        ↓+K\n迪杰 DEE JAY\n───────────────────────\n◎真空手刀      →+P\n◎旋转双踢      →+K\n◎机关炮上勾拳  ↓+P·P（连打）\n猎鹰 T.HAWK\n───────────────────────\n◎神鹰降     轻P中P（空中）\n◎飞斧炸弹      ←+P         \n◎墨西哥台风    ↓+P（近敌时）
+
+game: FTG 超级重拳
+file: 超级重拳.zip
+sort-by: 199
+developer: 超级重拳
+description: HP不减，最强攻击
+
+game: FTG 超兄贵 爆裂乱斗篇
+file: 超兄贵 爆裂乱斗篇.zip
+sort-by: 200
+developer: 超兄贵 爆裂乱斗篇
+description: HP不减
+
+game: FTG 大力水手
+file: 大力水手.zip
+sort-by: 201
+developer: 大力水手
+description: 无敌
+
+game: FTG 斗姬传
+file: 斗姬传.zip
+sort-by: 202
+developer: 斗姬传
+description: HP不减，MP不减，命数不减，按选择键换人。
+
+game: FTG 对决!!黄金决战
+file: 对决!!黄金决战.zip
+sort-by: 203
+developer: 对决!!黄金决战
+description: 出招简化\n斯莱德.吉\n─────────────────\n电光拳    ↓+P\n电击弹    ↑+P\n大爆发拳  →+P 近敌时   \n\n雷班\n─────────────────\n电光拳    ↓+P\n电击弹    ↑+P\n大破坏踢  →+K 近敌时\n\n阿瞢\n─────────────────\n突贯挤压  ↑+P\n天地撞击  →+P 近敌时\n大喷火投  →+K 近敌时\n\n戴茜\n─────────────────\n双漆压    ↓+K\n大地炸裂  →+P 近敌时\n天空炸裂  →+K 近敌时\n\n鲁浦\n─────────────────\n地走火    ↓+P\n头突      ↑+P\n天地返    →+P 近敌时\n\n吉 依洛克\n─────────────────\n高速冲击  ↓+P \n上升重击  →+P 近敌时\n雷击      →+K 近敌时\n\nLC-38X\n─────────────────\n电异激光  ↓+P\n左卫门固  →+P 近敌时\n\n──────────────────────────────────\n
+
+game: FTG 饿狼传说特别版
+file: 饿狼传说特别版.zip
+sort-by: 204
+developer: 饿狼传说特别版
+description: 可选隐藏人物。\n特瑞·博格 Terry Bogard\n───────────────────────\n◎能量波浪       →+AorC\n◎火焰冲拳       ←+AorC\n◎升蹴轰击       ↑+AorC\n◎破裂斩         ←+BorD\n☆能量喷泉          ↑+D\n\n安迪·博格 Andy Bogard\n───────────────────────\n◎飞翔拳         ←+AorC\n◎斩影拳         ↓+AorC\n◎升龙弹         →+AorC\n◎空破弹         ←+BorD\n☆超裂破弹          ↑+D\n\n东 丈 Joe Higashi\n───────────────────────\n◎旋风拳         ↓+AorC  \n◎龙破脚         ←+BorD  \n◎虎破龙         ↓+BorD  \n◎爆裂拳            AorC【连按】\n☆死亡龙卷          ↑+D\n\n陈希壤 Cheng Sinzan\n───────────────────────\n◎气雷炮         →+AorC  \n◎破岩击         →+BorD  \n◎大太鼓腹打     ↑+AorC  \n☆爆雷炮            ↑+D\n\n不知火 舞 Mai Shiranui\n───────────────────────\n◎花蝶扇         →+AorC  \n◎龙炎舞         ←+AorC  \n◎必杀忍蜂       ←+D  \n◎鼯鼠之舞       ↑+A \n☆超必杀忍蜂        ↑+D\n\n比尔 Big Bear\n───────────────────────\n◎巨人爆弹       →+AorC\n◎超级吊踢【D键按住10秒再放开】\n◎大熊爆弹       ↓+C  【近敌】 \n☆火焰丹气          ↑+D\n\n金 家潘 KIM Kap Hwan\n───────────────────────\n◎半月斩         ←+BorD  \n◎飞翔斩         ↓+BorD【空中】  \n◎飞燕斩         ↑+BorD  \n☆凤凰脚           ↑+C\n\n山田 十兵卫 Jubei Yamada\n───────────────────────\n◎煎饼手里剑     →+AorC  \n◎冲刺二本背负投 →+BorD  \n◎大炸弹落       ↑+AorC【近敌】 \n◎猫落           ←+C   【近敌】\n☆龙翔炸弹落        ↑+D【近敌】\n\n达克·金(鸭王) Duck King\n───────────────────────  \n◎人肉炮弹       →+AorC  \n◎俯冲膝击       ←+BorD  \n◎倒挂金钩       →+BorD  \n◎达克重击       ←+C\n☆天旋地转          ↑+D【近敌】 \n\n唐 福禄 Tung Fu Rue\n───────────────────────\n◎箭疾步         ←+AorC  \n◎冲破           →+AorC  \n◎击放              C   【连按】\n◎烈千脚         ↓+BorD【近敌】  \n☆旋风刚拳          ↑+D\n\n比利·凯 Billy\n───────────────────────  \n◎三节棍中段打   →+AorC  \n◎雀落           ←+AorC  \n◎旋风棍            AorC【连按】\n◎强袭飞翔棍     →+BorD  \n☆超火炎旋风棍      ↑+D\n\n阿克赛尔·霍克 Axel Hawk\n───────────────────────\n◎威力风暴       →+AorC  \n◎快速猛击       ←+AorC  \n◎阿克赛尔之舞      AorC【连按】\n☆阿克赛尔猛击      ↑+D\n\n罗伦斯·布拉德 Laurence Blood\n───────────────────────\n◎血腥回转       →+BorD  \n◎血腥截击       ↑+C\n◎血腥刀         →+AorC  \n☆血腥斩切          ↑+D\n\n吉斯·霍华德 Geese Howard\n───────────────────────\n◎烈风拳         →+A\n◎双烈风拳       →+C\n◎疾风拳         ←+AorC【空中】  \n◎上段 当身投    →+B\n◎中段 当身投    →+D\n☆斗气风暴          ↑+D\n\n渥尔夫肯·克劳萨 Wolfgang Krauser\n───────────────────────\n◎上段破碎球     ←+AorC  \n◎下段破碎球     ←+BorD  \n◎战斧踢         →+BorD  \n◎中段当身投     →+AorC  \n☆凯撒波动拳        ↑+D\n\n坂琦良 Ryo Sakazaki\n───────────────────────\n◎虎煌拳         →+AorC  \n◎虎咆           ↓+AorC  \n◎斩烈拳            C   【连按】\n◎飞燕疾风脚     →+BorD  \n◎霸王翔吼拳     ↑+C\n☆龙虎乱舞          ↑+D\n\n──────────────────────────────────────────────\n
+
+game: FTG 格斗大亨
+file: 格斗大亨.zip
+sort-by: 205
+developer: 格斗大亨
+description: 1.隐藏人物开启\n2.血限解除初始可无限放超杀\n邦(BANG)\n─────────────────\n虎冲拳      ←+P\n邦踢        ↓+K   \n喧闹踢      →+K\n虎猛击      ↓+P    \n\n喧闹虎冲拳 重P重K\n\n蒂莉娅(TIRIA)\n─────────────────\n火焰弹      →+P\n燃烧之杖    ↓+P\n燃烧蛋      ←+P\n兰迪之杖    ←+K\n魔法炎      ↓+K \n\n兰迪爆发杖 重P重K\n\n鄂图(OTTOH)\n─────────────────\n热能发射下段→+轻P\n热能发射上段→+重P\n爆头        ←+K\n磞溃连击    ←+P\n回转踢      →+K（空中）\n\n活塞组合拳  重P重K  \n\n尔曼(HARMAN)\n─────────────────\n幻想飞翔    →+P\n阶段踢      →+K \n梅州豹幻影踢↓+P\n死亡脚刀    ↓+K\n\n活塞组合拳  重P重K  \n\n丝佩诺扎(SPENOZA)\n─────────────────\n火花球      P（连按）\n雷弹        →+P\n雷丝        →+K\n等离子击    ↓+P\n雷击        ↓+K\n\n闪电剑      重P重K       \n\n卡娜莎(CALNARSA)\n─────────────────\n苏达灭电    →+P\n回旋棍      ↓+P\n旋棍        ←+P\n回旋跃棍袭  ↓+K \n导弹踢      ←+K（空中）\n\n究极回旋棍  重P重K \n\n丝娜(SEENA)\n─────────────────\n激怒漩涡    →+P\n激怒龙卷    ↓+P\n魔法水      →+K\n流踢        ←+K\n\n激怒蓝色螺旋重P重K\n \n冈斯顿(GUSTON)\n─────────────────\n大降下螺旋桨↓+P（空中）\n大前转戳踢  →+K\n大发炮      →+P\n大回转      ↓+P\n大上升抢截  ↓+K\n\n超压缩出击  重P重K\n\n帕切特(PACHET)\n─────────────────\n上升炸弹爪  →+P\n月连斩      ←+P\n月升斩      ↓+P\n月双踢      ←+K\n\n月连升激斩  重P重K\n\n简。兰斯(JAIL LANCE)\n─────────────────\n冲斩        →+P\n上升斩      ↓+K\n旋转斩      →+K\n\n连激斩      重P重K\n\n──────────────────────────────────\n
+
+game: FTG 豪血寺一族
+file: 豪血寺一族.zip
+sort-by: 206
+developer: 豪血寺一族
+description: 输了也算赢
+
+game: FTG 花之庆次 云之彼方
+file: 花之庆次 云之彼方.zip
+sort-by: 207
+developer: 花之庆次 云之彼方
+description: 前田庆次\n────────────────────────────\n欧飞       ↓↘→+P\n刚枪击破   →←→+P\n居合斩     ↓↙←+P\n刀落       →↓↘→+P \n呵割       ↓↙←→+P\n二刀流烈斩 ←+轻P\n烟幕剑     ←+中P\n一刀流乱舞 ←+重P\n\n营\n────────────────────────────\n风散       ←+P  \n对空裂     ↓↘→+P\n远杀手     ↓↙←+P\n高端之踢   ↓↙←→+P\n飞物袭     →+P\n雷击弹     ←+轻P\n木叶之舞   ←+中P\n怨念突     ←+重P         \n\n舍丸\n────────────────────────────\n回转斩     ↓↘→+P\n空中斩     ↓↘→←+P\n破裂弹     ←↙↓+P\n足沸滑     →↘↓+P\n教导手里剑 ↓↙←→+P\n手里剑之雨 ←+轻P\n火绳统     ←+中P\n爆大轮     ←+重P \n  \n四井主马\n────────────────────────────\n烟幕       ←+P   \n铁爪拳     ↓↘→+P\n斩切       ←↙↓+P\n手里剑之舞 ↓↙←→+P\n回转斩杀   ←+轻P\n炎舞之爪   ←+中P \n毒蛇之舞   ←+重P \n\n甲斐之蝙蝠\n────────────────────────────\n翻斩       ↓↘→←+P\n横转远眺   ↓↙←→+P\n蝙蝠剑     →←→+P\n间合斩     →+P\n前方投击   ←+轻P\n斩空手     ←+中P\n巨身蝙蝠剑 ←+重P\n\n古屋七郎兵卫\n────────────────────────────\n三段突     P连打\n圆回斩     ↓↘→+P\n斩流投     ↓↙←→+P\n远打突     ←+轻P\n闪光突     ←+中P\n天空百突   ←+重P\n\n风魔小次郎\n────────────────────────────\n影手里剑   ↓↘→+P\n龙激斩     ↓↙←+P\n圆杀舞     ←↙↓+P\n逆打倒     →+P\n跳圆舞     ←+轻P\n龙打       ←+中P\n乱爆烟     ←+重P\n\n岩兵卫\n────────────────────────────\n屈伸飞     ↓↘→+P\n空转       ←↙↓+P\n棒手里剑   →↘↓→P\n高速弹鬼   ↓↙←→+P\n连打       →↘↓+P（空中）\n雷神斩     ←+轻P\n横断砹风   ←+中P\n天真打倒   ←+重P\n\n────────────────────────────────────────────────────────\n
+
+game: FTG 街头霸王2
+file: 街头霸王2.zip
+sort-by: 208
+developer: 街头霸王2
+description: 隆 RYU\n──────────────────────────────\n◎波动拳　　　　→+P\n◎升龙拳　　　　↓+P\n◎龙卷旋风脚    ←+K\n\n肯 KEN\n──────────────────────────────\n◎波动拳　　　　→+P\n◎升龙拳　　　　↓+P\n◎龙卷旋风脚    ←+K\n\n春丽 CHUN LI\n──────────────────────────────\n◎百裂脚　　　　　K（连打）\n◎回旋鹤脚蹴    ↓+K\n\n盖尔 GUILE\n──────────────────────────────\n◎音速手刀　　　→+P\n◎脚刀　　　　　↓+K\n\n达尔锡 DHALSIM\n──────────────────────────────\n◎瑜伽火　　　　→+P\n◎瑜伽光明　　　↓+P\n\n本田 HONDA\n──────────────────────────────\n◎百裂张手　　　  P（连打）\n◎超级头突　　  →+P\n\n桑基尔夫 ZANGIEF\n──────────────────────────────\n◎双截旋风掌　  PPP\n◎螺旋打桩      ↓+P（近敌时）\n\n布兰卡 BLANKA\n──────────────────────────────\n◎雷霆电击　　　　P（连打）\n◎回旋撞击   　 →+P\n\n────────────────────────────────────────────────────────────\n
+
+game: FTG 街头霸王2加速版
+file: 街头霸王2加速版.zip
+sort-by: 209
+developer: 街头霸王2加速版
+description: 隆 RYU\n──────────────────────────────\n◎波动拳　　　　→+P\n◎升龙拳　　　　↓+P\n◎龙卷旋风脚    ←+K\n◎龙卷旋风脚    ←+K（空中）\n\n肯 KEN\n──────────────────────────────\n◎波动拳　　　　→+P\n◎升龙拳　　　　↓+P\n◎龙卷旋风脚    ←+K\n◎龙卷旋风脚    ←+K（空中）\n\n春丽 CHUN LI\n──────────────────────────────\n◎百裂脚　　　　　K（连打）\n◎气功拳        ←+P\n◎回旋鹤脚蹴    ↓+K\n◎回旋鹤脚蹴跳前↓+K（空中）(有bug)\n\n盖尔 GUILE\n──────────────────────────────\n◎音速手刀　　  →+P\n◎脚刀　　　　  ↓+K\n\n达尔锡 DHALSIM\n──────────────────────────────\n◎瑜伽火　　　　→+P\n◎瑜伽光明　　　←+P\n◎瑜伽隐身   ↑or↓+轻P中Por轻K中K\n\n本田 HONDA\n──────────────────────────────\n◎百裂张手　　　  P（连打）\n◎超级头突　　  →+P\n◎超级百贯落    ↓+K\n\n桑基尔夫 ZANGIEF\n──────────────────────────────\n◎双截旋风掌 轻P中P（左右移动）\n◎快速旋风掌 轻K中K（左右移动）\n◎螺旋打桩      ↓+P（近敌时）\n\n布兰卡 BLANKA\n──────────────────────────────\n◎雷霆电击　　　　P（连打）\n◎回旋撞击   　 →+P\n◎回旋上击      ↓+K\n\n拜森 M.BISON\n──────────────────────────────\n◎前冲直拳　    →+P\n◎前冲勾拳　　  →+K\n◎回旋拳轻 PPP or KKK（按住一会再放开）\n \n巴洛克 BALROG\n──────────────────────────────\n◎滚动水晶刺　  →+P \n◎飞翔巴塞罗那  ↓+K.弹墙后.P\n◎饭纲落(近敌时)↓+K.任一方向+P\n\n萨卡特 SAGAT\n─────────────────────────────\n◎猛虎波上段　　→+P\n◎猛虎波下段　　→+K\n◎猛虎上击　　  ↓+P\n◎虎膝击　　　　↓+K\n\n维加 VEGA\n──────────────────────────────\n◎精神爆击　　  →+P\n◎双重膝压　　  →+K\n◎头部挤压　　  ↓+K\n  →船形攻击       P    \n\n──────────────────────────────\n
+
+game: FTG 街头霸王5
+file: 街头霸王5.zip
+sort-by: 210
+developer: 街头霸王5
+description: 招式加强
+
+game: FTG 究极战士
+file: 究极战士.zip
+sort-by: 211
+developer: 究极战士
+description: 无限接关
+
+game: FTG 究极战士简化
+file: 究极战士简化.zip
+sort-by: 212
+developer: 究极战士简化
+description: 出招简化，在选人画面按住B键再按Y可选用隐藏人物。\n伏特\n────────────────────────────\n冲刺斩  →+P\n回旋踢  ↖or↑or↗+P（空中）\n\n兰吉赉\n────────────────────────────\n冲刺斩  →+P\n回旋踢  ↖or↑or↗+P（空中）\n\n钢斯托夫\n────────────────────────────\n链槌攻击 →+P\n铁槌上击 ↓+P\n\n菲莉\n────────────────────────────\n月牙光斩 →+P\n精灵之舞 ↑+P\n\n沙泽\n────────────────────────────\n雷击弹   →+P \n兽化     按住P键不放+↓\n兽化攻击   B\n解除兽化 按住P键不放+↑\n\n莱克\n────────────────────────────\n冰月斩   →+P\n十字斩   快速连按2次P\n\n吉利夫莫斯（隐藏人物）\n────────────────────────────\nX字炎    →+P \n尾巴攻击 ↑+P\n\n────────────────────────────────────────────────────────\n
+
+game: FTG 空手女神龙
+file: 空手女神龙.zip
+sort-by: 213
+developer: 空手女神龙
+description: 贵澄 夏生 natsuki\n─────────────────\n寸打     连按重P\n波动掌     →+重P\n碎破       ↓+重K\n上段局合   →+重K 防御中                    \n双重波动掌 ↓+重P 超必杀\n\n高网 里奈 RINA\n─────────────────\n盐         →+重P\n莉奈抓     ←+重P 任意键连打\n危险投     ←+重K\n过肩摔     ↓+重P 防御中\n气炎璇踢   →+重K 超必杀\n\n柳泽 雅昭 YANAGISAWA\n─────────────────\n刻突      连按重P\n牛杀        →+重P\n鸡口拳      ←+重P\n防反投      ←+重P 防御中\n霸神风水脚  ←+重K 超必杀\n\n神取 KANDORI\n─────────────────\n乱投      →+重P\n超乱投    ↑+重P\n巴投      →+重K\n发硬术    ↓+重P 防御中\n龙落      ←+重P 超必杀\n\n远藤 攻吉郎 ENDO\n─────────────────\n虎祺       ←+重K\n奇踢       →+重P\n祺撞       →+重K 近身                             \n回旋踢     ↓+重P 防御中\n冲刺虎祺   ←+重P 超必杀\n\n本堂 尚里 HONDO\n─────────────────\n幻影脚   连按重K\n地尘舞     →+重K\n飞踢击     →+重P\n落斩       ←+重P 防御中\n冲刺踵落   ←+重K 超必杀\n\n窝岛 美我郎 BIGARO\n─────────────────\n气突拳     →+重K\n电梯投     ←+重P\n力量爆弹   →+重P\n飞弹       ↓+重K 防御中\n高峰抢劫   ←+重K 超必杀\n\n窝岛 次男 TSUGUO\n─────────────────\n马形把     ←+重P\n龙形把     →+重K\n鞭斩       →+重P\n前辟加掌   ↓+重P 防御中\n大圈掌     ←+重K 超必杀
+
+game: FTG 龙珠Z超武斗传1
+file: 龙珠Z超武斗传1.zip
+sort-by: 214
+developer: 龙珠Z超武斗传1
+description: 瞬移
+
+game: FTG 龙珠Z超武斗传3
+file: 龙珠Z超武斗传3.zip
+sort-by: 215
+developer: 龙珠Z超武斗传3
+description: HP不减
+
+game: FTG 乱马 超技乱舞篇
+file: 乱马 超技乱舞篇.zip
+sort-by: 216
+developer: 乱马 超技乱舞篇
+description: 能量已解除可以无限出绝招\n乱马（男）\n─────────────────\n螵拳        P连打\n高飞车      →+P\n升龙破      ←+P\n飞龙降临弹  ↑+大P\n\n乱马（女）\n─────────────────\n螵拳        P连打\n高飞车      →+小P\n升龙破      ↑+K\n飞龙降临弹  →+大P \n\n天道茜\n─────────────────\n大车轮      P连打\n短跑木槌    →+小P\n猛翔击槌    ↑+K\n短跑刺推    →+大P \n\n珊瑚\n─────────────────\n落凤破      →+P\n天翔脚      →+K \n洛龙击      ↓+大P【空中】\n\n小太刀\n─────────────────\n棍棒上抛     →+P\n扫堂腿       →+K\n麻痹花束     ↑+P\n黑玫瑰吹雪   ←+大P  \n \n久远寺右京\n─────────────────\n小铲投       →+小P\n辣椒粉       →+K\n怒涛         →+大P \n\n今条麻里子\n─────────────────\n指挥棒旋斩   →+P\n指挥棒旋斩   ↑+P【空中】\n集体造型体   ←+K\n飞天空舞     ←+大P \n\n二之工娃娃（这个人物不可用）\n─────────────────\n八宝五圆杀    →+小P\n八宝五十圆杀  →+大P（出这招有bug）\n上段五圆杀    →+小K\n上段五十圆杀  →+大K\n吊钱倍返      ←+大P \n\n熊猫\n─────────────────\n猛奔击        →+K\n脑天起        ↑+P\n地狱击        →+大P【防御不能】\n\n响良牙\n─────────────────\n狮子弹        →+P\n爆碎点        ←+P\n狮子弹完成型  ↑+大P\n\n九能带刀\n─────────────────\n孤空斩        →+P\n天地雷        →+K\n大回摩西      ←+大P \n\n林斯\n─────────────────\n短刀投        →+P\n秘技鹰爪拳    ↓+K【空中】\n秘技鹅        ←+大P     \n\n哈普\n─────────────────\n龙斩波       →+小P\n气炮         →+K\n刀裂空斩     ↑+P\n龙精飞翔     →+大P \n\n──────────────────────────────────\n
+
+game: FTG 乱马 町内激斗篇
+file: 乱马 町内激斗篇.zip
+sort-by: 217
+developer: 乱马 町内激斗篇
+description: 可无限续关
+
+game: FTG 魔剑道2
+file: 魔剑道2.zip
+sort-by: 218
+developer: 魔剑道2
+description: 对战一次后等级升满，输了都可以升级
+
+game: FTG 魔剑道2简化
+file: 魔剑道2简化.zip
+sort-by: 219
+developer: 魔剑道2简化
+description: 出招简化，开启隐藏人物，血限解除，只是超杀可无限出，其他还需魔法力。\n剑野光（MAKENDO）\n─────────────────\n连打击    P连按\n拳异炮    →+P\n赤红冲    ↓+P\n关连脚    ←+K\n\n体力恢复  ←+M\n防御加强  →+M\n\n魔火乱斗  ↓+M（防御不能）\n\n\n魔足球（MASOCCER）\n─────────────────\n魔幻射球  →+K\n踢        ↓+K\n龙卷射门  ←+K\n\n攻击加强  ←+M\n防御加强  →+M\n\n红牌      ↓+M（防御不能）  \n\n魔鬼死血魔太（MAKKEY）\n─────────────────\n腐乱拳    ↓+P\n屁股拳    →+K \n\n攻击减弱  →+M\n防御减弱  ↑+M\n\n什么呀炮  ↓+M（防御不能）\n\n魔贵妇（MADONNA）\n─────────────────\n魔华尔    →+P\n魔冲刺    ↓+P\n天鹅飞踢  →+K\n\n体力回复  ←+M\n防御减弱  ↑+M\n\n玛祖卡舞  ↓+M（防御不能）\n\n人鱼妖怪（MACHO）\n─────────────────\n鲨鱼攻击  →+P\n求爱之吻  ←+P\n\n攻击减弱  →+M ？\n防御加强  →+M ？\n\n爱之约会  ↓+M（近敌）（防御不能）\n\n魔莉莉（MARIRIN）\n─────────────────\n啊唷唷攻击→+K\n碌呀碌呀  ←+K\n\n体力回复  ←+M\n防御加强  →+M\n\n满载而归  ↓+M（防御不能）\n\n魔基格（MAKENKA）\n─────────────────\n手喷枪    →+P\n极限升    ↓+K\n超加速    →+K\n\n攻击加强  ←+M\n防御减弱  ↑+M\n\n刚手喷枪  ↓+M（防御不能）\n\n魔镜罗（MAKENRO）\n─────────────────\n玫瑰射    →+P\n下段玫瑰射→+K\n玫瑰扣杀  ←+P \n\n体力回复  ←+M ？\n攻击加强  ←+M ？\n\n血腥玫瑰  ↓+M（防御不能）\n\n魔剑保（老大）（MAKENPO）\n─────────────────\n制裁之炎  →+P \n法老      ←+P\n法老之厌恶→+K\n\n体力回复  ←+M\n防御加强  →+M\n\n神之怒    ↓+M（防御不能）\n\n────────────────────────────────────────────────── \n
+
+game: FTG 双截龙格斗
+file: 双截龙格斗.zip
+sort-by: 220
+developer: 双截龙格斗
+description: 出招简化\n比利\n────────────────────────────\n龙滑步↘+P\n龙蛇   ←+P\n龙切   ↓+P\n死龙波 →+P\n\n\n吉米\n────────────────────────────\n龙滑步↘+P\n龙蛇   ←+P\n龙切   ↓+P\n死龙波 →+P\n\n乔。布雷克\n────────────────────────────\n飞头突 →+P\n燕子   →+中K（近身）\n咬     →+重K（近身）\n音波   ←+P\n地火  ↘+K\n吐痰   ↓+P\n\n艾斯。皮克\n────────────────────────────\n超速剑   P（连打）\n冰箭    ↓+P\n回转踢  ←+K\n冰球    →+P\n\n鲍恩斯\n────────────────────────────\n长枪打  →+中P\n超级头撞→+中K \n眼波    ←+P\n骨投    ↓+P\n\n西克\n────────────────────────────\n能量刀  →+P\n滚锯    ←+P\n旋风斩  ↓+P\n\n布雷德\n────────────────────────────\n高速斩    P（连打）\n闪钢斩  ←+中P\n鱼雷    →+P\n旋风脚  →+K\n\n崔格。哈比\n────────────────────────────\n堆垛机    K（连打）\n燃烧打  ←+中P\n枪击    ←+K\n火箭拳  ↓+P\n火焰弹  →+P\n\n康特。当\n────────────────────────────\n喷信号弹←+P\n导弹射  ↓+K\n镭射光  →+P\n倒转踢  →+K\n\n雪花\n────────────────────────────\n首弹踢  ↓+重K（斜跳时）\n旋砖    ↓+轻K\n滚爪击  ←+P\n立旋风脚←+K\n飞爪穿  →+K\n\n多米尼克\n────────────────────────────\n横扫飓风←+K\n马尾射线→+K\n高跟鞋  ↓+轻K \n\n影子大师\n────────────────────────────\n火球    ↓+P\n瞬间移动←+轻P/K OR 重P/K\n地狱长矛→+P\n爬波    →+K\n\n────────────────────────────────────────────────────────\n
+
+game: FTG 松村邦洋传
+file: 松村邦洋传.zip
+sort-by: 221
+developer: 松村邦洋传
+description: 出招简化\n松村邦洋\n─────────────────\n松村一本投 →+轻P（近身）\n百裂突拳       P（连打）    \n天风操连脚 ↓+重K（空中）  \n冰柱割     ↑+重P \n风脚       →+K  \n龙卷旋风人 ←+K         \n\n宇田川励\n─────────────────\n卑投       →+轻P（近身）\n绞上       ↑+重K（近身）\n棒打       ↓+轻P\n扣篮       ↓+重P\n小刀投     →+P\n可乐沐浴   ←+重P\n滑板攻击   ←+K\n\n神内晃\n─────────────────\n操气投     →+轻P（近身）\n铁指孔     ↑+重P（近身）\n蛇发旋绞首 ↑+重K（近身）\n风车       ←+重K（近身）\n连气弹       重P（连打）  \n来来拳     ←+P   \n \n安藤武\n─────────────────\n地狱落     →+轻P（近身）\n杀         ↓+轻P（近身）\n臂压       ↓+轻K（空中） \n冲刺打     ↑+重P\n椅子攻击   →+重P\n体压       →+重K\n\n帆足玖美\n─────────────────\n脚锁投     →+轻P（近身）\n力量秋千   ↓+轻P（近身）\n凶器攻击   ↑+轻P（近身）\n臂部粉碎   ↑+轻K\n后落       ←+重P（近身）\n飞翔攻击   ←+重K\n\n中西宋\n─────────────────\n垃圾井简   →+轻P（近身）\n王尔德投   ←+重P（近身）\n王尔德蹉打   轻P（连打） \n锤落       ↑+重P\n锤敲       →+轻P\n拍打       →+重P\n\n川村恭代\n─────────────────\n首切体落   →+轻P（近身）\n天空暗杀术 ↑+重P（近身）\n天空连锁   ↓+重P（空中）\n忍法返     ↓+重P\n科学忍法   →+轻P\n忍法烟隐   ←+轻K\n忍法爆弹   ←+重K\n\n斋藤仁一\n─────────────────\n扣落       →+轻P（近身）\n美国扣杀   ↑+轻P（近身）\n超级龙卷     轻P（连打）（近距离）\n台风       →+K\n超人气弹   ←+重P \n飞行研锑   ←+重K\n\n──────────────────────────────────\n
+
+game: FTG 新机动战记高达W
+file: 新机动战记高达W.zip
+sort-by: 222
+developer: 新机动战记高达W
+description: 出招简化，方向键配合拳脚可出招
+
+game: FTG 秀逗泰山
+file: 秀逗泰山.zip
+sort-by: 223
+developer: 秀逗泰山
+description: HP不减
+
+game: FTG 押忍空手部
+file: 押忍空手部.zip
+sort-by: 224
+developer: 押忍空手部
+description: HP不减
+
+game: FTG 押忍空手部简化
+file: 押忍空手部简化.zip
+sort-by: 225
+developer: 押忍空手部简化
+description: 出招简化\n高木 义志  \n─────────────────\n秘中正拳突き   ←+P\n空手连拳       ↓+小P \n两刀掌底拳     →+大P \n正拳四段突き   →+大K\n★正拳五段突き ↓+大K\n\n安藤 诚  \n─────────────────\n三连拳         →+大P \n刚拳       　  ←+P\n爆地波         ↓+大P \n连击之舞       →+大K \n-追加入力      ←+大K\n★安藤超必杀   ↓+大K\n\n末永 禅  \n─────────────────\n六甲打ち        ←+大P\n六甲地狱打ち    →+K\n六甲六段打ち    ←+大K \n★数珠爆炎阵    →+大P\n\n龙虎隆  \n─────────────────\n龙咆掌击      →+大P \n双峰贯耳      ↓+大P  \n天地蹴击      ←+大K \n死连脚        →+大K \n★四手死虎捶  ←+大P\n★背折靠      ↓+大K\n\n虽克\n─────────────────\n熊抛　         ←+大P 近身\n肩撞攻击       →+P \n碎腰           ←+大K 近身\n体压           ←+大K 空中 \n★巨熊爆裂拳   ↓+大P\n\n佐久间 十字郎  \n─────────────────\n变幻自在脚     ↓+K \n浪花           →+大K \n飞付           ↓+大P 空中 \n变幻自在击     ↓+大P \n★天升龙脚     ←+大K\n\n外川 哲也  \n─────────────────\n飞行机投      ←+大P 近身\n男投          →+P\n风踢          →+K     \n爆弹          ←+大K 近身\n★Ｓ毒蛇咬    ↓+大P\n\n忌罗 孝  \n─────────────────\n风神乱击      ←+大P \n风牙旋风斩    ↑+P \n风神拳        →+大P \n★风烈爆阵    ↓+大K\n★风牙真空斩  ↓+大P\n\n中井 透  \n─────────────────\n飞空斩        ↓+大P 空中  \n飞空踢        ↓+大K 空中  \n风斩          →+P \n地狱          ←+P \n★正拳五段突き↓+大K\n\n田中 浩之  \n─────────────────\n大车轮击      ←+K \n回转风车击    ↓+K \n大铁球落      →+大K\n★大喷火打    →+大P\n\n黄 流云  \n─────────────────\n百步神拳      →+P\n发劲          ↓+大P \n千打击        ←+K \n地扫腿        →+K\n★双倍发劲    ←+大P\n\n高木 义志（加强版）隐藏人物 \n─────────────────\n超两刀掌底拳   ←+大P \n百步神拳       →+P\n空手连拳       ↓+小P \n★爆裂发劲     ↓+大P\n★正拳五段突き ↓+大K\n\n神雷 功 \n─────────────────\n稻妻手雷拳     ←+大P \n双龙突击拳     →+P \n幻舞光轮       ←+大K \n★发劲         ↓+大P\n★猛爆发劲掌   ↓+大K\n\n本田 桃千代 隐藏人物\n─────────────────\n中突           ←+P        \n桃连击         ↓+大P \n羽衣落         →+大P 近身  \n★哭泣         ↓+大K\n\n───────────────────────────────────────────────────\n
+
+game: FTG 幽游白书2
+file: 幽游白书2.zip
+sort-by: 226
+developer: 幽游白书2
+description: HP不减
+
+game: FTG 幽游白书终篇
+file: 幽游白书终篇.zip
+sort-by: 227
+developer: 幽游白书终篇
+description: HP不减，MP不减
+
+game: FTG 幽游白书终篇简化
+file: 幽游白书终篇简化.zip
+sort-by: 228
+developer: 幽游白书终篇简化
+description: 已解除所有可以无限出必杀击。浦饭幽助 YUUSUKE URAMESHI    ◎旋转体 →↓→+K      ◎灵丸↓→+P     ◎霞弹灵丸→↓→+P    ☆超灵丸 ←→+R    ★章鱼打←→+P。桑原和真 KAZUMA KUWABARA       ◎前冲 →→    ◎灵剑二刀流 ↓→+P    ◎灵剑 ↓←+P    ◎首位打者剑 ←→+P    ◎突进灵剑 ←→+K    ☆巨大灵气棒 ←→+R。藏马 SHUICHI MINAMINO AKA KURAWA    ◎微微刺鞭刃 ↓→+P     ◎风华圆舞阵 ↓↑+P     ☆妖狐变化   ←→+R。飞影 HIEI    ◎前冲  →→      ◎踏    （空中）↓+     ◎邪王炎杀炼狱焦（连打）P     ◎邪王炎杀    ↓→+P     ◎残像  ↓←+重P     ☆邪王炎杀黑龙波   ←→+R。幻海 GENKAI    ◎飞龙脚    ↓↑+K     ◎灵光镜反冲↓←+P     ◎灵丸↓→+P     ◎空中灵丸  ↓→+P     ◎灵光弹  →↓→+P     ☆超灵丸    ←→+R     ★暴飞龙（近敌） ←→+K。朱雀 SUZAKU     ◎阶段踢    →→+K     ◎暗黑雷迅拳←→+P     ◎暗黑雷光波←→+K     ◎暗黑妖笼阵↓↑+P     ☆七狱暗黑类光波 ←→+R。醋 CHUU     ◎妖气玉↓→+P     ◎酒蒙→↓→+P     ◎大妖气玉   ←→+P     ☆爆头突 （近敌） ←→+R。阵 JIN     ◎飞翔术   （空中）↓+P     ◎空中浮游 （空中）↓+K     ◎暴风障壁→↓→+P     ◎修罗旋风拳↓←+P     ◎空中修罗旋风拳 ↓←+P     ☆双倍修罗旋风拳 ←→+R。死若丸 SHISHIWAKAMARU     ◎空中死出之羽衣↓←+PP(敌人跳起接近你时)     ◎魔哭鸣斩剑    ↓→+P     ◎怨呼障薄壁    ↓↑+P     ☆爆吐嗗触葬    ←→+R。卢愚吕弟30% TOGURO 30%     ◎旋风脚  ↓←+K     ◎指节研鍗↓↑+P     ☆爆肉刚体←→+R（防御不能）。蒙面战士 FUKUMEN SENSHI     ◎三角跳空中版边 →or↘or↗     ◎飞龙脚    ↓↑+K     ◎灵丸↓→+P     ◎灵光弹  →↓→+P     ☆修之拳    ←→+P     ★暴飞龙（近敌） ←→+K。少女幻海  SHOUJO GENKAI    ◎二段跳跃空中版边 →or↘or↗    ◎飞龙脚  ↓↑+K    ◎灵丸    ↓→+P    ◎空中灵丸↓→+P    ◎灵光弹→↓→+P    ☆超灵丸  ←→+R    ★暴飞龙（近敌）←→+K。卢愚吕弟80% TOGURO 80%    ◎旋风脚  ↓←+K    ◎指节研鍗↓↑+轻P    ◎指节研鍗↓↑+重P    ☆爆肉刚体←→+R（防御不能）。卢愚吕弟100% TOGURO 100%    ◎肩部撞击  →→+P    ◎肩部飞撞→↓→+P    ◎指弹↓→+P    ◎爆炮波    ↓←+P     ☆100%之中的100% ←→+R（防御不能）
+
+game: FTG 正义联盟特遣部队
+file: 正义联盟特遣部队.zip
+sort-by: 229
+developer: 正义联盟特遣部队
+description: HP不减
+
+game: FTG 制服传说
+file: 制服传说.zip
+sort-by: 230
+developer: 制服传说
+description: 无敌，出招简化\n青木 真淋\n─────────────────\n学生勾拳 →+P\n水手拳   ↓+P\n柯机发光 ↓+K     \n\n白鸟\n─────────────────\n药水花酒 P连打\n听诊前冲 →+P\n屁股撞   ↓+P\n平脚踢   →+K\n旋风脚   ↑+K\n\n赤坂 树里\n─────────────────\n羽扇火炎 →+P \n转转拳   ↓+P\n飞譬攻击 ←+K\n\n绀野 警子\n─────────────────\n健康饮品  P连打 体力回复\n回力警棍  ←+P \n反身踢    ←+K \n打屁股    ↓+P 近敌时\n假动作重击↓+K 近敌时\n\n黄织 凉子\n─────────────────\n爱心拳    →+P\n肩打      →+K\n痛痛皮打  ↑+P\n咬耳朵    ↑+K 近敌时\n\n绿川 南\n─────────────────\n天气很好   K连打 \n前翻踢     →+P\n美腿踢     →+K \n\n姚山 爱\n─────────────────\n龟龟哒功 中重P 近敌时\n吃香蕉     →+P 体力回复\n收音机体操 ←+K\n\n山吹 柔\n─────────────────\n七年杀     ←+K 近敌时       \n反摔倒头桩 ↓+P 近敌时\n超屯臂击   ↓+K 近敌时\n\n──────────────────────────────────\n
+
+game: PUZ 360度滚球
+file: 360度滚球.zip
+sort-by: 231
+developer: 360度滚球
+description: 时间无限
+
+game: PUZ SD弹珠台
+file: SD弹珠台.zip
+sort-by: 232
+developer: SD弹珠台
+description: 命数不减
+
+game: PUZ 超级PANG
+file: 超级PANG.zip
+sort-by: 233
+developer: 超级PANG
+description: 命数不减，时间不减，L键换枪，选择键开启无敌，无敌是每过一关都要手动开启。
+
+game: PUZ 超级豆豆君
+file: 超级豆豆君.zip
+sort-by: 234
+developer: 超级豆豆君
+description: 命数不减
+
+game: PUZ 超级麻将大会
+file: 超级麻将大会.zip
+sort-by: 235
+developer: 超级麻将大会
+description: 钱不减
+
+game: PUZ 超级铁球大战
+file: 超级铁球大战.zip
+sort-by: 236
+developer: 超级铁球大战
+description: 命数不减
+
+game: PUZ 超级炸弹人2
+file: 超级炸弹人2.zip
+sort-by: 237
+developer: 超级炸弹人2
+description: 命数不减，时间不减，炸弹威力最强
+
+game: PUZ 超级炸弹人3
+file: 超级炸弹人3.zip
+sort-by: 238
+developer: 超级炸弹人3
+description: 无敌，炸弹最强
+
+game: PUZ 超写实麻雀
+file: 超写实麻雀.zip
+sort-by: 239
+developer: 超写实麻雀
+description: 随便赢
+
+game: PUZ 达摩道场
+file: 达摩道场.zip
+sort-by: 240
+developer: 达摩道场
+description: 时间无限
+
+game: PUZ 赌城大攻略
+file: 赌城大攻略.zip
+sort-by: 241
+developer: 赌城大攻略
+description: 钱不减
+
+game: PUZ 海腹川背
+file: 海腹川背.zip
+sort-by: 242
+developer: 海腹川背
+description: HP不减，命数不减，时间不减
+
+game: PUZ 轰炸汽车
+file: 轰炸汽车.zip
+sort-by: 243
+developer: 轰炸汽车
+description: 无敌
+
+game: PUZ 轰炸忍者超人
+file: 轰炸忍者超人.zip
+sort-by: 244
+developer: 轰炸忍者超人
+description: HP不减，时间不减
+
+game: PUZ 卡通天蚕变
+file: 卡通天蚕变.zip
+sort-by: 245
+developer: 卡通天蚕变
+description: 命数不减
+
+game: PUZ 立体跳方块3
+file: 立体跳方块3.zip
+sort-by: 246
+developer: 立体跳方块3
+description: 命数不减，原地复活，过关条件是把所有格子跳成绿色。
+
+game: PUZ 旅鼠总动员2
+file: 旅鼠总动员2.zip
+sort-by: 247
+developer: 旅鼠总动员2
+description: 道具不减
+
+game: PUZ 泡泡龙
+file: 泡泡龙.zip
+sort-by: 248
+developer: 泡泡龙
+description: 命数无限，永久辅助线
+
+game: PUZ 上海3
+file: 上海3.zip
+sort-by: 249
+developer: 上海3
+description: 时间不减，帮助无限
+
+game: PUZ 邪鬼破坏弹珠台
+file: 邪鬼破坏弹珠台.zip
+sort-by: 250
+developer: 邪鬼破坏弹珠台
+description: 命数不减
+
+game: PUZ 炸弹动物大会
+file: 炸弹动物大会.zip
+sort-by: 251
+developer: 炸弹动物大会
+description: 无限接关
+
+game: RAC 94中岛悟赛车
+file: 94中岛悟赛车.zip
+sort-by: 252
+developer: 94中岛悟赛车
+description: HP不减
+
+game: RAC 超次元地带
+file: 超次元地带.zip
+sort-by: 253
+developer: 超次元地带
+description: 命数不减
+
+game: RAC 超级疯狂机车赛
+file: 超级疯狂机车赛.zip
+sort-by: 254
+developer: 超级疯狂机车赛
+description: 命数不减，修改金钱
+
+game: RAC 超级追踪HQ
+file: 超级追踪HQ.zip
+sort-by: 255
+developer: 超级追踪HQ
+description: HP不减，加速无限
+
+game: RAC 超越巅峰1
+file: 超越巅峰1.zip
+sort-by: 256
+developer: 超越巅峰1
+description: 氮气无限
+
+game: RAC 超越巅峰2
+file: 超越巅峰2.zip
+sort-by: 257
+developer: 超越巅峰2
+description: 氮气无限
+
+game: RAC 车神大赛
+file: 车神大赛.zip
+sort-by: 258
+developer: 车神大赛
+description: 时间无限
+
+game: RAC 高智能方程式
+file: 高智能方程式.zip
+sort-by: 259
+developer: 高智能方程式
+description: 无限加速
+
+game: RAC 竞速天龙
+file: 竞速天龙.zip
+sort-by: 260
+developer: 竞速天龙
+description: 无限氮气
+
+game: RAC 零式赛车
+file: 零式赛车.zip
+sort-by: 261
+developer: 零式赛车
+description: HP不减
+
+game: RAC 全日本GT赛车
+file: 全日本GT赛车.zip
+sort-by: 262
+developer: 全日本GT赛车
+description: 用时锁定为0
+
+game: RAC 摇滚赛车
+file: 摇滚赛车.zip
+sort-by: 263
+developer: 摇滚赛车
+description: 金钱最大且不减
+
+game: RAC 野外大赛车
+file: 野外大赛车.zip
+sort-by: 264
+developer: 野外大赛车
+description: 时间永远不少于2分钟，一旦减少到2分钟就会变成2分59秒重新计时
+
+game: RPG 46亿年物语
+file: 46亿年物语.zip
+sort-by: 265
+developer: 46亿年物语
+description: HP不减
+
+game: RPG 阿蕾莎1
+file: 阿蕾莎1.zip
+sort-by: 266
+developer: 阿蕾莎1
+description: 金钱修改
+
+game: RPG 阿蕾莎2
+file: 阿蕾莎2.zip
+sort-by: 267
+developer: 阿蕾莎2
+description: 快速升级
+
+game: RPG 阿蕾莎外传
+file: 阿蕾莎外传.zip
+sort-by: 268
+developer: 阿蕾莎外传
+description: 金钱修改
+
+game: RPG 白痴殿下总动员
+file: 白痴殿下总动员.zip
+sort-by: 269
+developer: 白痴殿下总动员
+description: HP不减
+
+game: RPG 弁庆外传 沙之章
+file: 弁庆外传 沙之章.zip
+sort-by: 270
+developer: 弁庆外传 沙之章
+description: 战斗一次后满级
+
+game: RPG 超级伊忍道
+file: 超级伊忍道.zip
+sort-by: 271
+developer: 超级伊忍道
+description: 无限金钱，HP不减，MP不减
+
+game: RPG 超级中国人世界1
+file: 超级中国人世界1.zip
+sort-by: 272
+developer: 超级中国人世界1
+description: HP不减
+
+game: RPG 超级中国人世界2
+file: 超级中国人世界2.zip
+sort-by: 273
+developer: 超级中国人世界2
+description: HP不减
+
+game: RPG 超级中国人世界3
+file: 超级中国人世界3.zip
+sort-by: 274
+developer: 超级中国人世界3
+description: 快速升级
+
+game: RPG 超魔法大陆
+file: 超魔法大陆.zip
+sort-by: 275
+developer: 超魔法大陆
+description: 能力全满
+
+game: RPG 超魔界大战
+file: 超魔界大战.zip
+sort-by: 276
+developer: 超魔界大战
+description: HP不减
+
+game: RPG 创世封魔录
+file: 创世封魔录.zip
+sort-by: 277
+developer: 创世封魔录
+description: HP不减
+
+game: RPG 创世纪恐龙帝国
+file: 创世纪恐龙帝国.zip
+sort-by: 278
+developer: 创世纪恐龙帝国
+description: HP不减
+
+game: RPG 创世纪神秘的美德
+file: 创世纪神秘的美德.zip
+sort-by: 279
+developer: 创世纪神秘的美德
+description: HP不减
+
+game: RPG 大贝兽物语
+file: 大贝兽物语.zip
+sort-by: 280
+developer: 大贝兽物语
+description: 能力全满
+
+game: RPG 大航海时代2
+file: 大航海时代2.zip
+sort-by: 281
+developer: 大航海时代2
+description: 无敌
+
+game: RPG 大和战神火皇子
+file: 大和战神火皇子.zip
+sort-by: 282
+developer: 大和战神火皇子
+description: 能力全满
+
+game: RPG 地底魔神
+file: 地底魔神.zip
+sort-by: 283
+developer: 地底魔神
+description: 无敌
+
+game: RPG 钓鱼太郎1
+file: 钓鱼太郎1.zip
+sort-by: 284
+developer: 钓鱼太郎1
+description: 饵不减
+
+game: RPG 钓鱼太郎2
+file: 钓鱼太郎2.zip
+sort-by: 285
+developer: 钓鱼太郎2
+description: 金钱无限，HP不减，经验无限，鱼饵无限
+
+game: RPG 斗人魔境4
+file: 斗人魔境4.zip
+sort-by: 286
+developer: 斗人魔境4
+description: 快速升级，消费后钱变满。
+
+game: RPG 翡翠龙
+file: 翡翠龙.zip
+sort-by: 287
+developer: 翡翠龙
+description: 战斗一次直接升到99级，钱多
+
+game: RPG 盖亚幻想纪
+file: 盖亚幻想纪.zip
+sort-by: 288
+developer: 盖亚幻想纪
+description: HP不减
+
+game: RPG 歌舞伎洛克斯
+file: 歌舞伎洛克斯.zip
+sort-by: 289
+developer: 歌舞伎洛克斯
+description: 升级
+
+game: RPG 怪兽制造厂3
+file: 怪兽制造厂3.zip
+sort-by: 290
+developer: 怪兽制造厂3
+description: HP不减
+
+game: RPG 鬼神降临传
+file: 鬼神降临传.zip
+sort-by: 291
+developer: 鬼神降临传
+description: 人物能力提升
+
+game: RPG 黑暗领域
+file: 黑暗领域.zip
+sort-by: 292
+developer: 黑暗领域
+description: 人物能力全满
+
+game: RPG 幻史世界记
+file: 幻史世界记.zip
+sort-by: 293
+developer: 幻史世界记
+description: 快速升级
+
+game: RPG 幻想传说
+file: 幻想传说.zip
+sort-by: 294
+developer: 幻想传说
+description: 全院能力满，道具价格为1
+
+game: RPG 毁灭武器
+file: 毁灭武器.zip
+sort-by: 295
+developer: 毁灭武器
+description: HP不减，MP不减，武器耐久不减、
+
+game: RPG 甲龙传说
+file: 甲龙传说.zip
+sort-by: 296
+developer: 甲龙传说
+description: HP MP最大且不减
+
+game: RPG 剑王之王2
+file: 剑王之王2.zip
+sort-by: 297
+developer: 剑王之王2
+description: 无敌
+
+game: RPG 剑勇传说
+file: 剑勇传说.zip
+sort-by: 298
+developer: 剑勇传说
+description: 砍一刀升一级
+
+game: RPG 晶沙之城堡探险
+file: 晶沙之城堡探险.zip
+sort-by: 299
+developer: 晶沙之城堡探险
+description: HP不减，MP不减
+
+game: RPG 旧约女神转生
+file: 旧约女神转生.zip
+sort-by: 300
+developer: 旧约女神转生
+description: HP不减
+
+game: RPG 旧约女神转生速升
+file: 旧约女神转生速升.zip
+sort-by: 301
+developer: 旧约女神转生速升
+description: 一次战斗满级
+
+game: RPG 科学冒险岛
+file: 科学冒险岛.zip
+sort-by: 302
+developer: 科学冒险岛
+description: 快速升级
+
+game: RPG 浪漫沙加1
+file: 浪漫沙加1.zip
+sort-by: 303
+developer: 浪漫沙加1
+description: 属性全满，道具全满
+
+game: RPG 浪漫沙加2能力
+file: 浪漫沙加2能力.zip
+sort-by: 304
+developer: 浪漫沙加2能力
+description: 所有人能力全满
+
+game: RPG 浪漫沙加2武器
+file: 浪漫沙加2武器.zip
+sort-by: 305
+developer: 浪漫沙加2武器
+description: 初始队伍中前两人拥有超强装备
+
+game: RPG 浪漫沙加3
+file: 浪漫沙加3.zip
+sort-by: 306
+developer: 浪漫沙加3
+description: 金钱65535，快速升级
+
+game: RPG 浪漫沙加3强化
+file: 浪漫沙加3强化.zip
+sort-by: 307
+developer: 浪漫沙加3强化
+description: 初始拥有强力装备，敌人强化
+
+game: RPG 雷莎出击1
+file: 雷莎出击1.zip
+sort-by: 308
+developer: 雷莎出击1
+description: HP不减。这个游戏需要在开始对话时，选择第二项的圆圈标志才能正式开始游戏。
+
+game: RPG 雷莎出击2
+file: 雷莎出击2.zip
+sort-by: 309
+developer: 雷莎出击2
+description: HP不减，命数不减，时间不减。这个游戏要在地图上移动到白色小圈的地方选出菜单才能正式开始游戏，白圈不明显，需要仔细查看。
+
+game: RPG 炼金术士
+file: 炼金术士.zip
+sort-by: 310
+developer: 炼金术士
+description: 能力最强
+
+game: RPG 灵魂与剑
+file: 灵魂与剑.zip
+sort-by: 311
+developer: 灵魂与剑
+description: 能力全满
+
+game: RPG 龙战士1
+file: 龙战士1.zip
+sort-by: 312
+developer: 龙战士1
+description: 能力最强
+
+game: RPG 龙战士2
+file: 龙战士2.zip
+sort-by: 313
+developer: 龙战士2
+description: 战斗一次后升为99级
+
+game: RPG 龙珠Z超悟空传觉醒篇
+file: 龙珠Z超悟空传觉醒篇.zip
+sort-by: 314
+developer: 龙珠Z超悟空传觉醒篇
+description: HP不减，能力最强
+
+game: RPG 龙珠Z超悟空传突激篇
+file: 龙珠Z超悟空传突激篇.zip
+sort-by: 315
+developer: 龙珠Z超悟空传突激篇
+description: HP不减
+
+game: RPG 鲁多拉秘宝
+file: 鲁多拉秘宝.zip
+sort-by: 316
+developer: 鲁多拉秘宝
+description: 全员状态最强，金钱最大，道具价格为1
+
+game: RPG 乱马 朱猫团的财宝
+file: 乱马 朱猫团的财宝.zip
+sort-by: 317
+developer: 乱马 朱猫团的财宝
+description: 能力最强，初始拥有60000元
+
+game: RPG 美少女剑士梅尔
+file: 美少女剑士梅尔.zip
+sort-by: 318
+developer: 美少女剑士梅尔
+description: 无敌
+
+game: RPG 美少女亲卫队
+file: 美少女亲卫队.zip
+sort-by: 319
+developer: 美少女亲卫队
+description: 初始金钱满，战斗一次升一级
+
+game: RPG 美少女战士外传
+file: 美少女战士外传.zip
+sort-by: 320
+developer: 美少女战士外传
+description: 快速升级
+
+game: RPG 魔法骑士雷阿斯
+file: 魔法骑士雷阿斯.zip
+sort-by: 321
+developer: 魔法骑士雷阿斯
+description: HP不减，战斗一次后经验、金钱最大
+
+game: RPG 魔法与剑
+file: 魔法与剑.zip
+sort-by: 322
+developer: 魔法与剑
+description: 快速升级
+
+game: RPG 魔界佣兵2
+file: 魔界佣兵2.zip
+sort-by: 323
+developer: 魔界佣兵2
+description: HP MP最大，且不减
+
+game: RPG 魔天传说
+file: 魔天传说.zip
+sort-by: 324
+developer: 魔天传说
+description: 每次战斗后可获得大量技能点
+
+game: RPG 热血大陆
+file: 热血大陆.zip
+sort-by: 325
+developer: 热血大陆
+description: 战斗一次满级
+
+game: RPG 如梦似幻
+file: 如梦似幻.zip
+sort-by: 326
+developer: 如梦似幻
+description: 全能力最强
+
+game: RPG 三星幻界
+file: 三星幻界.zip
+sort-by: 327
+developer: 三星幻界
+description: 道具价格为1
+
+game: RPG 沙克传说
+file: 沙克传说.zip
+sort-by: 328
+developer: 沙克传说
+description: 一次战斗满级
+
+game: RPG 神秘的约柜
+file: 神秘的约柜.zip
+sort-by: 329
+developer: 神秘的约柜
+description: 战斗一次后升满级
+
+game: RPG 神圣纪2
+file: 神圣纪2.zip
+sort-by: 330
+developer: 神圣纪2
+description: 战斗一次后升满级
+
+game: RPG 圣剑传说2
+file: 圣剑传说2.zip
+sort-by: 331
+developer: 圣剑传说2
+description: 全员能力最强，HP不减，道具价格为1
+
+game: RPG 圣灵珠传说2
+file: 圣灵珠传说2.zip
+sort-by: 332
+developer: 圣灵珠传说2
+description: 战斗一次全员满级
+
+game: RPG 史记英雄传
+file: 史记英雄传.zip
+sort-by: 333
+developer: 史记英雄传
+description: 战斗一次后等级升满
+
+game: RPG 四狂神传说1
+file: 四狂神传说1.zip
+sort-by: 334
+developer: 四狂神传说1
+description: 战斗一次升满级
+
+game: RPG 四狂神传说2
+file: 四狂神传说2.zip
+sort-by: 335
+developer: 四狂神传说2
+description: 战斗一次升满级
+
+game: RPG 特鲁尼克大冒险
+file: 特鲁尼克大冒险.zip
+sort-by: 336
+developer: 特鲁尼克大冒险
+description: 属性全满，255HP
+
+game: RPG 天使之诗
+file: 天使之诗.zip
+sort-by: 337
+developer: 天使之诗
+description: 金钱不减，道具不减
+
+game: RPG 魍魉战记2
+file: 魍魉战记2.zip
+sort-by: 338
+developer: 魍魉战记2
+description: HP MP最高
+
+game: RPG 亚克斯传说
+file: 亚克斯传说.zip
+sort-by: 339
+developer: 亚克斯传说
+description: HP不减
+
+game: RPG 亚瑟王 骑士传说
+file: 亚瑟王 骑士传说.zip
+sort-by: 340
+developer: 亚瑟王 骑士传说
+description: HP不减，免蓄力
+
+game: RPG 伊苏3
+file: 伊苏3.zip
+sort-by: 341
+developer: 伊苏3
+description: HP不减，快速升级。击败一名敌人后钱变最大。
+
+game: RPG 伊苏4
+file: 伊苏4.zip
+sort-by: 342
+developer: 伊苏4
+description: HP最大，MP最大，金钱最大
+
+game: RPG 伊苏5
+file: 伊苏5.zip
+sort-by: 343
+developer: 伊苏5
+description: 站立两秒中自动恢复HP
+
+game: RPG 英雄传说2
+file: 英雄传说2.zip
+sort-by: 344
+developer: 英雄传说2
+description: 全员能力最强
+
+game: RPG 永恒的秘密
+file: 永恒的秘密.zip
+sort-by: 345
+developer: 永恒的秘密
+description: 快速升级，每次战斗升一级
+
+game: RPG 永远的法莲娜
+file: 永远的法莲娜.zip
+sort-by: 346
+developer: 永远的法莲娜
+description: 胜利一次后升满等级
+
+game: RPG 勇者斗恶龙5
+file: 勇者斗恶龙5.zip
+sort-by: 347
+developer: 勇者斗恶龙5
+description: HP MP最大
+
+game: RPG 勇者斗恶龙6
+file: 勇者斗恶龙6.zip
+sort-by: 348
+developer: 勇者斗恶龙6
+description: 战斗一次后升满至99级
+
+game: RPG 勇者机器人
+file: 勇者机器人.zip
+sort-by: 349
+developer: 勇者机器人
+description: HP不减
+
+game: RPG 育龙战记2
+file: 育龙战记2.zip
+sort-by: 350
+developer: 育龙战记2
+description: 全能力最强
+
+game: RPG 真女神转生2
+file: 真女神转生2.zip
+sort-by: 351
+developer: 真女神转生2
+description: 战斗一次后升满级
+
+game: RPG 真女神转生IF
+file: 真女神转生IF.zip
+sort-by: 352
+developer: 真女神转生IF
+description: 战斗一次后升满级
+
+game: RPG 直到世界末日
+file: 直到世界末日.zip
+sort-by: 353
+developer: 直到世界末日
+description: 战斗一次升一级，快速升级
+
+game: RPG 资讯骑士2
+file: 资讯骑士2.zip
+sort-by: 354
+developer: 资讯骑士2
+description: 2号角色55级，其余角色99级
+
+game: RPG 最后的圣经3
+file: 最后的圣经3.zip
+sort-by: 355
+developer: 最后的圣经3
+description: 战斗一次后满经验，可加满所有能力数值
+
+game: RPG 最后决战
+file: 最后决战.zip
+sort-by: 356
+developer: 最后决战
+description: 每次战斗后都升级
+
+game: RPG 最终幻想4
+file: 最终幻想4.zip
+sort-by: 357
+developer: 最终幻想4
+description: 全人物能力最强
+
+game: RPG 最终幻想5
+file: 最终幻想5.zip
+sort-by: 358
+developer: 最终幻想5
+description: 全员能力最强，HP MP最高，物品掉落率高
+
+game: SLG 苍狼与白鹿 元朝秘史
+file: 苍狼与白鹿 元朝秘史.zip
+sort-by: 359
+developer: 苍狼与白鹿 元朝秘史
+description: 资源无限
+
+game: SLG 超级机器人大战EX
+file: 超级机器人大战EX.zip
+sort-by: 360
+developer: 超级机器人大战EX
+description: 资金精神消费1，能力最高，全特殊能力地形
+
+game: SLG 超魔兽大战
+file: 超魔兽大战.zip
+sort-by: 361
+developer: 超魔兽大战
+description: MP最大
+
+game: SLG 绀碧之舰队
+file: 绀碧之舰队.zip
+sort-by: 362
+developer: 绀碧之舰队
+description: 金钱无限
+
+game: SLG 钢铁骑士1
+file: 钢铁骑士1.zip
+sort-by: 363
+developer: 钢铁骑士1
+description: 人，战车能力增强
+
+game: SLG 钢铁骑士2
+file: 钢铁骑士2.zip
+sort-by: 364
+developer: 钢铁骑士2
+description: 战车最强
+
+game: SLG 航海世界
+file: 航海世界.zip
+sort-by: 365
+developer: 航海世界
+description: 金钱最大
+
+game: SLG 横山光辉三国志
+file: 横山光辉三国志.zip
+sort-by: 366
+developer: 横山光辉三国志
+description: 刘备方能力满
+
+game: SLG 皇家骑士团1
+file: 皇家骑士团1.zip
+sort-by: 367
+developer: 皇家骑士团1
+description: 金钱最大
+
+game: SLG 皇家骑士团2
+file: 皇家骑士团2.zip
+sort-by: 368
+developer: 皇家骑士团2
+description: 快速升级，金钱最大，HP满
+
+game: SLG 火线冲突
+file: 火线冲突.zip
+sort-by: 369
+developer: 火线冲突
+description: 属性全满
+
+game: SLG 火焰之纹章4 完美成长全特技
+file: 火焰之纹章4 完美成长全特技.zip
+sort-by: 370
+developer: 火焰之纹章4 完美成长全特技
+description: 完美成长全特技版
+
+game: SLG 机动战士高达0079
+file: 机动战士高达0079.zip
+sort-by: 371
+developer: 机动战士高达0079
+description: 快速升级
+
+game: SLG 机动战士高达F91
+file: 机动战士高达F91.zip
+sort-by: 372
+developer: 机动战士高达F91
+description: 无敌
+
+game: SLG 剑士法兰多2
+file: 剑士法兰多2.zip
+sort-by: 373
+developer: 剑士法兰多2
+description: 胜利一次即可满级
+
+game: SLG 金属战队
+file: 金属战队.zip
+sort-by: 374
+developer: 金属战队
+description: 金钱、资源不减
+
+game: SLG 梦幻模拟战Der
+file: 梦幻模拟战Der.zip
+sort-by: 375
+developer: 梦幻模拟战Der
+description: 无敌
+
+game: SLG 秘密行动
+file: 秘密行动.zip
+sort-by: 376
+developer: 秘密行动
+description: 所有角色满级
+
+game: SLG 魔神转生1
+file: 魔神转生1.zip
+sort-by: 377
+developer: 魔神转生1
+description: HP不减
+
+game: SLG 魔神转生2
+file: 魔神转生2.zip
+sort-by: 378
+developer: 魔神转生2
+description: HP不减
+
+game: SLG 魔兽大战
+file: 魔兽大战.zip
+sort-by: 379
+developer: 魔兽大战
+description: 交战一次升一级
+
+game: SLG 魔装机神
+file: 魔装机神.zip
+sort-by: 380
+developer: 魔装机神
+description: 改造只消费1
+
+game: SLG 女子学园社团战记
+file: 女子学园社团战记.zip
+sort-by: 381
+developer: 女子学园社团战记
+description: HP不减
+
+game: SLG 前线任务
+file: 前线任务.zip
+sort-by: 382
+developer: 前线任务
+description: 金钱最大，弹药不减
+
+game: SLG 三国志4
+file: 三国志4.zip
+sort-by: 383
+developer: 三国志4
+description: 人物全修
+
+game: SLG 三国志英杰传
+file: 三国志英杰传.zip
+sort-by: 384
+developer: 三国志英杰传
+description: 金钱不减
+
+game: SLG 赏金剑客
+file: 赏金剑客.zip
+sort-by: 385
+developer: 赏金剑客
+description: 全能力最强
+
+game: SLG 树帝战记
+file: 树帝战记.zip
+sort-by: 386
+developer: 树帝战记
+description: 单元价格0，防御255
+
+game: SLG 太阁立志传
+file: 太阁立志传.zip
+sort-by: 387
+developer: 太阁立志传
+description: 能力强化
+
+game: SLG 提督的决断2
+file: 提督的决断2.zip
+sort-by: 388
+developer: 提督的决断2
+description: 资源不减
+
+game: SLG 天地无用
+file: 天地无用.zip
+sort-by: 389
+developer: 天地无用
+description: HP不减，金钱最大
+
+game: SLG 天使之翼3
+file: 天使之翼3.zip
+sort-by: 390
+developer: 天使之翼3
+description: HP不减
+
+game: SLG 天使之翼4
+file: 天使之翼4.zip
+sort-by: 391
+developer: 天使之翼4
+description: HP不减
+
+game: SLG 天使之翼5
+file: 天使之翼5.zip
+sort-by: 392
+developer: 天使之翼5
+description: HP不减
+
+game: SLG 条码战记战士出击
+file: 条码战记战士出击.zip
+sort-by: 393
+developer: 条码战记战士出击
+description: 全角色能力最强
+
+game: SLG 新SD战国传大将军列传
+file: 新SD战国传大将军列传.zip
+sort-by: 394
+developer: 新SD战国传大将军列传
+description: 战斗后快速升满级
+
+game: SLG 银河骑兵机器人
+file: 银河骑兵机器人.zip
+sort-by: 395
+developer: 银河骑兵机器人
+description: 全员能力加强
+
+game: SLG 英雄圣战1
+file: 英雄圣战1.zip
+sort-by: 396
+developer: 英雄圣战1
+description: 全员能力增强
+
+game: SLG 英雄圣战2
+file: 英雄圣战2.zip
+sort-by: 397
+developer: 英雄圣战2
+description: 胜利一次升一级
+
+game: SLG 战斗机器人烈传
+file: 战斗机器人烈传.zip
+sort-by: 398
+developer: 战斗机器人烈传
+description: 全能力最强
+
+game: SLG 正义的纹章
+file: 正义的纹章.zip
+sort-by: 399
+developer: 正义的纹章
+description: 等级最高，能力最强
+
+game: SLG 织田信长
+file: 织田信长.zip
+sort-by: 400
+developer: 织田信长
+description: 织田信长能力最强，其他武将能力不变
+
+game: SPG 超级职业棒球2
+file: 超级职业棒球2.zip
+sort-by: 401
+developer: 超级职业棒球2
+description: 能力全满
+
+game: SPG 灌篮高手2
+file: 灌篮高手2.zip
+sort-by: 402
+developer: 灌篮高手2
+description: 中文版游戏，按L+R可以立刻赢得比赛
+
+game: SPG 劲爆NBA篮球
+file: 劲爆NBA篮球.zip
+sort-by: 403
+developer: 劲爆NBA篮球
+description: 在游戏里按选择键开启无敌射篮，有声音提示。无敌射篮是任意位置或是队友拿着球都一定能进篮。
+
+game: SPG 实况足球2
+file: 实况足球2.zip
+sort-by: 404
+developer: 实况足球2
+description: 按L键能开启或关闭球穿透守门员，有声音提示。只有大力射球才可以，没力的球不能。开启后是双方面的，所以电脑攻击时快速关闭。只是穿透守门员而已，其他球员没效。
+
+game: SPG 兔八哥篮球
+file: 兔八哥篮球.zip
+sort-by: 405
+developer: 兔八哥篮球
+description: 选人黑屏后按住选择键开启电脑对战
+
+game: STG SD高达1
+file: SD高达1.zip
+sort-by: 406
+developer: SD高达1
+description: 命数不减
+
+game: STG SD英雄大战1
+file: SD英雄大战1.zip
+sort-by: 407
+developer: SD英雄大战1
+description: 命数不减
+
+game: STG SD英雄大战4
+file: SD英雄大战4.zip
+sort-by: 408
+developer: SD英雄大战4
+description: HP不减
+
+game: STG SD英雄大战5
+file: SD英雄大战5.zip
+sort-by: 409
+developer: SD英雄大战5
+description: HP不减，命数不减，钱修改
+
+game: STG X革命
+file: X革命.zip
+sort-by: 410
+developer: X革命
+description: 无敌
+
+game: STG 超级联合部队
+file: 超级联合部队.zip
+sort-by: 411
+developer: 超级联合部队
+description: 命数不减
+
+game: STG 超级忍者君
+file: 超级忍者君.zip
+sort-by: 412
+developer: 超级忍者君
+description: 命数不减，无限跳，按选择键切无敌，能量不减，初始带影分身，有一关boss需要关闭无敌来打。
+
+game: STG 超级瓦强大冒险
+file: 超级瓦强大冒险.zip
+sort-by: 413
+developer: 超级瓦强大冒险
+description: 命数不减
+
+game: STG 超级银河战士
+file: 超级银河战士.zip
+sort-by: 414
+developer: 超级银河战士
+description: HP不减，弹药不减
+
+game: STG 超级战士1
+file: 超级战士1.zip
+sort-by: 415
+developer: 超级战士1
+description: HP不减，命数不减，大招不减
+
+game: STG 超级战士2
+file: 超级战士2.zip
+sort-by: 416
+developer: 超级战士2
+description: HP不减，命数不减，大招不减
+
+game: STG 超魔界村
+file: 超魔界村.zip
+sort-by: 417
+developer: 超魔界村
+description: HP不减
+
+game: STG 超魔界村女版
+file: 超魔界村女版.zip
+sort-by: 418
+developer: 超魔界村女版
+description: 女版，无限跳
+
+game: STG 达菲鸭火星任务
+file: 达菲鸭火星任务.zip
+sort-by: 419
+developer: 达菲鸭火星任务
+description: HP不减，命数不减，子弹不减
+
+game: STG 哆啦A梦3
+file: 哆啦A梦3.zip
+sort-by: 420
+developer: 哆啦A梦3
+description: HP不减，命数不减
+
+game: STG 钢炮部队
+file: 钢炮部队.zip
+sort-by: 421
+developer: 钢炮部队
+description: 命数不减
+
+game: STG 鬼太郎 复活!天魔大王
+file: 鬼太郎 复活!天魔大王.zip
+sort-by: 422
+developer: 鬼太郎 复活!天魔大王
+description: 绝招无限
+
+game: STG 鬼屋历险
+file: 鬼屋历险.zip
+sort-by: 423
+developer: 鬼屋历险
+description: HP不减，子弹不减
+
+game: STG 荒野双枪
+file: 荒野双枪.zip
+sort-by: 424
+developer: 荒野双枪
+description: 无敌
+
+game: STG 黄金龙战记
+file: 黄金龙战记.zip
+sort-by: 425
+developer: 黄金龙战记
+description: 无敌
+
+game: STG 魂斗罗3欧版
+file: 魂斗罗3欧版.zip
+sort-by: 426
+developer: 魂斗罗3欧版
+description: 命数不减，炸弹无限
+
+game: STG 魂斗罗3日版
+file: 魂斗罗3日版.zip
+sort-by: 427
+developer: 魂斗罗3日版
+description: 命数不减，炸弹无限
+
+game: STG 机械战警3
+file: 机械战警3.zip
+sort-by: 428
+developer: 机械战警3
+description: HP不减
+
+game: STG 机械战警对终结者
+file: 机械战警对终结者.zip
+sort-by: 429
+developer: 机械战警对终结者
+description: 99命，无限跳，选择键开启无敌
+
+game: STG 吉姆大展神威
+file: 吉姆大展神威.zip
+sort-by: 430
+developer: 吉姆大展神威
+description: 命数不减，原地继续，大招不减
+
+game: STG 精英军团
+file: 精英军团.zip
+sort-by: 431
+developer: 精英军团
+description: HP不减，子弹不减，法宝不减，命数不减
+
+game: STG 绝地大屠杀2
+file: 绝地大屠杀2.zip
+sort-by: 432
+developer: 绝地大屠杀2
+description: 无敌，又名黑珍珠部队
+
+game: STG 猎杀红色十月号
+file: 猎杀红色十月号.zip
+sort-by: 433
+developer: 猎杀红色十月号
+description: 无敌
+
+game: STG 零式特攻队
+file: 零式特攻队.zip
+sort-by: 434
+developer: 零式特攻队
+description: HP不减，飞镖不减，命数不减
+
+game: STG 领域
+file: 领域.zip
+sort-by: 435
+developer: 领域
+description: 命数不减，子弹不减
+
+game: STG 洛克人7
+file: 洛克人7.zip
+sort-by: 436
+developer: 洛克人7
+description: 无限跳，选择键开透明无敌
+
+game: STG 洛克人X1疯狂版
+file: 洛克人X1疯狂版.zip
+sort-by: 437
+developer: 洛克人X1
+description: 无限跳，选择键开透明无敌，并自动疯狂发射蓄力炮，爬楼梯时可按住攻击键停止发射
+
+game: STG 洛克人X2疯狂版
+file: 洛克人X2疯狂版.zip
+sort-by: 438
+developer: 洛克人X2疯狂版
+description: 无限跳，选择键开无敌，并自动疯狂发射蓄力炮，爬楼梯时可按住攻击键停止发射
+
+game: STG 洛克人X3疯狂版
+file: 洛克人X3疯狂版.zip
+sort-by: 439
+developer: 洛克人X3疯狂版
+description: 无限跳，选择键开无敌，并自动疯狂发射蓄力炮，爬楼梯时可按住攻击键停止发射
+
+game: STG 洛克人与福尔特疯狂版
+file: 洛克人与福尔特疯狂版.zip
+sort-by: 440
+developer: 洛克人与福尔特疯狂版
+description: 两名角色都可以无限跳。但必须选用洛克人才能选择键开无敌，并自动疯狂发射蓄力炮，爬楼梯时可按住攻击键停止发射
+
+game: STG 落日骑士
+file: 落日骑士.zip
+sort-by: 441
+developer: 落日骑士
+description: 透明无敌版
+
+game: STG 绿野仙踪
+file: 绿野仙踪.zip
+sort-by: 442
+developer: 绿野仙踪
+description: 无敌
+
+game: STG 灭火英雄
+file: 灭火英雄.zip
+sort-by: 443
+developer: 灭火英雄
+description: L键无敌，选择键换水枪，水弹无限
+
+game: STG 魔法师
+file: 魔法师.zip
+sort-by: 444
+developer: 魔法师
+description: HP不减
+
+game: STG 魔法提琴手
+file: 魔法提琴手.zip
+sort-by: 445
+developer: 魔法提琴手
+description: 无敌，命数不减，时间不减，全宠物
+
+game: STG 魔界村外传 纹章篇
+file: 魔界村外传 纹章篇.zip
+sort-by: 446
+developer: 魔界村外传 纹章篇
+description: HP不减
+
+game: STG 魔兽王
+file: 魔兽王.zip
+sort-by: 447
+developer: 魔兽王
+description: HP不减，命数不减，时间不减
+
+game: STG 奇奇怪界1
+file: 奇奇怪界1.zip
+sort-by: 448
+developer: 奇奇怪界1
+description: 无敌，火力最大，命数不减
+
+game: STG 奇奇怪界2
+file: 奇奇怪界2.zip
+sort-by: 449
+developer: 奇奇怪界2
+description: 无敌，火力最大，命数不减
+
+game: STG 神奇女孩
+file: 神奇女孩.zip
+sort-by: 450
+developer: 神奇女孩
+description: HP不减，命数不减
+
+game: STG 死亡游戏之电视斗士
+file: 死亡游戏之电视斗士.zip
+sort-by: 451
+developer: 死亡游戏之电视斗士
+description: 无敌，子弹不减
+
+game: STG 万能麦斯
+file: 万能麦斯.zip
+sort-by: 452
+developer: 万能麦斯
+description: HP不减
+
+game: STG 未来骑警R2
+file: 未来骑警R2.zip
+sort-by: 453
+developer: 未来骑警R2
+description: 命数不减
+
+game: STG 未来水世界
+file: 未来水世界.zip
+sort-by: 454
+developer: 未来水世界
+description: HP不减
+
+game: STG 星际之门
+file: 星际之门.zip
+sort-by: 455
+developer: 星际之门
+description: HP不减，弹数不减
+
+game: STG 亚蒙世界
+file: 亚蒙世界.zip
+sort-by: 456
+developer: 亚蒙世界
+description: 迅速升满级
+
+game: STG 伊莉雅
+file: 伊莉雅.zip
+sort-by: 457
+developer: 伊莉雅
+description: 金钱修改
+
+game: STG 异形3
+file: 异形3.zip
+sort-by: 458
+developer: 异形3
+description: HP不减，火焰和机枪不减
+
+game: STG 真实的谎言
+file: 真实的谎言.zip
+sort-by: 459
+developer: 真实的谎言
+description: HP不减，弹药不减
+
+game: STG 致命武器
+file: 致命武器.zip
+sort-by: 460
+developer: 致命武器
+description: HP不减，命数不减，时间不减
+
+game: STG 终结者2
+file: 终结者2.zip
+sort-by: 461
+developer: 终结者2
+description: HP不减，子弹不减
+
+game: STG 重装机兵瓦尔肯
+file: 重装机兵瓦尔肯.zip
+sort-by: 462
+developer: 重装机兵瓦尔肯
+description: 所有武器，无限导弹
+
+game: STG 紫炎
+file: 紫炎.zip
+sort-by: 463
+developer: 紫炎
+description: 命数不减，大招不减
+

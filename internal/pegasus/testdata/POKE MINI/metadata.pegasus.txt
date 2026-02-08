@@ -1,0 +1,84 @@
+collection: POKE MINI
+sort-by: 015
+launch: "{env.appdir}\RetroArch\retroarch.exe" -L "{env.appdir}\RetroArch\cores\pokemini_libretro.dll" "{file.path}"
+
+game: 宝可梦饲养员（日版）
+file: Pokemon Sodateyasan Mini (Japan).zip
+developer: 宝可梦饲养员（日版）
+description: 玩家负责培养宝可梦, 如木守宫、火稚鸡和水跃鱼.
+
+game: 宝可梦俄罗斯方块（欧版）
+file: Pokemon Tetris (Europe) (En,Ja,Fr).zip
+developer: 宝可梦俄罗斯方块（欧版）
+description: 俄罗斯方块玩法的宝可梦，清楚后可以收集金银等怪物。
+
+game: 宝可梦卡牌大作战（欧版）
+file: Pokemon Zany Cards (USA, Europe).zip
+developer: 宝可梦卡牌大作战（欧版）
+description: 四款卡片收集游戏，以宝可梦为主题。
+
+game: 卡比兽的午餐时间（欧版）
+file: Snorlax's Lunch Time (Europe) (GameCube).zip
+developer: 卡比兽的午餐时间（欧版）
+description: 喂养卡比兽的游戏。
+
+game: 卡比兽的午餐时间（日版）
+file: Snorlax's Lunch Time (Japan) (GameCube).zip
+developer: 卡比兽的午餐时间（日版）
+description: 喂养卡比兽的游戏。
+
+game: 波可比的大冒险（日版）
+file: Togepi no Daibouken (Japan).zip
+developer: 波可比的大冒险（日版）
+description: 玩家引导波可比避开陷阱可比走出冒险塔。
+
+game: 皮丘兄弟（日版）
+file: Pichu Bros. Mini (Japan).zip
+developer: 皮丘兄弟（日版）
+description: 皮丘兄弟宝可梦mini游戏合集
+
+game: 宝可梦卡牌大作战（日版）
+file: Pokemon Anime Card Daisakusen (Japan).zip
+developer: 宝可梦卡牌大作战（日版）
+description: 四款卡片收集游戏，以宝可梦为主题。
+
+game: 宝可梦派对（日版）
+file: Pokemon Party Mini (Japan).zip
+developer: 宝可梦派对（日版）
+description: 几个迷你游戏的集合。迷你游戏包括：快拳郎的拳击，你可以摇晃系统来“击打”；皮卡丘的火箭冲刺，一场你必须在另一只宝可梦之前从起跑线出发的游戏；美丽花热舞，一款类似舞蹈革命的游戏；吉利蛋的运球，尽快将球踢到终点线；呆呆王裁判，预测网球会在球场内外落地；狃拉的伪装，一个石头布剪刀一样的游戏，两个玩家；战场，两到六名玩家争夺最高分数；时拉比的时钟，本质上是一个具有日期、闹钟和秒表功能的时钟。
+
+game: 宝可梦弹珠台（日版）
+file: Pokemon Pinball Mini (Japan).zip
+developer: 宝可梦弹珠台（日版）
+description: 一款宝可梦弹珠游戏，里面有皮丘和地鼠等角色登场。
+
+game: 宝可梦弹珠台（欧版）
+file: Pokemon Pinball Mini (USA, Europe).zip
+developer: 宝可梦弹珠台（欧版）
+description: 一款宝可梦弹珠游戏，里面有皮丘和地鼠等角色登场。
+
+game: 宝可梦拼图系列（日版）
+file: Pokemon Puzzle Collection (Japan).zip
+developer: 宝可梦拼图系列（日版）
+description: 一系列不同的益智游戏，例如：阴影拼图，不同形状的拼图组合在一起，形成宝可梦的图像；动作拼图，一款需要解读宝可梦图像的滑动游戏；逃生，在那里你必须移动街区才能让宝可梦走出迷宫；完成大部分Minidex的额外奖励是游戏Power On，一个类似“Pipe Dream”的游戏，需要将Pikachu连接到灯泡，创建一个电路）。
+
+game: 宝可梦拼图系列（欧版）
+file: Pokemon Puzzle Collection (USA, Europe).zip
+developer: 宝可梦拼图系列（欧版）
+description: 一系列不同的益智游戏，例如：阴影拼图，不同形状的拼图组合在一起，形成宝可梦的图像；动作拼图，一款需要解读宝可梦图像的滑动游戏；逃生，在那里你必须移动街区才能让宝可梦走出迷宫；完成大部分Minidex的额外奖励是游戏Power On，一个类似“Pipe Dream”的游戏，需要将Pikachu连接到灯泡，创建一个电路）。
+
+game: 宝可梦拼图系列 Vol. 2（日版）
+file: Pokemon Puzzle Collection Vol. 2 (Japan).zip
+developer: 宝可梦拼图系列 Vol. 2（日版）
+description: 与一代拼图集类似，但有些游戏不同，有80个新拼图。
+
+game: 宝可梦竞速（日版）
+file: Pokemon Race Mini (Japan).zip
+developer: 宝可梦竞速（日版）
+description: 一款竞速游戏，玩家控制比卡丘与其他宝可梦比赛。
+
+game: 宝可梦俄罗斯方块（日版）
+file: Pokemon Shock Tetris (Japan).zip
+developer: 宝可梦俄罗斯方块（日版）
+description: 俄罗斯方块玩法的宝可梦，清楚后可以收集金银等怪物。
+

@@ -1,0 +1,236 @@
+collection:OPENBOR
+sort-by: 068
+ignore-file: 
+launch: "{env.appdir}\Emulators\OpenBOR\OpenBOR.exe"  -fullscreen -keepaspectratio "{file.path}"
+
+game: 快打旋风 LNS0.4
+file: Final Fight LNS.pak
+sort-by: 001
+developer: 快打旋风 LNS0.4
+launch: "{env.appdir}\Roms\OpenBOR\Final Fight LNS\Final Fight LNS Ultimate.exe" "{env.appdir}\Roms\OpenBOR\Final Fight LNS\Paks\{file.name}"
+description: 《快打旋风 LNS0.4》真的是一款非常好玩的动作游戏，这个版本在2.0的基础上新增了19人之多。分别是来自于恐龙快打中的汉娜、杰克、穆斯塔法，来自于名将中的机器娃娃、队长、木乃伊（忍者这个角色在2.0中以隐藏角色的身份出现了），来自于异形大战铁血战士中的铁血战士、捕食者猎人、林恩黑泽明、荷兰谢弗，来自于战斗回路中绿色外星人和蓝色网络人，来自于惩罚者中的惩罚者和他的抽烟斗的兄弟，再加上来自于街头霸王3中的亚历。
+
+game: 快打旋风 LNS0.4 耗子hack
+file: Final Fight LNS haozi.pak
+sort-by: 002
+developer: 快打旋风 LNS0.4 耗子hack
+launch: "{env.appdir}\Roms\OpenBOR\Final Fight LNS\Final Fight LNS Ultimate.exe" "{env.appdir}\Roms\OpenBOR\Final Fight LNS\Paks\{file.name}"
+description: 《快打旋风 LNS0.4 耗子hack》\n\n注：此版本为全人物完整必杀简化版《完》\n\n注：所有人物保留原技能出招指令《完》\n\n原出招按键对应简化出招按键：\n1.a+j对应a4《完》\n2.a a前s对应a2《完》\n3.a a后s对应a3《完》\n4.下前下前a对应a2《完》\n5.下前下前j对应a3《完》\n6.下前下前s对应下上s《完》\n\n\n其他内容：\n1.修复一些已知bug《完》\n2.障碍模式和两个对战模式直接可选全人物《完》\n3.Boss模式改成3次接关3条命《完》\n4.Boss模式全人物机制打两次背景中间人物《完》\n5.原出招表a2按键修改成返回按键《完》\n6.拳皇人物状态2必杀血量小于等于50可出《完》\n\n最后耗子祝大家玩的愉快玩的开心！《完》
+
+game: 快打旋风 LNS0.4 邪魔紫枫hack
+file: Final Fight LNS xiefeng.pak
+sort-by: 003
+developer: 快打旋风 LNS0.4 邪魔紫枫hack
+launch: "{env.appdir}\Roms\OpenBOR\Final Fight LNS\Final Fight LNS Ultimate.exe" "{env.appdir}\Roms\OpenBOR\Final Fight LNS\Paks\{file.name}"
+description: 《快打旋风 LNS0.4 邪魔紫枫hack》\n\n很喜欢这个游戏，经过三天的修改，基本完成最终形态，已经通关多次没有发现任何问题，具体修改内容如下： \n修改人物出场气条，由100调整到300（基本可以无限释放技能。大招除外） \n修改人物血量，由100调整到200（死神难度基本可以通关了） \n修改人物由原先直线跑改成可以转圈跑，具体效果视频里有演示。 \n修改人物防御，由瞬防改成按住防御，间接降低游戏难度。 \n修改部分人物移动速度（部分人物移动速度太慢） \n修改一键大招，大部分人物都可以一键大招（除了一些极个别冷门人物） \n友情提示：由于游戏有作弊机制，此版本修改后基本不用开启作弊（除非手残到极致），修改不易请大家珍惜，不喜勿喷！ \n原下载链接：https://pan.baidu.com/s/15MeACYeEzcB9ZTGzPF21LA  提取码：8888\n\n现将data文件夹压为pak文件，便于安卓用户使用，同时删除了原data文件夹及备用的data压缩包，有需要的请前往原地址下载。\n使用方法跟原版一致，具体路径自行参考群公告。
+
+game: 快打旋风 LNS0.4 齾hack
+files: 
+  Final Fight LNS YA1.pak
+  Final Fight LNS YA2.pak
+sort-by: 004
+developer: 快打旋风 LNS0.4 齾hack
+assets.box_front: media\ya\boxfront.png
+assets.logo: media\ya\logo.png
+assets.video: media\ya\video.mp4
+launch: "{env.appdir}\Roms\OpenBOR\Final Fight LNS\Final Fight LNS Ultimate.exe" "{env.appdir}\Roms\OpenBOR\Final Fight LNS\Paks\{file.name}"
+description: 《快打旋风 LNS0.4 齾hack》\n\n1、替换人物素材 BY （B站UP 又菜又爱玩的老米）（二改作者 B站UP 白纯黑）；\n2、本人基于耗子修改版、邪魔紫枫修改版进行人物替换并打包；\n3、耗子修改版（11月30日）修复恐龙快打可能闪退的BUG；\n4、人物Lucia（第一排第14人）替换为暴风子（女暴风）；\n5、人物可持续防御，一键大招，被击中上+A，a4为一键保险技等；\n6、本人基于二改基础上将HP调至5000（原200）、MP调至5000（原150），菜鸡狂喜。
+
+game: 快打旋风-英雄
+file: Final Fight Heroes.pak
+sort-by: 005
+developer: 快打旋风-英雄
+description: 《快打旋风-英雄》制作得还算是不错的。不过关卡和快打旋风阿尔法是差不多的，阿尔法的游戏画面更要精致一些。但是这版的可选人物和阿尔法版相比还是略有不同的，游戏可以选择街霸的4个角色：古烈、春丽、嘉米、俄罗斯大汉，可以选择快打旋风系列中的4个角色：武神凯、哈格市长、囚犯柯迪以及二代的女孩。游戏难度刚开始不大，但到了后期如果不用必杀就没有办法打了。我方的两个猛男是最强的，因为他们的必杀攻击犯围大，攻击力强。但我方最历害的角色还是俄罗斯大汉，因为哈格市长的普通攻击太弱智了！
+
+game: 终极快打旋风 3
+file: Final Fight Hyper 3.PAK
+sort-by: 006
+developer: 终极快打旋风 3
+description: 《终极快打旋风 3》在上一个人物可以绕圈跑的基础上，再次做了一个优化，简化了所有角色的出招，这对于手机玩家和不太会玩格斗游戏的玩家来说，是一个非常好的版本。基本上所有的角色的招数都是下前+A，下前+B，下上+A，而大招只要在有气的情况下一个键就能放出，这样大大增强了游戏的可玩性，而且气也集得很快，可以打得BOSS落不了地，非常的爽！也让所有的玩家可以完美的体验到这个游戏所有角色的大招的创意了，非常的有价值的一个版本，值得收藏！
+
+game: 暴怒刑事
+file: Rocket Viper 1.PAK
+sort-by: 007
+developer: 暴怒刑事
+description: 《暴怒刑事》是国内OPENBOR界大神Volcanic的早期作品，也是现在OPENBOR游戏中可玩性非常高的暴怒刑事2的前作。
+
+game: 暴怒刑事 2
+file: Rocket Viper 2.pak
+sort-by: 008
+developer: 暴怒刑事 2
+description: 《暴怒刑事 2》是至今为止最为纯正的以拳皇为题材的过关游戏，游戏融合了格斗和过关游戏的特点，加入了严谨的系统，拥有丰富的人物和必杀技以及爽快的手感，超高的可玩性以及优美的画面和音乐会令你欲罢不能。
+
+game: 斗士的历史
+file: Fighters History.pak
+sort-by: 009
+developer: 斗士的历史
+description: 《斗士的历史》做得很不错，以前格斗游戏中的发波等招数都可以在游戏中简单的发出来，气集满后还可以放超必杀。游戏的动作打击也不错，很多的BOSS大家一眼就可以看出是从另一个格斗游戏热血痛快进行曲中的角色。游戏的难度还是有点大，想要通关要有一定的技巧才行。
+
+game: 愤怒女团
+file: Ladies Of Rage.pak
+sort-by: 010
+developer: 愤怒女团
+description: 《愤怒女团》是怒之铁拳2的全女性角色版，有许多可选的女性角色，包括拳皇里面的人气角色等。
+
+game: 龙虎之拳2
+file: Ryuko No Ken Nekketsu.pak
+sort-by: 011
+developer: 龙虎之拳2
+description: 《龙虎之拳2》或者叫龙虎之拳热血，是一款应用bor引擎制作的类似热血物语改版的游戏，游戏中加入了龙虎之拳的主要角色，玩法仍然是玩家熟悉的热血闯关系列。
+
+game: 龙虎之拳闯关
+file: AOF.pak
+sort-by: 012
+developer: 龙虎之拳闯关
+description: 《龙虎之拳闯关》能选坂崎良，坂崎由莉，萝卜特。每人有力量和速度两种模式。
+
+game: 龙王战士和圆桌骑士 - 无尽探索
+file: Dungeons And Dragons - Knights And Dragons - The Endless Quest.pak
+sort-by: 013
+developer: 龙王战士和圆桌骑士 - 无尽探索
+description: 《龙王战士和圆桌骑士 - 无尽探索》是一款采用旧桌面游戏风格的对战游戏，重新设计了游戏关卡。本作得益于 OpenBor 引擎和大量直接取自旧版龙与地下城游戏的素材，它提供了尽可能接近经典角色扮演游戏的体验。玩家可以在不同类别的角色之间进行选择：战士、牧师、法师、弓箭手、矮人和盗贼，最多支持四名玩家共同游玩。是《龙与地下城》系列中最好的改版对战游戏之一。它提供了十几个小时的经典动作，非常有挑战难度。
+
+game: 龙王战士和圆桌骑士 - 最终版
+file: Knights & Dragons Final Cut.pak
+sort-by: 014
+developer: 龙王战士和圆桌骑士 - 最终版
+description: 《龙王战士和圆桌骑士 - 最终版》是著名游戏《龙与地下城》的改版游戏，游戏内容基本上是一样的。但角色添加了新法术，新特殊技能，其中一些使角色非常强大。
+
+game: 龙珠Z - 赛亚人的强袭
+file: Dragon Ball Z - Attack Of The Saiyans.pak
+sort-by: 015
+developer: 龙珠Z - 赛亚人的强袭
+description: 《龙珠Z - 赛亚人的强袭》是一款龙珠主题的beat’em up游戏，游戏中拥有大量龙珠主角，打斗激烈，设计还算有趣。
+
+game: 洛克人快打
+file: Mega Man Power Adventure.pak
+sort-by: 016
+developer: 洛克人快打
+description: 《洛克人快打》是用 OpenBor 制作的 MegaMan 的升级版，除了射击，角色们还用拳打脚踢击败敌人。就好像它是 Megaman Power Battle/Fighter 理念的演变，以格斗游戏风格的Megaman游戏。游戏的主要故事讲述了Ra-Moon 回来并从监狱绑架了 Willy 博士。与此同时，几个机器人失控，在整个城市造成混乱。MegaMan、ProtoMan 和 Bass（以及从太空归来的 Duo）联手与其他机器人大师一起制止混乱，阻止 Ra-Moon 的威胁，并在此过程中拯救威利博士的性命。在游戏的 8 个阶段中，他们将得到一些 NPC 的帮助，例如 FlipTop (Eddie)、Beat、Dr. Light 的 Metols、Bunby-Tanks、BombMan……
+
+game: 漫威 无限战争
+file: Marvel - Infinity War.pak
+sort-by: 017
+developer: 漫威 无限战争
+description: 《漫威 无限战争》是一款经典的对战游戏，没有什么值得羡慕的付费游戏，让您享受大量的内容，甚至可以同时与多达四名玩家一起玩。本作是使用 OpenBOR 引擎开发的，虽然它使用 16 位控制台游戏的视觉和音频资源，但大部分内容完全是从头开始创建的。有多达 78 个不同的角色可以从几个不同的许可中选择：复仇者联盟、X 战警、银河护卫队，甚至是 Netflix 系列捍卫者联盟。故事模式可让您在受无限战争启发的冒险中穿越不同地点，无限战争是广受欢迎的无限手套传奇的直接续集，由灭霸和六颗无限宝石主演。除了故事模式，Marvel Infinity War 还包括无尽的游戏模式——例如美国队长和复仇者联盟等标志性游戏的翻拍，以及蜘蛛侠 Maximum Carnage——以及危险传奇中的训练模式和“boss rush”模式。它甚至包括来自开发者本人的完整 Marvel First Alliance 视频游戏，也可以在 Uptodown 上找到。
+
+game: 漫威 战争游戏
+file: Marvel - War Of The Gems.pak
+sort-by: 018
+developer: 漫威 战争游戏
+description: 《漫威 战争游戏》是一款最多支持4人共同游玩的横版过关游戏，初始角色4人隐藏角色11人。本作的剧情讲述了塔诺斯将六颗无限宝石镶嵌在他的左手套上，形成了名为“无限大护具”。每个宝石都赋予持有者对宇宙的一个方面的完全掌握：时间、空间、心灵、灵魂、现实和力量。塔诺斯现在非常强大，非常渴望赢得死神的喜爱，他决定通过完成她交给他的任务，为实体提供一份爱的礼物，抹去宇宙中一半有知觉的生命（包括大多数X战警、敢死队和神奇四侠），只需轻轻一弹手指。地球上幸存的英雄们在新复活的亚当·术士的带领下一起与塔诺斯战斗。为了给死神留下深刻印象，塔诺斯让英雄们有一点点获胜的机会。
+
+game: 怒之铁拳 6
+file: Bare Knuckle 6.pak
+sort-by: 019
+developer: 怒之铁拳 6
+description: 《怒之铁拳 6》是一款由Anking和Volcanic设计的中国游戏，于2012年发行。游戏的动作和物理特性基于前作《怒之铁拳 真空》（虽然有一些修改），它是作为本游戏的续作而设计的，因此编号系统（V=真空，VI=本续作）。有六个可玩的角色：阿克塞尔“鹰”石、火焰菲尔丁、马克斯·雷霆、亚当·亨特、吉尔伯特·赞博士和一个可解锁的角色湿婆。这个故事完全是用中文写的；每个可玩角色都有特殊动作和超级动作；你也可以在这个游戏中使用武器。
+
+game: 怒之铁拳 XXX
+file: Streets of Rage XXX.pak
+sort-by: 020
+developer: 怒之铁拳 XXX
+description: 《怒之铁拳 XXX》是日本世嘉(sega)公司上个世纪90年代在该公司的16位家用游戏主机mega drive上发行的横板通关游戏，是sega当年为追赶街机界横板过关游戏风潮而为其家用主机量身定做的系列游戏。官方作品共有3部。还有一部为FANS制作，美版名称为：STREETS OF RAGE。国内电子游戏杂志90年代亦将该游戏称作格斗3人组、格斗4人组等。
+
+game: 怒之铁拳 Z - 英雄回归
+file: Streets Of Rage Z - Return Of The Hero.pak
+sort-by: 021
+developer: 怒之铁拳 Z - 英雄回归
+description: 《怒之铁拳 Z - 英雄回归》是一代集合的版本，原来玩过世嘉原版的朋友肯定会很熟悉里面出现的BOSS。
+
+game: 怒之铁拳 2 - 终极联盟
+file: 怒之铁拳2之终极联盟.pak
+sort-by: 022
+developer: 怒之铁拳 2 - 终极联盟
+description: 《怒之铁拳 2 - 终极联盟》做得真心不错，加入了不少新人物，每个人物的动作招式也是精心打磨过的。
+
+game: 怒之铁拳-真空
+file: Bare Knuckle Vacuum.pak
+sort-by: 023
+developer: 怒之铁拳-真空
+description: 《怒之铁拳-真空》最多支持4名玩家共同游戏，有3个难度等级（容易、正常、困难），或者你可以与传奇中的几个角色一起玩，包括经典的阿克塞尔、火焰、亚当和湿婆……在这个版本1.0之后发布了一些改进游戏系统的进化。
+
+game: 拳皇-战斗节拍加强版
+file: King of Fighters Beat'em Up Plus.pak
+sort-by: 024
+developer: 拳皇-战斗节拍加强版
+description: 《拳皇-战斗节拍加强版》是一款横版过关风格的拳皇游戏，游戏人物多，小连段大必杀一个都不少。
+
+game: 街霸拳皇复仇记
+file: A Tale of Vengeance.pak
+sort-by: 025
+developer: 街霸拳皇复仇记
+description: 《街霸拳皇复仇记》讲述了一个关于五个勇士的故事，他们对自己所爱的人进行复仇，以对抗各自的敌人。他们自己的敌人等待着他们战斗。五名勇士齐聚一堂，联手复仇。
+
+game: 热血物语
+file: Downtown Nekketsu Monogatari.pak
+sort-by: 026
+developer: 热血物语
+description: 《热血物语》作为热血系列的第一款Q版游戏，热血物语在各个方面都很出色，虽然后来的时代剧全员集合比本游戏多了很多的要素和绝技，但是就经典程度来看，热血物语决不次于时代剧和其他更高位数主机的游戏。
+
+game: 热血硬派 汉化版
+file: KunioLA_R.pak
+sort-by: 027
+developer: 热血硬派 汉化版
+description: 《热血硬派 汉化版》这个版本由 KunioLA 移植和重置，添加了许多功能。本作在角色、Boss、难度方面都有非常不错的角色设计。当你完成所有章节后，你可以解锁一个真正的黑帮模式，每个人都拿着枪射死你。
+
+game: 忍者蛙与双截龙 - 黑暗势力的回归
+file: Battletoads And Double Dragon Iv - The Return Of The Dark Forces.pak
+sort-by: 028
+developer: 忍者蛙与双截龙 - 黑暗势力的回归
+description: 《忍者蛙与双截龙 - 黑暗势力的回归》在遥远的地方，在这个星系的最末端，有一个由黑暗女王统治的星系“大犬座”公司的另一个世界种族。被击败的黑暗女王充满愤怒，并制定了复仇和征服的新邪恶计划。她摧毁了战斗蟾蜍生活的奥克斯纳德的所有战斗单位。她在魔法和她的忠实战士的帮助下做到了这一点。之后，这座城市就在女王脚下。战蟾蜍和双龙意味着最后的希望。你必须找到黑暗女王，并借助每一位战士的一套战斗技能摧毁她。你将体验到经典角色、改进的图形和美妙的音效，从而击败飓风。还有额外的游戏模式可供选择：boss战斗和空中摩托车比赛。
+
+game: 双截龙-革命 2
+file: Double Dragon Revolution 2.pak
+sort-by: 029
+developer: 双截龙-革命 2
+description: 《双截龙-革命 2》共有八位可选角色，除了 Billi 和 Jimmy，还可以选择像 Hanzo 或 Sonny 这样的角色，巨人 Berseker、Blitz 和 Bullova 也可用。这些角色庞大的身影看似笨拙，但攻击威力强大。另一名可选角色是 Kunio，这个角色的特点是有非常好的远程攻击能力。
+
+game: 忍者战士牙：归来 RX
+file: Ninja Warriors Again-RX.pak
+sort-by: 030
+developer: 忍者战士牙：归来 RX
+description: 《忍者战士牙：归来 RX》是日本游戏制造商TAITO公司制作的一款横版过关的动作游戏，难度适中，有三名角色可选。游戏的手感和打击感非常到位，通过方向键和攻击键的组合可以打出各种攻击；这个游戏当年极其惊艳，因为sfc处理速度比md弱很多，包括快打旋风在内的一大票游戏表现都很差劲，但是该作扬长避短以取消z轴，减少同屏人数为代价做出了手感，画面都极其出色的sfc清版游戏，要说缺点的话就是不能够双人。。。因此本人作为学习过一点点OPENBOR引擎的萌新，尝试着用BOR来复刻这个游戏，补上取消z轴和双人的空缺，由于完全不懂编程，所以做起来相当的费事，反正尽最大的努力去复刻还原。。。目前只做了第一关和男忍，女忍俩个角色，不少细节和场景互动因技术原因没法100%还原，也不知道能不能走到底，边做边学，走一步是一步，能走多远算多远吧。。。。
+
+game: 湿婆和丽莎
+file: Shiva And Lisa 3.pak
+sort-by: 031
+developer: 湿婆和丽莎
+description: 《湿婆和丽莎》是Masterderico于2009年创作的著名三部曲中最后一部可用的作品。与前两章一样，它是对《愤怒的街道》传奇的致敬，但最重要的是S&L三部曲中最好的游戏性。当然湿婆的角色来自SOR系列（II、III、IV），他是邪恶的X先生的盟友之一。在这部作品中，除了湿婆和丽莎这两个通常的角色外，我们还有另一个主要的可玩角色是X先生的前安全少校申。剧情概述：打败Z先生后，你被一个堕落帮派的成员袭击，带着这些暴徒被打败了…辛加入了希瓦和丽莎，他们正在寻找一种神秘的“龙药”“。这种有害物质的副作用是多方面的：人们的皮肤变蓝，变得非常厉害。负责传播这种药物的人似乎是一个无良的帮派头目。他会是谁？这部令人难忘的作品有更多的组合可能性，每一个层次都非常漫长和多样。有一种“实践”“模式，两种特殊模式解锁，您可以在其中扮演蒙娜，最后一种“完整模式”。在史诗的结尾，您将有简短的过场镜头来完成这部堪称里程碑的精彩三部曲！任何玩OpenBoR的人都应该至少玩一次他们的湿婆和丽莎三部曲！”！
+
+game: 世嘉喧哗混合
+file: Sega Brawlers Mega Mix.pak
+sort-by: 032
+developer: 世嘉喧哗混合
+description: 《世嘉喧哗混合》是一款令人敬畏的粉丝制作的复古侧滚游戏，其特色是来自SEGA经典游戏《索尼克》、《Toejam&Earl》、《愤怒的街道》、《金斧》、《守护英雄》、《Comix Zone》、《忍者》、《向量人》、《Ristar》以及其他多平台游戏，如《蚯蚓吉姆》、《Battletobs》和《Splatthouse》。这是一封写给SEGA 16位全盛时期的美好情书，一位非常有趣的4位选手击败了他们。游戏中的工作量令人难以置信，所有角色都有自己的招式和特殊动作，配乐很棒，所有关卡和敌人都基于经典，如《愤怒的街道》、《金斧》和《索尼克》。甚至有一个Vs战斗模式，以及各种可解锁的游戏模式和通过完成主要冒险解锁的角色。该游戏仍在开发中，可能需要在主要冒险模式中增加一点多样性，以及一些更大的boss，但庞大的角色名册无疑弥补了这些小缺陷。这是对SEGA、16位游戏和经典侧滚街机游戏的完美致敬。值得注意的是，开发人员（DJGameFreakTheIguana）仍计划在游戏中添加更多角色。真的不能有更多的16位SEGA字符了吗？也许是海豚Ecco-设置攻击1、2、3和4的控件，所有这些控件都被使用。攻击1用于连击攻击，某些角色只有1次攻击才能击退敌人。攻击2、3和4用于执行不同的特殊动作。某些角色可以在移动时按下其中一个按钮来使用更多的移动-特殊是大多数角色用来以不同方式击退许多敌人的强大招式。有些人进行连击、强力射击、影响大部分屏幕，或在舞台上对任何人进行爆破。其中一些（主要是暴怒战士的骏马）有第二个特殊功能，可以在保持左侧或右侧时使用-大多数角色都能通过走进敌人来抓住敌人。你可以通过按下攻击进行猛击，在按住或放下的同时按下攻击进行不同的终结，在按下你身后的控制时可以投掷或执行不同的攻击（如果你在向右抓的时候，按住你的键/控制器的左键）-在战斗模式中，有两个不同的阶段。3D舞台允许你在所有方向上移动（就像暴怒的骏马），但在2D舞台上，你只能向左或向右移动（就像2D阶段中的索尼克一样，你可以通过按住并按下跳跃键来执行动作，使平台跳得太高而无法正常跳跃，或者通过按住并按攻击键来跳下平台。大多数角色都可以在这些跳跃过程中进行攻击，所以要注意你上方或下方的敌人。只有3种模式可以玩，冒险、街机和战斗。击败冒险模式将解锁其他模式。除了Aliiance模式和Mission模式外，大多数模式都是相同的。在所有这些锁定模式中，您都可以扮演秘密角色。他们仍然会以？屏幕上的标记，但继续浏览字符，它们就会出现。
+
+game: 世界英雄 - 最高审判
+file: World Heroes - Supreme Justice Extra.pak
+sort-by: 033
+developer: 世界英雄 - 最高审判
+description: 《世界英雄 - 最高审判》是一款经典的侧滚街机，在这里你可以与宙斯和尼奥·迪奥的力量战斗。《世界英雄 - 最高审判》额外有5个可玩角色+6个可解锁的秘密角色，还有两个玩家合作。游戏使用4个按钮来击打、踢、跳跃和阻挡，以及许多特殊动作、连击和踢/击连击。
+
+game: 午夜杀生 平衡版
+file: Night Slashers X Rebalance.pak
+sort-by: 034
+developer: 午夜杀生 平衡版
+description: 《午夜杀生 平衡版》是 Night Slashers X 的重制版，初始可以从五名角色中选择一位开始游戏。 除了 Cristopher、Jack 和 Hong Hua，还可以使用 Ash、Ortega、Aska 和 Jasmin。 所有新玩家都具有特殊技能，使他们成为“Night Slashers”中极具吸引力的补充。所有角色都添加了大量他们可以执行的拳法和新组合。 例如Ortega，就非常强壮，出招威力巨大，以至于可以轻松击倒所有Boss。 然而，它移动非常缓慢，你将不得不适应这个角色。 另一方面，Ash 非常灵活。 他配备了一把电锯，是这款游戏中最有用的工具之一。
+
+game: 宇宙巨人希曼
+file: He-man.pak
+sort-by: 035
+developer: 宇宙巨人希曼
+description: 《宇宙巨人希曼》是一款梦幻般的复古横向卷轴游戏。拥有大量来自 He-Man/She-Ra 宇宙的角色，包括 He-Man、Orko、Man-At-Arms、BattleCat、Sorceress、Skeletor、Evil-Lyn、She -Ra、Ram-Man、Teela 和 Panthor 都可以玩，Thundercats 的 Lion-O 也加入了战斗。所有角色都有自己独特的必杀技，有的可以临时变身、飞行或召唤大型猫科动物（BattleCat和Panthor）与他们并肩作战。本作具有对战模式和故事模式，28 个关卡分布在 Eternia 地图上，您可以一路杀出一条血路。关卡设计和游戏玩法多种多样。大多数关卡都像传统的横向卷轴节拍游戏，但也有平台关卡、横向卷轴射击游戏关卡，甚至还有迷宫关卡和试图保护 Cambro 免受敌人攻击的关卡。还有很多 Boss 战，您将面对该系列中许多令人难忘的坏蛋，例如野兽人、人鱼和陷阱颚。
+
+game: 正义联盟 联合作战
+file: Justice League United.pak
+sort-by: 036
+developer: 正义联盟 联合作战
+description: 《正义联盟 联合作战》是一款超赞的老式横向卷轴街机打斗游戏，蝙蝠侠、神奇女侠和他们的超级伙伴联手对抗 DC 最致命的超级反派。本作场景横跨七个大舞台，有七个可玩角色和许多超级恶棍。游戏玩法分为三种不同风格的游戏模式——1.类似于蝙蝠侠和机械战警街机游戏的 2D 横版过关风格；2.怒之铁拳风格的 2.5D 打斗动作风格；3.带有车辆的横向滚动射击风格。
+
+game: 正义联盟 遗产
+file: Justice league legacy.pak
+sort-by: 037
+developer: 正义联盟 遗产
+description: 《正义联盟 遗产》是一款 2D 对战游戏，是 Justice League United 的终极更新，根据最多产的 OpenBOR 开发者之一的创作者 ZVitor 的说法。它于 2020 年 10 月发布，具有 47 个角色、跨越 DC 传奇的故事模式、奖励模式和许多额外内容。
+
