@@ -64,11 +64,34 @@ func (r RawItem) Kind() ItemKind  { return ItemRaw }
 func (r RawItem) Lines() []string { return r.lines }
 
 type Game struct {
+	// Core fields
 	GameName    string
 	FileName    string
 	SortBy      string
 	Developer   string
 	Description string
+
+	// Additional Pegasus standard fields
+	Publisher string
+	Genre     string
+	Players   string
+	Rating    string
+	Release   string
+
+	// Asset fields
+	Logo       string
+	Video      string
+	Screenshot string
+	BoxFront   string
+	BoxBack    string
+	BoxSpine   string
+	BoxFull    string
+	Background string
+	Music      string
+
+	// List fields (stored as comma-separated strings for now)
+	Files  string // for games with multiple files
+	Genres string // for multiple genres
 }
 
 type GameItem struct {
@@ -156,7 +179,10 @@ func Parse(text string) *Document {
 
 	isGameField := func(key string) bool {
 		switch key {
-		case "file", "sort-by", "developer", "description":
+		case "file", "sort-by", "developer", "description",
+			"publisher", "genre", "genres", "players", "rating", "release",
+			"logo", "video", "screenshot", "boxfront", "boxback", "boxspine", "boxfull",
+			"background", "music", "files":
 			return true
 		default:
 			return false
@@ -205,6 +231,38 @@ func Parse(text string) *Document {
 				current.Developer = val
 			case "description":
 				current.Description = val
+			case "publisher":
+				current.Publisher = val
+			case "genre":
+				current.Genre = val
+			case "genres":
+				current.Genres = val
+			case "players":
+				current.Players = val
+			case "rating":
+				current.Rating = val
+			case "release":
+				current.Release = val
+			case "logo":
+				current.Logo = val
+			case "video":
+				current.Video = val
+			case "screenshot":
+				current.Screenshot = val
+			case "boxfront":
+				current.BoxFront = val
+			case "boxback":
+				current.BoxBack = val
+			case "boxspine":
+				current.BoxSpine = val
+			case "boxfull":
+				current.BoxFull = val
+			case "background":
+				current.Background = val
+			case "music":
+				current.Music = val
+			case "files":
+				current.Files = val
 			}
 		}
 		gameLines = append(gameLines, line)

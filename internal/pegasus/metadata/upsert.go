@@ -56,6 +56,56 @@ func (d *Document) UpsertGameByFile(g Game, opts UpsertOptions) (changed bool, f
 		newGame.Developer = dev
 		newGame.Description = desc
 
+		// Update all new fields if present
+		if g.Publisher != "" {
+			newGame.Publisher = strings.TrimSpace(g.Publisher)
+		}
+		if g.Genre != "" {
+			newGame.Genre = strings.TrimSpace(g.Genre)
+		}
+		if g.Genres != "" {
+			newGame.Genres = strings.TrimSpace(g.Genres)
+		}
+		if g.Players != "" {
+			newGame.Players = strings.TrimSpace(g.Players)
+		}
+		if g.Rating != "" {
+			newGame.Rating = strings.TrimSpace(g.Rating)
+		}
+		if g.Release != "" {
+			newGame.Release = strings.TrimSpace(g.Release)
+		}
+		if g.Logo != "" {
+			newGame.Logo = strings.TrimSpace(g.Logo)
+		}
+		if g.Video != "" {
+			newGame.Video = strings.TrimSpace(g.Video)
+		}
+		if g.Screenshot != "" {
+			newGame.Screenshot = strings.TrimSpace(g.Screenshot)
+		}
+		if g.BoxFront != "" {
+			newGame.BoxFront = strings.TrimSpace(g.BoxFront)
+		}
+		if g.BoxBack != "" {
+			newGame.BoxBack = strings.TrimSpace(g.BoxBack)
+		}
+		if g.BoxSpine != "" {
+			newGame.BoxSpine = strings.TrimSpace(g.BoxSpine)
+		}
+		if g.BoxFull != "" {
+			newGame.BoxFull = strings.TrimSpace(g.BoxFull)
+		}
+		if g.Background != "" {
+			newGame.Background = strings.TrimSpace(g.Background)
+		}
+		if g.Music != "" {
+			newGame.Music = strings.TrimSpace(g.Music)
+		}
+		if g.Files != "" {
+			newGame.Files = strings.TrimSpace(g.Files)
+		}
+
 		// sort-by: preserve unless explicitly asked to update.
 		if opts.UpdateSortBy {
 			if strings.TrimSpace(g.SortBy) != "" {
@@ -81,6 +131,22 @@ func (d *Document) UpsertGameByFile(g Game, opts UpsertOptions) (changed bool, f
 		FileName:    strings.TrimSpace(g.FileName),
 		Developer:   dev,
 		Description: desc,
+		Publisher:   strings.TrimSpace(g.Publisher),
+		Genre:       strings.TrimSpace(g.Genre),
+		Genres:      strings.TrimSpace(g.Genres),
+		Players:     strings.TrimSpace(g.Players),
+		Rating:      strings.TrimSpace(g.Rating),
+		Release:     strings.TrimSpace(g.Release),
+		Logo:        strings.TrimSpace(g.Logo),
+		Video:       strings.TrimSpace(g.Video),
+		Screenshot:  strings.TrimSpace(g.Screenshot),
+		BoxFront:    strings.TrimSpace(g.BoxFront),
+		BoxBack:     strings.TrimSpace(g.BoxBack),
+		BoxSpine:    strings.TrimSpace(g.BoxSpine),
+		BoxFull:     strings.TrimSpace(g.BoxFull),
+		Background:  strings.TrimSpace(g.Background),
+		Music:       strings.TrimSpace(g.Music),
+		Files:       strings.TrimSpace(g.Files),
 	}}); err != nil {
 		return false, false, err
 	}
@@ -183,6 +249,182 @@ func updateGameLines(lines []string, newG Game, updateSort bool) (out []string, 
 				changed = true
 			}
 			out = append(out, nl)
+		case "publisher":
+			seen[k] = true
+			if newG.Publisher != "" {
+				nl := setLine("publisher", newG.Publisher)
+				if strings.TrimSpace(ln) != strings.TrimSpace(nl) {
+					changed = true
+				}
+				out = append(out, nl)
+			} else {
+				out = append(out, ln)
+			}
+		case "genre":
+			seen[k] = true
+			if newG.Genre != "" {
+				nl := setLine("genre", newG.Genre)
+				if strings.TrimSpace(ln) != strings.TrimSpace(nl) {
+					changed = true
+				}
+				out = append(out, nl)
+			} else {
+				out = append(out, ln)
+			}
+		case "genres":
+			seen[k] = true
+			if newG.Genres != "" {
+				nl := setLine("genres", newG.Genres)
+				if strings.TrimSpace(ln) != strings.TrimSpace(nl) {
+					changed = true
+				}
+				out = append(out, nl)
+			} else {
+				out = append(out, ln)
+			}
+		case "players":
+			seen[k] = true
+			if newG.Players != "" {
+				nl := setLine("players", newG.Players)
+				if strings.TrimSpace(ln) != strings.TrimSpace(nl) {
+					changed = true
+				}
+				out = append(out, nl)
+			} else {
+				out = append(out, ln)
+			}
+		case "rating":
+			seen[k] = true
+			if newG.Rating != "" {
+				nl := setLine("rating", newG.Rating)
+				if strings.TrimSpace(ln) != strings.TrimSpace(nl) {
+					changed = true
+				}
+				out = append(out, nl)
+			} else {
+				out = append(out, ln)
+			}
+		case "release":
+			seen[k] = true
+			if newG.Release != "" {
+				nl := setLine("release", newG.Release)
+				if strings.TrimSpace(ln) != strings.TrimSpace(nl) {
+					changed = true
+				}
+				out = append(out, nl)
+			} else {
+				out = append(out, ln)
+			}
+		case "logo":
+			seen[k] = true
+			if newG.Logo != "" {
+				nl := setLine("logo", newG.Logo)
+				if strings.TrimSpace(ln) != strings.TrimSpace(nl) {
+					changed = true
+				}
+				out = append(out, nl)
+			} else {
+				out = append(out, ln)
+			}
+		case "video":
+			seen[k] = true
+			if newG.Video != "" {
+				nl := setLine("video", newG.Video)
+				if strings.TrimSpace(ln) != strings.TrimSpace(nl) {
+					changed = true
+				}
+				out = append(out, nl)
+			} else {
+				out = append(out, ln)
+			}
+		case "screenshot":
+			seen[k] = true
+			if newG.Screenshot != "" {
+				nl := setLine("screenshot", newG.Screenshot)
+				if strings.TrimSpace(ln) != strings.TrimSpace(nl) {
+					changed = true
+				}
+				out = append(out, nl)
+			} else {
+				out = append(out, ln)
+			}
+		case "boxfront":
+			seen[k] = true
+			if newG.BoxFront != "" {
+				nl := setLine("boxFront", newG.BoxFront)
+				if strings.TrimSpace(ln) != strings.TrimSpace(nl) {
+					changed = true
+				}
+				out = append(out, nl)
+			} else {
+				out = append(out, ln)
+			}
+		case "boxback":
+			seen[k] = true
+			if newG.BoxBack != "" {
+				nl := setLine("boxBack", newG.BoxBack)
+				if strings.TrimSpace(ln) != strings.TrimSpace(nl) {
+					changed = true
+				}
+				out = append(out, nl)
+			} else {
+				out = append(out, ln)
+			}
+		case "boxspine":
+			seen[k] = true
+			if newG.BoxSpine != "" {
+				nl := setLine("boxSpine", newG.BoxSpine)
+				if strings.TrimSpace(ln) != strings.TrimSpace(nl) {
+					changed = true
+				}
+				out = append(out, nl)
+			} else {
+				out = append(out, ln)
+			}
+		case "boxfull":
+			seen[k] = true
+			if newG.BoxFull != "" {
+				nl := setLine("boxFull", newG.BoxFull)
+				if strings.TrimSpace(ln) != strings.TrimSpace(nl) {
+					changed = true
+				}
+				out = append(out, nl)
+			} else {
+				out = append(out, ln)
+			}
+		case "background":
+			seen[k] = true
+			if newG.Background != "" {
+				nl := setLine("background", newG.Background)
+				if strings.TrimSpace(ln) != strings.TrimSpace(nl) {
+					changed = true
+				}
+				out = append(out, nl)
+			} else {
+				out = append(out, ln)
+			}
+		case "music":
+			seen[k] = true
+			if newG.Music != "" {
+				nl := setLine("music", newG.Music)
+				if strings.TrimSpace(ln) != strings.TrimSpace(nl) {
+					changed = true
+				}
+				out = append(out, nl)
+			} else {
+				out = append(out, ln)
+			}
+		case "files":
+			seen[k] = true
+			if newG.Files != "" {
+				nl := setLine("files", newG.Files)
+				if strings.TrimSpace(ln) != strings.TrimSpace(nl) {
+					changed = true
+				}
+				out = append(out, nl)
+			} else {
+				out = append(out, ln)
+			}
 		default:
 			out = append(out, ln)
 		}
@@ -207,6 +449,72 @@ func updateGameLines(lines []string, newG Game, updateSort bool) (out []string, 
 	if !seen["description"] {
 		changed = true
 		out = append(out, setLine("description", newG.Description))
+	}
+
+	// Add new optional fields if not present and have values
+	if !seen["publisher"] && newG.Publisher != "" {
+		changed = true
+		out = append(out, setLine("publisher", newG.Publisher))
+	}
+	if !seen["genre"] && newG.Genre != "" {
+		changed = true
+		out = append(out, setLine("genre", newG.Genre))
+	}
+	if !seen["genres"] && newG.Genres != "" {
+		changed = true
+		out = append(out, setLine("genres", newG.Genres))
+	}
+	if !seen["players"] && newG.Players != "" {
+		changed = true
+		out = append(out, setLine("players", newG.Players))
+	}
+	if !seen["rating"] && newG.Rating != "" {
+		changed = true
+		out = append(out, setLine("rating", newG.Rating))
+	}
+	if !seen["release"] && newG.Release != "" {
+		changed = true
+		out = append(out, setLine("release", newG.Release))
+	}
+	if !seen["logo"] && newG.Logo != "" {
+		changed = true
+		out = append(out, setLine("logo", newG.Logo))
+	}
+	if !seen["video"] && newG.Video != "" {
+		changed = true
+		out = append(out, setLine("video", newG.Video))
+	}
+	if !seen["screenshot"] && newG.Screenshot != "" {
+		changed = true
+		out = append(out, setLine("screenshot", newG.Screenshot))
+	}
+	if !seen["boxfront"] && newG.BoxFront != "" {
+		changed = true
+		out = append(out, setLine("boxFront", newG.BoxFront))
+	}
+	if !seen["boxback"] && newG.BoxBack != "" {
+		changed = true
+		out = append(out, setLine("boxBack", newG.BoxBack))
+	}
+	if !seen["boxspine"] && newG.BoxSpine != "" {
+		changed = true
+		out = append(out, setLine("boxSpine", newG.BoxSpine))
+	}
+	if !seen["boxfull"] && newG.BoxFull != "" {
+		changed = true
+		out = append(out, setLine("boxFull", newG.BoxFull))
+	}
+	if !seen["background"] && newG.Background != "" {
+		changed = true
+		out = append(out, setLine("background", newG.Background))
+	}
+	if !seen["music"] && newG.Music != "" {
+		changed = true
+		out = append(out, setLine("music", newG.Music))
+	}
+	if !seen["files"] && newG.Files != "" {
+		changed = true
+		out = append(out, setLine("files", newG.Files))
 	}
 
 	return out, changed
