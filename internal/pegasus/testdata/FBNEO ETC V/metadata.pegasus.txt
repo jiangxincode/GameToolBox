@@ -1,0 +1,202 @@
+collection: 休闲街机
+sort-by: 007
+extensions: 7z, zip
+ignore-files: 
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbneo_libretro.dll" "{file.path}"
+
+game: 打砖块1
+file: arkanoid.zip
+sort-by: 001
+developer: 打砖块1
+publisher: Taito
+genre: Taito
+release: Action
+x-id: ECTV
+description: 最初的 Breakout 概念是控制屏幕底部的球棒，并用它接球并指挥球击中屏幕顶部的所有砖块。它在十多年来一直不受欢迎，直到 Taito 在这款街机游戏中通过一些新创意使其复兴。游戏的情节将球棒重新定义为 Vaus 宇宙飞船，将球重新定义为能量螺栓，而砖块则定位为一堵神秘的墙，阻止飞船驶向安全地带。在80 年代中期，道具系统在大多数类型的街机游戏中都很流行，而《打砖块》就是其中的代表。当道具掉落时，将球棒放在他们下方，道具就会被抓住（这意味着如果玩家在错误的时间去接道具，有可能会错过球）。道具包括激光器（安装在球棒的两侧，让你可以射出激光）、一个接球发球装置（这样每次击球时都能以不同的角度发射球）还有一个可以减慢球速度的道具。
+
+game: 打砖块+
+file: arkatour.zip
+sort-by: 002
+developer: 打砖块+
+publisher: Taito
+genre: Taito
+release: Action
+x-id: ECTV
+description: Tournament Arkanoid 于 1987 年 1 月在美国发行。它被授权给 Romstar。 Tournament Arkanoid 与其说是打砖块真正的续集，不如说是升级版。游戏玩法与原版 几乎100% 相同。唯一不同的是32关都有完全不同的砖块排列。 第二关布局是一幅美国国旗图，星星由银色块表示。第四关的布局是“Chack'n Pop”中 Chack'n 的图画。 Chack'n 的眼睛是由坚不可摧的金块制成的。该游戏似乎并未在世界其他任何地方发行，而且也从未移植到任何家庭系统。
+
+game: 打砖块2
+file: arknoid2.zip
+sort-by: 003
+developer: 打砖块2
+publisher: Taito
+genre: Taito
+release: Action
+x-id: ECTV
+description: 打砖块2-DOH 的复仇 是太东1987年的街机作品。游戏中被称为“DOH”的神秘敌人已经返回，寻求对“Vaus”宇宙飞船进行报复。玩家必须再次控制 Vaus 并克服重重挑战，才能一劳永逸地摧毁 DOH。作为 1986 年流行原作的续作，DOH 的复仇给玩家提供了两轮共计 64个关卡。DOH 的复仇与其前身不同，引入了“Warp Gates”。一轮结束或抓到 Break ('B') 药丸时，两个门分别出现在游戏区域的左下角和右下角，然后 Vaus 通过其中一个门 - 选择将影响哪个提供了下一轮的关卡。该游戏还引进了两个新的砖块。带缺口的银砖和普通银砖一样，需要多次击打才能摧毁。然而，在破坏后的短时间内，它们会恢复原样。幸运的是，通关不需要摧毁任何有缺口的砖块。此外，一些砖块，只要它们的左侧和/或右侧没有被其他砖块阻挡，就会自动从一侧移动到另一侧。该游戏有一个巨型大脑形式的迷你 Boss，可帮助玩家练习。玩家必须瞄准大脑的嘴才能打败它。
+
+game: 欧帕兹
+file: ooparts.zip
+sort-by: 006
+developer: 欧帕兹
+release: Action
+x-id: ECTV
+description: Success公司为世嘉系统 C-2 制作的未发布的打砖块类型游戏。有美少女元素。球棒不会没接到球就死亡，而是减去一格血量并继续游戏。堪称打砖块游戏的集大成之作。游戏名中所谓的欧帕兹（OOPARTS），就是Out Of Place ARTifactS的简称，也就是在不应该出现的地方出土的加工品之意。此名称时由一位专门研究奇怪现象的美国动物学家桑达逊（1911-1973年）在他1967年著的《以为未收邀请的来访者——幽浮》中提出的。它指的是由古老底层中所掘出的，如动植物化石般的人造物品。
+
+game: 打砖块之谜  毕达哥拉斯
+file: ridleofp.zip
+sort-by: 007
+developer: 打砖块之谜  毕达哥拉斯
+publisher: SEGA
+genre: SEGA
+release: Action
+x-id: ECTV
+description: 古文明主题的打砖块游戏。
+
+game: 打砖块战斗台1
+file: gigas.zip
+sort-by: 008
+developer: 打砖块战斗台1
+publisher: SEGA
+genre: SEGA
+release: Action
+x-id: ECTV
+description: 世嘉1986年的街机游戏。本作是传统的打砖块游戏，画面比太东版略微提升了一些。
+
+game: 打砖块战斗台2
+file: gigasm2.zip
+sort-by: 009
+developer: 打砖块战斗台2
+publisher: bootleg
+genre: bootleg
+release: Action
+x-id: ECTV
+description: 世嘉打砖块游戏的第二作，增加了敌人系统。
+
+game: 打砖块Ω
+file: omega.zip
+sort-by: 010
+developer: 打砖块Ω
+release: Action
+x-id: ECTV
+description: 砖块机系统类似世嘉打砖块，不过不属于同一厂商。
+
+game: 敲砖块世界版
+file: block.zip
+sort-by: 013
+developer: 敲砖块世界版
+publisher: Capcom
+genre: Capcom
+release: Action
+x-id: ECTV
+description: 一个球穿过屏幕，从屏幕的顶部和侧壁弹回。当砖块被击中时，球弹开，砖块被摧毁。当球触及屏幕底部时，玩家失去一条命。为防止这种情况发生，玩家有一个可移动的球拍，可以将球向上弹回并回到比赛中。游戏的玩法和传统打砖块没有太多区别，只不过加入了一些弹珠机的要素。
+
+game: 彩京砖块物语
+file: gnbarich.zip
+sort-by: 014
+developer: 彩京砖块物语
+publisher: Psikyo
+genre: Psikyo
+release: Action
+x-id: ECTV
+description: 彩京在2001年推出的一款打砖块的益智游戏，手感不错。同时它也是一款弹幕射击游戏，因为融合了经典的打砖块玩法，所以是一款比较特别的游戏。你除了能自己发射子弹外，还能够将敌人的子弹反弹回去。
+
+game: 砖块弹珠台
+file: goindol.zip
+sort-by: 015
+developer: 砖块弹珠台
+publisher: SunA
+genre: SunA
+release: Action
+x-id: ECTV
+description: 有弹珠台元素的打砖块游戏。游戏有100关，另外有16张奖励图片可供解锁。
+
+game: 打砖块飞行台
+file: ghox.zip
+sort-by: 016
+developer: 打砖块飞行台
+publisher: Toaplan
+genre: Toaplan
+release: Action
+x-id: ECTV
+description: 加入了魔幻色彩的打砖块游戏。游戏的故事背景是：在阴谋征服世界的邪恶魔法师贾古拉的咒语下，光明女神露西亚被禁锢在冥界之门。黑暗时代来临，邪灵横行人间。阿库拉帝国的国王吉塔内从东方国家召集了两名魁梧勇敢的人，并命令他们制服贾古拉。
+
+game: 天使奇妙冒险
+file: angelkds.zip
+sort-by: 020
+developer: 天使奇妙冒险
+publisher: SEGA
+genre: SEGA
+release: Action
+x-id: ECTV
+description: Angel Kids 是一款打砖块类型的攀爬游戏，玩家轮流控制两个拿着绳子蹦床的孩子。游戏需要双摇杆操作。目标是把被弹起的小孩送上高空。
+
+game: 射击天蚕变
+file: volfied.zip
+sort-by: 062
+developer: 射击天蚕变
+publisher: Taito
+genre: Taito
+release: Puzzle-Game
+x-id: ECTV
+description: 作为 Taito 1981 年经典作品“Qix”（无颜色天蚕变）的升级版，Volfied 采用了与其前身相同的游戏玩法，但同时升级了图像和游戏中的敌人。游戏中的道具非常丰富，甚至包括射击。
+
+game: 时空小子
+file: horekid.zip
+sort-by: 125
+developer: 时空小子
+publisher: Nichibutsu
+genre: Nichibutsu
+release: Action
+x-id: ECTV
+description: “Kid's Horehore Daisakusen”是 Nichibutsu 于 1987 年发布的一款迷宫动作冒险游戏。被卷入23世纪时空迷宫的主角，为了回到现代而奋力逃出各个年代的迷宫。玩家可以使用物品击败敌人，逃离原始时代、江户时代和现代等不同时代。游戏的地图也比较大。游戏有FC版可供游玩。
+
+game: 地狱英雄弹珠门
+file: nitrobal.zip
+sort-by: 142
+developer: 地狱英雄弹珠门
+publisher: Data East
+genre: Data East
+release: Shooter
+x-id: ECTV
+description: 未来派、速度和激情的垂直动作游戏，它是一种“Smash T.V.”在弹球环境中。
+
+game: 出气筒
+file: scudhamm.zip
+sort-by: 149
+developer: 出气筒
+publisher: Jaleco
+genre: Jaleco
+release: Fight
+x-id: ECTV
+description: 一款绝对疯狂的剪刀石头布游戏，获胜后将直接攻击对手。
+
+game: 烈焰陷阱
+file: firetrap.zip
+sort-by: 161
+developer: 烈焰陷阱
+publisher: Data East
+genre: Data East
+release: Action
+x-id: ECTV
+description: 爬上燃烧的摩天大楼，躲避掉落的砖块、汽车、玻璃和障碍物，营救被困在里面的人。同样是双摇杆操作。
+
+game: 赛车迷宫
+file: mofflott.zip
+sort-by: 196
+developer: 赛车迷宫
+publisher: Taito
+genre: Taito
+release: Action
+x-id: ECTV
+description: 游戏是典型的迷宫冒险游戏——这类游戏的代表作应该是吃豆人。本作有着类似的规则，需要玩家操作小汽车穿越高楼林立的城市收集钥匙。游戏相对复杂，但游戏中的规则都很容易理解。玩家的汽车可以开往任意方向，还可以原地180度掉头。
+
+game: 摇滚舞台4
+file: rockn4.zip
+sort-by: 204
+developer: 摇滚舞台4
+publisher: Jaleco
+genre: Jaleco
+release: Rhythm, Various, Music and Dance
+x-id: ECTV
+description: Jaleco 的 Rock'n 系列节奏游戏中的第四款正代作品，发布时间介于双人游戏Rock'n MegaSession和唯一的家用机版 Rock'n MegaStage 之间。演奏者随着乐器（可从吉他、贝斯和键盘中选择）及时按下按键，同时随着鼓及时踩下脚踏板。在 MAME 中，这被模拟为简单地按下两个按钮。这是 Rock'n 系列的最后的街机版本，因为 Jaleco 就游戏与 beatmania 系列的相似性问题被Konami提起诉讼。这迫使他们从街机市场撤回了所有游戏板。
+

@@ -1,0 +1,226 @@
+collection: 飞机街机
+sort-by: 005
+extensions: 7z, zip
+ignore-files: 
+  coh1000t.zip
+  segabill.zip
+  stvbios.zip
+  konamigx.zip
+  coh1002v.zip
+  aleck64.zip
+  hd44780_a00.zip
+  m1comm.zip
+  model1io.zip
+  model1io2.zip
+  namcoc67.zip
+  namcoc68.7z
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/mame_libretro.dll" "{file.path}"
+
+game: 兵蜂3
+file: tbyahhoo.zip
+sort-by: 157
+developer: 兵蜂3
+publisher: Konami
+genre: 2
+x-id: MAME FLY
+description: 双蜜蜂 Yahho！与德塔纳不同！！ TwinBee 在于玩家可以在开始游戏前调整自己的游戏风格以适应自己的喜好。玩家首先在三种难度设置之间进行选择：练习、普通和特殊。练习课程是游戏中最简单的设置，只持续三个阶段，而特殊课程是最难的设置，推荐给专家玩家。然后玩家将在四种不同的充电射击之间进行选择。来自 Detana 的常规冲锋！ TwinBee 是可选的，还有一个 Charge Punch、一个 Charge Split（这将使玩家的飞船发射自己的副本）和一个同时向八个方向发射的 Charge Explosion。然后，玩家将在两种控制方式之间进行选择：一种是用一个按钮开枪并用第二个按钮投掷炸弹，而另一种方式是用一个按钮同时射击和投掷炸弹（可以使用任何一个按钮）。与之前的 Twin Bee 游戏一样，有两种能量提升：从天空获得的铃铛能量提升和可以从摧毁地面敌人中取回的地面能量提升。这次铃铛最多可以更改为六种颜色（黄色、蓝色、白色、绿色、红色和粉色），每种颜色都具有独特的属性。 GwinBee 返回以及一个加电项目，以及可以与 GwinBee 或其他玩家一起执行的双重攻击。
+
+game: 镭射风暴
+file: raystorm.zip
+sort-by: 208
+developer: 镭射风暴
+publisher: Taito
+genre: 2
+x-id: MAME FLY
+description: Taito于1996年出品的3d纵版飞机游戏。Taito当初就凭借这个游戏拿走了最佳游戏鉴赏奖项，结果SEGA的VF3被挤下而只落个画面奖，足见这个空战stg作品的魅力。游戏的选材，前半部分星球篇做的有点拖沓，但是后面的太空大战做的十分的过瘾，真有种当年星球大战的感觉，游戏中自己就成了指挥关，很有完成一个宏大任务的成就感。游戏中战机那煞有其事的跟踪导弹系统，虚拟设计的等高线效果，这些逼真的视觉效果都是TAITO为制作这款纵版性质的stg作品而专门设计的。游戏的场景宏大，气势磅礴，虽然兵种设置的很稀疏。难度不是太大，那些炮台，战斗机感觉都比较脆弱，倒是Boss，虽然攻击方式很多，个体庞大，但是感觉对于Boss，摧毁他需要几个来回，而且很耗时间，但是战斗时的紧张感体现的并不强烈，表现的并不连贯，剧情还是有点拖沓的。但是这款游戏带给我们的视觉享受还是比较"震撼"的，第一关的城市高空，俯视城市全景的感觉很过瘾，还有海洋关，突然俯冲到甲板上，感觉在看一部空战片。
+
+game: 苍穹红莲队
+file: sokyugrt.zip
+sort-by: 209
+developer: 苍穹红莲队
+publisher: Raizing
+genre: 2
+x-id: MAME FLY
+description: 《苍穹红莲队》（日语：蒼穹紅蓮隊）是由Raizing于1996年发布的纵版飞机游戏，这是一款飞机游戏名作。游戏的画面在当时来说异常华丽，手感非常好。此游戏的独特之处是不使用传统3:4的卷轴射击游戏显示比例，而是使用4:3的垂直显示比例。玩家要从三架战队中颜色分别为红、绿、蓝的战机中选择一架操控，而每架战机分别有自己的机师、发弹模式和导弹系统。每架战机都有一部标准枪和炸弹，但战机最独特的地方是其雷射网：能瞄准雷射网覆盖范围内的敌人并以雷射或导弹攻击之。每部战机均有独特的外形和装备，例如每部战机独特的雷射网。这款游戏后来被移植到ss和ps主机。
+
+game: 闪亮银枪
+file: rsgun.zip
+sort-by: 211
+developer: 闪亮银枪
+publisher: SEGA
+genre: 2
+x-id: MAME FLY
+description: 1998年，街机厅中的玩家们依然有很多STG的新作可以玩。比如彩京推出GUNBIRD的第二部，这是一款将老派规则与弹幕溶合在一起的漂亮作品；CAVE则拿出了ESP，这部作品后来渐渐演化为将消除弹幕与赚分系统溶合在一起的ESPGALUDA系列。除此之外，像8ING和SUIBI这样的厂商也在不断努力。但这一切都比不上一家新锐制作组的参与，那就是财宝（TREASURE），他携《闪亮银枪》杀将而来，并且重新组装了人的思维。主制作人前川正人的TREASURE（财宝）公司的名字在MD时代就为广大玩家所熟悉，这家传闻是由KONAMI名作《月风魔传》的制作组自立门户而成的公司曾是世嘉的忠实盟友，在MD上推出了大量的经典名作（如：《火枪英雄》），在SS上也有着不俗的表现。在加入了ESP联盟后，TREASURE也开始向更多的平台发展，N64版“麻烦制造者”就是该厂第一个非世嘉硬件的作品，而本作更是该厂的第一款街机作品！刚刚初上手的STG迷们，会被《闪亮银枪》的宏伟场景与音乐所震撼，参与本作音乐制作的就是大名鼎鼎的崎元仁，然后又就会在游戏缓慢之极却紧张无比的节奏中被压得喘不过气来。《闪亮银枪》将STG旋风般的速度给颠覆了，它从另一个角度入手，把人们急功近利的坏脾气安抚了下来。而游戏所诠释的那种诡异而神奇的科学幻想色彩，也因为缓慢的节奏而升华了。玩游戏的过程就像是在寻找谜题的答案，玩家一开始便进入了第六关，而后的关卡全部都是杂乱安置的（当然这完全是有理由的）。然后就会发现，原来游戏是一个巨大的环状结构的剧情，结束又代表着新的开始。那些令人印象深刻的BOSS形象也是无与伦比的，在近一个半小时的流程中不断地带来新的感官刺激。而最终面对一切事件的元凶STONE-LIKE的时候，没有人不对它产生敬畏之情，因为它所体现出的无与伦比的美感（自身的形态变化演示出了生命进化的历程），就像是宇宙精神的象征。可以毫不夸张地说，《闪亮银枪》是有史以来最具艺术气质的射击作品，以后也很难有作品能超越它。土星版比街机的流程更长，理应是最佳而唯一的版本。
+
+game: 守护坦克
+file: grdforce.zip
+sort-by: 213
+developer: 守护坦克
+publisher: Success
+genre: 2
+x-id: MAME FLY
+description: Success于1998年制作的一款纵版飞机游戏。这款游戏和其它纵版飞机游戏比非常有特色，因为它除了可以向上方射击外，还可以操纵炮塔左右回旋向不同的方向射击子弹。但是，这种操作比较复杂，可能要适应一下，上手难度比较高。A：炮塔旋回(左)  B：普通射击  C：炮塔旋回(右)   A+C：保险(不同火力的保险也不同)
+
+game: 超凤凰号
+file: megaphx.zip
+sort-by: 223
+developer: 超凤凰号
+publisher: Dinamic / Inder
+genre: 2
+x-id: MAME FLY
+description: 金属鸟再次攻击。与 Megaphoenix 一起飞行，巨大的有翼飞船装载着致命的质子蛋。你不再是手无寸铁的：你的力量盾牌由侧面枪支和正面涡轮增压器补充......但你仍然需要银河系中最好的飞行员的经验。
+
+game: 星际战士
+file: starsldr.zip
+sort-by: 224
+developer: 星际战士
+publisher: Hudson
+genre: 2
+x-id: MAME FLY
+description: 在 2098 年，人类遭到来自 Zeograd 的军事力量的严重攻击，Zeograd 是一个遥远星系中的敌对行星。特种拦截空军 (SIA) 指挥官帕克·迪汉决定部署并驾驶 F98 星际战士战斗机进入与 Zeograd 作战的前线。战败，意味着人类的灭亡，地球的灭亡！
+
+game: 大流士G
+file: gdarius2.zip
+sort-by: 234
+developer: 大流士G
+publisher: Taito
+genre: 3
+x-id: MAME FLY
+description: Taito在1997年出品的大流士系列第一次3D化的作品。场景可以说是异常的大气磅礴，3D场景的收放切换在这款作品中得到很不俗的表现，给人以强烈的视觉冲击，而且Boss的攻击设定上，看的Taito为这款作品付出的心血之大，Boss都是些十分庞大的生物，3D效果的应用让这些Boss活灵活现的展现在我方机体面前，我方机体呈蚂蚁状态，而且几乎Boss身上每个方位都有着各自的攻击方式，所以能和这样的Boss以步骤推进处理方式似的对决，感觉就是一个"爽"字。再说游戏流程，关于操作系统和武器的装备上和太空巡航舰有点象，特点在于可以吸收敌人作为自己的武器.就关卡而言，可以说给人一种"桃源处处在"的感觉，穿山涉水，上天下地，无所不钻啊，大多时候呈层层深入基地状态，而且兵种也是往往以空间的迂回方式与你战斗的。游戏中每个场景下都有对应着我方机体的状态，比如上大气层那里，机体呈45度的仰冲兼攻击状态，可以说展现出了比较完美的空战视角.游戏每过一关要选择前进的关卡，中途又有区域选择，所以在内容上还是非常丰富的。总之"大气"感是我对这款作品最简单的评价，场景的叠换让人应接不暇，加上多方位攻击方式的应用让我感觉到:"这才叫真正的第2视角空战游戏"，所以说这款游戏绝对不能错过。这个游戏的ver2版本有初心者模式，子弹可以按住连发。A射击   B捕获球  C连射  α光束 捕获敌人后，按住A再松开(可连打_A增加威力)  爆炸 捕获敌人后，按B(一段时间无敌)。
+
+game: 空间战机 汉化版
+file: megablstj.zip
+sort-by: 239
+developer: 空间战机 汉化版
+publisher: Taito
+genre: 3
+x-id: MAME FLY
+description: 盛大汉化版
+
+game: 杀虫战记 汉化版
+file: insectx.zip
+sort-by: 241
+developer: 杀虫战记 汉化版
+publisher: Taito
+genre: 3
+x-id: MAME FLY
+description: 盛大汉化版
+
+game: 宇宙巡航机4 复活
+file: gradius4.zip
+sort-by: 247
+developer: 宇宙巡航机4 复活
+publisher: Konami
+genre: 3
+x-id: MAME FLY
+description: 呼出RA选单，选取载入游戏跳过开头自检，就能正常游戏。或者进入游戏后按F2进入service mode，设置时间后再按开始键返回游戏即可正常运行。
+
+game: 宇宙巡航机 Vs.
+file: vsgradus.zip
+sort-by: 248
+developer: 宇宙巡航机 Vs.
+publisher: Nintendo
+genre: 3
+x-id: MAME FLY
+description: 《VS. GRADIUS》是KONAMI于1986年发售的一款射击游戏。控制 VIC VIPER 摧毁入侵的宇宙力量 BACTERIAN 并拯救 GRADIUS 星球。使用激光和其他选项等动力舱增强您的机器，并在所有七个独特而激动人心的阶段中一路杀出一条血路！
+
+game: 沙罗曼蛇2
+file: salmndr2.zip
+sort-by: 251
+developer: 沙罗曼蛇2
+publisher: Konami
+genre: 3
+x-id: MAME FLY
+description: 沙罗曼蛇2是Konami 1996年发行的横版射击游戏。它是沙罗曼蛇街机版(1986)的直接续作，它是宇宙巡航机系列的衍生产品。游戏玩法包括击落敌人、收集道具以及避免与射弹或障碍物碰撞。
+
+game: 极上沙罗曼蛇
+file: fantjour.zip
+sort-by: 253
+developer: 极上沙罗曼蛇
+publisher: Konami
+genre: 3
+x-id: MAME FLY
+description: 极上沙罗曼蛇是款比较恶搞Q版飞行射击街机游戏，里面根据游戏小说而制作的游戏，在小说里面的生物全变成了精英怪和BOSS，游戏四面八方都有敌人，如果碰到危险你可以放个防护罩或者使用全屏的必杀技来保护自己。游戏刚开始是没有防护罩和全屏必杀技的，可以通过打怪得到。《性感沙罗曼蛇》、《Q版沙罗曼蛇》《极上沙罗曼蛇》的画风都是差不多的，玩法也是非常接近的，综合了KONAMI铃铛(黄铃铛、蓝铃铛、红铃铛、绿铃铛、紫铃铛、白铃铛)和胶囊的玩法，非常刺激。
+
+game: 性感沙罗曼蛇
+file: sexyparo.zip
+sort-by: 254
+developer: 性感沙罗曼蛇
+publisher: Konami
+genre: 3
+x-id: MAME FLY
+description: 性感沙罗曼蛇 - Sexy Parodius是KONAMI出品的一款非常搞笑的飞机游戏，可选人物非常多且1P和2P的造型不同，关卡设计的十分丰富且很有创意，游戏中每关都有任务，完成与否都决定着关卡流程，全部完成任务通关的话会进入隐藏关，游戏的敌人设计的非常搞笑，尤其是那个顶着抽水马桶的企鹅。既然这款游戏叫《性感沙罗曼蛇》，那肯定游戏中会有不少的福利喽！游戏场景中会出现很多有意思的画面，敌兵中也有不少身材超棒的妹子。有的坐着鱼缸就出来了、有的正在沐浴，还有一些仙女一般的女孩出现，被打之后就会变得花容失色。游戏中的关卡非常怪异，每个人玩到的关卡都有可能不同的。包括玩家在期间挑战是否成功，每个人物遇到的关卡也会有所调整。因此玩家们也觉得奇怪，为什么和别人玩到的关卡不一样，就是这个原因。游戏中的任务包括：收集300金币、打败200个小仙女、消灭100老鼠、解救50名被装箱的少女、摧毁10辆挖掘机、收集300金币。
+
+game: 棉花小魔女2
+file: cotton2.zip
+sort-by: 263
+developer: 棉花小魔女2
+publisher: Success
+genre: 3
+x-id: MAME FLY
+description: Success于1997年推出棉花小魔女的街机版续作，是棉花小魔女系列第4款游戏。该作为横版飞机游戏，并加入了远近的设定。游戏增加新人物亚普莉（APPLI），可以玩两人游戏。魔法种类也从二种增加为四种（炎冰风光），和采生命与可以把东西抓起来丢（包括怪物、连锁球、自己人），以及有“指令射击”和“连爆”二个系统。
+
+game: 棉花小魔女 回旋镖
+file: cottonbm.zip
+sort-by: 264
+developer: 棉花小魔女 回旋镖
+publisher: Success
+genre: 3
+x-id: MAME FLY
+description: Success于1998年推出棉花小魔女的街机版新作。这款游戏的声音模拟得不是很完美，时常听到爆音。它算不上一款真正意义上的续作——因为它的所有敌兵几乎都和棉花小魔女2一摸一样，关卡设计也只是简单地变了变。但是整个游戏的架构经过了彻底改进。开始，你共有八名角色可选——三个Cotton的变体，三个Appli的变体，还有Appli的魔法帽Needle和女精灵Silk。每名角色都有自己特有的攻击方式，强力攻击的释放条件也不再受任何限制，这大大加强了你的火力。不过，主角的生命槽被去掉了，也就是一条命就只能挨一下。你可以在各个角色间来回切换(切换次数有限)，每一次切换都会引发一次大爆炸，威力类似于炸弹.经验值槽也没有了，你只要迟到一颗黄色水晶就能自动升级。两位新角色Silk与Needle的体积比两位巫女要小得多，因此躲避炮火变得容易得多。但反过来说，在全屏混乱的情况下，你也很容易丢失两个小不点的具体位置.由于没了生命槽，对密封球的利用不再显得那么重要，但它依然是你取得高分的捷径。尽管画面部分基本上与棉花小魔女2一样，但不少背景都是经过重绘了的，因此显得更加漂亮。某些场景也有所变化，比如第二关就从黑夜改为了白天.剧情画面也被Cotton的一些高分辨率照片取代。
+
+game: 中东战争 汉化版
+file: silkworm.zip
+sort-by: 277
+developer: 中东战争 汉化版
+launch: "{env.appdir}\RetroArch\retroarch.exe" -L "{env.appdir}\RetroArch\cores\mame2003_plus_libretro.dll" "{file.path}"
+publisher: Tecmo
+genre: 3
+x-id: MAME FLY
+description: 盛大汉化版
+
+game: 太阳突击队
+file: slrassltj.zip
+sort-by: 329
+developer: 太阳突击队
+publisher: Konami
+genre: 6
+x-id: MAME FLY
+description: 游戏玩法类似于星际火狐等其他 3D 射击游戏，玩家只能水平和竖直移动。与 Gradius 系列中的其他游戏一样，没有健康栏，这意味着一击就会死亡；然而，这一次玩家可以收集一个“盾牌”能量提升，它可以在船只被摧毁之前承受一击或两击。另一个主要的游戏变化是调整速度的能力，这是避免某些障碍和敌人所必需的。
+
+game: 皇牌空战 22
+file: airco22b.zip
+sort-by: 330
+developer: 皇牌空战 22
+publisher: Namco
+genre: 6
+x-id: MAME FLY
+description: “皇牌空战”的续集，具有更好的图像。
+
+game: 星球大战
+file: swa.zip
+sort-by: 331
+developer: 星球大战
+publisher: Sega
+genre: 7
+x-id: MAME FLY
+description: Star Wars Arcade 是一款出色的 3D 射击游戏，适用于一到两个玩家，改编自 1977 年的同名传奇电影。在双人游戏中，一名玩家扮演飞行员的角色，他控制战舰的速度和方向，并且只能向屏幕中央射击。第二个玩家扮演“枪手”的角色，可以瞄准屏幕上更大的区域。
+
+game: 机翼之战
+file: wingwar.zip
+sort-by: 332
+developer: 机翼之战
+publisher: Sega
+genre: 7
+x-id: MAME FLY
+description: Wing War 是一款飞行/战斗模拟游戏。游戏的目标是玩家在飞机上进行正面交锋，试图将其他玩家射出天空。作为早期游戏，采用了类似街头涂鸦和风之杖的动画渲染风，体验起来并不过时。
+
+game: 星际之刃
+file: starblad.zip
+sort-by: 333
+developer: 星际之刃
+publisher: Namco
+genre: 7
+x-id: MAME FLY
+description: 南梦宫于1991发售的一款街机体感模拟飞行射击游戏，原机台机型庞大，相当于一个小展示厂的占地面积。游戏用上了早期的3D多边形建模技术，并带有全息投影显示屏，成为1991年一度人气超过《街头霸王2》的又一神作。（PS：本作有MD移植版）游戏具有 2 个独立的任务；第一个是摧毁“红眼”星球，第二个是消灭敌方舰队和他们的领袖。每当玩家被来袭的火力或敌方物体（如船只、小行星等）击中时，游戏座椅就会振动。 而在操纵杆的顶部有一个开火按钮，在下方玩家拇指所在的位置 - 在外观和感觉上与 Atari 1983 年线框经典游戏“星球大战 (Atari)”中使用的非常相似。
+

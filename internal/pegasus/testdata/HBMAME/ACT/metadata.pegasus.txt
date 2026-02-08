@@ -1,0 +1,363 @@
+collection: 动作街机
+sort-by: 001
+extension: zip, 7z
+ignore-file: wof.zip
+ignore-file: wofch.zip
+ignore-file: captcomm.zip
+ignore-file: dino.zip
+ignore-file: hook.zip
+ignore-file: kov.zip
+ignore-file: kov2.zip
+ignore-file: kovplus.zip
+ignore-file: olds.zip
+ignore-file: oldsplus.zip
+ignore-file: orlegend.zip
+ignore-file: punisherj.zip
+ignore-file: kov2p.zip
+ignore-file: punisher.zip
+ignore-file: zeroteam.zip
+launch: "{env.appdir}/Emulators/HBMAME/Arcade64Luno.ExE" "{file.path}"
+
+game: 名将 无双版HB
+file: captcommc.zip
+sort-by: 004
+developer: 名将 无双版HB
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 无双版敌人数量增多，攻击欲望增强，持有武器的敌人也变多，玩家自身HP也变多。
+
+game: 名将 中文版HB
+file: captcommr1dw.zip
+sort-by: 005
+developer: 名将 中文版HB
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 汉化版，能够看懂剧情。
+
+game: 恐龙新世纪 盗版无限弹HB
+file: dinojd.zip
+sort-by: 021
+developer: 恐龙新世纪 盗版无限弹HB
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 仿制当年街机厅盗版的无限子弹版，但不完全一样。随机出现20发子弹的枪械，实际为无限子弹。主角可能随机出现金色无敌效果一段时间，同时部分物品不能破坏。敌人的攻击力和攻击欲望不像街机盗版那样很高，还是普通版水平。
+
+game: 恐龙新世纪 无双旋风版HB
+file: dinoxe.zip
+sort-by: 022
+developer: 恐龙新世纪 无双旋风版HB
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 恐龙新世纪的无双改版非常多，但大多数都是改出海量的敌兵，难度高到不近人情，只适合高手炫技。这个改版的难度适中，更适合普通玩家爽玩。特点如下：1.敌兵适量增多，boss适量增多。2.飞踢落地时自带炸弹。3.爆出武器和食物很多。4.最关键的是主角放保险时自带连击效果，可以打出非常高的伤害，玩起来也特别有爽快感。因此，这个爽快的无双版，绝对值得你尝试！
+
+game: 吞食天地2 汉化版HB
+file: wofc.zip
+sort-by: 028
+developer: 吞食天地2 汉化版HB
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 有了汉化版，终于可以看懂人物对话和剧情了。
+
+game: 吞食天地2 神将版HB
+file: wofz.zip
+sort-by: 056
+developer: 吞食天地2 神将版HB
+launch: "{env.appdir}/Emulators/wof sjb/wof sjb.bat"
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 作者：Orochiz、怀仁、Axdx、铭扬等，由命运之矢提供cheat。吞食天地神将版是目前街机三国中最好玩的hack。进入游戏前，需要把mamelncpui.exe改成xp sp3兼容模式。作弊方法：游戏中可以按table或手柄的LB+RB呼出MAME，然后开启作弊。另外，进入游戏需先确定作者弹窗。这个改版可使用的新角色有刘备、真·吕布。刘备的招式非常多，还有圆桌武士的动作模组，能够格挡，能放魔法。真·吕布和火凤凰里的废柴吕布比，才是真正拥有吕布的实力，手感上佳，攻击力爆表，招式非常多。另外张飞、赵云等角色也有新加入的大量招式。有些角色头像上方有能量数值（MP），会随着aaaa的普通攻击累积，最高99，抓投攻击不会累积数值，而有些招式需要消耗MP才能发出来，数值不够的话就发不出来。=====张飞  ：（a攻击键  b跳跃键 s开始键  c新增的第四键）（增加几招咕叽咕叽小鸭子发现的招式）远距离抓人    ←↓→+a   对空抓人     ↓↑+c（可抓飞行道具增加mp） 抡拳         ↓↗+a(按住a可追击勾拳) 前冲直拳      ↓↑+a 百烈拳        前冲直拳中 +b 螺旋打桩      ↙↘+a或↘+b中↑+A 阿根廷终极背摔：↙↘+A后再按B或↘+b中↑+A+B 终极背摔第二式：阿根廷终极背摔中↓↑+A 终极背摔第三式：终极背摔第二式下落到抗肩过程中↓↑+AA，AA速度要快。  升龙拳       ↓↑+s 或 aaa三连击中↓↑+a  真升龙拳     ↓↗+s 或 aaa三连击中↓↗+a  消耗10mp、 投弹       ←↓→+s、消耗5MP 重拳         s键 、 下重脚      ↓+s键、 站重踢       c键 或 ↑+b 饿虎扑食      ↘+b 空中下落锤击  前跳↓+ab 空中抓坐  前跳中近敌↓+a   空中抓扑  前跳近敌↘+a.a 空中抓扑  敌人跳跃中 前跳近敌↓+a 空中抓扛  敌人跳跃中 前跳近敌（要很近）↓+a 空中螺旋打桩  敌人跳跃中 前跳近敌↘+a 喷火          ↓↑+b消耗3MP=====赵云 升龙剑      ↓↑+a 前冲升龙剑  ↓↗+a 大砍        ←↓→+a 跳跃攻击1  跳跃中↓+a 跳跃攻击2  跳跃中↑+a 跳跃攻击3  前跳中a 冲撞        ↓+b 冲撞攻击1  冲撞中a 冲撞攻击2  冲撞中→或←+a 冲撞攻击3  冲撞中↓+a 远跳       冲撞中b=====刘备：大砍      ↑↓+a、 升龙剑    ↓↑+a、 前冲升龙剑↓↗+a、 疾走        ↓+b（按住）、 疾走攻击  疾走中按a、 斩影拳    ↓↗+b、 重力踢    ↓↑+b后按a、或抓人后先b后a格挡        ↘+b、 旋风斩  s 消耗10mp 大斩      ↓↑+s  消耗8mp 投弹    ←↓→+s  消耗5mp 大前斩    ↓↗+s  消耗4mp、 火球      ↓↑+ab 消耗3mp=====美冴：会直接死机  美玲： 自动四连击   按住a 疾走         →→ 疾走攻击   疾走中a 脚刀        ↓↑+a 匕首攻击    ↑↓+a（可按住）消耗4攻击MP 旋转匕首    ↓↗+a{按住} 鹰爪脚      跳跃中↓+a 穿云脚      跳跃中→+a、 前踢        跳跃中↑+a、 跳跃三连击  跳跃中按住b不放，然后→或←+a 天女散花        ↓↑+b 消耗8MP（抓人后出招不消耗MP） 前冲天女散花    ↓↗+b 消耗8MP（抓人后出招不消耗MP） （抓人后↑↓+a会死机、捡武器会死机）=====吕布： 大斩       ↑+a或↓+a   挑投      大砍击中时→或← 鞭子攻击   ↓↑+a   上砍       ↓↗+a 下砍       ↑↓+a 上下砍     ↓↗+a后↓+a 前砍       ←↓→+a 重投    近敌←↓→+a 前滚攻击   ↓+b 小跳攻击   ↑+b 跳跃前滚攻击 ↓↑+b 斗气风暴     ↑↓+b 消耗5点MP 前跳撞击↓↗+b 前跳压斩←↓→+b 格挡  按住ab 疾走  方向+s 疾走撞击  疾走中a 疾走上斩  疾走中↑+a 疾走下斩  疾走中↓+a 爆破冲击 ↓↗+s 消耗16点MP 月牙波   ↓↑+s 消耗4点MP 投弹     ←↓→+s 消耗1点MP 挑衅     ↓↑+ab
+
+game: 吞食天地2 铁针版HB
+file: woftz.zip
+sort-by: 057
+developer: 吞食天地2 铁针版HB
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 可选用肥肥中的铁针，同时还可以选择三美进行游戏。铁针的↓↑+A冲撞攻击十分强力。
+
+game: 吞食天地2 三美强化版HB
+file: wofmmws.zip
+sort-by: 058
+developer: 吞食天地2 三美强化版HB
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 三美强化版，连标题都被修改成三美，敌人掉落回复品增多，圣剑增多，三美可使用武器。敌兵数量增多，攻击欲望增强。三美的招式十分丰富，↓+B飞踢后没落地前按↑+A可形成连招，一套打掉大半行血。连续按两下跳加方向可远距离跳跃。擒拿后↓→+A可旋风大坐。
+
+game: 吞食天地2 曹仁强化版HB
+file: wofjxa.zip
+sort-by: 059
+developer: 吞食天地2 曹仁强化版HB
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 使用曹仁的方法，在关羽位置按住↑后选择，敌人数量增多。注意！不要在其他人部位按住↑选人，虽然可以看到能选其他boss，但进入游戏会卡死。敌人掉落回复品多。曹仁不能捡起武器。
+
+game: 吞食天地2 李典强化版HB
+file: wofjxb.zip
+sort-by: 060
+developer: 吞食天地2 李典强化版HB
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 可以直接选用李典。该版本李典非常强大，长矛攻击自带一排地面剑气，杀死敌人后掉落烧猪、大包子等回复品，即使不修改也可以爽玩。李典不能捡起武器。
+
+game: 吞食天地2 宴明强化版HB
+file: wofjxf.zip
+sort-by: 061
+developer: 吞食天地2 宴明强化版HB
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 宴明版加强无双版，直接选宴明，敌兵增多，有boss，宴明比3boss版的宴明多了一个↓↑+A带一排剑气，减少出招破绽。
+
+game: 吞食天地2 张辽强化版HB
+file: wofjxc.zip
+sort-by: 062
+developer: 吞食天地2 张辽强化版HB
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 张辽无双版，选人画面时在关羽位置按住上选人可以使用张辽，进入游戏后是关羽骑马，可以在马上发波，下马就会变成张辽。但张辽动作模组不全，↓↑+A还是关羽的技能。张辽威力很大，可以平A无脑攻击，也可以↓+B狼牙棒冲撞。
+
+game: 吞食天地2 无双强化版HB
+file: wofdwp.zip
+sort-by: 063
+developer: 吞食天地2 无双强化版HB
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 敌人增多。骑马冲刺可带大量剑气，掉落回复品增多，圣剑等武器常见，且落地不消失，玩起来很轻松爽快。
+
+game: 吞食天地2 徐晃强化版HB
+file: wofjxe.zip
+sort-by: 064
+developer: 吞食天地2 徐晃强化版HB
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 徐晃加强无双版，直接选用徐晃。徐晃可骑马，战斗力很强。
+
+game: 吞食天地2 赵威三美版HB
+file: wofjhe.zip
+sort-by: 065
+developer: 吞食天地2 赵威三美版HB
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 可以选用赵家五虎的赵威(新制作人物？)，↓↑+A冲撞攻击十分强力，↓+B冲撞带火烧效果，赵威可以使用投技，名字显示为木槌。还可以选用三美。
+
+game: 吞食天地2 夏侯惇强化版HB
+file: wofjxg.zip
+sort-by: 066
+developer: 吞食天地2 夏侯惇强化版HB
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 可以直接选用李典和夏侯惇，血条加长。夏侯惇比三国英雄传中的废柴夏侯惇厉害多了，↓↑攻击直拳三连击威力强大，↓+B喷火，AB放保险是扔雷，夏侯惇可以骑马，可在马上扔雷。同时这个版本还可以选择李典，李典和之前的单独的李典强化版招式有差别，↓↑+A威力有所削弱，无碎尸效果，但平A长矛戳人伤害很高，↓+B的长矛穿刺攻击很厉害。
+
+game: 吞食天地2 许褚徐晃宴明版HB
+file: wofjxd.zip
+sort-by: 067
+developer: 吞食天地2 许褚徐晃宴明版HB
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 可直接选用许褚徐晃宴明三个boss，徐晃可以骑马。
+
+game: 三国战纪1 快速集气HB
+file: kovss01.zip
+sort-by: 107
+developer: 三国战纪1 快速集气HB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 为117版的快速集气版。
+
+game: 三国战纪1 Plus 完美修复版HB
+file: kovpluswm.zip
+sort-by: 124
+developer: 三国战纪1 Plus 完美修复版HB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 三国战纪119版也叫做三国战纪正宗plus版，早期的版本在模拟器运行下存在一些bug，这个版本是完美修复bug的正常版。该游戏以经典的《三国战纪》题材为背景，且相比于最原始的版本，虽然本作除了在剧情、题材上还是遵循原作的设定以外，还在角色选择上引入了张辽、貂蝉和魔法张飞、白甲黄忠等多位角色。\n--------------------------------------\n修复说明：\n--------------------------------------\n1、真正从ROM解决小兵无敌。\n2.火剑密室、王平密室、冰剑密室、竹林密室可出。\n3.火剑、冰剑10下解封程序修复，和街机原版一样。不再是拣一下就能拣起来。\n4.天师符、时间漏斗图片调用错误修正。\n--------------------------------------\n攻略\n--------------------------------------\n火剑洞里面不用隐身衣就可以捡起来，而且只要一下就够了，虽然被烧一下，但是你的宝物栏已经有火剑了(第二页里面，打开宝物栏然后按下跳)。\n王平洞门口只要选对了选项就行了，选择第二个，洞里面有黄石公、酒壶、鸡腿等。树林守好上面，会有一个人跑过去，记得打一下拦住他，然后撞一下就会掉酒壶，直接打死是没有的。\n冰剑在第一次遇到王平的时候选第二个，然后打完夏侯渊。第二关的时候走下面的通道，进去之后王平在底下喝酒，不要打他，把小兵清完他会带你下去，然后一直往前走过了四个铁马往上面走，走完往左走，千万别往右去否则会被吸进去，到了加七星灯的地方出去之后往右走，下一个到一座桥旁边，别往桥那边走，往桥上面有个不明显的洞，进去之后，打开那扇门，第三个狮子打开是冰剑，诸葛加冰剑时不能打第二个石狮子，否则会定住。\n火剑就是在黄忠捡蝎子前面点有2个箱子，要诸葛亮打开上面一个箱子就可以进去了。记住：要2个人以上才可以进去捡火剑。\n电剑破五行阵，打死吕布即可。破阵方法：每次快速杀死跳或者冲出来的那一个小兵。其中1、2和4波可用诸葛亮火剑2下打死。3、5波需要某人放大招或者放莲花爆镖命中那个小兵后，再打一下即可出现吕布。\n爆剑想要爆剑就得舍弃冰剑。拿到火剑后，在第二关直接砍死王平，后面打死吕布得到电剑和和氏璧。然后打完许褚即可进入荆州城。。。在荆州城第二层2个喷火的上面一堵墙，各有一个突出的砖头，打掉即可进入爆剑密室。
+
+game: 三国战纪1 Plus 降龙版HB
+file: kovpluss184.zip
+sort-by: 125
+developer: 三国战纪1 Plus 降龙版HB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 可以直接选用吕布，陆逊，曹操，夏侯惇，许褚5名boss。
+
+game: 三国战纪1 Plus 多BOSSHB
+file: kovpluss193.zip
+sort-by: 126
+developer: 三国战纪1 Plus 多BOSSHB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 可选择吕布，曹操，赵云，吕蒙，夏侯惇，许褚，陆逊，王平，貂蝉，孙尚香，且能量最大，敌兵增加。此版本自带快速集气，简化出招。
+
+game: 三国战纪1 Plus 吕布HB
+file: kovpluss125.zip
+sort-by: 127
+developer: 三国战纪1 Plus 吕布HB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 可使用吕布的版本。
+
+game: 三国战纪1 Plus 曹操HB
+file: kovpluss13.zip
+sort-by: 128
+developer: 三国战纪1 Plus 曹操HB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 选择左上角关羽就可以使用曹操。曹操血量很少，另外不要使用↓+B，可能出现显示错误。
+
+game: 三国战纪1 Plus 刘备HB
+file: kovpluss122.zip
+sort-by: 129
+developer: 三国战纪1 Plus 刘备HB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 可使用刘备的版本。
+
+game: 三国战纪1 Plus 陆逊HB
+file: kovpluss126.zip
+sort-by: 130
+developer: 三国战纪1 Plus 陆逊HB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 选择中上的赵云就可以使用陆逊。
+
+game: 三国战纪1 Plus 孟优HB
+file: kovpluss127.zip
+sort-by: 131
+developer: 三国战纪1 Plus 孟优HB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 选择右上的马超就可以使用孟优。选择右上的黄忠可以使用盾牌刀兵。
+
+game: 三国战纪1 Plus 司马懿HB
+file: kovpluss231.zip
+sort-by: 132
+developer: 三国战纪1 Plus 司马懿HB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 选择上方的关羽就可以使用司马懿，一开始不要向右侧跑到最里面，有可能卡在里面出不来。
+
+game: 三国战纪1 Plus 魏延HB
+file: kovpluss136.zip
+sort-by: 133
+developer: 三国战纪1 Plus 魏延HB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 选择中上的赵云就可以使用魏延。
+
+game: 三国战纪1 Plus 夏侯二将HB
+file: kovpluss138.zip
+sort-by: 134
+developer: 三国战纪1 Plus 夏侯二将HB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 选择上方的张飞就可以使用夏侯渊，选择上方的赵云就可以使用夏侯惇。
+
+game: 三国战纪1 Plus 越吉HB
+file: kovpluss128.zip
+sort-by: 135
+developer: 三国战纪1 Plus 越吉HB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 选择左上的关羽就可以使用越吉，越吉是骑马战斗的。越吉的狼牙棒自带击晕效果。
+
+game: 三国战纪2 全角色HB
+file: kov2h11.zip
+sort-by: 143
+developer: 三国战纪2 全角色HB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 启用隐藏角色，无时间限制。
+
+game: 三国战纪2 PLUS 天外神兵HB
+file: kov2p204s54.zip
+sort-by: 144
+developer: 三国战纪2 PLUS 天外神兵HB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 全角色可选，选关界面← ← C C →可无限气，可使用神兵器。
+
+game: 西游释厄传1 金角传说HB
+file: orlegendjj.zip
+sort-by: 148
+developer: 西游释厄传1 金角传说HB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 可以变身成金角大王的改版，非常有意思，推荐玩一玩。选择孙悟空集满气后左右按A变金角大王。本版自带出招简化，原版人物↓↑ A 乾坤波动，←→A小绝招， 金角的出招方式：↓↑ A 乾坤波动共 ↑ ↓A瞬移　↓↘→B连打　↓↘→A葫芦   ↑ ↓B变回孙悟空。有些地方还是要变回孙悟空才行进入下个场景，如第一关跳下悬崖后打败银角大王后，必须变回孙悟空推动佛像才能继续进行游戏。
+
+game: 西游释厄传1 SUPER 简化版HB
+file: oldsl.zip
+sort-by: 155
+developer: 西游释厄传1 SUPER 简化版HB
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 出招 【简化版】乾坤波动功：↑ ↓A   升龙斩：↓ ↑A   元神出窍：←↙↓↘→A（仅部分版本支援），有些版本简化为：↓ ↑B   遁入幻境：↓ ↑ ↓ ↑ ↓ ↑ 【原版】升龙斩（至少第二档气）：→↘↓↘→A（俗称冲天，和街霸中的冲天用法没什么区别）元神出窍（至少第三档气）：→←↙↓↘→A（前后一个正半圆A） 混元功（第四档气）：B↘B  吸血大法：→←→A前后前按住A不放。 遁入幻境（启动条件：属性相克、第四档气）：↖↙↘↗↖↙↘↗↖↙↘（说简单点，就是摇圈圈）乾坤十连斩（第四档气、属性相克）：AC启动，接着按下所对应的十次按键。龙马：ACBACBACBA 小龙女：AABBCCABBB 孙悟空：ABCABCABCA 沙悟净：ACACACBCCC 猪八戒：BBCCAACAAA  在“群魔乱舞”中，乾坤十连斩没有属性限制，所有人物都能出，且输入全部被改为10个A 。
+
+game: 铁钩船长 无双版HB
+file: hookdw.zip
+sort-by: 173
+developer: 铁钩船长 无双版HB
+publisher: Irem
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 这个版本是在日版基础上制作的无双版，难度很大，从第一关开始，就会出现第四关的BOSS，而且不断会有拿着巨棒的巨汉出现。每关的BOSS至少是两个BOSS同时出现，而且不断的会有多个铁钩船长出现。不过同时，我方可以吃的血也比原版要多，所以关键时候要舍得放大招保命。每关的设计，个人觉得都很不错，除了保持难度的同时，还给玩家一种惊喜感，尤其是第三关关底，大家可以看到铁钩船长和海盗女同时出场，而各关的BOSS也不只是在本关底出现，会穿插在每关的关卡中出现，总的来说，这是一个非常难玩的版本，也是一个值得收藏的珍版，无愧于无双版之名！
+
+game: 零组特攻队 1v4HB
+file: zeroteam1v4.zip
+sort-by: 299
+developer: 零组特攻队 1v4HB
+publisher: Fabtek
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 敌兵人数增多，为4打时的敌人数量，关卡流程正常。
+
+game: 零组特攻队 加强版HB
+file: nzeroteamp.zip
+sort-by: 300
+developer: 零组特攻队 加强版HB
+publisher: Fabtek
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 敌兵人数增多，关卡流程改变。增加了敌人数量，部分道具修改，如铁球不会损坏，可以无限次用来砸倒敌人。
+
+game: 零组特攻队 无双版HB
+file: zeroteamdw.zip
+sort-by: 302
+developer: 零组特攻队 无双版HB
+publisher: Fabtek
+genre: Beat-'Em-Up
+x-id: HBMAME
+description: 敌兵人数和血量多，关卡流程正常。
+

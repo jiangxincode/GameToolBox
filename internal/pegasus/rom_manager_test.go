@@ -5,14 +5,16 @@ import (
 	"path/filepath"
 	"strings"
 	"testing"
+
+	"github.com/game_tool_box/internal/pegasus/metadata"
 )
 
 func TestGenerateSelectedFiles(t *testing.T) {
 	root := t.TempDir()
-	games := []GameModel{
-		{Selected: true, GameName: "A", FileName: "a.zip"},
-		{Selected: false, GameName: "B", FileName: "b.zip"},
-		{Selected: true, GameName: "C", FileName: "nested/c.zip"},
+	games := []GameViewModel{
+		{Selected: true, Game: metadata.Game{GameName: "A", FileName: "a.zip"}},
+		{Selected: false, Game: metadata.Game{GameName: "B", FileName: "b.zip"}},
+		{Selected: true, Game: metadata.Game{GameName: "C", FileName: "nested/c.zip"}},
 	}
 
 	res := GenerateSelectedFiles(root, games)
@@ -75,5 +77,20 @@ func TestDeleteRomsNotInConfig_DeletesOnlyMissingInConfig(t *testing.T) {
 	}
 	if _, err := os.Stat(filepath.Join(root, "roms", "B.zip")); !os.IsNotExist(err) {
 		t.Fatalf("expected B.zip deleted")
+	}
+}
+
+func TestGenerateSelectedFiles_UsesFromSlash(t *testing.T) {
+	root := t.TempDir()
+	games := []GameViewModel{
+		{Selected: true, Game: metadata.Game{GameName: "C", FileName: "nested/level/c.zip"}},
+	}
+
+	res := GenerateSelectedFiles(root, games)
+	if res.Created != 1 || len(res.Errors) > 0 {
+		t.Fatalf("expected Created=1 and no errors, got res=%+v", res)
+	}
+	if _, err := os.Stat(filepath.Join(root, "nested", "level", "c.zip")); err != nil {
+		t.Fatalf("expected nested/level/c.zip created: %v", err)
 	}
 }

@@ -1,0 +1,1060 @@
+collection:动作街机
+sort-by:001
+extensions: 7z, zip
+ignore-files: 
+  denjinmk.zip
+  kov2.zip
+  kov2p.zip
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbneo_libretro.dll" "{file.path}"
+
+game: 名将 全屏攻击版
+file: captcommqp/captcomm.zip
+sort-by: 003
+developer: 名将 全屏攻击版
+assets.box_front: media/captcommqp/boxfront.jpg
+assets.logo: media/captcommqp/logo.png
+assets.video: media/captcommqp/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 全屏攻击所有敌人,但是乘坐坐骑和持有武器无全屏攻击效果。
+
+game: 名将 加强版1
+file: captcommjq/captcomm.zip
+sort-by: 006
+developer: 名将 加强版1
+assets.box_front: media/captcommjq/boxfront.jpg
+assets.logo: media/captcommjq/logo.png
+assets.video: media/captcommjq/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 按开始键一两秒后呼出坐骑，此时原来的我方人物会变成敌兵，从天而降骑着坐骑的我方人物。在坐骑上按住开始键一两秒再召唤一辆坐骑变成无敌，按AB键从坐骑跳出。按投币键一两秒可获得武器，每换一次装40颗弹。
+
+game: 名将 加强版2
+file: captcommr1.zip
+sort-by: 007
+developer: 名将 加强版2
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 1v4模式，敌人增多，我方HP加长，可为白色。Baby的大坐由3倍伤害变成了9倍伤害。抓人无限按A不脱手。
+
+game: 龙与地下城1 毁灭之塔 全屏攻击版
+file: ddtodqp/ddtod.zip
+sort-by: 009
+developer: 龙与地下城1 毁灭之塔 全屏攻击版
+assets.box_front: media/ddtodqp/boxfront.jpg
+assets.logo: media/ddtodqp/logo.png
+assets.video: media/ddtodqp/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 全屏攻击所有敌人
+
+game: 龙与地下城2 暗黑秘影 全屏攻击版
+file: ddsomqp/ddsom.zip
+sort-by: 012
+developer: 龙与地下城2 暗黑秘影 全屏攻击版
+assets.box_front: media/ddsomqp/boxfront.jpg
+assets.logo: media/ddsomqp/logo.png
+assets.video: media/ddsomqp/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 全屏攻击所有敌人
+
+game: 龙与地下城2 暗黑秘影 加强版
+file: ddsomud.zip
+sort-by: 013
+developer: 龙与地下城2 暗黑秘影 加强版
+publisher: capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 暗黑秘影加强版基于美版960619修改，伤害数据参照亚洲版，角色语音调用日版声优数据。所以游戏伤害上和亚洲版无异，角色在跌倒、放魔法、魔法道具时，会有日文语音喊出来。为了照顾游戏性，在游戏画面的右下端，有一串数字表示版本号，如：160821字样。字符串后面若再带一个字母（H/C/S/D）则表示其他特殊的游戏模式。\n1.普通模式（进入游戏即为此模式（普通和简易难度也只支持此模式）；LV8难度第1关，1P按住开始键，输入A+B）\n内容：以修复原版Bug为主，增加便利性变通，操作上移除了长按A引起的踢脚。总体内容近似原版，可以作为“方便性的”原版来玩。新手直接上手此模式，此版本新学游戏，是完全可以的。\n2.隐藏模式H（LV8难度第1关，1P按住开始键，输入A+C）\n内容：以娱乐和美化性调整为主，BOSS血条支持分层变色显示，玩家可选4角色多种颜色（按A+B+C），隐藏路线自动激活、快速解封传说剑、物品爆率高等等。此版本适合休闲娱乐，某种程度上比原版还简单些。\n3.速攻模式S（LV8难度第1关，1P按住开始键，输入B+C）\n内容：大幅度调整了游戏路线，每关都有时间限制，沿途补给和魔法恢复也作了很大调整，玩法要求差不多一路冲锋着玩。此版本对游戏内容改变较大。\n4.疯狂模式C（LV8难度第1关，1P按住开始键，输入C+D）\n内容：这就是常说的红C模式，游戏固定为出兵按照4人量出兵，因此敌人的耐久很高，打单会很吃力，适合老手双打。此外，当游戏玩家为3-4人时，游戏难度会大幅度提高，经常出现双BOSS战斗，挑战性较高。如果能够4人一命红C，那么下一轮再玩红C，会在第2关就获得奖励的高级装备。\n5.竞技场模式D（LV8难度第1关，1P按住开始键，输入B+C+D）\n内容：这个为高强度模式，游戏只有最后3关。开始会统一配发高级装备和等级，然后每关都是连续的N个BOSS车轮战，难度较大。
+
+game: 恐龙新世纪 逆天版
+file: dinont/dino.zip
+sort-by: 015
+developer: 恐龙新世纪 逆天版
+assets.box_front: media/dinont/boxfront.jpg
+assets.logo: media/dinont/logo.png
+assets.video: media/dinont/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 这个改版相当于是普通版的魂斗罗版。特点：1. 敌人随机掉落各种物品 2.攻击力锁定最强，轻易秒杀敌人 3.子弹无限且武器落地不消失 4.放保险不扣血。因为是敌人数量正常的普通版本，玩家却拥有逆天的能力，所以玩家完虐电脑。如果觉得难度太过简单，可以不捡地上的武器，只用拳脚攻击，也可以单纯体验到攻击力最高的爽快感。
+
+game: 恐龙新世纪 射击版
+file: dinosj/dino.zip
+sort-by: 016
+developer: 恐龙新世纪 射击版
+assets.box_front: media/dinosj/boxfront.jpg
+assets.logo: media/dinosj/logo.png
+assets.video: media/dinosj/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 子弹修改，UZI每颗子弹都变成了喷枪的，步枪可以一次射出很多喷枪子弹。小手枪一次射出多枚火箭弹，喷枪每次射出一枚火箭弹，巴祖卡一次可以射出两枚火箭弹。UZI和步枪两把武器，子弹像暴雨一样招呼在敌人身上，非常有爽快感。因为我方太过强大，敌人人太少了打得不过瘾，故修改5倍兵力，金手指开启敌人掉落武器，可以爽玩。
+
+game: 恐龙新世纪 速射版
+file: dino burst/dino.zip
+sort-by: 017
+developer: 恐龙新世纪 速射版
+assets.box_front: media/dino burst/boxfront.jpg
+assets.logo: media/dino burst/logo.png
+assets.video: media/dino burst/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 子弹修改，UZI每颗子弹都变成了喷枪的，步枪可以一次射出很多喷枪子弹。小手枪一次射出多枚火箭弹，喷枪每次射出一枚火箭弹，巴祖卡一次可以射出两枚火箭弹。UZI和步枪两把武器，子弹像暴雨一样招呼在敌人身上，非常有爽快感。因为我方太过强大，敌人人太少了打得不过瘾，故修改5倍兵力，金手指开启敌人掉落武器，可以爽玩。
+
+game: 恐龙新世纪 天王版
+file: dinotw.zip
+sort-by: 018
+developer: 恐龙新世纪 天王版
+assets.box_front: media/dino burst/boxfront.jpg
+assets.logo: media/dino burst/logo.png
+assets.video: media/dino burst/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 恐龙新世纪 无双版
+file: dinods.zip
+sort-by: 019
+developer: 恐龙新世纪 无双版
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 无双版有大量敌人，难度很高，适合不喜欢使用速射版和射击版而只喜欢凭技术闯关的玩家。但如果觉得太难打，可以配合cheat例如无敌、无限子弹等效果来降低难度。
+
+game: 恐龙新世纪 无限保险版
+file: dino blood/dino.zip
+sort-by: 020
+developer: 恐龙新世纪 无限保险版
+assets.box_front: media/dino blood/boxfront.jpg
+assets.logo: media/dino blood/logo.png
+assets.video: media/dino blood/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 可以无限放保险
+
+game: 恐龙新世纪 血腥魂斗罗
+file: dinoab/dino.zip
+sort-by: 023
+developer: 恐龙新世纪 血腥魂斗罗
+assets.box_front: media/dinoab/boxfront.jpg
+assets.logo: media/dinoab/logo.png
+assets.video: media/dinoab/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 这个改版是在血腥无双版 敌人暴多)的基础上打了很多效果补丁制作出来的，特点：1.按开始键换角色 2.敌人随机掉落各种物品 3.↓↑+A改为爆炸，跑动+A也会爆炸 4.敌人数量增加，威力减弱 5、玩家血量很多，被攻击很多次都不减血，吃食物有可能会扣血，被攻击有可能会加血 6.攻击力锁定最强，轻易秒杀敌人 7.子弹无限且武器落地不消失 8.放保险不扣血。因此，虽然敌人非常多，但拥有了上述修改效果，可以获得魂斗罗般的爽快射击感，玩的就是一个字——爽！
+
+game: 恐龙新世纪 全屏攻击版
+file: 恐龙快打全屏攻击版/dino.zip
+sort-by: 024
+developer: 恐龙新世纪 全屏攻击版
+assets.box_front: media/dino2/boxfront.jpg
+assets.logo: media/dino2/logo.png
+assets.video: media/dino2/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 全屏无视判断攻击。可以空连，但已经死亡的敌人还会被追打，需要适时停止攻击让敌人落地死亡。怪物数量为3倍，攻击力降低75%。很解压的一顿揍就是了。
+
+game: 吞食天地2 多功能加强版
+file: 4/wofj.zip
+sort-by: 031
+developer: 吞食天地2 多功能加强版
+assets.box_front: media/wofj4/boxfront.jpg
+assets.logo: media/wofj4/logo.png
+assets.video: media/wofj4/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 所有角色下上+A技能加强，形成连击，骑马放技能可召唤赵云。下+B前冲加强。赵云平A嗜血暴力。出招带弓箭，普通攻击和弓箭攻击到敌人时有眩晕效果。
+
+game: 吞食天地2 剑气横飞版
+file: 1/wofj.zip
+sort-by: 032
+developer: 吞食天地2 剑气横飞版
+assets.box_front: media/wofj1/boxfront.jpg
+assets.logo: media/wofj1/logo.png
+assets.video: media/wofj1/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 出大小绝招会伴随剑气，擒拿敌人后下上A会有武器连击效果、剑气或月牙斩，部分人还可召唤赵云升龙剑连击，骑马时可直接连发月牙斩。
+
+game: 吞食天地2 马战无双版
+file: 6/wofj.zip
+sort-by: 033
+developer: 吞食天地2 马战无双版
+assets.box_front: media/wofj6/boxfront.jpg
+assets.logo: media/wofj6/logo.png
+assets.video: media/wofj6/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 这个版本的三国志还是值得一玩的，最大的惊喜是里面最历害的角色居然是黄忠，真的超牛！和原版相比变动如下：\n1、角色下马时，会发出一道光波。\n2、所有的敌人加倍，关底都是双BOSS，很多场景都会多出赵家兄弟和美美姐妹。\n3、黄忠超级加强，黄忠的普通攻击射出的不是箭，而是光波，三连发的时候会射出三道光波，而且攻击力巨大，敌人基本近不了身。\n4、之所以叫马战无双，是因为骑马的时候，用前+跳，马撞人的时候，敌人会少好多血，甚至可以秒杀BOSS。
+
+game: 吞食天地2 无双加强版
+file: 9/wofj.zip
+sort-by: 034
+developer: 吞食天地2 无双加强版
+assets.box_front: media/wofj9/boxfront.jpg
+assets.logo: media/wofj9/logo.png
+assets.video: media/wofj9/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 这是无双的版本，还有以下特点：\n1、基本上每关都有马可以骑，而且骑马转兵器的时候，向前方发出连续火箭。\n2、很多关卡有圣剑或草薙剑，除了第五关挨打会消失外，其余的关卡挨打后剑并不会消失。\n3、晏明为一个常驻小BOSS，基本上在每个关卡都会三三两两的出现。\n4、第七关BOSS是曹操。\n5、很多招式带剑气或连续弓箭。\n6、有些小关卡过了后要下马，否则可能卡关。\n7、赵云平A可嗜血暴力。
+
+game: 吞食天地2 蓝色标题版
+file: wofchls/wofch.zip
+sort-by: 035
+developer: 吞食天地2 蓝色标题版
+assets.box_front: media/wofchls/boxfront.jpg
+assets.logo: media/wofchls/logo.png
+assets.video: media/wofchls/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: CPS替换增强版，本版可直接进入蓝版。出招同夏侯恩的复仇。家用机版在红色“吞食天地”字样出现时，PS版输入R1三角L1框叉圈R1  SS版输入R,Y,L,X,A,B,R 变成蓝色标题。这个版本变成三人模式，奖命分数变30W，出场续币变两命，直接进入里关模式，里关模式时还原红血调色板。特点是2828A可以发特殊必杀，还多了空擒，而且可以空擒地面的敌人，另外收招硬直可以被必杀技取消，大威力连招成为可能，比如关羽抓住敌人打坐落地瞬间输入28a（或2828a），就可以放出必杀，而且这种情况下放必杀是全程无敌的，连最后小跳那一下都无敌。其他人物也有类似的招数改变，蓝色版比普通版有意思多了，敌兵AI也增强了。蓝色版吞2魏延是绝对的最牛逼人物，一套连技一管儿血，而且无敌。抓住敌人扎两刀--跳摔--落地前搓下上下上A出无敌的双剪刀脚，普通小兵甚至像弓箭手或肥肥这样的有时都能秒杀。注意加强版必杀技只有赵云的是全程无敌，关羽魏延黄忠的必须在取消收招时才无敌。张飞的加强必杀技是近身摇杆两圈，一般在冲拳击中敌人后迅速输入就能接上，威力巨大。除了超必杀连携和无责任空擒外，不易落马也是很有意思的一点，比如让淳于导骑上马，然后引到柴草垛那里，基本就可以直接用拳脚活活屈死；反过来，自己骑马把淳于导引导柴草垛那里，连打A也可以活活屈死。
+
+game: 吞食天地2 三剑圣版
+file: wofa3js/wofa.zip
+sort-by: 036
+developer: 吞食天地2 三剑圣版
+assets.box_front: media/wofa3js/boxfront.jpg
+assets.logo: media/wofa3js/logo.png
+assets.video: media/wofa3js/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 这是三剑圣具有正版音乐和音效的版本。
+
+game: 吞食天地2 三剑圣盗版
+file: wof3jsa.zip
+sort-by: 037
+developer: 吞食天地2 三剑圣盗版
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 这是安卓可以玩的版本。这是当年街机厅原汁原味的盗版音效的三剑圣，按开始键可换人，武器自带剑气。如果觉得圣剑或草薙容易掉落消失，可以呼出RA的老金，在选项的最后一项“cheat”里开启作弊。
+
+game: 吞食天地2 超级加强版
+file: wof超级加强版/wofj.zip
+sort-by: 038
+developer: 吞食天地2 超级加强版
+assets.box_front: media/wof超级加强版/boxfront.jpg
+assets.logo: media/wof超级加强版/logo.png
+assets.video: media/wof超级加强版/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 这是一个集合众多优秀补丁的改版，安卓可以玩，是必须要玩的版本！效果如下：1.敌人数量增多（不是无双版那种，而是3人游玩模式，适量增多），开启方法，在看到吞食天地字样前的版权画面，按住开始键，听到曹仁防御攻击的音效就可进入3人模式。2.无限时间，再也不会因为打boss时间不够而死命了。3.部分情况下攻击力2倍。4.随时马战：无马状态时按一下开始键，马匹附身，攻击一下贴图正常。适合喜欢马战的玩家挑战全关卡。5.青龙斩：所有人骑马时，按跳可出青龙斩光波。黄忠射箭变青光斩，连射是蓝色的寒冰斩。6.关羽↓→A或 ↓↘A距离很远就能擒拿，出现新增招式螺旋大坐，攻击力暴涨3倍，抓住敌人时也能使出。7.张飞吸血鬼：张飞捉住敌人时，↓+A吸血可补血，当体力低于1/3时，吸血速度超快。8.张飞无限大坐：张飞捉住敌人时，使用方向键+跳打出现大坐时，此时持续按住方向键或攻击键，变成无限连的螺旋大坐。注意：此时接触到第二个敌人时会把第二人裹进去，第一个被大坐的敌人扣血停止，而第二个敌人会死亡（补丁打太多造成的效果）。9.赵云强化暴力：赵云平A自动形成连击可以快速秒人。升龙威力大涨，一个可打掉60%的血，落地带火烧效果，降低收招破绽。跑步变成冲刺剑。10.武器落地不消失。11.魏延没有合适的修改，但是可以金手指使用草薙剑爽玩。
+
+game: 吞食天地2 圣剑版
+file: 8/wof3jsa.zip
+sort-by: 039
+developer: 吞食天地2 圣剑版
+assets.box_front: media/wofj8/boxfront.jpg
+assets.logo: media/wofj8/logo.png
+assets.video: media/wofj8/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 圣剑版的几大特点：\n1、拿圣剑或者草薙的时候，搓招下右上+a，就能发出月牙斩，不过很难发出。 \n2、草薙砍人只能砍掉半管血。剑气为蓝色。\n3、游戏是盗版音效。
+
+game: 吞食天地2 飞刀版
+file: 13/wofj.zip
+sort-by: 040
+developer: 吞食天地2 飞刀版
+assets.box_front: media/wofj13/boxfront.jpg
+assets.logo: media/wofj13/logo.png
+assets.video: media/wofj13/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 攻击会伴随飞刀出现，但飞刀飞行速度很慢，飞刀攻击力很高，为锤击效果，能将敌人碎尸。
+
+game: 吞食天地2 许褚版
+file: 11/wofj.zip
+sort-by: 041
+developer: 吞食天地2 许褚版
+assets.box_front: media/wofj11/boxfront.jpg
+assets.logo: media/wofj11/logo.png
+assets.video: media/wofj11/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 许褚平A可以放出很多月牙斩，下上+A大坐，下+B翻滚带剑气，非常强力。
+
+game: 吞食天地2 曹仁版
+file: wof曹仁/wofj.zip
+sort-by: 042
+developer: 吞食天地2 曹仁版
+assets.box_front: media/wof曹仁/boxfront.jpg
+assets.logo: media/wof曹仁/logo.png
+assets.video: media/wof曹仁/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 这是安卓可以玩的版本，在关羽处按上+A选择曹仁，其他武将上面按上+A死机。加入之前没有的保险和逃命技能：大跳。开始键冲刺，加方向是斜冲刺。BUG:选过曹仁，死亡之后中途投币换人死机，这个是因为其余4人没有加BOSS的缘故。水关没有链锤，原因是链锤的色块定义没有分水上水下的缘故。对战关无法使用链锤，对战关没有跳过，无视即可。
+
+game: 吞食天地2 弓箭版
+file: wof弓箭/wofj.zip
+sort-by: 043
+developer: 吞食天地2 弓箭版
+assets.box_front: media/wof弓箭/boxfront.jpg
+assets.logo: media/wof弓箭/logo.png
+assets.video: media/wof弓箭/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 这是安卓可以玩的版本。移动的时候自带连射弓箭，如果按住A移动，弓箭更加连续。被弓箭射中的敌人几乎都能被秒杀，并且被射爆。是一个爽快的改版，可以尝试玩玩。
+
+game: 吞食天地2 降龙版
+file: wof降龙/wofj.zip
+sort-by: 044
+developer: 吞食天地2 降龙版
+assets.box_front: media/wof降龙/boxfront.jpg
+assets.logo: media/wof降龙/logo.png
+assets.video: media/wof降龙/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 这是安卓可以玩的版本，可释放青龙斩光波的版本。boss血量非常多，打了半天看不到明显减少，但是玩起来很爽快，可以配合金手指玩，更加爽快。
+
+game: 吞食天地2 李典版
+file: wof李典/wofj.zip
+sort-by: 045
+developer: 吞食天地2 李典版
+assets.box_front: media/wof李典/boxfront.jpg
+assets.logo: media/wof李典/logo.png
+assets.video: media/wof李典/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 这是安卓可以玩的版本，选择关羽即可使用李典。这个版本的李典不带剑气，平A攻击就很强力，↓+B穿刺，↓↑+A飞踢。
+
+game: 吞食天地2 达人版
+file: wofjdr.zip
+sort-by: 047
+developer: 吞食天地2 达人版
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 每一关增加很多强力敌兵，包括boss，但不全都是boss，不是最变态的那种版本，相对全boss版，难度适中。
+
+game: 吞食天地2 达人斗志版
+file: wofjdrdz/wofjdr.zip
+sort-by: 048
+developer: 吞食天地2 达人斗志版
+assets.box_front: media/wofjdrdz/boxfront.jpg
+assets.logo: media/wofjdrdz/logo.png
+assets.video: media/wofjdrdz/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 每一关增加很多强力敌兵，包括boss，但不全都是boss，不是最变态的那种版本，相对全boss版，难度适中。
+
+game: 吞食天地2 达人2020版
+file: wofdr2020.zip
+sort-by: 049
+developer: 吞食天地2 达人2020版
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 每一关增加很多强力敌兵，包括boss，但不全都是boss，不是最变态的那种版本，相对全boss版，难度适中。
+
+game: 吞食天地2 晕锤拳版
+file: 12/wofj.zip
+sort-by: 051
+developer: 吞食天地2 晕锤拳版
+assets.box_front: media/wof晕锤拳/boxfront.jpg
+assets.logo: media/wof晕锤拳/logo.png
+assets.video: media/wof晕锤拳/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 这是安卓可以玩的版本。每个人的攻击都具有晕锤属性，↓+B或↓↑+A一次出招，因为敌人被持续打晕硬直，可以伤害大半血量。玩起来很爽快。
+
+game: 吞食天地2 夏侯惇无双版
+file: 10/wofj.zip
+sort-by: 053
+developer: 吞食天地2 夏侯惇无双版
+assets.box_front: media/wofj10/boxfront.jpg
+assets.logo: media/wofj10/logo.png
+assets.video: media/wofj10/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 非常罕见，也非常好玩的一个版本。游戏把选人画面中的关羽和张飞换成了李典和夏侯惇。不过这个版的主角始终是夏侯惇，这个版本的独眼要比三国英雄传中的夏侯惇要好玩得多。首先夏侯惇在很多关都可以骑马，非常的有意思。而且夏侯的向前冲拳的威力很大，并且在这版中，夏侯惇还可以像原版角色一样在出拳的过程中把敌人摔过去，出拳的速度也快了很多，这也更加增强了游戏的乐趣。游戏中最经典的画面，莫过于第二关的关底，三个夏侯惇同屏！\n夏侯惇出招：\n↓↑A：冲拳\nA+B：扔炸弹\n↓+B：吐火。
+
+game: 吞食天地2 张飞冲拳飞箭版
+file: 2/wofj.zip
+sort-by: 054
+developer: 吞食天地2 张飞冲拳飞箭版
+assets.box_front: media/wofj2/boxfront.jpg
+assets.logo: media/wofj2/logo.png
+assets.video: media/wofj2/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 出招会伴随弓箭出现，张飞冲拳持续时间大大延长。
+
+game: 吞食天地2 全屏攻击版
+file: wof.zip
+sort-by: 055
+developer: 吞食天地2 全屏攻击版
+assets.box_front: media/wof/boxfront.jpg
+assets.logo: media/wof/logo.png
+assets.video: media/wof/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 全屏攻击所有敌人
+
+game: 圆桌骑士 乱步版
+file: knightslb/knights.zip
+sort-by: 070
+developer: 圆桌骑士 乱步版
+assets.box_front: media/knightslb/boxfront.jpg
+assets.logo: media/knightslb/logo.png
+assets.video: media/knightslb/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 可以根据画面显示的乱步值打宝。\n宝物通用出宝乱步值 红绿震、绿杖、1UP、2UP)\n当现在的乱步值个位数为0时，开相应的箱子就会打出相应的宝物，如开400分箱 有敌人在场时)，就会出红震，开800分箱，就会出绿杖。当红兵滚的时候，当前的乱步值个位数为0，总共有16个可能，如果此时开400分箱的话，因此当乱步值为00、30、50、60、90、A0、C0、F0这8个值的其中一个时就能打出红震，所以在红兵滚的时候出400分箱就有8/16机率，即50%的机率打出红震来。
+
+game: 圆桌骑士 强化版
+file: knightsp/knights.zip
+sort-by: 071
+developer: 圆桌骑士 强化版
+assets.box_front: media/knightsp/boxfront.jpg
+assets.logo: media/knightsp/logo.png
+assets.video: media/knightsp/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 快速升级，同时下方显示乱步值。保险几乎不扣血。
+
+game: 圆桌骑士 全屏攻击版
+file: knightsqp/knights.zip
+sort-by: 072
+developer: 圆桌骑士 全屏攻击版
+assets.box_front: media/knightsqp/boxfront.jpg
+assets.logo: media/knightsqp/logo.png
+assets.video: media/knightsqp/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 全屏攻击所有敌人。
+
+game: 惩罚者 降龙版
+file: punisherxl/punisher.zip
+sort-by: 074
+developer: 惩罚者 降龙版
+assets.box_front: media/punisherxl/boxfront.jpg
+assets.logo: media/punisherxl/logo.png
+assets.video: media/punisherxl/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: ↓↑+攻击可以施放多个刀光，保险可以施放多个刀光，前滚中+攻击+跳技能可以施放大量刀光。注意，可能死机。
+
+game: 惩罚者 全屏攻击版
+file: punisherqp/punisher.zip
+sort-by: 076
+developer: 惩罚者 全屏攻击版
+assets.box_front: media/punisherqp/boxfront.jpg
+assets.logo: media/punisherqp/logo.png
+assets.video: media/punisherqp/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 全屏攻击所有敌人
+
+game: 惩罚者 无双加强版
+file: punisher/punisher.zip
+sort-by: 077
+developer: 惩罚者 无双加强版
+assets.box_front: media/punisher2/boxfront.jpg
+assets.logo: media/punisher2/logo.png
+assets.video: media/punisher2/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 人物随机颜色。随机出兵。武器属性加强、武器不掉。按start+up键出枪、按start+down键收枪、start+B键增加手雷。尽量保持小范围移动，角色全屏反复移动会自动增兵和物品，自动增加难度。
+
+game: 惩罚者 无双枪神版
+file: punisherj.zip
+sort-by: 078
+developer: 惩罚者 无双枪神版
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 基于日版基础上的改版，全程使用双枪，但敌人数量、种类和攻击欲望大幅度加强。相应的，我方可以无限连出保险，擒拿住敌人后反向投可无限投，炸弹越用越多，脚刀动作被修改为前冲踢，连击最后一下带蓝色光波。总体来说，是一个十分爽快的改版。
+
+game: 惩罚者 1V2烈焰版
+file: punisherly.zip
+sort-by: 079
+developer: 惩罚者 1V2烈焰版
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 关卡重新设计，小兵超多，难度很高的版本。
+
+game: 异形大战铁血战士 1V3加强版
+file: avspu.zip
+sort-by: 096
+developer: 异形大战铁血战士 1V3加强版
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 异形大战铁血战士 全屏攻击版
+file: avspqp/avsp.zip
+sort-by: 097
+developer: 异形大战铁血战士 全屏攻击版
+assets.box_front: media/avspqp/boxfront.jpg
+assets.logo: media/avspqp/logo.png
+assets.video: media/avspqp/video.mp4
+publisher: Capcom
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 全屏攻击所有敌人
+
+game: 三国战纪1 群雄争霸无双
+file: kovqxzbws.zip
+sort-by: 103
+developer: 三国战纪1 群雄争霸无双
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 三国战纪1代的改版，加入超大量修改人物，最顶上一栏问号也是可选的隐藏人物，但是看不到头像，可以根据下面的说明来选人物。\n选角界面按 A/B/C/D 选角；中途加入或续币时，使用←或→方向键切换；\n  第一个问号：A刀兵、B忍者、C铁甲兵、D黄帽；\n  第二个问号：A魂·曹操、B曹丕、C魂·曹操(颜色不同)；\n  第三个问号：A魏延、B周泰、C黄盖；\n  第四个问号：A司马懿、B程昱、C夏侯惇；\n  第五个问号：A、B、C均为阿甘左；\n  第六个问号：A、B、C均为紫衣；\n  第七个问号：A牛金、B颜良、C董卓；\n  第八个问号：A、B、C均为曹操；\n  第九个问号：A左慈、B曹彰、C张郃；\n  第十个问号：A、B、C均为魂·貂蝉。
+
+game: 三国战纪1 群英传
+file: kovsgqyzd.zip
+sort-by: 104
+developer: 三国战纪1 群英传
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪1 拳皇三国特别版
+file: kovqhsgsd.zip
+sort-by: 106
+developer: 三国战纪1 拳皇三国特别版
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪1 傲世三国Plus
+file: kovassgplus.zip
+sort-by: 108
+developer: 三国战纪1 傲世三国Plus
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪1 傲世三国新版
+file: kovassgn.zip
+sort-by: 109
+developer: 三国战纪1 傲世三国新版
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪1 盖世英雄特别版
+file: kovgsyx.zip
+sort-by: 110
+developer: 三国战纪1 盖世英雄特别版
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪1 乱世街霸
+file: kovlsjba.zip
+sort-by: 111
+developer: 三国战纪1 乱世街霸
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪1 群雄逐鹿Plus
+file: kovlsyxqxzlp.zip
+sort-by: 112
+developer: 三国战纪1 群雄逐鹿Plus
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪1 一统中原无双版
+file: kovytzyws.zip
+sort-by: 113
+developer: 三国战纪1 一统中原无双版
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪1 一统中原无双青版
+file: kovytzyce.zip
+sort-by: 114
+developer: 三国战纪1 一统中原无双青版
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪1 乱世枭雄
+file: kovshp.zip
+sort-by: 115
+developer: 三国战纪1 乱世枭雄
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪1 最强火力Plus
+file: kovshpzqhl.zip
+sort-by: 116
+developer: 三国战纪1 最强火力Plus
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪1 群雄逐鹿无双版
+file: kovshpd3dw.zip
+sort-by: 117
+developer: 三国战纪1 群雄逐鹿无双版
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪1 Plus 2012 勇士版
+file: kovplus12dw.zip
+sort-by: 119
+developer: 三国战纪1 Plus 2012 勇士版
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪1 Plus 新英雄传
+file: kovplusq.zip
+sort-by: 120
+developer: 三国战纪1 Plus 新英雄传
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪1 Plus 群雄乱舞2020
+file: kovplus20tx.zip
+sort-by: 121
+developer: 三国战纪1 Plus 群雄乱舞2020
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪1 Plus 真吞食天地
+file: kovpluststd.zip
+sort-by: 122
+developer: 三国战纪1 Plus 真吞食天地
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 公测版招式上限六剧情8招1式，其他剧情4招1式。\n内测版招式上限六剧情12招1式,其他剧情8招1式。\n第五剧情及第六剧情强制随机关卡。\n\n公测版开放人物:关羽、张飞、赵云、黄忠、马超、诸葛亮、张辽、貂蝉、陆逊、吕布、曹操、司马懿、夏侯渊、许褚、吕蒙、魏延\n内测版开放人物:除上述人物外，还可选择孙权、黄盖、武神、徐晃、浮云。另，赵云处按B可选择奈何，貂蝉处按B可选择小安安，吕布处按B可选择异族，夏侯渊处按B可选择夏侯惇。\n\n无限连:上+ABC耗两气爆金气，下+ABC耗三气爆黑气，爆气持续时间内可无限连，无视四招一式。此外，除张辽外，其他角色都拥有追地或破招技能，也可实现无限连。\n\n单人定书:投币后选项里倒数第二个选项技能柔化选YES，用完书之后用任意招式打断施法即可定书成功。
+
+game: 三国战纪1 Plus 横扫千军
+file: kovplushsqj.zip
+sort-by: 123
+developer: 三国战纪1 Plus 横扫千军
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪2 斗转星旋
+file: kov2dzxx.zip
+sort-by: 138
+developer: 三国战纪2 斗转星旋
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪2 Plus 魔法加强版
+file: kov2pemp.zip
+sort-by: 140
+developer: 三国战纪2 Plus 魔法加强版
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪2 Plus 凤舞龙吟
+file: kov2pfwll.zip
+sort-by: 141
+developer: 三国战纪2 Plus 凤舞龙吟
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 三国战纪2 Plus 邪风天炽
+file: kov2pshpd.zip
+sort-by: 142
+developer: 三国战纪2 Plus 邪风天炽
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 西游释厄传1 加强版
+file: orlegendjq/orlegend.zip
+sort-by: 147
+developer: 西游释厄传1 加强版
+assets.box_front: media/orlegendjq/boxfront.jpg
+assets.logo: media/orlegendjq/logo.png
+assets.video: media/orlegendjq/video.mp4
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 乾坤波动拳为后前+A，快速集气，且气不减，道具不减。也可以配合RA的无限气cheat非常爽。
+
+game: 西游释厄传1 一键版
+file: oldsplusok.zip
+sort-by: 149
+developer: 西游释厄传1 一键版
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 西游释厄传1 ZERO
+file: zerofxz.zip
+sort-by: 150
+developer: 西游释厄传1 ZERO
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 西游释厄传1 大圣归来
+file: oldsdsgl.zip
+sort-by: 151
+developer: 西游释厄传1 大圣归来
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 西游释厄传1 梦寻灵山
+file: oldsmx.zip
+sort-by: 152
+developer: 西游释厄传1 梦寻灵山
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 西游释厄传1 SUPER
+file: olds103t.zip
+sort-by: 153
+developer: 西游释厄传1 SUPER
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 1998年发布《西游释厄传》的最终版《西游释厄传SUPER》。《SUPER》版比早期的版本增加了游戏分支线路，关卡更长玩法更难。在角色技能方面增加了如元神出窍、升龙斩、吸血、遁入环境等等。集气从早期的集一颗气到可以集3个气，并且增加了消耗所有气打出连段的玩法，玩法更多样性，上手难度也比早期的单一简单方面增加到困难，耐玩性也更高了。
+
+game: 西游释厄传1 SUPER 加强版
+file: olds.zip
+sort-by: 154
+developer: 西游释厄传1 SUPER 加强版
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 西游释厄传1 SUPER快速集气且道具无限版。
+
+game: 西游释厄传1 SUPER 唐僧版
+file: olds100a.zip
+sort-by: 156
+developer: 西游释厄传1 SUPER 唐僧版
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 在选人画面最右边没人的地方选中，可使用唐僧。
+
+game: 西游释厄传1 SUPER 天下无双
+file: oldssw/olds100a.zip
+sort-by: 157
+developer: 西游释厄传1 SUPER 天下无双
+assets.box_front: media/oldssw/boxfront.jpg
+assets.logo: media/oldssw/logo.png
+assets.video: media/oldssw/video.mp4
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 《西游释厄传SUPER 天下无双》是《西游释厄传SUPER》的一个hack版，游戏发行与2009年。\n修改说明：\n猴子=牛神、老猪=小银角、老沙=青龙豹（源自三国战纪）、龙女=白象王、龙马=青狮王、使用钥匙可以变身大幻魔。\n出招表：\n小气功：↓↘→+A\n升龙斩：↓↑+A\n元神出窍：→←↙↓↘→+A\n翻腾舞：B↓↘→+A\n混元功：B↘+B\n吸血大法：→←→A\n乾坤波动功：↑↓+A\n乾坤十连斩：AC+AAAAA AAAAA\n元神召唤：→←↙↓↘→+B
+
+game: 西游释厄传1 群魔乱舞 加强版
+file: oldsplusqmlw/oldsplus.zip
+sort-by: 159
+developer: 西游释厄传1 群魔乱舞 加强版
+assets.box_front: media/oldsplusqmlw/boxfront.jpg
+assets.logo: media/oldsplusqmlw/logo.png
+assets.video: media/oldsplusqmlw/video.mp4
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbalpha_libretro.dll" "{file.path}"
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 群魔乱舞加强版↙.0\n修改者：飞天雪\n修改说明：\n群魔乱舞加强版出招：\n原版5个角色同西S简化版\n↓↑A     翼龙斩\n↑↓A     乾坤波动功\n↓↘→A    小气功/nb↘B     混元功/nb↓↘→A   翻腾舞\n→←↙↓↘→A 元神出窍\n→←↙↓↘→B 元神召唤\n开始键  变身大法\n虎力仙出招\n↓↑A     踹脚   可无气释放）\n↓↑B     劈刀   可无气释放带连招）\n↓↘→A    气功   可无气释放）\n↘B      下斜拳 可无气释放）\n↗B      上斜拳 可无气释放）\n←→B     前斜拳抓人 可无气释放）\n↑↓A     波动功 短距离的可无气释放)/nb↓↘→A   翻腾舞 带连招）\n→←↙↓↘→A 元神出窍\n→←↙↓↘→A 元神召唤\n开始键  变身大法\n小银角出招\n↓↑A     前连斩 无气释放可连招) \n↑↓A     波动功 短距离的可无气释放)\n↓↑B     落石功\n↓↘→A    小气功 可无气释放）\n↓↘→B    前刺剑 无气释放可连招）\n→←↙↓↘→A 元神出窍\n→←↙↓↘→A 元神召唤\n开始键  变身大法\n蜘蛛精出招\n↓↘→A    气功   可无气释放）\n↓↑A     前踹脚\n↑↓A     波动功 短距离的可无气释放)\n↓↑B     跳插   可无气释放）/nb↓↘→A   翻腾舞 可无气释放）\n↓↘→B    前飞铲 可无气释放带连招）\n→←↙↓↘→A 元神出窍\n→←↙↓↘→A 元神召唤\n开始键  变身大法\n红孩儿出招\n↓↘→A    气功     可无气释放带连招）/nb↓↘→A   风火轮\n↓↑A     三味真火 可无气释放带火属性连招）\n↘B      下刺     可无气释放）\n↗B      上刺     可无气释放）\n←→B     前刺甩人 可无气释放）\n→←↙↓↘→A 元神出窍\n→←↙↓↘→A 元神召唤\n开始键  变身大法\n金鱼精出招\n↓↘→A    气功   可无气释放）\n↓↑A     锤击   可无气释放带连招）/nb↓↘→A   翻腾舞 可无气释放）\n↓↘→B    吐水   可无气释放）\n↓↑B     吐水泡\n↑↓A     波动功 短距离的可无气释放)\n→←↙↓↘→A 元神出窍\n→←↙↓↘→A 元神召唤\n开始键  变身大法\n白象王出招\n↓↘→A    扔斧头 可无气释放)\n↓↑B     旋转斧 可无气释放)\n↑↓A     波动功 短距离的可无气释放)/nb↓↘→A   翻腾舞 可无气释放一直连续↓↘→A可以连贯）\n↘B      下撞     可无气释放）\n↗B      上撞     可无气释放）\n←→B     前撞     可无气释放）\n→←↙↓↘→A 元神出窍\n→←↙↓↘→A 元神召唤\n开始键  变身大法
+
+game: 西游释厄传1 群魔乱舞2016修订版
+file: oldsplus2016/oldsplus.zip
+sort-by: 160
+developer: 西游释厄传1 群魔乱舞2016修订版
+assets.box_front: media/oldsplus2016/boxfront.jpg
+assets.logo: media/oldsplus2016/logo.png
+assets.video: media/oldsplus2016/video.mp4
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 无需集气(乾坤十连斩需要），同时出招简化。出招指令:上下B小元神，下上B大元神，上下A抓人，下上A升龙斩，B下前B轰天炸，AC乾坤十连斩自动连(需要气）。
+
+game: 西游释厄传1 群魔乱舞211加强版
+file: oldsplusnr211jq/oldsplus.zip
+sort-by: 161
+developer: 西游释厄传1 群魔乱舞211加强版
+assets.box_front: media/oldsplusnr211jq/boxfront.jpg
+assets.logo: media/oldsplusnr211jq/logo.png
+assets.video: media/oldsplusnr211jq/video.mp4
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 由琵琶行论坛高手wzc123、萧鱼儿、一只狼等人制作，目前西游记释厄传 群魔乱舞版 最好的改版，↑+BC是升级卍。这个版本支持角色众多，还支持在选人/续币时按B键选出B面人物。\n全角色属性一览：\n孙悟空，红孩儿，牛魔王，唐三藏及唐三藏的B面白骨精(火)\n猪八戒，蜘蛛精，小银角，百眼魔(土)\n沙悟净，金鱼精，金角王，唐玄奘及唐玄奘的B面嫦娥(水)\n小龙女，白象王，大鹏王，青狮王(金)\n龙马，虎力仙，羊力仙，鹿力仙(木)\n**出招表：\n1. 基本操作：\n攻击：A\n跳跃：B\n道具选单：C\n道具使用：D\n集气：ABC按住不松\n提气：↑BC\n自残：AB\n跳打：B跳起来攻击A\n突进：↓B\n跑踢：→→A/nb面角色(选人界面或中途选人)：按B键确认(角色名字带颜色)\n相同人物选择：中途选人(非选人界面)\n丢出1个道具：C键打开道具选单，BC丢出\n丢出1格道具：START+C键打开道具选单，BC丢出\n快速斜跑：START+斜键(↙或↘或↗或 ↖)\n拍地：敌人倒地对准时机AAAAAA，各人物不同节奏，可无限拍\n选人界面或者中途选人(新颜色1)：按住↑键确认人物\n选人界面或者中途选人(新颜色2)：按住↓键确认人物\n选人界面或者中途选人(新颜色3)：按住C键确认人物\n选人界面或者中途选人(新颜色4)：按住D键确认人物\n**技能表\n2. 传统角色技能表(A面全角色)\n元神召唤：→←↙↓↘→BC(大卍气)\n新元神召唤(变身大法)：START启动后+A(大卍气)\n新元神召唤(变身大法)：START启动后+左右方向键，可换人，只能换同属性的角色(大卍气)\n乾坤十连斩：AC+AAAAAAAAAA(大卍气)\n遁入幻境：反复↓↑(大卍气须属性相克)\n混元功：B↓↘→B(大卍气)\n元神出窍：→←↙↓↘→A(卍卍气)\n升龙斩：↓↑A(卍气) \n乾坤波动功：↑↓A\n翻腾舞：B↓↘→A\n小翻腾舞：B↓A部分角色(猪八戒，沙悟净，小龙女，金鱼精，鹿力仙，唐三藏)\n小气功：↓↘→A(B模式不同效果)\n变小 ：反复快速→←→←→ \n吸血大法：→←→A按住不松(须属性相克且血量只剩33%以下)\n飞行技：B跳起来+AB按住不松(可升龙半空中接飞行，类似升龙接混元。《剧情模式，魔王对战不可接。梦回灵山和力敌千钧可接。翻腾带升龙效果的B面妖怪可接》\n合体技：须2人同时按ABC(妖怪角色，唐僧，相同角色等不可合体)\n3. B面人物技能表(B面人物)\n终式合：→←↙↓↘→BC(大卍气)\n乱舞十连：↓↑B(大卍气，带封招效果)\n变身大法(定+影身效果)：START启动后+A(大卍气)\n元神出窍(强力)：→←↙↓↘→A(卍卍气)\n乾坤波动功(强力)：↑↓A(卍卍以上，伤害2倍)\n4. B面妖怪技能表(B面妖怪，包括白骨嫦娥)\n元神召唤(合)：→←↙↓↘→BC(大卍气)\n乱舞十连：↓↑B(大卍气)\n变身大法(定+影身效果)：START启动后+A(大卍气)\n元神出窍(强力)：→←↙↓↘→A(卍卍气)\n乾坤波动功(强力)：↑↓A(卍卍以上，伤害2倍)\n小气功：↓↘→A(B模式不同效果)《B面鹿力仙，金角王无小气功》\n小元神出窍：→←↙↓↘→B《B面白象王，小银角，百眼魔，青狮王，牛魔王，羊力仙，鹿力仙，金角王。伤害同元神出窍》\n小波动：↓↑A《B面红孩儿，蜘蛛精，虎力仙，大鹏王，金角王。伤害同A面角色波动》\n小波动：↓→B(B面鹿力仙)\n升龙斩：↓↑A(卍气)《B面金鱼精，百眼王，牛魔王，羊力仙，这些B面妖怪“每一斩提升了半斩伤害”》\n翻腾舞(升龙效果)：B↓↘→A(卍气)《B面红孩儿，蜘蛛精，虎力仙，小银角，大鹏王，金角王，这些B面妖怪“每一斩提升了半斩伤害”》\n**唐三藏，唐玄奘分别各只有2个颜色\n**白骨精B面角色，选人画面： 唐三藏处，按“B”键选人。即(唐三藏的B面)。\n**嫦娥B面角色，选人画面： 唐玄奘处，按“B”键选人。即(唐玄奘的B面)\n**A面传统角色与B面强力角色，如截图，B面强力角色名字带颜色。气槽下的蓝色三位数是代表杀敌数，最高255杀敌数，继续杀敌会重置。比如你杀到255，过关结算的时候，得到分数255000分，用处不大，可以无视，适合刷分！\n**元神召唤与新元神召唤区别\n新元神召唤：不同人物的2个元神出窍的伤害，不可鞭尸，全屏攻击(拥有大道具的全屏能力)\n元神召唤：固定高伤害，对屏幕内可见敌人进行攻击，带鞭尸效果。\n**孙悟空，猪八戒，沙悟净，小龙女，龙马等5个B人物的“终式合”技能简单说明：\n终式合：每次伤害为不同角色的1.5倍小元神伤害。白光收招后隐身1秒。最后白光收尾的一次攻击，对屏幕内的可见范围带有鞭尸效果。非屏幕内的不可见范围则由大道具全屏能力进行攻击。\n元神召唤(合)区别：B面妖怪，包括白骨嫦娥\n固定高伤害，对屏幕内可见敌人进行攻击，带鞭尸效果。对屏幕外的敌人由大道具全屏能力进行攻击，白光收招后隐身1秒。\n新道具：\n**S道具(限魔王对战，梦回灵山，力敌千钧)：满血+满气+无敌影身\n**衣服(限梦回灵山)：被敌人攻击不会超过一个AB的掉血量，放元神有显示特效。钱鼠王的口水那招和敌方BOSS的吸血除外。\n**衣服(限力敌千钧1/2)：被敌人攻击不会超过2个AB的掉血量，放元神有显示特效。钱鼠王的口水那招和敌方BOSS的吸血除外。\n二周目调法：\n指令：在投币界面，按住B+START进入，显示1/2则成功。在1/2的条件下。A，B，C，E，F等子模式，道具自动上限为：X6与X9。 D，S等子模式，道具自动上限为：X9与X12。支持1V4，支持所有子模式。没有显示1/2则是无二周目，道具上限保持原来。\n1V4调法：\n在开头四大模式选择界面中，在“剧情模式” 或 “梦回灵山”，按住指令：START+A 或 按住START+调子模式不松+A进入。主题小字为绿色！(支持所有子模式)\n剧情模式全客场模式(每关都会打客场幻境)：\n开场左下角AB，LV-难度，变色后，就成功开启！(只限5秒内，5秒后会自动消失无法开启。)\n剧情模式：天王难度N\n开启方法（只限无周目）\n平顶山，上洞，第二场景心脏处最上面，进行AB开启。详情看截图。(只限5秒内，5秒后会自动消失无法开启。)\n魔王对战：天王难度N\n开启方法（只限无周目）\n平顶山，开场，左上角，打碎骷髅即可。详情看截图。(只限5秒内，5秒后会自动消失无法开启。)\n梦回灵山：天王难度N\n开启方法（只限无周目）\n平顶山，上洞，第二场景心脏处右边，看到骷髅打碎即可。详情看截图。(只限5秒内，5秒后会自动消失无法开启。)\n力敌千钧：天王难度N\n开启方法（只限无周目）\n开场，右上角，打碎蜘蛛即可。详情看截图。(只限5秒内，5秒后会自动消失无法开启。)\n道具上限一览！(几与几，左边是代表辅助道具，大道具的数量上限。 右边是代表小道具，本属性的数量上限)\n剧情模式 和 魔王对战\n无周目，A模式，3与6  \n无周目，D模式，5与9 \n无周目N\n，A模式，5与9\n无周目N\n，D模式，6与10\n二周1/2，A模式，5与9\n二周1/2，D模式，6与10\n梦回灵山 和 力敌千钧\n无周目，A模式，3与6\n无周目，D模式，5与9 \n无周目N\n，A模式，6与10  \n无周目N\n，D模式，9与12  \n二周1/2，A模式，6与10\n二周1/2，D模式，9与12\n1. 剧情模式：(208版内容)原汁原味的原剧情，奖命为100W，200W，300W，400W。\n2. 魔王对战：无小兵，无主场客场幻境，只有BOSS，奖命为50W，100W，150W，200W。如果玩家player增多，敌方BOSS的血量也会跟着增多！\n3. 梦回灵山：每关决战都固定双BOSS战，中途会有少量BOSS且新增了敌方新BOSS和新剧情，每关BOSS会遁入客场幻境，主场幻境不变，奖命同剧情模式。\n梦回灵山隐藏剧情触发条件：有两个新BOSS加入，一个白骨精，一个黄眉王！\n(1)第一关必须是平顶山\n(2)第一关打完大银角后要跳下去\n(3)通天河水关要成功杀死2遍海胆王\n(4)盘丝洞关卡要打蜘蛛精石像进入蜘蛛精场景\n(5)第八关牛魔王1场景要成功杀死红孩儿\n(6)第八关牛魔王2场景要打掉骷髅\n(7)我方不能遁入主场幻境\n(8)客场幻境不能释放灭\n(9)全程不能释放衣服\n4. 力敌千钧：无关卡选择，在一个场景中从头打到尾，一共6个阶段，第1阶段单BOSS，第2阶段双BOSS，第3阶段小兵，第4阶段无血条BOSS，第5阶段人形怪，小幻，大幻等单BOSS，第6阶段小幻+大幻双BOSS。无主场客场幻境，武器不会掉落，不可吸血，奖命为50W，100W，200W，300W。\n力敌千钧隐藏秘境触发条件：打完第6阶段双幻魔后，玩家身上存有3个或3个S道具以上的总数量，即可自动开启。当出现GOGOGO时，往最左上角走，会出现骷髅，打碎后则是超级秘境，不打骷髅则是普通秘境\n右下角子模式介绍：\n1.正常玩法A模式：(默认模式，右下角字母显示为A)。\n2.魔法连击B模式：(右下角英文显示为B，此玩法可以小气功接元神，升龙接小气功接元神，升龙接元神，拍接小气功接元神，小道具可接上，可接队友招式技能)\n3.普通攻击C模式：(右下角英文显示为C，此玩法也可以说是我方角色是原版的攻击力，比如：龙马要打小兵5下才死，猪女要打4下才死，沙猴3下才死。另外道具清空，切换场景会恢复3个本属性道具，同西1初代效果，清空道具，切换场景恢复3个本属性)\n3.道具上限D模式：(右下角英文显示为D，由原来的3个可以吃到5个，原来的6个可以吃到9个的数量)\n4.快速能量E模式：(右下角英文显示为E，加快了集气速度)\n5.超级减伤F模式：(右下角英文显示为F，此玩法是任何难度被敌人攻击不会超过一个AB的掉血量。注：钱鼠王的口水那招和敌方BOSS的吸血除外)\n6.S模式：(B魔法连击+D道具上限+E快速能量+F超级减伤四大组合而成的子模式)。这是给新手体验通关流程或娱乐的开挂模式。\n(1)魔王对战开启S模式方法，平顶山第一场景佛像处左侧边缘，使用AB打破隐藏箱子。\n(2)梦回灵山开启S模式方法，平顶山第一场景结尾走上路进入第二场景，(洞内从左边完全贴着最上面走)，走到心脏处，使用AB打破隐藏箱子)。重要的说两遍：贴着最上面走，贴着最上面走。\n(3)力敌千均开启S模式方法，第一场景左下角AB\n注：开启S模式只限5秒内，5秒后会自动消失无法开启。成功开启后会触发对话剧情，右下角英文显示为S(剧情模式无S模式)\n玩家之间PK娱乐模式：魔王对战，四大模式选择界面中，选择魔王对战，按住指令：START+A进入。可进行玩家与玩家的PK娱乐模式。\n(1)无任何道具。\n(2)一共X5(6条命)，一共500秒，决胜负。\n(3)开场单人，10秒内无人下来，将不可续币下来。15秒后自动结束。\n(4)决战过程中当有玩家彻底死亡后，不可续币下来。\n(5)该PK模式的所有招式，技能，大招，伤害进行了“低伤害调整”。\n(6)限制了部分技能：不可吸血，不可变身大 法，不掉武器，不可拍地。\n(7)不可调制： B，C，D，E，F，S等子模式。\n(8)被打倒地有0.5秒无敌隐身。防止被压制，可起身第一时间用 AB破开对手。\n该PK模式，做得不够好，毕竟不是真正的格斗游戏，没时间也没精力去平衡玩法了，所以就这样了。随便耍耍就好！\n作者说明：各大平台，1V4和二周目已被屏蔽，因为不希望玩家们把1V4和二周目当长期正式来玩，并不合适。但是单机模拟器收藏版，会进行开放！长期正式玩的话，是无周目，无1V4，A模式或D模式。比赛也适用！\n1. 玩西S，剧情模式A。选关卡先打通天河，后车迟国。禁大元神！\n2. 玩西S 103，剧情模式C，调腾讯103版关卡，禁大元神！\n3. 玩原版，剧情模式C， 默认关卡，比如龙马，猪八戒禁升龙。\n4. 玩伏魔版，玩魔王对战。\n5. 玩西Z唐僧版，选唐僧。\n6. 玩群魔PLUS，选剧情模式A或D，禁大元神。\n7. 玩大圣归来，选梦回灵山D。\n8. 玩牛魔王。选玩牛魔王。。\n9. 玩幻行无极，剧情模式1V4，或 1V4+N\n天王难度。\n10. 玩ZERO版，玩剧情模式B。\n11. 玩S天王版，玩N\n天王难度，或 玩到第二周目。\n12. 玩208版，默认剧情模式A。\n13. 玩西Z加强版，剧情模式左下角开全客场。\n14. 玩西1初代，剧情模式C，选B角色，只用波动。\n几乎集合了各大版本的内容元素，应有尽有，包罗万象，多种子模式选择，开挂模式，超级开挂等！
+
+game: 西游释厄传1 群魔乱舞211简化版
+file: oldsplusnr211jh/oldsplusnr211.zip
+sort-by: 162
+developer: 西游释厄传1 群魔乱舞211简化版
+assets.box_front: media/oldsplusnr211jh/boxfront.jpg
+assets.logo: media/oldsplusnr211jh/logo.png
+assets.video: media/oldsplusnr211jh/video.mp4
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 修改内容如下 \n无视属性遁入幻境 解除吸血血量属性限制\nAC自动十连斩  \n武器不掉落\n必杀无需气\n道具不减  \n倒地追击可鞭尸       \n出招简化 类型统一 方便掌机上出招\n原版某些必杀→←↙↓↘→BC掌机上很难发出\n原版小翻腾舞和乾坤波动功冲突 \n-------------------------------------------------\n选人界面 A选人物正常角色 B选人物强力角色  唐三藏B白骨精  唐玄奘B嫦娥\nA面人物技能表\nABC集气  ↑B提气  BC丢道具\n吸血：←→A \n变小 ：←→←  \n遁入幻境：↓↑↓     \n升龙斩：↓↑A\n乾坤波动功：↑↓A\n小气功：↓↘→A\n小翻腾舞：↑A    部分角色可释放 猪 沙 龙女 鲤 鹿  三藏 白\n大翻腾舞：B↓↘→A\n混元功：B↓↘→B\n乾坤十连斩：AC自动          \n元神出窍：↓↑B     \n元神召唤：↑↓B       \n-------------------------------------------------/nb面人物技能表\nABC集气  ↑B提气  BC丢道具\n吸血：←→A \n变小 ：←→←  \n遁入幻境：↓↑↓         \n升龙斩：↓↑A       B模式不同效果 红孩儿 蜘蛛精 虎力仙 大鹏王 金角王 ↓→B鹿力仙\n乾坤波动功：↑↓A  \n小气功：↓↘→A  B模式不同效果  鹿力仙 金角王无小气功 \n小翻腾舞：↑A      部分角色可释放 猪 沙 龙女 鲤 鹿  三藏 白\n大翻腾舞：B↓↘→A\n混元功：B↓↘→B\n乾坤十连斩：AC自动  \n元神出窍：↓↑B       \n元神召唤：↑↓B      \n小元神出窍：←↓→B 部分角色可释放 白象王 小银角 百眼魔 青狮王 牛魔王 羊力仙 鹿力仙 金角王
+
+game: 西游释厄传1 群魔乱舞211终极加强版
+file: oldsplusnr211zj/oldsplusnr211.zip
+sort-by: 163
+developer: 西游释厄传1 群魔乱舞211终极加强版
+assets.box_front: media/oldsplusnr211zj/boxfront.jpg
+assets.logo: media/oldsplusnr211zj/logo.png
+assets.video: media/oldsplusnr211zj/video.mp4
+publisher: IGS
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 西游释厄传1 群魔乱舞211加强版的加强改版，不需要卍字就能出招。
+
+game: 忍者棒球 简化版
+file: nbbatmanu.zip
+sort-by: 167
+developer: 忍者棒球 简化版
+publisher: Irem
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 修改内容:\n以面向右为准\n红红: 增加出招方式 ↓↘→ + B 不用在跑动的情况下也可以出招了,在攻击的时候也可以使用\n小绿: 空中的必杀技由 ↑↓ + B 改为 ↓ + B\n大黄: 必杀投由 ←↖↑↗→ + B 改为 ↓↘→ + B 或 →↘↓ + B\n蓝蓝: 必杀由 ←↙↓↘→ + B 改为 ↓↘→ + B 或 →↘↓ + B\n最后每个角色都可通过指令换人,空中 ↓↑ + B\n换人顺序是红→绿→黄→蓝→红\n*******************************************************\n在空中使用 ↑ + B 依次换人,颜色根据所选角色而定,切换场景时复原\n队长在冲刺状态使出的爆炸之舞略掉前面一段直接使出后面较具威力的2击\n队长增加爆炸之舞出招方式: ↓↘→ + B\n在空中可以切换人\n结合换人可以使出一些简单的连击\n换人状态下的招式:\n红红: → + B\n小绿: ↓ + B\n大黄: ↓ + A\n蓝蓝: → + B
+
+game: 忍者棒球 1V4版
+file: nbbatman1v4/nbbatman.zip
+sort-by: 168
+developer: 忍者棒球 1V4版
+assets.box_front: media/nbbatman1v4/boxfront.jpg
+assets.logo: media/nbbatman1v4/logo.png
+assets.video: media/nbbatman1v4/video.mp4
+publisher: Irem
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 一个非常经典的街机游戏了，游戏的版本是1V4版，在单打的时候大大增加了游戏的难度。相比于单打，游戏中的小兵的数量增加了很多，很容易就腹背受敌，所以游戏的难度大大增加，喜欢挑战的玩家不要错过这个版本。
+
+game: 忍者棒球 一键版
+file: nbbatmano.zip
+sort-by: 169
+developer: 忍者棒球 一键版
+publisher: Irem
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 按AB直接随机使用必杀。
+
+game: 忍者棒球 1V8一键版
+file: nbbatman1v8/nbbatman.zip
+sort-by: 170
+developer: 忍者棒球 1V8一键版
+assets.box_front: media/nbbatman1v8/boxfront.jpg
+assets.logo: media/nbbatman1v8/logo.png
+assets.video: media/nbbatman1v8/video.mp4
+publisher: Irem
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 按AB直接随机使用必杀。
+
+game: 铁钩船长 无双X2版
+file: hooku.zip
+sort-by: 174
+developer: 铁钩船长 无双X2版
+publisher: Irem
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 这个是铁钩船长的的一个改版游戏，如果说上次那个无双版高手小心点打的话还可以通关，那么这个版本感觉基本上是没有人可以通关的。游戏几乎每个地方都会充满了各种各样的BOSS，而且好像会源源不断的出现，有的时候会发现满屏幕都是各种各样的BOSS，找自己的角色都找不到了，喜欢虐待自己的玩家可以试试这个改版，保证让你生不如死…
+
+game: 电神魔傀1 简化版
+file: denjinmka.zip
+sort-by: 184
+developer: 电神魔傀1 简化版
+publisher: Banpresto
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 解除血限和简化修改：\n◎：必杀技\n★：超必杀技\n\n魔傀 MAKAI\n─────────────────\n◎燃烧踢         ←+A\n◎喷射上击       ↑+A  \n◎三倍上击      →→+A 打到物件或人物时杀那间，再按A键）\n【任何物件或人物】\n\n★雷电飓风       体力槽红、能量槽满↓+A\n\n黑骑士 KUROKISHI\n─────────────────\n◎闪电攻击       ←+A\n◎螺旋上击       ↑+A  \n◎机关枪踢      →→+A 打到物件或人物时杀那间，再按A键）\n【任何物件或人物】\n\n★上升星尘       体力槽红、能量槽满↓+A\n\n衣世 IYO\n─────────────────\n◎滚动锤         ←+A\n◎螺旋踢         ↑+A  \n\n★火焰风暴       体力槽红、能量槽满↓+A\n\n贝尔瓦 BELVA\n─────────────────\n◎马赫拳         ←+A\n◎膝盖切碎       ↑+A  \n\n★雷电破裂       体力槽红、能量槽满↓+A\n\n泽尔迪娅 ZELDIA\n─────────────────\n◎火焰气息       ←+A或↑+A\n 如果不移动或按A or B键会一直喷火至能量耗尽）\n\n★细胞导弹       体力槽红、能量槽满↓+A\n\n特克斯 TARUKUSU\n─────────────────\n◎木屐冲击       ←+A\n◎木屐火焰  跳起后按A键）  \n◎肌肉台风       ↑+A\n\n★性感爆弹       体力槽红、能量槽满↓+A\n\n───────────────────────────────────────────────────\n
+
+game: 电神魔傀2 简化版
+file: grdiansjh/grdians.zip
+sort-by: 186
+developer: 电神魔傀2 简化版
+assets.box_front: media/grdiansjh/boxfront.jpg
+assets.logo: media/grdiansjh/logo.png
+assets.video: media/grdiansjh/video.mp4
+publisher: Banpresto
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 简化\n\n修改者: 丁丁机\n\n说明：\n\n超杀:能量和气满\n\n塞尔迪亚 Zeldia \n───────────────────────\n◎必杀技１ POW消耗)　    按住 A +←\n◎必杀技２ POW消耗)　    按住 A +↓\n☆极地风暴 POW消耗)　    按住 A +→\n\n黑骑士 Kurokishi\n───────────────────────\n◎必杀技１ POW消耗)　    按住 A +←\n◎必杀技２ POW消耗)　    按住 A +↓\n◎[剑]武器必杀技 POW消耗)按住 A +←\n☆红莲乱舞 POW消耗) →→+A一直按住·←\n☆红莲乱舞 空中版)　 →→+ B)A按住·←\n\nP型机器人 P.BELVA\n───────────────────────\n◎必杀技１ POW消耗)　    按住 A +←\n◎必杀技２ POW消耗)　    按住 A +↓·↓按住\n☆超音速拳 POW消耗) →→+A一直按住·←\n\n吉尔利安 Girulian \n───────────────────────\n◎必杀技１ POW消耗)      按住 A +←\n◎必杀技２ POW消耗)　    按住 A +↓ \n           A按住的时间决定射程的远近)\n☆真三连袭 POW消耗)      按住 A +→\n\n刃零 Jineri\n───────────────────────\n◎必杀技１ POW消耗)　    按住 A +←\n◎必杀技２ POW消耗)　    按住 A +↓  \n           极低几率出现第2形态)\n☆忍法妖火 POW消耗)      按住 A +→\n\n胧 天明 Rou\n───────────────────────\n◎必杀技１ POW消耗)　    按住 A +←\n◎必杀技２ POW消耗)　    按住 A +←，打中敌人后立即↖\n◎必杀技３ POW消耗)　    按住 A +←，打中敌人后立即←\n◎必杀技４ POW消耗)　    按住 A +↓\n☆夺命追魂斩 POW消耗) →→+A一直按住·↓\n\n斯卡鲁·尤雷 Skullbyule\n───────────────────────\n◎必杀技１ POW消耗)　 　 按住 A +←\n◎必杀技２ POW消耗)　 　 按住 A +↓\n☆蜂刺　　 POW消耗)　    按住 A +→\n\n塔鲁克斯 Tulks\n───────────────────────\n◎必杀技１　 POW消耗)　  按住 A +←\n◎必杀技２　 POW消耗)    按住 A +↓\n☆肌肉男之歌 POW消耗)    按住 A +→\n\n─────────────────────────────────────────────────────────────────────\n\n[zh_TW]\n簡化\n\n修改者: 丁丁機\n\n說明：\n\n超殺:能量和氣滿\n\n塞爾迪亞 Zeldia \n───────────────────────\n◎必殺技１ POW消耗)　    按住 A +←\n◎必殺技２ POW消耗)　    按住 A +↓\n☆極地風暴 POW消耗)　    按住 A +→\n\n黑騎士 Kurokishi\n───────────────────────\n◎必殺技１ POW消耗)　    按住 A +←\n◎必殺技２ POW消耗)　    按住 A +↓\n◎[劍]武器必殺技 POW消耗)按住 A +←\n☆紅蓮亂舞 POW消耗) →→+A一直按住·←\n☆紅蓮亂舞 空中版)　 →→+ B)A按住·←\n\nP型機器人 P.BELVA\n───────────────────────\n◎必殺技１ POW消耗)　    按住 A +←\n◎必殺技２ POW消耗)　    按住 A +↓·↓按住\n☆超音速拳 POW消耗) →→+A一直按住·←\n\n吉爾利安 Girulian \n───────────────────────\n◎必殺技１ POW消耗)      按住 A +←\n◎必殺技２ POW消耗)　    按住 A +↓ \n           A按住的時間決定射程的遠近)\n☆真三連襲 POW消耗)      按住 A +→\n\n刃零 Jineri\n───────────────────────\n◎必殺技１ POW消耗)　    按住 A +←\n◎必殺技２ POW消耗)　    按住 A +↓  \n           極低幾率出現第2形態)\n☆忍法妖火 POW消耗)      按住 A +→\n\n朧 天明 Rou\n───────────────────────\n◎必殺技１ POW消耗)　    按住 A +←\n◎必殺技２ POW消耗)　    按住 A +←，打中敵人後立即↖\n◎必殺技３ POW消耗)　    按住 A +←，打中敵人後立即←\n◎必殺技４ POW消耗)　    按住 A +↓\n☆奪命追魂斬 POW消耗) →→+A一直按住·↓\n\n斯卡魯·尤雷 Skullbyule\n───────────────────────\n◎必殺技１ POW消耗)　 　 按住 A +←\n◎必殺技２ POW消耗)　 　 按住 A +↓\n☆蜂刺　　 POW消耗)　    按住 A +→\n\n塔魯克斯 Tulks\n───────────────────────\n◎必殺技１　 POW消耗)　  按住 A +←\n◎必殺技２　 POW消耗)    按住 A +↓\n☆肌肉男之歌 POW消耗)    按住 A +→\n\n─────────────────────────────────────────────────────────────────────\n
+
+game: 美少女战士 加强版
+file: sailormnjq/sailormn.zip
+sort-by: 188
+developer: 美少女战士 加强版
+assets.box_front: media/sailormnjq/boxfront.jpg
+assets.logo: media/sailormnjq/logo.png
+assets.video: media/sailormnjq/video.mp4
+publisher: Banpresto
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 美少女战士加强版过关街机游戏，这是一款早期的美少女战士同人游戏，游戏并没有传达出美少女战士的真正内涵，游戏只是机械的使用了人物形象。
+
+game: 战国传承3 加强版
+file: sengoku3jq/sengoku3.zip
+sort-by: 192
+developer: 战国传承3 加强版
+assets.box_front: media/sengoku3jq/boxfront.jpg
+assets.logo: media/sengoku3jq/logo.png
+assets.video: media/sengoku3jq/video.mp4
+publisher: SNK
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 可选隐藏人物白鬼与阿国，游戏中的连击数和能量锁定，但需注意: 一出来先攻击敌人或者出↓↓+A/↓↓+B后无限，若一出来不攻击任何人直接↓↑+AB，则要蓄满第一个power以后才可无限。除了最后的关卡京都以外的所有关卡全开。
+
+game: 暴风小子加强版
+file: viostormjq/viostorm.zip
+sort-by: 213
+developer: 暴风小子加强版
+assets.box_front: media/viostormjq/boxfront.jpg
+assets.logo: media/viostormjq/logo.png
+assets.video: media/viostormjq/video.mp4
+publisher: Konami
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 1、3倍血量，3倍敌兵，武器不掉，前前A前冲、前前B前冲，前冲加强攻击敌兵飞溅飞天，血腥模式,最高难度,无限循环周目。
+
+game: 机甲战士 全屏攻击版
+file: armwarqp/armwar.zip
+sort-by: 243
+developer: 机甲战士 全屏攻击版
+assets.box_front: media/armwarqp/boxfront.jpg
+assets.logo: media/armwarqp/logo.png
+assets.video: media/armwarqp/video.mp4
+publisher: Capcom
+genre: Platform
+x-id: FBNEO ACT hack
+description: 全屏攻击版
+
+game: 变身忍者 加强版
+file: shadfrcejq/shadfrce.zip
+sort-by: 285
+developer: 变身忍者 加强版
+assets.box_front: media/shadfrcejq/boxfront.jpg
+assets.logo: media/shadfrcejq/logo.png
+assets.video: media/shadfrcejq/video.mp4
+publisher: Tecmo
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 初始拥有3个炸弹，加1个可得3个，我方初始人物攻击力提升。
+
+game: 斗神光辉 1V4版
+file: karatblz1v4/karatblz.zip
+sort-by: 296
+developer: 斗神光辉 1V4版
+assets.box_front: media/karatblz1v4/boxfront.jpg
+assets.logo: media/karatblz1v4/logo.png
+assets.video: media/karatblz1v4/video.mp4
+publisher: Video System
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+
+game: 零组特攻队 无双版
+file: nzeroteama.zip
+sort-by: 301
+developer: 零组特攻队 无双版
+publisher: Fabtek
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 零组特攻队加大难度，敌人变多的版本，打起来很爽快。这个版本是基于关卡乱序版制作的。
+
+game: 零组特攻队 火炮版
+file: zeroteamwxp/zeroteama.zip
+sort-by: 303
+developer: 零组特攻队 火炮版
+assets.box_front: media/zeroteamwxp/boxfront.jpg
+assets.logo: media/zeroteamwxp/logo.png
+assets.video: media/zeroteamwxp/video.mp4
+publisher: Fabtek
+genre: Beat-'Em-Up
+x-id: FBNEO ACT hack
+description: 
+

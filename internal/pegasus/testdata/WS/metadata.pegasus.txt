@@ -1,0 +1,635 @@
+collection: WS
+sort-by: 060
+extensions: ws, zip
+launch: "{env.appdir}\RetroArch\retroarch.exe" -L "{env.appdir}\RetroArch\cores\mednafen_wswan_libretro.dll" "{file.path}"
+
+game: DJ快手
+file: DJ快手.zip
+sort-by: 001
+developer: DJ快手
+description: 《DJ快手》（Turntablist - DJ Battle）是一款节奏音乐游戏，由Bandai开发，于1999年在日本发行。与转盘大师Vestax、Tomi-E、DJ Yuze一起，在音乐中进行Battle，游戏具有时髦的视觉效果和街头风格。
+
+game: SD高达 G世代1
+file: SD高达 G世代1.zip
+sort-by: 002
+developer: SD高达 G世代1
+description: 《SD高达 G世代1》（SD Gundam G-Generation - Gather Beat）是2000年发布的策略RPG游戏，本作是第一个使用跨界情节线的G世代， 也是第一个使用三人小队设置的G世代。Generation系列最鲜明的特点是，机体始终以超变形的方式进行描绘。
+
+game: SD高达 激震篇
+file: SD高达 激震篇.zip
+sort-by: 003
+developer: SD高达 激震篇
+description: 《SD高达 激震篇》（SD Gundam - Emotional Jam）是由Tom Create开发并由Bandai发行的策略游戏，于1999年在日本发行。本作是掌机G世纪的雏形，有些机体有全体攻击的，放第一个就能用，不过其他人就不行动了。93骡用可以消耗SP使出FF，有些机体的换装有惊喜。
+
+game: SD高达 加藤战记 首部曲
+file: SD高达 加藤战记 首部曲.zip
+sort-by: 004
+developer: SD高达 加藤战记 首部曲
+description: 《SD高达 加藤战记 首部曲》（SD Gundam Gashapon Senki - Episode 1）是一款高达动漫系列的策略游戏。它由Bandai的Graphic Research开发，并于1999年在日本发行。游戏画面和音乐在当时来说算得上优秀的了，不过本作重点在于其玩法与游戏内容，玩家需控制自己的高达部队和敌对势力开战，占领工厂可以生产机器人，是否可以胜利就看各位玩家的实力了。
+
+game: 爆走卡车传说
+file: 爆走卡车传说.zip
+sort-by: 005
+developer: 爆走卡车传说
+description: 《爆走卡车传说》中的玩家是一个住在日本的卡车司机。在这里运送货物的卡车司机竞争非常激烈。你为了你的女朋友，决定参加全日本最佳卡车司机的比赛。Dekotora 是“装饰卡车”的缩写，这款赛车游戏要驾驶你的卡车在高速公路和你的对手比赛，在比赛前还需要为你的卡车购买各种商品。最后根据你的比赛成绩赢得金钱奖励，你可以用赢得的金钱购买卡车零件升级你的卡车。
+
+game: 播种鸟
+file: 播种鸟.zip
+sort-by: 006
+developer: 播种鸟
+description: 《播种鸟》（Tane Wo Maku Tori）是一款很有趣的益智游戏。播种鸟其实是一只乌鸦，它将种子播种到不同的土地上。玩家要做的，就是移动引水材料的位置，使水能顺利引导种子上，开花结果。水滴每遇到分岔路都会转折，而且还会有蜗牛，毛毛虫等小动物跟你“抢水”或者吃掉你的植物。水滴的数量是有限的，水的利用率越高，分数也会越高。
+
+game: 彩虹岛
+file: 彩虹岛.zip
+sort-by: 007
+developer: 彩虹岛
+description: 《彩虹岛》（Rainbow Islands: Putty's Party）是一款经典动作游戏，在多个平台均能看到其身影。主人公架着彩虹向上攀登，一路上吃水果，搜集七彩钻石。途中会有很多怪物阻止他前进，必须打败它们。只要能到达顶端打开宝箱，就是胜利。
+
+game: 超火爆摔跤
+file: 超火爆摔跤.zip
+sort-by: 008
+developer: 超火爆摔跤
+description: 《超火爆摔跤》是WS上的一款职业摔角游戏，可以选择的角色还蛮多的。
+
+game: 超级机器人大战 精华版
+file: 超级机器人大战 精华版.zip
+sort-by: 009
+developer: 超级机器人大战 精华版
+description: 《超级机器人大战 精华版》是由株式会社BANPRESTO发行的策略角色扮演游戏，第一作是1991年4月20日发售于Game Boy平台的《超级机器人大战》。其后许多年在不同的家用机及掌机平台发布作品，有新作。  每作的主题基本是地球遭到遭受来自内外的敌人的侵袭，为了保护地球，来自世界各地（甚至是全宇宙或异世界）的钢之战士共同集合对抗邪恶势力的故事。  除了将多部机器人动画加入原创内容结合的版权作外，还有仅原创内容结合的“超级机器人大战原创世纪”系列。
+
+game: 超级机器人大战 精华版2 第1部 地上激动篇
+file: 超级机器人大战 精华版2 第1部 地上激动篇.zip
+sort-by: 010
+developer: 超级机器人大战 精华版2 第1部 地上激动篇
+description: 《超级机器人大战 精华版2 第1部 地上激动篇》（Super Robot Taisen Compact 2 - Dai-1-bu - Chijou G）是由Banpresto公司制作的一款经典机战游戏。本作是经典的C2三部曲中的第一部，游戏主要收录的机器人动漫都是拥有较高评价的作品及系列，如Gundam系列，GetterRobo系列，Mazingar系列等等。
+
+game: 超级机器人大战 精华版2 第2部 宇宙激震篇
+file: 超级机器人大战 精华版2 第2部 宇宙激震篇.zip
+sort-by: 011
+developer: 超级机器人大战 精华版2 第2部 宇宙激震篇
+description: 《超级机器人大战 精华版2 第2部 宇宙激震篇》（Super Robot Taisen Compact 2 - Dai-2-bu - Uchuu Ge）是由Banpresto公司制作的一款经典WS游戏。本作中除了有第一部《地上激动篇》登场的机器人外，还新增了“金刚战神”“钢弹ZZ”“钢弹F91”等机器人。游戏共分为6个篇章，每个篇章会后不同的分支剧情发展，但最后结局是唯一的，玩家可以选择喜欢的分支入手。
+
+game: 超级机器人大战 精华版2 第3部 银河决战篇
+file: 超级机器人大战 精华版2 第3部 银河决战篇.zip
+sort-by: 012
+developer: 超级机器人大战 精华版2 第3部 银河决战篇
+description: 《超级机器人大战 精华版2 第3部 银河决战篇》（Super Robot Taisen Compact 2 - Dai-3-bu - Ginga Ke）是由Banpresto公司制作的一款经典机战游戏。本作是经典的C2三部曲中的第三部，与其他两部之间具有存档继承功能，援护系统也是本作的一大亮点。为了突出援护系统，本作造就了史上个体最弱而更倾向于援护向的原创主角组合。
+
+game: 超时空要塞 真爱之歌
+file: 超时空要塞 真爱之歌.zip
+sort-by: 013
+developer: 超时空要塞 真爱之歌
+description: 《超时空要塞 真爱之歌》（Macross - True Love Song）是根据著名动漫作品《超时空要塞》改编的游戏。这款游戏综合了多种元素，既有与恋爱养成相关的文字冒险，又有即时策略的战机战斗等元素，是一款可玩性很高的游戏。玩家需要设定主角每周的活动，此设定会影响后续游戏的剧情，但不影响最终结局。
+
+game: 超兄贵 男人的魂札
+file: 超兄贵 男人的魂札.zip
+sort-by: 014
+developer: 超兄贵 男人的魂札
+description: 《超兄贵 男人的魂札》是一款卡牌战斗 RPG。您从 Cho Aniki 角色名单中选择一个的角色，开始探索它的时髦健身世界，并利用卡牌挑战众多兄贵。如果你赢了，可以增加你的卡片收藏。其中特殊卡牌只能通过在对战模式中击败其他玩家来解锁。
+
+game: 磁力方块
+file: 磁力方块.zip
+sort-by: 015
+developer: 磁力方块
+description: 《磁力方块》（Mingle Magnet ）是一款简单的落块益智游戏。简单易上手，只要点点就能消除的懒人操作方法，相邻3个以上的同色圆圈会自动连接，然后点击就能消除的入门级难度。游戏中顶部会掉落不同色的圆圈，当它们跟同色圆圈相邻的时候会自动连接起来，3个或以上的圆圈连接的时候就能消除他们了，一次连接圆圈的数量越多，消除之后得分越高，注意，当圆圈落下时，下方如果没有空间，游戏将结束！
+
+game: 大家来海钓
+file: 大家来海钓.zip
+sort-by: 016
+developer: 大家来海钓
+description: 《大家来海钓》是由游戏制造商Coconuts Japan Entertainment制作的一款休闲益智类游戏，在这款游戏中玩家将扮演一名钓鱼者在大海中钓鱼，到底能钓上怎样的鱼就要看各位玩家自己的运气了。
+
+game: 诞生
+file: 诞生.zip
+sort-by: 017
+developer: 诞生
+description: 《诞生》（Tanjou Debut for WonderSwan）是一款策略游戏，由Bandai Visual开发和发行，于2000年在日本发行。玩家作为音乐公司的经纪人角色，与三位潜在的年轻女明星合作，分别是阿奇（Aki），库米（Kumi）和沙织（Saori）。
+
+game: 电车 GO! 1
+file: 电车 GO! 1.zip
+sort-by: 018
+developer: 电车 GO! 1
+description: 《电车 GO! 1》是基于 1996 年的街机游戏 Densha de Go！制作的，是最早的商业火车驾驶模拟游戏之一，后续产生了许多继任者。玩家可以在轨道中控制你的火车，然后按照线路时间表，准确地停在指定的站点，行进途中必须遵守所有的交通标志和信号灯，确保乘客的安全和舒适。每当玩家操作错误时，都会从总分中扣除分数，如果总分被扣光，则游戏结束。
+
+game: 电车 GO! 2
+file: 电车 GO! 2.zip
+sort-by: 019
+developer: 电车 GO! 2
+description: 《电车 GO! 2》是Taito 于 1998 年推出流行日本的Densha de Go！的续集，再次被移植到各种家庭系统。在 PlayStation 上首次可以驾车穿越雪地，并在新干线子弹头列车的驾驶舱中坐下。游戏玩法更多的是街机而不是模拟。重点是在完美的时间内在车站停靠，跟上线路时间表，遵守交通信号和限速，确保乘客的安全和舒适。每当玩家操作错误时，都会从总分中扣除分数，如果总分被扣光，则游戏结束。
+
+game: 东京魔人学园 符咒封魔录
+file: 东京魔人学园 符咒封魔录.zip
+sort-by: 020
+developer: 东京魔人学园 符咒封魔录
+description: 《东京魔人学园 符咒封魔录》（Tokyo Majin Gakuen - Fuju Houroku）是于2000年在WS上发售的幻之名作。因为出在掌机上的缘故，系统有了很大改变，剧情模式依然是AVG形式，但战斗不再是战棋而是变为了卡片战斗。所谓符咒封录，就是游戏里用来战斗的卡片，这一作的一个特色就是将包括《剑风帖》里的众多角色化为卡片来进行战斗。而在剧情上，则是是对剑风帖的补完。主人公依然是绯勇龙麻，但是却是以比较奇特的身份登场。在《剑风帖》的最终战中，绯勇身受重伤而住院治疗，灵魂离开了身体，却在另一个地方被陷入危机的少男少女作为式神召唤了出来。于是，为了解开当地魔化的秘密，被召唤出来的主角和两名召唤者开始了冒险。应该说，这是一个相当有新意的开端。故事的最后，绯勇和新的伙伴一起战胜了BOSS不死の邪王，他的灵魂又返回到原来的身体，以前的伙伴前来庆祝他的出院，一切就好像没有发生过一样，唯独绯勇自己知道这个小小的外传故事。由于卡片战斗的形式，这一作看起来更像是电子小说，不过也因此在剧情表达上有了更大的自由度。后来在GBA上推出了本作的复刻版。
+
+game: 返家十万里
+file: 返家十万里.zip
+sort-by: 021
+developer: 返家十万里
+description: 《返家十万里》（Engacho! for Wonderswan）是一款很合适小朋友玩的益智游戏。玩家每走一步，怪物也会跟着移动一步，而方向与玩家行走的方向有关，都是定向的，玩家要做的，就是利用不同的障碍物或者其他怪物，使自己不与怪物站在同一格子内，最后走到终点。
+
+game: 风之少年
+file: 风之少年.zip
+sort-by: 022
+developer: 风之少年
+description: 《风之少年》（Kaze no Klonoa: Moonlight Museum）是一款冒险解谜游戏。此游戏中，玩家控制一个名叫Klonoa的男孩。有一天，他在梦中得知有人偷走了月亮的碎片。小偷可能是一些画家，他们把月亮碎片带入了博物馆。当Klonoa输入音乐时，他被传送到一个神秘的世界。他要运用自己的智慧，克服这个世界上的所有障碍并找到月球碎片。Klonoa可以通过溜溜球捕获敌人，并将它们扔向其他敌人，或使用它们跳到更高处。此外，还需要收集各种符号来打开上锁的门，传送器，开关，定时炸弹和其他用于拼图的材料。
+
+game: 疯狂爬楼者
+file: 疯狂爬楼者.zip
+sort-by: 023
+developer: 疯狂爬楼者
+description: 《疯狂爬楼者》中的玩家作为一名疯狂的攀登者，你需要攀爬一系列建筑物并抵达最高点，那里会有直升机带你前往下一座建筑物。在攀爬途中，你只能向上或左右移动。要小心建筑物的窗户，它们会突然打开和关闭！并且还要小心其中的居民，他们会抛下的各种物品！窗户开关和抛物会让你的攀登者掉落下去，而你只有 3 名攀登者，不过不用担心每获得 30,000 分，你会额外获得 1 名攀登者。
+
+game: 格斗料理传说 激斗篇
+file: 格斗料理传说 激斗篇.zip
+sort-by: 024
+developer: 格斗料理传说 激斗篇
+description: 《格斗料理传说 激斗篇》（Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen ）是一款策略游戏，由 Banpresto 开发和发行，于 1999 年在日本发行。
+
+game: 哈罗机器人
+file: 哈罗机器人.zip
+sort-by: 025
+developer: 哈罗机器人
+description: 《哈罗机器人》（Harobots）是由Sunrise Interactive开发的游戏系列，以高达系列中的Haro为主角的宠物。可以从 Sunrise 的任何机甲系列中定制 Haro 并为其训练战斗。由于该游戏系列从未在日本以外地区发行
+
+game: 哈姆太郎
+file: 哈姆太郎.zip
+sort-by: 026
+developer: 哈姆太郎
+description: 《哈姆太郎》几乎就是一款电子宠物游戏，玩家养的是一只仓鼠，可以和他互动做游戏。
+
+game: 海贼王 目标是海贼王
+file: 海贼王 目标是海贼王.zip
+sort-by: 027
+developer: 海贼王 目标是海贼王
+description: 《海贼王 目标是海贼王》是一部漫改游戏作品，其原作在周刊少年JUMP上连载，电视动画也大受好评。
+
+game: 花札
+file: 花札.zip
+sort-by: 028
+developer: 花札
+description: 《花札》（Hanafuda Shiyouyo）是一款动作卡牌游戏，由Kaga Tech发行，于2000年在日本发行。
+
+game: 华尔兹之剑
+file: 华尔兹之剑.zip
+sort-by: 029
+developer: 华尔兹之剑
+description: 《华尔兹之剑》（Vaitz Blade） 是一款设定在中世纪欧洲风格世界的角色扮演游戏，你可以在其中通过击杀来收集怪物。你还可以融合两个怪物来创造出一个更强大的怪物。游戏有 200 种可收藏物品。这个游戏标题中的“Vaitz”是怪物的总称，《Vaitz Blade》中共有180多种不同类型的“Vaitz”。而且在这个游戏中，不仅可以相互融合的怪物，还有可以相互组合的物品。战斗的多样性也是这个游戏的魅力之一。除了玩家充分利用自己创造的武器和物品的常规战斗外，还包括竞技场中的事件和特殊战斗（单打对战、双打对战、团队战等）增加了游戏的刺激性。故事中还有很多事件，例如利用WonderSwan独特特性的垂直射击游戏。
+
+game: 徽章战士 独角仙版
+file: 徽章战士 独角仙版.zip
+sort-by: 030
+developer: 徽章战士 独角仙版
+description: 《徽章战士 独角仙版》为Imagineer于1997年在GB主机上开始推出，以人类与机器人共存的近未来世界做为舞台，让玩家收集各式各样零件，来自由组装以昆虫或动物为样本的「徽章战士」机器人，并与其他人进行对战的机器人改装对战RPG。可以说是日本非常知名的IP作品！  游戏将会分「甲虫版」「锹形虫版」双版本发售，「甲虫版」版为擅长远距离攻击的射击类型，「锹形虫版」版为擅长连续Combo攻击的类型。
+
+game: 徽章战士 鍬形虫版
+file: 徽章战士 鍬形虫版.zip
+sort-by: 031
+developer: 徽章战士 鍬形虫版
+description: 《徽章战士 鍬形虫版》为Imagineer于1997年在GB主机上开始推出，以人类与机器人共存的近未来世界做为舞台，让玩家收集各式各样零件，来自由组装以昆虫或动物为样本的「徽章战士」机器人，并与其他人进行对战的机器人改装对战RPG。可以说是日本非常知名的IP作品！  游戏将会分「甲虫版」「锹形虫版」双版本发售，「甲虫版」版为擅长远距离攻击的射击类型，「锹形虫版」版为擅长连续Combo攻击的类型。
+
+game: 绘图逻辑方块
+file: 绘图逻辑方块.zip
+sort-by: 032
+developer: 绘图逻辑方块
+description: 《绘图逻辑方块》是一款益智休闲类游戏，游戏玩法类似扫雷+数独，每个谜题都是包含一张隐藏图片的方块图阵；在逻辑方块游戏中，系统会在方块的左边和顶部提供数字提示，表示该行或列应该连续标记的方块数量；如果有多个数字提示，比如2，3，表示该行或列需连续标记2个方块，然后空出N个格子，接着连续标记3个方块；标记方块，点击“A”按钮，标识已核对方块，点击“B”按钮。
+
+game: 混乱齿轮
+file: 混乱齿轮.zip
+sort-by: 033
+developer: 混乱齿轮
+description: 《混乱齿轮》（Chaos Gear: Michibikareshi Mono） 是一款策略游戏，由 Lay-Up 开发并由 Bandai 发行，于 1999 年在日本发行。
+
+game: 机动战士高达 MSVS
+file: 机动战士高达 MSVS.zip
+sort-by: 034
+developer: 机动战士高达 MSVS
+description: 《机动战士高达 MSVS》（Mobile Suit Gundam MSVS）是一款冒险解谜游戏。本作中登场了很多原作动画中的著名机体，并且也有很多原作中的知名场地作为战斗地形。玩家驾驶高达时代战争时期的各种机动战士，成为阿纳海姆电子测试飞行员的角色。
+
+game: 將棋登龙门
+file: 將棋登龙门.zip
+sort-by: 035
+developer: 將棋登龙门
+description: 《將棋登龙门》（Shougi Touryuumon ）是一款棋盘游戏，由 Sammy Studios 开发和发行，于 1999 年在日本发行。
+
+game: 街头舞者
+file: 街头舞者.zip
+sort-by: 036
+developer: 街头舞者
+description: 《街头舞者》（Street Dancer）一款节奏音乐游戏，采用的是即时按键的操作方法。每过一关将解锁新的舞蹈动作。游戏里有三种不同的音乐风格：爵士，嘻哈和摇滚。
+
+game: 劲上果岭
+file: 劲上果岭.zip
+sort-by: 037
+developer: 劲上果岭
+description: 《劲上果岭》是一款简单的高尔夫游戏，也是一款不折不扣的模拟体育游戏。玩家可以选择不同选择击球的方向、力量和弧度，球场上还有形态各异的地形。三连击式的操作方式也成了日后高尔夫游戏的母版。如果能够忍受有些沉闷的节奏，这款游戏倒是相当不错的消遣工具。
+
+game: 竞走马育成
+file: 竞走马育成.zip
+sort-by: 038
+developer: 竞走马育成
+description: 《竞走马育成》的游戏中，玩家需要为自己的马厩命名，然后是为第一匹马命名，然后系统会向玩家介绍这个养马、繁殖和赛马游戏的世界。大部分游戏玩法都侧重于对马匹的训练和护理进行管理。在您认为自己已经准备好参加比赛，就可以去以赢得令人垂涎的缎带和想象的财富！
+
+game: 看谁在说话
+file: 看谁在说话.zip
+sort-by: 039
+developer: 看谁在说话
+description: 《看谁在说话》（Metakomi Theraphy - Nee Kiite!）是由Yoshidayama Workshop开发并由Media Entertainment发行的策略游戏，该游戏于2000年在日本发行。画面采用了铅笔画风格，在当时看来很前卫。
+
+game: 恐怖传说1
+file: 恐怖传说1.zip
+sort-by: 040
+developer: 恐怖传说1
+description: 《恐怖传说1》（Terrors）是一款综合不同恐怖类题材的文字AVG。一共收录了5个不同恐怖故事，全部完成后会解锁一个最终章。本作中的五个篇章均为独立的章节，玩家可以根据自己的喜好任意从其中一篇开始攻略，故事情节与音效的配合也很到位。
+
+game: 口袋战士
+file: 口袋战士.zip
+sort-by: 041
+developer: 口袋战士
+description: 《口袋战士》（Pocket Fighter）是一款跨平台的格斗游戏，它收录了街头霸王、恶魔战士、赤色大陆的格斗角色，并赋以可爱的动作和服装，战斗在Capcom的各个场景进行。
+
+game: 口袋撞球
+file: 口袋撞球.zip
+sort-by: 042
+developer: 口袋撞球
+description: 《口袋撞球》（Side Pocket）是一款桌球游戏，由Data East公司1999年发行，游戏画面和玩法类似FC上的花式撞球，玩家要跨越美国的不同城市参加比赛并积累积分。
+
+game: 狂钓黑巴斯
+file: 狂钓黑巴斯.zip
+sort-by: 043
+developer: 狂钓黑巴斯
+description: 《狂钓黑巴斯》是WS上的一款钓鱼游戏，玩法和大多数日式钓鱼游戏一样，有丰富的鱼钩鱼饵。
+
+game: 狂热节拍
+file: 狂热节拍.zip
+sort-by: 044
+developer: 狂热节拍
+description: 《狂热节拍》（Beatmania）是在WS平台上移植的作品。本作延续了狂热节拍一贯的游戏风格，但在难度上有进行调整。本作依然十分考验玩家的节奏感，加上WS本身独有的双十字键位，玩家需要记住的键位更多，想得到高分可要花一番功夫了。
+
+game: 恋爱时代 海边小夜曲
+file: 恋爱时代 海边小夜曲.zip
+sort-by: 045
+developer: 恋爱时代 海边小夜曲
+description: 《恋爱时代 海边小夜曲》Kiss Yori... Seaside Serenade 是一款冒险游戏，由 Kid 开发，于 1999 年在日本发行。
+
+game: 领域争夺战
+file: 领域争夺战.zip
+sort-by: 046
+developer: 领域争夺战
+description: 《领域争夺战》（Anchor Field 2）是一款比较特别的策略游戏，玩家与敌人需要通过不断的“圈地”来扩充自己的领域，最后占领的领域多者为胜。玩家需要在游戏中发射“锚”，通过3根“锚”圈出一块区域并与自己已有的领域连接起来，则所圈住的区域也会成为自己的领域。
+
+game: 六角拼盘
+file: 六角拼盘.zip
+sort-by: 047
+developer: 六角拼盘
+description: 《六角拼盘》的游戏目标是在六角形地带占据地盘争取高分，并击败对手。除了和电脑进行人机对战外，还可以进行双人对战，大大增加了游戏乐趣。
+
+game: 陆行鸟不可思议的迷宫
+file: 陆行鸟不可思议的迷宫.zip
+sort-by: 048
+developer: 陆行鸟不可思议的迷宫
+description: 《陆行鸟不可思议的迷宫》（Chocobo no Fushigi na Dungeon for WonderSwan）是一款动作角色扮演游戏。玩家扮演一只陆行鸟进行寻宝之旅。陆行鸟从最终幻想2开始登场，多数时候是成为主人公最初的座骑，不需出现在竞技场上，就能高速飞跑。随着系列的推进它逐渐变得能越过森林、山岗、海洋，主要作用还有召唤兽。在不可思议迷宫里，陆行鸟的主要目的就是探索地下迷宫，将宝物带回村子。
+
+game: 洛克人与佛鲁迪 来自未来的挑战者
+file: 洛克人与佛鲁迪 来自未来的挑战者.zip
+sort-by: 049
+developer: 洛克人与佛鲁迪 来自未来的挑战者
+description: 《洛克人与佛鲁迪 来自未来的挑战者》（Rockman & Forte - Mirai Kara no Chousensha）虽然是与SFC版雷同，但是移植到WS后的黑白画面依然清晰。毫无疑问，这款古老的洛克人系列给80后，甚至90后留下了深深的烙印。
+
+game: 麻雀登龙门
+file: 麻雀登龙门.zip
+sort-by: 050
+developer: 麻雀登龙门
+description: 《麻雀登龙门》（Mahjong Touryuumon） 是日式麻将游戏，由 Chat Noir 开发，Sammy Studios 发行，于 1999 年在日本发行。
+
+game: 梦幻模拟战
+file: 梦幻模拟战.zip
+sort-by: 051
+developer: 梦幻模拟战
+description: 《梦幻模拟战》（Langrisser Millennium WS - The Last Century）是一款经典的角色扮演游戏，是日本著名游戏公司NCS旗下子公司MASIYA小组的作品。这款在WS平台是的作品是《千年纪》DC版的前传，沿用了DC版的世界观。游戏的方式回归了MD平台上L2的玩法，本作的佣兵系统也和以往略有不同，兵种相克是由其所持的武器所决定，比如短剑克制枪、枪克斧、斧克剑。本作的魔法画面也回归了传统，但使用治愈系魔法并没有经验可拿，10级转职的转职系统也被传承了下来，不过和L1一样，除了几位主要角色以外，其他的配角都只能单线转职。总的来说，本作在系统上虽然存在着种种的不合理，但这都算不上你拒绝本作的理由，尤其是玩过L2的玩家，如果你已经厌倦了被你玩了无数次的L2，正苦苦追寻一部类似的游戏，那么本作无疑是最佳的选择。
+
+game: 谜王
+file: 谜王.zip
+sort-by: 052
+developer: 谜王
+description: 《谜王》（Nazo-Oh Pocket） 是一款冒险游戏，由 Bandai Visual 开发并由 Bandai 发行，于 1999 年在日本发行。
+
+game: 名侦探柯南 魔术师之挑战书
+file: 名侦探柯南 魔术师之挑战书.zip
+sort-by: 053
+developer: 名侦探柯南 魔术师之挑战书
+description: 《名侦探柯南 魔术师之挑战书》（Meitantei Conan: Majutsushi no Chsenj!）是一款冒险解谜类游戏。玩家需要去到不同的地方，收集不同证人的证词，通过推理帮助柯南破解案件。
+
+game: 名侦探柯南 西之名侦探最大之危机
+file: 名侦探柯南 西之名侦探最大之危机.zip
+sort-by: 054
+developer: 名侦探柯南 西之名侦探最大之危机
+description: 《名侦探柯南 西之名侦探最大之危机》（Meitantei Conan: Nishi no Meitantei Saidai no Kiki）是柯南系列文字冒险游戏中的一作，游戏的新玩法是寻找钥匙。钥匙代表玩家可以用来解决游戏中的逻辑难题的实际证据，一旦找到所有可以解决难题的钥匙即可。通常在搜索时会发现提示，提示信息将为玩家指明正确的方向。拥有所有钥匙后，将可以拥有一个完整的逻辑网格，否则网格上的区域是灰色的。
+
+game: 魔法方块大战
+file: 魔法方块大战.zip
+sort-by: 055
+developer: 魔法方块大战
+description: 《魔法方块大战》是由Data East发行Gaibrain制作的一款三消休闲游戏，和大多数游戏消除类游戏一样，三个一样的团靠近就会自动消除。
+
+game: 魔法气泡
+file: 魔法气泡.zip
+sort-by: 056
+developer: 魔法气泡
+description: 《魔法气泡》是由SEGA（20世纪90年代时为Compile，后由Compile倒闭版权卖给了SEGA）开发的一款益智游戏。其玩法轻松简单，根据模式和角色的不同，游戏会随机落下2~4个一组的噗哟，将4个以上相同颜色的噗哟连接在一起即可消除。当一次消除之后，因重力关系落下的噗哟再一次形成消除时，那这种情况便称之为连锁。当触发大连锁时，便可以给对手送去一定量像石头般的妨碍噗哟。妨碍噗哟就算是连接成4个也不能消除，非常的麻烦。但是当4个相同颜色的噗哟消除时，边上的妨碍噗哟也会随之消除。
+
+game: 魔界村
+file: 魔界村.zip
+sort-by: 057
+developer: 魔界村
+description: 《魔界村》（Makaimura for WonderSwan）是CAPCOM除《洛克人》外的又一硬派动作游戏品牌，最初于1985年9月在街机上问世。其特点就是令人咋舌的超高难度，以至于被不少玩家称为了史上最难ACT。故事讲的是勇敢的骑士亚瑟拯救被魔王抓走的公主的故事。本作为《魔界村》WS移植版。
+
+game: 魔卡少女樱的不可思议库洛牌
+file: 魔卡少女樱的不可思议库洛牌.zip
+sort-by: 058
+developer: 魔卡少女樱的不可思议库洛牌
+description: 《魔卡少女樱的不可思议库洛牌》（Card Captor Sakura: Sakura to Fushigi na Clow Card）是一款角色扮演游戏，由模拟人生开发，万代发行，于1999年在日本发行。
+
+game: 趴趴熊方块
+file: 趴趴熊方块.zip
+sort-by: 059
+developer: 趴趴熊方块
+description: 《趴趴熊方块》（Tarepanda no Gunpey） 是一款 Gunpey 风格的益智游戏，具有 Gunpey EX 模式和额外的 Tarepanda 故事模式。游戏包括经典的 Gunpey、无尽的 Gunpey、定时清除线模式以及玩家必须一次清除所有线的模式。两名玩家还可以联手挑战对方，交换高分。 故事模式中趴趴熊发现了世界各地其他的熊猫的存在；想知道其他熊猫是什么样的，趴趴熊就开始出发寻找它们。每只熊猫都戴着其祖国相关的头饰，如英国的礼帽，印度的头巾等。当我们的趴趴熊找到新的熊猫时，会出现障碍挡住了路，通过完成一定数量的线条连接，为受阻的趴趴熊提供越过障碍的能量。
+
+game: 泡泡龙
+file: 泡泡龙.zip
+sort-by: 060
+developer: 泡泡龙
+description: 《泡泡龙》（Puzzle Bobble）是大名鼎鼎的休闲游戏，玩家控制炮台的方向射出泡泡，将3个以上相同的泡泡击落，经典的玩法简单却乐趣无穷。
+
+game: 七夜怪谈
+file: 七夜怪谈.zip
+sort-by: 061
+developer: 七夜怪谈
+description: 《七夜怪谈》（Ring Infinity）是一款恐怖游戏。7个年轻人，同住一层楼，平日都喜欢刺激冒险，爱看恐怖片，也爱讲恐怖故事。于是有人提议开个“怪谈社”，每个周末轮流讲一个刺激的鬼故事。从某个周末起，怪谈社开始了第一个故事…… 第二个周末，第一个讲完故事的人神秘丧生。不安和恐惧开始蔓延，怪谈社却依旧进行着夜谈，但每个周末都有人因故缺席。第7个周末，只剩下了一个人，但这时才发现，原来他们这层楼虽然有7个房间，却一直只住着6个人，还有1个人，究竟是谁？
+
+game: 奇迹棒球
+file: 奇迹棒球.zip
+sort-by: 062
+developer: 奇迹棒球
+description: 《奇迹棒球》中的玩家能够在全明星对决、表演赛或本垒打比赛模式中选择 14 支球队、12 支职业球队、2 支虚构球队之一。
+
+game: 奇迹棒球 99
+file: 奇迹棒球 99.zip
+sort-by: 063
+developer: 奇迹棒球 99
+description: 《奇迹棒球 99》是在前作 《奇迹棒球》之后仅仅五个月发布的，并没有增加太多的游戏玩法，此更新将有关 1999 年日本棒球赛季的信息添加到游戏中。
+
+game: 全职猎人 意志的继承者
+file: 全职猎人 意志的继承者.zip
+sort-by: 064
+developer: 全职猎人 意志的继承者
+description: 《全职猎人 意志的继承者》（Hunter X Hunter - Ishi wo Tsugu Mono）是由游戏制造商Bandai制作的一款RPG游戏，本作是根据著名漫画《全职猎人》改编而来的，这款游戏画面虽然一般不过游戏内容十分丰富，玩家需要通过较长的时间才能通关。
+
+game: 燃烧吧!!职业棒球
+file: 燃烧吧!!职业棒球.zip
+sort-by: 065
+developer: 燃烧吧!!职业棒球
+description: 《燃烧吧!!职业棒球》游戏是完整的九局赛制。游戏还拥有完整的赛季模式、练习模式，你可以通过各种手段来让你的球队变得更强。游戏的一切都是按照真实的棒球比赛来得分的。
+
+game: 日本职业麻雀联盟公认 彻万
+file: 日本职业麻雀联盟公认 彻万.zip
+sort-by: 066
+developer: 日本职业麻雀联盟公认 彻万
+description: 《日本职业麻雀联盟公认 彻万》Nihon Pro Mahjong Renmei Kounin: Tetsuman 是一款麻将游戏，由 Chat Noir 开发，Kaga Tech 发行，于 1999 年在日本发行。
+
+game: 三国志 I
+file: 三国志 I.zip
+sort-by: 067
+developer: 三国志 I
+description: 《三国志 I》采用《三国演义》的小说内容来设定人物，玩家担当的角色是君主，透过内政、军事、外交、计略等指令指挥属下武将，最终目标是统一分割为41国的中国全土。
+
+game: 三国志 II
+file: 三国志 II.zip
+sort-by: 068
+developer: 三国志 II
+description: 《三国志 II》延续前作，仍采用《三国演义》的小说内容来设定人物，玩家担当的角色是君主，透过内政、军事、外交、计略等指令指挥属下武将，最终目标是统一分割为41国的中国全土。本作相比前作，剧本数量从2个增加到了6个。
+
+game: 三京柏青哥机模拟大攻略
+file: 三京柏青哥机模拟大攻略.zip
+sort-by: 069
+developer: 三京柏青哥机模拟大攻略
+description: 《三京柏青哥机模拟大攻略》是一个弹球模拟器。该游戏为玩家提供了许多不同的弹球机。当球在弹球机里弹出时，降落在不同的区域获得不同的奖励。玩家可以控制弹球发射的速度，这能改变弹球降落的区域，从而获得不同的奖励，玩家还可以用弹球机获得的奖励来购买相关的纪念品。
+
+game: 森田将棋
+file: 森田将棋.zip
+sort-by: 070
+developer: 森田将棋
+description: 《森田将棋》中的将棋是根据国际象棋与中国象棋的玩法衍生出来的日本独有棋种，其特点是节奏快，棋局千变万化，没有特定的死棋走法。
+
+game: 上海
+file: 上海.zip
+sort-by: 071
+developer: 上海
+description: 《上海》 是日本游戏制造商SUNSOFT公司制作的一款消除游戏。在游戏中，玩家需要从不同层次的麻将中选择相同的样式，就会使其消除。当全部消除这些麻将后，你就获得了游戏的胜利。
+
+game: 时间飞船系列 飞船传说
+file: 时间飞船系列 飞船传说.zip
+sort-by: 072
+developer: 时间飞船系列 飞船传说
+description: 《时间飞船系列 飞船传说》Time BÃ´kan 系列：BÃ´kan Densetsu - Butamo Odaterya Doronbou 是基于 Tatsunoko 的 Time Bokan 动漫系列的角色扮演游戏。它由 Alpha Unit 开发，由 Banpresto 出版，并于 2000 年在日本发布。
+
+game: 兽人竞走
+file: 兽人竞走.zip
+sort-by: 073
+developer: 兽人竞走
+description: 《兽人竞走》（Buffers Evolution）是一款动作游戏。玩家可以选择3个兽人之中的一个进行操作，在前进过程中需要不断避开障碍，并通过10个固定的点，最终计算时间得出成绩。如果中途漏掉了固定点会影响到最终的成绩。这款游戏在道路设计上颇有心思，除了众多的障碍外，还会设有不同高低的分岔路线，而有些固定点会在不同的分岔路上，这时就需要玩家正确选择路线了。
+
+game: 数回
+file: 数回.zip
+sort-by: 074
+developer: 数回
+description: 《数回》是一个很有趣的智力小游戏，与数独游戏同属数字类的休闲小游戏，不过比数独要更轻松一点，更容易上手。
+
+game: 数码宝贝冒险02 附属团队
+file: 数码宝贝冒险02 附属团队.zip
+sort-by: 075
+developer: 数码宝贝冒险02 附属团队
+description: 《数码宝贝冒险02 附属团队》基于漫画数码宝贝系列制作，孩子们可以旅行到数码世界，帮助善良的数码宝贝打败邪恶的怪物。Ryou 和 Ken 被召唤到 Digiworld 来对抗大敌 Millenniumon 和他的副手 Diablomon。
+
+game: 数码宝贝 数位拍档
+file: 数码宝贝 数位拍档.zip
+sort-by: 076
+developer: 数码宝贝 数位拍档
+description: 《数码宝贝 数位拍档》是由游戏制造商Bandai制作的一款角色扮演类游戏，这款游戏是根据经典动画《数码宝贝》改编而来的，游戏里玩家需要跟不同的数码宝贝对话，最终找到自己的拍档。
+
+game: 太空侵略者
+file: 太空侵略者.zip
+sort-by: 077
+developer: 太空侵略者
+description: 《太空侵略者》（Space Invaders）是一款1978年发售的街机游戏，是一代飞行射击的经典之作。之后，《太空侵略者》移植到多个平台上，本作为其移植到WS上的作品。玩家操作以2D点阵图构成的太空船，在充满外星侵略者的太空中进行一连串的抵抗任务。玩家除了能左右平移太空船来闪躲敌人，还可以躲在掩体后面避免敌人的自杀攻击。值得一提的是，玩家清光每一站的太空侵略者后，游戏会帮玩家进化太空船的各种能力。
+
+game: 淘金者
+file: 淘金者.zip
+sort-by: 078
+developer: 淘金者
+description: 《淘金者》（Lode Runner for WonderSwan）是由游戏制造商Banpresto制作的一款动作游戏。玩家需要操控淘金者手机金砂和羽毛，还会有怪物追赶，如果被追上就会被淘汰。这款游戏在当时来说算是家喻户晓的动作游戏，画面和音乐都算不上特别优秀，不过本作的可玩性相当高，在当时可是一款十分热门的游戏。
+
+game: 铁拳卡片挑战赛
+file: 铁拳卡片挑战赛.zip
+sort-by: 079
+developer: 铁拳卡片挑战赛
+description: 《铁拳卡片挑战赛》（Tekken Card Challenge）是一款由著名格斗游戏衍生而来的卡片游戏，所有卡片具有不同的视觉效果。游戏有几种模式：经典的街机战斗，玩家选择一个角色并面对电脑；冒险模式，玩家找到新对手并通过击败新对手来解锁新角色，在15x15的网格地图上游玩，该地图上覆盖着神社，村庄和无法通行的山脉。
+
+game: 铁人28号
+file: 铁人28号.zip
+sort-by: 080
+developer: 铁人28号
+description: 《铁人28号》（Tetsujin 28 Gou）是一款由同名动漫改编的游戏。故事背景叙述二次世界大战结束后十年的日本，正处于战后复苏的阶段，少年金田正太郎与突然出现，由父亲金田博士所开发的巨大钢铁机器人28号相遇，并成为操作28号的操作员，面对暗地里活动的邪恶势力Ｘ团，与28号并肩而战的故事。游戏中将具备3种模式，在故事模式中，玩家将操作正太郎来进行一连串的剧情，并于必要时呼叫28号来与敌方的机器人进行战斗，游戏将重现原著中简化到不可思议的铁人遥控操作，只需要使用一个按钮即可操作28号来进行战斗，玩家可操作28号在昭和30年代风景的街道与城市中豪爽的进行巨大机器人的战斗，而战斗时系统将会依照状况重现原作中各角色的对话，更具临场感。
+
+game: 五子棋登龙门
+file: 五子棋登龙门.zip
+sort-by: 081
+developer: 五子棋登龙门
+description: 《五子棋登龙门》是两个经典益智游戏五子棋合集。
+
+game: 仙界传1
+file: 仙界传1.zip
+sort-by: 082
+developer: 仙界传1
+description: 《仙界传1》（Senkaiden - TV Animation Senkaiden Houshin Engi Yo）是根据日本改编动漫作品《封神演义》衍生而来的游戏作品。本作以中国为游戏背景舞台，玩机在游戏中扮演的是一个名为吕雄的失忆小道士，游戏开始时在昆仑山跟随元始天尊学习道法。游戏过程中，玩家根据武王伐纣的主线剧情不断完成任务，收集不同的伙伴，并在元始洞中不断修炼取得称号，目的是为了最终战胜王天君，称号升级为仙人，修得百灵藩。
+
+game: 线脑
+file: 线脑.zip
+sort-by: 083
+developer: 线脑
+description: 《线脑》（Sennou Millennium）是由Kouyousha开发并由Bandai发行的益智游戏，于2000年在日本发行。
+
+game: 线条方块
+file: 线条方块.zip
+sort-by: 084
+developer: 线条方块
+description: 《线条方块》（Gunpey） 是一款以狂野西部为背景的益智游戏。你的目标是连接几根保险丝，形成一根长保险丝穿过整个电路板，使其爆炸并消失。 Gunpey 中有多种游戏模式，例如经典的益智游戏模式“无尽模式”，您可以在其中玩到失败或者时间结束，时间为 2 分钟或 5 分钟。 “阶段模式”，您必须在进入下一阶段之前清除一定数量的电路板。 “拼图模式”，你有一定数量的保险丝，你需要让它们在一次爆炸中消失。最后是“对战模式”，您可以在该模式中与朋友对战。
+
+game: 携帶鱼群探知机
+file: 携帶鱼群探知机.zip
+sort-by: 085
+developer: 携帶鱼群探知机
+description: 《携帶鱼群探知机》（WonderSwan Handy Sonar） 是万代于 1999 年为 WonderSwan 开发和发行的钓鱼游戏。它与 Handy Sonar 捆绑在一起，这是一种类似于 Pocket Sonar 的鱼探设备，也是 Bandai 为 Nintendo Game Boy 发布的。
+
+game: 新日本摔角联盟 斗魂烈传
+file: 新日本摔角联盟 斗魂烈传.zip
+sort-by: 086
+developer: 新日本摔角联盟 斗魂烈传
+description: 《新日本摔角联盟 斗魂烈传》是一款简单的摔跤游戏，玩家控制六名摔跤手中的一名，然后在锦标赛中与所有其他摔跤手竞争。玩家使用方向键和AB键来控制摔跤手，击倒对手并控制一定时间来取得胜利。
+
+game: 新世纪福音战士 使徒育成
+file: 新世纪福音战士 使徒育成.zip
+sort-by: 087
+developer: 新世纪福音战士 使徒育成
+description: 《新世纪福音战士 使徒育成》（Neon Genesis Evangelion - Shito Ikusei）是根据TV动画《新世纪福音战士》改编的模拟养成游戏，是WS平台唯一的一款EVA游戏，玩家扮演主人公加持良治，受碇司令的命令在六天内将带回的亚当胚胎培育为成体，试图对其进行研究和控制。虽然最终使徒失控逃出，被暴走的初号机打败，加持得出人类无法控制使徒的结论，但是碇司令仍不放弃。
+
+game: 新世纪福音战士 使徒育成 汉化版
+file: 新世纪福音战士 使徒育成 汉化版.zip
+sort-by: 088
+developer: 新世纪福音战士 使徒育成 汉化版
+description: 《新世纪福音战士 使徒育成 汉化版》是由Lance_29于2022年发布的汉化版，全文本汉化，图片大部分汉化。本作是根据TV动画《新世纪福音战士》改编的模拟养成游戏，是WS平台唯一的一款EVA游戏，玩家扮演主人公加持良治，受碇司令的命令在六天内将带回的亚当胚胎培育为成体，试图对其进行研究和控制。虽然最终使徒失控逃出，被暴走的初号机打败，加持得出人类无法控制使徒的结论，但是碇司令仍不放弃。
+
+game: 信长之野望
+file: 信长之野望.zip
+sort-by: 089
+developer: 信长之野望
+description: 《信长之野望》的游戏故事发生在在 16 世纪，日本的战国时代将这个国家划分为许多封建国家，每个国家都由一位大名统治。许多人梦想征服这片土地，成为幕府将军并统治整个国家。其中一位大名是野心勃勃的织田信长，他是一位冷酷无情的统治者和著名的战略家。玩家扮演织田信长或许多其他大名之一的角色，试图统一日本。在本作中玩家将扮演织田信长或其他大名，通过经营内政、发展军事，在合战中消灭其他势力，实现全国统一（实际上只有中部地区和畿内的17个区域），结束战国时代。
+
+game: 漩涡 怪奇篇
+file: 漩涡 怪奇篇.zip
+sort-by: 090
+developer: 漩涡 怪奇篇
+description: 《漩涡 怪奇篇》（Uzumaki: Denshi Kaikihen）是由游戏制造商Omega制作的一款冒险类游戏，根据伊藤润二的作品《漩涡》改编。游戏采取竖屏幕进行游戏，基本忠于原作，再现了漫画中一些经典的场面。游戏选择了漫画中的4个小故事：伤痕、头发、惊奇盒和台风。但在台风故事结束后游戏也告一段落，感觉上流程太短了一点，而且通关后也没有CG欣赏。值得注意的是，游戏中一些选项对结局是有影响的，一旦选择错误将会立刻game over。
+
+game: 漩涡 魔咒篇
+file: 漩涡 魔咒篇.zip
+sort-by: 091
+developer: 漩涡 魔咒篇
+description: 《漩涡 魔咒篇》（Uzumaki: Noroi Simulation）是由游戏制造商Omega制作的一款冒险解密类游戏，根据伊藤润二的作品《漩涡》改编。玩家需要根据“漩涡仙人”的指示制造漩涡，按照顺序访问各地点并按照说明进行行动，就会发生事件，提升漩涡的LEV。请注意，如果将必要的物品用在错误的场所的时候，将必然GAME OVER。
+
+game: 妖符魔界
+file: 妖符魔界.zip
+sort-by: 092
+developer: 妖符魔界
+description: 《妖符魔界》（Chou Denki Card Game - Youfu Makai - Kikuchi Shuuk）是由游戏制造商Kobunsha制作的一款经典的卡牌类游戏，画面在当时来说是比较精致的，游戏主机讲述妖魔的故事，玩家需要收集强大的妖魔符为己用，和其他的妖魔对战。
+
+game: 语乐王
+file: 语乐王.zip
+sort-by: 093
+developer: 语乐王
+description: 《语乐王》（Goraku Ou Tango!）是一款简单的文字游戏，模仿流行的日本文字拼图出版商 Sekai Bunka 的拼图。这些谜题包括用英语和日本平假名或片假名的两个音节书写单词，然后在单词下方移动瓷砖以不同的写作风格重新创建它们。
+
+game: 预想进化论
+file: 预想进化论.zip
+sort-by: 094
+developer: 预想进化论
+description: 《预想进化论》（Yosou Shin Karon）是由Media Entertainment发行的赛马游戏，于1999年在日本发行。
+
+game: 元祖忍者 茶茶丸君
+file: 元祖忍者 茶茶丸君.zip
+sort-by: 095
+developer: 元祖忍者 茶茶丸君
+description: 《元祖忍者 茶茶丸君》（Ganso Jajamaru-kun）是1985年由Jaleco公司推出的一款FC游戏，本作是移植到WS上的版本，讲述红衣忍者茶茶丸将一路打败各种敌人，从邪恶的鲶鱼太夫手中救出樱花公主的故事。
+
+game: 职业麻雀 极
+file: 职业麻雀 极.zip
+sort-by: 096
+developer: 职业麻雀 极
+description: 《职业麻雀 极》（Pro Mahjong Kiwame ）是一款麻将游戏，由 Athena 发行，于 1999 年在日本发行。
+
+game: 纸牌革命 I
+file: 纸牌革命 I.zip
+sort-by: 097
+developer: 纸牌革命 I
+description: 《纸牌革命 I》（Trump Collection：Bottom Up Teki Trump Seikatsu）是一款赌博游戏，由Bottom Up开发并发行，于1999年在日本发行。
+
+game: 纸牌革命 II
+file: 纸牌革命 II.zip
+sort-by: 098
+developer: 纸牌革命 II
+description: 《纸牌革命 II》（Trump Collection 2：Bottom Up Teki Sekai Isshuu no Tabi）是一款赌博游戏，由Bottom Up发行，于2000年在日本发行。
+
+game: 钟楼
+file: 钟楼.zip
+sort-by: 099
+developer: 钟楼
+description: 《钟楼》（Clock Tower）是日本Human Entertainment公司推出的惊栗游戏作品之一，游戏的女主角名为Jennifer Simpson，父亲于她5岁时失踪，随后于一孤儿院长大。至14岁时她与另外三名孤儿院的朋友一同被富人Barrows夫妇收养，她们被带到山上的一所大屋中。Barrows夫人Mary叮嘱她们在大厅等她回来，但她们等了Mary多时仍未见其身影，觉得不对劲，主角Jennifer在离开大厅想找Mary之际，忽然听到惨叫声，其他人不知所踪，只剩下Jennifer一人。Jennifer开始在屋中展开冒险，途中会遇到有同伴被一拿著大剪刀的怪物杀死，而剪刀人会穷追女角，女角需找地方躲避。另外女主角可选择调查Barrows家的秘密、拯救朋友及逃走。游戏共有9个结局，由好至坏，分别为S和A-H，视乎女主角完成调查多寡而定。当中仅有S结局能救回一位朋友，而D至H属坏结局，女角最终也会被杀。
+
+game: 装甲部队
+file: 装甲部队.zip
+sort-by: 100
+developer: 装甲部队
+description: 《装甲部队》（Armored Unit）是一款科幻机甲回合制策略游戏游戏。主要的游戏模式是故事模式，审判模式和对决模式。在故事模式中，玩家首先从几种可用的装甲单位中进行选择，这些装甲单位的类型各异（例如，骑士，游侠，搜寻者）。游戏在方形地图上移动，可以水平或垂直移动装甲部队。玩家与一个隐藏的装甲单位战斗，仅当与之相邻时，或者雷达可以在一定半径内发现它时，该对手才可见。根据所选单位的类型，配备武器和特殊攻击，目标是打败敌军，并进入下一个阶段。玩家可以在随机的地图区域进行战斗，也可以使用大规模杀伤性武器尝试袭击敌方单位而无需知道其确切位置。在每个阶段之后，都可以升级武器库，或添加新的武器。
+
+game: 子育问答我的天使
+file: 子育问答我的天使.zip
+sort-by: 101
+developer: 子育问答我的天使 
+description: 《子育问答我的天使》（Kosodate Quiz Dokodemo: My Angel）是由 Namco 开发并由 Bandai 发行的 Trivia / Game Show 游戏，于 1999 年在日本发行。
+
+game: 足球野郎挑战全世界
+file: 足球野郎挑战全世界.zip
+sort-by: 102
+developer: 足球野郎挑战全世界
+description: 《足球野郎挑战全世界》中玩家可以在众多全球足球队中的选择其中的一支，并开始与其他球队进行对战。
+
+game: 卒业
+file: 卒业.zip
+sort-by: 103
+developer: 卒业
+description: 《卒业》是一款1992年6月25日诞生的一部模拟养成类游戏作品，同时游戏以随和的游戏步调，采用剧情环环相扣的表现手法，将校园生活的一件件有趣的故事联系起来，向玩家讲述一场浪漫的青春纪事。卒業是一款以老师视角展开故事情节的模拟养成游戏，你负责教导五个性格迥异的女学生，要帮助她们顺利毕业，她们可能会随机出现一些小状况，这个作为老师的你需要多加关心，与她们的互动也要注意一些小细节。虽然名字是“卒業”，但学生并不是一定能毕业，根据教学的状况也有被留级或退学处分等情况。游戏是属于带有角色扮演性质的养成类游戏，有各种参数值和具体的日常流程选项。
+
+game: 最后冲刺 2000
+file: 最后冲刺 2000.zip
+sort-by: 104
+developer: 最后冲刺 2000
+description: 《最后冲刺 2000》（Final Lap 2000 ）是 Namco 的 Final Lap 赛车游戏的第一个掌机版本。
+
+game: 最后防线
+file: 最后防线.zip
+sort-by: 105
+developer: 最后防线
+description: 《最后防线》（Last Stand）是由Soft Machine开发并由Bandai发行的策略游戏，于1999年在日本发行。很久以前，人们和野兽联合击败了突然出现的魔王“撒旦”，并将其密封在黑暗中。玩家指挥军队前往邻近地区，通过摧毁区域的头目来解救该区域。AI会自动执行所有战斗，而玩家只能观看战斗。探索，培训和建立强大的军队，有各种各样的职业可供选择。游戏中没有太多对话，基本上，角色只在与BOSS进行战斗时、前进到每个区域时和战斗后才出现剧情。
+

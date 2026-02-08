@@ -1,0 +1,347 @@
+collection:对战街机
+sort-by:002
+extensions: 7z, zip
+ignore-files: 
+  coh1000c.zip
+  coh1000t.zip
+  coh1002m.zip
+  coh3002c.zip
+  qsound_hle.7z
+  konamigx.zip
+  segabill.zip
+  tms32032.zip
+  sys246.zip
+  namcoc76.zip
+  stvbios.zip
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/mame_libretro.dll" "{file.path}"
+
+game: 拳皇98 终极之战英雄
+file: kof98umh.zip
+sort-by: 047
+developer: 拳皇98 终极之战英雄
+publisher: SNK
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 《拳皇98终极之战》，简称KOF98UM，于KOF98十年后的2008年3月18日发行，是一款KOF98的重制版，以98为基础再度调整游戏平衡，强化了原有的EX模式，并在此基础上追加了新模式ULTIMATE，玩家可以任意在“前跳”或“猛跑”、“侧身闪避”或“翻滚”以及“攒豆”或“集气”之间组合自己惯用的模式。游戏在原98基础上追加了影二、香澄、'96BOSS队等原98未登场的大蛇篇角色，并添加了诸多里角色（如里King、里山崎等）。拳皇98 终极之战(The King of Fighters’98 Ultimate Match) ，它的意思为：终极之战，很有意思，原版的KOF98叫未结束，而KOF98UM版就叫终极之战（意思为：结束了）。KOF94-97的所有角色齐聚一堂，终极之战就此开始。
+
+game: 街头霸王 EX1
+file: sfex.zip
+sort-by: 133
+developer: 街头霸王 EX1
+publisher: Capcom
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: Capcom于1996年出品的《街头霸王 EX1》是ARIKI从卡普空得到版权后制作的，对应PS互换基板。虽然是为了顺应《Virtua Fighter》和《铁拳》的3d化潮流，但此作却只是一个套上3D外壳的2D格斗游戏，所有的操作方式都和原来的《街头霸王》无异，虽然画面与同时期的立体格斗游戏相比很粗糙，人物都是“方”的，但卡普空一贯优秀的操作性得以保留，并增加很多原创角色。另外丰富多彩的连续技系统也吸引了一部分玩家，在各地机厅中拥有很高的人气。
+
+game: 街头霸王 EX1PLUS
+file: sfexp.zip
+sort-by: 134
+developer: 街头霸王 EX1PLUS
+publisher: Capcom
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: Capcom于1997年出品，是《街头霸王 EX1》的强化版，追加新角色，前作中的一些隐藏角色也变为可选。
+
+game: 街头霸王 EX2
+file: sfex2.zip
+sort-by: 135
+developer: 街头霸王 EX2
+publisher: Capcom
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: Capcom于1998年的出品的《街头霸王 EX2》依然由ARIKI制作，由于之前的《街头霸王 EX》在画面上的表现差强人意，所以这次使用了NAMCO的SYSTEM 12基板。这款基板在《铁拳3》中的表现非常优秀，而《街霸EX 2》的画面借助硬件提升同样有了极大的进化，人物多边形更多，不再那么“方”了，动作也更加真实流畅。游戏中新加入了一些原创角色，布兰卡和巴洛克也再次登场。《街头霸王 EX2》在系统上加入 “EXCEL”系统，类似于《少年街霸》中的OC系统，玩家可以任意组合攻击成为华丽的连技。还有可以在任何地面普通技后cancel等等全新设定，令游戏性更为提高。
+
+game: 街头霸王 EX2PLUS
+file: sfex2p.zip
+sort-by: 136
+developer: 街头霸王 EX2PLUS
+publisher: Capcom
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: Capcom于1999年出品，是《街头霸王 EX2》的强化版，追加新角色和强化了EXCEL技，这款作品成为街机街头霸王ex系列中最受玩家喜爱的一部。
+
+game: 斗神传2
+file: ts2.zip
+sort-by: 178
+developer: 斗神传2
+publisher: Capcom
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: Takara于1995年推出的3d格斗游戏，后来在ps上有移植版。是著名3D格斗游戏《斗神传》系列的第2作，可供选择的角色追加到了11位(不计BOSS和隐藏角色)。游戏的画面比前作华丽了不少，而且还追加了诸如“究极宝技”等新攻击技，令游戏的进攻模式变得更加的多样化。
+
+game: 超钢战记
+file: techromn.zip
+sort-by: 180
+developer: 超钢战记
+publisher: Capcom
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 超钢战记(Tech Romancer)是Capcom于1998年出品的3D格斗游戏，是以各种超级机甲对战的游戏。\n\n\nLEGEND\n------------\n->              Forward\n->>             Hold forward\n<-              Back\n<<-             Hold back\nA               Attack button A\nB               Attack button B\nJ               Jump button\nG               Guard button\n+               Push buttons simultaneously\n,               Push buttons sequentially\n\               Different options (eg. A\B  A or B button)\n[button]        You can delay\extend the move by holding button\n(button)        Perform additional moves by pressing button\nair             The move must be done in the air\nS               The move stuns opponent\nU               The move is unblockable\nW               The move is a "warning" move\n\nCOMMON MOVES\n------------\n\ndown                    Move into foreground\nup                      Move into background\n<- <<-                  Backup\n-> ->>                  Dash\nA\B while dashing       Dash attack\nA (close)               Close combat attack\nA,A,A (close)           3-4 hit easy combo\n\n\n===========================================================================\nII.  FEATURES\n===========================================================================\n\nDAMAGE GAUGE\n------------\n\nThe vertical bar in both sides of the screen. It is initially empty.\nFill the opponent's Damage Gauge by attacking. When your Damage Gauge\nis full, you lose the round. A game is two out of three rounds, though\nthe Damage Gauge of the winner is carried over to the next round, so\nrounds can be really short !!\nThe time counter is not restored to max, either. It is added a small\namount of time after every round, so sometimes the loser of the first\nround must be very offensive to win the second one.\n\nRECOVERABLE LIFE\n----------------\n\nMost attacks cause two kinds of damage: a clean damage, displayed as a\nred bar in your damage gauge, and a repairable damage, displayed as a\nyellow bar in the same gauge.\n\nYou can do nothing about the clean damage, but if you manage to stay a\nfew seconds without being attacked, the yellow bar will drop slowly to\nzero. However, if you get hit again and again to the point your red and\nyellow bars fill the gauge, your repairable damage will become permanent\ndamage (yellow bar will torn red) losing the round. This may cause the\nfeeling of taking huge damage from the last hit. Don't get confused by\nthis!\n\nSo, it's a good thing to watch the yellow bar and to take a breathe when\nthings are too hot!\n\nARMOR\n-----\n\nNext to your damage gauge, there's a yellow circle containing a human\nfigure and a percentage. This is your current armor status. Blocking\ntoo much will cause this gauge to decrease quickly. When it drops to\nzero, your armor is destroyed and your mech will fly away because of\nthe impact, being this last thing a possible advantage depending on\nthe situation (you may avoid further damage)\n\nArmor reduces the effect of enemy fire taking less damage from attacks.\nI'm not sure if some mechs have better armors than others. The game\nseems to mean that, as in certain characters profile appear things\nlike "strong armor" and "ultra defensive armor". In my experience,\nheavy mechs armor seems to last longer, but this also may be due to\nmy highly offensive style using these characters.\n\nSPECIAL ATTACK\n--------------\n\nYour typical super move. You can store up to three units, starting the\nbattle with one in stock.\nSpecial attacks do clean damage (no recoverable life)\n\nOBSTACLES\n---------\n\nYes, all these little houses, factories and other constructions are\nnot there only for ornament. They are active part of the game!\nDepending on the stage, you can find a variable number of obstacles\nscattered in the surroundings. All the obstacles are destroyable,\nthe little ones by stepping on them and the larger ones by firing\na few shots. Move behind a large obstacle for a short cover.\n\nITEMS\n-----\n\nMove across the stage and step on the various obstacles. Some of them\nrelease items of different kinds when destroyed. Large obstacles release\nmore powerful items. Also, hitting hard your opponents usually cause\nthem to drop some of their items, all of which you can recover.\n\nYou collect an item simply by walking over it, being possible to store\nup to five units. Your items are shown on top of the damage gauge.\n\nTo change the selected item, press START.\nTo activate the selected item, press A+B+J\n\nThere are 3 types of items:\n\nRECOVERING TYPE: usually released by large obstacles. So far, I have\nidentified\n  * Armor recover :  restores your armor gauge to 100%\n  * Life recover  :  you regain some life, or to be exact, your damage\n		     gauge decreases a certain quantity.\n  * Special charge:  adds one level to your Special gauge.\n\nABILITY TYPE: they give your character special powers, such as\n  * Offense up :  increase the damage of your attacks\n  * Defense up :  you take less damage from enemy attacks\n  * Speed up   :  you move and perform attacks faster\n  * Hero mode  :  weapon systems enhanced\n\nWEAPON TYPE: this will give you a weapon specific to your character\n(it varies from one mech to other). Every character has his own\ninventory of 3 different weapon items.\n\nWhen a mech drops a weapon item and it is recovered by the facing mech,\nthe weapon is reconverted to this last's inventory. Ability items are\nunaffected.\n\nOnce you have activated an item, a short bar is displayed over your\nitem inventory. This is a time meter. When the bar drops to zero,\nthe item has been consumed and you can no longer use it, unless you\nactivate another one!\n\nWARNING MOVES\n-------------\n\nDuring the execution of certain moves, a "warning" message appears\npointing to your character. These moves are exceptionally slow, yet\nforceful enough to cause a blocking opponent to stagger momentarily\neven when blocking. A quick attack launched during the stagger will\nconnect successfully.\nYou will find these moves labeled with a 'W' in the movelist.\n\nPOWER BREAKER\n-------------\n\nThis move will crush your opponent's guard, leaving him vulnerable for\na short time. Great for turtlers.\nWhen near opponent, press simultaneously A+B+G.\n\nGRAPPLE ATTACK\n--------------\n\nA feature already used in other games, such as Soul Edge and Samurai\nShowdown, but unusual in a Capcom game. Basically, is the same concept:\nWhen two attacks collide, the Grapple Attack begins. Both mechs push\nagainst each other trying to win the assault. Mash those buttons!\nThe loser gets stunned, though it's possible the draw. In that case,\nboth mechs are pushed back.\n\nCOUNTERSTRIKE\n-------------\n\nA very useful move if you know how to play with it, since it allows you to\navoid enemy fire and at the same time to attack an opponent in vulnerable\nposition.\n\nEvery mech has two counterstrikes, activated by pressing either\nG+A or G+B.\n\nYour character will sidestep\round the enemy, performing the attack\ncorresponding to each variant.\n\nSTEEL DASH\n----------\n\nAn easy but risky way to close the distance and strike by surprise!\n\nHold G button, then ->->\n\nYour character will dash forward enveloped in an energy aura.\nEnemy fire cannot stop you, but you still take damage.\n\nFINAL ATTACK\n------------\n\nThe Ultimate Destruction Attack !!  You can't escape !!\nWhen "FINAL ATTACK" appears on the screen\n\npress simultaneously A+B+J+G\n\nIf it connects, it takes the entire Damage Gauge and the round.\nOnly once per match !  (Blockable)\n\n\n===========================================================================\nIII.  LIST OF CHARACTERS\n===========================================================================\n\nFor every character, you will find the following information:\n\n-Regular Moves  : names, motions and special properties if any\n-Special Moves  : names, motions and special propreties if any\n-Final Attack   : visual description\n-CounterStrikes : attacks performed with each variant (A or B)\n-Specific items : inventory and properties of each item\n-Hero Mode      : Additional powers gained during hero mode\n\nOn character selection screen, pull the joystick down to get information\non each mech profile.\n\nNOTE: With the exception of a few ones, I'm not using the official names\nfor the moves in this list. If you are interested on them, get Donny Chan's\nTR FAQ, available at www.gamefaqs.com\n\n---------------------------------------------------------------------------\nG KAISER : Massive attacking power\n---------------------------------------------------------------------------\n\nREGULAR MOVES:\n\n[A]                     Rocket Punches (hold A to home in on enemy)\n<- A                    Rocket Punches (anti-air)\n-> A                    G Kaiser Upper\n<- -> A                 Kaiser Fury (5-hit autocombo)\n-> <- A              U  Whirlwind Throw\nair A                   Dive Kick\n\nB                       Napalm Bomb\n-> B                 S  G Kaiser Hurricane (advancing)\n->> B                S  G Kaiser Hurricane (static)\nair B                   Drop Napalm Bomb\n\nA\B + J                 Flying Upper\nA+B                     Heat Blazer (ground-ground)\n<- A+B                  Heat Blazer (ground-air)\nair A+B                 Heat Blazer (air-ground)\nair -> A+B              Heat Blazer (air-air)\n\nSPECIAL MOVES:\n\n<- -> A+B               SPECIAL HEAT BLAZER\nair <- -> A+B           KAISER ASSAULT\n\nFINAL ATTACK: Violent Sword\n\nG Kaiser draws his sword and delivers a powerful overhead slash,\nfollowed by a series of sword swipes in an automatic combo.\n(easy counterable if the first strike is blocked)\n\nCOUNTERSTRIKES:\n\nG+A                     Rocket Punches\nG+B                     Shoulder Ram\n\nSPECIFIC ITEMS:\n\nDoomsday                A giant bomb that causes a huge blast and massive\n			damage. Is aimed at the opponent's location.\nGiant Rock              G Kaiser materializes a large rock and throws it\n			at the enemy. It can be blasted into pieces.\nAxe Blow                G Kaiser puts a pair of small devices on his arms\n			Attack with A or <- A.\n\nHERO MODE:\n\nEnables G Kaiser to fly around freely.\n\n---------------------------------------------------------------------------\nDIXEN : A mega mix of weapons\n---------------------------------------------------------------------------\n\nREGULAR MOVES:\n\nup\down + G             switch gun\nJ, J                    double jump (steerable)\n\nA (gun 1)               Rifle Shot (faster)\nA (gun 2)               Missile (more damaging)\n-> A                    Rising Slash\n<- -> A                 Aiming Satellite\n-> <- A                 Shielding Satellite (absorbs some forms of attack,\n			returning the fire. Good timing needed) \nair A                   Air Slash\n\nB                       Grenade (short range)\n-> B                    Grenade (long range)\n<- -> B                 Aiming Satellite (no difference with A version?)\nair B                   Drop Grenade\nair -> B                Toss Grenade\n\nA\B+J                   Sword Upper\nA+B                     Fixer Cannon (ground-ground)\n<- A+B                  Fixer Cannon (ground-air)\nair A+B                 Fixer Cannon (air-ground)\nair -> A+B              Fixer Cannon (air-air)\n\nSPECIAL MOVES:\n\n<- -> A+B               HYPER FIXER CANNON\n-> <- A+B               BERSERKER SWORD\n\nFINAL ATTACK: Test Your Aim\n\nDixen throws the opponent upwards and fire the helpless mech with a mega\nstream of fixer cannon.\n\nCOUNTERSTRIKES:\n\nG+A                     Rising Slash\nG+B                     Short Range Grenade\n\nSPECIFIC ITEMS:\n\nSpark Gun               A short range weapon that stuns opponent.\nHellfire                A flamethrower with moderate reach. Stuns opponent.\nFist Blast              A powerful charging fist that hits many times at\n			close range.\n\nHERO MODE:\n\nEnables Dixen to fly around freely.\n\nA                       Homing laser\n\n---------------------------------------------------------------------------\nPULSION : Deadly combination attacks\n---------------------------------------------------------------------------\n\nREGULAR MOVES:\n\n<- <-                   Backflip\nJ, J                    Double Jump (steerable)\n\nA                       Punch\n-> A                    Pulsion Upper\n<- A                W   Backhand\n<- -> A, (A)            Plasma Saw, another saw\nair A                   Dive Punch\nair -> A                Flying Punch\nair <- -> A             Plasma Saw\n\nB                       Sliding Kick\n-> B, (tap A\B)         Space Sommersault\n<- B                    Pulse Weave\nair B                   Air Kick\n\nA\B+J (opp. down)       Pounce\nA+B                     Beta Beam\nA+B (after backflip)    Low Beta Beam\n-> A+B                  Pulsion Screen\n\nSPECIAL MOVES:\n\n<- -> A+B               VOLTAGE SPHERE\n-> <- A+B               ALIEN RUSH\n\nFINAL ATTACK: Erradication\n\nPulsion lifts the opponent in his arms, activates boosters and propulse\naway from Earth. Once in outer space, Pulsion throws the opponent away\nand fires dozens of missiles that lock on on the poor mech, literally\nerradicating him.\n\nCOUNTERSTRIKES:\n\nG+A                     Half Moon Beams\nG+B                     Space Sommersault\n\nSPECIFIC ITEMS:\n\nP. Knife                Pulsion equippes a pair of knives, gaining extra\n			reach. Damage increased.\nP. Blade                Pulsion throws a rotary blade. The blade spins\n			for a while, hitting multiple times.\nP. Spear                Pulsion attacks the opponent with a horned spear.\n			Paralyzes. It can be chained into Final Attack!\n\nHERO MODE:\n\nPulsion goes berserk. He moves in crouched manner and his attacks become\nunblockable.\nWith A button pounces on opponent.\nWith B button slide-kicks opponent, following with scratches and flipkick.\n\n---------------------------------------------------------------------------\nBOLON : Guts and skill will prevail\n---------------------------------------------------------------------------\n\nREGULAR MOVES:\n\nA                       Iron Ball\n-> [A]                  Yo-Yo Iron Ball\n<- [A]                  Yo-Yo Iron Ball (anti-air)\n<- -> A                 Destroyer Drill\nair [A]                 Rolling Dive\nair down A              Rolling Fall\n\nB                       Excavator\n<- B                    Rocket upper\n<- -> B              S  Burning Chimney\n-> <- B                 Fireworks (looks like a taunt, but it hits)\nair B                   Shovel blow\n\nA+B                     Bolon Typhoon\n-> A+B               W  Rolling Claw\nair A+B                 Lariat\n\nSPECIAL MOVES:\n\n<- -> A+B               GIANT ROLLING IRON BALL\n-> <- A+B               IRON BALL ECLYPSE\n<- -> A+J            U  SELF DESTRUCT\n\nFINAL ATTACK: The Little House\n\nThe curtain drops.\nThe curtain rises, we can see Bolon and his opponent inside a little nice\nhouse, having tea or something similar. The opp seems to commit a foolish\nact of descourtesy such as putting the feet over the table and then Bolon,\nenraged, smashes the table into opponent's face, who flies away breaking\nthe roof and droping outside the house.\n\nCOUNTERSTRIKES:\n\nG+A                     Rolling Dive\nG+B                     Excavator\n\nSPECIFIC ITEMS:\n\nMagic Pot               Bolon's hand transforms in a pot, from which soccer\n			balls and other kinds of spherical objects come out\n			Pretty useless.\nS. Hammer               Bolon swings a HUGE hammer and smashes down on opp.\n			As you can imagine, it stuns.\nL. Express              A very curious one. Bolon throws one of his many\n			body parts, a train. The convoy moves quickly\n			around the opponent, running between his legs,\n			hindering him and causing damage.\n\nHERO MODE:\n\nBolon summons a hodgepodge of floating objects which join in any attacks.\n\n---------------------------------------------------------------------------\nRAFAGA : 3 different modes\n---------------------------------------------------------------------------\n\nREGULAR MOVES:\n\n* Robot mode:\n\ndown + G                transform to AT-ST mode (rapid fire)\nup + G                  transform to fighter mode (flying ability)\n\nA                       Plasma Rifle\n-> A                    Gun Pod crush\n<- -> A                 Float Seeker\nair A                   Flipkick\nair down A              3-way shot (air-ground)\n\nB                       3 missiles (ground-ground)\n<- -> B                 Side Winder\nair B                   3 missiles (air-ground)\nair -> B                3 missiles (air-air)\n\nB+J                     Knee Upper\nA+B                     Plasma Cannon\n\n* AT-ST mode:\n\nA                       Plasma shots\nB                       3 missiles\nJ                       transform to fighter mode\nA+B                     Transform attack\n-> ->                   Rushing attack\n-> -> B                 Rushing attack (returns to robot mode)\n\n* Fighter mode:\n\nA                       Dive\n<- -> A                 Float Seeker\nB                       3 missiles\nA+B                     Dual Laser\n\nSPECIAL MOVES:\n\n<- -> A+B               PINPOINT BREAK PUNCH    (robot mode)\n<- -> A+B               CHARGING BULL           (AT-ST mode)\n<- -> A+B               BOMBARDMENT             (fighter mode)\n\nFINAL ATTACK: Unleashed Fury\n\nRafaga throws the opponent upwards, jumping after him. Hits the opponent\na few times in mid-air and sends him again to ground, firing him in the\nway down with multiple shots. Only for sadists!\n\nCOUNTERSTRIKES:\n\n??\n\nSPECIFIC ITEMS:\n\nS.S. Pod                Rafaga emits a stream of ring lasers.\n			Moderate reach. Stuns.\nT. Cannon               Once the weapon is equipped, pressing A+B\n			obtains an enhanced form of plasma cannon.\n			Very powerful!\nShell Gun               A large shell that travels slowly.\n			Heavy damage. Breaks armor.\n\nHERO MODE:\n\n-> <- A\B               Colony crush. Helps out for added damage.\n\n---------------------------------------------------------------------------\nDIANA 17 : Fight in the sky\n---------------------------------------------------------------------------\n\n- Diana 17 can do two air attacks\n\nREGULAR MOVES:\n\n<- <-                   Backflip\nJ, J                    Double Jump (steerable)\n\nA                       Wedge Beam (ground-ground)\n-> A                    Double Kick\n<- -> A                 Crystal Edge\nair A                   Dive Kick\nair down A              Wedge Beam (air-ground)\n\nB                       Soap Bubbles\n-> <- B                 Butterfly Counter (if opp touches the butterfly\n			Diana projects a ball that hits 7-8 times)\nair B                   Soap Bubbles\n\nA+J                     Jump and Dive\nB+J                     Interceptor (if it connects, Diana engulfs opp\n			in an energy ball and throws him a javeline)\n[A+B]                S  Diana Javeline\nair [A+B]            S  Diana Javeline (air-ground)\nair down A+B            Attractive Shower\n\nSPECIAL MOVES:\n\n<- -> A+B               BEAUTY AVENGER\n-> <- A+B               MESSENGER OF JUSTICE\nair <- -> A+B           EMERALD TEAR\n\nFINAL ATTACK: Messenger Of Love\n\nThere is few to see in this one. Diana touches the opponent and next\nwe see is a close view of hers, enveloped in a giant heart.\n\nCOUNTERSTRIKES:\n\nG+A                     Jump and Dive\nG+B                     Leg Cutter\n\nSPECIFIC ITEMS:\n\nAngel Bow               Diana fires an arrow which explodes in a miriad\n			of littles ones that converge into the opponent.\nAngel Star              Diana throws a big shuriken.\nAngel Saber             Diana strikes several times with a rapier, a la\n			Gerelt from Star Gladiators.\n\nHERO MODE:\n\nDiana gets an Anti-Missile Barrier.\n\n---------------------------------------------------------------------------\nWISE DUCK : Big guns and strong armor\n---------------------------------------------------------------------------\n\n- Wise Duck can't jump\n\nREGULAR MOVES:\n\nA                       Machine Gun\n-> A                    Break Shaft\n<- -> A                 Bull Breaker\n\nB                       Proton Missiles\n<- B                    Proton Missiles (anti-air)\n-> B                 S  Net Missile\n\nJ                       Ground Mine\nA+J                     Mad Robot (3-hit autocombo)\nB+J                     Napalm Pod (short range)\n-> B+J                  Napalm Pod (long range)\nA+B                     Devastator (enveloping blast)\n<- A+B                  Devastator (wide area)\n\nSPECIAL MOVES:\n\n<- -> A+B               PHOTON CANNON\n-> <- A+B               ANTI-AIR PHOTON CANNON\n<- -> A+J               INTO OBLIVION\n\nFINAL ATTACK: Full Metal Hunter\n\nWise Duck grabs the opponent, tosses him into the air (this is shown from\nvarious camera angles) and unleashes a barrage of ground-ground and air-\nground missiles.\n\nCOUNTERSTRIKES:\n\nG+A                     Bull Breaker\nG+B                     Proton Missiles\n\nSPECIFIC ITEMS:\n\nM. Barrage              Little ICBM's go sky high and dive into enemy.\nG.A. Cannon             Missiles that detonate over opponent, freeing\n			parachute bombs.\nF. Geyser               One of those flamethrowers you can purchase in\n			your everyday arms shop.\n\nHERO MODE:\n\nAll missile attacks lock on the enemy.\n\n---------------------------------------------------------------------------\nTWINZAM V : Transform with Change Cross Twinzam\n---------------------------------------------------------------------------\n\n- You can choose formation after selecting character.\n- Change formation in mid-fight with -> <- A+B\n\nREGULAR MOVES:\n\n* Fire Formation (red top, blue bottom)\n\nA                       Punch\n<- A                    Tomahawk Upper\n-> A                    Fire Tomahawk\n<- -> A                 Twinzam Rush\nair A                   Cone Beam\nair <- -> A             Twinzam Dive\n\nB                       Twinzam Drill\n<- B                    Twinzam Drill (anti-air)\n<- -> B                 Shooting Star Blow\nair B                   Twinzam Drill (air-ground)\n\n[A+B]                   Exploding Quasar\n<- [A+B]                Exploding Quasar (anti-air)\n\n* Plasma Formation (blue top, red bottom)\n\n-> A                    Plasma Hammer\n<- -> A                 Twinzam Home Run\nair A                   Hammer Blow\nair down A              Spin Drop\n\nB                       Missiles (ground-ground)\n<- B                    Missiles (ground-air)\n<- -> B                 Zero Gravity Hold\nair B                   Missiles (air-ground)\n\nA+B                     SteelWorm\n-> A+B                  Drill Crusher\nair A+B                 DiveDriller\n\nSPECIAL MOVES:\n\n<- -> A+B               TWIN FORMATION\n\nFINAL ATTACK:\n\nFire Formation: Victory!\nTwinzam perform a combo on the opponent, ending with a dramatic V-slash.\n\nPlasma Formation: Don't be cruel\nTwinzam knocks down the opponent with a combo, activates his twin drills\nand perforates him with fury.\n\nCOUNTERSTRIKES:\n\nFire Formation\nG+A                     Fire Tomahawk\nG+B                     Missiles\n\nPlasma Formation\nG+A                     Drills\nG+B                     Missiles\n\nSPECIFIC ITEMS\n\nT.S. Beam               A kind of a triangular beam that tractors opp.\nB. Cutter               Twinzam attacks with a huge chainsaw. Breaks armor.\nS. Driver               Twinzam smashes the hammer on the ground, causing\n			shock waves to travel along the screen.\n\nHERO MODE:\n\nFire Formation: starts off a meteor shower.\nPlasma Formation: spinning pillars of water around mech.\n\n--------------------------------------------------------------------------\nTIME RELEASE CHARACTERS\n--------------------------------------------------------------------------\n\nIn a 1P game: they can only be used in Challenge mode (except Gourai?)\nIn a 2P game: players can't use the same character (except Gourai?)\n\nGOURAI (boss)\n\nPlayable after 200 hours.\n\nDARK PULSION\n\nPlayable after 600 hours.\nMoves of normal Pulsion.\nGold colour.\n\nDIXEN EXPERIMENT\n\nPlayable after 600 hours.\nA Dixen prototype with enhanced weapon systems.\n\nWISE DUCK ORUSORROSO\n\nPlayable after 600 hours.\nA horned version of Wise Duck.\nG+J or down G+J to turn dash.\n\n---------------------------------------------------------------------------\nBOSSES\n---------------------------------------------------------------------------\n\nGAMDA\n\nA giant golem-like robot, piloted by an egiptyan. It is made of stone\nblocks and it might be confused with a castle if it weren't by its human\nshape. Mid-boss.\n\n- Really damaging punches and slaps\n- Laser sweeps\n- Can send opponent to another dimension wrapped up in rings\n- Teleport\n- No Armor\n- No jump\n- SUPER 1: Invisibility. Lasts about 10 seconds, but wears off if Gamda\n  is knocked down\n\nQUVEARL\n\nA weird balloon-shaped enemy, with some flexible members and a ring of \nlight over the head. Mid-boss.\n\n- Dodges and hits with tentacles\n- Mini-Drones of different colours and homing abilities\n- Laser sweeps\n- Stunning bubble charges\n- Persistent laser pulses\n- SPECIAL 1: a scout party of drones followed by a large ring of mini\n  drones firing away after party connects\n- SPECIAL 2: an invincible barrier which cancels all incoming damage for\n  a short period\n\nGOURAI\n\nA kind of samurai warrior. Mid-boss.\n\n- Wields saber and armor\n- Controllable particle streams\n- Spinning slashes\n- SPECIAL 1: Vacuum Zone\n\nGOLDIBUS\n\nThe final boss. After defeat, he transforms in a deadlier form with two\nbrand new damage bars. AACK!\n(Your bars aren't restored after beating the first form. So consider this\nfight like an endurance match)\n\n- Wields a huge Scimitar\n- Earthquakes\n- Homing Birds\n- Stunning sword toss\n- Teleport\n- SPECIAL (form 2): Goldibus transforms in a flaming Phoenix. Easy to\n  block but causes massive armor losses (up to 25%)\n\n
+
+game: 决斗高校 命运同盟
+file: rvschool.zip
+sort-by: 181
+developer: 决斗高校 命运同盟
+publisher: Capcom
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: Capcom于1997年推出的一款3d格斗游戏。日版名称私立正义学园-英雄军团。私立正义学园’是Capcom所发售的格斗游戏的名字。故事概要：199X年的日本，在各地高校发生多起谜之暴行事件。为了要了解整个事件的真相，学生们决定全体跳出来参与战斗，企图破解幕后的阴谋。没有流浪的格斗家和魔物们，只有这群高校生和他们所属高校的教师们参加战斗。而这块格斗游戏稀奇的地方在于每个舞台都是位于国内，登场人物大部份都是日本人。另外也有很多登场人物的外表和必杀技都呈现出很搞笑的气氛。
+
+game: 快打旋风格斗版
+file: ffreveng.zip
+sort-by: 182
+developer: 快打旋风格斗版
+publisher: Capcom
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 原名是快打旋风复仇（日语：ファイナルファイト リベンジ，英语：Final Fight Revenge）是由Capcom美国分部制作的3D格斗游戏，于1999年发行，游戏后在2000年3月20日在日本地区土星上发行。本作有10个人物可供选择，他们来自快打旋风中的人物，包括Cody、Guy和Haggar等。这个游戏是Capcom在3d格斗游戏比较流行的年代跟风之作，比较平庸，Capcom还是比较适合制作2d格斗游戏。
+
+game: 星际格斗1
+file: starglad.zip
+sort-by: 190
+developer: 星际格斗1
+publisher: Capcom
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 又名星际悍将1: 最后的东征，是星际格斗第一部作品，由Capcom于1996年推出。
+
+game: 星际格斗2
+file: plsmaswd.zip
+sort-by: 191
+developer: 星际格斗2
+publisher: Capcom
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 星际格斗2: 比尔斯坦的噩梦，由Capcom于1998年出品，是同名3d格斗游戏第2作。画面相当华丽。
+
+game: 豪血寺一族3 全人物版
+file: groovef.zip
+sort-by: 265
+developer: 豪血寺一族3 全人物版
+publisher: Atlus
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 最左或最右侧可选隐藏人物。ATLUS公司于1996年在世嘉的ST-V基板上推出的《豪血寺一族》系列新作，也是该系列的第四部作品。游戏继续沿用了前作《豪血寺外传 最强传说》的2VS2对战形式，不过这次不同的是在战斗中是可以随时换人的，自由度非常高。游戏共有11位基本角色可供选择（同一角色可双选），因为几乎全是原创角色，加上系统上的改动，感觉和之前的作品的有着很大的差别。游戏继续沿用了前作《豪血寺外传 最强传说》的2VS2对战形式，不过这次不同的是在战斗中是可以随时换人的，自由度非常高。游戏共有11位基本角色可供选择（同一角色可双选），因为几乎全是原创角色，加上系统上的改动，感觉和之前的作品的有着很大的差别。
+
+game: 真人快打4
+file: mk4.zip
+sort-by: 280
+developer: 真人快打4
+publisher: Midway
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: Midway于1997年制作真人快打街机第4作，系列第一次使用3d人物建模。
+
+game: 格斗领域
+file: fgtlayer.zip
+sort-by: 281
+developer: 格斗领域
+publisher: Namco
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: Arika\Namco于1998推出的一款3d格斗游戏，画面比较华丽。Arika是街霸EX系列的制作商。
+
+game: 魂之利刃1
+file: soulclbr.zip
+sort-by: 282
+developer: 魂之利刃1
+publisher: Namco
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 《魂之利刃》（日本以外版本名：Soul Blade、ソウルブレード）是1996年由NAMCO（南梦宫）公司推出一款3D刀剑格斗游戏，同时也是《灵魂能力》系列的开篇之作。《魂之利刃》先推出街机版，之后在同年12月推出追加大量新要素的PS版。本作还是首次采用横移动的3D格斗游戏。故事是以16世纪后半叶为背景，主要是围绕一把代表邪恶力量的邪剑（Soul Edge）与另一把代表正义的灵剑（Soul Calibur）之间相互斗争的故事展开。
+
+game: 魂之利刃2
+file: souledge.zip
+sort-by: 283
+developer: 魂之利刃2
+publisher: Namco
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 是日本Namco公司出品的3D格斗游戏灵魂能力系列的第二作（若把Namco最初在街机和PlayStation上的作品魂之利刃也算为系列成员，则为第三作）。这是系列中第一部跨平台的作品，存在于索尼PlayStation 2、微软Xbox和任天堂GameCube3种家庭游戏主机及街机之上。由于仅仅针对世嘉公司Dreamcast主机的系列第一作《灵魂能力》在发行后好评如潮（被权威电子游戏杂志FAMI通评为满分），业界与玩家普遍对《灵魂能力II》极其期待。然而，游戏于2003年发售后，销售量并不突出。
+
+game: 铁拳1
+file: tekken.zip
+sort-by: 284
+developer: 铁拳1
+publisher: Namco
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 《铁拳》（日语：鉄拳，英语：Tekken）是一款由南梦宫公司制作的格斗类游戏。本游戏先于1994年后期在街机发行。于1995年在PlayStation上发行。[1]本游戏为铁拳系列首作。在街机版中共有8个可玩角色。在PlayStation版本中有17可玩的角色。铁拳最早没有被构思成为一款格斗游戏。游戏项目最早始于一个南梦宫内部测试，用来描绘3D角色模型。1994年，南梦宫招募了长期竞争对手世嘉的制作人员。他们制作了最早的3D格斗游戏—1993年发行的《VR战士》。南梦宫的游戏最初计划以《Rave War》作为名称，但在最终的制作阶段该名称为《铁拳》。由《VR战士》的设计者石井精一担任总监，《铁拳》计划设计成本质上相似，具有额外材质和双倍帧率的作品。本游戏为最早的3D化格斗游戏之一，和世嘉的《Virtua Fighter》有许多相同概念。
+
+game: 铁拳2
+file: tekken2.zip
+sort-by: 285
+developer: 铁拳2
+publisher: Namco
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 《铁拳2》是格斗之魂《铁拳》系列游戏的第2代作品，是一款格斗类游戏。该游戏是南梦宫namco于1995年8月发行，1996年3月，该游戏被搬上PlayStation平台，并取得了很好的成绩。两年后，第二届铁拳大会开幕（The King of Iron Fist Tournament 3），终日进行刻苦训练的平八发誓要借此机会夺回失去的一切！本届大会中，一位风间流古武术修炼者，热爱大自然的女性格斗家——美丽的风间准也参加大会，并与一八擦出爱情的火花。但不幸的是决赛中，虽然一八拥有魔化力量，但却依然惜败于平八！平八害怕一八的复仇，便把一八扔进火山谷——彻底的消灭他！一八死了，风间准怀着他的孩子——未来的主角风间仁——来到与世隔绝的大自然隐居！
+
+game: 铁拳3
+file: tekken3.zip
+sort-by: 286
+developer: 铁拳3
+publisher: Namco
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 铁拳3（TEKKEN III）是Namco于1998年3月发行的一款格斗电玩游戏系列。也是格斗之魂《铁拳》系列游戏的第3代作品，铁拳最初仅在街机出现，后来被移植到其他的家用游戏机上。3代与前作相比，在保持系列原味风格的同时对诸多方面进行了改进。画面更为华丽；系统趋于成熟；节奏明显加快；游戏中的新招层出不穷，游戏中招数的施展给游戏体验者带来非常和谐的美感。大量的CG动画更是美轮美奂，丰富的隐藏要素，使得游戏性大为提升。《铁拳3》的故事发生在距第二届铁拳大会闭幕15年后，这时的三岛财阀在三岛平八的领导下，势力扩展到了世界的每一个角落。在美洲的一个原始丛林中，铁拳众部队发现了一个古老的印第安遗迹，不幸的是，一个恐怖的身影从中站了起来——斗神，被派遣到那里的整个铁拳众部队被全灭了。当三岛平八得知这个消息后，为这个未知生命体震惊，但平八更加兴奋——欲得到这强大的力量。不久后全世界一些格斗家相继被袭丧命，风间准为保护年幼的仁，命丧斗神之手。逃过一劫的仁投靠了他的亲人爷爷——三岛平八，为了报杀母之仇，风间仁潜心修炼三岛流喧哗派空手道与风间流古武术。为了捕获斗神，得到其的力量，在精心策划了几年之后，宣布铁拳第三届大会开幕（The King of Iron Fist Tournament 3）。依旧热血的paul、Law的儿子Forest、白头山的弟子hwaorang、被冷藏了15年的Nina与Anna姐妹等武术家如约而至大会中风间仁如愿以偿的击败了斗神，报了杀母大仇，但意想不到的是，平八却不顾骨肉之情对他暗下毒手，原来平八没有把他当作自己的孙儿，不过是他为捕获斗神的手上的棋子。继承了一八的魔化基因幸免于难，愤怒的仁在凄美的月光下张开翅膀，扬长而去。此后厌恶并抛弃三岛流空手道，潜心修炼传统空手道，并誓言颠覆三岛财阀。
+
+game: 铁拳锦标赛
+file: tektagt.zip
+sort-by: 287
+developer: 铁拳锦标赛
+publisher: Namco
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 《铁拳锦标赛》也叫铁拳TT，是铁拳系列的外传作品，没有官方情节，不过CG表示此时由一八掌握三岛财团。在此游戏中，历代30余名人物同场竞技。而最大的改变是则是由以 往的1人对1人的方式转变为2人组队的模式，血槽增加为2条，在游戏中随时可以切换登场角色。加入了怒槽设定，当血槽开始闪 烁时，人物进入愤怒状态，攻击力增加到原来的1.3倍。2人组队的模式，打破了以前1人对战时单调的打法，不仅要捉摸清楚2人 的特点招式，根据搭档角色研究新战术，而且如何轮流切换角色进行致命的连续技组合也是铁拳TT玩家的一大乐趣。
+
+game: 死或生++
+file: doapp.zip
+sort-by: 304
+developer: 死或生++
+publisher: Tecmo
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 《死或生++》是Tecmo旗下的Team Ninja小组于1998年9月制作3D格斗游戏。当生死格斗推出第一代大型机台版本，便以第一个会乳摇（胸部晃动）的格斗游戏来做宣传，但是3D格斗游戏发展至今，没有一个游戏不会乳摇的，所以乳摇已经不再是本游戏的特色了，但是因为游戏中还是有许多美型的女性角色与性感的服饰，再加上当初以乳摇为作为号召，所以这游戏的印象已经深植许多玩家的心中。该作将游戏的操作判定进行革新与规范，正是这一规范之举，《DOA++》也成为了之后DOA系列的雏形与核心规则。与一代一样，《DOA++》杀入街机平台，游戏角色与PS版同是10位，凭借着更成熟的格斗系统，再次成为当年街机厅人气极高的游戏。
+
+game: 水浒演武 全人物版
+file: suikoenb.zip
+sort-by: 308
+developer: 水浒演武 全人物版
+publisher: Data East
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 光标移到最下方可选择隐藏人物晁盖。水浒演武是DATA EAST利用世嘉的ST-V基板开发的对战游戏，也是该主板最早的第三方作品。游戏使用了中国四大古典名著之一“水浒传”的著名角色，包括武松、李逵、鲁智深、史进、林冲、阮氏兄弟等，背景画面也颇具中国特色，各种必杀技相当华丽。游戏的操作性要比“斗士历史”系列更加优秀，不过那个可以在空中连续浮空躲避飞射技的设定感觉相当滑稽。该游戏在同年8月移植到SS上，次年初又推出了PS移植版，并且加入了影之斗士沟口诚，不过很快又在SS上推出了2代。
+
+game: 战斗英雄
+file: dragoona.zip
+sort-by: 324
+developer: 战斗英雄
+publisher: Konami
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 战斗英雄是1995年柯纳米出品的格斗游戏，游戏有点SNK 的系统，各个角色都有格斗家的气质，不是花瓶般的摆设，就是胜利姿势少了点，分有武器与没武器两种。本作跟《侍魂》类似，属械斗类，武器可以被打脱手，游戏的画面不但采用了放缩特效，非常生动，而且场景还有时间变化。
+
+game: 战斧格斗 全人物版
+file: gaxeduel.zip
+sort-by: 332
+developer: 战斧格斗 全人物版
+publisher: SEGA
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 光标移到最左边可选择boss。战斧格斗是SEGA在1994年以《战斧》中的人物加上原创角色制成的格斗游戏。保留了原作以拾取魔法瓶来增加魔力的特色，是SEGA的ST-V系统对应的游戏。而SS版改良了街机推出时的差劣之处，使游戏更为好玩。在MD上十分著名的ACT节目《战斧》本是SEGA在MD机上的成功之作，以对战格斗的形式在SEGA上登场，而今回SEGA又利用和土星具互换性的ST-V基板同时开发了街机和土星版的《战斧格斗篇》。这个从两年前就开始策划的格斗游戏共有10名主角，画面下方有气力槽显示，可使出超魔法。比起如今的对战游戏人数越加越多的趋势感觉人太少。不过SEGA方面宣称这样可以避免相似的角色并使各人物的实力更加平均。在和CPU对战中，对方的首脑是迪斯·亚达。不过将他打倒之后，手持“黄金战斧”将会变成最强的敌人并袭击过来。这被称为“G·AXE”的超级强人，不仅拥有强力的必杀技，防御能力也非常的完美，你能打败这位最终首脑吗？对后来在SS上面世的众多格斗游戏来说它不失为个不错的格斗游戏。
+
+game: VR 战士 2
+file: vf2.zip
+sort-by: 333
+developer: VR 战士 2
+publisher: SEGA
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 与其初代相比完全可以用脱胎换骨来形容。在二代里，人物角色拥有了更加精细的纹理贴图，可变化的面部表情以及设计巧妙的获胜姿势。最令人印象深刻的是游戏场景采用了全3D建模，比起初代简陋的背景要好上太多。但战斗区仍然是一个长方形的平台，四周都设有障碍，限制了场景的大小。二代中除了初代里的八个角色，还新增了两名新角色。Shun Di，格斗游戏中常见的醉拳大师。Lion Rafale，来自法国贵族家庭的叛逆之子, 使用螳螂拳。伴随着硬件的提升，游戏的物理效果也有了进步，游戏速度明显更快，反击更加突出，但需要完美的时机，执行起来仍然很困难。游戏可以通过跑向对手来获得动力，从而更猛烈地打击对手，造成大额伤害。一些角色甚至已经得到了进出z轴的躲避移动，但在3D视角的处理与应用上仍有所不足。对于大多数休闲玩家来说，《VR战士2》的难度较高，虽然家用机版本上可以进行调节，但是街机版本的《VR战士2》就需要拥有较高的技术水平才能够驾驭的了。即使是那些能够轻而易举地击败新游戏最高难度的人， 也需要对游戏进行一番系统的了解和训练，才能够上手《VR战士2》。按照惯例，街机的前三关比赛仍然是相对容易，但是之后游戏难度迅速提高，如果没有对游戏的系统有较认真的研究的话，大部分人可能永远也看不到游戏的最终BOSS。《VR战士2》凭借其比同期在PS上发行的《铁拳》在画面上的巨大优势和其第一款3D格斗游戏的美名，又一次取得了成功。不到一年的时间内，AM2开发组还推出了更新版本，其被称为《VR战士2.1》。除了通常的平衡调整外， 增加了快速后退，技能释放后需要恢复期等设定，使游戏更加适合用于竞技。由于《VR战士2》有推出过PC版本，国内很多老玩家都曾经在电脑上体验过这款格斗大作，加上游戏中浓厚的中国元素，相信《VR战士2》对于国人来说有着别样的情感，毕竟这是一款十分出色的格斗游戏。
+
+game: VR 战士 口袋版
+file: vfkids.zip
+sort-by: 334
+developer: VR 战士 口袋版
+publisher: SEGA
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: Virtua Fighter口袋版是Q版造型的VR战士游戏，但可玩性也不低，只是更易上手。
+
+game: 心灵力量
+file: psyforce.zip
+sort-by: 343
+developer: 心灵力量
+publisher: Taito
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 又名超能力大战，Taito于1995年制作的3d格斗游戏。 超能力大战在攻防的整体架构上和其它传统的格斗游戏迥不相牟。在这场格斗大会中，每一位参赛者都是具有特异功能的超能力战士，他们完全不受地心引力牵制，可以在空中自由回旋飞翔，舞台是由数条相互垂直的“结界”所架构而成的矩型区域，由于所有的角色均是临空飘浮，在此范围内无“跳跃”的概念，并且藉由横移或纵向冲剌等技巧，玩家在这个无重力的3D立体空间内所能发挥的自由度，远胜传统地面上的战斗，而“360度的全方位战役”也正是其最大特色。除了系统之外，必杀技的视觉设计上也同样令人耳目一新，由于登场人物皆是身怀绝技的特异功能人士，所以这场战役不单是花拳绣腿的较量，更是许多教人匪疑所思、叹为观止的究极超能力对决！您可以召唤一个黑洞将对手活生生地吞入或发动风之力量封印敌人的行动，您也可以凭空变出一个棺材为对方送终，甚至能在舞台之中宛如行军布阵般地设下种种陷阱，等待敌人自投罗网…种种新奇的构想让玩家们在紧张的对战中不断地享受惊喜。
+
+game: 行星格斗
+file: ftimpcta.zip
+sort-by: 344
+developer: 行星格斗
+publisher: Taito
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: Taito于1996年制作的3d格斗游戏。玩家可根据自己的喜好选择特定的武术家，其中所涉及的种类非常丰富，诸如中国功夫、跆拳道、巴西柔术等等应有尽有，玩家需要做的便是打败各种其他武术家，登上武学的巅峰。
+
+game: 兽化格斗1
+file: beastrzr.zip
+sort-by: 354
+developer: 兽化格斗1
+publisher: Raizing
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 《兽化格斗》是Eighting\Raizing公司1998年出品的一款3D变身格斗游戏。游戏采用了极具争议的“出线算输”的规定，碰到打不过的角色，把它引到栏边，按变身键就可以把它震出图外。《兽化格斗》是一款另类的3D变身格斗游戏，它吸引人的地方在于流畅的连技和华丽而血腥的格斗效果。众所周知，格斗类游戏以玩家敏捷控制、迅速的反应、准确的判断为游戏玩点，可以说所有格斗游戏都不外忽这三点技巧，所以，选择玩什么格斗类游戏，其实就是选择玩动作招式和连技的花样而已。如果说《KOF》是2D类游戏中对抗性较强的格斗游戏，那么玩《KOF》系列和《街头霸王》系列只不过是玩2D游戏的对抗性，《铁拳》系列和《VR战士》系列以他的真实感也赢得了不少的玩家，而《刀魂》系列是刀剑类格斗游戏中的经典，也俘获了不少爱舞刀弄枪的玩家的心，至于《生与死》系列，给人的感觉完全就是为了看MM而设计的，每一代女性角色的服装套数的猛增就是证据。兽化格斗以他的3D引擎为基础，再加上游戏华丽的技能、火爆的连技、逼真的音效、激情的音乐其中的兽化系统更是将格斗的激烈程度推向了极至！堪称3D格斗游戏的经典之作！
+
+game: 兽化格斗2
+file: bldyror2.zip
+sort-by: 355
+developer: 兽化格斗2
+publisher: Eighting
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 兽化格斗2(Bloody Roar 2 )是Eighting\Raizing公司1998年出品的一款动作格斗游戏,1998年制作该系列的续集. 游戏依然保留了首作中变身的规定，动作也流畅了许多，可以选择的角色增加了一位，是一个木乃伊,它的变身是成为一个带透明翼的蓝色武士. 游戏又采用了极具争议的“出线算输”的规定，碰到打不过的角色，把它引到栏边，按变身键就可以把它震出图外。
+
+game: 斗龙传说
+file: elandore.zip
+sort-by: 362
+developer: 斗龙传说
+publisher: Sai-Mate
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 斗龙传说,是1998年Sai-Mate公司出品的一款3d格斗游戏。游戏将龙骑士元素与街机格斗冒险相结合，玩法丰富，有海量的关卡可以挑战，元素多样。
+
+game: 神佑擂台
+file: ehrgeiz.zip
+sort-by: 364
+developer: 神佑擂台
+publisher: Square
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 《神佑擂台》是一部3d格斗游戏，作为史克威尔与南梦宫的合资产品，于1998年在街机发行。日版名：エアガイツ，Ehrgeiz，英文版名：Ehrgeiz: God Bless The Ring，中国大陆译作“神佑擂台”，香港和台湾译作“斗魂”。游戏1998年移植到PlayStation平台，并由史克威尔发行，后史克威尔艾尼克斯于2008年在PlayStation Network发行游戏。游戏可能以收录《最终幻想VII》角色而最为知名。克劳德·史特莱夫和蒂法·洛克哈特在街机和PlayStation版都是玩家角色；萨菲罗斯、尤菲·如月、文森特·瓦伦丁（Vincent Valentine）和札克斯·菲尔在后来的PlayStation版收入。神佑擂台和大多3D格斗游戏不同，大量吸取摔角游戏以及Dream Factory自家Tobal系列的理念，允许360度完全移动，无需格斗者始终面向另一人。这限制镜头或多或少在固定位置、缩放带有动作，但不像常见其它大多2D和3D格斗游戏跟踪竞技台。快节奏格斗可让角色在充满互动和高度变化的三维舞台自由移动，比如能让角色跳到条板箱顶部或将其当作武器。PlayStation版收录了和《Tobal No. 1》和《Tobal 2》类似的探索模式，题为“全新任务 ”。玩家需要在广大的迷宫中战斗，和暴雪作品《暗黑破坏神》非常相似，并可装备不同的武器和道具。其中还有数个小游戏，玩家绕圈追赶并可战斗减慢对手的竞速模式，以及类似黑白棋的图版游戏。
+
+game: 魔法格斗
+file: astrass.zip
+sort-by: 365
+developer: 魔法格斗
+publisher: Sunsoft
+genre: n/a
+release: n/a
+x-id: MAME FTG
+description: 魔法格斗Sunsoft于1998年出品的一款格斗游戏，主题是各种魔法师之间的魔法对决，游戏中提供了8名不同类型的魔法师供玩家选择。游戏属于卡通风格并伴随着有趣的对白，在战斗中玩家会领略到各种法师的风采，有些擅长保持距离、有些擅长近战、有些擅长打消耗战还有些擅长防御等等，重要的不是什么角色最厉害，而是什么角色最适合自己，虽然游戏魔法师的战斗不过连续技系统的打击感却一点都不马虎，对于操作水准高的玩家可以使用一整套连续技将敌人瞬间秒杀。
+

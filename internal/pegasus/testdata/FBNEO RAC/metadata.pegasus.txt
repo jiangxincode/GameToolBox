@@ -1,0 +1,403 @@
+collection: 赛车街机
+sort-by: 006
+launch: "{env.appdir}\RetroArch\retroarch.exe" -L "{env.appdir}\RetroArch\cores\fbneo_libretro.dll" "{file.path}"
+
+game: 飙风拉力
+file: radr.zip
+sort-by: 004
+developer: 飙风拉力
+x-id: FBNEO RAC
+description: 飙风拉力Rad Rally 是世嘉名作“Rad Mobile”飙风追逐的简化版续作。游戏提供了 4 种不同的路线可供选择（日落、雨天、夜晚和山地），引入了一个完全可用的后视镜，另增加了高低手动档位操作。本作可以以街机机体头对头的方式双人联机。
+
+game: 飙风追逐
+file: radm.zip
+sort-by: 005
+developer: 飙风追逐
+x-id: FBNEO RAC
+description: Rad Mobile 是世嘉一系列开创性的赛车游戏中的又一款。Rad Mobile 是一场横跨美国的20段比赛；从洛杉矶开始，在纽约结束。在本作中，世嘉再次为该类型引入了新的游戏元素：动态天气效果。世嘉 1989 年的赛车“Turbo Out Run”也包含有限的天气效果，但作为游戏功能，它们远没有那么突出，也没有这里那么令人印象深刻。世嘉吉祥物索尼克也作为车内装饰物出现在游戏中。作为90年代初街机厅大型体感框体名作，游戏实机框体很细腻，雨刮，大灯都有对应按键。次年SEGA又推出简化版续作，去掉了环游美国要素，只保留四个可选场景，另增加了高低手动档位操作。
+
+game: 1000英里大师赛车1
+file: gtmr.zip
+sort-by: 006
+developer: 1000英里大师赛车1
+x-id: FBNEO RAC
+description: 一款可以玩到法拉利、奔驰等车厂经典车型的赛车游戏。
+
+game: 1000英里大师赛车2
+file: gtmr2.zip
+sort-by: 007
+developer: 1000英里大师赛车2
+x-id: FBNEO RAC
+description: 有着精美3d建模的赛车游戏。从起跑线到终点线，您有 60 秒的时间。在 60 秒内完成可以让您继续参加下一场比赛。如果您输了，可以使用继续选项。画面快速滚动。您知道转弯即将到来的唯一方法是通过一个闪烁着转弯图片的小指示灯。有锯齿形弯道、发夹弯道和所有其他很酷的转弯，其中大部分您都必须转向才能通过。
+
+game: F1大奖赛之星
+file: f1gpstar.zip
+sort-by: 010
+developer: F1大奖赛之星
+x-id: FBNEO RAC
+description: 依旧是JALECO的F1作品，游戏有换挡功能，操控相当灵敏。本作有三条赛道，而且赛道和赛车上充满了JALECO的元素。
+
+game: F1大奖赛之星2
+file: f1gpstr2.zip
+sort-by: 011
+developer: F1大奖赛之星2
+x-id: FBNEO RAC
+description: JALECO 1993年的F1 赛车游戏，游戏色彩比较明亮清新。游戏的玩法和其他赛车游戏差不多，唯一的新意就是蹭了当时流行的赛车大奖赛一波热度。
+
+game: F1巡回赛
+file: contcirc.zip
+sort-by: 012
+developer: F1巡回赛
+x-id: FBNEO RAC
+description: Continental Circus 是太东1987年出品的一款一级方程式赛车游戏，玩家在多个国际大奖赛赛道上比赛，试图在时间耗尽前完成每一圈。该游戏具有进站和动态天气功能；后者以雨的形式出现。如果玩家的汽车被竞争对手的汽车撞到或撞到路边的障碍物，汽车将被损坏并开始冒烟。玩家必须尽早进站维修才能修好汽车，否则火势会蔓延，汽车最终会爆炸。如果玩家的汽车在到达进站前发生第二次碰撞，汽车就会爆炸，在更换汽车出现之前浪费宝贵的时间。
+
+game: Neo拉力赛车
+file: neodrift.zip
+sort-by: 014
+developer: Neo拉力赛车
+x-id: FBNEO RAC
+description: Neo拉力赛车使用的是Neo Geo基板。游戏包括3辆车和6个环境各异的赛道。游戏非常依赖漂移技术的使用。每个赛段都需要在限时内完成才可以继续游戏。
+
+game: 布鲁比拉力赛车
+file: blmbycar.zip
+sort-by: 016
+developer: 布鲁比拉力赛车
+x-id: FBNEO RAC
+description: 一款2D拉力赛车游戏。游戏以欧洲为主要背景，翻车和飞车是家常便饭。
+
+game: 超级摩托车大赛
+file: shangon.zip
+sort-by: 017
+developer: 超级摩托车大赛
+x-id: FBNEO RAC
+description: Super Hang-On是两年前发布的广受好评的“Hang-On”的续作。与前传一样，玩家控制一辆摩托车，在蜿蜒曲折的公路赛道上比赛，避开竞争对手的骑手，并试图在时限到期前到达结束检查点。对于续集，世嘉引入了丘陵起伏的道路，这些道路在 1986 年的“Out Run”中表现得非常出色。引入“涡轮增压”按钮则进一步增强了游戏玩法。达到摩托车的最高时速 280kph 后，玩家可以按住涡轮增压器并将速度推进到 324kph——这是打破游戏极其紧张的时间限制所必需的。然而，这必须小心使用，因为速度的增加使摩托车更难控制，并且在错误的时间加速总是会与竞争对手或散落在舞台上的路边物体发生正面碰撞。玩家可以选择在四个赛道中的任何一个比赛：非洲、亚洲、美洲和欧洲。非洲是四个中最简单和最短的，随后的每个赛道都变得更加苛刻 - 弯道更紧，竞争对手更具侵略性 - 并且必须通过更多的检查点。例如，非洲仅由六个组成，而最难的欧洲则有十八个。
+
+game: 冲刺野郎
+file: rallybik.zip
+sort-by: 019
+developer: 冲刺野郎
+x-id: FBNEO RAC
+description: Rally Bike - 在日本被称为 Dash Yarou（“Dash Rascal”），是由 Toaplan 开发并由 Taito 发行的 1988 赛车街机游戏。Rally Bike 是一款俯视角摩托车公路赛车游戏，玩家控制摩托车，必须在规定数量的竞争对手之前穿过终点线。燃料是一个主要障碍，因为用完它会导致游戏结束。任何事故都会导致燃油大幅减少，而停下来加油会使竞争对手的摩托车占据优势。竞争对手永远不会耗尽燃料。游戏包括 6 关，每关位于一个美国城市（从旧金山到纽约）。游戏还有 2 个奖励关卡。游戏难度逐渐增加，随着阶段的推进，汽车、卡车、河流和坡道等新障碍会不断出现。
+
+game: 冲撞赛车
+file: crshrace.zip
+sort-by: 020
+developer: 冲撞赛车
+x-id: FBNEO RAC
+description: Lethal Crash Race，又名致命冲撞，顾名思义，是一款刺激的赛车游戏。玩家选择八个国际角色之一，然后与其他角色进行一对一的比赛（以及她/他自己的重新着色）。每场比赛都发生在世界各地的不同地点，每个角色都有自己的结局，这使得角色互动与 Sonic Wings 非常相似。Lethal Crash Race 标志着 Ellen 和 Cincia 的首次亮相，他们后来出现在大多数 Sonic Wings 游戏中。
+
+game: 大追捕 罪恶终结者
+file: superchs.zip
+sort-by: 021
+developer: 大追捕 罪恶终结者
+x-id: FBNEO RAC
+description: 游戏的玩法类似super chase HQ。不过这回犯罪分子会更为凶残。游戏有涡轮加速系统。
+
+game: 道路风暴
+file: madgear.zip
+sort-by: 022
+developer: 道路风暴
+x-id: FBNEO RAC
+description: 卡普空1989年的赛车游戏，和前作《道路风暴2011》一样拥有跳跃系统。玩家这次可以选用性能截然不同的三种车辆进行比赛。插一句，这个系列操作比较独特，加速需要向前方推动摇杆。
+
+game: 道路风暴2011
+file: leds2011.zip
+sort-by: 023
+developer: 道路风暴2011
+x-id: FBNEO RAC
+description: 卡普空1988年的赛车游戏，游戏背景设定在2011 年。游戏里说，2011年以最高速度行驶的唯一途径是在高高耸立于地面之上的高架桥上。这些很快就会受到赛车手和赛道疯子的欢迎。游戏中道路是垂直滚动的，有一些适度的急转弯，类似于《间谍猎人》。玩家有一个跳跃装置来进行跳跃，并可以降落在路上的其他疯子身上将其压平。玩家必须在 OutRun 风格的岔路口选择要走的路径。道路上有奖励道具，包括奖励积分、攻车槌，以及血量回复。如果不幸掉出道路，玩家必须使用出现在适当位置的可定向绞盘将汽车放回道路上。
+
+game: 地面效应
+file: groundfx.zip
+sort-by: 024
+developer: 地面效应
+x-id: FBNEO RAC
+description: 一款F1赛车游戏。
+
+game: 动力甩尾
+file: pdrift.zip
+sort-by: 025
+developer: 动力甩尾
+x-id: FBNEO RAC
+description: 世嘉的竞速佳作。游戏不仅与《OutRun》一样采用了用高速2D描绘来模拟3D卷轴效果。并去掉了计时器，改由玩家在比赛中是否获得前三的排名，判断是否进入下一关。如果玩家完成了前五条赛道，将会开启第六条“特别赛道”：玩家可以选择使用《冲破火网》中的F14或者《超级摩托车》中的摩托车进行游戏。每个赛道由五个赛段组成。游戏的轨道有一种“过山车”的感觉，有陡峭的攀登、突然的下降和急转弯。也有可能从轨道的许多较高的凸起部分掉落，导致汽车撞到下面的地面并失去宝贵的时间。在实机上，除了缩放功能外，Power Drift 还具有倾斜轴；当玩家左右转向时，屏幕显示会反映控制器的运动并在其轴上倾斜（以类似于另一款 Sega 游戏“After Burner”的方式）。游戏的难度级别取决于玩家选择比赛的汽车类型。红色汽车（车轮更大）属于“简单”，蓝色汽车为“正常”，橙色汽车为“困难”，灰色汽车为“最难”
+
+game: 恶土
+file: badlands.zip
+sort-by: 026
+developer: 恶土
+x-id: FBNEO RAC
+description: 1989年庞克风的俯视角赛车游戏。游戏中充斥着碰撞带来的火花。玩家需要在一个固定场景内与竞争对手重复驾驶多圈以完成比赛。
+
+game: 飞空骑警
+file: abcop.zip
+sort-by: 027
+developer: 飞空骑警
+x-id: FBNEO RAC
+description: 世嘉于1990年发售的一款模拟驾驶摩托车的体感游戏，玩家扮演未来警察，驾驶一辆全副武装的浮空摩托车在高速公路上撞击罪犯，并抓捕重罪嫌疑犯。游戏的画面非常精美，采用3D多边形图像处理技术，再加上超强的体感，使游戏体验非常爽快。游戏让人联想起两年前太东发布的传奇街机“追踪 HQ”
+
+game: 飞越巅峰
+file: overtop.zip
+sort-by: 028
+developer: 飞越巅峰
+x-id: FBNEO RAC
+description: 斜45度的竞速游戏。1991 年，ADK（当时的 Alpha 团队）为 Neo Geo 发布了 Thrash Rally——该作虽然玩起来很有趣，但它最出名的是糟糕的画面。五年后，ADK名为 Overtop 的系列续作。这一次他们没有犯相同的错误：出色的画面、美妙的声音、大量的车辆，并保持了其前身的出色可玩性。
+
+game: 风速英雄
+file: ridhero.zip
+sort-by: 029
+developer: 风速英雄
+x-id: FBNEO RAC
+description: Riding Hero 是一款摩托车赛车游戏，具有三种游戏模式：W.G.P.模式，角色扮演游戏（故事）模式和多人模式。在 W.G.P 模式中，您可以选择您想要使用的摩托，然后参加多达十个世界赛道的比赛，包括法国、德国、意大利、美国、西班牙、瑞典等。你与顶级车手比赛。角色扮演游戏模式是互动的。你在不同地点之间旅行，探索它们，并与这里的任何人交谈。您开始时没有摩托车，所以您必须去商店购买一辆。然后在商店主人的帮助下，您最多可以与六个对手比赛。你赢得的比赛越多，你赚的钱就越多。继续获胜，您将能够参加铃木 8 小时耐力赛。在此模式下，计时器将倒计时。如果到期，您必须投币才能继续。Multi-Play 模式可让您将机柜“链接”在一起，以便两个玩家可以并排比赛。游戏驾驶手感没有同时期世嘉的摩托车游戏扎实，但胜在模式和内容丰富。
+
+game: 公路热击
+file: hotchase.zip
+sort-by: 030
+developer: 公路热击
+x-id: FBNEO RAC
+description: 一款动感十足的驾驶游戏，玩家必须驾驶偷来的敌方“超级跑车”——其底盘底部绑有炸弹——并在计时器耗尽和炸弹爆炸前到达该国边境。必须避开敌军、路障、飞机和直升机。
+
+game: 环球世界
+file: outrun.zip
+sort-by: 031
+developer: 环球世界
+x-id: FBNEO RAC
+description: 世嘉的《Outrun》被认为是游戏史上最出色的街机赛车游戏之一。由铃木裕和AM2开发的本作，采用了所谓的“Super Scaler”技术（《Hang-On》, 《Afterburner》与《Space Harrier》都曾使用过这一技术）。凭借超快的缩放效果和移动流畅的3D地形，《Outrun》带来了当时其他街机游戏所没有的畅快感。当时，大部分赛车游戏都还采用俯瞰视角，铃木裕则请玩家坐进了一辆非常昂贵的跑车，这是一辆貌似Testarossa的红色敞篷跑车，为此，法拉利与世嘉还打了不少官司。打开电台，戴上太阳镜，载着美丽的金发女友，徜徉在宽阔的马路上，好不惬意。不用绕着环形赛道跑圈，没有赛事主办方，不用停站换胎，没有撞车，没有高速追逐，没有射击场面（至少本作没有），就是驾着自己的车在路上巡弋着，放松神经，欣赏着路旁不断涌现的新景色。游戏画面是典型的AM2风格：清新、干净、明快。这不是全部，还有三首经典的游戏伴奏曲("Magical Sound Shower","Splash Wave" & "Passing Breeze") 让你彻底融入游戏。甚至就连Game Over/High Score的主题曲（"Last Wave"），听起来也是一种放松！特别是一边凝视着落日/聆听着浪声，一边听着这些曲子，更有一番别样的味道。虽然只用到了FM合成 音乐技术，但本作声音的奥妙之处在于，它采用了一块单独的声音专属微处理芯片。Outrun之所以能在历史上留名，还在于它是世界上第一款能够自选赛道和音乐的赛车游戏（虽说从技术上讲，是Atari的F1游戏《TX-1》最先引入分叉赛道的概念）。本作的日版和海外版在赛道布局上有些细微差别。根据你所选赛道的不同，游戏共有五个不同的有趣结局。在当时那个年代，“懒惰”的程序师们往往只用一张图片和一句“Congratulation”祝贺语，就算是对玩家穿版的奖励。而《Outrun》的结尾内容则丰富得多。
+
+game: 环游世界极速版
+file: toutrun.zip
+sort-by: 036
+developer: 环游世界极速版
+x-id: FBNEO RAC
+description: Turbo Out Run 是 1986 年传奇原作out run的第一部街机续集。它没有了其杰出前身的分叉路、可变路线设定，只有固定路线。
+
+game: 极速马力
+file: hotrod.zip
+sort-by: 038
+developer: 极速马力
+x-id: FBNEO RAC
+description: 这是款上下卷轴的赛车游戏，最多支持4人竞速。赛道非常狭窄和曲折。每个玩家的赛车都有一个燃料表。玩家需要操纵赛车在道路上拾取燃料。如果半路因为燃料耗尽而抛锚，则玩家将失去本场比赛的参与资格。
+
+game: 极速英豪
+file: trally.zip
+sort-by: 039
+developer: 极速英豪
+x-id: FBNEO RAC
+description: Thrash Rally 是一款快节奏的赛车游戏，类似于 Neo Drift Out 和 Overtop，但使用的是俯视视角。您可以参加世界锦标赛或参加完整的巴黎达喀尔拉力赛。基本控制：使用自动变速器加速、制动以及两者的组合以实现动力漂移。您必须遵循既定路线。在世界锦标赛中，每个地点都包含不同的赛段，需要在单次运行中完成。有严格的时间限制，完成一个部分后您将获得时间奖励。达喀尔模式是一条没有停靠点的长赛道。锦标赛使用普通汽车，但在达喀尔比赛中您还可以选择沙滩车、越野自行车或卡车。比赛时会保留全球排名，但它是基于您的时间，而不是您在比赛中超过的汽车数量。除了你的对手，你还会在路上遇到水、动物、山丘、桥梁、灌木和不同的障碍物。游戏玩起来有趣，但画面略显简陋。
+
+game: 假面骑士俱乐部
+file: kamenrid.zip
+sort-by: 042
+developer: 假面骑士俱乐部
+x-id: FBNEO RAC
+description: 特摄剧假面骑士的街机游戏,竞速类游戏,共有十位假面骑士供选择,玩家要在限制时间内跑完赛程。
+
+game: 警车热击
+file: cischeat.zip
+sort-by: 044
+developer: 警车热击
+x-id: FBNEO RAC
+description: 一款色彩缤纷的赛车游戏，玩家扮演警察的角色，必须驾驶他的警车（从 2 辆中选择；分别擅长速度和弯道，类似四驱兄弟的设定）穿过美国旧金山起伏蜿蜒的街道，以期赢得首届‘全国冠军警车障碍赛’。每个阶段都挤满了竞争对手的警车，以及出租车、电车和消防车等民用交通工具。在这个棘手的驾驶游戏中，玩家还必须通过 90 度转弯的考验。 Cisco Heat共有五关。
+
+game: 竞速英雄
+file: rachero.zip
+sort-by: 045
+developer: 竞速英雄
+x-id: FBNEO RAC
+description: 世嘉1989年推出的摩托车游戏。玩家需要驾驶摩托车与其他摩托车、汽车、卡车和强制性的紧迫时限赛跑。 Racing Hero 是 世嘉传奇的“Hang-On”系列和他们最著名的赛车游戏“Out Run”的精神继承者。例如，与 Out Run 最大的相似之处是在每个阶段结束时，玩家可以选择他或她希望走的下一个路线。这与“Out Run”令人印象深刻的即时分叉路方法有些不同。在 Racing Hero 中，玩家会看到一个单独的赛段选择屏幕，并显示他们接下来希望对战的国家/地区的国旗。
+
+game: 快车道
+file: fastlane.zip
+sort-by: 047
+developer: 快车道
+x-id: FBNEO RAC
+description: 科乐美1987年出品的迷宫益智游戏。玩家控制车辆。还有另一辆晚一点出发的汽车试图阻止您。玩家必须通过每个关卡需要消除的沙地。游戏有针对另一辆车的道具，包括：JUMP - 允许您跳过另一辆车或跳到它上面。SHOOT - 允许您向另一辆车发射子弹。FLASH - 允许您从任何距离击晕其他车辆等。
+
+game: 狂野环绕赛车
+file: roughrac.zip
+sort-by: 048
+developer: 狂野环绕赛车
+x-id: FBNEO RAC
+description: Rough Racer 是一款世嘉出品的俯视角赛车游戏，适合一到四名玩家。 Rough Racer 的大部分灵感来自 Atari 的“Sprint”系列，尤其是“Championship”和“Super Sprint”。该游戏有十个不同的赛道，每个赛道都有自己的主题。在第一场比赛之后，除了四辆赛车之外，还增加了第五辆“无人机”车辆，其唯一目的是阻碍四名赛车手。无人机与赛车明显不同，可以是从蒸汽压路机到水泥搅拌机的任何车辆。
+
+game: 勒芒24小时
+file: wecleman.zip
+sort-by: 049
+developer: 勒芒24小时
+x-id: FBNEO RAC
+description: 来自 Konami 的赛车游戏，基于一年一度的“WEC Le Mans 24”比赛；顾名思义，这是一场持续 24 小时的艰苦比赛。勒芒赛道的宽度从未改变，始终保持 3 车道宽。赛道对走线精度的要求极高，与竞争对手的赛车手或赛道旁众多物体之一的接触会使玩家的车辆失去位置，从而浪费宝贵的时间。
+
+game: 铃鹿8小时
+file: suzuka8h.zip
+sort-by: 050
+developer: 铃鹿8小时
+x-id: FBNEO RAC
+description: 来自 Namco 的一款出色的摩托车游戏。游戏名称的铃鹿8小时是指一项著名的摩托车耐力赛。
+
+game: 铃鹿8小时 2
+file: suzuk8h2.zip
+sort-by: 051
+developer: 铃鹿8小时 2
+x-id: FBNEO RAC
+description: 来自 Namco 的摩托车游戏。这部续作包含了原作的所有精彩内容。
+
+game: 摩托车大赛精简版
+file: hangonjr.zip
+sort-by: 053
+developer: 摩托车大赛精简版
+x-id: FBNEO RAC
+description: Hang-On Jr. 是世嘉传奇街机游戏“Hang-On"的精简版，其游戏玩法与“Hang-On”相似，但由于主机硬件性能低下，因此以更原始的图形呈现。
+
+game: 气流
+file: slipstrm.zip
+sort-by: 056
+developer: 气流
+x-id: FBNEO RAC
+description: Slipstream 是一款卡普空出品的一级方程式赛车游戏，具有四个不同的赛道；德国、日本、澳大利亚和摩纳哥。玩家可以选择驾驶八辆不同的 F1 赛车中的任何一辆参加比赛，每辆赛车都提供不同级别的操控、加速、速度和抓地力。游戏还提供了三种不同的游戏模式；计时赛（在一个赛道上比赛）、世界锦标赛（在所有四个赛道上比赛）和全程计时赛（也在所有四个赛道上比赛）。每辆车都有一个基本的高档和低档。此外，当玩家在赛道上比赛时，涡轮增压系统会积蓄力量。 涡轮增压偶尔会启动并为玩家的汽车提供临时的速度提升。竞争对手的汽车也能够使用涡轮增压。
+
+game: 赛车迷宫
+file: mofflott.zip
+sort-by: 057
+developer: 赛车迷宫
+x-id: FBNEO RAC
+description: 游戏是典型的迷宫冒险游戏——这类游戏的代表作应该是吃豆人。本作有着类似的规则，需要玩家操作小汽车穿越高楼林立的城市收集钥匙。游戏相对复杂，但游戏中的规则都很容易理解。玩家的汽车可以开往任意方向，还可以原地180度掉头
+
+game: 世嘉摩托车大赛
+file: hangon.zip
+sort-by: 059
+developer: 世嘉摩托车大赛
+x-id: FBNEO RAC
+description: SEGA推出的世界上第一款体感街机游戏《Hang-on》。非常喜欢摩托车的铃木裕希望能让玩家在游戏中体验到像肯尼罗伯茨和兰迪马莫拉那种高手才能实现的驾驶感觉。经过多次实际尝试之后，铃木裕放弃了在筐体上使用扭力杆的计划，并以实际的摩托车取而代之。游戏中的规则设计也不同于其他同类产品，即便撞上别的车辆也不会当场翻车Game Over，代价仅仅是减速。那个时代的同类游戏大多是以躲避障碍物为目的产品，《Hang-on》的出现第一次在街机领域确立了模拟驾驶和体感的概念。这种高度拟真但又不失娱乐性的设计理念在铃木裕之后制作的游戏中也被完整地继承了下来。
+
+game: 世嘉越野机车赛
+file: enduror.zip
+sort-by: 060
+developer: 世嘉越野机车赛
+x-id: FBNEO RAC
+description: 世嘉于1986年发售的一款体感竞速游戏，玩家扮演摩托车手驾驶摩托车参加越野机车耐力赛。游戏中一路上有很多障碍物阻挡玩家的行程，玩家的机车一碰上这些障碍物便会高高跃起，这时候玩家必须在悬在半空中时作出方向判定，确保安稳着陆。值得一提的是，为了让玩家身临其境地体验到骑越野摩托的感觉，游戏中的障碍物需要玩家在实机上用人力来完成抬起车头飞跃障碍物这个动作，做起来非常吃力，因为在这个过程中玩家需要抬起几百斤重的整个实机！
+
+game: 世界拉力赛1
+file: wrally.zip
+sort-by: 061
+developer: 世界拉力赛1
+x-id: FBNEO RAC
+description: World Rally 是一款以公路拉力赛为主题的斜45度驾驶游戏，可供 1 人或 2 人交替游玩。控制装置包括安装座上的方向盘、高/低档换档器组件和加速踏板。玩家从 4 场比赛中选择 1 场开始，每场比赛的难度都比前一场逐渐增加。拉力赛由三个赛段组成，提供各种不同的赛道布局和路面。沥青、泥土、夜间驾驶和积雪覆盖的道路需要玩家相应地调整他们的驾驶技术。玩家需要通过发夹曲线、桥梁、水坑和其他障碍物。在 60 秒的时间限制内完成每个赛段，玩家可以免费进入下一赛段。每个赛段结束后，以及所有 12 个赛段完成后，将显示玩家的时间并与其他顶级车手进行比较。
+
+game: 抬头向前衝
+file: headonch.zip
+sort-by: 063
+developer: 抬头向前衝
+x-id: FBNEO RAC
+description: 一款迷宫驾驶游戏，1994年推出，厂商不详。
+
+game: 投弹手的进击
+file: cbombers.zip
+sort-by: 064
+developer: 投弹手的进击
+x-id: FBNEO RAC
+description: 欢迎来到定制汽车嘉年华！选择您的车辆和具有挑战性的赛道之一。启动您的引擎并准备好启动。小心地雷等障碍物和竞争对手的攻击和。游戏中玩家的车可以撞毁对手并使用类似马里奥赛车那样的道具。
+
+game: 野外大赛车
+file: bigrun.zip
+sort-by: 067
+developer: 野外大赛车
+x-id: FBNEO RAC
+description: 一款赛车游戏，有类似outrun的艺术风格，只不过场景多为野外。赛车在起伏路段会高高跃起。游戏后被移植到SFC上。
+
+game: 一级方程式 GP 大赛1
+file: f1gp.zip
+sort-by: 068
+developer: 一级方程式 GP 大赛1
+x-id: FBNEO RAC
+description: 一款俯视角的F1赛车游戏。
+
+game: 一级方程式 GP 大赛2
+file: f1gp2.zip
+sort-by: 069
+developer: 一级方程式 GP 大赛2
+x-id: FBNEO RAC
+description: 俯视角的 F1 赛车游戏，有氮气加速设计。
+
+game: 一级方程式超级争霸战
+file: f1lap.zip
+sort-by: 070
+developer: 一级方程式超级争霸战
+x-id: FBNEO RAC
+description: JALECO 1994年推出F1赛车游戏，使用了真实的车队、车辆、车手和赞助商。游戏的画面在当时非常前沿，非常逼真，加上真实的赛车音效，玩起来代入感很强
+
+game: 一级方程式赛车
+file: f1en.zip
+sort-by: 071
+developer: 一级方程式赛车
+x-id: FBNEO RAC
+description: 世嘉1991年的F1作品，有着更低更写实的视角和后视镜的设定。但是赛车以外的元素做的都有些简陋。
+
+game: 音速小子欢乐警车
+file: soniccar.zip
+sort-by: 072
+developer: 音速小子欢乐警车
+x-id: FBNEO RAC
+description: 一路向北，您可以通过左右移动来避开汽车。您也可以跳出汽车（之后您会立即返回），但此功能的唯一用途是击败埃格曼。两分钟的故事在行动过程中上演：警官索尼克从车站出来走上街头，似乎是例行巡逻。 （在路上，您遇到红绿灯，必须停下来让 Flicky 和那帮人通过。） 在巡逻期间，您发现 Eggman 医生开着他自己的车将汽车推离街道。追逐开始！旋转几下即可将 Eggman 医生干掉；小心他朝你扔的炸弹。不管你有没有打败他，索尼克最终都会开车到另一个警察局，用日语对你说些什么。
+
+game: 银狐 方程式赛车
+file: dirtfoxj.zip
+sort-by: 073
+developer: 银狐 方程式赛车
+x-id: FBNEO RAC
+description: 俯视角的赛车游戏。
+
+game: 越野房车大赛
+file: backfire.zip
+sort-by: 075
+developer: 越野房车大赛
+x-id: FBNEO RAC
+description: 玩家可以从两名车手中选择一名进行扮演。游戏共有6关。游戏支持双人分屏游玩。
+
+game: 越野赛车
+file: driftout.zip
+sort-by: 077
+developer: 越野赛车
+x-id: FBNEO RAC
+description: 俯视角的赛车游戏。
+
+game: 越野赛车94
+file: drifto94.zip
+sort-by: 078
+developer: 越野赛车94
+x-id: FBNEO RAC
+description: 俯视角赛车游戏。游戏有着丰富的赛车和赛道。
+
+game: 越野沙滩车
+file: fourtrax.zip
+sort-by: 079
+developer: 越野沙滩车
+x-id: FBNEO RAC
+description: 玩家必须控制四辆四轮摩托车之一（玩家 1 为红色，玩家 2 为白色，玩家 3 为黄色，玩家 4 为绿色）——它们正在参加“越野”比赛 。它们都有一个预设完成一整圈赛道的时间量。每成功完成一圈赛道，玩家的时间就会延长。但是，如果其中一名选手无法在时间用完之前成功完成他当前的赛道圈，他或她的比赛将立即结束，比赛将在没有他们的情况下继续进行。玩家必须完成赛道的三到六圈才能获胜（这个数字取决于两台街机机体的设置方式，就像 Namco 自己的 Final Lap）。玩家还将在赛道上遇到四到七辆CPU 控制的车辆，因为数量取决于参加比赛的人数（一名球员七辆，两名球员六辆，三人五辆，四人四辆）。
+
+game: 追击HQ2-特别刑事调查
+file: sci.zip
+sort-by: 080
+developer: 追击HQ2-特别刑事调查
+x-id: FBNEO RAC
+description: 特别刑事调查是 1988 年追踪HQ初代的直接续集，S.C.I.再次让玩家负责一辆没有标记的警车——这次是 Nissan 300ZX T-Top Turbo——玩家必须在时限结束前追捕并抓获一名犯罪策划者。从图形上看，S.C.I.与其前身非常相似，尽管在更好地使用颜色和引入一些新的天气效果方面略有改进；比如第一关的雨。与第一款游戏不同，玩家手持枪支，由副驾驶负责射击——用来在玩家争分夺秒的时候扫除罪犯和路障，也可以用来抓捕犯罪头目。
+
+game: 追踪HQ
+file: chasehq.zip
+sort-by: 081
+developer: 追踪HQ
+x-id: FBNEO RAC
+description: “追踪H.Q.”是一款赛车游戏，有类似outrun的检查点系统，也就是在限定时间内必须到达某一地点游戏才能继续。玩家在这款来自 Taito 的“迈阿密风云”游戏中扮演卧底警察托尼吉布森的角色。吉布森和他的搭档“雷蒙德布罗迪”驾驶着一辆强大的无标记警车（类似于保时捷 911），必须追捕和逮捕各种罪犯。玩家有 55 到 70 秒（取决于游戏的“Dip”设置）追上逃跑的罪犯，然后在同一时间反复撞上罪犯的汽车，直到汽车损坏到无法驾驶为止。罪犯的车在不断地逃逸，所以如果玩家反复撞车或开得太慢，罪犯就会逃跑，游戏就结束了。
+
+game: 最高时速
+file: topspeed.zip
+sort-by: 082
+developer: 最高时速
+x-id: FBNEO RAC
+description: 一款与“Out Run”非常相似的驾驶游戏，除了增加了氮气加速按钮和大相径庭的音乐。
+
+game: 最后一公里
+file: lastkm.zip
+sort-by: 084
+developer: 最后一公里
+x-id: FBNEO RAC
+description: Last KM 由 Zeus Software 开发，并于 1995 年由西班牙街机制造商 Gaelco 发行的自行车游戏。游戏志在模拟自行车赛最后一公里冲刺的激烈场面。
+

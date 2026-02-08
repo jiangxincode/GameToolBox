@@ -29,7 +29,7 @@ type GameRemoveResult struct {
 	Errors []error
 }
 
-func RemoveSelectedGames(rootDir string, games []GameModel) GameRemoveResult {
+func RemoveSelectedGames(rootDir string, games []GameViewModel) GameRemoveResult {
 	var res GameRemoveResult
 
 	rootDir = strings.TrimSpace(rootDir)
@@ -40,7 +40,7 @@ func RemoveSelectedGames(rootDir string, games []GameModel) GameRemoveResult {
 	}
 
 	// Build lookup of selected games by name.
-	selectedByName := make(map[string]GameModel)
+	selectedByName := make(map[string]GameViewModel)
 	selectedCount := 0
 	for _, g := range games {
 		if !g.Selected {
@@ -75,33 +75,36 @@ func RemoveSelectedGames(rootDir string, games []GameModel) GameRemoveResult {
 	// 2) Delete media dirs and ROM files
 	for name, g := range selectedByName {
 		// media/<gameName>
-		mediaDir := filepath.Join(rootDir, "media", name)
-		if err := os.RemoveAll(mediaDir); err != nil {
-			logging.Errorf("pegasus.RemoveSelectedGames: remove media dir failed dir=%s err=%v", mediaDir, err)
+		mediaDir, mediaErr := SafeMediaDir(rootDir, name)
+		if mediaErr != nil {
+			logging.Errorf("pegasus.RemoveSelectedGames: refuse to delete media dir game=%q err=%v", name, mediaErr)
 			res.Failed++
-			res.Errors = append(res.Errors, fmt.Errorf("remove media dir %s: %w", mediaDir, err))
+			res.Errors = append(res.Errors, fmt.Errorf("refuse to delete media dir for %q: %w", name, mediaErr))
+		} else {
+			if err := os.RemoveAll(mediaDir); err != nil {
+				logging.Errorf("pegasus.RemoveSelectedGames: remove media dir failed dir=%s err=%v", mediaDir, err)
+				res.Failed++
+				res.Errors = append(res.Errors, fmt.Errorf("remove media dir %s: %w", mediaDir, err))
+			}
 		}
 
 		// rom file
-		rom := strings.TrimSpace(g.FileName)
-		if rom == "" {
+		romRel := strings.TrimSpace(g.FileName)
+		if romRel == "" {
 			res.Failed++
 			res.Errors = append(res.Errors, fmt.Errorf("game %q fileName is empty", name))
 			continue
 		}
-		romPath := rom
-		if !filepath.IsAbs(romPath) {
-			romPath = filepath.Join(rootDir, filepath.FromSlash(romPath))
-		}
-		if err := os.Remove(romPath); err != nil {
+
+		if err := RemoveFileUnderRoot(rootDir, romRel); err != nil {
 			if os.IsNotExist(err) {
 				// If missing, treat as skipped (already removed or never existed).
 				res.Skipped++
 				continue
 			}
-			logging.Errorf("pegasus.RemoveSelectedGames: remove rom failed path=%s err=%v", romPath, err)
+			logging.Errorf("pegasus.RemoveSelectedGames: remove rom failed rel=%q err=%v", romRel, err)
 			res.Failed++
-			res.Errors = append(res.Errors, fmt.Errorf("remove rom %s: %w", romPath, err))
+			res.Errors = append(res.Errors, fmt.Errorf("remove rom %q: %w", romRel, err))
 			continue
 		}
 		res.Removed++
@@ -110,7 +113,7 @@ func RemoveSelectedGames(rootDir string, games []GameModel) GameRemoveResult {
 	return res
 }
 
-func removeSelectedFromMetadata(metadataPath string, selectedByName map[string]GameModel) (removed int, err error) {
+func removeSelectedFromMetadata(metadataPath string, selectedByName map[string]GameViewModel) (removed int, err error) {
 	doc, err := metadata.ReadFile(metadataPath)
 	if err != nil {
 		if os.IsNotExist(err) {

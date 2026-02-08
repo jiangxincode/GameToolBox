@@ -32,7 +32,35 @@ func NewSettingsView(
 	themeSelect := widget.NewSelect(nil, nil)
 	themeItem := widget.NewFormItem("", themeSelect)
 
-	form := widget.NewForm(languageItem, themeItem)
+	// --- Media scraping settings ---
+	// ScreenScraper credentials.
+	scDevID := widget.NewEntry()
+	scDevID.SetPlaceHolder("ScreenScraper DevID")
+	scDevPass := widget.NewPasswordEntry()
+	scDevPass.SetPlaceHolder("ScreenScraper DevPassword")
+	scUser := widget.NewEntry()
+	scUser.SetPlaceHolder("(optional) ScreenScraper user")
+	scPass := widget.NewPasswordEntry()
+	scPass.SetPlaceHolder("(optional) ScreenScraper password")
+
+	scDevIDItem := widget.NewFormItem("SS DevID", scDevID)
+	scDevPassItem := widget.NewFormItem("SS DevPassword", scDevPass)
+	scUserItem := widget.NewFormItem("SS 用户", scUser)
+	scPassItem := widget.NewFormItem("SS 密码", scPass)
+
+	mediaOverwriteCheck := widget.NewCheck("覆盖已存在文件", nil)
+	mediaOverwriteItem := widget.NewFormItem("媒体刮削", mediaOverwriteCheck)
+
+	form := widget.NewForm(
+		languageItem,
+		themeItem,
+		widget.NewFormItem("", widget.NewSeparator()),
+		scDevIDItem,
+		scDevPassItem,
+		scUserItem,
+		scPassItem,
+		mediaOverwriteItem,
+	)
 
 	updating := false
 
@@ -118,16 +146,63 @@ func NewSettingsView(
 			}
 		}
 
-		// Load persisted theme selection.
+		// Load persisted config selections.
 		persistedTheme := "system"
 		if c, err := config.Load(); err == nil {
 			if v := strings.ToLower(strings.TrimSpace(c.Theme)); v != "" {
 				persistedTheme = v
 			}
+			// ScreenScraper persisted settings.
+			scDevID.SetText(strings.TrimSpace(c.ScreenScraperDevID))
+			scDevPass.SetText(strings.TrimSpace(c.ScreenScraperDevPassword))
+			scUser.SetText(strings.TrimSpace(c.ScreenScraperUser))
+			scPass.SetText(strings.TrimSpace(c.ScreenScraperPassword))
+			mediaOverwriteCheck.SetChecked(c.MediaScrapeOverwrite)
 		}
 		if lbl, ok := labelByThemeKey[persistedTheme]; ok {
 			themeSelect.Selected = lbl
 			themeSelect.Refresh()
+		}
+
+		scDevID.OnChanged = func(s string) {
+			if updating {
+				return
+			}
+			c, _ := config.Load()
+			c.ScreenScraperDevID = strings.TrimSpace(s)
+			_ = config.Save(c)
+		}
+		scDevPass.OnChanged = func(s string) {
+			if updating {
+				return
+			}
+			c, _ := config.Load()
+			c.ScreenScraperDevPassword = strings.TrimSpace(s)
+			_ = config.Save(c)
+		}
+		scUser.OnChanged = func(s string) {
+			if updating {
+				return
+			}
+			c, _ := config.Load()
+			c.ScreenScraperUser = strings.TrimSpace(s)
+			_ = config.Save(c)
+		}
+		scPass.OnChanged = func(s string) {
+			if updating {
+				return
+			}
+			c, _ := config.Load()
+			c.ScreenScraperPassword = strings.TrimSpace(s)
+			_ = config.Save(c)
+		}
+		mediaOverwriteCheck.OnChanged = func(b bool) {
+			if updating {
+				return
+			}
+			c, _ := config.Load()
+			c.MediaScrapeOverwrite = b
+			_ = config.Save(c)
 		}
 
 		// --- Labels ---

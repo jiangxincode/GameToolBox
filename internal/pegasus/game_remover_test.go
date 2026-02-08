@@ -5,6 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 	"testing"
+
+	"github.com/game_tool_box/internal/pegasus/metadata"
 )
 
 func TestRemoveSelectedGames_CurrentlyMirrorsGenerator(t *testing.T) {
@@ -18,8 +20,8 @@ func TestRemoveSelectedGames_CurrentlyMirrorsGenerator(t *testing.T) {
 		t.Fatalf("write rom: %v", err)
 	}
 
-	games := []GameModel{
-		{ID: 1, GameName: "g1", FileName: "roms/g1.zip", Selected: true},
+	games := []GameViewModel{
+		{ID: 1, Selected: true, Game: metadata.Game{GameName: "g1", FileName: "roms/g1.zip"}},
 	}
 
 	res := RemoveSelectedGames(root, games)
@@ -69,9 +71,9 @@ func TestRemoveSelectedGames_RemovesMetadataMediaAndRom(t *testing.T) {
 		t.Fatalf("mkdir media/B: %v", err)
 	}
 
-	games := []GameModel{
-		{ID: 1, GameName: "A", FileName: "A.zip", Selected: true},
-		{ID: 2, GameName: "B", FileName: "B.zip", Selected: false},
+	games := []GameViewModel{
+		{ID: 1, Selected: true, Game: metadata.Game{GameName: "A", FileName: "A.zip"}},
+		{ID: 2, Selected: false, Game: metadata.Game{GameName: "B", FileName: "B.zip"}},
 	}
 
 	res := RemoveSelectedGames(root, games)
@@ -117,12 +119,41 @@ func TestRemoveSelectedGames_MissingRomCountsSkipped(t *testing.T) {
 		t.Fatalf("write metadata: %v", err)
 	}
 
-	games := []GameModel{{GameName: "A", FileName: "A.zip", Selected: true}}
+	games := []GameViewModel{{Selected: true, Game: metadata.Game{GameName: "A", FileName: "A.zip"}}}
 	res := RemoveSelectedGames(root, games)
 	if res.Failed != 0 {
 		t.Fatalf("expected Failed=0 got %d (errs=%v)", res.Failed, res.Errors)
 	}
 	if res.Skipped == 0 {
 		t.Fatalf("expected Skipped>0 when rom missing, got %d", res.Skipped)
+	}
+}
+
+func TestRemoveSelectedGames_RefusesDeleteOutsideRoot(t *testing.T) {
+	root := t.TempDir()
+	outsideDir := t.TempDir()
+	outsideFile := filepath.Join(outsideDir, "outside.zip")
+	if err := os.WriteFile(outsideFile, []byte("x"), 0o644); err != nil {
+		t.Fatalf("write outside file: %v", err)
+	}
+
+	// Include metadata so the flow is closer to real usage.
+	meta := strings.Join([]string{
+		"game: A",
+		"file: ../outside.zip",
+		"",
+	}, "\n")
+	if err := os.WriteFile(filepath.Join(root, "metadata.pegasus.txt"), []byte(meta), 0o644); err != nil {
+		t.Fatalf("write metadata: %v", err)
+	}
+
+	games := []GameViewModel{{Selected: true, Game: metadata.Game{GameName: "A", FileName: "../outside.zip"}}}
+	res := RemoveSelectedGames(root, games)
+
+	if res.Failed == 0 || len(res.Errors) == 0 {
+		t.Fatalf("expected failure when refusing delete outside root, got res=%+v", res)
+	}
+	if _, err := os.Stat(outsideFile); err != nil {
+		t.Fatalf("expected outside file NOT deleted, stat err=%v", err)
 	}
 }

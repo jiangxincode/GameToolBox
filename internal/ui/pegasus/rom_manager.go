@@ -129,7 +129,7 @@ func NewRomeManagerView(w fyne.Window) fyne.CanvasObject {
 			}
 		}
 
-		toGen := make([]pegasus.GameModel, 0, len(diff.ExtraInConfig))
+		toGen := make([]pegasus.GameViewModel, 0, len(diff.ExtraInConfig))
 		for _, g := range diff.ExtraInConfig {
 			fileKey := strings.ToLower(filepath.ToSlash(strings.TrimSpace(g.FileName)))
 			if len(selected) > 0 {
@@ -238,16 +238,16 @@ func NewRomeManagerView(w fyne.Window) fyne.CanvasObject {
 			logging.Infof("%s click deselect all", logPrefix)
 			ui.selectAll(false)
 		}),
-		widget.NewButton("生成选中游戏的空ROM文件", generateSelected),
+		widget.NewButton("生成选中游戏的空ROM", generateSelected),
 	)
 
 	buttonRow2 := container.NewHBox(
-		widget.NewButton("列出ROM文件中缺失的游戏", listMissing),
-		widget.NewButton("补齐选中游戏的空ROM文件", generateMissing),
+		widget.NewButton("查找有配置无ROM的游戏", listMissing),
+		widget.NewButton("补齐对应游戏的空ROM", generateMissing),
 	)
 	buttonRow3 := container.NewHBox(
-		widget.NewButton("列出ROM文件中多余的游戏", listExtra),
-		widget.NewButton("删除ROM文件中多余的游戏", deleteRomsNotInConfig),
+		widget.NewButton("查找无配置有ROM的游戏", listExtra),
+		widget.NewButton("删除对应游戏的ROM", deleteRomsNotInConfig),
 	)
 	buttonRows := container.NewVBox(buttonRow1, buttonRow2, buttonRow3)
 

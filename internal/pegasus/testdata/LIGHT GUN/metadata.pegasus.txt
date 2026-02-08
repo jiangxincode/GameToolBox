@@ -1,0 +1,698 @@
+collection: 光枪街机
+sort-by: 004
+ignore-files: 
+  bsmt2000.zip
+  cchip.zip
+  konamigx.zip
+  m68705p5.zip
+  microtouch.zip
+  namcoc65.zip
+  namcoc68.zip
+  namcoc75.7z
+  segabill.zip
+  sente6vb.zip
+  stvbios.zip
+  tms32032.zip
+  ym2608.zip
+extensions:  zip,7z
+launch: "{env.appdir}\RetroArch\retroarch.exe" -L "{env.appdir}\RetroArch\cores\mame_libretro.dll" "{file.path}"
+
+game: Vs. 打鸭子
+file: duckhunt.zip
+sort-by: 001
+developer: Vs. 打鸭子
+description: 与 NES 版本相比，Duck Hunt 的街机版本有很多不同之处。它有更多的动画、略有不同的调色板和零游戏模式。相反，游戏从猎鸭游戏开始（有多只鸭子，就像 NES 版本的游戏 B），第二阶段是飞碟射击游戏（如果你错过了，狗就会出现），接下来是奖励阶段可以射击很多鸭子以获得奖励积分（作为更大的奖励，你可以射击狗让他带着石膏和拐杖出现并对你大喊大叫），然后两个级别和奖励再次重复，然后是中场休息（称为“休息时间” ") 狗追鸭子的地方。
+
+game: Vs. 强盗射击
+file: hogalley.zip
+sort-by: 002
+developer: Vs. 强盗射击
+description: 比。 Hogan's Alley 将您记得的游戏提升到一个全新的水平。不再选择游戏 A 或游戏 B，Vs。街机版结合了两者。从目标范围射击到更具挑战性的城市环境，无需开始新游戏。你说的最好的部分是什么？游戏玩法更快，回合之间不再需要长时间等待，这款游戏速度很快。所以认为你是 Zapper 的大师？这是你证明它的机会。
+
+game: Vs. 自由武装
+file: vsfdf.zip
+sort-by: 003
+developer: Vs. 自由武装
+description: 比。自由力量 (c) 1988 Konami。 技术 主 CPU：N2A03 (@ 1.789772 Mhz) 声音芯片：N2A03 (@ 1.789772 Mhz)，DAC (@ 1.789772 Mhz) 屏幕方向：水平 视频分辨率：256 x 240 像素 屏幕刷新：60.00 Hz 调色板颜色：
+
+game: 暗黑神枪
+file: nstocker.zip
+sort-by: 004
+developer: 暗黑神枪
+description: Night Stocker 是一款未来派的驾驶和射击游戏，您必须在各种风景中驾驶外星人并避开地雷到达要摧毁的塔楼。从第一人称视角来看，你有一段设定的距离可以开车到达塔楼，当你开车时你必须收集到达塔楼时需要的彩色水晶。当你开车时，外星人会朝你走来，他们需要射击或躲避，如果一个人落在你的车上，你就会失去部分盾牌。地雷也需要避免或射击以阻止你的护盾条减少，当它是空的时，游戏就结束了。到达塔楼后，您必须射击弹出的任何枪支位置并向您射击以减少护盾。你有一个固定的数字，需要用你在途中收集的水晶进行射击，如果这些水晶用完了，那么游戏就结束了。这款游戏的独特之处在于，柜子里既有方向盘，又有光枪，可以同时使用。
+
+game: 靶场射击
+file: shootgal.zip
+sort-by: 005
+developer: 靶场射击
+description: Shooting Gallery 真实的射击体验。每完成 4 个阶段，目标速度就会增加，射击次数会减少。美妙的音乐和声音让一切栩栩如生。大屏幕和背光图形。
+
+game: 百发百中 趣味射击
+file: oneshot.zip
+sort-by: 006
+developer: 百发百中 趣味射击
+description: 在城镇舞台上，您可以看到韩国著名歌手Ser-Tae-Ji。
+
+game: 保镖狙击手
+file: whodunit.zip
+sort-by: 007
+developer: 保镖狙击手
+description: 一个谋杀神秘射击游戏，玩家使用枪保护 Max 免受各种攻击并给他指示。
+
+game: 必射电视
+file: shoottv.zip
+sort-by: 008
+developer: 必射电视
+description: Smash TV是一款1990年的街机电子游戏，由尤金·贾维斯（Eugene Jarvis）和马克·特梅尔（Mark Turmell）为威廉姆斯电子游戏公司（Williams Electronics Games）创作。[1] 这是一个双杆射击（一个用于移动，另一个用于射击），与1982年的《机器人：2084》（由贾维斯共同创作）一脉相承。在 Super NES, Genesis, Master System和 Game Gear 上面都标题为Super Smash TV.
+
+game: 触控游戏 2
+file: megat2.zip
+sort-by: 009
+developer: 触控游戏 2
+description: 1994年由Merit Software出版和开发的触屏游戏合集
+
+game: 触控游戏 3
+file: megat3.zip
+sort-by: 010
+developer: 触控游戏 3
+description: 1995年由Merit Software出版和开发的触屏游戏合集
+
+game: 触控游戏 4
+file: megat4.zip
+sort-by: 011
+developer: 触控游戏 4
+description: 1996年由Merit Software出版和开发的触屏游戏合集
+
+game: 触控游戏 5
+file: megat5.zip
+sort-by: 012
+developer: 触控游戏 5
+description: 1997年由Merit Software出版和开发的触屏游戏合集
+
+game: 触控游戏 6
+file: megat6.zip
+sort-by: 013
+developer: 触控游戏 6
+description: 1998年由Merit Software出版和开发的触屏游戏合集
+
+game: 触控游戏 7
+file: megat7e.zip
+sort-by: 014
+developer: 触控游戏 7
+description: 2000年由Merit Software出版和开发的触屏游戏合集
+
+game: 触摸大师 1
+file: tm.zip
+sort-by: 015
+developer: 触摸大师 1
+description: Midway Games于1996年出版的一款单人或双人多人游戏
+
+game: 触摸大师 2000
+file: tm2k.zip
+sort-by: 016
+developer: 触摸大师 2000
+description: Midway Games于1996年出版的一款单人或双人多人游戏
+
+game: 触摸大师 3000
+file: tm3k.zip
+sort-by: 017
+developer: 触摸大师 3000
+description: Midway Games于1997年出版的一款单人或双人多人游戏
+
+game: 触摸大师 4000
+file: tm4k.zip
+sort-by: 018
+developer: 触摸大师 4000
+description: Midway Games于1998年出版的一款单人或双人多人游戏
+
+game: 触摸大师 5000
+file: tm5k.zip
+sort-by: 019
+developer: 触摸大师 5000
+description: Midway Games于1998年出版的一款单人或双人多人游戏
+
+game: 触摸大师 7000
+file: tm7k.zip
+sort-by: 020
+developer: 触摸大师 7000
+description: Midway Games于1999年出版的一款单人或双人多人游戏
+
+game: 触摸大师 8000
+file: tm8k.zip
+sort-by: 021
+developer: 触摸大师 8000
+description: Midway Games于2000年出版的一款单人或双人多人游戏
+
+game: 大革命 X
+file: revx.zip
+sort-by: 022
+developer: 大革命 X
+description: 第一人称射击游戏，主打多白金销量的摇滚乐队 Aerosmith。现在是 1996 年，美国已被新秩序国家接管。该组织由他们的指挥官海尔格女士领导，向青年文化宣战，在此过程中禁止音乐、电视和电子游戏。与此同时，在洛杉矶的一场演出中，史密斯飞船的成员被 NON 俘虏。手里拿着机枪和最强大的武器，音乐，你的任务就是结束新秩序国家的政权并释放 Aerosmith 成员。记住……音乐就是武器！
+
+game: 大力锤
+file: hammer.zip
+sort-by: 023
+developer: 大力锤
+description: 原始机械锤游戏的视频版本。有六场比赛可供选择。
+
+game: 盗尸者之神
+file: ghlpanic.zip
+sort-by: 024
+developer: 盗尸者之神
+description: 类似于“Point Blank”系列的第一人称射击游戏。
+
+game: 反恐精英
+file: sgunner.zip
+sort-by: 025
+developer: 反恐精英
+description: Neo Arc 市正在酝酿一些大麻烦。一个名为 S.T.U.R.M. 的激进恐怖组织。正在通过绑架一位受人尊敬的量子物理学家和他的助手来制造可恶的战争机器，从而给 Neo Arc 的市民带来麻烦。然而，警察局的反恐部队“钢铁枪手”带来了一线希望。现在战斗已经开始，钢铁枪手军官 Cliff 和 Garcia 必须阻止 S.T.U.R.M. 看似无情的愤怒。它的领导者：Gatse Bernard
+
+game: 反恐精英 2
+file: sgunner2.zip
+sort-by: 026
+developer: 反恐精英 2
+description: 钢铁枪手 2 (c) 1991 南梦宫。 技术 此游戏的大部分机柜都是作为 Taito 的“霹雳行动”的转换套件发布的。 Namco System 2 硬件游戏 ID：SNS 主 CPU：(2x) 68000 (@ 12.288 Mhz)，M6809 (@ 3.072 Mhz)，
+
+game: 飞跃颠峰
+file: gunbustr.zip
+sort-by: 027
+developer: 飞跃颠峰
+description: Gunbuster 是来自 Taito 的第一人称射击游戏。
+
+game: 疯狂打靶
+file: cracksht.zip
+sort-by: 028
+developer: 疯狂打靶
+description: 第一人称射击画廊风格的游戏。在时间用完之前，玩家必须使用他的技能射击多个“好”目标，而不是射击“坏”目标。该游戏有几个级别，包括酒吧、Varmit Alley、银行劫匪、机器人、鸟类、外太空、银行劫匪和奖励“老虎机”级别。
+
+game: 疯狂马雷特
+file: maletmad.zip
+sort-by: 029
+developer: 疯狂马雷特
+description: Mallet Madness (c) 1999 Capcom Co., Ltd. 来源 机器的图片。游戏的ROM。
+
+game: 鬼魂射击
+file: lghost.zip
+sort-by: 030
+developer: 鬼魂射击
+description: 一系列令人发指的事件正在发生。闹鬼在城市里猖獗。好像这还不够糟糕，一个小女孩在光天化日之下被其中一个鬼魂绑架了。现在轮到比尔、麦克斯和卡罗尔来结束超自然的疯狂了。
+
+game: 化解危机
+file: timecris.zip
+sort-by: 031
+developer: 化解危机
+description: 一款精湛的轨道上光枪游戏，玩家扮演孤独的雇佣兵，必须从邪恶的“Sherudo”及其恐怖团伙的魔掌中解救总统的女儿雷切尔。游戏将玩家带入 Sherudo 的悬崖顶城堡藏身处及其周围。正如游戏名称所暗示的那样，时间是玩家最大的敌人之一，因为每个区域都必须在严格的时间限制内清除。然而，当一些更强大的敌方士兵被杀死时，偶尔会奖励额外的时间。游戏为玩家提供了两种不同的游戏模式：故事模式：玩家必须击败关卡中的所有敌人才能进入下一关。时间攻击：玩家选择四个阶段之一，必须在允许的时间内击败所有敌人。玩家在此模式下获得无限生命，但在非常紧迫的时间限制下不断战斗。
+
+game: 火鸡狩猎 美国
+file: turkhunt.zip
+sort-by: 032
+developer: 火鸡狩猎 美国
+description: Turkey Hunting USA 允许玩家在 5 个不同的州进行狩猎：佛罗里达州、新墨西哥州、蒙大拿州、宾夕法尼亚州和堪萨斯州。每个州都有不同的天气条件和难度。如果一个 pl
+
+game: 火线行动 爆弹野郎
+file: loffire.zip
+sort-by: 033
+developer: 火线行动 爆弹野郎
+description: 火线是一款光枪控制的单人或两人射击游戏，两名突击队员在其中找到了一种特殊武器 一种车载自动机手枪 隐藏在敌人基地的深处。然而，在他们逃脱报告他们的发现之前，他们发现自己被敌军包围，必须使用敌人自己的超级武器冲破敌人的防线并逃跑。
+
+game: 机动战士钢弹 最后射击 0079
+file: gdfs.zip
+sort-by: 034
+developer: 机动战士钢弹 最后射击 0079
+description: 以“狼行动”为例，添加 Gundam 008 的情节、角色和机甲，您实际上已经拥有了这款游戏：机动战士高达 Final Shooting。一两个玩家用机柜安装的激光步枪在机动战士之后击落机动战士。敌人的猛攻是无止境的，所以你需要一个好的目标、一个强壮的手臂和大量的注意力。道具很少，因此当您的 Mobile Suit 在舞台中间得到修复并配备有限但强大的副武器时，它非常受欢迎。 Boss 战结束了每个阶段，包括炸毁敌方大型飞船，同时击落迎面而来的成群导弹和坏人。
+
+game: 机枪双雄街机版
+file: mechatt.zip
+sort-by: 035
+developer: 机枪双雄街机版
+description: SNK于1989年模仿《野狼行动（Operation Wolf）》制作的一款光枪射击游戏。光枪设备和《野狼行动》的设备基本一样，但游戏的难度明显增大，敌兵人数众多，所以有密集恐惧症的玩家可能刚开始玩就要不停的扔手雷。
+
+game: 鸡蛋趣味射击
+file: eggventr.zip
+sort-by: 036
+developer: 鸡蛋趣味射击
+description: 一款“适合儿童”的动画射击游戏。玩家使用光学枪射击“坏人蛋”，同时避免射击“好人蛋”。玩家通过射击一定数量的目标，逐步晋级到38个不同的关卡。
+
+game: 僵尸突袭
+file: zombraid.zip
+sort-by: 037
+developer: 僵尸突袭
+description: 欢迎来到 Zombie Raid 的非凡世界。玩家使用特别设计的带泵动装填的短型霰弹枪在墓地、城堡和地牢甚至疯狂科学家的实验室中杀出一条血路。与各种可怕的生物作战，例如僵尸和其他可怕的生物。您可能会觉得自己迷失在恐怖电影中！无数的秘密被编入游戏以增加维度。你能发现如何获得额外的生命吗？你能找到逃脱力量的方法吗？你能战胜邪恶吗？挑战是无止境的！
+
+game: 金字塔坟墓
+file: tutstomb.zip
+sort-by: 038
+developer: 金字塔坟墓
+description: 1982年，Konami发行了一款以埃及为主题的街机游戏，玩家控制一名探险家/寻宝者突袭图坦卡蒙古墓的古墓。这是第一次迷宫射击动作冒险，早于《大无畏》和《时间强盗》等游戏。
+
+game: 警匪双枪
+file: luckywld.zip
+sort-by: 039
+developer: 警匪双枪
+description: 街机 警匪双枪美版 Lucky & Wild 游戏介绍：这是一款搞笑的“驱魔”射击游戏，由两名警察主演，他们的任务是打倒一个黑帮团伙。玩家1(幸运)既开车又开枪，玩家2(狂野)只用枪。在游戏中，两名警察都互相开玩笑和对话，甚至在后视镜里做鬼脸。
+
+game: 骷髅 13
+file: golgo13.zip
+sort-by: 040
+developer: 骷髅 13
+description: 一款轻枪游戏，玩家手持半自动狙击步枪，扮演世界上最致命、收入最高的刺客角色，多哥公爵：代号 Golgo 13。与其他轻枪游戏不同，Golgo 13 非常注重故事，并且结合了两者3-D 和 2-D 图形元素。玩家以 100% 的准确率开始他们的职业生涯，并接受各种任务。每个任务都以 2D 漫画故事情节开始，尽管是日语，但它们仍应让玩家对背景故事有所了解。然后显示所选任务的目标以及时间限制、目标区域和可用弹药。在每个任务结束时，玩家都会在屏幕上显示他们的表现。对于成功完成的每项任务，玩家的总金额中会增加一大笔现金，另外还会因击中目标区域而获得额外的奖励。但是，如果玩家未能完成目标或计时器归零，则玩家的准确度等级会降低，然后玩家会继续选择下一个任务。当玩家的准确率达到零时，游戏就结束了。在玩家的职业生涯开始时，有 5 种不同的任务可供选择，并且可以按任意顺序完成。完成所有 5 个任务后，可以进行新一轮的任务。总共有 4 轮，每轮由 5 项作业组成，每一轮都变得越来越难。最后一轮包括一个特殊阶段，只有在完成所有任务后才能选择。完成特殊阶段后，演职员表滚动，游戏结束。玩家然后再次回到游戏的开始。
+
+game: 骷髅 13 奇迹的弹道
+file: g13knd.zip
+sort-by: 041
+developer: 骷髅 13 奇迹的弹道
+description: 《Golgo 13》是由Eighting和Raizing开发并由Namco出版的光枪游戏三部曲。它们是根据同名漫画改编的，讲述了熟练的杀手多哥公爵/高尔戈13的冒险故事，他承担着各种不同的任务。这三款游戏都只在日本为Arcade发行，从未收到任何主机端口。第一款游戏名为《Golgo 13》，于1999年发行，其续集《Golgo 13:Kiseki no Dandou》和《Golgo 13:Juusei no Chinkoka》分别于2000年和2001年发行。 |
+
+game: 立方射击 1
+file: funcube.zip
+sort-by: 042
+developer: 立方射击 1
+description: Fun Cube (c) 2000 南梦宫。 TRIVIA Fun Cube 于 2000 年 12 月发布。 来源 游戏的 ROM。
+
+game: 立方射击 4
+file: funcube4.zip
+sort-by: 043
+developer: 立方射击 4
+description: Fun Cube 4 (c) 2001 Namco, Ltd. TRIVIA Fun Cube 4 于 2002 年 3 月在日本发行（即使标题屏幕上写着 2001）。 来源 游戏的 ROM。机器的图片。
+
+game: 立方射击 5
+file: funcube5.zip
+sort-by: 044
+developer: 立方射击 5
+description: Fun Cube 5 (c) 2002 南梦宫。 TRIVIA Fun Cube 5 于 2002 年 6 月发布。 来源 游戏的 ROM。
+
+game: 猎鹿 USA
+file: deerhunt.zip
+sort-by: 045
+developer: 猎鹿 USA
+description: 一款互动射击游戏，玩家可以在狩猎季节在荒野中追踪鹿群。
+
+game: 灵异双枪
+file: gollygho.zip
+sort-by: 046
+developer: 灵异双枪
+description: 发誓!鬼！是一个视频门票/兑换游戏。在时间用完之前射击特定数量的幽灵。
+
+game: 零式枪战
+file: zeropnt.zip
+sort-by: 047
+developer: 零式枪战
+description: 《零式枪战》是一款轻枪射击画廊游戏，在风格和呈现上与《Point Blank》非常相似。\n一个或两个玩家通过一系列迷你游戏射击，每个游戏大约持续20或30秒。迷你游戏的规则在每一轮之前都会显示出来。一般来说，玩家必须射击自己颜色的目标，同时避免射击带有对手颜色的炸弹或目标。每一轮结束后，结果屏幕显示目标是否完成或失败。一轮失败，玩家失去一颗生命之心，失去所有的心，比赛结束。\n从28个问号方块中，玩家选择一个方块来展示四个小游戏。迷你游戏可以按任何顺序进行。迷你游戏可以被标记为“非常难”，以表明它有更严格的目标或更困难的目标。在游戏开始时，玩家可以从三种难度设置中选择一种；培训，初学者或专家。训练是2个立方体，所以总共8个迷你游戏，没有“非常艰难”的回合。初学者是6个立方体，所以24个迷你游戏，每个游戏之后都有一个最终的老板。而专家则更多。\n有很多迷你游戏，包括在滚动的围栏或火车上射击目标，保护一个人免受鳄鱼或老虎的伤害，电梯门可以显示坏人或平民，射击障碍以帮助pacman逃离鬼魂，在炸弹到达城市之前射击落下的炸弹等等。其他迷你游戏包括粘土靶、纸板切口、鬼魂、机器人、扫帚上的女巫、烟花、易拉罐、南瓜、保龄球、交通标志等目标。一些迷你游戏似乎直接取自《空白点》（Point Blank），例如，一个目标弹出的布谷鸟钟和一个类似Galaga的游戏。有一个奖金回合，本质上是一个“空壳游戏”。一些额外的心脏或子弹藏在四个杯子下面，然后旋转。玩家可以用一颗子弹射击一个杯子，希望这能显示一个物品。
+
+game: 零式枪战 2
+file: zeropnt2.zip
+sort-by: 048
+developer: 零式枪战 2
+description: 一款由光枪控制的射击游戏。这是零点系列的第 2 场比赛。
+
+game: 麻烦泡泡 古灵!精怪! 2
+file: bubbletr.zip
+sort-by: 049
+developer: 麻烦泡泡 古灵!精怪! 2
+description: 用你的枪射击海底的鱼、蟹和其他海洋生物。这是“Golly！Ghost！”的续集。以沉没的宝藏为主题。它巧妙地将视频动画的几个场景投射到真实的 3-D 立体模型背景上。
+
+game: 毛骨悚然
+file: chiller.zip
+sort-by: 050
+developer: 毛骨悚然
+description: 这是一款枪战游戏，有四个不同的屏幕（外加两个不同的奖励屏幕）。目标只是简单地射击视线中的一切（并尝试定位屏幕上的任何隐藏目标）。游戏是基于时间的，当你射击不好时，计时器会走得更快。第一个屏幕是刑讯室。这个屏幕上有四个（仍然活着的）人类目标。从左到右是；一个男人被锁在墙上，一个人在断头台上（射击断头台的顶部以斩首他们），一个女人被绑在一个奇怪的机器上，以及一个头虎钳中的男人（射击虎钳以压碎他的头）。房间的其余部分布满了鲜血和松动的身体部位。你不是简单地射击每个目标一次，而是射击目标的每个部分，这会使该部分变成一团血和骨头。值得庆幸的是，这是游戏中最令人不安的关卡。第二个房间是另一个刑讯室，中间流淌着一条血河。这个有五个人类目标；一个男人被绑在一块木板上，一个男人被拴在地板上，两个人在拉伸架上（射击轮子将它们拉开），一个女人被绳子吊在河上（射击滑轮慢慢将她降入河中被鳄鱼吃掉）。身体部位会随机地顺流而下，一名男子会不时从门里跳出来，将刀片扔向其中一名无助的受害者。第三层是鬼屋走廊。这一层只有一名人类受害者。这是一个女人从一个门口跑到另一个门口，射出活板门让她掉进去（然后射杀追赶她的野兽）。你的其他目标大多是各种各样的鬼魂，还有一些随机的身体部位会从天花板上掉下来。最后一层是墓地。在这个层面上，你唯一的人类受害者是一个半埋在地下的女人，多次射击她的躯干，脱掉她的衣服，直到她赤裸上身，最后一枪杀死了她。你的其他目标是蝙蝠、从地面弹出的手和一个拉着装满身体部位的手推车的人（你不能杀了他，射他只会让他逃跑，然后再回来）。游戏一遍又一遍地重复关卡，直到您设法在每个屏幕上找到每个秘密目标（它会在关卡之间为您提供提示）。在一个屏幕上找到所有目标可以获得奖励游戏（老虎机），而找到游戏中的所有隐藏目标可以获得第二个奖励游戏（射击场）和免费游戏。
+
+game: 命中率
+file: hitnmiss.zip
+sort-by: 051
+developer: 命中率
+description: 一款适合儿童的射击游戏，您只需避开好目标并射击坏目标。
+
+game: 命中目标
+file: targeth.zip
+sort-by: 052
+developer: 命中目标
+description: Target Hits 是一个或两个玩家使用光枪的射击练习游戏。它包含三个固定屏幕游戏，每个游戏都有几个场景：- 射击范围- 沙漠战车- 履带车在积分旁边，玩家的整体表现通过屏幕顶部附近成排显示的银色和金色星星显示。它们分别代表一个完成的舞台和场景。游戏跟踪高分。
+
+game: 魔鬼终结者 2 审判之日
+file: term2.zip
+sort-by: 053
+developer: 魔鬼终结者 2 审判之日
+description: 帮助约翰·康纳未来领导人类抵抗机器和他勇敢的母亲莎拉·康纳避免被来自天网的原型机器人杀死，T-1000 来自未来，由“模拟多合金”组成，但很快意想不到的救世主重新编程的 T-800 终结者，将来自未来帮助并一起阻止审判日。再见宝贝！
+
+game: 魔龙
+file: dragngun.zip
+sort-by: 054
+developer: 魔龙
+description: 第一人称视角射击游戏。
+
+game: 纽约绑匪
+file: nycaptor.zip
+sort-by: 055
+developer: 纽约绑匪
+description: 你扮演一名射手，必须从恐怖分子手中解救人质。从你的位置向敌人开火，但要避免射击旁观者。在失去最后一条生命后，一个序列显示您的角色从栖息地坠落至死亡。
+
+game: 枪火贵族
+file: lordgun.zip
+sort-by: 056
+developer: 枪火贵族
+description: 类似于“Lethal Enforcers”的轻型枪射击游戏，但具有动画图形。这里有10个阶段。
+
+game: 枪火之下
+file: undrfire.zip
+sort-by: 057
+developer: 枪火之下
+description: 希望能和Konami的《Lethal Enforcers》一较高下。在这款 Taito 轻型枪射击游戏中，玩家将扮演一名特工警察的角色，对抗一个占领了各个街区、一家便利店甚至一个游乐园的恶毒团伙。
+
+game: 枪林弹雨
+file: ptblank.zip
+sort-by: 058
+developer: 枪林弹雨
+description: Point Blank 是一款具有挑战性的光枪游戏，玩家可以从各种目标练习迷你游戏中进行选择。许多游戏都需要技巧和准确性，例如射击罪犯的硬纸板、一次击中树叶的机会、瞄准架子上的特定玩具，以及射击在屏幕上移动或冲向玩家的物体。您的“判断”是基于您在某些游戏中的射击精度，而其他游戏则要求您在给定时间内击中一定数量的目标。
+
+game: 枪林弹雨 2
+file: ptblank2.zip
+sort-by: 059
+developer: 枪林弹雨 2
+description: 这个游戏在日本被称为“Gunbarl”。
+
+game: 侵略者 绑架者
+file: invasnab.zip
+sort-by: 060
+developer: 侵略者 绑架者
+description: 入侵 绑架者
+
+game: 任务-彩弹准备
+file: pballpup.zip
+sort-by: 061
+developer: 任务-彩弹准备
+description: 多人娱乐射击游戏
+
+game: 赛恩警长 大逃犯枪战
+file: cheyenne.zip
+sort-by: 062
+developer: 赛恩警长 大逃犯枪战
+description: 具有西方主题的第一人称射击游戏。玩家使用枪支（安装在柜子上）护送警长穿越各种危险，收集抓捕罪犯的赏金。有 7 个级别或场景加上奖励级别：
+
+game: 射击大师
+file: shtngmst.zip
+sort-by: 063
+developer: 射击大师
+description: 黑帮主题的光枪射击游戏。标题画面有一个公主的背景动画，被歹徒从“城堡之地”绑架并带到“黑帮之地”，即拥有摩天大楼和黑帮汽车的城市。第一阶段向右滚动，跟随公主沿着城市街道奔跑，远离歹徒。在失去生命之前，您可能会被枪击多次，但如果您射杀公主或她被歹徒击中，则会受到枪击的惩罚。其他阶段包括森林、仓库和城堡。
+
+game: 射击乐园
+file: bang.zip
+sort-by: 064
+developer: 射击乐园
+description: 卡通第一人称 2-D 狂野西部射击游戏。
+
+game: 神枪手
+file: sshooter.zip
+sort-by: 065
+developer: 神枪手
+description: SHARPSHOOTER Police Trainer 开发者推出的全新双人枪战游戏！！！生动、多彩的 3-D 渲染图形让狂欢节射击场体验栩栩如生！六个不同的主题：外星人遭遇战、恐怖城堡、神秘马戏团、六枪交界处、骷髅湾和终极挑战。游戏适应玩家的风格以获得最大的乐趣和挑战。JAMMA 兼容套件完全带有橱柜图形、2 把枪和
+
+game: 生物打击
+file: critcrsh.zip
+sort-by: 066
+developer: 生物打击
+description: Critter Crusher 是一种唤醒鼹鼠游戏，在日本称为 Tatakot。
+
+game: 石弓岛
+file: crossbow.zip
+sort-by: 067
+developer: 石弓岛
+description: 早期的第一人称射击游戏，带有龙与地下城的感觉。具有良好的演讲和尖叫声。游戏玩法要求玩家通过射击威胁他们的物体来远距离保护一群冒险者（游戏中称为“朋友”）。冒险者从屏幕的左侧进入并试图毫发无损地穿过屏幕。如果玩家帮助他们安全地到达屏幕的另一边，冒险者就可以生存到下一个场景，并且偶尔会在场景之间授予新的冒险者。除了障碍物，冒险者还容易受到玩家的射击。玩家第一次射杀冒险者时，屏幕上会显示一条消息：“不要射杀你的朋友！”此后，射杀冒险者会导致他/她发出痛苦的叫声，并在剩下的路上以较慢的速度行走。第二枪将杀死冒险家。通过在地图屏幕上拍摄目的地来选择场景，其中包括：城镇、沙漠、火山、洞穴、桥梁、丛林和城堡。到达城堡的最短路径是使用以下颜色路径 -> 绿色 -> 蓝色 -> 蓝色 -> 红色。目标是到达最终场景，穿过城堡，玩家将面对大师——他可能在游戏中制造了危险。打败黑暗之主需要在眼睛变红（而且是致命的）时射中他的眼睛。玩家将受到简短的祝贺和再次击败大师的挑战，但如果你敢的话。在这个屏幕之后，玩家重新开始，无论有多少冒险家在对抗中幸存下来。
+
+game: 狩猎大奖赛 熊 & 鹿
+file: trophyh.zip
+sort-by: 068
+developer: 狩猎大奖赛 熊 & 鹿
+description: Trophy Hunting 是一场 2 人对战的大型比赛。玩家可以从 4 种武器中进行选择：栓动式步枪、复合弓、带瞄准镜的左轮手枪和枪口装弹器。玩家们
+
+game: 树精双枪
+file: tickee.zip
+sort-by: 069
+developer: 树精双枪
+description: 一款类似于《Point Blank》的枪战游戏，游戏通关即可兑换门票。
+
+game: 速射
+file: rapidfir.zip
+sort-by: 070
+developer: 速射
+description: 2 人超级竞技射击游戏。从海盗到后核时代，一路射击。 35 个场景和 16 个渐变难度级别提供挑战和深度。
+
+game: 太空神枪
+file: spacegun.zip
+sort-by: 071
+developer: 太空神枪
+description: 作为一个特殊的搜救队的成员。你（和一个可选的朋友）被告知调查一个 S.O.S.从空间站发出的求救信号。你不知道的是，一群凶恶的外星人劫持了殖民者作为人质。幸运的是，您配备了等离子脉冲枪和四组非常特别的手榴弹（除了会爆炸的普通手榴弹外，有些手榴弹会冻结、焚烧，甚至将外星人切成薄片）。
+
+game: 天生拳霸
+file: borntofi.zip
+sort-by: 072
+developer: 天生拳霸
+description: Born To Fight是由Ingematic制造的一种娱乐机器。这是一件专门用于意大利国际游戏公司原创游戏的家具，其牌匾最初基于同样来自意大利的电子设备公司的硬件。
+
+game: 铁道逃生
+file: rchase.zip
+sort-by: 073
+developer: 铁道逃生
+description: Rail Chase是一款光枪控制的单人或两人射击游戏，玩家乘坐矿车穿越庞大的铁路网；被大量携带武器的敌人追赶。快节奏的动作还包括玩家遇到赛道交叉路口的部分，可以选择是向左还是向右 所选路线通常决定了玩家必须面对多少障碍物和敌人 这是通过射击位于点中间的路标。某些部分还让玩家的矿车完全离开轨道并在开阔的地面上行驶。
+
+game: 铁道逃生 2
+file: rchase2.zip
+sort-by: 074
+developer: 铁道逃生 2
+description: 一款射击游戏，您和另一位玩家登上一辆失控的矿车，向任何迎面而来的敌人开火。
+
+game: 土耳其射击
+file: tshoot.zip
+sort-by: 075
+developer: 土耳其射击
+description: 这一年是 1989 年，也就是席卷全球的大瘟疫发生后的一年。地球上三分之一的人口因疾病而改变。火鸡转型的副作用是这些火鸡之间倾向于暴力和友善，以组织在城市地区煽动骚乱。 89 年 2 月，一群受过专门训练的特工（火鸡终结者）成立，其唯一任务就是消灭火鸡的威胁……就这么开始了。作为火鸡终结者，玩家将获得 100 次任务和 3 种武器来消灭所有火鸡，不留任何“遗留物”。他可以使用屏幕截图上的位置点用致命的激光枪瞄准，以致命的精度瞄准敌人。他可以发射一枚点燃的手榴弹来消灭射程内的所有火鸡，或者他可以激活他的狼吞虎咽按钮（每次任务可用一次）来瞬间冻结所有火鸡，让它们成为“坐着的鸭子”。任务多种多样，包括对巧妙的策略做出快速反应，例如土耳其空袭、火鸡伪装成商人和火鸡直升机逃跑。每第 8 轮是一个快速射击奖励波，玩家有 15 秒的时间消灭尽可能多的罪犯。射击消防栓和垃圾桶以及解救被劫持为人质的旁观者也会获得加分。每当任何火鸡……Pilot Turkey、Boss Turkey、Cyborg Turkey 或 Thug Turkey……逃脱或无辜的旁观者……商人、购物者或警察……被损坏的。
+
+game: 乌兹冲锋枪 1
+file: opwolf.zip
+sort-by: 076
+developer: 乌兹冲锋枪 1
+description: 大约在八十年代末，体感游戏《野狼行动》开始出现在我国大陆的各大街机厅，由于和其它街机游戏的不同，甫一出现变引起了巨大轰动，你操纵的不再是清一色的摇杆，而是货真价实的乌兹冲锋枪的模型，对着的不再是呆板平面的屏幕，而是有进深感的立体画面。稍微想一想，会引起玩家追捧也就不足为奇了。当然了，一等价钱一等货，《野狼行动》可是要两枚游戏币才能玩一次。
+
+game: 乌兹冲锋枪 2
+file: othunder.zip
+sort-by: 077
+developer: 乌兹冲锋枪 2
+description: 继乌兹衝锋枪一代轰动电动游乐场后， Taito马上推出了第二代的乌兹衝锋枪， 这次更将介面大幅更新， 可以双人合作. 只可惜画面比一代还要差， 而且很多关卡的难度过难又不合理 (用乌兹衝锋枪可以将喷射机打下来?). 玩的时候如果没准备一堆铜板， 可能过不到第三关就要打道回府. 这次任务的目的一样是要抢救人质， 探员要蒐集弹药， 打听消息， 最后到机场被劫的飞机上将人质救出.
+
+game: 乌兹冲锋枪 3
+file: opwolf3.zip
+sort-by: 078
+developer: 乌兹冲锋枪 3
+description: 《乌兹冲锋枪3》是一款由东方科技开发的街机游戏，于1994年由Taito发行。除了标题和控件之外，它与该系列前两款游戏《战狼行动》和《霹雳行动》没有任何联系。《战狼3》取代了前两部游戏的军事主题，将玩家塑造成反恐特工。这是该系列中唯一一款以数字化照片组成的图形为特色的游戏，类似于《夺命执行者》。游戏还采用了与前几款游戏完全不同的枪支控制器。
+
+game: 星球大战-克隆人战争
+file: swclone.zip
+sort-by: 079
+developer: 星球大战-克隆人战争
+description: 怀旧风的星战射击游戏
+
+game: 野鸟射击锦标赛
+file: wschamp.zip
+sort-by: 080
+developer: 野鸟射击锦标赛
+description: Wing Shooting Championship 是一场 2 人对战的大型比赛。玩家可以从 5 种武器中进行选择：Pump Action、Semi-Automatic、Over and Under、Side by Side 和 Single Shot。共有 6 个不同的鸟类阶段：大平原鹌鹑、环颈雉、加拿大鹅、美国黑鸭、绿头鸭和东部鲍勃白鹌鹑。每个小鸟阶段有 12 个区域和一个奖励阶段。
+
+game: 野兽突袭
+file: bbusters.zip
+sort-by: 081
+developer: 野兽突袭
+description: 一座城市被亡灵入侵，你作为三个士兵中的任何一个必须开枪
+
+game: 野外飞靶
+file: claypign.zip
+sort-by: 082
+developer: 野外飞靶
+description: Clay Pigeon 的目标是使用形状像霰弹枪的街机光枪尽可能多地射击粘土目标。在游戏开始时，您可以选择陷阱射击或双向飞碟射击。陷阱射击是指将粘土靶直接从射手身边扔出去，而在双向飞碟射击中，目标是从射手的视野中发射出去的。图形以 Exidy 的写实风格完成，每一轮都在一个看起来不错的户外背景下进行，并且一个极其重复的播音员大喊“拉”来警告你每一个目标正在发射。经过几轮目标后，你终于可以去追一些真正的活体动物了！真正活的动物当然是鸭子！鸭子很小，成群结队地飞到屏幕上，大约有六只左右，与之前的标题“Vs. Duck Hunt”不同，你不会错过任何一只。在这一轮中错过任何一只鸭子都会立即结束游戏，并且很可能会让您在下一个四分之一的时间里摸索，试图这次做对。
+
+game: 异形 3 射击版
+file: alien3.zip
+sort-by: 083
+developer: 异形 3 射击版
+description: 外星人 3 The Gun 是一款射击游戏。
+
+game: 幽灵猎人
+file: ghoshunt.zip
+sort-by: 084
+developer: 幽灵猎人
+description: 类似于“Tickee Tickats”的射手。
+
+game: 游乐场枪神
+file: greatgun.zip
+sort-by: 085
+developer: 游乐场枪神
+description: Great Guns 是一款 1 人或 2 人游戏，呈现出风景优美且定义明确的一系列目标架，为玩家带来竞争挑战。具有多种目标场景（根据玩家的射击技能，共有 9 个诱人的场景是可能的）。
+
+game: 战斗任务 武力支援
+file: combat.zip
+sort-by: 086
+developer: 战斗任务 武力支援
+description: 一款以军事为主题的射击游戏。玩家使用安装在柜子上的枪来保护盟友免受各种危险，同时试图突破和征服敌人的防线并晋升到更高的军衔（从二等兵到陆军上将）并获得一枚战役奖章.该游戏在 Combat 或 Catch-22 下广为人知
+
+game: 战警双枪
+file: policetr.zip
+sort-by: 087
+developer: 战警双枪
+description: 训练成为这个目标射手的警察。
+
+game: 致命法理
+file: lethalj.zip
+sort-by: 088
+developer: 致命法理
+description: 关卡中出现了对“Landerland Coin-op Laundry”的致敬。
+
+game: 致命双枪
+file: lethalen.zip
+sort-by: 089
+developer: 致命双枪
+description: 拿起你的手枪，成为你需要成为的警察，以便把罪犯赶出街头，让你的日子过得一团糟。明智而迅速地瞄准，否则你的生命将在这个第一人称街机射击游戏中迅速消失，清理街道。难度越高，需要消除的犯罪就越多，但要注意其他可以帮助你的武器。直接进入混乱状态，在目标范围内练习，或者让朋友以双人模式支持你。
+
+game: 致命双枪 II
+file: le2.zip
+sort-by: 090
+developer: 致命双枪 II
+description: 以数字化角色为特色的西式射击游戏。游戏包括 5 个阶段：银行抢劫、舞台抢劫、沙龙摊牌、火车抢劫和藏身处。玩家以警长的身份开始游戏，但如果有太多无辜者或执法人员被杀，玩家可能会被降级为副警长甚至是警察。在不杀死任何无辜者的情况下完成一个阶段，玩家将晋升为副元帅，进一步的成功最终可以使玩家晋升为美国元帅级别。玩家的枪一次最多可容纳 6 发子弹。在每个阶段，都有可以射击的特殊物品以显示更好的武器，例如双枪、步枪、50 口径锐器、霰弹枪、加特林机枪和大炮。加特林机枪和加农炮只能使用一次，但双联机枪、步枪、50 口径利器和霰弹枪可以像普通 6 连发枪一样重新装弹。一旦失去一条生命，所有额外的武器都会丢失，玩家将再次只装备一把 6 连发枪。
+
+game: 侏罗纪公园
+file: jpark.zip
+sort-by: 091
+developer: 侏罗纪公园
+description: 《侏罗纪公园》的街机版与其他基于电影的游戏有显著不同——这款游戏是一款轨道射击游戏。玩家是英格突击队，他在1993年的事件发生后前往努布拉岛清理该岛。他/她驾驶汽车（但不驾驶汽车-他/她只是一名射击运动员），必须击倒各种恐龙：暴龙、迅猛龙、双足龙、腕龙、三角龙、甲龙、加里米姆龙、翼龙和鱼龙。
+
+game: 巴克比尔的射击游戏[FC]
+file: 巴克比尔的射击游戏.zip
+sort-by: 092
+developer: 巴克比尔的射击游戏[FC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/nestopia_libretro.dll" "{file.path}"
+description: 《Barker Bill's Trick Shooting》是任天堂1990年在北美发布的NES游戏，改编自1950年代动画《Barker Bill's Cartoon Show》，是一款光枪射击游戏。游戏内容有气球沙龙、飞碟等。\n-------------------\nFC光枪设置方案\n使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--输入，将zapper mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：gamepad。选择已映射端口：2、设备类型选择：zapper。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 打鸭子[FC]
+file: 打鸭子.zip
+sort-by: 093
+developer: 打鸭子[FC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/nestopia_libretro.dll" "{file.path}"
+description: 这个游戏是FC光枪合卡中常见的游戏之一。1984年，任天堂推出了FC专用的光枪周边：“NES Zapper”（Zapper本意为遥控器，而在日本则直接称之为Beam Gun）。1984年2月18日，Zapper光枪在日本首发，之后在4月21日，另一款配合Zapper光枪的FC游戏《打鸭子》（Duck Hunt）上市，在短时间内就成了当时最受欢迎的游戏，疯狂带动了FC主机以及光枪的销量，而当任天堂在一年后的美国市场推出NES时，《打鸭子》更直接成为了首发的同捆游戏，这让它最终获得了近3000万份的销量，FC历史上仅次于《超级马里奥》系列，成为史上最畅销的游戏之一。《打鸭子》中还内置了一款射击飞盘的小游戏。\n-------------------\nFC光枪设置方案：使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--输入，将zapper mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：gamepad。选择已映射端口：2、设备类型选择：zapper。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 鳄鱼先生[FC]
+file: 鳄鱼先生.zip
+sort-by: 094
+developer: 鳄鱼先生[FC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/nestopia_libretro.dll" "{file.path}"
+description: 这款游戏在进入游戏时选择模式2，就可以在枪战关卡使用光枪进行射击。\n-------------------\nFC光枪使用鼠标控制的方法：进入游戏后打开菜单--快捷菜单--核心选项--输入，将zapper mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：gamepad。选择已映射端口：2、设备类型选择：zapper。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 鳄鱼先生HP命不减[FC]
+file: 鳄鱼先生HP命不减.zip
+sort-by: 095
+developer: 鳄鱼先生HP命不减[FC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/nestopia_libretro.dll" "{file.path}"
+description: 如果想体验鳄鱼先生光枪关卡并想降低难度的话，可以选用这个修改版进行游戏。进入游戏时记得选择模式2才可以在枪战关卡使用光枪。\n-------------------\nFC光枪使用鼠标控制的方法：进入游戏后打开菜单--快捷菜单--核心选项--输入，将zapper mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：gamepad。选择已映射端口：2、设备类型选择：zapper。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 荒野枪手[FC]
+file: 荒野枪手.zip
+sort-by: 096
+developer: 荒野枪手[FC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/nestopia_libretro.dll" "{file.path}"
+description: 这个游戏是FC光枪合卡中常见的游戏之一。1984年2月18日，Zapper光枪连同游戏《荒野枪手》（Wild Gunman）在日本面世，从此fc诞生了一系列大受好评的光枪游戏。\n-------------------\nFC光枪设置方案：使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--输入，将zapper mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：gamepad。选择已映射端口：2、设备类型选择：zapper。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 机枪双雄[FC]
+file: 机枪双雄.zip
+sort-by: 097
+developer: 机枪双雄[FC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/nestopia_libretro.dll" "{file.path}"
+description: 英文原名Mechanized Attack，直译作机械化攻击，是街机机枪双雄的fc版，玩家使用机枪对一个有机械人军队的热带岛屿进行攻击。第一阶段是在水上进行的，需要攻击一些小炮艇、直升机和战舰。在游戏的关口，玩家可以选择不同路线前进。\n-------------------\nFC光枪设置方案：使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--输入，将zapper mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：gamepad。选择已映射端口：2、设备类型选择：zapper。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 警技射击[FC]
+file: 警技射击.zip
+sort-by: 098
+developer: 警技射击[FC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/nestopia_libretro.dll" "{file.path}"
+description: FC盗版黄卡最常见的光枪射击游戏之一，一般命名为“警技”。它的原名：日语：ホーガンズアレイ，英语：Hogan's Alley，是任天堂于1984年发行的光枪游戏，也是最早的光枪游戏之一。游戏有坏人和市民的靶子，玩家扮演警察，通过正确射击匪徒的靶子来进行训练。此外，游戏中还有射击飞罐的训练。\n-------------------\nFC光枪设置方案：使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--输入，将zapper mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：gamepad。选择已映射端口：2、设备类型选择：zapper。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 陆战运动[FC]
+file: 陆战运动.zip
+sort-by: 099
+developer: 陆战运动[FC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/nestopia_libretro.dll" "{file.path}"
+description: 这款游戏有同名电影。玩家需要手柄方向键控制视角左右平移。你需要穿越三个不同的地区，从场地的另一端夺取对方球队的旗帜，并在不被击中的情况下回到自己的起点。玩家需要一手控制光枪，另一只手用手柄控制移动，游戏包含三个难度级别和三个不同的区域（树林、城市、雪地）。\n-------------------\nFC光枪设置方案：使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--输入，将zapper mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：gamepad。选择已映射端口：2、设备类型选择：zapper。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 射击范围[FC]
+file: 射击范围.zip
+sort-by: 100
+developer: 射击范围[FC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/nestopia_libretro.dll" "{file.path}"
+description: 玩家需要手柄方向键控制视角左右平移。在游戏过程中，射击沙漏可以延长时间，字母E可以回血，C或W都只给100分。游戏包含三个场景，有西部、鬼屋和太空，还有一个射击瓶子的奖励关。\n-------------------\nFC光枪设置方案：使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--输入，将zapper mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：gamepad。选择已映射端口：2、设备类型选择：zapper。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 野狼特工队[FC]
+file: 野狼特工队.zip
+sort-by: 101
+developer: 野狼特工队[FC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/nestopia_libretro.dll" "{file.path}"
+description: 《野狼特工队》（OPERATION WOLF）是TAITO于1987年发行的街机光枪游戏，俗称“乌兹冲锋枪”，这是野狼特工队的fc版。在这个版本中，玩家可以使用手柄或者光枪进行游戏。玩家要扮演贝雷帽特种部队，潜入恐怖份子的军事基地去拯救人质。\n-------------------\nFC光枪设置方案：使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--输入，将zapper mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：gamepad。选择已映射端口：2、设备类型选择：zapper。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 野狼特工队无限弹[FC]
+file: 野狼特工队无限弹.zip
+sort-by: 102
+developer: 野狼特工队无限弹[FC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/nestopia_libretro.dll" "{file.path}"
+description: 野狼特工队fc版的改版，无限子弹，无限炸弹，但HP会减。玩这个版本可以轻松过关。\n-------------------\nFC光枪设置方案：使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--输入，将zapper mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：gamepad。选择已映射端口：2、设备类型选择：zapper。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 自由武装[FC]
+file: 自由武装.zip
+sort-by: 103
+developer: 自由武装[FC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/nestopia_libretro.dll" "{file.path}"
+description: 在《自由武装》中，玩家是反恐部队的精英，任务是杀死所有敌人，拯救飞机上被劫持的人质。\n-------------------\nFC光枪设置方案：使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--输入，将zapper mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：gamepad。选择已映射端口：2、设备类型选择：zapper。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: X区域[SFC]
+file: SFCX区域.zip
+sort-by: 104
+developer: X区域[SFC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/snes9x_libretro.dll" "{file.path}"
+description: 二线科幻光枪STG，当年买不起主机更不用想光枪配件什么了，想不到模拟器也能玩模拟光枪功能，（输入-选开启光枪-就能实现鼠标模拟光枪射击了）。背景是可爱的空想科幻总体美工类似STG名作（兵蜂系列）难度又接近街机游戏。流程不算长但双人玩最过瘾！ \n-------------------\nSFC光枪设置方案\n使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--Light Gun，将Mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：SNES Joypad。选择已映射端口：2、设备类型选择：SuperScope。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 光线枪毁灭者[SFC]
+file: SFC光线枪毁灭者.zip
+sort-by: 105
+developer: 光线枪毁灭者[SFC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/snes9x_libretro.dll" "{file.path}"
+description: 注意，如果使用鼠标射击，必须长按鼠标才能发射机枪，短按是发射不了子弹的。在近未来都市的关卡里，玩家必须打倒失控的战斗型人造人，最终目的是破坏控制所有人造人的电脑。本作除了可体验剧情的“Brick League”模式以外，还有最多可四人同乐比赛得分的“Brick Camp”模式。\n-------------------\nSFC光枪设置方案\n使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--Light Gun，将Mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：SNES Joypad。选择已映射端口：2、设备类型选择：SuperScope。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 猎杀红色十月[SFC]
+file: SFC猎杀红色十月.zip
+sort-by: 106
+developer: 猎杀红色十月[SFC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/snes9x_libretro.dll" "{file.path}"
+description: 猎杀红色十月第三关是需要光枪的。前面的关卡用手柄进行操作。这个sfc版在游戏性上不如fc版，不过由于系统的简化，难度降低，流畅度有了极大的提高。\n-------------------\nSFC光枪设置方案\n使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--Light Gun，将Mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：SNES Joypad。选择已映射端口：2、设备类型选择：SuperScope。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 任天堂导弹6[SFC]
+file: SFC任天堂导弹6.zip
+sort-by: 107
+developer: 任天堂导弹6[SFC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/snes9x_libretro.dll" "{file.path}"
+description: 《超级导弹6》是日本游戏制造商Nintendo公司制作的一款策略游戏。在游戏中，敌人从陆地、海上派出大量舰队和部队来向你发起攻击，玩家要利用基地的导弹来轰炸这些敌人。游戏一改以往策略类防御的模式，让玩家直接快速的体验到畅快轰炸敌人的快感。\n-------------------\nSFC光枪设置方案\n使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--Light Gun，将Mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：SNES Joypad。选择已映射端口：2、设备类型选择：SuperScope。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 太空火箭炮[SFC]
+file: SFC太空火箭炮.zip
+sort-by: 108
+developer: 太空火箭炮[SFC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/snes9x_libretro.dll" "{file.path}"
+description: 玩家会驾驶名为“站立坦克”的人形机器人，在称为“战斗游戏”的舞台上与想替父亲报仇的麦克通力合作，目的是打倒统治世界的阿努比斯。\n-------------------\nSFC光枪设置方案\n使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--Light Gun，将Mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：SNES Joypad。选择已映射端口：2、设备类型选择：SuperScope。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 耀西狩猎场[SFC]
+file: SFC耀西狩猎场.zip
+sort-by: 109
+developer: 耀西狩猎场[SFC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/snes9x_libretro.dll" "{file.path}"
+description: 游戏中会以骑乘在耀西背上的马里奥视角使用光线枪射击玩家都很熟悉的敌人。目的是将七个关卡通关，然后在最终关卡打倒马里奥永远的对手库巴。\n-------------------\nSFC光枪设置方案\n使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--Light Gun，将Mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：SNES Joypad。选择已映射端口：2、设备类型选择：SuperScope。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+
+game: 终结者2 街机版[SFC]
+file: SFC终结者2 街机版.zip
+sort-by: 110
+developer: 终结者2 街机版[SFC]
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/snes9x_libretro.dll" "{file.path}"
+description: 《终结者2：审判日》是一款基于1991年Midway Manufacturing Company为街机制作的同名电影的枪支射击电子游戏。[1]Acclaim Entertainment以《T2：街机游戏》的标题为各个平台发布了家庭转换，以避免与同样基于该电影的众多配套游戏混淆。\n-------------------\nSFC光枪设置方案\n使用光枪方法：进入游戏后打开菜单--快捷菜单--核心选项--Light Gun，将Mode设置成light gun。进入菜单--快捷菜单--控制-端口1控制，选择已映射端口：1、设备类型选择：SNES Joypad。选择已映射端口：2、设备类型选择：SuperScope。保留在端口2页面返回，保存游戏自定义键位，那么下次就不用设置了。3、从快捷菜单出来，到左侧设置-输入-端口2控制-下方第一个光枪图标的地方，将这个标志的按键映射给鼠标左键。到此鼠标应该就能用了。
+

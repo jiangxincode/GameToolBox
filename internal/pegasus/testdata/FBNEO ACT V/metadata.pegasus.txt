@@ -1,0 +1,49 @@
+collection:动作街机
+sort-by:001
+extensions: 7z, zip
+ignore-files: 
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbneo_libretro.dll" "{file.path}"
+
+game: 必杀无赖拳
+file: avengers.zip
+sort-by: 205
+developer: 必杀无赖拳
+publisher: SNK
+genre: Platform
+x-id: FBNEO ACT V
+description: CAPCOM于1987年出品的游戏。游戏的剧情是老套的英雄救美的故事。玩家控制的人物有两种攻击方式，即拳和脚，两个按扭一块按的话会使出旋风脚。在游戏中玩家除了可以获得加速和加力量的道具外，还可以获得手里剑、双截棍等额外攻击道具。游戏的操作手感一般，和敌人战斗时多是近距离作战。游戏的画面和视角非常象CAPCOM另一款游戏《荒野大镖客》，不过这款游戏不是一款射击游戏而是一款动作游戏。
+
+game: 怒3 救援
+file: ikari3.zip
+sort-by: 224
+developer: 怒3 救援
+x-id: FBNEO ACT V
+description: 两名光着膀子的 Rambo 型玩家在敌后杀出一条血路，营救一名被绑架的人质。必须用拳，刀，脚或枪杀死各种军事单位。玩家偶尔会被坦克袭击。本作人物比例较大，动作和画面也比初代精致。
+
+game: 黄金鹰之剑
+file: gaiapols.zip
+sort-by: 225
+developer: 黄金鹰之剑
+publisher: Konami
+genre: Beat-'Em-Up
+x-id: FBNEO ACT V
+description: 《黄金鹰之剑》（日文：黄金鹰の剣、英文：Gaiapolis、另译为：水晶剑）是日本游戏公司KONAMI（科乐美）于1993年在街机平台上推出的2D纵轴动作角色扮演游戏。中国各大街机厅引进过此游戏，当时成为与《怒之忍者》、《变身忍者》齐名的大作。\n游戏以纵轴方式进行，世界观为现代文明毁灭3000年后的剑与魔法的新世纪。作品世界观相当缜密，世界地图上的地理名称都由现实中演化而来。游戏场景也非常宏大，城堡、洞穴、遗迹、海船、深渊、天空之城等都让玩家印象深刻。游戏音乐也充满各地的民族特色，隐藏要素也非常丰富。此外游戏还可用密码续关，是街机上不可多得的优秀ARPG之作。中国各大街机厅引进过此游戏，当时成为与《怒之忍者》、《变身忍者》齐名的大作。
+
+game: 城市快打
+file: downtown.zip
+sort-by: 293
+developer: 城市快打
+publisher: SETA Corporation
+genre: Beat-'Em-Up
+x-id: FBNEO ACT V
+description: 城市快打（又称黑帮快打）是一款动作过关街机游戏，游戏中玩家将扮演一名退役军人，本想过过普通人的日子，但由于看不惯黑帮的作风而惹上了麻烦，最终他在无奈的情况下选择将整个黑帮都给端掉。\n游戏采用了动作游戏少有的竖版过关的方式，不过游戏的操作体验相当不错，玩家只需操作拳脚攻击便可完成游戏全程操作，另外游戏中还会涉及到许多突发状况，警车和普通市民的车也会横冲直撞的通过玩家战斗的地方，偶尔也会有警察出现阻止斗殴事件，当然他们阻止的方式是用枪来解决，所以对警方也不需要手下留情，游戏关卡不多，只是BOSS难度较大，只要玩家熟悉游戏规律之后便可很顺利的通关。
+
+game: 神话战士
+file: vandyke.zip
+sort-by: 328
+developer: 神话战士
+publisher: UPL
+genre: Beat-'Em-Up
+x-id: FBNEO ACT V
+description: 神话战士是UPL公司1990年出品的游戏,英文名称Vandyke，游戏是纵版通关类。游戏中有多种武器系统，剑、飞斧头、铁链、炸弹、生命系统以6颗红心为代表，还有一栏是加力量的格子，怪物也是各种各样，蛤蟆、骷髅、蝙蝠、牛角人、邪恶飞行眼球等，想顺利通过还要经历滚木阵、滚石阵、火海等，游戏里面有个小精灵，救出它之后可以帮您打怪。里面还有终究法宝一颗象鸡心的石头，按攻击键主角跳个舞放出，想当年高手都是用跳带到关底，直接把老怪杀死。
+

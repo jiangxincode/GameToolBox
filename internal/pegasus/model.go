@@ -1,25 +1,39 @@
 package pegasus
 
-import "path/filepath"
+import (
+	"path/filepath"
 
-// GameModel mirrors the fields used by the Java version.
-// It represents one game entry parsed from metadata.pegasus.txt.
+	"github.com/game_tool_box/internal/pegasus/metadata"
+)
+
+// GameViewModel is a UI/business-friendly wrapper around metadata.Game.
 //
-// Note: Media files are optional and will be resolved if a media/<gameName>/ directory exists.
-type GameModel struct {
-	Selected    bool
-	ID          int
-	GameName    string
-	FileName    string
-	SortBy      string
-	Developer   string
-	Description string
+// It embeds metadata.Game to reuse the canonical Pegasus game fields, and adds
+// view state (Selected/ID) needed by the app.
+//
+// Placement rationale:
+//   - It lives in package pegasus because many pegasus services accept/return it.
+//   - UI may depend on pegasus, but pegasus must not depend on UI packages.
+//   - metadata stays pure (no UI state like Selected/ID).
+type GameViewModel struct {
+	metadata.Game
 
-	LogoImagePath     string
-	BoxFrontImagePath string
-	VideoFilePath     string
+	Selected bool
+	ID       int
 }
 
-func (g GameModel) MediaDir(rootDir string) string {
+func (g GameViewModel) MediaDir(rootDir string) string {
 	return filepath.Join(rootDir, "media", g.GameName)
+}
+
+func (g GameViewModel) LogoImagePath(rootDir string) string {
+	return filepath.Join(g.MediaDir(rootDir), "logo.png")
+}
+
+func (g GameViewModel) BoxFrontImagePath(rootDir string) string {
+	return filepath.Join(g.MediaDir(rootDir), "boxFront.png")
+}
+
+func (g GameViewModel) VideoFilePath(rootDir string) string {
+	return filepath.Join(g.MediaDir(rootDir), "video.mp4")
 }

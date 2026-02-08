@@ -27,7 +27,7 @@ type DeleteResult struct {
 // It matches the Java behavior:
 //   - create <rootDir>/<fileName> if it doesn't exist
 //   - if exists: skip
-func GenerateSelectedFiles(rootDir string, games []GameModel) GenerateResult {
+func GenerateSelectedFiles(rootDir string, games []GameViewModel) GenerateResult {
 	var res GenerateResult
 	for _, g := range games {
 		if !g.Selected {
@@ -38,7 +38,7 @@ func GenerateSelectedFiles(rootDir string, games []GameModel) GenerateResult {
 			res.Errors = append(res.Errors, fmt.Errorf("game %q fileName is empty", g.GameName))
 			continue
 		}
-		target := filepath.Join(rootDir, g.FileName)
+		target := filepath.Join(rootDir, filepath.FromSlash(g.FileName))
 		if _, err := os.Stat(target); err == nil {
 			res.Skipped++
 			continue
@@ -88,22 +88,17 @@ func DeleteRomsNotInConfig(rootDir string) DeleteResult {
 		return res
 	}
 
-	rootClean := filepath.Clean(rootDir)
-
 	for _, g := range diff.MissingInConfig {
-		if strings.TrimSpace(g.FileName) == "" {
+		rel := strings.TrimSpace(g.FileName)
+		if rel == "" {
 			res.Skipped++
 			continue
 		}
 
-		candidate := filepath.Join(rootClean, filepath.FromSlash(g.FileName))
-		candidate = filepath.Clean(candidate)
-
-		// Ensure candidate is within rootDir to avoid path traversal.
-		rel, relErr := filepath.Rel(rootClean, candidate)
-		if relErr != nil || rel == "." || strings.HasPrefix(rel, "..") {
+		candidate, joinErr := SafeJoinUnderRoot(rootDir, rel)
+		if joinErr != nil {
 			res.Failed++
-			res.Errors = append(res.Errors, fmt.Errorf("refuse to delete outside root: %q", g.FileName))
+			res.Errors = append(res.Errors, fmt.Errorf("refuse to delete rom %q: %w", rel, joinErr))
 			continue
 		}
 

@@ -1,0 +1,853 @@
+collection:TEKNOPARROT
+sort-by:011
+ignore-files:
+launch: "'\"
+
+game: 翼神
+file: GigaWing Generations\
+sort-by: 001
+developer: 翼神
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=GigaWingGenerations.xml
+genre: FLY
+description: 《翼神》（GigaWing Generations）是一款2004年垂直滚动射击街机游戏，由Takumi开发，由Taito在其Taito X型街机系统板上发布。2005年，它被移植到PlayStation 2主机。
+
+game: 斑鸠
+file: Ikaruga\
+sort-by: 002
+developer: 斑鸠
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=Ikaruga.xml
+genre: FLY
+description: 《斑鸠》是Treasure开发的一款超人气射击游戏。这是《闪亮银枪》的精神续作，最初于2001年12月在日本街机发行。它是一款极富挑战性的快节奏弹幕射击游戏，受到业界和铁杆玩家们的高度评价。游戏加入了相生相克的概念，其原理是玩家驾驶的战机颜色会影响你对敌人造成的攻击力强弱。在这样的游戏规定下，敌人的战机与发射的子弹可分成两种颜色。
+
+game: 雷电 4
+file: RaidenIVNesica\
+sort-by: 003
+developer: 雷电 4
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=RaidenIVNesica.xml
+genre: FLY
+description: 雷电4（雷電IV, Raiden IV) 是一款2007年由MOSS开发的竖版卷轴射击视频游戏。它首次在日本的街机发行。后来，Taito的NESiCAxLive数字发行平台发布了更新的街机版本，随后又发布了两个带新内容的版本：用于PlayStation 3和Windows的《Raiden IV OverKill》，以及用于任天堂Switch、PlayStation 4和PlayStation 5的《Raiden Ⅳ x MIKADO remix》。
+
+game: 拳皇 空中舞台
+file: KingofFightersSkyStage\
+sort-by: 004
+developer: 拳皇 空中舞台
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=KingofFightersSkyStage.xml
+genre: FLY
+description: 《拳皇 空中舞台》（The King of Fighters Sky Stage）于2009年在Taito Type X基板上发行，是《拳皇》系列首款改编射击游戏，并非玩家印象中的格斗游戏，而是把《拳皇》的精髓以2D纵卷轴射击游戏的方式来呈现。玩家能操作草薙京、八神、泰瑞等六名角色，在空中施展各种华丽的必杀技来击杀敌人。在这个「真正的武术」射击游戏当中，六位最受欢迎的「拳皇」角色在半空连番激斗，阻止大蛇复活。每个角色都保留一般招式和必杀技。每个角色的特别动作都分为三级，各级会根据你的对应按键而展施出来。游戏最大的特点是揉合「射击」和「武术」性质的全新游戏系统。
+
+game: 女神骑士团 AC
+file: CaladriusAC\
+sort-by: 005
+developer: 女神骑士团 AC
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=CaladriusAC.xml
+genre: FLY
+description: 《女神骑士团》（又译作神鸟喀拉锥斯）是一款由MOSS开发和发行的卷轴射击游戏，于2013年4月25日首次在日本发布，用于Xbox360。之后于2015年9月4日在北美和欧洲以数字方式发行。在家用机的亮相后，Caladrius以CaladriusAC的名称移植到街机上，增加了额外的游戏模式，并支持世嘉的ALL.Net系统。该作的故事样式，除了承袭当初在Xbox 360版本上的「Original Mode」，还有在日本当地营运中的大型机台《女神骑士团：Ciel》的「Arcade Mode」，以及新加入可操控游玩的角色与敌方BOSS，并实装新系统的「Evolution Mode」这三种游玩样式。而上述三种样式有著各自的攻略方法以及游玩方式。除了追加新角色以外，也加入了新的舞台以及新的BOSS。
+
+game: 星霜钢机 斯特兰尼亚
+file: StraniaTheStellaMachina\
+sort-by: 006
+developer: 星霜钢机 斯特兰尼亚
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=StraniaTheStellaMachina.xml
+genre: FLY
+description: 《星霜钢机：斯特兰尼亚》（Strania - The Stella Machina -）是一款由G.rev Ltd.和Strania制作的日系清版射击游戏，这个复古机器人射击游戏是对20世纪80年代街机游戏的怀旧颂歌。玩家需要在这个快节奏，令人振奋的射击游戏中迅速做出战略决策。凭借着引人入胜的配乐伴奏和具有戏剧性的视觉效果，G.rev自豪地将Strania作为其主标题。玩家需要扮演Vower阵营的飞行员，寻求收回他们拥有的神圣土地。
+
+game: 战刃雅士达
+file: Aleste\
+sort-by: 007
+developer: 战刃雅士达
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=Aleste.xml
+genre: FLY
+description: 借用国内著名游戏史研究家快乐猪头先生的话来讲，COMPILE是一家“罕见的，以家用机作品在射击游戏领域扬名的厂商”。《雅士达》系列是COMPILE唯一的、优秀的、具有个性的招牌飞行射击游戏系列。
+
+game: 真 赤刀
+file: Akai Katana Shin\
+sort-by: 008
+developer: 真 赤刀
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=AkaiKatanaShinNesica.xml
+genre: FLY
+description: 《赤い刀 真》是由CAVE所推出的街机游戏《赤い刀》的高画质重制版，游戏人设的画师是立川虫麻吕老师，虫麻吕老师笔下的人物可以说是以华丽著称，细腻的笔触、丰富的色彩，相信有不少玩家甚至是为了虫麻吕老师而选择这款游戏呢！CAVE曾推出许多经典的卷轴射击游戏，例如《怒首领蜂》系列、《虫姬》（虫姫さま）系列、《死亡笑靥》（デススマイルズ）系列，画面之华丽可说是目不暇给，与《东方》这类整个萤幕都是敌人子弹的卷轴射击游戏，玩家称之为弹幕游戏，选择高难度的关卡可以说是考验眼力及神经反射速度的最佳选择，但是上手后通常会欲罢不能，只要以前玩过《雷电》等卷轴射击游戏的话，可以考虑挑战《赤い刀 真》！
+
+game: 死亡微笑 2
+file: Death Smiles II Arcade\
+sort-by: 009
+developer: 死亡微笑 2
+launch: "{env.appdir}\Roms\TeknoParrot\Death Smiles II Arcade\cvgame.exe"
+genre: FLY
+description: 《死亡微笑 2》是Cave于2009年推出的弹幕地狱游戏。这是第三部使用水平方向屏幕游玩的Cave射击游戏（之前是能源之岚（Progear）和最初的死亡微笑（Deathsmiles））。《死亡微笑II》也是第一款使用多边形代替传统图形精灵的CAVE街机游戏。2021年12月，死亡微笑I和死亡微笑II在日本的PlayStation 4、Xbox One和任天堂Switch上发布。
+
+game: 旋转炮手
+file: RollingGunner\
+sort-by: 010
+developer: 旋转炮手
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=RollingGunner.xml
+genre: FLY
+description: 《旋转炮手》是一款2D射击游戏。玩家必须熟练地躲避从四面八方飞来的子弹，并在控制围绕其船旋转的旋转枪的同时通过舞台。在线排名也可供玩家进行技能竞赛。
+
+game: 马赫风暴
+file: MachStorm\
+sort-by: 011
+developer: 马赫风暴
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=MS.xml
+genre: FLY
+description: 《马赫风暴》是一款空战街机游戏。在影片中，玩家驾驶着一架CFA-44战斗机，这架战斗机是风暴中队的队长，执行任务是防止恐怖组织袭击全球主要城市。玩家可以从五个不同的地点中选择一个，难度不同：东京、华盛顿特区、迪拜、迈阿密和巴黎。在每个地点，玩家的任务是摧毁敌方战斗机的编队，避免与他们的射弹相撞；玩家自己的射击会自动锁定附近的目标。游戏迫使玩家沿着固定的路径前进，尽管他们可以在有限的移动范围内躲避建筑物和其他障碍物。连续消灭敌人会产生连击加成，从而获得额外的点数。关卡结束时，boss将与该地区特有的飞行器（如隐形轰炸机）展开战斗。如果boss被击败，玩家可以选择进入另一个关卡来进行特殊奖励阶段，在该阶段，玩家可以在60秒内消灭尽可能多的敌人，从而获得额外的积分。
+
+game: 冲破火网 巅峰
+file: Afterburner Climax\
+sort-by: 012
+developer: 冲破火网 巅峰
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --startMinimized --profile=abc.xml
+genre: FLY
+description: 《冲破火网 巅峰》是1987年登场的大型电玩空战射击游戏《冲破火网》系列最新作，2006年10月率先推出大型电玩版，并由《VR战士5》与《VOOT》家用版制作团队担任家用版移植，承袭原作内容并大幅强化图像表现。
+
+game: 炽天使 二战空骑兵
+file: Blazing angels\
+sort-by: 013
+developer: 炽天使 二战空骑兵
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=BlazingAngels.xml
+genre: FLY
+description: 《炽天使：二战空骑兵》是育碧开发的一款空战游戏，以第二次世界大战各国空军之间的斗争为舞台。此作收录三场在二次大战中，最著名、最激烈的空战，它们分别是入侵菲律宾领空、最残酷的北非密林战与及最著名的英伦海峡空战。玩者可以在这几场战役中选择加盟其中一方阵营，然后再在战役中取得突出的成绩。游戏中一共收录了40种不同类型的战斗机，当中包括P－51野马战斗机、P－38闪电战斗机、B－17空中堡垒、英国喷火式战斗机与及日本零式战斗机等等。另外，从厂商发放出来的图片中可发见，机翼和机身之间的接位、机头的各种喷油与及一些细微的特征都可以清楚易见，非常真实。
+
+game: 天翔铁骑 HD+
+file: Under Defeat HD+\
+sort-by: 014
+developer: 天翔铁骑 HD+
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=UDX.xml
+genre: FLY
+description: 《天翔铁骑》（UNDER DEFEAT）是追求真实画面表现并且操作简单的爽快射击游戏。起初作为《天翔铁骑HD》移植到家用机平台，于2013年再度以《天翔铁骑HD+》之名移植回街机平台，增强了画质，拥有宽屏画面，同时还有New Order模式。游戏使用装甲车移动后地面留下的痕迹、爆炸的风流摇动树木、以及爆炸产生的浓烟等各种全3D细致要素的真实刻画，构成了打击与破坏的战场。操纵的直升飞机有两个按键：射击键和BOMB键。射击键发射的子弹有所有两边的细机枪，而首的武器会自动狙击地面以及空中目标。BOMB放出后进行全屏幕攻击，并且直升飞机可以瞬间无敌。不过使用BOMB的话是没有得分的。
+
+game: 旋光之轮舞 DUO
+file: Senko no Ronde DUO - Dis-United Order\
+sort-by: 015
+developer: 旋光之轮舞 DUO
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=SenkoNoRondeDuo.xml
+genre: FLY
+description: 《旋光轮舞DUO》是《旋光轮舞》系列的最新作，自2005年诞生以来《旋光轮舞》系列以融合射击游戏和对战格斗游戏双重要素的独特游戏系统获得玩家瞩目,并推出过家用机和手机移植版。两名玩家使用名为Rounders的巨型机器人，从自上而下和等距的角度展开战斗。游戏与《心灵力量》非常相似，这是一款独特的、以大量弹幕为基础的格斗游戏，由G.rev的创始人在Taito开发。然而，与《心灵力量》不同，它提供了更精细的射击模式。“B.O.S.S.模式”进一步强化了这一点，“B.O.S.S.模式”是一种超级攻击，可以让玩家变身为可以用子弹填满屏幕的B.O.S.S.飞船。它也可以被比作“虚拟现实的2D版本”，混合了遭遇战和现代模式。由于它与Virtual-On电脑战机的机制有着密切的联系，它的一些策略也可以应用于这款游戏。旋光之轮舞中的每个角色都拥有独特的武器、子弹图案和游戏风格，每个角色都有两种变体，分别称为子弹A和子弹B，它们的统计数据和武器属性略有修改。所有角色都有一个主武器和副武器，以及3-4个特殊攻击，这些攻击通过类似于2D战斗机的命令输入激活。当比赛开始时，玩家会得到两个“B.O.S.S.票”，这让玩家可以切换到一个更大的机器人，称为“B.O.S.S.模式”。在BOSS模式中，玩家拥有更强的火力，并将恢复部分生命值，但移动受到更多限制，一次只能激活一个BOSS形态。输掉比赛后，你将重新获得一支老板股票。如果你的角色的健康栏耗尽，他们将进入一种称为“隐身模式”的特殊状态，这将减小角色命中框的大小，但如果再多一次命中，你将输掉这一回合。在隐身模式下很好地使用BOSS票将导致使用更强大的BOSS模式，称为“最终B.O.S.S.”模式，它具有额外的火力或更多的机动性等优点。“最终B.O.S.S.”模式还可以获得一个额外强大的超级攻击。
+
+game: 拳皇98 终极之战
+file: King of Fighters 98, The - The Ultimate Match\
+sort-by: 016
+developer: 拳皇98 终极之战
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=KingofFighters98UnlimitedMatch.xml
+genre: FTG
+description: 《拳皇98：终极之战》，简称KOF98UM，于KOF98十年后的2008年3月18日发行，是一款KOF98的重制版，以98为基础再度调整游戏平衡，强化了原有的EX模式，并在此基础上追加了新模式ULTIMATE，玩家可以任意在“前跳”或“猛跑”、“侧身闪避”或“翻滚”以及“攒豆”或“集气”之间组合自己惯用的模式。游戏在原98基础上追加了影二、香澄、'96BOSS队等原98未登场的大蛇篇角色，并添加了诸多里角色（如里King、里山崎等）。
+
+game: 拳皇XII
+file: King of Fighters XII\
+sort-by: 017
+developer: 拳皇XII
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=KingofFightersXII.xml
+genre: FTG
+description: 《拳皇12》是日本SNK Playmore公司旗下知名格斗游戏系列《拳皇》的作品，并将与CAPCOM公司《街头霸王4》一样使用Taito公司的Type X2街机基板，由于游戏中的人物动作以及对战背景完全完全使用纯人工手绘的方式，整个游戏画面可说是达到了2D格斗游戏的极致。
+
+game: 拳皇XIII Climax
+file: The King of Fighters XIII Climax\
+sort-by: 018
+developer: 拳皇XIII Climax
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=KingofFightersXIIIClimax.xml
+genre: FTG
+description: 《拳皇13：高潮》是基于《拳皇13》调整平衡性推出的更新版本。《拳皇13》是由SNK PLAYMORE研发的一款格斗对战类游戏，于2010年7月14日发行。该作是《拳皇》系列的第13作，也是接续《拳皇2003》、《拳皇11》之后的“阿修篇”三部曲完结篇。《拳皇13》秉承系列一贯华丽连击的爽快感，其重新设定的角色和场景令玩家耳目一新，游戏模式丰富耐玩，各角色性能及战斗系统均存在相应的平衡提升。相对前作增加了剧情在内的许多新模式。联机对战元素的整体玩法设计有所增强。不过仍存在诸多硬伤，例如剧情上错综复杂使玩家难以摸清头脑，Boss在部分出招上太“傻”。但即便如此，亦是一款相当值得游玩的游戏。
+
+game: 拳皇XIV
+file: King of Fighters XIV, The\
+sort-by: 019
+developer: 拳皇XIV
+launch: "{env.appdir}\Roms\TeknoParrot\King of Fighters XIV, The\game.exe"
+genre: FTG
+description: 《拳皇14》（ザ・キング・オブ・ファイターズ XIV，The King of Fighters XIV）是一款SNK开发的《拳皇》系列格斗游戏，游戏的PlayStation 4平台版本于2016年8月在日本、北美、欧洲、中国大陆发行，Windows版本于2017年6月在全球通过Steam在线发行。本作是拳皇系列第四部完全使用3D画面的游戏，前三部为KOF极限冲击1-2及规则A，而其余前作均为2D画面。
+
+game: SNK女中豪杰大乱斗
+file: SNK Heroines AC Tag Team Frenzy\
+sort-by: 020
+developer: SNK女中豪杰大乱斗
+launch: "{env.appdir}\Roms\TeknoParrot\SNK Heroines AC Tag Team Frenzy\Game\game.exe"
+genre: FTG
+description: 《SNK女中豪杰大乱斗》（SNK Heroines: Tag Team Frenzy）是一款由SNK为PS4和、Switch和PC开发的格斗游戏。游戏于2018年9月在任天堂Switch和PlayStation 4上发布，由SNK和SEGA在日本和亚洲发行，由NIS America在北美和欧洲发行。街机版本于次年10月发布，微软Windows版本于2019年2月发布。它是NGPC《SNK少女格斗家》（Gals' Fighters）的精神继作，具有2v2组队系统。
+
+game: 苍翼默示录 厄运扳机
+file: BlazBlue Calamity Trigger\
+sort-by: 021
+developer: 苍翼默示录 厄运扳机
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=BlazBlueCalaminityTrigger.xml
+genre: FTG
+description: 《苍翼默示录：厄运扳机》是2009年11月推出的大型电玩作品，为2008年11月推出的《苍翼默示录》续作，承袭细致的高解析度2D图像与刺激的格斗系统，并追加新角色、新招式、新场地、新故事等众多新要素。
+
+game: 苍翼默示录 神观之梦
+file: BBCF\
+sort-by: 022
+developer: 苍翼默示录 神观之梦
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=BBCF.xml
+genre: FTG
+description: 《苍翼默示录 神观之梦》（BlazBlue: Central Fiction）是由Arc System Works开发的一款2D格斗视频游戏，在日本发行。这是BlazBlue系列的第四款游戏，设定在《苍翼默示录 刻之幻影》（BlazBlue：Chrono Phantasma）事件之后。这也是以拉格纳为主要主角的最后一场游戏，也是从《厄运扳机》开始的“Azure传奇”的结局。
+
+game: 苍翼默示录 连续变换
+file: BlazBlue Continuum Shift\
+sort-by: 023
+developer: 苍翼默示录 连续变换
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=BlazBlueContinuumShift.xml
+genre: FTG
+description: 《苍翼默示录：连续变换》中，追加前作NPC弥生椿、哈扎马等。战斗系统方面大幅更新，增加初学者模式，简化技能的发动、练习模式供玩家熟悉游戏设定、网络对战等共计11种游戏模式。游戏内故事模式收录剧情共28个以上，追加新的动画，追加原创关卡等等丰富内容。在格斗热潮随着街机游戏慢慢退却的今天，《苍翼默示录：连续变换》是一款不可多得的优秀作品，虽然其战斗本身的平衡性还有待继续调教，虽然剧情表达上过于“不明觉厉”让玩家面对整个游戏设定时会感到茫然。但其视听表现却能给玩家如同动画一般的战斗体验，其游戏剧情与游戏角色也富有魅力能够让爱好者们细细品味。
+
+game: 苍翼默示录 连续变换2
+file: BlazBlue ContinuumShift II\
+sort-by: 024
+developer: 苍翼默示录 连续变换2
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=BlazBlueContinuumShift2.xml
+genre: FTG
+description: 《苍翼默示录：连续变换II》是《苍翼默示录：连续变换》的第一个后继版，于2010年12月9日在街机发布。它的特点是大量的游戏专属角色，大量的平衡修正，以及其他的外观变化，例如新的配音员，包括开场白的改变，并且还有一些配音员的变更，在英语配音的情况下更是如此（由于本地化的匆忙，这也适用于Extend的情况）。游戏的主题曲是《Shinsō》，由日本配音演员今井麻美（Asami Imai）演唱，她为Tsubaki Yayoi配音。
+
+game: 斗鱼 2
+file: RumbleFish2Nesica\
+sort-by: 025
+developer: 斗鱼 2
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=RumbleFish2Nesica.xml
+genre: FTG
+description: Dimps于2005年开发了一款堪称传奇的街机游戏《The Rumble Fish》，这款格斗游戏凭借S.M.A技术提供的流畅的视觉效果以及双能量槽系统所催生的高水平格斗策略而大受欢迎。在加入全新现代功能后，游戏可玩性更是得到了大幅提升。由拥有丰富格斗游戏开发经验的传奇工作室精心打磨战斗机制Dimps以参与制作了一系列格斗游戏而举世闻名，而《The Rumble Fish》则是其第一款原创格斗游戏。自 2005 年发行以来，《The Rumble Fish》凭借双能量槽（攻击槽和防御槽）机制和S.M.A（平滑模型动画）技术提供的流畅2D视觉效果，收获了格斗游戏粉丝的持续关注。
+
+game: 恶魔新娘
+file: Daemon Bride\
+sort-by: 026
+developer: 恶魔新娘
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=DaemonBrideExboard.xml
+genre: FTG
+description: 《Daemon Bride》是Examu的第二个电子游戏系列，其玩法与其前身《Arcana Heart》截然不同。例如，当角色被搭档在一起时，它们不能像《圣灵之心》中那样互换，游戏也更加强调了基于枪弹的战斗。虽然Examu从未发布过家用机版本，但它发布了各种单曲、戏剧CD，甚至在即将推出的“额外增益”之前进行了修正。
+
+game: 光明格斗 刀锋对决
+file: Blade Arcus from Shining\
+sort-by: 027
+developer: 光明格斗 刀锋对决
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=BladeArcus.xml
+genre: FTG
+description: 《光明格斗：刀锋对决》是一款格斗游戏，由Saizensen工作室开发，世嘉发行。它以《光明》系列的人物为特色。该游戏是一款跨界2D格斗游戏，主角来自《光明之刃》和《光明之心》。
+
+game: 混沌代码 新生浩劫
+file: Chaos Code\
+sort-by: 028
+developer: 混沌代码 新生浩劫
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=CC.xml
+genre: FTG
+description: 《混沌代码：新生浩劫》是一款由台湾本土小组FK Digital开发、Arc System Works代理并在前几年登陆日本地区街机的2D格斗游戏。在此次台北国际电玩展确认将会移植到PS4平台，收录街机版追加的2名新角色露比娜斯（声优：东千乃）与雷伊（声优：横田大辅）。这款游戏继承了传统格斗游戏的特性，16名充满魅力的角色包含：宇宙忍者，热血宅男，伪娘系Coser，哥德萝莉风机娘，宝物猎人，精灵召唤师，战斗厨师等等。一击必杀的“混沌毁灭技”、能力大幅提升的“超越混沌”，可在连续技中趁胜追击的“混沌取消”等等。独特的“技能选择”和“冲刺选择”，玩家可依游玩风格进行调整，打造个人专属的战术配置并发掘无限的变化性。另外游戏还支持网络对战，玩家可以在线挑战来自全球的玩家。
+
+game: 恋姬演武
+file: Koihime\
+sort-by: 029
+developer: 恋姬演武
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=Koihime.xml
+genre: FTG
+description: 《恋姬演武》是一款三国题材的美少女格斗游戏，本作将所有三国人物进行了娘化，原本威猛无比的关羽周瑜等人都成为了一个个萝莉，在游戏中进行格斗对战。在剧情模式中，每个角色都会有其独特的剧情内容，选择不同的角色来体验她们的故事。剧情模式内包含剧情对话以及战斗，按F1键可以跳过对话内容。街机模式相当于是与AI对手的打擂台模式，按照每个角色剧情中遇到的敌人，在没有剧情对话的情况下一路打下去，直至打赢所有对手为止。画廊模式中可以查看《恋姬演武》的精美游戏原画。
+
+game: 电击文库 格斗巅峰
+file: FightingClimax\
+sort-by: 030
+developer: 电击文库 格斗巅峰
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=FightingClimax.xml
+genre: FTG
+description: 《电击文库 格斗巅峰》（电撃文库 FIGHTING CLIMAX）是由「SEGA」与「电击文库」合作开发的格斗游戏，游戏以「桐人」、「平和岛静雄」及「夏娜」等多位耳熟能详的人气电击角色為主题。游戏于2014年3月首次在日本街机发行，随后于2014年11月13日在PlayStation 3和PlayStation Vita上发行。游戏主题曲是川田真美的《信仰》。只要玩家们在游戏中游玩「Arcade Mode」或「VS Mode」，都能获得名為「CP（クライマックスポイント）」的游戏专用货币，利用这些货币可以在此模式中解锁各角色的专属CG及语音试听功能。除此之外，还会收录试阅版原作小说及插画供玩家们解锁阅览。。
+
+game: 女神异闻录4 终极狂热
+file: Persona4U\
+sort-by: 031
+developer: 女神异闻录4 终极狂热
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=Persona4U.xml
+genre: FTG
+description: 《女神异闻录4 终极狂热》是一款由Arc System Works和Atlus开发的格斗视频游戏。这是2012年《女神异闻录4》的直接续作，最初于2013年11月在日本街机发行，并于2014年在全球范围内为PlayStation 3和Xbox 360发行。游戏发生在《女神异闻录4 午夜竞技场》的战斗数日之后，了解到全部都是由黑幕所操作的各位，却没想到午夜电视却再次开始放送了。随着KUMA一声“全面战争开始了KUMA!”的宣言，画面中出现了格斗大会“P1-CLIMAX”的预告节目。与宣言一起突然出现还有大量“红雾”，瞬间就将稻羽市覆盖了，街道变成了诡异的模样。这时在电视中又看到了被钉在十字架上的美鹤们，为了救出美鹤，大家再次准备开始战斗!
+
+game: 星之翼 梦幻赛场
+file: AquapazzaAquaplusDreamMatch\
+sort-by: 032
+developer: 星之翼 梦幻赛场
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=AquapazzaAquaplusDreamMatch.xml
+genre: FTG
+description: 《星之翼 梦幻赛场》是2011年由Examu开发的2D街机格斗游戏。这是Aquaplus和Leaf的联合合作，他们设计了所有的标题和特色角色。标题中的“梦幻赛场”引用了来自各种Aquapalus游戏的角色，包括《Utawarerumono》、《Tears to Tiara》和《to Heart》。
+
+game: 宝可拳锦标赛
+file: Pokken Tournement (Namco ES3B) (pt)\
+sort-by: 033
+developer: 宝可拳锦标赛
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=PokkenTournament.xml
+genre: FTG
+description: 宝可梦铁拳锦标赛（日文︰ポッ拳 POKKÉN TOURNAMENT，英文︰Pokkén Tournament）是一个由宝可梦公司与万代南梦宫共同制作的街机游戏，本作混合了宝可梦和铁拳系列的元素。街机版游戏中共有四种模式可供选择：单机游戏（シングルプレイ）、全国对战、店内对战、教程模式（チュートリアル）。
+
+game: 剑骑烈传 刃之异邦人
+file: Blade Strangers\
+sort-by: 034
+developer: 剑骑烈传 刃之异邦人
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=BladeStrangers.xml
+genre: FTG
+description: 《刃之异邦人》是一款2D跨界格斗游戏，由Studio Saizensen开发，Nicalis发行，于2018年8月在PlayStation 4、任天堂Switch和通过Steam在Microsoft Windows上发行，也在日本街机发行。游戏的特点是来自不同游戏系列的几个角色之间的一对一战斗。
+
+game: 幻象破灭者
+file: Phantom Breaker Another Code\
+sort-by: 035
+developer: 幻象破灭者
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=PhantomBreaker.xml
+genre: FTG
+description: 《幻象破灭者》（Phantom Breaker Another Code）是一款2D格斗游戏，支持两种不同的格斗风格，玩家可以在“快速”风格和“硬”风格之间进行选择。快速风格侧重于快速命中和连击，而另一种则更注重防守。当玩家达到“超速”模式时，他们的角色可能会获得额外的速度或防御。玩家释放的每一次攻击都可以抵消敌人的攻击并提高他们的紧张程度；正确的时机将使玩家的能力最大化，以提高他们的攻击力。
+
+game: 夜下降生 Exe:Late
+file: Under Night In-Birth ExeLate[st]\
+sort-by: 036
+developer: 夜下降生 Exe:Late
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=UnderNightInBirthExeLatest.xml
+genre: FTG
+description: 《夜下降生 Exe:Late》是由FRENCH-BREAD制作，Arc System Works发行的格斗类游戏《夜下降生》系列的第二款作品，2013年9月5日在街机平台率先发布。游戏模式包括对战模式、特化VS模式、练习模式、联网对战模式，以及街机版所没有的“画廊模式”。还有设定玩家情报情报、称号等“定制模式”。联网模式中分为2人对战与玩家赛，玩家赛房间最大支持八人，按顺序进行2人对战其他人可观战，并可以阅览排名。模式众多，重复可玩性很高。操作快捷简便，上手速度快。允许玩家进行在线个人档案编辑，自由定制要素丰富。
+
+game: 月姬格斗 AACC
+file: Melty Blood Actress Again Current Code\
+sort-by: 037
+developer: 月姬格斗 AACC
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=MB.xml
+genre: FTG
+description: 《月姬格斗》是一个2D漫改格斗游戏系列，作为Type Moon和French Bread相关的同人作开发，是Type Moon第一部视觉小说月姬的续篇。系列第一款游戏最初于2002年12月在Comiket首次发布。简称为Merubura。
+
+game: 战斗幻想
+file: Battle Fantasia\
+sort-by: 038
+developer: 战斗幻想
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=BattleFantasia.xml
+genre: FTG
+description: 《战斗幻想》是由Arc System Works开发制作的大型电玩对战格斗游戏，以剑与魔法的奇幻世界为背景，采用3D绘图来呈现2D风格的流畅画面。游戏采用童话风格的美术设定，并透过3D绘图方式来呈现如同2D手绘般的质感以及流畅的动作与表情。共收录12名登场角色，皆具备独特的职业与招式设定。游戏采用独特的「火热对战」系统，只要抓准对方攻击时机按下「火热按钮」就可以不露破绽的挡住或拨开敌人的攻击并立刻给予反击。「热度提升」则是透过消耗MP的方式来强化角色能力与招式的系统。此外还包括蓄力延迟攻击招式与超必杀技等要素。
+
+game: 豪血寺一族5 先祖供养
+file: Goketsuji Ichizoku - Matsuri Senzo Kuyo\
+sort-by: 039
+developer: 豪血寺一族5 先祖供养
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=PowerInstinctV.xml
+genre: FTG
+description: 《豪血寺一族》是阿特拉斯（Atlus）公司出品的格斗游戏，此为2009年发布的豪血寺系列第7部作品。豪血寺一族，500年来都要举行格斗大奖赛来决定谁是最强的格斗家，然后获胜者就会被选为豪血寺族长，凡是豪血寺后裔都可以参加。现任族长，豪血寺梅已经在她的位置上守了60年。
+
+game: 罪恶装备Xrd 征兆
+file: Guilty Gear Xrd - Sign\
+sort-by: 040
+developer: 罪恶装备Xrd 征兆
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=GGXrdSIGN.xml
+genre: FTG
+description: 《Guilty Gear Xrd: Sign》是《罪恶装备》系列的第六部主要作品，也是第二十二部作品。在《罪恶装备2序曲》（Guilty Gear 2）约两年后，这作游戏及其后续的续作《罪恶装备Xrd 启示者》（Guilt Gear Xrd Revelator）成为故事主线的第三章。它已在日本专门为RingEdge 2街机板发行，并在日本和北美的PlayStation3和4游戏机上发行，在欧洲则以数字形式发行。自2015年12月起，它也可以在Steam上使用。
+
+game: 罪恶装备Xrd 启示者2
+file: Guilty Gear Xrd Rev 2\
+sort-by: 041
+developer: 罪恶装备Xrd 启示者2
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=GGXrd.xml
+genre: FTG
+description: 《Guilty Gear Xrd: Rev 2》是一款由Arc System Works开发的格斗类游戏，是2006年问世的格斗游戏《罪恶装备》系列最新作，承袭《罪恶装备Xrd 启示者》的基础，调整战斗平衡、追加梅喧、安萨等新角色，以及新招式、新动作、新模式与新故事等众多新元素而成，游戏支持跨平台跨版本联机对战。
+
+game: 罪恶装备XXAC 加强版
+file: Guilty Gear XX Accent Core Plus\
+sort-by: 042
+developer: 罪恶装备XXAC 加强版
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=GGXX.xml
+genre: FTG
+description: 《Guilty Gear XX Accent Core Plus》（罪恶装备XXAC：加强版）在原作的基础上强化了系统，修正了一些BUG。而更为明显的是正义和克里夫两名在前作中没有出现的角色在这里重新复活，二人有着强大的能力，尤其是正义，角色性能可以用逆天了形容，毕竟她是初代的最终BOSS头目。另外，久违的故事模式也以全新的形态登场了，自从《罪恶装备XX》以后，家用机版就没有了这个重要的模式，本次经过重新制作后，故事模式又回来了，把本模式通关，便会出现隐藏的EX模式。另外《罪恶装备XXAC：加强版》的任务模式也经过了重新编辑，更艰巨的挑战和新的画廊图片在这里等待着各位格斗迷们。
+
+game: 罪恶装备 奋战
+file: Guilty Gear Strive\
+sort-by: 043
+developer: 罪恶装备 奋战
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=GGS.xml
+genre: FTG
+description: 《Guilty Gear -Strive-》是Arc System Works开发的格斗游戏《罪恶装备》系列的第二十五部作品，男主角索尔历时25年的故事就此画上句号，而罪恶装备的故事却并未结束。本作于2019年8月5日的Evolution锦标赛上正式公开，并发布了首部预告片。Arc公司以“一个能让更多玩家长期享受的游戏”为目标，对角色设计和战斗系统进行了大胆的改变。仿佛似手画2D动画的华丽表现，更加以进化升华。彻底的讲究终极的美丽，为您呈现最先端，最新时代映像的格斗游戏！
+
+game: 超级街头霸王 4
+file: Super Street Fighter IV Arcade Edition (Version 2012)\
+sort-by: 044
+developer: 超级街头霸王 4
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=SuperStreetFighterIVArcadeEditionVer2012.xml
+genre: FTG
+description: 《超级街头霸王4：Super Street Fighter IV》是继《街头霸王4》后CAPCOM推出的“街霸”系列最新作，如名所示，本作在《街头霸王4》的系统基础上追加众多新要素，迪·杰、T·霍克等过去作品的登场角色将在本作中出现，除此之外还加入如“茱莉(ジュリ)”等新角色，游戏除街机外还将同时登陆PS3及X360平台。
+
+game: 终极街头霸王 4
+file: Ultra Street Fighter 4\
+sort-by: 045
+developer: 终极街头霸王 4
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=UltraStreetFighterIV.xml
+genre: FTG
+description: 《终极街头霸王4：Ultra Street Fighter IV》在2014年的E3上卡普空自己都自嘲了一下做了一个街霸混合的图标，可见这款游戏推出的版本之多让很多玩家们感到很不爽，游戏终于推出了最后一个版本，在终极版本中为玩家们添加了全新的游戏角色，并且还会推出全新的人物服装，其他的内容并没有进行多少改变。此外，在新作中也将包含罗兰特(Rolento)、毒药(Poison) 、雨果(Hugo)与性感女孩爱莲娜(Elena)。
+
+game: 街头霸王 5
+file: StreetFighterVTypeArcade\
+sort-by: 046
+developer: 街头霸王 5
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=StreetFighterVTypeArcade.xml
+genre: FTG
+description: 《街头霸王5》（Street Fighter 5）是一款由Capcom推出、且采用了虚幻4引擎开发的街头霸王续作，街头霸王5还支持跨平台对战以及破坏舞台边界后继续在新回合打斗等特色。《街头霸王5》借助次时代的强大机能再次震撼登场，而传承其硬派格斗作风的同时，本作也将加入一个全新的系统，可以让新人更好的上手，而不是每次都输给老玩家。
+
+game: 侍魂 闪
+file: Nesica- Samurai Spirits Sen\
+sort-by: 047
+developer: 侍魂 闪
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=SamuraiSpiritsSen.xml
+genre: FTG
+description: 《侍魂 闪》(サムライスピリッツ閃) 是2008年SNK Playmore为庆祝人气格斗游戏《侍魂》系列诞生15周年而推出的作品，在Taito Type X2基板上发行，游戏登场的角色有24人，其中11人为全新角色。《侍魂 闪》保留了系列中拥有一击必杀威力的“大斩”，3D化游戏方式实现了角色在3D空间中纵横无尽、自由自在的攻击，并增加全新的“弹”系统，实现攻防双方的形式逆转。本作还有危机状态下的一发逆转技“一闪”的存在，而“愤怒爆发”则可以使角色的攻击力和发动技数增加。
+
+game: VR战士5 Ver.C
+file: VF5C\
+sort-by: 048
+developer: VR战士5 Ver.C
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=VF5C.xml
+genre: FTG
+description: 《VR战士5》是一款世嘉制作发行的街机格斗游戏。《VR战士》系列作为2D格斗转向3D时期的重要代表作，由SEGA的招牌制作人监制，如今已经成为了SEGA的看家法宝之一。游戏人物的动作尽量接近于真实，铃木裕为了制作此游戏，曾经多次造访中国的武术高手们，更与游戏的主角AKIRA的原形八级拳大师吴连枝结下了深厚的友谊。游戏中的角色们所使用的武术流派以中国拳法居多，包括八级拳、螳螂拳、醉拳、燕青拳、少林拳、猴拳等。VR战士5代新增加了2名角色，分别是使用猴拳的EILEEN和墨西哥的摔角手EL BLAZE，可操作角色达到了17名。
+
+game: 死或生5 终极版
+file: DOA5\
+sort-by: 049
+developer: 死或生5 终极版
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=DOA5.xml
+genre: FTG
+description: 《死或生5 终极版》（Dead or Alive 5 Ultimate）是《死或生》系列中的一款格斗游戏，由Team Ninja开发，由Tecmo Koei于2013年9月为PlayStation 3和Xbox 360发行，随后于2013年12月24日推出了街机版。这是Koei Tecmo自2000年《死或生2 千禧版》以来推出的第一款街机游戏。《DOA5 Ultimate》包含了PlayStation Vita《死或生5 Plus》的一些功能以及其他内容，包括五个新角色或回归系列的角色、全面的故事模式以及游戏系统调整和扩展，其中许多是在线多人标记团队模式，游戏获得了普遍好评。\n《DOA5 Ultimate》的免费剪辑版名为《Dead or Alive 5 Ultimate: Core Fighters》，在PlayStation Store上发布，而在《DOA5U》之后是2015年发布的《死或生5：最后一战》。
+
+game: 魂斗罗 进化革命
+file: Contra\
+sort-by: 050
+developer: 魂斗罗 进化革命
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=Contra.xml
+genre: GUN
+description: KONAMI最经典动作游戏《魂斗罗》的革命性进化版，游戏新加入了双武器切换系统，玩家可以随身携带两种武器自由切换使用，全萤幕敌全灭的炸弹在危及关头可以助玩家一臂之力。游戏通关后追加了挑战BOSS模式，不断刷新自己的最好成绩吧。
+
+game: 死亡之屋 4
+file: hotd4\
+sort-by: 051
+developer: 死亡之屋 4
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=HOTD4.xml
+genre: GUN
+description: 《死亡之屋4》（The House of the Dead 4）是由世嘉发行的丧尸射击类游戏。游戏在2006年推出街机版，2012年推出ps3版。游戏玩家要在大量丧尸尸追到主角之前就逃出去，否则视为游戏失败，给予了玩家充分的的视觉感。
+
+game: 死亡之屋5 血色黎明
+file: hotdsdexp\
+sort-by: 052
+developer: 死亡之屋5 血色黎明
+launch: "{env.appdir}\Roms\TeknoParrot\hotdsdexp\App\Hodzero\WindowsNoEditor\AMDaemon\amdaemon.exe"
+genre: GUN
+description: 《死亡之屋》街机新版《死亡之屋5：血色黎明》将集合世嘉的最新技术，运用虚幻4引擎全新打造，结合世嘉多年的街机框体技术，将会带来前所未有的恐怖体验。这种街机包括“空气炮”和震动座椅，根据玩家游戏的进度启动。而且这种街机还装有感应装置，如果外面有人经过的话会有灯光亮起来吸引路人游玩。
+
+game: 化解危机 5
+file: TC5\
+sort-by: 053
+developer: 化解危机 5
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=TC5.xml
+genre: GUN
+description: 《化解危机5》（TIME CRISIS 5）是一款光枪射击街机游戏，依旧继承了系列玩法，在此之上又新增加了一个脚踏板，称为“双踏板系统”。在本作的游戏过程中，玩家可以根据游戏内环境状况选择踩左还是踩右，以此做出左闪避、右闪避的动作。除此之外，在遇到一些会借助掩体隐藏自己的敌人时，踩左、右踏板后玩家射击视角会改变，更容易命中敌人。
+
+game: 幽灵特警
+file: OG\
+sort-by: 054
+developer: 幽灵特警
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=OG.xml
+genre: GUN
+description: 《幽灵特警》是一款于2011年发行的街机游戏。这是2004年游戏《幽灵小队》的续集。2016年，游戏的一个更新版本发布，《布拉沃目标：G.H.O.S.T.行动》。。
+
+game: 兰博
+file: Rambo\
+sort-by: 055
+developer: 兰博
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=Rambo.xml
+genre: GUN
+description: 《兰博》是世嘉于2008年为街机开发的一款光枪射击游戏。该游戏基于《兰博：第一滴血2》（1985）和《兰博III》（1988）的内容，而不是《第一滴血》（1982）。
+
+game: 变形金刚 联合行动
+file: Transformers\
+sort-by: 056
+developer: 变形金刚 联合行动
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=Transformers.xml
+genre: GUN
+description: 数字1开始。数字2投币。鼠标左键发射子弹，右键装弹。更多设置请在模拟器内设置。\n《变形金刚：人类联盟》是一款由世嘉开发的轨道射击街机游戏，以变形金刚电影系列为背景，于2013年宣布作为变形金刚系列中的第一款街机游戏发行。
+
+game: 丛林探险 迷失香料岛
+file: LGJ\
+sort-by: 057
+developer: 丛林探险 迷失香料岛
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=LGJ.xml
+genre: GUN
+description: 《丛林探险 迷失香料岛》（Lost on the Island of Spice）是世嘉推出的一款安装在游戏杆上的枪支街机游戏。游戏于2006年6月27日发行。玩家扮演本和诺拉被困在一个被怪兽肆虐的丛林小岛上。每个玩家在寻找救援时必须用自己的机枪射击怪物。
+
+game: 孤岛惊魂 失乐园
+file: Farcry Paradise\
+sort-by: 058
+developer: 孤岛惊魂 失乐园
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=FarCryParadiseLost.xml
+genre: GUN
+description: 《孤岛惊魂 失乐园》（Paradise Lost）是一款于2007年发行的双人街机橱柜轻枪轨道射击游戏，由Gloval VR开发，育碧出版。它基于《远哭本能》，使用了游戏中的模型、纹理和资源。玩家扮演杰克·卡佛（Jack Carver）和一名身份不明的伙伴，他们使用一对旋转安装的机枪进行战斗，机枪也有数量有限的火箭弹和手榴弹。
+
+game: 海岛探险 迷失热带岛
+file: Let's Go Island - Lost on the Island of Tropics\
+sort-by: 059
+developer: 海岛探险 迷失热带岛
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=LGI.xml
+genre: GUN
+description: 《海岛探险 迷失热带岛》是一款世嘉街机游戏，于2011年年中发行。这是《Let's Go Jungle！》的续集：迷失在香料岛。
+
+game: 寂静岭 街机版
+file: Silent Hill The Arcade\
+sort-by: 060
+developer: 寂静岭 街机版
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=SilentHill.xml
+genre: GUN
+description: 《寂静岭：街机版》是由Konami开发的生存恐怖视频游戏系列《寂静岭》衍生的街机游戏。2007年，Konami在日本街机运营商工会贸易展览会上首次展示了此街机版本。
+
+game: 猎梦特工
+file: SEGA Dream Raiders\
+sort-by: 061
+developer: 猎梦特工
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=SDR.xml
+genre: GUN
+description: 《猎梦特工》是一款由Gamewax和世嘉于2012年为世嘉RingWide街机硬件开发的运动模拟射击游戏。它旨在弥合四维运动“游乐设施”和交互式视频游戏之间的差距。\n这个被称为“梦幻机器”的柜子有一个大的双人座椅，可以随着屏幕上的动作而倾斜和移动，而内置的风扇为玩家提供了风的感觉。唯一的控制装置是“Dream Blasters”，它以类似世嘉游戏（如Let's Go Island：Lost on The Island of Tropics）的风格安装在橱柜上的发光枪。
+
+game: 路易鬼屋冒险
+file: Luigi Mansion Arcade\
+sort-by: 062
+developer: 路易鬼屋冒险
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=LuigisMansion.xml
+genre: GUN
+description: 《路易吉的鬼屋冒险》是一款于2015年6月仅在日本Arcade发行的游戏。游戏由Capcom开发，世嘉在任天堂许可下发行，这是自1983年《马里奥兄弟》以来，路易吉首次在街机游戏中担任主要角色。
+
+game: 神铳
+file: GG\
+sort-by: 063
+developer: 神铳
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=GG.xml
+genre: GUN
+description: 《神铳》是一款由中国世嘉开发、世嘉于2010年出版的轨道射击游戏。游戏借鉴了《死亡之家》系列的几个游戏机制，并回收了《死亡屋4》的引擎和资产。
+
+game: 失落之地冒险
+file: Lost Land Adventure\
+sort-by: 064
+developer: 失落之地冒险
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=LostLand.xml
+genre: GUN
+description: 《失落之地冒险》（Lost Land Adventure）是一款发行在Namco System ES3上的街机游戏。让您的视野沉浸在真正的3D体验中，这只能在球形显示器中实现。左、右、上、下，冒险从各个角度跳跃！这是一款激动人心的双人射击游戏，将带您进行一场古老的探险，解开谜团，寻找宝藏！等待的玩家可以站在废墟的入口处，通过一个巨大的亚克力窗户观看游戏，游戏首次配备了PIN码。现在，您可以保存“舞台清理”数据，获取门票，在游戏中顺利进行，并保存收集的宝藏。自由选择四个冒险阶段中的任何一个，清除所有障碍，然后继续寻找终极宝藏！
+
+game: 异形歼灭
+file: aliens\
+sort-by: 065
+developer: 异形歼灭
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=AliensExtermination.xml
+genre: GUN
+description: 《异形歼灭》是一款2006年由全球VR开发的第一人称射击街机游戏。游戏于2006年在国际上发行，2008年在印度尼西亚发行。
+
+game: 冲突 街机版
+file: Friction Arcade\
+sort-by: 066
+developer: 冲突 街机版
+launch: "{env.appdir}\Roms\TeknoParrot\Friction Arcade\Friction.exe"
+genre: GUN
+description: 《冲突》是独立工作室Friction Game Studios制作的第一款电子街机游戏。这是一款即时动作射击游戏，您可以将硬币放入机台中，然后立即进行游戏，无需过场来讲述故事。游戏总共有三个关卡，每个关卡持续约10-15分钟，每一个关卡都会让玩家在游戏结束时与一个大型变身机器人boss对抗。游戏非常强调可破坏的物体，大量的板条箱、桶和其他物体可以被破坏，以揭开隐藏的道具，如霰弹枪、机关枪或火箭发射器。如果您一次获得多个道具，则在第一次结束后将继续进行第二个或第三个。
+
+game: 混战博物馆 2
+file: HauntedMuseum 2\
+sort-by: 067
+developer: 混战博物馆 2
+launch: "{env.appdir}\Roms\TeknoParrot\HauntedMuseum 2\game_v1.01_JPN_v2.exe"
+genre: GUN
+description: 《混战博物馆2》（HauntedMuseum 2）是一款来自Taito的1-2人光枪射击游戏。它是《混战博物馆1》的续集，在北美被称为弗里特马兰。游戏围绕两名特工展开，他们正在调查一座无名城市中100人的失踪案件。他们的调查将他们带到了弗里特马兰，一个破旧的游乐场，他们相信受害者正被一群疯狂的狂欢小丑囚禁。游戏有15个可选关卡、1个奖励关卡、12个迷你游戏任务、6个boss和三个不同的游戏结局。玩家将面临的主要敌人是杀人小丑。玩家还会遇到可以被摧毁的桶、箱子和物品，以显示积分奖金、弹药和人质。
+
+game: 狂野西部枪战 街机版
+file: Wild West Shootout Arcade\
+sort-by: 068
+developer: 狂野西部枪战 街机版
+launch: "{env.appdir}\Roms\TeknoParrot\Wild West Shootout Arcade\Wild West Shoot Out.exe"
+genre: GUN
+description: 《狂野西部枪战 街机版》（Wild West Shootout Arcade）是一款Funbox Media开发的光枪射击街机游戏，此游戏改变以往传统、死板、不能移动的经典防御模式，首创可以自由移动“炮塔”。塔防类游戏大多以建基地以防止敌人经过，太多的类似游戏让人们已没多大兴趣，而游戏开发商们就不得不想尽办法开创游戏新领域，以吸引更多玩家，同时也是对自己创新的不断扩展。这样就又新开发出一批又一批的好游戏。
+
+game: 星球大战 战斗驾驶舱
+file: Star Wars Battle Pod\
+sort-by: 069
+developer: 星球大战 战斗驾驶舱
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=StarWars.xml
+genre: GUN
+description: 《星球大战：战斗驾驶舱》是一款由万代南梦宫游戏公司制作的街机游戏。它包含一个巨大的塑料泡，有一个沉浸式的环绕屏幕和控制装置，设计与电影中的车辆相似。游戏包括五个关卡，再现了最初三部曲中最具标志性的战斗。它于2015年1月在美国的街机上发行，随后在国际上发行。该游戏是基于万代南梦宫之前的驾驶舱街机游戏《马赫风暴》而改进的。
+
+game: 辛辣对决
+file: 2spicy\
+sort-by: 070
+developer: 辛辣对决
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=2Spicy.xml
+genre: GUN
+description: 2 Spicy or Too Spicy是一款为世嘉Lindbergh Red硬件发行的轻枪街机游戏。这是一场两人面对面的比赛。
+
+game: 环游世界 2 特别巡回 豪华版
+file: Outrun 2 Special Tours Deluxe\
+sort-by: 071
+developer: 环游世界 2 特别巡回 豪华版
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=or2spdlx.xml
+genre: RAC
+description: 《OutRun 2》是一款世嘉千寻街机驾驶游戏，由世嘉AM2开发，世嘉制造。2003年12月首次在日本和美国街机上发行。游戏玩法与最初的OutRun类似，但有许多新的机制；山脊赛车风格的漂移和滑流是最明显的。游戏推出了各种法拉利赛车（由法拉利官方许可证提供），开发了一套新的15条欧洲主题路线，重新加入了经典的OutRun音乐，也加入了新的歌曲。新增了一种“心跳突击”模式，您必须在驾驶过程中应对各种小挑战。
+
+game: 马里奥赛车 DX
+file: Mario Kart DX\
+sort-by: 072
+developer: 马里奥赛车 DX
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=MKDX.xml
+genre: RAC
+description: 《马里奥卡丁车街机GPDX》是一款用于街机系统的马里奥卡丁车游戏，由南梦宫万代与任天堂合作开发。这是《马里奥赛车》系列的第十部作品，该游戏是《马里奥赛车街机GP》的后续作品，也是继《马里奥赛车街机GP2》之后的街机系列的第三部作品。该游戏于2013年7月25日在日本发行，2014年在美国发行，随后于2017年在澳大利亚发行。就像前两款街机GP游戏一样，可以通过连接最多四台街机来进行多人游戏。
+
+game: 梦游美国 3
+file: Daytona 3\
+sort-by: 073
+developer: 梦游美国 3
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=Daytona3.xml
+genre: RAC
+description: 《Daytona Championship USA》是街机赛车的王者，于1993年首次推出，这一全新的参赛作品将世嘉的头号赛车手尖叫声带入21世纪！梦游美国3设有三条全新赛道，包括全新翻新的代托纳国际赛道（Daytona International Speedway）！此外，最初的三个经典赛道已为现代重新制作。新的游戏功能包括实时摄像，因此当您超越朋友时，您可以享受最大的吹牛权！梦游美国3的全新设计是以“电视直播”为灵感的视频广告。这项全新的功能让观众可以看到比赛中发生了什么，无论是撞车、传球还是发现谁赢谁输！
+
+game: 头文字D 4
+file: Initial D 4 Export\
+sort-by: 074
+developer: 头文字D 4
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=ID4Exp.xml
+genre: RAC
+description: 《头文字D4》街机版是世嘉开发的赛车游戏。相比此前街机/PSP版本的《头文字D3》，此版本已进行了大量更新。与本系列中的旧游戏不同，D4有一个为世嘉Lindbergh街机系统编写的全新物理引擎，这种新系统允许汽车在过弯时在赛道上滑行或漂移，这是旧游戏中没有的功能。《头文字D4》以动画的角色交互为特色，而汽车和环境使用更新的高清图形，但相比前作的地图有较多删减，当然也新增加了秋名湖、筑波等赛道。
+
+game: 头文字D 5
+file: Initial D 5 Export\
+sort-by: 075
+developer: 头文字D 5
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=ID5.xml
+genre: RAC
+description: 《头文字D5》于2008年发行日本街机版，是头文字D系列的第五个版本。相比D4画质再次增强，增加了八方原赛道，漂移过弯更加真实。显著的差异包括巨大的物理引擎变化，与使用“漂移”物理引擎的D4相比，D5具有更真实的驾驶体验，包括轮胎和制动器磨损。虽然轮胎和刹车磨损在游戏中没有显示，但经验丰富的玩家可以在比赛中注意到物理变化的差异。
+
+game: 头文字D 6
+file: Initial D arcade stage 6 AA\
+sort-by: 076
+developer: 头文字D 6
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=ID6.xml
+genre: RAC
+description: 《头文字D6：Double Ace》引入了一种新模式“Tag Battle”。与它的前身不同，它发布于世嘉RingEdge机台。游戏的驱动物理引擎发生了变化。与D5相比，引入了漂移计和更新的转速表，以帮助玩家在漂移时通知他们。“街头传奇”中也引入了新的“Rolling Start”模式，这是自头文字D“特别舞台”的故事模式以来的首次。转速表现在通知玩家他们的速度是否低于档位范围。游戏还增加了里程系统，以显示玩家的总行驶里程。里程可用于兑换后期的其他车辆。
+
+game: 头文字D 7
+file: Initial D arcade Stage 7 AAX\
+sort-by: 077
+developer: 头文字D 7
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=ID7.xml
+genre: RAC
+description: 《头文字D7：Double Ace Cross》于2013年1月为世嘉RingEdge机台发布。与它的前身一样，原版模式和其他模式中的“街道传说”模式与D6中的“重生”模式相同。该游戏主要是《头文字D6：Double Ace》的延续和更新。这次名为"Complete Cars" 的游戏中引入了一种新的汽车类别，其中包括来自日本多家车店的汽车，如RE Amemiya。在线战斗现在包括Tag Battle，允许两台店内的机台连接在一起，并通过互联网与其他两名玩家进行竞赛。
+
+game: 头文字D 8
+file: Initial D Arcade Stage 8 Infinity\
+sort-by: 078
+developer: 头文字D 8
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=ID8.xml
+genre: RAC
+description: 《头文字D8：无限》于2015年3月6日发布，与前作相比，游戏采用了完善的游戏模式，并增加了新的头文字D工厂和头文字D硬币功能。在故事模式中，玩家可以扮演主角团一方或对手一方，以查看驾驶培训课程或每个故事的任务。游戏增加了一个新功能，“1天1次接续”，允许玩家每天一次免费接续游玩，而无需插入积分卡。
+
+game: 湾岸午夜极速 5DX
+file: Wangan Midnight Maximum Tune 5DX\
+sort-by: 079
+developer: 湾岸午夜极速 5DX
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=WMMT5DX.xml
+genre: RAC
+description: 《湾岸午夜极速》是一款赛车街机游戏，游戏内容取材于同名漫画作品《湾岸MIDNIGHT》。WMMT5发布日期为2014年3月12日（日本版本）、2014年10月（亚洲版本）、2014年12月（印度尼西亚版本）、2017年1月（北美版本）。游戏中，玩家可以在东京等地真实存在的城际高速公路之间穿梭，进行街头飙车比赛。作为是一款全球最热的对战型新世代高速赛车街机游戏, 《湾岸午夜极速》具有极尽疯狂的赛车特性、兼具魅力真实的街头赛车文化，瑕疵极少的赛车游戏。游戏支持联机对战，6档变速箱，以及逼真的操纵实感。玩家能够驾驶心爱的跑车在午夜的东京街头一路狂飙，那种令人疯狂、惬意的快感，使其具有区别于其它赛车游戏的不凡表现。
+
+game: 湾岸午夜极速 5DX+
+file: Wangan Midnight Maximum Tune 5DX+\
+sort-by: 080
+developer: 湾岸午夜极速 5DX+
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=WMMT5DXPlus.xml
+genre: RAC
+description: 《湾岸午夜极速》是一款赛车街机游戏，游戏内容取材于同名漫画作品《湾岸MIDNIGHT》。WMMT5DX+发布日期为2016年12月15日（日本版本）、2017年7月（亚洲服务器版本）、2017年10月（印度尼西亚版本）、2021年1月（中国版本）、2022年1月12日（北美版本）。游戏新增两个车辆制造商：兰博基尼和本田（国内为讴歌），增加一条新赛道——广岛高速。故事模式60集（1~60不败）连胜将获得一张免费闯入对战券。全新游戏模式-其他地区化身活动，可获得特殊铭牌，贴图和转速表。
+
+game: 湾岸午夜极速 6
+file: WMMT6\
+sort-by: 081
+developer: 湾岸午夜极速 6
+launch: "{env.appdir}\Roms\TeknoParrot\WMMT6\wmn6r.exe"
+genre: RAC
+description: 《湾岸午夜极速》是一款赛车街机游戏，游戏内容取材于同名漫画作品《湾岸MIDNIGHT》。WMMT6于2019年7月2日在亚洲服上线。原作漫画C1挑战者篇的四个角色回归，故事模式恢复为100集（原来的60集上再加40集），马力提升到840马力，故事模式80集（1~80不败）连胜获得一张免费闯入对战券，打满100集获得BGM（1~100无论胜与负），转速表获得条件从第1集到最后一集不败则改为100次连胜（即负了一集，到下一次100次连胜不败就能拿表）。最高等级从SSSS扩大为SSSSS。故事路线更改——第41集路线由新环左改为涩谷线，删除两个惊讶小伙的剧情，新创建大观山下坡试车的剧情。修改部分道路背景，原作车型更加还原了。
+
+game: 霹雳赛车 4
+file: Battle Gear 4\
+sort-by: 082
+developer: 霹雳赛车 4
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=BattleGear4.xml
+genre: RAC
+description: 《霹雳赛车》（Battle Gear）是一款在大型机台（街机）上的赛车游戏，以拟真以及甩尾（漂移）为其游乐诉求，制作公司为日本的TAITO。常见的其他称呼有直接称呼简称BG（由于各代不尽相同，常在后方加上数字，例如BG4）以及霹雳赛车（中文代理商的命名，但是玩家间几乎没几个人这样叫），游戏整体感觉非常不错，尤其是操控感很好 ，游戏感依然非常爽快。加上难见的真实漂移系统，实为难得，只是一点需说明：选择AT游戏和MT游戏有很大区别，选择AT游戏的整体操作难度都会降低，连drift也只是带点刹车就过了，所以对新手很合适。Battle Gear 虽然不象《GT赛车》和《山脊赛车》系列那么出名，但是却以良好的操作手感，非常爽快的速度感吸引了不少玩家的目光，喜欢赛车的朋友不要错过。
+
+game: 霹雳赛车 4 进化
+file: Battle Gear 4 Tuned\
+sort-by: 083
+developer: 霹雳赛车 4 进化
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=BattleGear4Tuned.xml
+genre: RAC
+description: 作为街机比赛游戏的高峰，受到玩家极大的支持的“霹雳赛车”系列。其最新作品《霹雳赛车4》在2006年冬天，在TAITO Type X+机台上变成了最终进化形态“Tuned”。一切都是为了竞速的快乐。赛车和路线的阵容强化自不必说，全部磨砺了的新生霹雳赛车，请一定要享受。
+
+game: R改
+file: rtuned\
+sort-by: 084
+developer: R改
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=R-Tuned.xml
+genre: RAC
+description: 《R-Tuned Ultimate Street Racing》是一款街机赛车游戏，由世嘉AM2开发，世嘉于2008年10月23日在亚洲和北美发行，2009年4月17日在欧洲发行。游戏特色在于绚丽的场景和街头狂飙。
+
+game: 雷动 G
+file: Storm Racer G\
+sort-by: 085
+developer: 雷动 G
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=SRG.xml
+genre: RAC
+description: （来自雷动G吧)雷动1代，还有雷动G DEMO（实际上还是1代）手感非常垃圾，到了G进步很大。之前玩过头文字D和湾岸，因为没有车卡，感觉难度太低，高手和菜鸟区分度不大，而且不太喜欢那种系统，直到玩了雷动G才对赛车类街机感兴趣。选赛车有4项参数：1升压压力表(攒气速度)，2最高速度(极速)，3操纵(手感)，4加速度。其他都是越高越好，但手感除外。手感高会有更好的抓地转向性能，操作延迟小，而且能更快进入漂移状态。同时也会更快退出漂移状态，但这是个缺点，导致无法轻微角度漂移，直道上面左右漂也不容易飘起来。自动漂移不要选，它只是打尽方向1秒左右会帮你自动刹一下车，时机太晚了几乎没用。车辆选择上一般都是选AE8xx，综合来说最好，高级版AE8xx更是不二之选。M00N性能比初级AE8xx更好一点，但那个车延迟非常大，不好控制。初玩的话有一部甲壳虫车型也还不错，抓地和氮气性能强，极速也不弱。
+
+game: 速度与激情 漂移
+file: FNFDrift\
+sort-by: 086
+developer: 速度与激情 漂移
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=FNFDrift.xml
+genre: RAC
+description: 《速度与激情 漂移》是21世纪最畅销的赛车游戏的续集。《FNF Drift》拥有12辆完全授权的异国情调汽车，以及7辆新的日本曲目，此外还有《速度与激情》中的12首原创曲目。玩家现在可以通过收集积分来改装他们的赛车，使其更加时尚和迅捷，从而更好地进行竞速比赛。玩家还可以在一个全新的统计屏幕中保存和查看他们的车辆和升级记录。
+
+game: 汽车总动员
+file: cars\
+sort-by: 087
+developer: 汽车总动员
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=Cars.xml
+genre: RAC
+description: 《汽车总动员》是一款卡丁车赛车游戏，由迪斯尼•皮克斯汽车公司于2012年由Raw Thrills在街机上发行，主角是闪电麦昆和他的朋友们，最多可以有8名玩家一同游玩。
+
+game: 决战赛车
+file: KO Drive\
+sort-by: 088
+developer: 决战赛车
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=KODrive.xml
+genre: RAC
+description: 世嘉的《KO Drive》提供了一种爆炸性的赛车体验，具有高速公路战斗和各种安装的武器和引擎，使其成为目前市场上最令人满意的赛车游戏之一。玩家可以在伦敦、拉斯维加斯、多伦多、上海、罗马和开罗等地穿越森林和城市天际线，向对手发射爆炸性武器，并对敌人进行毁灭性的报复，以达到终点。凭借令人惊叹的图形和优美的环境，这是一款真正吸引人的游戏，玩家们会一次又一次地回到这里。
+
+game: 世嘉实况赛车
+file: Sega Race TV\
+sort-by: 089
+developer: 世嘉实况赛车
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=segartv.xml
+genre: RAC
+description: 现在是世嘉的赛车电视节目表演时间，这是世嘉娱乐公司的一款激动人心的顶级赛车游戏。《Sega Race TV》于2008年发布，在每一场比赛中都捕捉到了高能街机乐趣的精神。它有五个不同的球场，九辆有执照的车辆，九个特殊角色，迈克和杰克·帕特森（Mike&Jake Patterson）的有趣的实时解说，并允许通过链接的机台与最多4名选手比赛。课程中充满了有趣的定位、助推和陷阱道具，精明的玩家可以利用它们在不利情况下转而获得优势。
+
+game: 野蛮魔驱
+file: DirtyDrivin\
+sort-by: 090
+developer: 野蛮魔驱
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=DirtyDrivin.xml
+genre: RAC
+description: 《野蛮魔驱》（Dirty Drivin）是一款街机赛车游戏，由Specular Interactive开发，Raw Thrills于2011年发行，该游戏也在中国发行，并在GTI亚洲中国博览会上亮相。整个菜单中播放的游戏主要曲目是《白僵尸比人类更具人性》。
+
+game: 尼克卡通赛车
+file: NicktoonsNitro\
+sort-by: 091
+developer: 尼克卡通赛车
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=NicktoonsNitro.xml
+genre: RAC
+description: 《尼克卡通赛车》于2008年8月由开发商Raw Thrills作为街机游戏发行，是一款卡通风格的卡丁车竞速游戏，游戏中的人物都是来自于尼克卡通世界中，玩家将和电视里的动漫明星一起驾驶各种造型奇特的赛车进行比赛。游戏采用卡通渲染的3D画面，出色的动作引擎使得游戏的画面很流畅，赛道地图中会有美丽迷人的糖果小镇、风景秀丽的海滨公路等等。本作采用了活波欢快的背景音乐，动感休闲的音乐风格会让玩家感觉很舒服。游戏的操作很简单，键盘的方向键操纵方向，空格键可以释放道具。游戏一共有3种难度供玩家选择，玩家可以选择适合自己的来挑战。游戏一开始只有4位初始角色可以选择，分别是海绵宝宝、幻影丹尼、Jimmy和Timmy。玩家通过不断努力通关和获取比赛积分可以解锁一些新的人物，丰富的道具系统也大大加强了游戏的可玩性。。
+
+game: 世嘉世界车手锦标赛
+file: SWDC\
+sort-by: 092
+developer: 世嘉世界车手锦标赛
+launch: "{env.appdir}\Roms\TeknoParrot\SWDC\App\Todoroki\WindowsNoEditor\AMDaemon\amdaemon.exe"
+genre: RAC
+description: 《世嘉世界车手锦标赛》（SEGA World Drivers Championship）是世嘉公司利用所持有的Super GT赛事使用权，结合“虚幻4”引擎开发的街机赛车游戏。
+
+game: 蝙蝠侠 驾驶战斗
+file: BATMAN\
+sort-by: 093
+developer: 蝙蝠侠 驾驶战斗
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=Batman.xml
+genre: RAC
+description: 在《蝙蝠侠 驾驶战斗》中，玩家控制蝙蝠侠驾驶蝙蝠车穿过哥谭市，从阿卡姆夺回超级罪犯。玩家可以选择追击小丑、贝恩或冰冻人；这些游戏路线中的每一条都有“容易”和“困难”两种，都有一组预定的六个车辆战斗任务要完成。玩家必须使用蝙蝠车来追逐和消灭特定目标，例如装满党羽的车辆。某些任务以其他蝙蝠侠反派为主角，如稻草人、企鹅人和猫女。武器可以升级，以便更快更有效地摧毁目标。在游戏过程中，时间不断减少；剩余时间随着每次任务的成功完成而延长，当时间完全耗尽或蝙蝠车被摧毁时，游戏结束。
+
+game: 东京警察
+file: Tokyo Cop\
+sort-by: 094
+developer: 东京警察
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=TokyoCop.xml
+genre: RAC
+description: 《东京警察》（Tokyo Cop）是一款来自Gaelco的驾驶冒险游戏。这位玩家扮演一名警察，试图在东京的一些热点地区清除街道上的危险罪犯。玩家的晋升取决于他抓罪犯的速度。如果时间不多，降职就威胁着他。不同的赛车将在比赛的不同阶段提供。游戏中的犯罪分子可以是扒手，也可以是东京的头号通缉犯。
+
+game: 索尼克世嘉全明星赛车
+file: SSASR\
+sort-by: 095
+developer: 索尼克世嘉全明星赛车
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=SSASR.xml
+genre: RAC
+description: 《索尼克世嘉全明星赛车》（Sonic and Sega All Stars Racing）是一款RAC赛车游戏，于2010年发行。Sonic与好友们在Sonic和SEGA宇宙的赛道中疯狂竞速，看看谁最先抵达终点。每个角色都有独门功夫可以快速的回到比赛中。赛道中可以收集道具和武器，利用他们来恶搞对手，让自己处于不败之地。有单人或多人游戏模式，最多可以4位好友一起在分割画面中比赛，或是线上和最多8位玩家来一场终极赛车。
+
+game: 索尼克冲刺 极限版
+file: SonicDashExtreme\
+sort-by: 096
+developer: 索尼克冲刺 极限版
+launch: "{env.appdir}\Roms\TeknoParrot\SonicDashExtreme\exe\ArcCabView_Launcher.exe"
+genre: RAC
+description: 《索尼克冲刺 极限版》（Sonic Dash Extreme）是由Hardlight开发、世嘉公司发行的跑酷动作游戏，于2013年公开发行，登陆iOS、Android、Windows Phone和Windows平台，另有街机版本《索尼克冲刺 极限版》。
+
+game: FF摩托 2
+file: FNFSB2\
+sort-by: 097
+developer: FF摩托 2
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=FNFSB2.xml
+genre: RAC
+description: 《FF摩托II》（Super Bikes II）街机拥有42英寸的液晶显示屏、10条从未见过的赛道、全新的灯光秀和无数令人兴奋的效果！随战斗机攻击不明飞行物，穿越摩押，进入巴黎闹鬼的地下墓穴，躲避超空间中的巨型蠕虫。逃离泰国丛林中的大象，跳过拉斯维加斯熊熊燃烧的篮球圈，在西班牙与公牛一起奔跑，在喜马拉雅山脉令人难以置信的白雪覆盖的山顶上巡游。《Super Bikes 2》保留了最初的《Super Bikes》中所有令人兴奋的组件，从9名骑手和12辆自行车中进行选择，还包括发动机、贴花、轮胎等多项精心升级！玩家可以创建一个唯一的密码来保存和跟踪他们的统计数据。
+
+game: 披萨骇客
+file: Radikal Bikes\
+sort-by: 098
+developer: 披萨骇客
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=RadikalBikers.xml
+genre: RAC
+description: 《Radikal Bikers》于1998年由Gaelco发布。Gaelco从1990年开始以这个名称发行了25种不同的机器。在一场摩托车比赛中，你将扮演一个披萨配送员，试图在对手到达之前将披萨送到选定的目的地。游戏过程中可获取额外动力和速度的奖励道具。这款游戏被授权给雅达利，这就是为什么会在街机机台上看到雅达利的商标。
+
+game: 滑雪摩托
+file: SnoCross\
+sort-by: 099
+developer: 滑雪摩托
+launch: "{env.appdir}\Roms\TeknoParrot\SnoCross\sdaemon.exe"
+genre: RAC
+description: 《滑雪摩托》（SnoCross）是一款超级刺激好玩的摩托特技竞技3D游戏。玩家在游戏中通过闯关来解锁不同性能和型号款式的摩托赛车，并驾驶摩托车在赛道上比赛。场景多样、多重竞技模式、更多关卡让你充满新鲜与刺激。
+
+game: 水上赛艇
+file: H2Overdrive\
+sort-by: 100
+developer: 水上赛艇
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=H2Overdrive.xml
+genre: RAC
+description: 该游戏由Specular Interactive开发，该公司由前Midway San Diego员工和Hydro Thunder创作者Steve Ranck组成。游戏由Raw Thrills于2009年1月在国际娱乐贸易展览会上发布，被视为HydroThunder的精神继承者，最初命名为HydroThunder2，后来更名为现名；中途岛原本打算为该游戏制作续集，但该计划后来被取消，《H2Overdrive》发行的同年，中途岛也将宣布破产。
+
+game: VR网球 4
+file: Virtua Tennis 4\
+sort-by: 101
+developer: VR网球 4
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=VT4.xml
+genre: SPO
+description: 《VR网球4》在日本被称为“PowerSmash4”，是一款由世嘉为PlayStation3、Xbox360、任天堂Wii和WindowsPC开发和发布的体育游戏。还有一个街机版本，在世嘉RingEdge上运行。它是VR网球3的续集，是该系列中第一款直接在家用游戏机上发布后才在街机上发布的游戏。
+
+game: 卡西里
+file: Kasiori\
+sort-by: 102
+developer: 卡西里
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=Kasiori.xml
+genre: ETC
+description: 《Kasiori》是一款具有单人故事模式和双人模式的休闲消除益智游戏。它于2021年11月26日在ALL.Net P-ras Multi Version 3街机上发行。这款游戏以甜点为主题，画风十分可爱，喜爱休闲游戏的玩家不要错过。
+
+game: 魔法气泡 电子竞技
+file: Puyo Puyo eSports\
+sort-by: 103
+developer: 魔法气泡 电子竞技
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=PuyoPuyoEsports.xml
+genre: ETC
+description: 《魔法气泡 电子竞技》（PuyoPuyo eSports）在演示中看起来与2014年的《魔法气泡：俄罗斯方块》非常相似，但没有俄罗斯方块部分。电子竞技专注于水滴拼图游戏，其规则来自于之前的两款游戏：《PuyoPuyo 2》（1994年首次发行）和《PuyoPuyo Fever》（2003年首次发行）。《魔法气泡 电子竞技》将拥有来自整个授权的24名角色。
+
+game: 俄罗斯方块大师3 恐怖直觉
+file: Tetris The Grand Master 3 Terror Instinct\
+sort-by: 104
+developer: 俄罗斯方块大师3 恐怖直觉
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=TetrisTheGrandMaster3TerrorInstinct.xml
+genre: ETC
+description: 《俄罗斯方块大师3：恐怖直觉》（Tetris The Grand Master 3: Terror-Instinct，简称 TGM3 或 Ti）是街机俄罗斯方块游戏系列“TGM”（俄罗斯方块大师）的第三作。该游戏将许多细节向俄罗斯方块准则靠拢，高速域随之全面增强。新性能（3 Next、暂存块、踢地、SRS）激发出玩家的恐怖本能，游戏因此得名。该游戏实现了“段位考试”的机制，最高段位“Grand Master”需要多局卓越才能取得。Arika 原计划将 TGM3 推及北美，受俄罗斯方块公司版权限制，未能完成。
+
+game: 不要跌倒
+file: DoNotFallRunforYourDrink\
+sort-by: 105
+developer: 不要跌倒
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=DoNotFallRunforYourDrink.xml
+genre: ETC
+description: 《不要跌倒》（Do Not Fall - Run for Your Drink）是一款激烈刺激的动作街机游戏。您将扮演一个无畏的冒险家，经历七个不同的冒险世界，收集足够的原料，让机器生产饮料！这听起来很简单，看起来也很简单，但玩家需要证明他们的反应足够快，以躲避沿途消失的瓷砖、障碍物和陷阱。玩家将尽一切努力避免被击倒或从地面跌落！如果你想在不同的多人游戏模式中挑战其他玩家，也可以使用多人游戏。所以，召集你的朋友，开始一场精彩的战斗，看看谁将成为球场上的王者。你可以快跑，你可以冲刺，你可以跳跃，然而，无论你做什么，都不要摔倒！
+
+game: 太鼓达人 虹色
+file: Taiko no Tatsujin Nijiro ver\
+sort-by: 106
+developer: 太鼓达人 虹色
+launch: "{env.appdir}\Emulators\TeknoParrot\TeknoParrotUi.exe" --profile=Taiko.xml
+genre: MUS
+description: 《太鼓の達人 ニジイロ》（太鼓达人 虹色版）发行于2020年3月24日，为第三代街机框体，屏幕刷新率变更为120Hz，增加了二维码扫描器。基于PC的Namco System BNA1。曲目列表变为横书，目前尚未发行亚洲版。
+

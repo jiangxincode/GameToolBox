@@ -1,0 +1,2347 @@
+collection: FC hack
+sort-by: 023
+extensions: nes, 7z, zip
+launch: "{env.appdir}\RetroArch\retroarch.exe" -L "{env.appdir}\RetroArch\cores\fceumm_libretro.dll" "{file.path}"
+
+game: 重装机兵 超级加强版
+file: 重装机兵 超级加强版.zip
+sort-by: 001
+developer: 重装机兵 超级加强版
+description: 能力全满，商店最强武器全开，特殊炮弹全开，怪变强。
+
+game: 重装机兵 稀有物品版
+file: 重装机兵 稀有物品版.zip
+sort-by: 002
+developer: 重装机兵 稀有物品版
+description: 1.添加了稀有物品（装备、道具、钢甲,V100等超级装备都可买到,而且不破坏游戏平衡）2.人物属性略调整 3.添加稀有炮弹（水泥弹,据测试人员说此弹效果是使中弹者无法逃跑,无法攻击,无法防御） 4.添加超强V48（在MM里有两种V48，我们在游戏里所见和买的都是弱型，强的没卖的,此种可以改造到V100）
+
+game: 重装机兵superhack
+file: 重装机兵superhack.zip
+sort-by: 003
+developer: 重装机兵superhack
+description: 网友改版，地图改动非常大。游戏加入了很多新要素，难度也比较高，值得一玩。
+
+game: 赤影战士可视化
+file: 赤影战士可视化.zip
+sort-by: 004
+developer: 赤影战士可视化
+description: 可视化可在暂停后按选择键，开启作弊选项。
+
+game: 赤色要塞EX
+file: 赤色要塞EX.zip
+sort-by: 005
+developer: 赤色要塞EX
+description: 关卡改动版，地图改变，增加了难度。
+
+game: 赤色要塞汉化版
+file: 赤色要塞汉化版.zip
+sort-by: 006
+developer: 赤色要塞汉化版
+description: 无敌，火力Max，增加的是透明无敌效果，救一个特殊俘虏火力直接满级，但是游戏有无法卸载俘虏的Bug。
+
+game: 赤色要塞可视化
+file: 赤色要塞可视化.zip
+sort-by: 007
+developer: 赤色要塞可视化
+description: 可视化可在暂停后按选择键，开启作弊选项。
+
+game: 赤色要塞士兵
+file: 赤色要塞士兵.zip
+sort-by: 008
+developer: 赤色要塞士兵
+description: 控制士兵版，子弹变成直升机，攻击力超快，炸弹速度很快，玩起来很爽。
+
+game: 赤色要塞坦克版
+file: 赤色要塞坦克版.zip
+sort-by: 009
+developer: 赤色要塞坦克版
+description: 坦克无敌，可撞死敌人，全屏攻击，机枪子弹变爆破弹，按开始键可直接过关。
+
+game: 绿色兵团改版
+file: 绿色兵团改版.zip
+sort-by: 010
+developer: 绿色兵团改版
+description: 2008年的hack版，地图关卡改变，难度加大，子弹无限。
+
+game: 绿色兵团汉化版
+file: 绿色兵团汉化版.zip
+sort-by: 011
+developer: 绿色兵团汉化版
+description: 无限金身，子弹无限。
+
+game: 绿色兵团金身
+file: 绿色兵团金身.zip
+sort-by: 012
+developer: 绿色兵团金身
+description: 金身无敌，子弹无限。
+
+game: 绿色兵团强化
+file: 绿色兵团强化.zip
+sort-by: 013
+developer: 绿色兵团强化
+description: AB键换武器，子弹无限，选择键全屏攻击
+
+game: 三目童子超级版
+file: 三目童子超级版.zip
+sort-by: 014
+developer: 三目童子超级版
+description: HP不减，无限跳，拥有全部装备，选择键切换全屏攻击。
+
+game: 三目童子汉化版1
+file: 三目童子汉化版1.zip
+sort-by: 015
+developer: 三目童子汉化版1
+description: 无敌、初始全武器、死亡后武器不掉落。PS：普通模式下悬崖营救的天人鸟使用后需要再次购买。
+
+game: 三目童子汉化版2
+file: 三目童子汉化版2.zip
+sort-by: 016
+developer: 三目童子汉化版2
+description: 1、开始画面处按1P的A+B键开启选关模式；2、开始画面处按1P的SELECT键进入调试模式；3、按START进入游戏瞬间，随意按住或连续按任意键就可以加钱；4、初始直接拥有所有道具，摔死后需要重新购买道具。5、无限命；6、使箭瞬发。7、无敌；注：如果先用SELECT键进入调试模式再退出后，请使用左右方向键选难度再按START键进入游戏！避免进错游戏难度模式。
+
+game: 三目童子速射版
+file: 三目童子速射版.zip
+sort-by: 017
+developer: 三目童子速射版
+description: 子弹连射，不是无敌
+
+game: 古巴英雄
+file: 古巴英雄.zip
+sort-by: 018
+developer: 古巴英雄
+description: 无敌，火焰枪，坦克无限使用，可过断桥。
+
+game: 古巴英雄汉化版
+file: 古巴英雄汉化版.zip
+sort-by: 019
+developer: 古巴英雄汉化版
+description: 无敌、坦克时间不减，增加的是透明无敌效果，驾驶的坦克也不会自爆。
+
+game: 影子传说
+file: 影子传说.zip
+sort-by: 020
+developer: 影子传说
+description: 不死，8向手里剑。
+
+game: 影子传说汉化版
+file: 影子传说汉化版.zip
+sort-by: 021
+developer: 影子传说汉化版
+description: 无敌、八方手里剑，黄色忍者服可以抵挡一次必杀攻击，因此等同于无敌效果。
+
+game: 月风魔传可视化
+file: 月风魔传可视化.zip
+sort-by: 022
+developer: 月风魔传可视化
+description: 可视化可在暂停后按选择键，开启作弊选项。
+
+game: 月风魔传中文
+file: 月风魔传中文.zip
+sort-by: 023
+developer: 月风魔传中文
+description: 无敌，无数命，无限能量，浮空连环跳，一击必杀。
+
+game: 圣铃传说
+file: 圣铃传说.zip
+sort-by: 024
+developer: 圣铃传说
+description: HP不减
+
+game: 魂斗罗1红隼的复仇
+file: 魂斗罗1红隼的复仇.zip
+sort-by: 025
+developer: 魂斗罗1红隼的复仇
+description: 红隼的复仇，是国外HACK大神Trax制作的FC初代魂斗罗超强改版，游戏的难度非常之大，每关的关卡的长度最少是原版的3倍，敌方的子弹速度变快，尤其是坦克，调整炮头的速度非常之快，在第1关和第3关让人防不胜防。特点：1、每一关的长度增长了接近3倍；2、小兵发射子弹速度加快，每次发射子弹数量增加；3、路上有很多突然飞出的炸弹，要特别小心；4、boss难度略有增加，某些关卡boss攻击有先后顺序的要求，否则攻击无效；5、小兵发射子弹的范围变大，玩家躲避的空间变小 6、游戏奖励人命的分数更加合理了，一般过一关可以奖励两条命。
+
+game: 魂斗罗1可视化
+file: 魂斗罗1可视化.zip
+sort-by: 026
+developer: 魂斗罗1可视化
+description: 可视化可在暂停后按选择键，开启作弊选项。
+
+game: 魂斗罗2可视化
+file: 魂斗罗2可视化.zip
+sort-by: 027
+developer: 魂斗罗2可视化
+description: 开头可选关，可视化可在暂停后按选择键，开启作弊选项。
+
+game: 魂斗罗3力量
+file: 魂斗罗3力量.zip
+sort-by: 028
+developer: 魂斗罗3力量
+description: 命数不减，无限跳，大跳，死后枪不掉，无限使用道具
+
+game: 魂斗罗3力量汉化版
+file: 魂斗罗3力量汉化版.zip
+sort-by: 029
+developer: 魂斗罗3力量汉化版
+description: 无敌、生命不减、初始角色火力Max、死亡后武器不掉落，本想修改全员火力Max，无奈技术有限，超频会导致第三关卡关，关闭或更换超频模式即可。
+
+game: 魂斗罗7超级战魂
+file: 魂斗罗7超级战魂.zip
+sort-by: 030
+developer: 魂斗罗7超级战魂
+description: 命数不减
+
+game: 大金刚1
+file: 大金刚1.zip
+sort-by: 031
+developer: 大金刚1
+description: 无敌
+
+game: 大金刚1汉化版
+file: 大金刚1汉化版.zip
+sort-by: 032
+developer: 大金刚1汉化版
+description: 生命不减、无敌，增加的是透明无敌效果。
+
+game: 大金刚2
+file: 大金刚2.zip
+sort-by: 033
+developer: 大金刚2
+description: 无敌
+
+game: 大金刚2汉化版
+file: 大金刚2汉化版.zip
+sort-by: 034
+developer: 大金刚2汉化版
+description: 生命不减、无敌，增加的是透明无敌效果。
+
+game: 大金刚3
+file: 大金刚3.zip
+sort-by: 035
+developer: 大金刚3
+description: 无敌
+
+game: 大金刚3汉化版
+file: 大金刚3汉化版.zip
+sort-by: 036
+developer: 大金刚3汉化版
+description: 无敌、红色子弹，修复红色子弹在第三关之后会消失的Bug。
+
+game: 超级马里奥1超级版
+file: 超级马里奥1超级版.zip
+sort-by: 037
+developer: 超级马里奥1超级版
+description: 10命，火力花全屏攻击，无限跳
+
+game: 超级马里奥1汉化版
+file: 超级马里奥1汉化版.zip
+sort-by: 038
+developer: 超级马里奥1汉化版
+description: 人物状态锁定。
+
+game: 超级马里奥1闪光无敌
+file: 超级马里奥1闪光无敌.zip
+sort-by: 039
+developer: 超级马里奥1闪光无敌
+description: 闪光无敌
+
+game: 超级马里奥2美版强化1
+file: 超级马里奥2美版强化1.zip
+sort-by: 040
+developer: 超级马里奥2美版强化1
+description: HP不减，所有人可无限浮空
+
+game: 超级马里奥2美版强化2
+file: 超级马里奥2美版强化2.zip
+sort-by: 041
+developer: 超级马里奥2美版强化2
+description: 所有人可无限跳，全屏攻击，选择键换人。
+
+game: 超级马里奥3汉化版
+file: 超级马里奥3汉化版.zip
+sort-by: 042
+developer: 超级马里奥3汉化版
+description: 调宝物、状态锁定、飞行能量不减（需要有尾巴，起飞一次），按B键后再按Select键可调宝物，遇敌后状态不变，但也有拾取道具无效的Bug。
+
+game: 超级马里奥3换装超级版
+file: 超级马里奥3换装超级版.zip
+sort-by: 043
+developer: 超级马里奥3换装超级版
+description: 30命，无限道具，按选择键换装，火球和锤子全屏攻击，无限跳
+
+game: 超级马里奥3可视化调宝
+file: 超级马里奥3可视化调宝.zip
+sort-by: 044
+developer: 超级马里奥3可视化调宝
+description: 可视化版本，还可以在地图上按键B键，然后再按选择键可以调宝
+
+game: 超级马里奥水管工
+file: 超级马里奥水管工.zip
+sort-by: 045
+developer: 超级马里奥水管工
+description: 命数不减
+
+game: 超级马里奥水管工汉化版
+file: 超级马里奥水管工汉化版.zip
+sort-by: 046
+developer: 超级马里奥水管工汉化版
+description: Pow不减、生命不减、时间不减，无敌效果有卡关Bug，因此放弃。
+
+game: 塞尔达传说
+file: 塞尔达传说.zip
+sort-by: 047
+developer: 塞尔达传说
+description: 中文，HP不减，碰到敌人后武器等级不减。
+
+game: 恶魔城1
+file: 恶魔城1.zip
+sort-by: 048
+developer: 恶魔城1
+description: 透明无敌
+
+game: 恶魔城1可视化
+file: 恶魔城1可视化.zip
+sort-by: 049
+developer: 恶魔城1可视化
+description: 可选难度。按select武器任选，另外可开启和关闭无敌。
+
+game: 恶魔城2
+file: 恶魔城2.zip
+sort-by: 050
+developer: 恶魔城2
+description: HP无限
+
+game: 恶魔城3
+file: 恶魔城3.zip
+sort-by: 051
+developer: 恶魔城3
+description: HP不减，心不减，命数不减
+
+game: 恶魔城外传 王子传奇
+file: 恶魔城外传 王子传奇.zip
+sort-by: 052
+developer: 恶魔城外传 王子传奇
+description: HP不减
+
+game: 魔界村
+file: 魔界村.zip
+sort-by: 053
+developer: 魔界村
+description: 无敌，无限跳，在空中时可往回跳。
+
+game: 柯纳米世界1
+file: 柯纳米世界1.zip
+sort-by: 054
+developer: 柯纳米世界1
+description: 无敌，全武器，全屏攻击
+
+game: 柯纳米世界2
+file: 柯纳米世界2.zip
+sort-by: 055
+developer: 柯纳米世界2
+description: HP不减
+
+game: 洛克人1
+file: 洛克人1.zip
+sort-by: 056
+developer: 洛克人1
+description: 选择键切无敌
+
+game: 洛克人2
+file: 洛克人2.zip
+sort-by: 057
+developer: 洛克人2
+description: 选择键切无敌
+
+game: 洛克人3
+file: 洛克人3.zip
+sort-by: 058
+developer: 洛克人3
+description: 选择键切无敌，↑+选择 存档，↓+选择 读档。
+
+game: 洛克人4可视化
+file: 洛克人4可视化.zip
+sort-by: 059
+developer: 洛克人4可视化
+description: 按选择键，开启作弊选项。
+
+game: 洛克人5可视化
+file: 洛克人5可视化.zip
+sort-by: 060
+developer: 洛克人5可视化
+description: 按选择键，开启作弊选项。
+
+game: 洛克人6可视化
+file: 洛克人6可视化.zip
+sort-by: 061
+developer: 洛克人6可视化
+description: 按选择键，开启作弊选项。
+
+game: 怒1
+file: 怒1.zip
+sort-by: 062
+developer: 怒1
+description: 命数不减无限雷
+
+game: 怒2
+file: 怒2.zip
+sort-by: 063
+developer: 怒2
+description: 无敌
+
+game: 怒3
+file: 怒3.zip
+sort-by: 064
+developer: 怒3
+description: HP不减，↑+开始变出油桶，←或→+开始变出无限子弹机枪。
+
+game: 荒野大镖客汉化版
+file: 荒野大镖客汉化版.zip
+sort-by: 065
+developer: 荒野大镖客汉化版
+description: 无敌、能力Max、全武器，增加的是闪烁无敌效果。
+
+game: 荒野大镖客无敌
+file: 荒野大镖客无敌.zip
+sort-by: 066
+developer: 荒野大镖客无敌
+description: 无敌
+
+game: 荒野大镖客无限弹
+file: 荒野大镖客无限弹.zip
+sort-by: 067
+developer: 荒野大镖客无限弹
+description: 初始就可以按选择键使用每种枪的无限子弹，但不无敌
+
+game: 双截龙1
+file: 双截龙1.zip
+sort-by: 068
+developer: 双截龙1
+description: HP不减，命数不减，时间无限
+
+game: 双截龙2BOSS版
+file: 双截龙2BOSS版.zip
+sort-by: 069
+developer: 双截龙2BOSS版
+description: 使用最终boss
+
+game: 双截龙2汉化版
+file: 双截龙2汉化版.zip
+sort-by: 070
+developer: 双截龙2汉化版
+description: 无敌、生命不减，增加的是透明无敌效果，被擒拿抓住后还是会受伤。
+
+game: 双截龙2可视化
+file: 双截龙2可视化.zip
+sort-by: 071
+developer: 双截龙2可视化
+description: 可视化可在暂停后按选择键，开启作弊选项。 暂停后↑+b存档，↓+b读档。
+
+game: 双截龙3BOSS版
+file: 双截龙3BOSS版.zip
+sort-by: 072
+developer: 双截龙3BOSS版
+description: ↑或↓+开始，可使用boss。
+
+game: 双截龙3刀魂剑魄无限血
+file: 双截龙3刀魂剑魄无限血.zip
+sort-by: 073
+developer: 双截龙3刀魂剑魄无限血
+description: 一人可以使用双人必杀，武器按方向+攻击后使出。
+
+game: 双截龙3汉化版
+file: 双截龙3汉化版.zip
+sort-by: 074
+developer: 双截龙3汉化版
+description: 无敌、血槽不减、武器数不减，增加的是透明无敌效果。
+
+game: 双截龙3可视化
+file: 双截龙3可视化.zip
+sort-by: 075
+developer: 双截龙3可视化
+description: 可视化可在暂停后按选择键，开启作弊选项。
+
+game: 松鼠大战1
+file: 松鼠大战1.zip
+sort-by: 076
+developer: 松鼠大战1
+description: HP不减
+
+game: 松鼠大战1改版
+file: 松鼠大战1改版.zip
+sort-by: 077
+developer: 松鼠大战1改版
+description: 2018年的hack，为地图重制版
+
+game: 松鼠大战1汉化版
+file: 松鼠大战1汉化版.zip
+sort-by: 078
+developer: 松鼠大战1汉化版
+description: 无敌
+
+game: 松鼠大战2
+file: 松鼠大战2.zip
+sort-by: 079
+developer: 松鼠大战2
+description: HP不减
+
+game: 松鼠大战2汉化版
+file: 松鼠大战2汉化版.zip
+sort-by: 080
+developer: 松鼠大战2汉化版
+description: HP不减
+
+game: 冒险岛1汉化版
+file: 冒险岛1汉化版.zip
+sort-by: 081
+developer: 冒险岛1汉化版
+description: 无敌、生命不减、时间不减、火力Max、无限跳、滑板无效。此版有两处Bug：1、要跳跃触碰仙子蛋，不然人物模型会消失，2、Boos战时触碰Boos身体会卡关。
+
+game: 冒险岛1无敌版
+file: 冒险岛1无敌版.zip
+sort-by: 082
+developer: 冒险岛1无敌版
+description: 无敌，时间不减
+
+game: 冒险岛2汉化版
+file: 冒险岛2汉化版.zip
+sort-by: 083
+developer: 冒险岛2汉化版
+description: 无敌、时间不减，此版时间不减不影响过关结算。
+
+game: 冒险岛2换龙版
+file: 冒险岛2换龙版.zip
+sort-by: 084
+developer: 冒险岛2换龙版
+description: 选择键换龙，选择键+↑命数无限，选择键+↓龙不死，选择键+←时间无限。
+
+game: 冒险岛2无敌版
+file: 冒险岛2无敌版.zip
+sort-by: 085
+developer: 冒险岛2无敌版
+description: 无敌，全屏攻击，无限跳。
+
+game: 冒险岛3汉化版
+file: 冒险岛3汉化版.zip
+sort-by: 086
+developer: 冒险岛3汉化版
+description: 无敌、时间不减、按Start关闭无敌（只限本关卡有效），Boos战时触碰Boos身体无敌会无效，最终Boos打败后跳入飞碟前，必须关闭无敌，不然会卡结局。
+
+game: 冒险岛3可视化
+file: 冒险岛3可视化.zip
+sort-by: 087
+developer: 冒险岛3可视化
+description: 可视化可在暂停后按选择键，开启作弊选项。
+
+game: 冒险岛4汉化版
+file: 冒险岛4汉化版.zip
+sort-by: 088
+developer: 冒险岛4汉化版
+description: 无敌、水果数7，水果数7个可以在玩小游戏时占尽优势，吃了五角星会有透明后变不回实体的Bug。
+
+game: 冒险岛4可视化
+file: 冒险岛4可视化.zip
+sort-by: 089
+developer: 冒险岛4可视化
+description: 该游戏可视化和其它游戏不一样，需要先按选择键，再按开始键，开启作弊选项。
+
+game: 热血硬派
+file: 热血硬派.zip
+sort-by: 090
+developer: 热血硬派
+description: 命数不减数，但不是HP不减。会死掉。
+
+game: 热血物语汉化版
+file: 热血物语汉化版.zip
+sort-by: 091
+developer: 热血物语汉化版
+description: 血槽不减、能力Max、金钱不减，出现对话框就闪屏的Bug是汉化组遗留下来的问题，目前无解。
+
+game: 热血高校躲避球
+file: 热血高校躲避球.zip
+sort-by: 092
+developer: 热血高校躲避球
+description: 无敌
+
+game: 热血格斗
+file: 热血格斗.zip
+sort-by: 093
+developer: 热血格斗
+description: 单人出合体技 fight字样时  选择+B变老虎  选择+↑合体跳  选择+↓乱踩  ↑+b重击  ↓+b俯冲  ↑+ab带电  选择+←全技能1  选择+→全技能2 进入游戏后 出现FIGHT字样 时按SELECT+B 我方就变老虎了 因为在战斗中按S+左和S+右 就能获得全技能 所以也不在乎 虎1和虎2了。不管什么模式都可以出合体技，而且是单人就可以出，只要连按拳就可以了 但是只有有马赫拳技能 的人才可以出。并且把某些需要冲刺跳起后才能出的招改成原地跳起就能使出,修改了踩地雷受火属性 撞墙为电属性 撞针刺地形为风属性，马赫技能能解除任何硬直 角落无限连技。锁定了中间那颗地雷 可以无限踩，减小了地雷的伤害。过了一关后变会原来的人物，想用虎了就按一下，不想用了就不按，但是全技能貌似保留的 不用再按了 因为这些技能能随时出 也就可以取消任何硬直。
+
+game: 热血进行曲
+file: 热血进行曲.zip
+sort-by: 094
+developer: 热血进行曲
+description: 招式修改，HP不减。
+
+game: 热血篮球
+file: 热血篮球.zip
+sort-by: 095
+developer: 热血篮球
+description: 无限跳跃
+
+game: 热血曲棍球
+file: 热血曲棍球.zip
+sort-by: 096
+developer: 热血曲棍球
+description: 加强版
+
+game: 热血足球联盟
+file: 热血足球联盟.zip
+sort-by: 097
+developer: 热血足球联盟
+description: 无限跳
+
+game: 热血足球联盟汉化版
+file: 热血足球联盟汉化版.zip
+sort-by: 098
+developer: 热血足球联盟汉化版
+description: 修改队员体力提升、射门提升、防御提升、必杀替换。修改队员分别是，9号国夫、8号赖常、7号海月、2号崛端4号宇贺神、1号元永。
+
+game: 忍者龙剑传1可视化
+file: 忍者龙剑传1可视化.zip
+sort-by: 099
+developer: 忍者龙剑传1可视化
+description: 可视化可在暂停后按选择键，开启作弊选项。
+
+game: 忍者龙剑传2汉化版
+file: 忍者龙剑传2汉化版.zip
+sort-by: 100
+developer: 忍者龙剑传2汉化版
+description: 无敌、生命不减、忍术不减、分身2个，增加的是透明无敌效果。
+
+game: 忍者龙剑传2可视化
+file: 忍者龙剑传2可视化.zip
+sort-by: 101
+developer: 忍者龙剑传2可视化
+description: 可视化可在暂停后按选择键，开启作弊选项。
+
+game: 忍者龙剑传3汉化版
+file: 忍者龙剑传3汉化版.zip
+sort-by: 102
+developer: 忍者龙剑传3汉化版
+description: 无敌、生命不减、忍术不减、初始龙剑，增加的是透明无敌效果。
+
+game: 忍者龙剑传3可视化
+file: 忍者龙剑传3可视化.zip
+sort-by: 103
+developer: 忍者龙剑传3可视化
+description: 可视化可在暂停后按选择键，开启作弊选项。
+
+game: 忍者神龟1
+file: 忍者神龟1.zip
+sort-by: 104
+developer: 忍者神龟1
+description: HP不减
+
+game: 忍者神龟1汉化版
+file: 忍者神龟1汉化版.zip
+sort-by: 105
+developer: 忍者神龟1汉化版
+description: 无敌，道具无限，时间无限。
+
+game: 忍者神龟2
+file: 忍者神龟2.zip
+sort-by: 106
+developer: 忍者神龟2
+description: 命数无限
+
+game: 忍者神龟2汉化版
+file: 忍者神龟2汉化版.zip
+sort-by: 107
+developer: 忍者神龟2汉化版
+description: 体力不减、无敌，增加的是透明无敌效果（需要被打一次后生效）。
+
+game: 忍者神龟2无敌
+file: 忍者神龟2无敌.zip
+sort-by: 108
+developer: 忍者神龟2无敌
+description: 无敌，半屏攻击
+
+game: 忍者神龟3
+file: 忍者神龟3.zip
+sort-by: 109
+developer: 忍者神龟3
+description: 必杀不扣血，命数无限。
+
+game: 忍者神龟3汉化版
+file: 忍者神龟3汉化版.zip
+sort-by: 110
+developer: 忍者神龟3汉化版
+description: 体力不减、必杀不减血、无敌，增加的是透明无敌效果（需要被打一次后生效）。
+
+game: 忍者神龟格斗汉化版
+file: 忍者神龟格斗汉化版.zip
+sort-by: 111
+developer: 忍者神龟格斗汉化版
+description: 血量不减，时间不减，珠子无限。
+
+game: 忍者神龟格斗可视化
+file: 忍者神龟格斗可视化.zip
+sort-by: 112
+developer: 忍者神龟格斗可视化
+description: 可选boss，可视化可在暂停后按选择键，开启作弊选项。
+
+game: 忍者蛙
+file: 忍者蛙.zip
+sort-by: 113
+developer: 忍者蛙
+description: 1、没有接关次数；2、选择键加命；3、开始键获得3秒无敌；4、命小于或等于4时跑到最快时按开始键强制出大皮鞋。
+
+game: 忍者蛙和双截龙
+file: 忍者蛙和双截龙.zip
+sort-by: 114
+developer: 忍者蛙和双截龙
+description: 命数无限
+
+game: 忍者猫
+file: 忍者猫.zip
+sort-by: 115
+developer: 忍者猫
+description: HP不减，能量无限
+
+game: 忍者猫汉化版
+file: 忍者猫汉化版.zip
+sort-by: 116
+developer: 忍者猫汉化版
+description: 无敌、忍术Max、能量不减、援助不减、无限跳，增加的是透明无敌效果，有无法拾取道具和踩不到掉落踏板的Bug。
+
+game: 坦克大战半屏
+file: 坦克大战半屏.zip
+sort-by: 117
+developer: 坦克大战半屏
+description: 攻击可达到半屏
+
+game: 坦克大战可视化
+file: 坦克大战可视化.zip
+sort-by: 118
+developer: 坦克大战可视化
+description: 可视化可在暂停后按选择键，开启作弊选项。
+
+game: 炸弹人1不死
+file: 炸弹人1不死.zip
+sort-by: 119
+developer: 炸弹人1不死
+description: 不会死，但状态不是最强。
+
+game: 炸弹人1汉化版
+file: 炸弹人1汉化版.zip
+sort-by: 120
+developer: 炸弹人1汉化版
+description: 无敌、能力Max、透视墙壁，初始火力Max炸弹数Max速度Max，可以遥控炸弹、穿墙、穿炸弹。
+
+game: 炸弹人1强化1
+file: 炸弹人1强化1.zip
+sort-by: 121
+developer: 炸弹人1强化1
+description: 选择键变最强状态，全屏攻击，但会死。
+
+game: 炸弹人1强化2
+file: 炸弹人1强化2.zip
+sort-by: 122
+developer: 炸弹人1强化2
+description: 火力最强，AB开启无敌，炸不死自己，但碰到敌人会死，选择键开启全屏攻击。
+
+game: 炸弹人2汉化版
+file: 炸弹人2汉化版.zip
+sort-by: 123
+developer: 炸弹人2汉化版
+description: 无敌、威力5、炸弹数8，初始就炸弹火力Max和炸弹数Max。
+
+game: 炸弹人2可视化
+file: 炸弹人2可视化.zip
+sort-by: 124
+developer: 炸弹人2可视化
+description: 可视化可在暂停后按选择键，开启作弊选项。
+
+game: 唐老鸭大冒险1
+file: 唐老鸭大冒险1.zip
+sort-by: 125
+developer: 唐老鸭大冒险1
+description: HP不减，时间、命数不减。
+
+game: 唐老鸭大冒险2
+file: 唐老鸭大冒险2.zip
+sort-by: 126
+developer: 唐老鸭大冒险2
+description: 无敌
+
+game: 三国志2 霸王的大陆
+file: 三国志2 霸王的大陆.zip
+sort-by: 127
+developer: 三国志2 霸王的大陆
+description: 日文版，备用兵无限，机动力无限
+
+game: 三国志2 霸王的大陆超级版
+file: 三国志2 霸王的大陆超级版.zip
+sort-by: 128
+developer: 三国志2 霸王的大陆超级版
+description: 日文版，资源999
+
+game: 西游记1
+file: 西游记1.zip
+sort-by: 129
+developer: 西游记1
+description: 金箍棒，金钱无限，瓶子无限
+
+game: 西游记1汉化版
+file: 西游记1汉化版.zip
+sort-by: 130
+developer: 西游记1汉化版
+description: 全装备、全宝物，初始全装备需要在佛祖那领取，血槽不减会卡关，透明无敌影响视觉体验，因此都放弃。
+
+game: 西游记1可视化
+file: 西游记1可视化.zip
+sort-by: 131
+developer: 西游记1可视化
+description: 选择键+A进入可视化作弊菜单
+
+game: 西游记2
+file: 西游记2.zip
+sort-by: 132
+developer: 西游记2
+description: 无敌
+
+game: 西游记2汉化版
+file: 西游记2汉化版.zip
+sort-by: 133
+developer: 西游记2汉化版
+description: 无敌、血槽不减、全道具，全武器效果有卡关Bug，因此需要慢慢收集。
+
+game: 火焰纹章1
+file: 火焰纹章1.zip
+sort-by: 134
+developer: 火焰纹章1
+description: 超级版
+
+game: 火焰纹章外传
+file: 火焰纹章外传.zip
+sort-by: 135
+developer: 火焰纹章外传
+description: 超级版
+
+game: 合金装备1
+file: 合金装备1.zip
+sort-by: 136
+developer: 合金装备1
+description: 无敌
+
+game: 合金装备2
+file: 合金装备2.zip
+sort-by: 137
+developer: 合金装备2
+description: 被攻击一次后无敌，无限子弹
+
+game: 七宝奇谋1
+file: 七宝奇谋1.zip
+sort-by: 138
+developer: 七宝奇谋1
+description: 无敌，时间999秒
+
+game: 七宝奇谋2
+file: 七宝奇谋2.zip
+sort-by: 139
+developer: 七宝奇谋2
+description: HP不减
+
+game: 九人街霸降龙版
+file: 九人街霸降龙版.zip
+sort-by: 140
+developer: 九人街霸降龙版
+description: 按A键可连续出大招，可在屏幕随意移动，出招连续不间断，屈死电脑。波动拳自动追踪对手。
+
+game: 龙珠Z2
+file: 龙珠Z2.zip
+sort-by: 141
+developer: 龙珠Z2
+description: 卡牌攻防最大，训练随意选牌，牌字通用，布尔玛丹迪无限制，BT不减，移动最大。
+
+game: 龙珠Z外传
+file: 龙珠Z外传.zip
+sort-by: 142
+developer: 龙珠Z外传
+description: 训练简化，气功波出手必中，木板气力最大，初始7牌，逃跑必成功。
+
+game: 敲冰块
+file: 敲冰块.zip
+sort-by: 143
+developer: 敲冰块
+description: 无敌，无限跳
+
+game: 马戏团
+file: 马戏团.zip
+sort-by: 144
+developer: 马戏团
+description: 无敌，命数不减，无限跳
+
+game: 花式撞球汉化版
+file: 花式撞球汉化版.zip
+sort-by: 145
+developer: 花式撞球汉化版
+description: 无限杆
+
+game: 花式撞球随意摆球
+file: 花式撞球随意摆球.zip
+sort-by: 146
+developer: 花式撞球随意摆球
+description: 按住选择键可任意摆球
+
+game: 花式撞球无限杆
+file: 花式撞球无限杆.zip
+sort-by: 147
+developer: 花式撞球无限杆
+description: 无限杆
+
+game: 1943
+file: 1943.zip
+sort-by: 148
+developer: 1943
+description: 可视化可在暂停后按选择键，开启作弊选项。
+
+game: 1943汉化版
+file: 1943汉化版.zip
+sort-by: 149
+developer: 1943汉化版
+description: 无敌、燃油不减、分配点数9，飞机升级时的分配点每次都是9点。
+
+game: 1944
+file: 1944.zip
+sort-by: 150
+developer: 1944
+description: HP不减，点数不减，武器时间不减
+
+game: 1945
+file: 1945.zip
+sort-by: 151
+developer: 1945
+description: 炸弹无限，命数无限，非无敌，死亡不能原地续关。
+
+game: 兵蜂1
+file: 兵蜂1.zip
+sort-by: 152
+developer: 兵蜂1
+description: 命数不减，初始每条命都有双子弹，防护罩和中等速度。
+
+game: 兵蜂2
+file: 兵蜂2.zip
+sort-by: 153
+developer: 兵蜂2
+description: 命数不减，可原地继续。
+
+game: 兵蜂3
+file: 兵蜂3.zip
+sort-by: 154
+developer: 兵蜂3
+description: 命数不减，初始有防护罩和火力最强，速度最快
+
+game: 沙罗曼蛇
+file: 沙罗曼蛇.zip
+sort-by: 155
+developer: 沙罗曼蛇
+description: 无敌
+
+game: 沙罗曼蛇汉化版
+file: 沙罗曼蛇汉化版.zip
+sort-by: 156
+developer: 沙罗曼蛇汉化版
+description: 无敌、能力Max，增加的是透明无敌效果，初始火力Max速度Max僚机Max。
+
+game: Q版沙罗曼蛇
+file: Q版沙罗曼蛇.zip
+sort-by: 157
+developer: Q版沙罗曼蛇
+description: 无敌，全装备最强
+
+game: 梦幻战机
+file: 梦幻战机.zip
+sort-by: 158
+developer: 梦幻战机
+description: 无敌
+
+game: 帝国战机
+file: 帝国战机.zip
+sort-by: 159
+developer: 帝国战机
+description: 初始合体无敌，时间到了会失效，但机体处于不死状态。
+
+game: 帝国战机汉化版
+file: 帝国战机汉化版.zip
+sort-by: 160
+developer: 帝国战机汉化版
+description: 无限炸弹
+
+game: 加纳战机
+file: 加纳战机.zip
+sort-by: 161
+developer: 加纳战机
+description: 无敌
+
+game: 加纳战机汉化版
+file: 加纳战机汉化版.zip
+sort-by: 162
+developer: 加纳战机汉化版
+description: 无敌，无限炸弹。
+
+game: 宇宙巡航机1
+file: 宇宙巡航机1.zip
+sort-by: 163
+developer: 宇宙巡航机1
+description: 无敌
+
+game: 宇宙巡航机2
+file: 宇宙巡航机2.zip
+sort-by: 164
+developer: 宇宙巡航机2
+description: 无敌
+
+game: 宇宙巡航机2汉化版
+file: 宇宙巡航机2汉化版.zip
+sort-by: 165
+developer: 宇宙巡航机2汉化版
+description: 无敌、生命不减、能力Max，增加的是透明无敌效果，初始火力Max僚机Max速度Max。
+
+game: B计划
+file: B计划.zip
+sort-by: 166
+developer: B计划
+description: 无敌
+
+game: FC原人
+file: FC原人.zip
+sort-by: 167
+developer: FC原人
+description: 命数不减
+
+game: JUJU传说
+file: JUJU传说.zip
+sort-by: 168
+developer: JUJU传说
+description: 无敌，无限跳
+
+game: MD超级忍2
+file: MD超级忍2.zip
+sort-by: 169
+developer: MD超级忍2
+description: MD超级忍2移植版，HP无限
+
+game: SD英雄总决战
+file: SD英雄总决战.zip
+sort-by: 170
+developer: SD英雄总决战
+description: HP不减
+
+game: 阿贝道X
+file: 阿贝道X.zip
+sort-by: 171
+developer: 阿贝道X
+description: 类似于空中魂斗罗的飞行游戏，无敌
+
+game: 阿尔戈斯战士
+file: 阿尔戈斯战士.zip
+sort-by: 172
+developer: 阿尔戈斯战士
+description: HP不减
+
+game: 阿拉丁
+file: 阿拉丁.zip
+sort-by: 173
+developer: 阿拉丁
+description: 无敌
+
+game: 暴坊天狗
+file: 暴坊天狗.zip
+sort-by: 174
+developer: 暴坊天狗
+description: 美版，HP不减
+
+game: 北斗神拳2
+file: 北斗神拳2.zip
+sort-by: 175
+developer: 北斗神拳2
+description: HP不减，最强状态
+
+game: 蝙蝠侠1超级版
+file: 蝙蝠侠1超级版.zip
+sort-by: 176
+developer: 蝙蝠侠1超级版
+description: 无敌，无限跳，子弹不减，全屏攻击，超强攻击力。
+
+game: 蝙蝠侠2小丑回归
+file: 蝙蝠侠2.zip
+sort-by: 177
+developer: 蝙蝠侠2小丑回归
+description: HP不减，子弹不减
+
+game: 蝙蝠侠3蝙蝠侠归来
+file: 蝙蝠侠3.zip
+sort-by: 178
+developer: 蝙蝠侠3蝙蝠侠归来
+description: HP不减，飞镖无限
+
+game: 彩虹岛
+file: 彩虹岛.zip
+sort-by: 179
+developer: 彩虹岛
+description: 可调无敌。开始游戏后暂停，按7下选择键，听到效果音，再开始游戏即可无敌。
+
+game: 超惑星战记
+file: 超惑星战记.zip
+sort-by: 180
+developer: 超惑星战记
+description: 人和坦克HP不减，初始拥有无限飞升，无限子弹
+
+game: 超级阿拉伯人
+file: 超级阿拉伯人.zip
+sort-by: 181
+developer: 超级阿拉伯人
+description: 无敌
+
+game: 超级间谍猎人
+file: 超级间谍猎人.zip
+sort-by: 182
+developer: 超级间谍猎人
+description: HP不减，掉下悬崖会死。
+
+game: 超级婴儿
+file: 超级婴儿.zip
+sort-by: 183
+developer: 超级婴儿
+description: HP不减
+
+game: 超狼人战记
+file: 超狼人战记.zip
+sort-by: 184
+developer: 超狼人战记
+description: 无敌
+
+game: 超时空要塞
+file: 超时空要塞.zip
+sort-by: 185
+developer: 超时空要塞
+description: 无敌
+
+game: 成龙踢馆1
+file: 成龙踢馆1.zip
+sort-by: 186
+developer: 成龙踢馆1
+description: HP不减
+
+game: 成龙踢馆2
+file: 成龙踢馆2.zip
+sort-by: 187
+developer: 成龙踢馆2
+launch: "{env.appdir}\RetroArch\retroarch.exe" -L "{env.appdir}\RetroArch\cores\nestopia_libretro.dll" "{file.path}"
+description: HP不减
+
+game: 成龙之龙
+file: 成龙之龙.zip
+sort-by: 188
+developer: 成龙之龙
+description: 选择键切无敌，无限跳，全屏攻击。
+
+game: 成龙之龙汉化版
+file: 成龙之龙汉化版.zip
+sort-by: 189
+developer: 成龙之龙汉化版
+description: 血槽不减、气功波不减、绝招不减，无敌效果会开局卡关头，改成透明无敌又无法放气功波，无奈放弃。
+
+game: 惩罚者
+file: 惩罚者.zip
+sort-by: 190
+developer: 惩罚者
+description: 无敌，无限子弹，无限炸弹，但不要吃子弹或HP上限，不然子弹会变成有限，还会被一击杀死。
+
+game: 吃豆人
+file: 吃豆人.zip
+sort-by: 191
+developer: 吃豆人
+description: 命数不减
+
+game: 丛林王子
+file: 丛林王子.zip
+sort-by: 192
+developer: 丛林王子
+description: 命数无限
+
+game: 打空气
+file: 打空气.zip
+sort-by: 193
+developer: 打空气
+description: 全屏攻击
+
+game: 打砖块
+file: 打砖块.zip
+sort-by: 194
+developer: 打砖块
+description: 选择键开启无敌
+
+game: 打砖块汉化版
+file: 打砖块汉化版.zip
+sort-by: 195
+developer: 打砖块汉化版
+description: 生命不减、球拍强化（3个效果），加长球拍、发射子弹、降低球速，磁力效果影响打击节奏，锁定球速则会卡第3关，因此都放弃。
+
+game: 大力工头阿源君1
+file: 大力工头阿源君1.zip
+sort-by: 196
+developer: 大力工头阿源君1
+description: 无限跳跃，命数不减，选择键可切换无敌。
+
+game: 大力水手
+file: 大力水手.zip
+sort-by: 197
+developer: 大力水手
+description: 无敌
+
+game: 大蜜蜂
+file: 大蜜蜂.zip
+sort-by: 198
+developer: 大蜜蜂
+description: 无敌，但是会被俘获死亡，僚机会死亡。
+
+game: 大蜜蜂无敌汉化版
+file: 大蜜蜂无敌汉化版.zip
+sort-by: 199
+developer: 大蜜蜂无敌汉化版
+description: 无敌
+
+game: 大蜜蜂无限命汉化版
+file: 大蜜蜂无限命汉化版.zip
+sort-by: 200
+developer: 大蜜蜂无限命汉化版
+description: 不是无敌，但是无限命版，适合反复挑战。
+
+game: 大坦克
+file: 大坦克.zip
+sort-by: 201
+developer: 大坦克
+description: HP不减，子弹不减，但不能踩地雷。
+
+game: 盗帅
+file: 盗帅.zip
+sort-by: 202
+developer: 盗帅
+description: 无敌
+
+game: 地底探险
+file: 地底探险.zip
+sort-by: 203
+developer: 地底探险
+description: 不死，但摔落下去容易造成卡关。
+
+game: 地球超人
+file: 地球超人.zip
+sort-by: 204
+developer: 地球超人
+description: 无敌
+
+game: 地狱极乐丸
+file: 地狱极乐丸.zip
+sort-by: 205
+developer: 地狱极乐丸
+description: HP不减
+
+game: 第一滴血
+file: 第一滴血.zip
+sort-by: 206
+developer: 第一滴血
+description: 开场后需要和所有人对话才能正式游戏，包括门内的npc。受伤后变成无敌，子弹不是无限的。
+
+game: 斗者挽歌
+file: 斗者挽歌.zip
+sort-by: 207
+developer: 斗者挽歌
+description: HP不减
+
+game: 哆啦A梦
+file: 哆啦A梦.zip
+sort-by: 208
+developer: 哆啦A梦
+description: HP不减，武器最强。
+
+game: 鳄鱼先生
+file: 鳄鱼先生.zip
+sort-by: 209
+developer: 鳄鱼先生
+description: HP不减，命数不减，车不损坏。
+
+game: 菲力克斯猫
+file: 菲力克斯猫.zip
+sort-by: 210
+developer: 菲力克斯猫
+description: 无敌，无限跳
+
+game: 封神榜
+file: 封神榜.zip
+sort-by: 211
+developer: 封神榜
+description: 不遇敌，初始80，无限红蓝钱，攻击力随意加
+
+game: 斧王
+file: 斧王.zip
+sort-by: 212
+developer: 斧王
+description: 选择键HP不减，无限跳，命数不减，魔不减
+
+game: 斧王汉化版
+file: 斧王汉化版.zip
+sort-by: 213
+developer: 斧王汉化版
+description: 无敌
+
+game: 工人战记
+file: 工人战记.zip
+sort-by: 214
+developer: 工人战记
+description: 命数不减，能量全满
+
+game: 怪鸭历险记1
+file: 怪鸭历险记1.zip
+sort-by: 215
+developer: 怪鸭历险记1
+description: ↑+B切换无敌，无限跳。该游戏不切换至无敌的话，部分元素显示为花版。
+
+game: 怪鸭历险记2
+file: 怪鸭历险记2.zip
+sort-by: 216
+developer: 怪鸭历险记2
+description: 同人hack版，全新的冒险
+
+game: 鬼屋冒险
+file: 鬼屋冒险.zip
+sort-by: 217
+developer: 鬼屋冒险
+description: 无敌
+
+game: 航空小英雄1
+file: 航空小英雄1.zip
+sort-by: 218
+developer: 航空小英雄1
+description: HP不减，这是标题画面主角修改成红猪的版本。
+
+game: 航空小英雄2
+file: 航空小英雄2.zip
+sort-by: 219
+developer: 航空小英雄2
+description: HP不减
+
+game: 合金风暴
+file: 合金风暴.zip
+sort-by: 220
+developer: 合金风暴
+description: 无敌，无限跳
+
+game: 虎胆妙算
+file: 虎胆妙算.zip
+sort-by: 221
+developer: 虎胆妙算
+description: 无敌，子弹炸弹无限
+
+game: 欢乐碰碰车
+file: 欢乐碰碰车.zip
+sort-by: 222
+developer: 欢乐碰碰车
+description: 无敌，可撞击警车
+
+game: 火凤凰
+file: 火凤凰.zip
+sort-by: 223
+developer: 火凤凰
+description: 无敌
+
+game: 火箭车暴走卡车
+file: 火箭车暴走卡车.zip
+sort-by: 224
+developer: 火箭车暴走卡车
+description: 控制暴走卡车，可撞飞除了大卡车外的所有汽车，不怕障碍。
+
+game: 火箭车汉化版
+file: 火箭车汉化版.zip
+sort-by: 225
+developer: 火箭车汉化版
+description: 无敌、燃料不减、车身切换（按Select键），增加的是燃料不减，不影响过关结算。
+
+game: 火箭车无敌
+file: 火箭车无敌.zip
+sort-by: 226
+developer: 火箭车无敌
+description: 无敌不爆炸，时间无限
+
+game: 火炮
+file: 火炮.zip
+sort-by: 227
+developer: 火炮
+description: HP不减（包括赛车关），命数不减、无限时、无限子弹、无限手雷。
+
+game: 火之鸟
+file: 火之鸟.zip
+sort-by: 228
+developer: 火之鸟
+description: 无敌
+
+game: 惑星戒严令汉化版
+file: 惑星戒严令汉化版.zip
+sort-by: 229
+developer: 惑星戒严令汉化版
+description: 人物无敌，无限命和雷。
+
+game: 机器人战争
+file: 机器人战争.zip
+sort-by: 230
+developer: 机器人战争
+description: 无敌
+
+game: 机械战警1
+file: 机械战警1.zip
+sort-by: 231
+developer: 机械战警1
+description: 不减能量不减电量不减子弹
+
+game: 机械战警2
+file: 机械战警2.zip
+sort-by: 232
+developer: 机械战警2
+description: 透明无敌
+
+game: 机械战警3
+file: 机械战警3.zip
+sort-by: 233
+developer: 机械战警3
+description: HP不减，子弹无限
+
+game: 吉米克
+file: 吉米克.zip
+sort-by: 234
+developer: 吉米克
+description: HP不减
+
+game: 加其夫天国与地狱
+file: 加其夫天国与地狱.zip
+sort-by: 235
+developer: 加其夫天国与地狱
+description: 命数不减，武器不减
+
+game: 加州提子
+file: 加州提子.zip
+sort-by: 236
+developer: 加州提子
+description: 选择键切无敌，可能不成功，需多按几次。无限跳，命数不减。
+
+game: 嘉蒂外传
+file: 嘉蒂外传.zip
+sort-by: 237
+developer: 嘉蒂外传
+description: 无敌
+
+game: 假面忍者赤影
+file: 假面忍者赤影.zip
+sort-by: 238
+developer: 假面忍者赤影
+description: 无敌
+
+game: 假面忍者花丸
+file: 假面忍者花丸.zip
+sort-by: 239
+developer: 假面忍者花丸
+description: 无敌，无限跳，但落入悬崖会死亡。
+
+game: 剑王
+file: 剑王.zip
+sort-by: 240
+developer: 剑王
+description: HP不减，MP不减
+
+game: 街头战士2010
+file: 街头战士2010.zip
+sort-by: 241
+developer: 街头战士2010
+description: HP不减
+
+game: 金刚2代
+file: 金刚2代.zip
+sort-by: 242
+developer: 金刚2代
+description: HP不减，石头不减
+
+game: 筋肉人摔角
+file: 筋肉人摔角.zip
+sort-by: 243
+developer: 筋肉人摔角
+description: 全屏攻击
+
+game: 禁毒卫士
+file: 禁毒卫士.zip
+sort-by: 244
+developer: 禁毒卫士
+description: HP不减
+
+game: 荆珂新传
+file: 荆珂新传.zip
+sort-by: 245
+developer: 荆珂新传
+description: 不遇敌
+
+game: 究极虎
+file: 究极虎.zip
+sort-by: 246
+developer: 究极虎
+description: 无敌，火力最大
+
+game: 救火英雄
+file: 救火英雄.zip
+sort-by: 247
+developer: 救火英雄
+description: 无敌
+
+game: 凯蒂猫冒险
+file: 凯蒂猫冒险.zip
+sort-by: 248
+developer: 凯蒂猫冒险
+description: 无敌无限跳
+
+game: 空狼
+file: 空狼.zip
+sort-by: 249
+developer: 空狼
+description: 命数不减 非无敌
+
+game: 空中魂斗罗可视化
+file: 空中魂斗罗可视化.zip
+sort-by: 250
+developer: 空中魂斗罗可视化
+description: 可视化可在暂停后按选择键，开启作弊选项。
+
+game: 恐龙战队
+file: 恐龙战队.zip
+sort-by: 251
+developer: 恐龙战队
+description: 无敌无限命月球跳
+
+game: 骷髅13第2章-迷宫组曲
+file: 骷髅13第2章-迷宫组曲.zip
+sort-by: 252
+developer: 骷髅13第2章-迷宫组曲
+description: 按选择键HP不减无限跳
+
+game: 快打旋风汉化版
+file: 快打旋风汉化版.zip
+sort-by: 253
+developer: 快打旋风汉化版
+description: 无敌、血槽不减、经验Max，直接修改人物等级对市长无效，无奈只能修改经验自己再升级了。
+
+game: 快打旋风可视化
+file: 快打旋风可视化.zip
+sort-by: 254
+developer: 快打旋风可视化
+description: 可视化可在暂停后按选择键，开启作弊选项。
+
+game: 快杰洋枪2
+file: 快杰洋枪2.zip
+sort-by: 255
+developer: 快杰洋枪2
+description: 无限跳，命数不减，无限钥匙。
+
+game: 快杰洋枪3
+file: 快杰洋枪3.zip
+sort-by: 256
+developer: 快杰洋枪3
+description: 无限跳，命数不减
+
+game: 魁!男塾
+file: 魁!男塾.zip
+sort-by: 257
+developer: 魁!男塾
+description: HP不减
+
+game: 拉格朗日点汉化版
+file: 拉格朗日点汉化版.zip
+sort-by: 258
+developer: 拉格朗日点汉化版
+description: 快速升级
+
+game: 老虎直升机
+file: 老虎直升机.zip
+sort-by: 259
+developer: 老虎直升机
+description: 无敌
+
+game: 雷电节奏
+file: 雷电节奏.zip
+sort-by: 260
+developer: 雷电节奏
+description: 命数越死越多，炸弹越用越多。
+
+game: 雷鸟号
+file: 雷鸟号.zip
+sort-by: 261
+developer: 雷鸟号
+description: 命数不减
+
+game: 蕾拉
+file: 蕾拉.zip
+sort-by: 262
+developer: 蕾拉
+description: 无敌
+
+game: 力量小子
+file: 力量小子.zip
+sort-by: 263
+developer: 力量小子
+description: 无敌无限跳
+
+game: 列车寻宝
+file: 列车寻宝.zip
+sort-by: 264
+developer: 列车寻宝
+description: 无敌，初始最强，命数不减，时间不减。
+
+game: 烈火92
+file: 烈火92.zip
+sort-by: 265
+developer: 烈火92
+description: 无敌
+
+game: 灵幻道士
+file: 灵幻道士.zip
+sort-by: 266
+developer: 灵幻道士
+description: AB全技能，选择键加血，选择+↓跳关，选择+↑变僵尸，↓+B换武器
+
+game: 溜溜球大师
+file: 溜溜球大师.zip
+sort-by: 267
+developer: 溜溜球大师
+description: 无敌，无限跳
+
+game: 六三四之剑
+file: 六三四之剑.zip
+sort-by: 268
+developer: 六三四之剑
+description: 选择键+↑，命数不减，HP不减，最强剑术，跑跳加强
+
+game: 龙魂
+file: 龙魂.zip
+sort-by: 269
+developer: 龙魂
+description: 无敌
+
+game: 龙牙变龙
+file: 龙牙变龙.zip
+sort-by: 270
+developer: 龙牙变龙
+description: 无限变龙，不要吃其他武器就能永久保留变龙的剑。
+
+game: 龙牙不死
+file: 龙牙不死.zip
+sort-by: 271
+developer: 龙牙不死
+description: 无敌，摔不死
+
+game: 龙战士
+file: 龙战士.zip
+sort-by: 272
+developer: 龙战士
+description: 选择键开启无敌，命数不减，命数不减，全屏攻击。
+
+game: 龙之忍者
+file: 龙之忍者.zip
+sort-by: 273
+developer: 龙之忍者
+description: HP不减
+
+game: 鲁邦三世
+file: 鲁邦三世.zip
+sort-by: 274
+developer: 鲁邦三世
+description: 道具无限，主角HP较多，掉悬崖会自动使用气球保命，但是被攻击次数多了还是有一定概率会死。另外两名角色HP只有1。
+
+game: 鲁邦三世汉化版
+file: 鲁邦三世汉化版.zip
+sort-by: 275
+developer: 鲁邦三世汉化版
+description: 无敌
+
+game: 罗宾汉
+file: 罗宾汉.zip
+sort-by: 276
+developer: 罗宾汉
+description: 无敌
+
+game: 麦当劳世界
+file: 麦当劳世界.zip
+sort-by: 277
+developer: 麦当劳世界
+description: 按选择键，HP不减，命数不减，无限跳
+
+game: 猫和老鼠
+file: 猫和老鼠.zip
+sort-by: 278
+developer: 猫和老鼠
+description: HP不减，无限跳
+
+game: 猫抓老鼠
+file: 猫抓老鼠.zip
+sort-by: 279
+developer: 猫抓老鼠
+description: 无敌，命数不减
+
+game: 梦之勇士
+file: 梦之勇士.zip
+sort-by: 280
+developer: 梦之勇士
+description: HP不减，一把钥匙就可以开所有门过关。
+
+game: 梦之勇士汉化版
+file: 梦之勇士汉化版.zip
+sort-by: 281
+developer: 梦之勇士汉化版
+description: 无敌、血槽不减、钥匙不减、蜜蜂体力不减，修正无敌时爬墙人物模型会花屏Bug。
+
+game: 迷糊蛋
+file: 迷糊蛋.zip
+sort-by: 282
+developer: 迷糊蛋
+description: 无限跳，↑+B透明无敌。尽量不要用无限跳，在版边往上无限跳容易卡死。
+
+game: 摩艾君
+file: 摩艾君.zip
+sort-by: 283
+developer: 摩艾君
+description: 无限跳
+
+game: 摩登原始人1
+file: 摩登原始人1.zip
+sort-by: 284
+developer: 摩登原始人1
+description: 选择键切无敌，无限跳，命数不减
+
+game: 摩登原始人1汉化版
+file: 摩登原始人1汉化版.zip
+sort-by: 285
+developer: 摩登原始人1汉化版
+description: 生命不减、血槽不减、硬币不减、全道具、无限跳，无敌状态无法呼叫助手，因此换成了血槽不减，遇敌僵直后退改为跳起。
+
+game: 摩登原始人2
+file: 摩登原始人2.zip
+sort-by: 286
+developer: 摩登原始人2
+description: 无敌，无限跳，命数不减
+
+game: 摩登原始人2汉化版
+file: 摩登原始人2汉化版.zip
+sort-by: 287
+developer: 摩登原始人2汉化版
+description: 无敌，无限命。
+
+game: 魔法总动员
+file: 魔法总动员.zip
+sort-by: 288
+developer: 魔法总动员
+description: HP MP无限，命无限
+
+game: 魔鬼总动员
+file: 魔鬼总动员.zip
+sort-by: 289
+developer: 魔鬼总动员
+description: ↑+开始可以补满HP和命数
+
+game: 魔鬼总动员汉化版
+file: 魔鬼总动员汉化版.zip
+sort-by: 290
+developer: 魔鬼总动员汉化版
+description: 无敌
+
+game: 魔神英雄传汉化版
+file: 魔神英雄传汉化版.zip
+sort-by: 291
+developer: 魔神英雄传汉化版
+description: 一战快速升级，金钱最大。
+
+game: 魔天童子
+file: 魔天童子.zip
+sort-by: 292
+developer: 魔天童子
+description: 无限跳，按选择键透明无敌
+
+game: 魔天童子超强汉化版
+file: 魔天童子超强汉化版.zip
+sort-by: 293
+developer: 魔天童子超强汉化版
+description: 在游戏中，按下SELECT键，进入无敌状态，再次按下 SELECT 键则解除无敌状态（解除无敌状态时，身体会闪烁一下）。在无敌状态下拥有以下能力：1、主角无敌，免疫任何伤害。掉落坑内不死亡，游戏依然正常，但也无法继续游戏，此时再次按下SELECT 键解除无敌状态，则主角正常死亡并重新开始游戏。2、普通攻击附带双重剑气，伤害提升。解除无敌状态后，效果有使用次数限制，次数用完后剑气消失。3、拥有全道具。PS:道具虽然不显示出来，但是仍然可以通过按“下 + A键”来选择使用，使用过后道具图标可显示，由于【犬笛】是辅助道具，无法通过选择使用，所以不显示，但效果依然存在。道具在切换场景后，会全部显示。4、锁定金钱数最大。解除无敌状态后，金钱正常计数。如果在商店内，一次性购买到 6 个道具，则铃风会感动得萌萌哒，变成你的小迷妹；而如果一次性购买 8 个道具以上，铃风则想以身相许(笑) 5、主角生命提升最大值，并且回复全部体力。解除无敌状态后，可以正常受到伤害。6、神犬回复全部体力，并且体力不减。解除无敌状态后，可以正常受到伤害。7、拥有超高的跳跃能力，几乎可以跳到屏幕上面板边。解除无敌状态后，效果维持一段时间后自行消失。道具【月之御镜】的全屏伤害提升最大，实现全屏秒杀。解除无敌状态后，有使用次数限制，无敌状态下无使用次数限制。秒杀效果说明：第一关BOSS使用镜子后，需要补 1 刀才能灭掉；第三关和第四关使用有BUG，使用了BOSS会无敌；除此之外所有怪物包括BOSS均可以被秒杀。由于此道具在正常流程中是要到第二关才能获得，若是在第一关就使用则部分怪物颜色会发生改变，但不影响游戏进行。9、可以通过按“上 + SELECT”组合键来切换发射的火焰珠的种类，使用此功能则默认会使用强化后的火焰珠，按一次组合键切换下一个类型的强化型火焰珠。10、重置金钱数量为0。在非无敌状态下，按“下 + SELECT ”组合键，可以重置目前所持金钱数量为0。(状态栏虽然金额没有变化，但实际已经被重置，切换场景或再拾取金钱，就能正常显示了。此功能主要用来调戏商店的铃风妹子，如果进入商店时，连续三次购买超过所持有金额的道具，则铃风会发飙撵人出店。【其他说明】开启无敌状态时，最好是在人物不闪烁状态下开启，如果主角在受到伤害被弹开或是受伤隐身状态下开启，则主角会保持此时的动作姿势进入无敌状态无法动弹，只需要解除无敌后受伤害可恢复正常。
+
+game: 魔天童子可视化
+file: 魔天童子可视化.zip
+sort-by: 294
+developer: 魔天童子可视化
+description: 1、按B键自动增加续关次数，在开始演示游戏前按Start键开始游戏；2、按Selcect键开启音效测试，按下+Start键关闭音效测试；3、直接开启游戏内默认作弊快捷键，进游戏后直接按Select+八个方向按键开启相应作弊功能。
+
+game: 能源战士1
+file: 能源战士1.zip
+sort-by: 295
+developer: 能源战士1
+description: 在原版汉化基础上增加了按键启用/关闭HACK功能，标题界面上增加“EX VERSION”字样作为区分。游戏中按“上 + SELECT键”开启HACK功能，并且状态栏中玩家名字后面出现“S”字样（切换场景会消失，但功能依然存在），再次按下组合键则为关闭HACK功能，同时“S”字样消失。HACK功能介绍：1:无限跳跃（永久状态，无需开启或关闭）；2:装甲状态，并且装甲强度不减；3:武器等级最大，并且三连发；4:蓄力锁定最大；5:手雷数量锁定为9；6:罐头数量锁定为9；7:生命数量锁定为9；以上功能除了第一项是永久存在，其余功能在关闭HACK功能后均可正常消耗。
+
+game: 能源战士2
+file: 能源战士2.zip
+sort-by: 296
+developer: 能源战士2
+description: HP不减，命无限
+
+game: 鸟人战队
+file: 鸟人战队.zip
+sort-by: 297
+developer: 鸟人战队
+description: 中文版，全屏攻击，按AB三秒可开启无敌，且打bossHP也不减。
+
+game: 纽约大拳猫
+file: 纽约大拳猫.zip
+sort-by: 298
+developer: 纽约大拳猫
+description: HP不减，命数不减
+
+game: 泡泡龙1
+file: 泡泡龙1.zip
+sort-by: 299
+developer: 泡泡龙1
+description: 无敌
+
+game: 泡泡龙1汉化版
+file: 泡泡龙1汉化版.zip
+sort-by: 300
+developer: 泡泡龙1汉化版
+description: 无敌、生命不减、火力Max，无限跳、按Select闪电泡泡，增加的是透明无敌效果，第99关有个水晶，吃后有隐藏门，可以进入隐藏关卡。
+
+game: 泡泡龙2
+file: 泡泡龙2.zip
+sort-by: 301
+developer: 泡泡龙2
+description: HP不减
+
+game: 泡泡龙2汉化版
+file: 泡泡龙2汉化版.zip
+sort-by: 302
+developer: 泡泡龙2汉化版
+description: 无敌、心不减、特殊泡泡（五角星），特别注意第45关、66关的直升机必须先打掉，不然小怪死光后直升机就会出现卡屏幕外的BUG。
+
+game: 霹雳神兵
+file: 霹雳神兵.zip
+sort-by: 303
+developer: 霹雳神兵
+description: 命数不减，无限手雷，无限钥匙，死后保留武器，得到大枪后无限使用。
+
+game: 霹雳神兵汉化版
+file: 霹雳神兵汉化版.zip
+sort-by: 304
+developer: 霹雳神兵汉化版
+description: 钥匙无限，武器、炸弹无限，超级武器获得后无限使用，无敌。
+
+game: 平成天才
+file: 平成天才.zip
+sort-by: 305
+developer: 平成天才
+description: 选择键切无敌，无限跳。画面有花版，不影响玩。
+
+game: 企鹅先生
+file: 企鹅先生.zip
+sort-by: 306
+developer: 企鹅先生
+description: 无敌。但被蜘蛛网网住了要攻击清除才能移动。时间不是无限。
+
+game: 气球大战
+file: 气球大战.zip
+sort-by: 307
+developer: 气球大战
+description: 无敌
+
+game: 前线
+file: 前线.zip
+sort-by: 308
+developer: 前线
+description: 无敌
+
+game: 人间兵器
+file: 人间兵器.zip
+sort-by: 309
+developer: 人间兵器
+description: 按选择键切无敌，无限跳，有机枪，命数无限。但需营救关键人质才能过关。
+
+game: 人间兵器汉化版
+file: 人间兵器汉化版.zip
+sort-by: 310
+developer: 人间兵器汉化版
+description: 体力不减、子弹不减，此游戏没有无敌设定，因此体力不减等同于无敌，被枪打中也不会死。
+
+game: 忍者茶茶丸
+file: 忍者茶茶丸.zip
+sort-by: 311
+developer: 忍者茶茶丸
+description: ↑+B招唤大青蛙，关卡时间调为最大255秒，顶楼上美女提前投出飘叶，集满三个飘叶可以进入奖励关，命不减注意:不要在按START暂停游戏后按上+B招唤出大青蛙，不然游戏会停止不动引致死机。
+
+game: 忍者刑警
+file: 忍者刑警.zip
+sort-by: 312
+developer: 忍者刑警
+description: HP不减
+
+game: 三只小猪
+file: 三只小猪.zip
+sort-by: 313
+developer: 三只小猪
+description: 无敌
+
+game: 杀虫战记
+file: 杀虫战记.zip
+sort-by: 314
+developer: 杀虫战记
+description: 无敌
+
+game: 杀戮战场
+file: 杀戮战场.zip
+sort-by: 315
+developer: 杀戮战场
+description: 无敌
+
+game: 上尉密令
+file: 上尉密令.zip
+sort-by: 316
+developer: 上尉密令
+description: HP不减
+
+game: 少年印第安纳琼斯
+file: 少年印第安纳琼斯.zip
+sort-by: 317
+developer: 少年印第安纳琼斯
+description: 透明无敌
+
+game: 圣斗士星矢-黄金传说完结篇
+file: 圣斗士星矢-黄金传说完结篇.zip
+sort-by: 318
+developer: 圣斗士星矢-黄金传说完结篇
+description: HP及MP999不减，↑+选择键可浮空
+
+game: 圣魔术师
+file: 圣魔术师.zip
+sort-by: 319
+developer: 圣魔术师
+description: HP MP 命数不减
+
+game: 兽王记
+file: 兽王记.zip
+sort-by: 320
+developer: 兽王记
+description: HP不减
+
+game: 双蛇城
+file: 双蛇城.zip
+sort-by: 321
+developer: 双蛇城
+description: 命数无限
+
+game: 双鹰
+file: 双鹰.zip
+sort-by: 322
+developer: 双鹰
+description: 无敌
+
+game: 淘金者
+file: 淘金者.zip
+sort-by: 323
+developer: 淘金者
+description: 无敌，不怕敌人，但会被埋掉。
+
+game: 特救指令变身
+file: 特救指令变身.zip
+sort-by: 324
+developer: 特救指令变身
+description: 直接变身无敌版
+
+game: 特救指令汉化版
+file: 特救指令汉化版.zip
+sort-by: 325
+developer: 特救指令汉化版
+description: 无敌、血槽不减、变身时间不减，无敌效果包括机仔助手不会损坏，收集两次相同的助手可超强变身。
+
+game: 特救指令美版
+file: 特救指令美版.zip
+sort-by: 326
+developer: 特救指令美版
+description: HP不减，辅助机器人HP不减。
+
+game: 特救指令美日综合
+file: 特救指令美日综合.zip
+sort-by: 327
+developer: 特救指令美日综合
+description: 综合了美版日版的关卡，是能玩全部关卡的完全版。
+
+game: 踢王无敌
+file: 踢王无敌.zip
+sort-by: 328
+developer: 踢王无敌
+description: 无敌，不闪光，中文
+
+game: 踢王无限
+file: 踢王无限.zip
+sort-by: 329
+developer: 踢王无限
+description: 无限道具魔法
+
+game: 天才小厨师
+file: 天才小厨师.zip
+sort-by: 330
+developer: 天才小厨师
+description: HP不减
+
+game: 天使之翼2汉化版
+file: 天使之翼2汉化版.zip
+sort-by: 331
+developer: 天使之翼2汉化版
+launch: "{env.appdir}\RetroArch\retroarch.exe" -L "{env.appdir}\RetroArch\cores\nestopia_libretro.dll" "{file.path}"
+description: 体力不减、经验共享，修改器已经完美，无需再修改，一人升级全队有效。
+
+game: 挑战巨龙
+file: 挑战巨龙.zip
+sort-by: 332
+developer: 挑战巨龙
+description: HP不减，无限跳，命数不减。
+
+game: 跳跳虫
+file: 跳跳虫.zip
+sort-by: 333
+developer: 跳跳虫
+description: 无敌
+
+game: 铁臂阿童木
+file: 铁臂阿童木.zip
+sort-by: 334
+developer: 铁臂阿童木
+description: HP不减
+
+game: 突然君
+file: 突然君.zip
+sort-by: 335
+developer: 突然君
+description: 命数子弹无限，可一直变身
+
+game: 兔宝宝1
+file: 兔宝宝1.zip
+sort-by: 336
+developer: 兔宝宝1
+description: 按住AB切无敌，无限跳。
+
+game: 兔宝宝1汉化版
+file: 兔宝宝1汉化版.zip
+sort-by: 337
+developer: 兔宝宝1汉化版
+description: 无敌、POW不减，增加的是透明无敌效果，游戏结局有轻微花屏抖动Bug。
+
+game: 兔宝宝2
+file: 兔宝宝2.zip
+sort-by: 338
+developer: 兔宝宝2
+description: HP不减
+
+game: 兔宝宝2汉化版
+file: 兔宝宝2汉化版.zip
+sort-by: 339
+developer: 兔宝宝2汉化版
+description: 血槽不减、时间不减、碰碰车Pow不减，无敌状态下城堡关卡有进不了门的Bug，因此放弃。
+
+game: 脱狱1汉化版
+file: 脱狱1汉化版.zip
+sort-by: 340
+developer: 脱狱1汉化版
+description: 血槽不减、全装备、匕首不减，初始拥有铁拳套和防弹衣，匕首不减造成状态栏有偶尔跳动的Bug。
+
+game: 脱狱1换枪
+file: 脱狱1换枪.zip
+sort-by: 341
+developer: 脱狱1换枪
+description: 按选择键变武器，人数99，不是无敌，但主角移动速度大幅提高。
+
+game: 脱狱1无敌
+file: 脱狱1无敌.zip
+sort-by: 342
+developer: 脱狱1无敌
+description: 无敌
+
+game: 脱狱2
+file: 脱狱2.zip
+sort-by: 343
+developer: 脱狱2
+description: 强力武器，HP不减
+
+game: 外星战将换人
+file: 外星战将换人.zip
+sort-by: 344
+developer: 外星战将换人
+description: 选择键换人
+
+game: 外星战将无敌
+file: 外星战将无敌.zip
+sort-by: 345
+developer: 外星战将无敌
+description: 无敌，无限跳。↓+选择可自杀防止出现bug。
+
+game: 顽皮狗
+file: 顽皮狗.zip
+sort-by: 346
+developer: 顽皮狗
+description: 按住上键3秒切无敌，按住AB键可切无限跳。
+
+game: 网球
+file: 网球.zip
+sort-by: 347
+developer: 网球
+description: 全屏击球
+
+game: 无赖战士
+file: 无赖战士.zip
+sort-by: 348
+developer: 无赖战士
+description: 无敌
+
+game: 锡鲁巴船长
+file: 锡鲁巴船长.zip
+sort-by: 349
+developer: 锡鲁巴船长
+description: HP不减
+
+game: 香蕉王子大冒险
+file: 香蕉王子大冒险.zip
+sort-by: 350
+developer: 香蕉王子大冒险
+description: 受到伤害后无敌
+
+game: 小美人鱼
+file: 小美人鱼.zip
+sort-by: 351
+developer: 小美人鱼
+description: HP不减
+
+game: 小蜜蜂
+file: 小蜜蜂.zip
+sort-by: 352
+developer: 小蜜蜂
+description: 无敌
+
+game: 小蜜蜂无限命
+file: 小蜜蜂无限命.zip
+sort-by: 353
+developer: 小蜜蜂无限命
+description: 不是无敌，但是无限命版，适合反复挑战。
+
+game: 小魔怪2
+file: 小魔怪2.zip
+sort-by: 354
+developer: 小魔怪2
+description: HP不减，气球无限
+
+game: 小魔女皮皮
+file: 小魔女皮皮.zip
+sort-by: 355
+developer: 小魔女皮皮
+description: 受到伤害后无敌
+
+game: 新人类
+file: 新人类.zip
+sort-by: 356
+developer: 新人类
+description: HP不减
+
+game: 星际魂斗罗可视化
+file: 星际魂斗罗可视化.zip
+sort-by: 357
+developer: 星际魂斗罗可视化
+description: 本游戏是先按选择键，再按开始键开启可视化作弊选项。
+
+game: 星际战士
+file: 星际战士.zip
+sort-by: 358
+developer: 星际战士
+description: 无敌
+
+game: 星之卡比
+file: 星之卡比.zip
+sort-by: 359
+developer: 星之卡比
+description: 受到伤害后无敌
+
+game: 雪人兄弟汉化版
+file: 雪人兄弟汉化版.zip
+sort-by: 360
+developer: 雪人兄弟无汉化版
+description: 无敌、能力Max，此版有一小Bug：Boos战中被小怪接触时推出的雪球会花屏。
+
+game: 雪人兄弟可视化
+file: 雪人兄弟可视化.zip
+sort-by: 361
+developer: 雪人兄弟可视化
+description: 可视化可在暂停后按选择键，开启作弊选项。
+
+game: 雅典娜
+file: 雅典娜.zip
+sort-by: 362
+developer: 雅典娜
+description: HP不减，无限跳，命数不减。
+
+game: 亚当斯一家
+file: 亚当斯一家.zip
+sort-by: 363
+developer: 亚当斯一家
+description: 无敌，自带竹蜻蜓无限跳，命数无限
+
+game: 眼镜蛇特种部队1
+file: 眼镜蛇特种部队1.zip
+sort-by: 364
+developer: 眼镜蛇特种部队1
+description: 受伤后无敌，子弹无限
+
+game: 眼镜蛇特种部队2
+file: 眼镜蛇特种部队2.zip
+sort-by: 365
+developer: 眼镜蛇特种部队2
+description: HP不减，子弹无限
+
+game: 野狼特工队
+file: 野狼特工队.zip
+sort-by: 366
+developer: 野狼特工队
+description: 子弹炸弹无限，HP会减
+
+game: 义龟报恩
+file: 义龟报恩.zip
+sort-by: 367
+developer: 义龟报恩
+description: 受到伤害后无敌
+
+game: 翼人
+file: 翼人.zip
+sort-by: 368
+developer: 翼人
+description: 选择键+开始键人数9，装备最强，不是无敌，但可以无限作弊。
+
+game: 音乐欣赏50合1
+file: 音乐欣赏50合1.zip
+sort-by: 369
+developer: 音乐欣赏50合1
+description: 琵琶行论坛大神FlameCyclone制作的音乐欣赏50合1 rom，收录了50个好听的FC游戏BGM。
+
+game: 银河号
+file: 银河号.zip
+sort-by: 370
+developer: 银河号
+description: 无限能源罩，相当于无敌。
+
+game: 银河武士
+file: 银河武士.zip
+sort-by: 371
+developer: 银河武士
+description: 上+开始键开启无敌模式。开启无敌模式后，主角免疫伤害(除了一些必死的地方)，生命最大值提升，攻击力最高，实现“一击必杀“效果。
+
+game: 影武者
+file: 影武者.zip
+sort-by: 372
+developer: 影武者
+description: HP不减
+
+game: 勇士们
+file: 勇士们.zip
+sort-by: 373
+developer: 勇士们
+description: 无敌
+
+game: 越野摩托
+file: 越野摩托.zip
+sort-by: 374
+developer: 越野摩托
+description: 摔倒后立刻起身
+
+game: 炸弹之王
+file: 炸弹之王.zip
+sort-by: 375
+developer: 炸弹之王
+description: 无敌，全道具
+
+game: 战场之狼
+file: 战场之狼.zip
+sort-by: 376
+developer: 战场之狼
+description: 无敌
+
+game: 战斗坦克
+file: 战斗坦克.zip
+sort-by: 377
+developer: 战斗坦克
+description: 无敌，弹药无限
+
+game: 战斗原始人
+file: 战斗原始人.zip
+sort-by: 378
+developer: 战斗原始人
+description: HP不减，无限跳
+
+game: 沼泽怪物
+file: 沼泽怪物.zip
+sort-by: 379
+developer: 沼泽怪物
+description: 无敌
+
+game: 蜘蛛侠
+file: 蜘蛛侠.zip
+sort-by: 380
+developer: 蜘蛛侠
+description: HP不减
+
+game: 中东战争
+file: 中东战争.zip
+sort-by: 381
+developer: 中东战争
+description: 命数不减，↑+选择键可合体一控二
+
+game: 中东战争汉化版
+file: 中东战争汉化版.zip
+sort-by: 382
+developer: 中东战争汉化版
+description: 无敌、火力Max，增加的是透明无敌效果。
+
+game: 中国象棋
+file: 中国象棋.zip
+sort-by: 383
+developer: 中国象棋
+description: 选择键换棋
+
+game: 中国象棋Select切棋子版
+file: 中国象棋Select切棋子版.zip
+sort-by: 384
+developer: 中国象棋Select切棋子版
+description: 按Select键切换棋子（车马炮），每局只能切换一次棋子，切换棋子后点己方左侧棋子可改变全部棋子。
+
+game: 中华大仙
+file: 中华大仙.zip
+sort-by: 385
+developer: 中华大仙
+description: 无敌
+
+game: 终结者2
+file: 终结者2.zip
+sort-by: 386
+developer: 终结者2
+description: 无敌
+
+game: 侏罗纪公园
+file: 侏罗纪公园.zip
+sort-by: 387
+developer: 侏罗纪公园
+description: 无敌，子弹无限，全屏攻击。注意不要靠电网，会卡死。
+
+game: 转转乐园
+file: 转转乐园.zip
+sort-by: 388
+developer: 转转乐园
+description: 命数无限
+
+game: 壮志凌云
+file: 壮志凌云.zip
+sort-by: 389
+developer: 壮志凌云
+description: 导弹不减，命数自增
+
+game: 追击HQ
+file: 追击HQ.zip
+sort-by: 390
+developer: 追击HQ
+description: 时间不减加速次数不减
+

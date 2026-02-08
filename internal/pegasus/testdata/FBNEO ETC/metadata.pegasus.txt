@@ -1,0 +1,1477 @@
+collection: 休闲街机
+sort-by: 007
+extensions: 7z, zip
+ignore-files: 
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/fbneo_libretro.dll" "{file.path}"
+
+game: 打砖块回归
+file: arkretrn.zip
+sort-by: 004
+developer: 打砖块回归
+publisher: Taito
+genre: Taito
+release: Action
+x-id: ECT
+description: 打砖块回归是太东1997年的作品，也是传奇街机系列打砖块的第三部正式作品。虽然3代包含 50 个全新的关卡供玩家战斗，但实际游戏玩法本身与80年代的前两作没有变化。唯一真正的区别是图形和声音的改进，以及对游戏内道具的一些小改进。游戏的实际手感反而不如前两作。
+
+game: 跳跳球/动物方块
+file: popbounc.zip
+sort-by: 012
+developer: 跳跳球/动物方块
+publisher: SNK
+genre: SNK
+release: Puzzle-Game
+x-id: ECT
+description: Pop'n Bounce 是一款类似于 Break Out 的益智游戏；玩家必须将球从球拍上弹开才能击倒精灵墙。然而，在 Pop'n Bounce 中，精灵是各种生物而不是砖块。
+
+game: 孪球
+file: twinsqua.zip
+sort-by: 017
+developer: 孪球
+publisher: SEGA
+genre: SEGA
+release: Action
+x-id: ECT
+description: 世嘉出品的对战型双屏打砖块游戏。随着成绩的变化，整个版面会上下移动。
+
+game: 超级砖块对对碰
+file: blocken.zip
+sort-by: 018
+developer: 超级砖块对对碰
+publisher: Kindle Imagine Develop
+genre: Kindle Imagine Develop
+release: Action
+x-id: ECT
+description: 双人对战的可爱风打砖块游戏。双屏对战的方式模仿了噗呦噗呦。
+
+game: 浦吉克拉宝石王国的世界
+file: puchicar.zip
+sort-by: 005
+developer: 浦吉克拉宝石王国的世界
+publisher: Taito
+genre: Taito
+release: Action
+x-id: ECT
+description: 打砖块类型的专家，太东出品的卡通风打砖块游戏。游戏有多名卡通角色可以选择，而且会成为游戏动态的背景。游戏有多模式多难度选择，是一款同时适合新手和老手的打砖块佳作。
+
+game: 宝石砖块
+file: cubybop.zip
+sort-by: 019
+developer: 宝石砖块
+publisher: Hot Lava Games
+genre: Hot-B
+release: Action
+x-id: ECT
+description: Cuby Bop 是一款打砖块类型的游戏。游戏的创新是增加了双人竞赛的机制，玩家可以与电脑或第二名玩家比赛，以率先打光代表自己颜色的砖块。打别人的砖块是无效的。两个人的竞争让这个游戏乐趣翻倍。
+
+game: 力量斗球
+file: powerbal.zip
+sort-by: 021
+developer: 力量斗球
+publisher: Playmark
+genre: Playmark
+release: Action
+x-id: ECT
+description: 少见的横版打砖块游戏，游戏元素和定位也更成人化。开始时玩家需要选择一个角色，每个角色都有自己的长处和短板。游戏中，玩家在屏幕左侧，屏幕右侧散落着各种物体，然后向右击球会损坏物体。当球返回给球员时，他们必须将球击回，否则他们将失去生命——这一点和一般的打砖块游戏截然不同。一旦所有物体都被摧毁，玩家将进入下一关。每隔几关，游戏会出现一个BOSS。
+
+game: 泡泡龙1(平台)
+file: bublbobl.zip
+sort-by: 022
+developer: 泡泡龙1(平台)
+publisher: Taito
+genre: Taito
+release: Platform
+x-id: ECT
+description: 泡泡龙是一款街机史上的传奇作品。泡泡龙之父三辻富贵朗是一名特别的游戏制作者，他在创作之初确定了一个大方向：他希望能够吸引更多的女性用户。于是他在许多的元素之中选择了“泡泡”这个有些可爱的东西作为游戏机制，而在玩家操控角色上的选择一开始是机器人，所幸被更改了。于是这款险些成为泡泡机器人的游戏最终诞生，其凭借可爱的画风和有趣的游戏设定理所应当地成为了爆款。游戏中，两个玩家扮演 巴布（Bub）和 鲍勃（Bob）的角色，这两只可爱的恐龙必须通过 100 个单屏关卡来拯救他们的女朋友。巴布和鲍勃只有吹泡泡的能力，游戏中的许多敌人都可以被困在其中并杀死。泡泡也可以用作临时平台，帮助恐龙到达关卡中以前无法到达的区域。任何没有足够快地被杀死的被困敌人都会变红并逃离他们的泡泡监狱。这些愤怒的敌人比以前快得多，使他们更难被杀死。如果玩家完成关卡的时间太长，敌人也会生气。击败的敌人会变成可以收集积分的奖励水果。
+
+game: 泡泡龙2(平台)
+file: bublbob2.zip
+sort-by: 023
+developer: 泡泡龙2(平台)
+publisher: Taito
+genre: Taito
+release: Platform
+x-id: ECT
+description: Bubble Bobble II，也称为 Bubble Symphony，是 Taito 1986 年平台经典游戏“Bubble Bobble”（“彩虹岛”是第一部官方续集，但其游玩方式截然不同）的第一部直接续集。它新增了两只新的泡泡龙，而四名泡泡龙都拥有自己的特点：有的速度快，有的吹泡泡快等。和1相比它增加了更多的有趣的BOSS战，在解决一个boss后可以选择分支，在游戏中也加入了很多Tatio本家其他游戏的彩蛋。
+
+game: 泡泡龙3(平台)
+file: bubblem.zip
+sort-by: 025
+developer: 泡泡龙3(平台)
+publisher: Taito
+genre: Taito
+release: Platform
+x-id: ECT
+description: Bubble Memories - The Story of Bubble Bobble III 是 Bub 和 Bob 的第三次也是最后一次街机游戏（不包括“Puzzle Bobble”系列），Bubble Memories 再次回归该系列传奇第一部的经典单屏游戏郊游。从图形上看，该游戏与一年前发布的“Bobble Bobble II”非常相似；两者之间唯一真正的视觉差异是后者游戏使用了一些构成游戏背景的相当乏味的数字化动物照片。
+
+game: 泡泡龙MD(弹球)
+file: sbubsm.zip
+sort-by: 026
+developer: 泡泡龙MD(弹球)
+release: Platform
+x-id: ECT
+description: Super Bubble Bobble MD 移植自一款未经许可发行的MD游戏，该作于 1995 年发布，允许用户扮演 Bub 和 Cororon，以及动漫角色 Crayon Shin-chan 和 Doraemon。1996年，Sun Mixing推出街机版超级泡泡龙。街机版略有不同：它只有 Bub (P1) 和 Cororon (P2) 作为可玩角色。
+
+game: 超级泡泡2003
+file: sb2003.zip
+sort-by: 027
+developer: 超级泡泡2003
+publisher: Limenko
+genre: Limenko
+release: Platform
+x-id: ECT
+description: 一款画面更好的类泡泡龙游戏。角色很可爱，喜欢这种玩法的玩家可以体验一下。
+
+game: 炸弹小子
+file: dynabomb.zip
+sort-by: 028
+developer: 炸弹小子
+publisher: Limenko
+genre: Limenko
+release: Platform
+x-id: ECT
+description: 游戏中的三位英雄 Mic、Mae 和 Dan 将探索世界，并给操纵混乱世界的本土黑帮带来灭顶之灾。他们将在香港遇到黑帮，在德国遇到纳粹。怎么玩？用“炸弹”面对他们。玩家可以将炸弹直接扔向敌人或他们的建筑物。或者可以预先放置大量炸弹，然后将它们一起引爆以获得最大的效果。每个角色都有自己的专长：Mic 可以使用冲锋射击，Mae 可以使用闪电移动，而 Dan 可以自由飞翔。
+
+game: 雪人兄弟1
+file: snowbros.zip
+sort-by: 029
+developer: 雪人兄弟1
+publisher: Toaplan
+genre: Toaplan
+release: Platform
+x-id: ECT
+description: 非常经典的游戏。早期风靡大街小巷的动作游戏"雪人兄弟"，不管在哪里的机厅一定都会见到这个游戏，可说是和街霸2，俄罗斯方块齐名的游戏。剧情是两位雪人小朋友去营救雪山公主的历程。攻击方式是把敌人堆成雪球，借助雪球去攻击敌人。如果一次性消灭敌人的话，天上就掉很多美味可口的年糕。辅助攻击类的道具是药水，红药水加速，蓝药水加大攻击力量，黄药水加攻击射程，绿药水则能变成无敌状态并且不受障碍物阻碍。有一个是要牢记的是，主角只能往上跳，不能往下跳。过一定小关有大BOSS，大小BOSS都有特点。
+
+game: 雪人兄弟2
+file: snowbro2.zip
+sort-by: 030
+developer: 雪人兄弟2
+publisher: Toaplan
+genre: Hanafram
+release: Platform
+x-id: ECT
+description: 主角不再孤单，除了雪人兄弟外，还有其他三位特异功能男孩鼎立加盟，分别拥有电，水，风的力量。本作的一个特点是把敌人变成雪球后继续攻击，雪球会向玩家方向吸附过来。游戏的突出亮点是不在单纯的定版过关，有两大关是要求主角突破复杂的障碍不停的往上跳，直到最高点的目的地，增加了游戏的难度和趣味性。网络上关于这个游戏的介绍几乎是零，几乎没有任何人关注这个游戏，因为它真的太失败。2代换了开发商，游戏内容也大幅度改变 ，原本1代的格式已经是完美而无法超越。5大特色关卡50个关卡超经典的背景音乐，2代使用性能较好的硬件开发也无法媲美1代。2代的主要特点是可以选择4个风格不同的角色并同时4人一起游玩。但4个人+78个敌人一起登场未免太混乱了，而且除了传统的雪人以外其他3个角色都不好用。其中有2个角色都可以捡起1个固定住的敌人移动 (包含跳跃)，1个则类似雪人的性能。不好用的原因是，另外3个角色将敌人固定之后推出去时，敌人并不像雪球的滚动轨道可大致预测，而是乱飞乱弹，其中那个戴蛙镜的家伙水球滚出去后还流不到最下层，而是逐渐消失(太失败)。雪人兄弟的醍醐味就是一球入魂全消灭，2代变这样真是太失败，大家或许会想那选雪人就好。问题之二，关卡设计虽然多了一些小机关和隐藏宝箱可打，敌人花招也变多但这些都多余。大部分关卡设计得乱七八糟，关卡数量大幅减少 (少一半)，大量的剧情画面也根本无关痛痒。整个游戏玩起来毫无内容可言，那到底有没有优点? 有，按 "下+跳"可往下层移动，仅此而已。
+
+game: 雪人兄弟3
+file: snowbro3.zip
+sort-by: 031
+developer: 雪人兄弟3
+publisher: Syrmex
+genre: Syrmex
+release: Platform
+x-id: ECT
+description: 虽然是雪人兄弟3，但却不是使用SNOW BROS的名称，而使用SNOW BROTHERS (在家用机上其实是用此名称)，是墨西哥公司制作的游戏，原开发公司Toaplan东亚企画在1994年已经倒闭。整个游戏都不一样了，此游戏在墨西哥推出时，因为原作本来就很好玩，再融合墨西哥最受欢迎的足球这项要素后，据说在当地造成一股旋风。3代和1代是一模一样的玩法，只是角色、道具、舞台 (一样50个关卡)，全都彻头彻尾的改变，关卡设计难度有变高。
+
+game: 战斗原始人归来
+file: joemacr.zip
+sort-by: 032
+developer: 战斗原始人归来
+publisher: Data East
+genre: Data East
+release: Platform
+x-id: ECT
+description: 1991 年横版卷轴冒险游戏“战斗原始人”的续集。不过Data East 一改前作的游戏玩法，制作了一款与 Toaplan 1990 年发行的“Snow Bros.”（雪人兄弟）游戏玩法非常相似的单屏平台游戏。
+
+game: 吸尘器小子
+file: tumblep.zip
+sort-by: 033
+developer: 吸尘器小子
+publisher: Data East
+genre: Data East
+release: Platform
+x-id: ECT
+description: 吸尘器小子(又称抓鬼大师)是一款DATA EAST在1991年发行的平台过关游戏，这款游戏的创意可能来自于抓鬼特工的动漫，玩家在游戏中将扮演一名抓鬼少年，唯一使用的武器便是一架特殊的吸尘器，可以吸入或吐出任何鬼魂，使用其强大的吸吐能力来将敌人碾碎。游戏的画面非常清新很讨人喜爱，游戏的场景与操作类似于雪人兄弟，并可以双人合作游戏，游戏每隔10个关卡会出现一个BOSS，其战斗方式相同。游戏中玩家的角色相当的脆弱，只需碰到敌人一下立马死亡，所有这款游戏对操作的要求还是满高，特别是到了游戏后期，关卡障碍陷阱的复杂程度大大增加，敌人的数量更强度也有很大的加强，玩起来会感觉相当棘手。
+
+game: 吸尘器小子2001
+file: jumppop.zip
+sort-by: 034
+developer: 吸尘器小子2001
+publisher: bootleg
+genre: ESD
+release: Action
+x-id: ECT
+description: 吸尘器小子2001是DATA EAST于2001年把1991年初版吸尘器小子推出的重制版，加入了全新的怪物和BOSS，并在每一个大关卡过关后还会激活一张动漫美少女壁纸。游戏的玩法依然采用传统经典的将敌人吸入吸尘器或吐出吸尘器的玩法，不过不同的是这款游戏中BOSS出现的频率更加的频繁，几乎是几关一个小BOSS，几个小BOSS之后紧接着就会出个大BOSS，虽然难度并无太多变化，不过爽快度增加了许多。
+
+game: 木匠兄弟
+file: dondokod.zip
+sort-by: 035
+developer: 木匠兄弟
+publisher: Taito
+genre: Taito
+release: Platform
+x-id: ECT
+description: Taito于1989年的作品，和雪人兄弟类似的平台过关游戏。木匠用锤子砸到怪物后，踢一脚就可以打到其它怪物。该游戏有fc移植版。
+
+game: 仙境物语
+file: flstory.zip
+sort-by: 037
+developer: 仙境物语
+publisher: Taito
+genre: Taito
+release: Platform
+x-id: ECT
+description: 同样是太东出品，同样是1986年，仙境物语是传奇街机“泡泡龙”的前身。玩家控制一个小仙女，用法术将邪恶的巫师、女巫和其他敌人变成蛋糕，或并将他们从平台壁架上推下。每当敌人碰到小仙女，她就会被困在魔法泡泡中飘走——这也是泡泡龙泡泡元素的雏形。每个关卡的背景都是在城堡内。
+
+game: 彩虹岛
+file: rbisland.zip
+sort-by: 039
+developer: 彩虹岛
+publisher: Taito
+genre: Taito
+release: Platform
+x-id: ECT
+description: 泡泡龙既然成为了爆款，那续作也提上了日程，一定的用户基础加上轻松愉快的玩法和特色鲜明的人物形象，这种IP就算每年只做点微创新想必也会很多人买账。但是当新作面世后，玩家们有些傻眼：呆萌可爱的小恐龙？没有了；满屏幕的泡泡？也没有了。整款作品看上去除了副标题以外和泡泡龙完全不搭边，这款游戏就是彩虹岛：泡泡龙的故事2。当然，如果说和泡泡龙完全无关也不对。如果玩家凑巧有个好朋友和他一起通关了泡泡龙1的真结局就会发现：这个呆萌的小恐龙原来是人类。而彩虹岛的主角正是变回人类的泡泡龙们。作为续作的彩虹岛就像是故意和自己的前辈泡泡龙对着干一样：泡泡龙过关后向下，它便要向上过关；泡泡龙只有双人一起玩才能打到真结局，它便不让两名玩家一起游戏；泡泡龙的武器泡泡包裹敌人，它便用彩虹作铺垫主角的道路。但是彩虹岛终究还是有没能逃过和泡泡龙一样的地方，它们一样的被玩家喜爱。
+
+game: 彩虹岛特别版
+file: rbislande.zip
+sort-by: 040
+developer: 彩虹岛特别版
+publisher: Taito
+genre: Taito
+release: Platform
+x-id: ECT
+description: Rainbow Islands Extra Version是彩虹岛的修改版；除了关卡的敌人和 Boss 出现顺序不同（很像 Bubble Bobble 的超级模式）外，游戏完全相同。 Rainbow Islands Extra 在街机中限量发行。该游戏还作为一种模式出现在彩虹岛的 Sega Mega Drive 版本中。
+
+game: 乐乐小子
+file: dietgo.zip
+sort-by: 041
+developer: 乐乐小子
+publisher: Data East
+genre: Data East
+release: Platform
+x-id: ECT
+description: 1992由Data East推出的一款平台动作类游戏，和雪人兄弟玩法类似。游戏讲述的是一对兄妹穿越到了糖果的世界中，不过这个世界并非想象中的那么美好，由于邪恶厨师的出现，这里的糖果整天都处在自相残杀的状态，而这对兄妹二人为了还世界一个和平，绝对要找出黑暗厨师并将其打败。
+
+game: 飞拳小子
+file: funkyjet.zip
+sort-by: 042
+developer: 飞拳小子
+publisher: Data East
+genre: Data East
+release: Platform
+x-id: ECT
+description: 又名喷射小子，喷射飞拳小子，Mitchell于1992年制作的平台游戏，主角可以全方位移动，而且加入动作成分在里面，敌人不是一招毙命，要几拳下去才有效果，如果是boss，那是要大费周章的。
+
+game: 星星大战
+file: zupapa.zip
+sort-by: 043
+developer: 星星大战
+publisher: SNK
+genre: SNK
+release: Platform
+x-id: ECT
+description: SNK于2001出品的一款平台游戏，类似雪人兄弟，但玩法区别比较大，可以从平台上跳下来。玩家控制大星星射出小星星，在小星星围殴敌人时，用大星星去碰撞就可以击倒敌人。如果扔出去的小星星没有碰到敌人，小星星就会原地待命，此时需要去回收小星星。总体来说，这是一款比较有新意也很有趣的游戏，画面好，手感也不错。
+
+game: 午夜噩梦
+file: nitd.zip
+sort-by: 044
+developer: 午夜噩梦
+publisher: SNK
+genre: SNK
+release: Platform
+x-id: ECT
+description: 午夜噩梦又名暗黑恶梦/黑暗守墓者，玩家在游戏中将扮演一名神秘的墓地守护者，使用火焰的力量将从墓地中爬出来的僵尸鬼怪全都赶尽杀绝。游戏的背景设置在满是墓地的坟场中，而游戏的玩法非常类似于游戏“雪人兄弟”，但有区别的是雪人兄弟是通过冰雪将敌人做成雪球进行滚落销毁，而墓地守护者是通过火焰将敌人烧成火球滚走撞毁，两者有着异曲同工之妙，也有抄袭的嫌疑。虽然玩法相似，不过这并不影响这款游戏的可玩性，游戏在内容上与风格上还是有着很大的差别，这款游戏有着更快的节奏与更棘手的关卡和BOSS，依然是部成功的作品。
+
+game: 托托归来
+file: toto.zip
+sort-by: 045
+developer: 托托归来
+publisher: SoftClub
+genre: SoftClub
+release: Platform
+x-id: ECT
+description: SoftClub于1996年推出的一款模仿雪人兄弟的平台游戏，玩法和雪人兄弟大同小异。
+
+game: 合金救助者
+file: metlsavr.zip
+sort-by: 046
+developer: 合金救助者
+publisher: First Amusement
+genre: First Amusement
+release: Platform
+x-id: ECT
+description: 版面类似雪人兄弟，但是主角使用的是枪火，敌人则为机械昆虫。
+
+game: 飞头小子
+file: hedpanic.zip
+sort-by: 047
+developer: 飞头小子
+publisher: ESD
+genre: Fuuki
+release: Platform
+x-id: ECT
+description: 类雪人兄弟的游戏。区别是作为远程攻击手段，主角的头可以飞出去一定距离。被击中后的敌人会变成彩球，用途和雪人兄弟中的敌人所变成的大雪球一样。
+
+game: 兔与龟
+file: toppyrap.zip
+sort-by: 048
+developer: 兔与龟
+publisher: SemiCom
+genre: SemiCom
+release: Platform
+x-id: ECT
+description: SemiCom于1996年推出的一款雪人兄弟的仿制游戏，玩法是用枪射击敌人，将其网住，并解救森林中的动物，游戏中可以获取各种道具来帮助玩家。
+
+game: 企鹅兄弟
+file: penbros.zip
+sort-by: 049
+developer: 企鹅兄弟
+publisher: Ago
+genre: Subsino
+release: Platform
+x-id: ECT
+description: Penguin Brothers 是一款多屏平台游戏，其中一名或两名玩家（合作或竞争）控制一只可爱的企鹅与游戏中同样可爱的敌人作战。游戏需要玩家消灭所有屏幕上的敌人；完成后，将出现一个圆形钥匙。玩家必须拿起钥匙，然后他们将被传送到代表舞台第二部分的另一个屏幕。这个屏幕有一个银色的门，玩家必须携带钥匙到门口——避开或消灭屏幕上的敌人——才能完成关卡。企鹅的武器是炸弹，爆炸效果比较出色。
+
+game: 终极打气球
+file: uballoon.zip
+sort-by: 050
+developer: 终极打气球
+publisher: SunA
+genre: SunA
+release: Platform
+x-id: ECT
+description: 山寨大王韩国sun-a的最好作品。玩法类似泡泡龙，但是比起该公司其他作品而言，游戏的美工不再阴间，提升很大！游戏过关时还有福利环节！
+
+game: 黑暗之塔
+file: darktowr.zip
+sort-by: 051
+developer: 黑暗之塔
+release: Action
+x-id: ECT
+description: Game Room于1992年发布的一款模仿雪人兄弟和泡泡龙的平台过关游戏。游戏从头到尾只有一首背景音乐，关底的大BOSS长得一模一样，通过50关以后直接从第1关开始，没有结局动画。是一款极其粗糙、低劣的仿作。
+
+game: 皮皮和比比 电梯作战
+file: pipibibs.zip
+sort-by: 052
+developer: 皮皮和比比 电梯作战
+publisher: Toaplan
+genre: Toaplan
+release: Platform
+x-id: ECT
+description: Toaplan于1991制作的一款电梯大战类的游戏。玩家的任务就是在各个需要安装炸弹的地方装上炸弹，然后顺利逃跑即可，如果你被大楼中的任何人碰见，那么恐怕你就要重新来过了。连续过几关后有福利可看。
+
+game: 鸵鸟骑士
+file: joust.zip
+sort-by: 053
+developer: 鸵鸟骑士
+publisher: Williams
+genre: Williams
+release: Platform
+x-id: ECT
+description: 一款在欧美大获成功的街机，成功到任天堂在FC上山寨了本作，制作了气球大战——这也成为了宫本茂和岩田聪的首次合作。Joust 是一款基于平台的动作格斗游戏，适合单人或两人玩家（双人游戏提供组队或正面交锋；这是街机游戏玩家第一次获得这种选择），其中每个玩家都控制骑在飞翔的鸵鸟背上的骑士。游戏的目标是通击败一群骑着秃鹰的敌方骑士。这是通过“比武”实现的；敌方和玩家骑士都携带长矛，必须在关卡中飞来飞去（通过反复按下“拍打”按钮来操作），试图通过用长矛撞击敌对骑士，将他们从他们的坐骑上赶下来。只有在高于对方骑士时才能获胜。等高的碰撞导致两个骑士相互弹开，但如果玩家在接触的瞬间低于他们的敌人，他们自己将被从坐骑上撞下并失去生命。被打败的敌人会变成一个落到屏幕底部的鸡蛋。这必须由玩家迅速收集。如果蛋落在平台上并且没有及时取回，它最终会孵化成另一个必须再次击败的敌方骑士。Joust 具有三种不同类型的敌方骑士 - Bounder、Hunter 和 Shadow Lord - 每个玩家在被击败时都会获得不同的积分值。翼手龙会在时间结束后出现并猎杀玩家。游戏最初上手可能非常困难，因为控制受到重力和惯性的强烈影响，不过这也正是本作的魅力。玩家可能会因为被敌方骑士从坐骑上撞下或掉入每一关底部的熔岩坑而丧命。
+
+game: 仙人掌兄弟
+file: sabotenb.zip
+sort-by: 054
+developer: 仙人掌兄弟
+release: Platform
+x-id: ECT
+description: NMK/Tecmo于1992年出品的一款平台过关游戏。控制仙人掌射出炸弹攻击敌人，但是需要注意，不要被自己的炸弹炸死。
+
+game: 赌马大亨
+file: jockeygp.zip
+sort-by: 056
+developer: 赌马大亨
+publisher: BrezzaSoft
+genre: BrezzaSoft
+release: Horses race
+x-id: ECT
+description: Neo Geo 上的 Jockey Grand Prix 是一款特殊的赛马游戏，因为它只涉及预测。玩家赌一匹或多匹马，并在比赛中祈祷它会赢得胜利。游戏每匹马引入了一个评级系统，该系统决定了看到它赢得比赛的机会。
+
+game: 赛马大亨1
+file: stakwin.zip
+sort-by: 057
+developer: 赛马大亨1
+publisher: Saurus
+genre: SNK
+release: Horses race
+x-id: ECT
+description: Stakes Winner 是一款 2D漫画风的赛马游戏。玩家扮演骑师的角色，必须使用游戏中八匹可选择的马匹中的一匹赢得一系列比赛。每匹马在力量、速度和耐力方面都有侧重，使每匹马在操控方面各不相同。在游戏过程中，可以通过完成奖励关卡来提升马匹属性。每匹马在屏幕底部都有一个耐力条，旁边是一张显示其当前健康状况的马头图片。耐力条随着马的奔跑而减少，当它耗尽时，那匹马的比赛就结束了。
+
+game: 赛马大亨2
+file: stakwin2.zip
+sort-by: 058
+developer: 赛马大亨2
+publisher: Saurus
+genre: SNK
+release: Horses race
+x-id: ECT
+description: 驾驶您的冠军赛马并赢取丰厚奖品！飞出围场，以比其他人更快的速度沿着赛道奔跑。需要记得收集奖励零食以保持马匹的耐力！游戏的速度感较初代更强
+
+game: 天蚕变
+file: twinqix.zip
+sort-by: 063
+developer: 天蚕变
+publisher: Taito
+genre: Taito
+release: Puzzle-Game
+x-id: ECT
+description: Taito于1995年推出的正经版天蚕变，完全的益智休闲小游戏，老少皆宜。
+
+game: 罪恶之街
+file: panicstr.zip
+sort-by: 065
+developer: 罪恶之街
+publisher: Kaneko
+genre: Kaneko
+release: Puzzle-Game
+x-id: ECT
+description: KAKEKO于1999年推出的天蚕变衍生游戏，游戏人物都非常的Q版，使画面效果更加的绚丽，游戏的难度还是非常大的，操作方式是先按住划线，按住左键来进行移动，把照片围起来就可以解除被封印的照片了。
+
+game: 动作好莱坞
+file: actionhw.zip
+sort-by: 066
+developer: 动作好莱坞
+publisher: TCH
+genre: TCH
+release: Action
+x-id: ECT
+description: 一款平台游戏，玩家必须四处走动，翻过所有方块，同时消灭过程中的所有敌人。
+
+game: 炸弹人
+file: dynablst.zip
+sort-by: 067
+developer: 炸弹人
+publisher: Irem
+genre: Irem
+release: Action
+x-id: ECT
+description: Irem在哈德森授权下开发的街机版炸弹人游戏。可供4人游玩。
+
+game: 炸弹人机皇版
+file: neobombe.zip
+sort-by: 068
+developer: 炸弹人机皇版
+publisher: SNK
+genre: Hudson
+release: Action
+x-id: ECT
+description: Neo炸弹人是由HUDSON公司出品的一个游戏，具体操作是利用一个机器人放置炸弹来炸死敌人，也可以炸死自己，还有些增强威力与技能的道具增加了游戏的可玩性。玩家可以利用炸弹人去消灭敌人，当然需要注意的是也会伤害到自己哦，此外还加入了很多好玩的道具，例如定时，多扔几个之类的。主人公的形象完全采用了HUDSON公司的另一款游戏淘金者中敌人的设计，甚至保留了机器人的身份。这使得炸弹人成了一款与淘金者息息相关的游戏。这里向大家讲一下炸弹人与淘金者的真正故事。其实炸弹人是一个一直想变成人的机器人，他坚信只要到达地面就能变成人类，最后，他终于努力变成了人，却又以淘金者的身份来到了地下。
+
+game: 炸弹人机皇版 加强版
+file: bombeplus/neobombe.zip
+sort-by: 069
+developer: 炸弹人机皇版 加强版
+assets.box_front: media/bombeplus/boxfront.jpg
+assets.logo: media/bombeplus/logo.png
+assets.video: media/bombeplus/video.mp4
+release: Action
+x-id: ECT
+description: 速度最大，火力最强，时间不减，生命不减，可以在地图上铺无数个炸弹。
+
+game: 炸弹人 新炸弹人
+file: bbmanw.zip
+sort-by: 070
+developer: 炸弹人 新炸弹人
+publisher: Hudson
+genre: Irem
+release: Action
+x-id: ECT
+description: Irem在初代发布后的次年（1992年），发售的街机炸弹人游戏。角色的外观和哈德森版有点区别，玩法则基本一样。
+
+game: 英雄物语
+file: exvaniaj.zip
+sort-by: 072
+developer: 英雄物语
+publisher: Namco
+genre: Namco
+release: Action
+x-id: ECT
+description: 黑暗女王 Erinyes 绑架了伊莱克特拉公主。四位英雄：沃德、埃米利奥、查尔斯和卡尔踏上了拯救公主的征程。他们互相竞争到达黑暗城堡并击败 Erinyes，因此他们中的一个可能会与获救的 Electra 结婚并统治 Exvania 土地。玩家必须控制四位为土地控制权而战的中世纪领主。他们必须在八座不同的城堡中战斗，并试图控制每一座城堡。当其中一位领主赢得一场战斗时，他将获得一枚勋章——一旦他赢得了三枚勋章，他将获得当前城堡的控制权（这意味着它们最多可以有六个房间），游戏将继续进行下一座城堡。游戏玩法类似于 Hudson Soft 的炸弹人系列，其最初名称由 Irem 于 1991 年改编为街机。
+
+game: 魔法公主
+file: selfeena.zip
+sort-by: 073
+developer: 魔法公主
+publisher: East Technology
+genre: East Technology
+release: Action
+x-id: ECT
+description: 迷宫类游戏，魔法版的吃豆人。将箱子扔向敌人，将他们困在里面。然后将箱子扔到钥匙方块上，得到金币和道具。不要等太久，否则敌人会逃出箱子。收集这些硬币。如果您没有箱子并且面对敌人，请使用您的眩晕射击魔法。如果被包围，则可以使用眩晕冲击波发动范围攻击。
+
+game: 咸蛋超人俱乐部
+file: umanclub.zip
+sort-by: 074
+developer: 咸蛋超人俱乐部
+genre: Banpresto
+release: Shooter
+x-id: ECT
+description: 咸蛋超人俱乐部是Banpresto/Tsuburaya Productions于1992年出品的一款俯视角的休闲小游戏，玩家需要在有限的空间操纵奥特曼发射光线击败数个小怪兽才能过关。
+
+game: 噗哟噗哟1
+file: puyo.zip
+sort-by: 075
+developer: 噗哟噗哟1
+publisher: SEGA
+genre: SEGA
+release: Puzzle-Game
+x-id: ECT
+description: 噗呦噗呦（日语：ぷよぷよ）是日本Compile公司于1991年所推出的方块游戏系列，虽然每个像史莱姆一样的砖块都有名字，不过一般都简称“ぷよ”（罗马拼音：puyo，与游戏名一半相同）。1998年Compile遇到经营问题，将著作权卖给世嘉。2002年12月8日Compile解散，现在则由世嘉继续制作。噗呦噗呦为对战类型为主的游戏，包括玩家间的对战，以及玩家与AI的对战。初代是世嘉1992年发行的，也是日本最受欢迎最长寿的益智游戏之一。
+
+game: 噗哟噗哟2
+file: puyopuy2.zip
+sort-by: 076
+developer: 噗哟噗哟2
+publisher: Compile
+genre: Compile
+release: Puzzle-Game
+x-id: ECT
+description: 广受欢迎的 Puyo Puyo 的续集。游戏几乎没变，只是增加了新人物。噗呦噗呦 2被认为是日本有史以来最流行的街机游戏之一。
+
+game: 超级方块战士2
+file: spf2t.zip
+sort-by: 078
+developer: 超级方块战士2
+publisher: Capcom
+genre: Capcom
+release: Puzzle-Game
+x-id: ECT
+description: 超级方块战士2是1996年推出的以Q版角色进行方块对战的作品。游戏中有大量街霸角色登场，每个角色都有符合其特性的攻击方式。是一款大受好评的PUZ游戏。游戏开始有两种模式选择，一种是和电脑对战的故事模式，另一种则是玩家之间的对战模式。这款游戏看起来像是Q版街霸格斗游戏其实是一款休闲益智的街机游戏，游戏使用三消玩法游戏人物会根据玩家三消的效果做出相应的攻击，如果玩家在一次性之类连续不断的消除宝石街霸人物也会打出漂亮的连续技，如果玩家一次性大量消除了宝石同样街霸人物会发出超级必杀技，该游戏还有几种模式可进行挑战，喜欢这类型游戏的玩家可以尝试下该作品。
+
+game: 魔法方块
+file: pnickj.zip
+sort-by: 079
+developer: 魔法方块
+publisher: Capcom
+genre: Capcom
+release: Puzzle-Game
+x-id: ECT
+description: 魔法方块是CAPCOM公司在1994年出品的一款休闲敏捷游戏，是一款小清新风格的街机方块消除闯关游戏，清新简约的游戏背景，轻松舒缓的背景音乐，你将来到不一样消除方块的战斗世界中。这款游戏的玩法上十分的简单，消除益智类，在游戏中可以看到有各种各样的颜色的方块，方块满三个就可以消除了，关于消除类型的游戏玩家们都非常的熟悉，三个成串的宝石像俄罗斯方块那样依次落下来，相同宝石在横竖斜方向三个以上连成一线就可以消掉；画面上有个自由女神的画像，背景音乐有一段是龙的传人。从前有个和平美丽的王国，居民们每天都快乐的生活着。但是某一天一只巨大的怪兽出现在了，怪兽要破坏这个美丽和平的王国！为此，国王派出了勇敢的骑士、弓箭手和魔法师们，去对抗这只怪兽。而我们也将参与到这场战斗之中，但是我们并不是正义的勇者，而是要破坏王国的怪兽。
+
+game: 宝石方块1
+file: columns.zip
+sort-by: 080
+developer: 宝石方块1
+publisher: SEGA
+genre: SEGA
+release: Puzzle-Game
+x-id: ECT
+description: Columns 是世嘉推出的一款经典的三消益智游戏。玩家可以在其中堆叠掉落的宝石，以创建由三个相同颜色的宝石组成的链条并将其消除。
+
+game: 宝石方块2 穿越时空的旅程
+file: columns2.zip
+sort-by: 081
+developer: 宝石方块2 穿越时空的旅程
+genre: SEGA
+release: Puzzle-Game
+x-id: ECT
+description: Columns II: The Voyage Through Time 是经典三消游戏Columns 的续集。游戏仅在在日本的街机游戏厅发行。目前尚不清楚为什么它的副标题是“穿越时空的旅程”，除了似乎试图指示未来和过去时代的微小改进：它们被分为机器主题、淡绿色主题和经典主题。
+
+game: 宝石方块竞赛版
+file: stkclmns.zip
+sort-by: 082
+developer: 宝石方块竞赛版
+publisher: SEGA
+genre: SEGA
+release: Puzzle-Game
+x-id: ECT
+description: Stack Columns 是世嘉在 1994 年在街机上发布的经典益智游戏，相比其他版本更注重竞赛。
+
+game: 魔法宝石
+file: hexa.zip
+sort-by: 083
+developer: 魔法宝石
+genre: D.R. Korea
+release: Puzzle-Game
+x-id: ECT
+description: Hexa是宝石方块的山寨作品。
+
+game: 炸弹人方块
+file: panicbom.zip
+sort-by: 089
+developer: 炸弹人方块
+publisher: SNK
+genre: Hudson
+release: Puzzle-Game
+x-id: ECT
+description: 炸弹人版的噗呦噗呦。游戏中有炸弹要素，红色点燃状态的炸弹可以将所有堆放的炸弹消除。游戏中的对手也是炸弹人系列的老熟人了。
+
+game: 干支物语
+file: eto.zip
+sort-by: 090
+developer: 干支物语
+publisher: Visco
+genre: Visco
+release: Puzzle-Game
+x-id: ECT
+description: 充满日式元素的三消游戏。放置最多 3 个相同颜色的方块，可以水平、垂直或呈“L”形，可以在任何方向进行。游戏借鉴了噗呦噗呦的玩法。
+
+game: 卡琳魔宝
+file: karianx.zip
+sort-by: 091
+developer: 卡琳魔宝
+publisher: Deniam
+genre: Deniam
+release: Puzzle-Game
+x-id: ECT
+description: 一款类似于噗哟噗哟的益智游戏。将 3 个相同颜色的物体放在一起，使它们消失。获得多个组合会导致更多的方块落在你的对手那边。
+
+game: 管它
+file: cachat.zip
+sort-by: 092
+developer: 管它
+publisher: Taito
+genre: Taito
+release: Puzzle-Game
+x-id: ECT
+description: 太东的又一款益智游戏佳作。Cachat 是一款非常具有挑战性的益智游戏，玩家必须尽快通过旋转管道方向的方法联通管路。方块从屏幕顶部掉落，如果它们到达游戏区域的顶部，游戏就结束了。这款令人兴奋的快速游戏非常容易上瘾。游戏玩法很简单，但需要非常敏捷的思维。
+
+game: 宠物方块
+file: pnyaa.zip
+sort-by: 093
+developer: 宠物方块
+publisher: Aiky
+genre: Taito
+release: Puzzle-Game
+x-id: ECT
+description: 宠物方块又名帕青方块，是很可爱的一款方块大战游戏，游戏的人物和音乐十分卡通。内容也和传统的方块游戏一样，把相同颜色的宠物方块叠在一块，超过一定数量后就会消除。游戏有对战模式和过关模式，全部通关后将见到隐藏的人物。
+
+game: 琉球
+file: ryukyu.zip
+sort-by: 094
+developer: 琉球
+publisher: ASCII
+genre: SEGA
+release: Puzzle-Game
+x-id: ECT
+description: RyuKyu 是一款使用扑克元素的高度可玩但具有挑战性的益智游戏。在此游戏中，玩家尝试垂直、水平或对角地组成一手五张牌来得分，并且必须满足回合的得分标准才能前进。手牌的等级从一对到一类。
+
+game: 俄罗斯方块
+file: atetris.zip
+sort-by: 095
+developer: 俄罗斯方块
+publisher: bootleg
+genre: Atari
+release: Puzzle-Game
+x-id: ECT
+description: 雅达利1988年版的俄罗斯方块。俄罗斯为无数益智游戏奠定了基础。
+
+game: 俄罗斯方块PLUS1
+file: tetrisp.zip
+sort-by: 096
+developer: 俄罗斯方块PLUS1
+publisher: BPS
+genre: Jaleco
+release: Puzzle-Game
+x-id: ECT
+description: 这是为 PlayStation、Saturn 和 Game Boy 发布的俄罗斯方块的改良版。此版本具有经典模式、解谜模式、对战模式和编辑模式。在 解谜模式下，玩家必须拯救一路攀登到顶峰的教授。为此，玩家必须清除障碍物并将他带到底部。对战模式可以双人同时游玩。编辑模式允许玩家创建和保存自己的自定义关卡。
+
+game: 俄罗斯方块PLUS2
+file: tetrisp2.zip
+sort-by: 097
+developer: 俄罗斯方块PLUS2
+publisher: Jaleco
+genre: Jaleco
+release: Puzzle-Game
+x-id: ECT
+description: 游戏包括无尽模式，对战模式和初代饱受好评的解谜模式。这次的探险家可以选择，剧情也更丰富了。
+
+game: 俄罗斯方块 世嘉俄罗斯方块
+file: tetris.zip
+sort-by: 098
+developer: 俄罗斯方块 世嘉俄罗斯方块
+publisher: SEGA
+genre: SEGA
+release: Puzzle-Game
+x-id: ECT
+description: 在日本，俄罗斯方块的街机版权在世嘉手上，但家用机和掌机的版权在任天堂老大山内浦女婿亲赴俄罗斯谈判的努力下被任天堂拿走，这也一定程度上左右了掌机大战的最终胜负。说回街机版，在日本，俄罗斯方块街机也大受欢迎，Taito甚至与世嘉合作，将“Master of weapon”或“Rastan saga 2”等不受欢迎的游戏转换为俄罗斯方块（在 Taito B 系统上）。后来Taito在Taito H系统上制作了世嘉的俄罗斯方块。
+
+game: 俄罗斯方块大师2
+file: tgm2.zip
+sort-by: 099
+developer: 俄罗斯方块大师2
+publisher: Arika
+genre: Arika
+release: Puzzle-Game
+x-id: ECT
+description: Arika 具有挑战性的解谜动作系列继续推出新的游戏模式、挑战和机制创新。
+
+game: 俄罗斯方块  黑洞
+file: blockhl.zip
+sort-by: 100
+developer: 俄罗斯方块  黑洞
+publisher: Konami
+genre: Konami
+release: Puzzle-Game
+x-id: ECT
+description: 益智游戏。
+
+game: 立体空间方块
+file: blockout.zip
+sort-by: 101
+developer: 立体空间方块
+publisher: Technos Japan Corp.
+genre: Technos Japan Corp.
+release: Puzzle-Game
+x-id: ECT
+description: Block Out 是一款 1 人或 2 人同时进行的具有独特维度和策略的竞争性游戏。用三个按键和一个旋钮让方块一个一个地落入立体的空缺中。一一旦玩家决定了方块的旋转方向，使用按钮将方块放置到相应的位置。玩家通过选择开始阶段来开始游戏。游戏开始级别选择可以从难度 1、5、10、15 或 20 中选择。游戏中共有 100 个难度，随着玩家在游戏中的进行，游戏会变得越来越难。除了单人模式外，Block Out 还提供竞争性的双人同时分屏游玩。在 双人对战模式中有两种获胜方式：1）迫使对手到他们的顶部并退出比赛或者2）率先消除21层。
+
+game: 豆豆君大冒险
+file: riskchal.zip
+sort-by: 102
+developer: 豆豆君大冒险
+publisher: Irem
+genre: Irem
+release: Puzzle-Game
+x-id: ECT
+description: 操纵方块落下并引导角色自由走到出口，同时保护他免受敌人或障碍物的伤害。游戏后被移植到SFC上。
+
+game: 泡泡龙1(弹球)
+file: pbobble.zip
+sort-by: 103
+developer: 泡泡龙1(弹球)
+publisher: Taito
+genre: Taito
+release: Puzzle-Game
+x-id: ECT
+description: 由TAITO研发的一款休闲游戏，于1994年首次发布。游戏玩法是玩家从下方中央的弹珠发射台射出彩珠，多于3个同色珠相连则会消失。也支持双人游戏，不过此模式下，两个玩家互相竞争：一个消除大片泡泡会转移到对方阵地。
+
+game: 泡泡龙2(弹球)
+file: pbobbl2n.zip
+sort-by: 104
+developer: 泡泡龙2(弹球)
+publisher: Taito
+genre: Taito
+release: Puzzle-Game
+x-id: ECT
+description: 泡泡龙2是款比较休闲的街机游戏,2代增强了画面的效果,泡泡球看起来更加的光泽,颜色也相对的多了些。玩法和一代基本没什么区别。游戏玩法非常简单，只需要将同一种颜色的泡泡打在一起，就能够消除。即便如此，泡泡龙依然风靡了十多年，经久不衰，这种休闲游戏受到了广大玩家的欢迎。泡泡龙系列是由TAITO研发的一款休闲游戏，于1994年首次发布。游戏玩法是玩家从下方中央的弹珠发射台射出彩珠，多于3个同色珠相连则会消失。也支持双人游戏，不过此模式下，两个玩家互相竞争：一个消除大片泡泡会转移到对方阵地。本作和一代一样，游戏的玩法没有什么区别，不过是增强的游戏的故事背景的趣味性，而不像一代一样只是一味的往前通关。二代分为故事模式和对战模式，游戏的规则也是将相同颜色的泡泡射在一块并消除。
+
+game: 泡泡龙3(弹球)
+file: pbobble3.zip
+sort-by: 105
+developer: 泡泡龙3(弹球)
+publisher: Taito
+genre: Taito
+release: Puzzle-Game
+x-id: ECT
+description: Taito在1996年出品，全新设计的经典模式和无限模式，为您带来颠覆式的新体验!精心设计、多达二十余种的各色小球和强力道具。
+
+game: 泡泡龙4(弹球)
+file: pbobble4.zip
+sort-by: 106
+developer: 泡泡龙4(弹球)
+publisher: Taito
+genre: Taito
+release: Puzzle-Game
+x-id: ECT
+description: Taito 1997年出品，本作传承了泡泡龙游戏的经典规则。最大的亮点在于解谜模式，其中过关不再是消除所有泡泡，而是要巧妙的收集钻石。70个关卡每一关都是一道崭新的谜题。
+
+game: 曲吉鼠解谜2
+file: cookbib2c.zip
+sort-by: 108
+developer: 曲吉鼠解谜2
+release: Puzzle-Game
+x-id: ECT
+description: 曲吉鼠解谜2是一款非常经典的街机游戏，玩法和泡泡龙一样，3个相同的在一起消除。
+
+game: 曲吉鼠解谜3
+file: cookbib3.zip
+sort-by: 109
+developer: 曲吉鼠解谜3
+genre: SemiCom
+release: Puzzle-Game
+x-id: ECT
+description: 曲吉鼠解谜3是1997年的游戏，这款游戏的玩法可以说是非常有创意，看起来是简单的泡泡龙消除玩法，但是在详细的规则上有着很大的区别，大家可以利用自己的技巧和游戏心得进行消除，获得更多的分数进行通关。
+
+game: 解谜！虫姬玉
+file: mushitam.zip
+sort-by: 110
+developer: 解谜！虫姬玉
+publisher: Cave
+genre: AMI
+release: Puzzle-Game
+x-id: ECT
+description: STG大厂CAVE出品的益智三消游戏，里面的角色均出自虫姬这款射击游戏。
+
+game: 魔幻星座
+file: puzlstar.zip
+sort-by: 111
+developer: 魔幻星座
+publisher: IGS
+genre: IGS
+release: Puzzle-Game
+x-id: ECT
+description: 一个休闲益智类的小游戏，玩家要把相同的3样东西从混乱的排序中找出来，3个相同的方块就可以消除，当画面上所有的方块消除的时候，就顺利过关了。随着游戏的进程，游戏的难度越来越大，是一个非常锻炼脑回路的游戏。游戏中还有一些道具可以使用，例如玩家可以使用道具回到上一步等。
+
+game: 块块消
+file: plotting.zip
+sort-by: 112
+developer: 块块消
+publisher: Taito
+genre: Taito
+release: Puzzle-Game
+x-id: ECT
+description: 玩法特殊的益智游戏。由小鸡在版面移动并发射方块，同样图案的方块可以消除。要利用好方块碰到障碍物弹射方向偏转这一特性。
+
+game: 建造师
+file: landmakr.zip
+sort-by: 114
+developer: 建造师
+publisher: Taito
+genre: Taito
+release: Puzzle-Game
+x-id: ECT
+description: Land Maker 的目标是将特定颜色的方块射到其他相同颜色的方块上以创建建筑物。建筑物越大，对玩家的对手造成的伤害就越大，这会加快对手方块的下移速度，将其推得更靠近边缘。游戏有多个人物可供选择，是一款画面效果出色的三消游戏。
+
+game: 泡泡鱼2
+file: puzzli2.zip
+sort-by: 116
+developer: 泡泡鱼2
+publisher: IGS
+genre: IGS
+release: Puzzle-Game
+x-id: ECT
+description: 很适合女生玩的一款休闲益智类的游戏，游戏中共有5个地图，游戏的角色也很卡通，很可爱。游戏的玩法其实和早期的消除方块和泡泡龙差不多，玩家要操纵可爱的小男孩把当前版面的所有物品消除即可过关。每个地图都有好多小关，基本上一币通关不太可能。
+
+game: 老鼠射击 GoGo
+file: msgogo.zip
+sort-by: 117
+developer: 老鼠射击 GoGo
+publisher: Metro 3D
+genre: Metro 3D
+release: Puzzle-Game
+x-id: ECT
+description: 以下是 Mouse Shooter GoGo 中的明星老鼠。他们在参观 Bizarro-Cinema 时玩得很开心，屏幕就在你身后，所有座位都是真皮沙发。他们在看什么电影？两只老鼠的故事，由这两只老鼠主演，两只老鼠试图取悦两位优雅的老鼠女士的动人故事。别担心，老鼠有计划！
+
+game: 旋转泡泡2
+file: pzloop2.zip
+sort-by: 118
+developer: 旋转泡泡2
+publisher: Mitchell
+genre: Mitchell
+release: Puzzle-Game
+x-id: ECT
+description: 关于这个游戏，有一个令人唏嘘的故事。本作是旋转泡泡系列第二作。旋转泡泡最初于1998年发布于街机平台，开发商是来自日本的Mitchell Corporation。在宝开抄袭旋转泡泡并使其大火后，旋转泡泡的厂商与宝开打起了维权官司，但始终没有结果，并元气大伤。直到2012年终止营业，Mitchell一直坚持推出旋转泡泡的新作品，仿佛是依然想让世人知道，祖玛的玩法是Mitchell先开创的，宝开的祖玛只是一个模仿者。就在Mitchell在2012年终止营业的前一年，祖玛的制作方宝开被游戏巨头EA收购。而被有着“工作室杀手”之称的EA收购意味着什么，结果不言而喻——虽然宝开还在，但如今却是在为EA做着各种氪金手游，早已不再是当年的那个宝开了；至于旋转泡泡开发商的结局，则是在时间的作用下，化作了尘土。而那场Mitchell和宝开的官司，究竟孰是孰非，随着宝开被收购与Mitchell的淡出，也成为了随风而逝的往事。只是，旋转泡泡这个启发了祖玛的游戏，已经成了一个被遗忘的经典，留在了历史之中。
+
+game: 立体方块
+file: klax.zip
+sort-by: 119
+developer: 立体方块
+publisher: Atari
+genre: Atari
+release: Puzzle-Game
+x-id: ECT
+description: Klax是由Atari Games（现Midway Games）发行的一款街机游戏。玩家（饰演一块面板）需要在5x5的场地中摆放下落的瓦片。瓦片自屏幕上方的场地下落，由玩家接住。玩家最多可以存放5块瓦片。瓦片落在面板上后，玩家可以按“上”键将这块瓦片重新发射回上方场地，也可以按“开火”键将瓦片摆放到下方。若瓦片形成纵、横、或斜向的三连，则将消除。玩家若三次未能接住瓦片，游戏结束。Atari Games的Tengen部门在不同机种上移植了这一游戏，包括未经任天堂授权的NES版。
+
+game: 骆驼珠
+file: cameltry.zip
+sort-by: 120
+developer: 骆驼珠
+publisher: Taito
+genre: Taito
+release: Action
+x-id: ECT
+description: 又名天旋地转，一款控制小球在迷宫移动的益智小游戏。
+
+game: 终极电流急急棒
+file: irrmaze.zip
+sort-by: 122
+developer: 终极电流急急棒
+publisher: Saurus
+genre: SNK
+release: Puzzle-Game
+x-id: ECT
+description: 终极电流急急棒是snk于1997年出品的一款比较休闲的游戏，是根据1990年代末的一个日本综艺节目内容制作的。玩家必须引导一根电极棒以最快的速度通过赛道，同时避开金属框架（类似于传统的钢丝圈游戏）和其他移动障碍物。与大多数NeoGeo的游戏不同，这个游戏在一个专用框体中运行，框体有特殊的部件；包括一个用于移动的轨迹球，围绕屏幕的许多闪烁的灯光，以及一个空气喷口，一旦玩家失败，就会向他们发射响亮的空气。另外，框体有一台特殊的卡片打印机，能打印玩家的通关记录。
+
+game: 干酪追逐
+file: cheesech.zip
+sort-by: 123
+developer: 干酪追逐
+publisher: Art
+genre: Art & Magic
+release: Action
+x-id: ECT
+description: 这是一款同时考验反应速度和策略思考能力的益智游戏。可供双人同时游玩。玩家扮演小老鼠，目标是在限定时间内拿到所有干奶酪。前进方向有剪头标出。游戏中要合理利用旋转的木门和金属门来与敌人周旋。
+
+game: 夜盗X
+file: burglarx.zip
+sort-by: 124
+developer: 夜盗X
+publisher: Unicorn Group
+genre: Unico
+release: Action
+x-id: ECT
+description: 迷宫游戏。
+
+game: 嘟!先生
+file: neomrdo.zip
+sort-by: 126
+developer: 嘟!先生
+publisher: Visco
+release: Puzzle-Game
+x-id: ECT
+description: 日本游戏的粉丝对于这样“爱吃甜点的带着致命弹力球的杀人小丑”的脱线设定，大概并不陌生吧。 初见Mr.Do!,感觉这款游戏就像是打空气【Dig Dug】奇怪丑陋的远房亲戚。游戏有许多的隧道，需要打倒怪物以及保护所有食物。但在Mr.Do!中也有了一部分的改动。在打空气中，主人公携带着一个自行车打气筒，通过充气来消灭怪物。而Mr.Do!中的主人公小丑则是向在隧道中的敌人扔出他携带的巨大的球。这比听上去的要难的多，因为这个球会一直在隧道中弹来弹去，直到它杀死什么东西或者回到玩家身上。 这款游戏有两种过关方式：收集或者猎杀。收集模式的游戏目标是收集关卡中的所有水果，而猎杀模式则是使用球或者将苹果作为巨石砸在怪物的脑门上。而游戏的最终目标永远是在屏幕中央的甜点。Neo Geo上的Mr.Do!则是这部传奇街机的加强版，画面有了巨大提升，有了立体声，还提供了小地图。
+
+game: 爱情岛
+file: pastelis.zip
+sort-by: 127
+developer: 爱情岛
+publisher: Visco
+genre: Visco
+release: Action
+x-id: ECT
+description: Pastel Island 是 1993 年推出的一款迷宫游戏。和吃豆人一样，玩家的任务是在一个关卡内收集所有物品（这次是红心），然后才能进入难度更高的下一关。当你摧毁散落在每个关卡周围的可破坏物品之一，以及当你杀死敌人时，会随机出现星星。收集星星后，会在有限的时间内成倍增加爱心的分值。如果您在一颗星星已经激活时收集一颗星星，则分数会再翻倍。游戏采用特殊的视角，看起来较有立体感。
+
+game: 狼人王
+file: shocking.zip
+sort-by: 128
+developer: 狼人王
+publisher: Yun Sung
+genre: Yun Sung
+release: Action
+x-id: ECT
+description: Shocking是一款非常有趣的迷宫动作冒险游戏。游戏有一些解谜元素，玩起来很像2D塞尔达中的那些迷宫。玩家扮演一个寻求恢复正常形态的狼人。每一关都有一个新的目标要完成。每关有 12 个小关，每关都以 Boss 战结束。关卡中穿插着各种迷你游戏挑战，玩家可以在其中获得额外的生命。
+
+game: 阿古雷司 导弹大战略
+file: agress.zip
+sort-by: 129
+developer: 阿古雷司 导弹大战略
+genre: Palco
+release: Puzzle-Game
+x-id: ECT
+description: 具有战争背景的快节奏益智游戏。游戏在固定屏幕上的双方（计算机控制的对手或第二个玩家）之间进行。双方各控制一辆可以发射导弹的发射车。玩家需要重建顶部窗口中显示的形状。这是通过解决滑动难题来完成的。如果在导弹块的顶部形成一个形状，则导弹将被发射并且与对手的导弹或与发射车本身发生碰撞。玩家需要制定策略，将形状朝某个方向移动，以覆盖尽可能多的导弹。
+
+game: 淘金者1
+file: ldrun.zip
+sort-by: 132
+developer: 淘金者1
+publisher: Irem
+genre: Irem
+release: Platform
+x-id: ECT
+description: 由IREM于1984年在街机推出的淘金者系列第1作。IREM是日本游戏界的一大品牌公司，诞生了无数名作，也为日本游戏界培养了众多游戏开发人才。如果没有IREM，CAPCOM可能就不会诞生，“街霸”系列也不会出现，SNK可能就不会碰触格斗游戏类型，“饿狼传说”，“龙虎之拳”，“侍魂”和“拳皇”这些格斗经典系列也不会存在，“合金弹头”这样的横版动作射击游戏也不会出现。IREM里的一些人，在离开原有的公司后，真正的改变了日本游戏界的格局。
+
+game: 淘金者2 帝国逆袭
+file: ldrun2.zip
+sort-by: 133
+developer: 淘金者2 帝国逆袭
+publisher: Irem
+genre: Irem
+release: Platform
+x-id: ECT
+description: 由IREM于1984年在街机推出的淘金者系列第2作。作为80年代比较老的游戏，画面和内容和第1作大同小异。
+
+game: 淘金者3 黄金迷宫
+file: ldrun3.zip
+sort-by: 134
+developer: 淘金者3 黄金迷宫
+publisher: Irem
+genre: Irem
+release: Platform
+x-id: ECT
+description: 由IREM于1984年在街机推出的淘金者系列第3作。作为80年代比较老的游戏，画面和内容和第1作大同小异。
+
+game: 淘金者4 帝国脱出
+file: ldrun4.zip
+sort-by: 135
+developer: 淘金者4 帝国脱出
+publisher: Irem
+genre: Irem
+release: Platform
+x-id: ECT
+description: 由IREM于1984年在街机推出的淘金者系列第4作。作为80年代比较老的游戏，画面和内容和第1作大同小异。
+
+game: 淘金者5 挖掘战斗
+file: loderndf.zip
+sort-by: 136
+developer: 淘金者5 挖掘战斗
+publisher: Psikyo
+genre: Psikyo
+release: Platform
+x-id: ECT
+description: 该系列之前在街机平台一共有4部作品，由IREM从1984年至1986年期间推出，画面古老，内容大同小异。本作是彩京于2000年推出的淘金者续作，作为2000后的作品，画面获得大幅进化。
+
+game: 魔法气泡海中对战
+file: chokchok.zip
+sort-by: 137
+developer: 魔法气泡海中对战
+publisher: SemiCom
+genre: SemiCom
+release: Shooter
+x-id: ECT
+description: 魔法气泡系列的模仿作，以低成本音乐和音效为特色。游戏可以分屏双人竞技动作游戏，有点让人联想到 Twinkle Star Sprites。
+
+game: 魔法气泡1
+file: pang.zip
+sort-by: 138
+developer: 魔法气泡1
+publisher: Mitchell
+genre: Mitchell
+release: Shooter
+x-id: ECT
+description: 街机益智游戏名作。一或两个玩家控制着装备有鱼叉枪穿着游猎服的角色，他们必须摧毁散落在每个关卡的无数不同大小的气球。当被鱼叉击中时，气球会分解成更小的气球，躲避的难度也会因此更大。
+
+game: 魔法气泡 超级魔法气泡
+file: spang.zip
+sort-by: 139
+developer: 魔法气泡 超级魔法气泡
+publisher: Capcom
+genre: Mitchell Corp.
+release: Shooter
+x-id: ECT
+description: Super Bang 是 1989 年原版在次年的续集。一或两个玩家控制手持鱼叉枪的角色，他们必须摧毁在每个单屏幕舞台上弹跳的无数不同大小的气球。当被鱼叉击中时，气球会分解成更小的碎片，类似于 Atari 1979 年的经典作品“小行星”。玩家实际上只能向上发射鱼叉枪，但可以左右移动并爬上梯子。游戏有更好的画面和更丰富的场景。以下为光枪
+
+game: 魔法气泡3
+file: pang3.zip
+sort-by: 140
+developer: 魔法气泡3
+publisher: Mitchell
+genre: Capcom
+release: Puzzle-Game
+x-id: ECT
+description: 魔法气泡3的画面非常可爱，而定位于益智类，其实就是一款高品质的消除气泡游戏，游戏总共分为三个类型，分别是“连消模式”既落下连消种子的模式，并且可以记住连消的堆积方法；“自由模式”因为没有对手，可以自由练习如何消除气泡；“任务模式”则是根据任务提示来消除气泡，发挥自己的想象。 这款魔法气泡的可选择人物还是非常多的，并且采用了诙谐可爱的人物，加上幽默的台词、爽快的连消效果、让容易单调的拼图游戏时刻保持新鲜感。这款游戏非常容易上手操作，简单易学，不过游戏最大的魅力还是在于它的对战模式，可以与好友切磋，成为真正的魔法气泡高手。魔法气泡3是非常有创意的游戏，把一个大汽球逐渐分开，最后打爆，比第一、二代来说多增加了几个角色，其实每个角色都是一样的！游戏中增加了不少的道具，使得游戏的可玩度更高。魔法气泡3是款非常经典的老游戏了，相信以前80后的玩家应该对这款游戏比较熟悉吧，在游戏中玩家拿着手枪对气泡进行攻击，然后气泡一分为二，就这样气泡会被你打的越来月小直至消失，同样的道理，玩家要是被气泡打中也会挂掉哦。魔法气泡3中想要得到更高的分，这跟你平时练的技能有直接关系的。
+
+game: 超强魔法泡泡
+file: mpang.zip
+sort-by: 141
+developer: 超强魔法泡泡
+publisher: Mitchell
+genre: Mitchell
+release: Puzzle-Game
+x-id: ECT
+description: CAPCOM有名的街机智力动作游戏，曾经移植到GB、SFC和PS等主机，这次是街机上的最新续集。依然是击破画面内不断分裂的泡泡就可以过关。游戏支持双人同时进行，并且以世界各国的名胜风景或者名画作为背景。当然由于是新作，会出现更多的道具和关卡，画面也由于使用了CPS2主板而更具观赏性，相当怡情的小品。
+
+game: 徐徐大作战
+file: bishi.zip
+sort-by: 144
+developer: 徐徐大作战
+publisher: Konami
+genre: Konami
+release: Compilation
+x-id: ECT
+description: 徐徐大作战是由KONAMI公司开发的由众多恶搞小游戏组成的休闲游戏，玩法类似瓦里奥制造，不!应该是瓦里奥制造象它，徐徐大作战诞生那时任天堂还没有瓦里奥制造。此款游戏非常代表日本人恶搞的精神，独乐乐不如众乐乐，一款嬉皮搞怪的游戏。徐徐大作战没有什么大牌的制作人，也没有什么华丽的画面，一切都显得那么的平淡，那么的不起眼，似乎注定这款游戏从诞生到这个世上起，就应该湮没在时间的洪流之中。然而是金子就必然有其闪光的地方，这个游戏的亮点就是休闲。该游戏的第一作收录了40多个迷你游戏，分别为玩家的反应能力、判断能力、大脑协调能力等众多能力做出了考验。徐徐大作战系列有点类似于经典的热血高校，游戏中有非常多有意思的小游戏给玩家来挑战比赛，想要赢得最后的胜利，就必须在每一个小游戏中都有出色的表现。
+
+game: 超级徐徐大作战
+file: sbishi.zip
+sort-by: 146
+developer: 超级徐徐大作战
+publisher: Konami
+genre: Konami
+release: Compilation
+x-id: ECT
+description: 超级徐徐大作战是由KONAMI公司开发的由众多恶搞小游戏组成的休闲游戏，玩法类似瓦里奥制造，不!应该是瓦里奥制造象它，超级徐徐大作战诞生那时任天堂还没有瓦里奥制造。此款游戏非常代表日本人恶搞的精神，独乐乐不如众乐乐，一款嬉皮搞怪的游戏。超级徐徐大作战没有什么大牌的制作人，也没有什么华丽的画面，一切都显得那么的平淡，那么的不起眼，似乎注定这款游戏从诞生到这个世上起，就应该湮没在时间的洪流之中。然而是金子就必然有其闪光的地方，这个游戏的亮点就是休闲。该游戏的第一作收录了40多个迷你游戏，分别为玩家的反应能力、判断能力、大脑协调能力等众多能力做出了考验。超级徐徐大作战系列有点类似于经典的热血高校，游戏中有非常多有意思的小游戏给玩家来挑战比赛，想要赢得最后的胜利，就必须在每一个小游戏中都有出色的表现。
+
+game: 维兹超人
+file: wits.zip
+sort-by: 148
+developer: 维兹超人
+genre: Athena
+release: Action
+x-id: ECT
+description: Athena (Visco授权)于1989推出的一款益智有小游戏，控制小人筑围墙把对手围困起来即可胜利。画面和玩法有点像贪吃蛇。
+
+game: 卒业证书
+file: sotsugyo.zip
+sort-by: 150
+developer: 卒业证书
+publisher: Mitchell Corporation
+genre: Mitchell
+release: Compilation
+x-id: ECT
+description: 于 1995 年 11 月发布，是一款集合了许多迷你游戏的街机作品。随着玩家表现出色，游戏中的人物会升学并最终拿到毕业证书。
+
+game: 大眼蛙 一起来玩吧
+file: keroppi.zip
+sort-by: 151
+developer: 大眼蛙 一起来玩吧
+publisher: Sammy Studios
+release: Platform
+x-id: ECT
+description: 带有压缩数字语音的大眼蛙游戏，主要面对低龄消费者。
+
+game: 超酷迷你游戏
+file: coolmini.zip
+sort-by: 154
+developer: 超酷迷你游戏
+publisher: SemiCom
+genre: SemiCom
+release: Compilation
+x-id: ECT
+description: 正如标题所述，这是一系列很酷的迷你游戏。
+
+game: 迷你游戏
+file: moremore.zip
+sort-by: 155
+developer: 迷你游戏
+publisher: SemiCom
+genre: SemiCom
+release: Compilation
+x-id: ECT
+description: More More 是 17 种不同的迷你游戏的集合，用于挑战玩家的技能。玩家可以从每个阶段活跃的四或五场比赛中选择一场比赛来尝试。如果玩家成功应对了游戏中的挑战，那么他就可以继续游戏了。如果玩家在四场比赛中获得“优秀”评级，那么他们将获得额外的生命。
+
+game: 迷你游戏加强版
+file: moremorp.zip
+sort-by: 156
+developer: 迷你游戏加强版
+publisher: SemiCom
+genre: SemiCom
+release: Compilation
+x-id: ECT
+description: More More Plus 是“More More”的续集，具有大大改进的图形和另外三款游戏。该游戏包含 20 种不同的迷你游戏来挑战玩家的技能。与之前的游戏不同，玩家现在可以随时选择 20 场比赛中的任何一场。如果玩家在小游戏中成功完成挑战，则可以继续游戏。如果玩家在四场比赛中获得“优秀”评级，那么他们将获得额外的生命。一旦玩家失去生命，游戏就结束了。
+
+game: 疯狂爬梯者2
+file: cclimbr2.zip
+sort-by: 160
+developer: 疯狂爬梯者2
+publisher: Nichibutsu
+genre: Nichibutsu
+release: Action
+x-id: ECT
+description: 玩家使用 2 个操纵杆，爬上高层建筑的表面，避开关闭的窗户、坠落的物体、起重机、鸟类、洗衣房、大猩猩等，以到达建筑物的顶部并乘坐直升飞机前往下一栋建筑物。游戏的操作较难适应。
+
+game: 逻辑 PRO
+file: croquis.zip
+sort-by: 162
+developer: 逻辑 PRO
+publisher: Deniam
+genre: Deniam
+release: Puzzle-Game
+x-id: ECT
+description: 益智游戏。
+
+game: 脑力震荡2
+file: logicpr2.zip
+sort-by: 163
+developer: 脑力震荡2
+publisher: Deniam
+genre: Deniam
+release: Puzzle-Game
+x-id: ECT
+description: 扫雷类型的益智游戏。
+
+game: 中国龙2
+file: drgw2.zip
+sort-by: 165
+developer: 中国龙2
+publisher: IGS
+genre: IGS
+release: Puzzle-Game
+x-id: ECT
+description: 中国龙2是一款休闲街机游戏，这款游戏很好的结合了麻将与连连看，虽然游戏由日本设计，但由于麻将出自中国所以这款游戏也融入了浓厚的中国风，整体上是款相当养眼的作品。游戏的玩法看似不难实则非常有内涵，游戏采用三消原理但并不是找出一样图案即可消除，游戏会有障碍阻止玩家对图案的提取，必须要先提取掉边缘图案才能提取中间部分图案，而且玩家提取的团不能超过7个，一旦超过游戏即会结束，而且游戏还有时间限制，所以游戏的难度其实相当大，到了后期必须要对游戏全局进行考虑，不然走错一步便会导致全盘皆输。好在该游戏也提供了道具系统，这些道具将可作为走投无路时的唯一选择，不到关键时刻切勿滥用。
+
+game: 中国龙3
+file: drgw3.zip
+sort-by: 166
+developer: 中国龙3
+publisher: IGS
+genre: IGS
+release: Puzzle-Game
+x-id: ECT
+description: IGS于1998年出品的系列第3部作品。游戏中有了数名漫画形象的角色，属于比较小众的游戏。
+
+game: 中国龙 2001
+file: dw2001.zip
+sort-by: 167
+developer: 中国龙 2001
+publisher: IGS
+genre: IGS
+release: Mahjong, Asiatic board game
+x-id: ECT
+description: 2001年出版的麻将配对游戏续作
+
+game: 上海3
+file: shangha3.zip
+sort-by: 168
+developer: 上海3
+publisher: Sunsoft
+genre: Sunsoft
+release: Puzzle-Game
+x-id: ECT
+description: 上海三代是一款来自街机平台的麻将消除类游戏，这是该系列的第三部作品，其内容将麻将与对对碰完美的融合创出了非常新颖的玩法方式，获得了很大的成功。虽然这是款来自日本的作品，不过在界面上却融合了相当多中国风元素，并加入了中国音乐宣扬了许多中国文化，其玩法则采用了相当易上手的对对碰模式制作而来，游戏中玩家需要在一堆叠在一起的麻将中从上到下依次找出同类型的麻将牌，两两对碰将其消除，其耐玩性也相当强，喜欢的玩家不要错过。
+
+game: 三刻志
+file: 3kokushi.zip
+sort-by: 169
+developer: 三刻志
+genre: Mitchell
+release: Puzzle-Game
+x-id: ECT
+description: 三刻志是一款成人上海类游戏。游戏有三国背景，和长江很相似。与标准的麻将消除游戏不同，麻将牌是以三个一组的形式移除。这些组可能由三个匹配的牌或数字组 1-3、4-6 或 7-9 组成。目标是找到阶段开始时显示的四组三块麻将，并在计时器用完之前将它们从游戏板上移除。选择一个麻将时，其他图块会亮起。数字序列内的麻将显示为粉红色，匹配的麻将显示为橙色。玩家可以通过选择屏幕上的帮助按钮来请求提示，这将点亮当时可以从棋盘上移除的所有麻将。还有一个后退按钮，玩家可以选择将麻将返回到屏幕。每个阶段的背景图像都是一个女孩的图像。每个女孩都有两张背景图片，第二张图片显示女孩裸照。一旦玩家移除舞台上的四组瓷砖，棋盘就会清空，玩家可以看到整个图像。完成一个阶段后，玩家可以使用他获得的积分购买能量提升，例如额外提示或更快的光标。
+
+game: 牌砦2复仇外传
+file: toride2g.zip
+sort-by: 170
+developer: 牌砦2复仇外传
+publisher: Metro 3D
+genre: Metro 3D
+release: Puzzle-Game
+x-id: ECT
+description: 麻将连连看游戏，结合了三国元素，绘制的非常精美。
+
+game: 长江
+file: choko.zip
+sort-by: 171
+developer: 长江
+publisher: Mitchell Corporation
+genre: Mitchell
+release: Puzzle-Game
+x-id: ECT
+description: 来自 Mitchell 的成人版上海游戏。目标是在计时器用完之前清除棋盘所有麻将。游戏每关都有慢慢向中心移动的夹板。每次从棋盘上清除一对匹配的麻将时，两列夹板都会暂时从中心移开。如果两板上的麻将碰到一起，游戏就输了。匹配时两个麻将之间不能有两个以上的拐弯。每个关卡，玩家可以请求一次帮助，将两列夹板移动到它们的起始位置，而可匹配的麻将将短时间突出显示。如果玩家不能移除更多的麻将，那么棋盘就会“陷入僵局”，游戏就输了。如果玩家在计时结束前清空棋盘，背景女孩会变成更加暴露的脱衣状态，这个新形象将成为下一关的背景。如果计时器达到零，玩家仍然可以尝试清除棋盘，但背景图像不会改变。该游戏有四个女孩，都和三国人物有关。每个女孩有两个背景图像和一个在限定时间内击败女孩的第二阶段后显示的裸照图像。如果游戏输了，在继续游戏时，玩家可以选择尝试去清除相同的棋盘或尝试新的棋盘。
+
+game: 超级比1
+file: hidnctch.zip
+sort-by: 174
+developer: 超级比1
+publisher: Eolith Co., Ltd.
+genre: Eolith
+release: Puzzle-Game
+x-id: ECT
+description: “Hidden Catch”是一款益智游戏，需要比较左右场景并用笔找出不匹配的部分。原版街机在找到一定数量的不同时，可以感受到笔产生的强大振动的乐趣。
+
+game: 超级比2
+file: hidctch2.zip
+sort-by: 175
+developer: 超级比2
+publisher: Eolith Co., Ltd.
+genre: Eolith
+release: Puzzle-Game
+x-id: ECT
+description: 韩国找茬游戏的第二代作品。这次光标从笔换成了剑。
+
+game: 超级比3
+file: hidctch3.zip
+sort-by: 176
+developer: 超级比3
+publisher: Eolith Co., Ltd.
+genre: Eolith
+release: Puzzle-Game
+x-id: ECT
+description: 韩国找茬游戏第三代。这次光标换成了瞄准镜。
+
+game: 超级比2000
+file: hidnc2k.zip
+sort-by: 177
+developer: 超级比2000
+publisher: Eolith
+genre: Eolith
+release: Puzzle-Game
+x-id: ECT
+description: 韩国找茬游戏。原版街机在找到一定数量的不同时，可以感受到笔产生的强大振动的乐趣。
+
+game: 探求不可思议的误差
+file: magerror.zip
+sort-by: 178
+developer: 探求不可思议的误差
+publisher: Technosoft
+genre: Technosoft
+release: Puzzle-Game
+x-id: ECT
+description: Magical Error o Sagase 是一款适合一两个玩家的找不同益智游戏。在每个级别中，玩家必须在时限内指出两个图像的不同之处。与大多数找不同游戏相比，在 Magical Error wo Sagase 中，图像是彼此的镜像而不是直接复制。不正确的猜测会导致玩家在时间栏上浪费时间，一旦时间栏耗尽，游戏就结束了。每个阶段有五个级别，在每个阶段之后，玩家可以玩奖励游戏以在时间栏上花费更多时间。
+
+game: 大家来找碴
+file: photoy2k.zip
+sort-by: 179
+developer: 大家来找碴
+publisher: IGS
+genre: IGS
+release: Puzzle-Game
+x-id: ECT
+description: 大家来找碴是经典的找茬类型游戏，游戏操作简单，只需要在N多张相同的图片中找到不同点就能够晋级下一关。玩法十分简单：只要把两幅图片中不相同的地方用鼠标左键单击即可。每关设有5处茬点，找出当前图片的所有茬就能顺利进入下一张图片，直到各关所有的图片茬点都按时找到。
+
+game: 搜寻之眼1
+file: searchey.zip
+sort-by: 180
+developer: 搜寻之眼1
+publisher: Yun Sung
+genre: Yun Sung
+release: Puzzle-Game
+x-id: ECT
+description: 韩国的大家来找茬游戏。具有 70关。
+
+game: 搜寻之眼2
+file: searchp2.zip
+sort-by: 181
+developer: 搜寻之眼2
+genre: Yun Sung
+release: Puzzle-Game
+x-id: ECT
+description: 系列2代，继承了1代搞笑的画风。
+
+game: 聪明的沃里
+file: wwallyj.zip
+sort-by: 182
+developer: 聪明的沃里
+genre: SEGA
+release: Compilation
+x-id: ECT
+description: 同名动画改编的游戏。1992世嘉制作。又名沃里大冒险。
+
+game: 欢乐六合一
+file: happy6.zip
+sort-by: 185
+developer: 欢乐六合一
+publisher: IGS
+genre: IGS
+release: Compilation
+x-id: ECT
+description: 欢乐六合一是IGS棋牌游戏类游戏又一巨作，这个棋牌游戏合集共6款游戏，分别是百万大问答、斗地主、料理大师II、大老二、中国龙五、锄大D，并且这些游戏的画面都还不错。该游戏当时在街机厅以多样性的选择一直以获得玩家的好评，其中的内容含有益智问答、连连看、纸牌、麻将等众多项目供玩家使用，并且每个游戏中还包含了许多小游戏，其耐玩性绝不差于一般的街机作品，并且作为一款轻松的作品来说，这款游戏有着不可取代的优势。
+
+game: 龙之谜题
+file: qad.zip
+sort-by: 188
+developer: 龙之谜题
+publisher: Capcom
+genre: Capcom
+release: Quiz
+x-id: ECT
+description: 龙之谜题，外文名Quiz and Dragons ，类型智力类，所属机种CPS1。龙之谜题是一款来自街机平台的机智问答游戏，游戏通过卡牌问答的方式进行，当玩家回答正确后将会使出特定的招式来攻击敌人，而游戏提供了4名职业供玩家选择使用，分别为战士、巫师、女战士、忍者。游戏讲述的是一个被神龙侵略的国家，而拯救国家的方式只有让全国最强的武士来通过神龙的考验得到神龙的认可，才能使这场战争平息下来，游戏中玩家需要不断揣测将要迎来的问题，并通过最佳的选项来解决才可以顺利通关。凶恶的龙问人们问题，回答不出来的将会被吃掉，为了拯救国民，国王派出了四位最英明的战士出发。
+
+game: 问答殿样之野望2
+file: qtono2j.zip
+sort-by: 189
+developer: 问答殿样之野望2
+publisher: Capcom
+genre: Capcom
+release: Quiz
+x-id: ECT
+description: 街机上的问答游戏，不过故事背景转到了日本的战国时代了，还是比较有创意的。该游戏的玩法采用了较为冷门的问答模式，而其问答内容的背景则使用了日本战国使其的历史题材。游戏讲述的是关于织田信长一生的故事，玩家在其中将要扮演这名大将军回答着一个又一个极端的问题，只有一一答对才有机会通过这些关卡，可惜这款游戏采用的是日文字幕，虽然情节丰富多彩，但对于国内玩家来讲可能就有些不方便，所以不推荐日文水平有限的玩家尝试。
+
+game: 卡普空世界2
+file: cworld2j.zip
+sort-by: 190
+developer: 卡普空世界2
+publisher: Capcom
+genre: Capcom
+release: Quiz
+x-id: ECT
+description: 卡普空世界2（ Capcom World 2 ）是Capcom公司1992年出品的一款智力类游戏。游戏中聚集了很多卡普空的经典游戏人物，是一款来自街机平台的日本问答游戏，这款游戏又卡普空公司相当具有纪念价值的作品，其中的聚集了卡普空公司诸多的游戏人物，并加入了相当出众的剧情，使得该游戏呈现出了最佳状态。本来是个很不错的问答游戏，也很有创意，是以大富翁走格子形式的方式，最终是为了打倒大魔王。游戏的画面使用了类似大富翁的风格，不过由于这是款问答作品，并且其中所有内容都是由日文构成，这也使得这款游戏的发挥空间非常有限，虽然游戏设计相当巧妙，但对于国内玩家来说可能无福享受，推荐日文水平出色的玩家尝试，这将会是个不错的选择。
+
+game: Makochan破碎机
+file: crusherm.zip
+sort-by: 191
+developer: Makochan破碎机
+publisher: Takumi
+genre: Takumi
+release: Fight
+x-id: ECT
+description: 由Toaplan旗下的Takumi在1999年制作的街机赌博游戏，Toaplan制作了很多优秀的飞机游戏。
+
+game: 城市大金刚 毁灭世界
+file: rmpgwt.zip
+sort-by: 192
+developer: 城市大金刚 毁灭世界
+publisher: Game Refuge Inc.
+genre: Midway
+release: Platform
+x-id: ECT
+description: 又名城市大金刚-毁灭世界，Midway于1997年出品的游戏，有ps版的续作。本游戏适合：心情不好者发泄用，专业暴力破坏狂，BT欲望患者。。。。本游戏完全满足你企图破坏摧毁地球的美梦。本游戏的三位面目凶陋的明星，蜥蜴怪，大猩猩，还有一个大个子暴龙。个人推荐首选大猩猩。游戏一开始把大猩猩放进一个微型城市里（周游世界，绝对无恶不做），里面有若干建筑物，和行人，充满了企图射杀你的直升机和警察，还有一些正义市民不时的开枪甭你。这些都是伤害你的东西。注意，你是个庞然大物，你的任务就是毁掉这个城市。即可过关。那感觉真是爽到HIGH啦，风格绝对类似当年的卖座暴力混乱电影“侏罗纪公园”。游戏中破坏的方式就是不惜一切的把大楼建筑全部摧毁，大猩猩的动作超丰富，我列举如下:1，可以走路一脚把行人踢成骷髅;2，抓住飞机撕碎;3，爬大楼上用拳头捣，直到大楼一个窟窿一个窟窿;4，爬大楼上用脚揣，大楼只剩下钢架;5，爬大楼上用身子使劲的摇，直到分身;6，跑到楼顶用脚把大楼跺的直到坍塌;7，抓住任何东西，都可以吃掉，主要是伸进窗户掏后吃（包括居民，电脑，等等）;暴力异常，楼越高，破坏的感觉越爽。另外本游戏的亮点在于大楼的破坏分好几层步骤，可不是不是草草了事哦。这游戏的细节处理效果异常的细腻，充满了自然的搞笑风格。比如大楼倒塌后有的起火，如果猩猩踏上去会被烧灼，然后大叫着抱住自己的脚来回的跳。还有那些吃进嘴里的东西，如果是人，他会满意的咀嚼，如果是电脑，他会皱眉头吐出一口酸水表示厌恶。当然还有那些四处逃窜的市民，嘿嘿。还有警车，可以踏个粉碎也可以一脚踢上天，当然猩猩一但能量耗尽，会变成最小状态，成为一个裸男，然后捂着屁股跑了。游戏中感觉最恶搞的是那个带眼睛的女MM，看样子是个博士，怪物的领养人，一边眉头皱脑的担心他们乱搞破坏，一边还统计着每关猩猩破坏的大楼数量，杀死的小人，真是感觉怪怪的。总之这些细微的东西，是很难语言全部讲述的，只有亲身体会，赶快去施暴吧。
+
+game: 心愿猫咪对战
+file: sokonuke.zip
+sort-by: 193
+developer: 心愿猫咪对战
+publisher: Sekarabe
+genre: Sammy Studios
+release: Platform
+x-id: ECT
+description: Sammy于1995年出品的休闲游戏，由几个小游戏构成，玩家控制猫咪在小游戏中进行对战。
+
+game: 尊尊教的野望
+file: zunkyou.zip
+sort-by: 194
+developer: 尊尊教的野望
+publisher: SEGA
+genre: SEGA
+release: Shooter
+x-id: ECT
+description: 1994年Sega出品的一款射击小游戏。这款游戏感觉无论从主题上还是游戏进程中都感觉非常的委琐和无聊,说的是一个吃饱了没事干的和尚周游世界到处杀生的故事，嘴里却说着是在"净化人浮躁的心灵"。和尚世界各地到处游走,你可以自己选择路线,处理的最后BOSS都是传统的鬼怪,有的代表着"荡乱",有的代表着"贪吃",总之世界各地被鼓惑的人群个个行为滑稽搞笑起来,跳着一些怪舞,发着一些子弹,从印度人到英国绅士,到芭蕾舞演员...群体的职业多样化,都中了妖怪的鼓惑,这是一个变相的STG游戏,而和尚的任务就是灭掉这些疯狂的人类,最终打掉操纵的BOSS。最搞笑的是和尚每消灭一个BOSS,就会发出阴阳怪气的欣慰的笑声。
+
+game: 雀国志：霸王的采牌
+file: jyangoku.zip
+sort-by: 195
+developer: 雀国志：霸王的采牌
+genre: Capcom
+release: Asiatic board game
+x-id: ECT
+description: “雀国志·霸王的采牌”是卡普空研发的一款三国题材的麻将类商用游戏，游戏剧情将战火硝烟的三国战争演变为没有流血、没有硝烟的通过麻将赌博决定地皮的归属，但这个游戏本身却不是赌博游戏。游戏中角色的形象采用的是CAPCOM经典游戏“吞食天地”中的形象，玩家在不断的赌局中赢得将对方的领地，最终实现三分归一统。
+
+game: 气球兄弟
+file: ballbros.zip
+sort-by: 197
+developer: 气球兄弟
+publisher: East Technology
+genre: East Technology
+release: Puzzle-Game
+x-id: ECT
+description: Balloon Brothers 是一款类似于“俄罗斯方块”的益智游戏，但方块换成了不同形状的不同颜色的气球。气球不会掉落，而是会飘到顶部。完成一整行将使该行消失。
+
+game: 棒棒球
+file: bangball.zip
+sort-by: 198
+developer: 棒棒球
+publisher: Goodhouse
+genre: Banpresto
+release: Puzzle-Game
+x-id: ECT
+description: 三消游戏，游戏玩法有些类似于射球泡泡龙，不过这会玩家还要注意在版面上进行移动，增加了难度。
+
+game: 益智保龄球
+file: pzlbowl.zip
+sort-by: 199
+developer: 益智保龄球
+publisher: MOSS
+genre: Nihon System
+release: Puzzle-Game
+x-id: ECT
+description: 这款游戏类似于射球泡泡龙Puzzle Bobble 系列，但以保龄球为主题。玩家可以通过打保龄球获得奖励积。游戏有一个能量计，随着每组球瓶被清除而增加。一旦完全充满，可以按下以使用角色的特技，每个角色的特技都不同。
+
+game: 光速飞跃车
+file: raimais.zip
+sort-by: 200
+developer: 光速飞跃车
+publisher: Taito
+genre: Taito
+release: Action
+x-id: ECT
+description: 赛车版的吃豆人。Raimais 是一款很棒的迷宫追逐游戏。玩家操作美丽的女主角绿川梨花，营救被绑架的弟弟。她必须驾驶三轮喷气式飞行器挑战和探索迷宫，收集所有点数并拾取道具来击败或避开每个阶段的所有敌人。游戏还需要打开出口并击败BOSS。
+
+game: 铃铛王子
+file: tinklpit.zip
+sort-by: 201
+developer: 铃铛王子
+publisher: Namco
+genre: Namco
+release: Action
+x-id: ECT
+description: 比较有趣可爱的类吃豆人游戏。玩家的武器是铃铛，但发出的铃铛并不会直接伤害敌人，而是需要玩家先把线拉长，再收回的铃铛才具有威力。游戏有男女两个主角，自然也可以双人游玩。
+
+game: 叮当猫大冒险
+file: pokonyan.zip
+sort-by: 202
+developer: 叮当猫大冒险
+publisher: Capcom
+genre: Capcom
+release: Shoot'em Up
+x-id: ECT
+description: 卡普空出品的一款稀有游戏。本作是子供向，机台也放在儿童乐园这样的场所。叮当猫的热气球可以接气球和发射花朵子弹。不过即使是这样的纯子供向作品，卡普空也把热气球的移动手感和惯性做得相当出色。
+
+game: 抓到了！
+file: gotcha.zip
+sort-by: 203
+developer: 抓到了！
+publisher: Dong Sung
+genre: Dong Sung
+release: Compilation
+x-id: ECT
+description: 这是一个包含 19 个迷你游戏的街机游戏。您可以选择一个接一个地玩，以尝试在不耗尽生命的情况下将它们全部通关，或者从列表中选择您最喜欢的。你有三个颜色编码的按钮：左边是红色，中间是绿色，右边是蓝色。 Got-Cha 的大部分迷你游戏都涉及在正确的时刻按下正确的颜色，因此请尽量在您的脑海中牢牢固定每种颜色的位置。有时红色和蓝色也用作左右按键。
+
+game: 鬼精灵投球手
+file: ghostlop.zip
+sort-by: 207
+developer: 鬼精灵投球手
+publisher: Data East
+genre: Data East
+release: Puzzle-Game
+x-id: ECT
+description: Ghost Lop 是 Data East 于 1996 年推出的一款捉鬼敢死队主题的益智游戏。它结合了打砖块类型游戏的快速动作和 Bust-A-Move （射球泡泡龙）类型游戏的快速思维。该游戏甚至准备在 2001 年重新发布，但 SNK 同年晚些时候的过早消亡让这一切可能性化为乌有。 Data East 以其 Chain Reaction / Magical Drop 系列益智游戏而闻名。
+
+game: 城市大金刚
+file: rampage.zip
+sort-by: 209
+developer: 城市大金刚
+publisher: Bally Midway
+genre: Barcrest / Red Gaming
+release: Fight
+x-id: ECT
+description: 这款游戏的英文名叫Rampage，中文译名叫城市大金刚、暴怒怪兽、狂暴大破坏等等。在这款游戏里，玩家并不是扮演救世主，反而是破坏者的形象。玩家可以在大猩猩、大蜥蜴和巨狼三个物种之间选择角色，然后扮演这些角色对城市进行破坏，甚至可以和维持安全的人类武装进行对抗。剧情是：乔治、丽萃和拉尔夫原本只是普通的美国人，直到一次实验出了问题，他们分别变成了大猩猩、蜥蜴和狼人。紧接着，三人打算去破坏建筑，最多可以有3名人类玩家加入。长时间砸碎建筑物的边缘会使它们倒塌。警察和军队在追你，并会向你开枪，所以尽量消灭他们（否则，你可以避开子弹）。谁都不会想到，这款当年的街机游戏会在30年后被搬上大银幕，不过这次主角可不能是怪兽们了，而是要看强森如何力挽狂澜，拯救世界。
+

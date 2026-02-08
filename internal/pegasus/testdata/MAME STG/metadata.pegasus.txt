@@ -1,0 +1,114 @@
+collection:射击街机
+sort-by:003
+extensions: 7z, zip
+ignore-files: 
+  neogeo.zip
+  pgm.zip
+  stvbios.zip
+  coh1002m.zip
+  namcoc74.7z
+  m68705p5.zip
+  qsound_hle.7z
+  segabill.zip
+launch: "{env.appdir}/RetroArch/retroarch.exe" -L "{env.appdir}/RetroArch/cores/mame_libretro.dll" "{file.path}"
+
+game: 花小路大作战
+file: prikura.zip
+sort-by: 040
+developer: 花小路大作战
+publisher: Atlus
+genre: Shoot-'Em-Up
+release: 96-1-1
+x-id: MAME STG
+description: 1996年由ALTUS推出的街机游戏，在SS以及PS平台移植过，以来自格斗游戏《豪血寺一族》里的魔法少女克拉拉作为主人公的梦幻冒险旅程，变身成溜冰女郎时则是无敌状态。
+
+game: 死亡边缘  汉化版
+file: deadconxj.zip
+sort-by: 045
+developer: 死亡边缘  汉化版
+publisher: Taito
+genre: 2
+release: 92-1-1
+x-id: MAME STG
+description: 盛大官方汉化版
+
+game: 电梯大战2 归来 汉化版
+file: elvactrj.zip
+sort-by: 050
+developer: 电梯大战2 归来 汉化版
+publisher: Taito
+genre: 1
+release: 94-1-1
+x-id: MAME STG
+description: 盛大官方汉化版
+
+game: 影子传说 汉化版
+file: lkageo.zip
+sort-by: 054
+developer: 影子传说 汉化版
+publisher: Taito
+genre: 1
+release: 84-1-1
+x-id: MAME STG
+description: 盛大官方汉化版
+
+game: 突击血狼
+file: battlera.zip
+sort-by: 072
+developer: 突击血狼
+publisher: Data East
+genre: Shoot-'Em-Up
+release: 88-1-1
+x-id: MAME STG
+description: 突击血狼是Data East公司在1988年出品的一款射击类游戏，神似《致命武器\霹雳神兵》，在游戏了能够营救到很多的人质，当然也会给你提供丰厚的报酬。游戏非常难，喜欢挑战高难度的朋友可以亲自试一下。
+
+game: 未来坦克
+file: cybrcomm.zip
+sort-by: 114
+developer: 未来坦克
+publisher: Namco
+genre: Shooter
+release: 94-1-1
+x-id: MAME STG
+description: 玩家驾驶一辆未来主义的坦克，它像“雪橇”一样在水面上平稳地滑行，寻找要消灭的敌人。
+
+game: 东京战争
+file: tokyowar.zip
+sort-by: 115
+developer: 东京战争
+publisher: Namco
+genre: Shoot-'Em-Up
+release: 96-1-1
+x-id: MAME STG
+description: 来自 Namco 的出色 3-D 坦克模拟器。199X 东京战争爆发……你做好战斗准备了吗？在这个疯狂的动作模拟器上驾驶您的坦克在东京的街道上行驶以保卫您的城市免受敌人的攻击并控制市中心，该游戏允许一名或两名玩家与四名玩家相连，以控制不同的坦克（作为队友或作为对手）每个玩家选择他们想加入的两支球队中的哪支（白色或绿色），以及他们想驾驶哪种型号的坦克。游戏既可以作为双方人类玩家的竞争来玩，也可以在同一个团队中与 AI 控制的对手合作。
+
+game: 监狱破坏者
+file: dfjail.zip
+sort-by: 146
+developer: 监狱破坏者
+publisher: Four J International
+genre: Beat-'Em-Up
+release: 91-1-1
+x-id: MAME STG
+description: 韩国公司制作的一款射击游戏。
+
+game: 火焰猎人
+file: flamegun.zip
+sort-by: 151
+developer: 火焰猎人
+publisher: Gaps Inc.
+genre: Shooter
+release: 99-1-1
+x-id: MAME STG
+description: Gaps Inc.于1999年出品的一款3d射击游戏，玩家控制士兵阻止恐怖分子，在通过他开发大规模杀伤性武器的“Cordelia Space Center”（科迪利亚航天中心）设施途中，快速消灭敌人和疯狂的boss，避免即将发生的核攻击，拯救世界。游戏背景画面采用了CG预渲染效果。
+
+game: 危险快车
+file: dangerex.zip
+sort-by: 174
+developer: 危险快车
+publisher: Atari Games Corporation
+genre: Shoot-'Em-Up
+release: 92-1-1
+x-id: MAME STG
+description: 《危险快车》于1992年由Atari Games制作。Atari Games从1984年开始在我们的数据库中以这个商品名发布了86台不同的机器。Atari Games在《危险快车》制作期间制造的其他机器包括Arcade Classics、Guardians Of the Hood、Moto Frenzy、Relief Pitcher、Space Lords、Steel Talons、Road Riot 4WD、Marble Madness 2 Marble Man、BMX Heat和Off the Wall。Danger Express是一个原型，在位置测试后停产。
+
