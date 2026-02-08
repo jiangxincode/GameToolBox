@@ -117,11 +117,85 @@ func (d *Document) AppendGames(games []Game) error {
 			"description:" + desc,
 		}
 
+		gameData := Game{
+			GameName:    name,
+			FileName:    file,
+			SortBy:      sortStr,
+			Developer:   dev,
+			Description: desc,
+		}
+
+		// Add optional fields if present
+		if g.Publisher != "" {
+			lines = append(lines, "publisher:"+g.Publisher)
+			gameData.Publisher = g.Publisher
+		}
+		if g.Genre != "" {
+			lines = append(lines, "genre:"+g.Genre)
+			gameData.Genre = g.Genre
+		}
+		if g.Genres != "" {
+			lines = append(lines, "genres:"+g.Genres)
+			gameData.Genres = g.Genres
+		}
+		if g.Players != "" {
+			lines = append(lines, "players:"+g.Players)
+			gameData.Players = g.Players
+		}
+		if g.Rating != "" {
+			lines = append(lines, "rating:"+g.Rating)
+			gameData.Rating = g.Rating
+		}
+		if g.Release != "" {
+			lines = append(lines, "release:"+g.Release)
+			gameData.Release = g.Release
+		}
+		if g.Logo != "" {
+			lines = append(lines, "logo:"+g.Logo)
+			gameData.Logo = g.Logo
+		}
+		if g.Video != "" {
+			lines = append(lines, "video:"+g.Video)
+			gameData.Video = g.Video
+		}
+		if g.Screenshot != "" {
+			lines = append(lines, "screenshot:"+g.Screenshot)
+			gameData.Screenshot = g.Screenshot
+		}
+		if g.BoxFront != "" {
+			lines = append(lines, "boxFront:"+g.BoxFront)
+			gameData.BoxFront = g.BoxFront
+		}
+		if g.BoxBack != "" {
+			lines = append(lines, "boxBack:"+g.BoxBack)
+			gameData.BoxBack = g.BoxBack
+		}
+		if g.BoxSpine != "" {
+			lines = append(lines, "boxSpine:"+g.BoxSpine)
+			gameData.BoxSpine = g.BoxSpine
+		}
+		if g.BoxFull != "" {
+			lines = append(lines, "boxFull:"+g.BoxFull)
+			gameData.BoxFull = g.BoxFull
+		}
+		if g.Background != "" {
+			lines = append(lines, "background:"+g.Background)
+			gameData.Background = g.Background
+		}
+		if g.Music != "" {
+			lines = append(lines, "music:"+g.Music)
+			gameData.Music = g.Music
+		}
+		if g.Files != "" {
+			lines = append(lines, "files:"+g.Files)
+			gameData.Files = g.Files
+		}
+
 		// Add exactly one blank line between appended game blocks.
 		if i > 0 {
 			d.items = append(d.items, RawItem{lines: []string{""}})
 		}
-		d.items = append(d.items, GameItem{lines: lines, game: Game{GameName: name, FileName: file, SortBy: sortStr, Developer: dev, Description: desc}})
+		d.items = append(d.items, GameItem{lines: lines, game: gameData})
 	}
 
 	// Ensure trailing blank line.
