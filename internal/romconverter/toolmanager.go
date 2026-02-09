@@ -417,3 +417,14 @@ return fmt.Errorf("4NXCI failed: %w (output: %s)", err, string(output))
 logging.Infof("4NXCI conversion successful: %s", string(output))
 return nil
 }
+
+// ExecuteFCConversion executes the FC/NES conversion tool on a file.
+func (tm *ToolManager) ExecuteFCConversion(tool ConversionTool, sourcePath, targetDir string, sourceFormat FCFormat, targetFormat FCFormat) error {
+if tool.ID == "custom" {
+return fmt.Errorf("custom tool execution must be implemented by user")
+}
+
+// For now, FC conversion tools need to be manually configured
+// This is a placeholder for future implementation
+return fmt.Errorf("FC/NES conversion not yet fully implemented - please use custom tools or manual conversion")
+}

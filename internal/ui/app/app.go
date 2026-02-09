@@ -158,6 +158,11 @@ func (s *Shell) buildRomConverterMenu() *fyne.Menu {
 			view := romconverterui.NewSwitchConverterView(s.w)
 			s.navigate(s.t("menu.romConverter")+" / "+s.t("menuitem.romConverter.switch"), view)
 		}),
+		fyne.NewMenuItem(s.t("menuitem.romConverter.fc"), func() {
+			logging.Infof("menu click: romConverter.fc")
+			view := romconverterui.NewFCConverterView(s.w)
+			s.navigate(s.t("menu.romConverter")+" / "+s.t("menuitem.romConverter.fc"), view)
+		}),
 	)
 	return m
 }

@@ -16,6 +16,8 @@
 
   "menuitem.romConverter.switch": "Switch",
 
+  "menuitem.romConverter.fc": "FC (Famicom/NES)",
+
   "menuitem.help.docs": "文档",
   "menuitem.help.feedback": "意见反馈",
   "menuitem.help.update": "检查更新",
