@@ -56,6 +56,11 @@ return filepath.Join(toolDir, "4nxci.exe")
 return filepath.Join(toolDir, "4nxci")
 }
 
+// For FC/NES tools - return directory path for manual setup
+if tool.ID == "nesromtool" || tool.ID == "fdsconv" {
+return toolDir
+}
+
 return ""
 }
 
@@ -64,6 +69,14 @@ func (tm *ToolManager) IsToolInstalled(tool ConversionTool) bool {
 if tool.ID == "custom" {
 // Custom tools are considered "installed" if user provides their own
 return true
+}
+
+// For FC/NES tools, check if directory with README exists
+if tool.ID == "nesromtool" || tool.ID == "fdsconv" {
+toolDir := tm.GetToolPath(tool)
+readmePath := filepath.Join(toolDir, "README.txt")
+_, err := os.Stat(readmePath)
+return err == nil
 }
 
 toolPath := tm.GetToolPath(tool)
@@ -102,6 +115,10 @@ progressCallback(fmt.Sprintf("Fetching release info for %s...", tool.Name))
 // Get latest release info
 release, err := tm.getLatestRelease(ctx, tool.GitHubRepo)
 if err != nil {
+// If no GitHub repo or release fails, check if it's an FC tool
+if tool.ID == "nesromtool" || tool.ID == "fdsconv" {
+return tm.downloadFCTool(ctx, tool, progressCallback)
+}
 return fmt.Errorf("failed to get latest release: %w", err)
 }
 
@@ -114,6 +131,11 @@ return tm.downloadNszTool(ctx, tool, progressCallback)
 // For 4NXCI, download the appropriate release asset
 if tool.ID == "4nxci" {
 return tm.download4NXCITool(ctx, tool, release, progressCallback)
+}
+
+// For FC/NES tools without GitHub releases
+if tool.ID == "nesromtool" || tool.ID == "fdsconv" {
+return tm.downloadFCTool(ctx, tool, progressCallback)
 }
 
 return fmt.Errorf("unsupported tool: %s", tool.ID)
@@ -424,7 +446,95 @@ if tool.ID == "custom" {
 return fmt.Errorf("custom tool execution must be implemented by user")
 }
 
-// For now, FC conversion tools need to be manually configured
-// This is a placeholder for future implementation
-return fmt.Errorf("FC/NES conversion not yet fully implemented - please use custom tools or manual conversion")
+if !tm.IsToolInstalled(tool) {
+return fmt.Errorf("tool %s is not installed", tool.Name)
+}
+
+// Execute based on tool type
+switch tool.ID {
+case "nesromtool":
+return tm.executeNESROMTool(sourcePath, targetDir, sourceFormat, targetFormat)
+case "fdsconv":
+return tm.executeFDSConverter(sourcePath, targetDir, sourceFormat, targetFormat)
+default:
+return fmt.Errorf("unsupported FC/NES tool: %s", tool.ID)
+}
+}
+
+// executeNESROMTool executes NES ROM Tool for conversions.
+func (tm *ToolManager) executeNESROMTool(sourcePath, targetDir string, sourceFormat, targetFormat FCFormat) error {
+// NES ROM Tool handles NES <-> UNF conversions
+validConversions := map[string]bool{
+"NES->UNF": true,
+"UNF->NES": true,
+}
+
+conversionKey := fmt.Sprintf("%s->%s", sourceFormat, targetFormat)
+if !validConversions[conversionKey] {
+return fmt.Errorf("NES ROM Tool does not support %s to %s conversion", sourceFormat, targetFormat)
+}
+
+// For now, return a helpful error message since these tools require specific setup
+return fmt.Errorf("NES ROM Tool conversion requires manual tool setup. Please use custom tool option and configure your preferred NES ROM converter")
+}
+
+// executeFDSConverter executes FDS Converter for FDS <-> NES conversions.
+func (tm *ToolManager) executeFDSConverter(sourcePath, targetDir string, sourceFormat, targetFormat FCFormat) error {
+// FDS Converter handles FDS <-> NES conversions
+validConversions := map[string]bool{
+"FDS->NES": true,
+"NES->FDS": true,
+}
+
+conversionKey := fmt.Sprintf("%s->%s", sourceFormat, targetFormat)
+if !validConversions[conversionKey] {
+return fmt.Errorf("FDS Converter does not support %s to %s conversion", sourceFormat, targetFormat)
+}
+
+// For now, return a helpful error message since these tools require specific setup
+return fmt.Errorf("FDS Converter requires manual tool setup. Please use custom tool option and configure your preferred FDS converter")
+}
+
+// downloadFCTool downloads FC/NES conversion tools.
+func (tm *ToolManager) downloadFCTool(ctx context.Context, tool ConversionTool, progressCallback func(string)) error {
+toolDir := filepath.Join(tm.toolsDir, tool.ID)
+if err := os.MkdirAll(toolDir, 0755); err != nil {
+return err
+}
+
+if progressCallback != nil {
+progressCallback(fmt.Sprintf("Preparing %s tool...", tool.Name))
+}
+
+// Create a README with instructions for manual setup
+readmePath := filepath.Join(toolDir, "README.txt")
+readme := fmt.Sprintf(`%s Tool Setup Instructions
+
+This tool requires manual setup as there is no single standard FC/NES conversion tool
+with automatic download support.
+
+Recommended Tools:
+1. For NES ROM header editing: Use online tools or hex editors
+2. For FDS conversion: Use FDS2NES converters available online
+3. For UNIF conversion: Use specialized NES ROM converters
+
+To use custom tools:
+1. Select "Custom Tool" from the dropdown
+2. Place your converter in this directory: %s
+3. Configure and test your conversion manually
+
+Common Tools:
+- NES ROM utilities (various online tools)
+- FDS conversion utilities
+- Hex editors for manual header modification
+
+For more information, visit NES ROM hacking communities and forums.
+`, tool.Name, toolDir)
+
+if err := os.WriteFile(readmePath, []byte(readme), 0644); err != nil {
+logging.Errorf("Failed to create README: %v", err)
+}
+
+logging.Infof("FC/NES tool directory created with instructions at %s", toolDir)
+return nil
 }

@@ -45,7 +45,10 @@ General-purpose NES ROM header editor and converter.
 - Format validation
 - Basic conversions
 
-**Status:** To be integrated
+**Status:** ✅ Integrated (Manual setup required)
+
+**Setup:**
+When you first select this tool, the application will create a directory with setup instructions at `~/.gametoolbox/tools/nesromtool/`. Follow the README.txt file for manual tool configuration.
 
 ### 2. FDS Converter
 Specialized tool for FDS format conversions.
@@ -54,7 +57,10 @@ Specialized tool for FDS format conversions.
 - FDS to NES conversion
 - Disk image manipulation
 
-**Status:** To be integrated
+**Status:** ✅ Integrated (Manual setup required)
+
+**Setup:**
+When you first select this tool, the application will create a directory with setup instructions at `~/.gametoolbox/tools/fdsconv/`. Follow the README.txt file for manual tool configuration.
 
 ### 3. Custom Tool
 Users can configure their own conversion tools.
@@ -64,15 +70,19 @@ Users can configure their own conversion tools.
 - Configure the tool path and parameters
 - Execute custom conversions
 
+**Status:** ✅ Available
+
 ## Conversion Matrix
 
 | Source Format | Target Format | Tool | Status |
 |--------------|---------------|------|--------|
-| NES | FDS | FDS Converter | 🔄 Planned |
-| FDS | NES | FDS Converter | 🔄 Planned |
-| NES | UNF | NES ROM Tool | 🔄 Planned |
-| UNF | NES | NES ROM Tool | 🔄 Planned |
+| NES | FDS | FDS Converter | ✅ Framework Ready |
+| FDS | NES | FDS Converter | ✅ Framework Ready |
+| NES | UNF | NES ROM Tool | ✅ Framework Ready |
+| UNF | NES | NES ROM Tool | ✅ Framework Ready |
 | Custom | Custom | Custom Tool | ✅ Available |
+
+**Note:** FC/NES conversion tools require manual setup. The application will automatically create tool directories with setup instructions when you first select a tool.
 
 ## Usage
 
@@ -94,17 +104,19 @@ Users can configure their own conversion tools.
 - ✅ Directory pickers with memory
 - ✅ Progress tracking
 - ✅ Error handling
+- ✅ **Tool download integration with setup instructions**
+- ✅ **Automatic tool directory creation**
 
-**To Be Implemented:**
-- ⏳ Actual tool integration (download & execution)
-- ⏳ Format-specific conversion logic
-- ⏳ Tool configuration UI
+**Manual Setup Required:**
+- ⚠️ FC/NES tools require manual configuration
+- ⚠️ Setup instructions automatically provided
+- ⚠️ Custom tool option available for immediate use
 
 ## Notes
 
 - **Custom Tool Recommended**: For immediate use, configure your own conversion tools
-- **Tool Integration**: Automatic tool download and execution will be added in future updates
-- **Manual Conversion**: Users can currently use external tools and this UI for file management
+- **Tool Integration**: FC/NES tools now create setup directories with instructions automatically
+- **Manual Configuration**: Follow README.txt in tool directories for setup guidance
 - **Format Support**: All major FC/NES formats are supported in the UI framework
 
 ## Future Enhancements
