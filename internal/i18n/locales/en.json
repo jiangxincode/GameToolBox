@@ -4,6 +4,7 @@
   "menu.settings": "Settings",
   "menu.help": "Help",
   "menu.pegasus": "Pegasus G",
+  "menu.romConverter": "ROM Format Converter",
 
   "menuitem.settings.settings": "Settings",
 
@@ -12,6 +13,10 @@
   "menuitem.pegasus.configManager" : "Game Config Manager",
   "menuitem.pegasus.gameRemover" : "Game Remover",
   "menuitem.pegasus.manualAddGame" : "Manual Add Game",
+
+  "menuitem.romConverter.switch": "Switch",
+
+  "menuitem.romConverter.fc": "FC (Famicom/NES)",
 
   "menuitem.help.docs": "Docs",
   "menuitem.help.feedback": "Feedback",
@@ -31,5 +36,47 @@
   "lang.zh": "Chinese",
 
   "button.back": "Back",
-  "todo.prefix": "Coming soon: "
+  "todo.prefix": "Coming soon: ",
+
+  "romConverter.title": "ROM Format Converter",
+  "romConverter.tool": "Conversion Tool",
+  "romConverter.selectTool": "Select Tool",
+  "romConverter.sourceFormat": "Source Format",
+  "romConverter.targetFormat": "Target Format",
+  "romConverter.sourceDir": "Source ROM Directory",
+  "romConverter.targetDir": "Target Save Directory",
+  "romConverter.chooseDir": "Choose Directory",
+  "romConverter.convert": "Start Conversion",
+  "romConverter.status": "Status",
+  "romConverter.idle": "Ready",
+  "romConverter.converting": "Converting...",
+  "romConverter.complete": "Conversion Complete",
+  "romConverter.currentFile": "Current File",
+  "romConverter.successCount": "Success",
+  "romConverter.failureCount": "Failed",
+  "romConverter.totalCount": "Total",
+  "romConverter.downloading": "Downloading tool...",
+  "romConverter.error.noTool": "Please select a conversion tool",
+  "romConverter.error.noSourceDir": "Please select source ROM directory",
+  "romConverter.error.noTargetDir": "Please select target save directory",
+  "romConverter.error.sameDir": "Source and target directories cannot be the same",
+  "romConverter.error.downloadFailed": "Tool download failed",
+  "romConverter.errorDetails": "Error Details",
+  "romConverter.moreErrors": "...and %d more errors",
+  "romConverter.tool.nsz": "nsz (nicoboss/nsz)",
+  "romConverter.tool.nsz.desc": "NSZ/XCZ compression/decompression tool",
+  "romConverter.tool.4nxci": "4NXCI",
+  "romConverter.tool.4nxci.desc": "XCI to NSP converter",
+  "romConverter.tool.tnes2ines": "TNES2INES (Longestboi/TNES2INES)",
+  "romConverter.tool.tnes2ines.desc": "TNES to iNES converter (Python-based)",
+  "romConverter.tool.nesromtool": "inestool (dsedivec/inestool)",
+  "romConverter.tool.nesromtool.desc": "iNES header reader/writer for NES ROMs (Python-based)",
+  "romConverter.tool.fdsconv": "FDS Header Cleaner (cturczynskyj/fds-header-remover)",
+  "romConverter.tool.fdsconv.desc": "FDS header remover for Famicom Disk System ROMs (Python-based)",
+  "romConverter.downloadingTool": "Downloading tool",
+  "romConverter.installingTool": "Installing tool",
+  "romConverter.toolInstalled": "Tool installed successfully",
+  "romConverter.error.downloadToolFailed": "Tool download failed",
+  "romConverter.error.toolNotFound": "Tool not found",
+  "romConverter.error.conversionFailed": "Conversion failed"
 }

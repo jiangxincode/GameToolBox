@@ -17,6 +17,7 @@ import (
 	"github.com/game_tool_box/internal/resources"
 	aboutui "github.com/game_tool_box/internal/ui/about"
 	pegasusui "github.com/game_tool_box/internal/ui/pegasus"
+	romconverterui "github.com/game_tool_box/internal/ui/romconverter"
 	settingsui "github.com/game_tool_box/internal/ui/settings"
 	"github.com/game_tool_box/internal/update"
 )
@@ -109,11 +110,12 @@ func (s *Shell) rebuildMenu() {
 	s.w.SetTitle(s.appTitle())
 
 	mPegasus := s.buildPegasusMenu()
+	mRomConverter := s.buildRomConverterMenu()
 	mSettings := s.buildSettingsMenu()
 	mHelp := s.buildHelpMenu()
 
 	// IMPORTANT: Set the main menu only after items are fully populated.
-	s.w.SetMainMenu(fyne.NewMainMenu(mSettings, mPegasus, mHelp))
+	s.w.SetMainMenu(fyne.NewMainMenu(mSettings, mPegasus, mRomConverter, mHelp))
 }
 
 func (s *Shell) buildPegasusMenu() *fyne.Menu {
@@ -143,6 +145,23 @@ func (s *Shell) buildPegasusMenu() *fyne.Menu {
 			logging.Infof("menu click: pegasus.manualAddGame")
 			view := pegasusui.NewManualAddGameView(s.w)
 			s.navigate(s.t("menu.pegasus")+" / "+s.t("menuitem.pegasus.manualAddGame"), view)
+		}),
+	)
+	return m
+}
+
+func (s *Shell) buildRomConverterMenu() *fyne.Menu {
+	m := fyne.NewMenu(s.t("menu.romConverter"))
+	m.Items = append(m.Items,
+		fyne.NewMenuItem(s.t("menuitem.romConverter.switch"), func() {
+			logging.Infof("menu click: romConverter.switch")
+			view := romconverterui.NewSwitchConverterView(s.w)
+			s.navigate(s.t("menu.romConverter")+" / "+s.t("menuitem.romConverter.switch"), view)
+		}),
+		fyne.NewMenuItem(s.t("menuitem.romConverter.fc"), func() {
+			logging.Infof("menu click: romConverter.fc")
+			view := romconverterui.NewFCConverterView(s.w)
+			s.navigate(s.t("menu.romConverter")+" / "+s.t("menuitem.romConverter.fc"), view)
 		}),
 	)
 	return m
