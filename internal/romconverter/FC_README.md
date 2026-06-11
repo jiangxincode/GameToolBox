@@ -37,52 +37,70 @@ Music/sound file format extracted from NES games.
 
 ## Available Tools
 
-### 1. NES ROM Tool
-General-purpose NES ROM header editor and converter.
+### 1. TNES2INES (Longestboi/TNES2INES)
+TNES to iNES converter (Python-based).
+
+**GitHub:** https://github.com/Longestboi/TNES2INES
 
 **Features:**
-- Header editing
-- Format validation
-- Basic conversions
+- TNES to iNES 1.0 conversion
+- Extract PRG/CHR ROMs
+- Extract FDS BIOS and .qd files
 
-**Status:** ✅ Integrated (Manual setup required)
+**Requirements:**
+- Python 3.x
+
+**Status:** ✅ Auto-download + Execute
 
 **Setup:**
-When you first select this tool, the application will create a directory with setup instructions at `~/.gametoolbox/tools/nesromtool/`. Follow the README.txt file for manual tool configuration.
+The tool will be automatically downloaded from GitHub when first used. No manual setup required.
 
-### 2. FDS Converter
-Specialized tool for FDS format conversions.
+### 2. inestool (dsedivec/inestool)
+iNES header reader/writer for NES ROMs (Python-based).
+
+**GitHub:** https://github.com/dsedivec/inestool
 
 **Features:**
-- FDS to NES conversion
-- Disk image manipulation
+- Read iNES headers from NES ROMs
+- Write/fix iNES headers using a database (NstDatabase.xml)
+- Support for headerless ROMs
 
-**Status:** ✅ Integrated (Manual setup required)
+**Requirements:**
+- Python 3.x
+- Optional: pylzma for 7-Zip archive support
+
+**Status:** ✅ Auto-download + Execute
 
 **Setup:**
-When you first select this tool, the application will create a directory with setup instructions at `~/.gametoolbox/tools/fdsconv/`. Follow the README.txt file for manual tool configuration.
+The tool will be automatically downloaded from GitHub when first used. No manual setup required.
 
-### 3. Custom Tool
-Users can configure their own conversion tools.
+### 3. FDS Header Cleaner (cturczynskyj/fds-header-remover)
+FDS header remover for Famicom Disk System ROMs (Python-based).
 
-**Usage:**
-- Select "Custom Tool" from the tool dropdown
-- Configure the tool path and parameters
-- Execute custom conversions
+**GitHub:** https://github.com/cturczynskyj/fds-header-remover
 
-**Status:** ✅ Available
+**Features:**
+- Remove Famicom Disk System (FDS) headers from ROM files
+- Process single files or directories recursively
+- Supports nested folder structures
+
+**Requirements:**
+- Python 3.x
+
+**Status:** ✅ Auto-download + Execute
+
+**Setup:**
+The tool will be automatically downloaded from GitHub when first used. No manual setup required.
 
 ## Conversion Matrix
 
 | Source Format | Target Format | Tool | Status |
 |--------------|---------------|------|--------|
-| NES | FDS | FDS Converter | ✅ Framework Ready |
-| FDS | NES | FDS Converter | ✅ Framework Ready |
-| NES | UNF | NES ROM Tool | ✅ Framework Ready |
-| UNF | NES | NES ROM Tool | ✅ Framework Ready |
-| Custom | Custom | Custom Tool | ✅ Available |
+| TNES | NES | TNES2INES | ✅ Auto-download + Execute |
+| NES | NES | inestool | ✅ Auto-download + Execute (iNES header fix/write) |
+| FDS | FDS | FDS Header Cleaner | ✅ Auto-download + Execute (header removal) |
 
-**Note:** FC/NES conversion tools require manual setup. The application will automatically create tool directories with setup instructions when you first select a tool.
+**Note:** All tools are automatically downloaded from GitHub when first used. No manual setup required.
 
 ## Usage
 
@@ -104,29 +122,29 @@ Users can configure their own conversion tools.
 - ✅ Directory pickers with memory
 - ✅ Progress tracking
 - ✅ Error handling
-- ✅ **Tool download integration with setup instructions**
-- ✅ **Automatic tool directory creation**
-
-**Manual Setup Required:**
-- ⚠️ FC/NES tools require manual configuration
-- ⚠️ Setup instructions automatically provided
-- ⚠️ Custom tool option available for immediate use
+- ✅ **All tools auto-download and execute**
+- ✅ **TNES2INES auto-download and execution**
+- ✅ **inestool auto-download and execution**
+- ✅ **FDS Header Cleaner auto-download and execution**
 
 ## Notes
 
-- **Custom Tool Recommended**: For immediate use, configure your own conversion tools
-- **Tool Integration**: FC/NES tools now create setup directories with instructions automatically
-- **Manual Configuration**: Follow README.txt in tool directories for setup guidance
+- **All tools auto-download**: Every conversion tool is automatically downloaded from GitHub when first used
+- **No manual setup required**: Tools are downloaded and configured automatically
+- **Python required**: All FC/NES conversion tools require Python 3.x to be installed
 - **Format Support**: All major FC/NES formats are supported in the UI framework
 
 ## Future Enhancements
 
-- [ ] Automatic tool download from GitHub
+- [x] Automatic tool download from GitHub (TNES2INES)
+- [x] Automatic tool download from GitHub (inestool)
+- [x] Automatic tool download from GitHub (FDS Header Cleaner)
 - [ ] NES ROM header editor integration
 - [ ] FDS disk manipulation tools
 - [ ] Batch conversion optimization
 - [ ] Format validation and repair
 - [ ] Metadata preservation during conversion
+- [ ] Support for more TNES/FC conversion tools
 
 ## Technical Details
 
